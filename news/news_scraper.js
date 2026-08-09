@@ -12,8 +12,6 @@ function isBlocked(text) {
     return BLOCKED_KEYWORDS.some(kw => text.includes(kw));
 }
 
-/* HTML 엔티티(&lt; &amp; 등)를 실제 문자로 디코딩. 구글 뉴스 RSS는 태그 자체가
-   &lt;a href=...&gt; 처럼 이스케이프된 채로 오는 경우가 있어, 태그 제거보다 먼저 디코딩해야 함 */
 function decodeEntities(str) {
     return String(str || '')
         .replace(/&lt;/g, '<')
@@ -88,10 +86,6 @@ async function fetchNaverNews() {
     }
 }
 
-/* 기사 원문 페이지에서 대표 이미지(og:image)와 실제 요약(og:description)을 함께 가져옴.
-   ⭐️ 구글 뉴스 RSS의 description은 실제 기사 요약이 아니라 "관련기사 링크 목록" HTML이라
-   그대로 쓰면 깨진 문자열이 노출됨 → 원문 페이지의 메타 설명으로 완전히 대체함.
-   실패해도 조용히 빈 값을 반환해서 전체 수집이 중단되지 않도록 함 */
 async function fetchArticleMeta(url) {
     try {
         const controller = new AbortController();
@@ -129,7 +123,6 @@ async function fetchArticleMeta(url) {
     }
 }
 
-/* 동시에 너무 많은 요청을 보내지 않도록 제한된 동시성으로 처리 */
 async function withConcurrency(items, limit, worker) {
     let idx = 0;
     async function run() {
@@ -147,8 +140,6 @@ async function attachArticleMeta(items) {
     await withConcurrency(items, 6, async (item) => {
         const meta = await fetchArticleMeta(item.url);
         if (meta.image) { item.image = meta.image; imgOk++; }
-        // 원문에서 진짜 요약을 못 구했으면, 구글 RSS의 "관련기사 링크 목록" 찌꺼기를 쓰지 말고 비워둠
-        // (프론트엔드는 요약이 비어있으면 해당 줄을 그냥 숨김)
         item.summary = meta.summary || '';
         if (meta.summary) sumOk++;
     });
