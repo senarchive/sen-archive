@@ -307,7 +307,7 @@ function shModalClose() {
     if (modal) modal.classList.remove('active');
     if (backdrop) backdrop.classList.remove('active');
     shDestroyPlayer();
-    shStopCommentBubbles();
+    shStopCommentTeaser();
     const media = document.getElementById('shModalMediaBox');
     if (media) media.innerHTML = '';
     if (typeof veClearLiveChat === 'function') veClearLiveChat('shLiveChatPanel');
@@ -685,44 +685,44 @@ function shSetupExtras(item) {
         }
     }
 
-    shStartCommentBubbles(item.vid);
+    shStartCommentTeaser(item.vid);
 }
 
-let shBubbleTimer = null;
-let shBubbleList = [];
-let shBubbleIdx = 0;
-let shBubbleVid = null;
+let shTeaserTimer = null;
+let shTeaserList = [];
+let shTeaserIdx = 0;
+let shTeaserVid = null;
 
-function shStopCommentBubbles() {
-    if (shBubbleTimer) { clearInterval(shBubbleTimer); shBubbleTimer = null; }
-    const el = document.getElementById('shCommentBubble');
+function shStopCommentTeaser() {
+    if (shTeaserTimer) { clearInterval(shTeaserTimer); shTeaserTimer = null; }
+    const el = document.getElementById('shCommentTeaser');
     if (el) el.classList.remove('show');
 }
 
-async function shStartCommentBubbles(vid) {
-    shStopCommentBubbles();
-    shBubbleVid = vid;
+async function shStartCommentTeaser(vid) {
+    shStopCommentTeaser();
+    shTeaserVid = vid;
     if (typeof veFetchTopComments !== 'function') return;
 
     const comments = await veFetchTopComments(vid, 6);
     // 그 사이 다른 영상으로 넘어갔으면 무시
-    if (shBubbleVid !== vid) return;
-    shBubbleList = comments;
-    shBubbleIdx = 0;
-    if (!shBubbleList.length) return;
+    if (shTeaserVid !== vid) return;
+    shTeaserList = comments;
+    shTeaserIdx = 0;
+    if (!shTeaserList.length) return;
 
-    const el = document.getElementById('shCommentBubble');
+    const el = document.getElementById('shCommentTeaser');
     if (!el) return;
 
     const renderNext = () => {
-        const c = shBubbleList[shBubbleIdx % shBubbleList.length];
-        shBubbleIdx++;
-        el.innerHTML = `<span class="sh-bubble-author">${shEscapeHtml(c.author)}</span><span class="sh-bubble-text">${shEscapeHtml(c.text)}</span>`;
+        const c = shTeaserList[shTeaserIdx % shTeaserList.length];
+        shTeaserIdx++;
+        el.innerHTML = `<span class="sh-teaser-author">${shEscapeHtml(c.author)}</span><span class="sh-teaser-text">${shEscapeHtml(c.text)}</span>`;
         el.classList.remove('show');
         void el.offsetWidth; // 리플로우 강제 (같은 클래스 재적용해도 애니메이션 다시 타도록)
         el.classList.add('show');
     };
 
     renderNext();
-    shBubbleTimer = setInterval(renderNext, 4200);
+    shTeaserTimer = setInterval(renderNext, 4200);
 }
