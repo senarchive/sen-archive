@@ -127,8 +127,8 @@ function dedupe(items) {
 async function main() {
     if (!YOUTUBE_API_KEY) {
         console.error('❌ YOUTUBE_API_KEY가 설정되지 않았습니다.');
-        console.error('   로컬: 프로젝트 루트에 .env 파일을 만들고 YOUTUBE_API_KEY=발급받은키 를 적어주세요.');
-        console.error('   GitHub Actions: 레포 Settings > Secrets and variables > Actions 에서 YOUTUBE_API_KEY를 등록해주세요.');
+        console.error('ERROR');
+        console.error('ERROR');
         process.exit(1);
     }
     if (EXCLUDED_KEYWORDS.length === 0) {
