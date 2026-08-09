@@ -539,25 +539,30 @@ html[data-theme="light"] .sh-modal-wrapper { background: #FFFFFF; }
 .sh-modal-media { position: relative; flex: 1; min-height: 0; background: #000; display: flex; align-items: center; justify-content: center; overflow: hidden; touch-action: pan-y; }
 .sh-modal-media-box { position: relative; height: 100%; aspect-ratio: 9 / 16; max-width: 100%; }
 .sh-modal-media-box iframe, .sh-modal-media-box #shYtPlayer { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; display: block; }
-.sh-comment-bubble {
-    position: absolute; left: 14px; right: 64px; bottom: 88px; z-index: 20;
-    display: flex; flex-direction: column; gap: 2px;
-    background: rgba(20,20,20,0.62); backdrop-filter: blur(3px);
-    border-radius: 14px; padding: 9px 13px;
-    font-family: var(--font-body); font-size: 12.5px; line-height: 1.42; color: #fff;
-    cursor: pointer; pointer-events: none;
-    opacity: 0; transform: translateY(6px);
-    transition: opacity 0.35s ease, transform 0.35s ease;
-}
-.sh-comment-bubble:empty { display: none; }
-.sh-comment-bubble.show { opacity: 1; transform: translateY(0); pointer-events: auto; }
-.sh-comment-bubble .sh-bubble-author { display: block; font-family: var(--font-head); font-size: 10.5px; font-weight: 700; color: rgba(255,255,255,0.6); margin-bottom: 1px; }
-.sh-comment-bubble .sh-bubble-text {
-    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-}
-@media (min-width: 701px) { .sh-comment-bubble { right: 20px; bottom: 96px; } }
 .sh-swipe-catcher { position: absolute; inset: 0; z-index: 5; touch-action: none; background: transparent; cursor: grab; }
 .sh-swipe-catcher:active { cursor: grabbing; }
+
+/* ⭐️ 유튜브 쇼츠처럼, 영상 "아래"(액션바 위)에 자동으로 순환하는 댓글 미리보기.
+   데스크톱은 오른쪽에 이미 댓글 패널이 항상 보여서 굳이 필요 없으므로 모바일 전용.
+   (댓글 목록 안의 .sh-comment-bubble 말풍선과는 다른 요소라 이름을 -teaser 로 분리함) */
+.sh-comment-teaser { display: none; }
+.sh-comment-teaser:empty { display: none !important; }
+@media (max-width: 700px) {
+    .sh-comment-teaser {
+        display: flex; flex-direction: column; gap: 2px;
+        flex-shrink: 0; margin: 0 14px; box-sizing: border-box;
+        background: var(--bg-surface); border: 1px solid var(--border-light); border-radius: 12px;
+        cursor: pointer;
+        font-family: var(--font-body); font-size: 12.5px; line-height: 1.42; color: var(--text-primary);
+        opacity: 0; max-height: 0; overflow: hidden; padding: 0 13px;
+        transition: opacity 0.3s ease, max-height 0.3s ease, padding 0.3s ease, margin 0.3s ease;
+    }
+    .sh-comment-teaser.show {
+        opacity: 1; max-height: 70px; padding: 9px 13px; margin: 8px 14px 0;
+    }
+}
+.sh-comment-teaser .sh-teaser-author { font-family: var(--font-head); font-size: 10.5px; font-weight: 700; color: var(--text-muted); }
+.sh-comment-teaser .sh-teaser-text { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 
 .sh-modal-nav { display: flex; gap: 10px; padding: 14px 20px; flex-shrink: 0; border-top: 1px solid var(--border-light); }
 .sh-modal-nav .mm-nav-btn { flex: 1; justify-content: center; margin-left: 0; }
