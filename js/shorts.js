@@ -307,6 +307,7 @@ function shModalClose() {
     if (modal) modal.classList.remove('active');
     if (backdrop) backdrop.classList.remove('active');
     shDestroyPlayer();
+    shStopCommentBubbles();
     const media = document.getElementById('shModalMediaBox');
     if (media) media.innerHTML = '';
     if (typeof veClearLiveChat === 'function') veClearLiveChat('shLiveChatPanel');
@@ -683,4 +684,45 @@ function shSetupExtras(item) {
             });
         }
     }
+
+    shStartCommentBubbles(item.vid);
+}
+
+let shBubbleTimer = null;
+let shBubbleList = [];
+let shBubbleIdx = 0;
+let shBubbleVid = null;
+
+function shStopCommentBubbles() {
+    if (shBubbleTimer) { clearInterval(shBubbleTimer); shBubbleTimer = null; }
+    const el = document.getElementById('shCommentBubble');
+    if (el) el.classList.remove('show');
+}
+
+async function shStartCommentBubbles(vid) {
+    shStopCommentBubbles();
+    shBubbleVid = vid;
+    if (typeof veFetchTopComments !== 'function') return;
+
+    const comments = await veFetchTopComments(vid, 6);
+    // 그 사이 다른 영상으로 넘어갔으면 무시
+    if (shBubbleVid !== vid) return;
+    shBubbleList = comments;
+    shBubbleIdx = 0;
+    if (!shBubbleList.length) return;
+
+    const el = document.getElementById('shCommentBubble');
+    if (!el) return;
+
+    const renderNext = () => {
+        const c = shBubbleList[shBubbleIdx % shBubbleList.length];
+        shBubbleIdx++;
+        el.innerHTML = `<span class="sh-bubble-author">${shEscapeHtml(c.author)}</span><span class="sh-bubble-text">${shEscapeHtml(c.text)}</span>`;
+        el.classList.remove('show');
+        void el.offsetWidth; // 리플로우 강제 (같은 클래스 재적용해도 애니메이션 다시 타도록)
+        el.classList.add('show');
+    };
+
+    renderNext();
+    shBubbleTimer = setInterval(renderNext, 4200);
 }
