@@ -539,8 +539,6 @@ html[data-theme="light"] .sh-modal-wrapper { background: #FFFFFF; }
 .sh-modal-media { position: relative; flex: 1; min-height: 0; background: #000; display: flex; align-items: center; justify-content: center; overflow: hidden; touch-action: pan-y; }
 .sh-modal-media-box { position: relative; height: 100%; aspect-ratio: 9 / 16; max-width: 100%; }
 .sh-modal-media-box iframe, .sh-modal-media-box #shYtPlayer { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; display: block; }
-
-/* ⭐️ 유튜브 쇼츠처럼 영상 위에 자동으로 떠서 순환하는 댓글 말풍선 */
 .sh-comment-bubble {
     position: absolute; left: 14px; right: 64px; bottom: 88px; z-index: 20;
     display: flex; flex-direction: column; gap: 2px;
@@ -619,8 +617,6 @@ html[data-theme="light"] .sh-modal-wrapper { background: #FFFFFF; }
     .sh-modal-wrapper.active { transform: none; }
     .sh-modal-video-col { border-bottom: none; position: relative; }
     .sh-modal-nav { display: none; }
-
-    /* 제목/날짜 헤더가 세로 공간을 많이 차지해서 모바일에서는 숨김 (닫기 버튼은 계속 떠 있음) */
     .sh-modal-head { display: none; }
 
     .sh-modal-playlist {
@@ -674,14 +670,12 @@ html[data-theme="light"] .sh-modal-wrapper { background: #FFFFFF; }
     .media-modal-wrapper { width: 100%; height: 100%; max-width: 100%; max-height: 100%; top: 0; left: 0; transform: none; border-radius: 0; border: none; }
     .media-modal-wrapper.active { transform: none; }
     .media-modal-body { flex-direction: column; min-height: 0; }
-    /* ⭐️ 영상 영역을 훨씬 크게 (기존 34vh → 48vh) */
     .media-modal-video-col { border-right: none; min-height: 48vh; flex-shrink: 0; }
     .media-modal-playlist { width: 100%; border-top: 1px solid var(--border-light); flex: 1 1 auto; min-height: 0; }
     .media-modal-head { padding: 14px 50px 10px 16px; }
     .media-modal-nav { padding: 10px 16px; }
     .mm-drag-handle { cursor: grab; padding: 8px 0 6px; align-items: center; }
     .mm-drag-handle::before { display: block; }
-    /* ⭐️ 드래그 핸들엔 손잡이 바만, 텍스트("재생목록 N")는 바로 아래 탭에서 이미 보여주므로 숨김 (중복 제거) */
     .mm-drag-label { display: none; }
     .mm-playlist-list { max-height: 120px !important; flex: none; }
     .media-modal-playlist.expanded .mm-playlist-list { max-height: 42vh !important; }
@@ -796,7 +790,6 @@ html[data-theme="dark"] .ve-share-btn[data-share="x"] img { filter: invert(1); }
 }
 
 @media (max-width: 700px) {
-    /* 영상 영역(48vh)이 커진 만큼, 남은 화면을 댓글 목록이 최대한 채우도록 flex로 늘림 */
     .media-modal-playlist .mm-comment-panel,
     .media-modal-playlist .ve-livechat-panel { flex: 1; min-height: 200px; max-height: none; }
     .media-modal-playlist .mm-comment-panel .sh-comment-list { flex: 1; max-height: none; }
