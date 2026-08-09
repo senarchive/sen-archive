@@ -1,4 +1,5 @@
 import fs from 'fs';
+import * as cheerio from 'cheerio';
 
 const QUERY = '리센느';
 const BLOCKED_KEYWORDS = (process.env.EXCLUDED_KEYWORDS || '')
@@ -72,6 +73,57 @@ async function fetchNaverNews() {
     }
 }
 
+/* 기사 원문 페이지의 og:image(대표 이미지)를 최대한 가져옴 — 실패해도 조용히 빈 값 반환 (전체 수집을 막지 않음) */
+async function fetchArticleImage(url) {
+    try {
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), 8000);
+        const res = await fetch(url, {
+            headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36' },
+            redirect: 'follow',
+            signal: controller.signal
+        });
+        clearTimeout(timer);
+        if (!res.ok) return '';
+        const html = await res.text();
+        const $ = cheerio.load(html);
+        let img =
+            $('meta[property="og:image"]').attr('content') ||
+            $('meta[property="og:image:url"]').attr('content') ||
+            $('meta[name="twitter:image"]').attr('content') ||
+            $('meta[name="twitter:image:src"]').attr('content') ||
+            '';
+        img = (img || '').trim();
+        if (img.startsWith('//')) img = 'https:' + img;
+        if (img && !/^https?:\/\//i.test(img)) return ''; // 상대경로 등 신뢰할 수 없는 값은 버림
+        return img;
+    } catch (e) {
+        return '';
+    }
+}
+
+/* 동시에 너무 많은 요청을 보내지 않도록 제한된 동시성으로 처리 */
+async function withConcurrency(items, limit, worker) {
+    let idx = 0;
+    async function run() {
+        while (idx < items.length) {
+            const cur = idx++;
+            await worker(items[cur], cur);
+        }
+    }
+    await Promise.all(Array.from({ length: Math.min(limit, items.length) }, run));
+}
+
+async function attachThumbnails(items) {
+    console.log(`기사 썸네일 이미지 수집 중... (${items.length}건)`);
+    let ok = 0;
+    await withConcurrency(items, 6, async (item) => {
+        const img = await fetchArticleImage(item.url);
+        if (img) { item.image = img; ok++; }
+    });
+    console.log(`썸네일 확보: ${ok}/${items.length}건 (나머지는 사이트에서 기본 로고로 대체 표시됨)`);
+}
+
 function dedupe(items) {
     const seen = new Set();
     return items.filter(i => {
@@ -94,6 +146,8 @@ async function main() {
     all.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 
     all = all.slice(0, 100);
+
+    await attachThumbnails(all);
 
     const fileContent = `/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (${new Date().toISOString()}) */\n\nconst NEWS_DATA = ${JSON.stringify(all, null, 4)};\n`;
     fs.writeFileSync(new URL('./news_data.js', import.meta.url), fileContent, 'utf-8');
