@@ -7,7 +7,6 @@ function escapeAttr(str) {
     return escapeHtml(str).replace(/"/g, '&quot;');
 }
 
-/* 카테고리 정의: 다른 페이지(media.html)에서도 그대로 재사용 */
 const MEDIA_CATEGORIES = [
     {
         key: 'contents', label: '컨텐츠', color: '#9AA6FF',
@@ -63,15 +62,11 @@ function renderLatestMedia() {
     grid.innerHTML = html || '<div class="media-empty">등록된 영상이 없어요.</div>';
 }
 
-/* ---------------------------------------------------
-   ⭐️ 홈 화면 풀영상 재생 모달 (media.html의 영상 모달과 동일한 구조/스타일 재사용)
---------------------------------------------------- */
 let homeMmPlaylist = [];
 let homeMmIndex = -1;
 let homeMmExpanded = false;
 
 function playMediaCardEl(el) {
-    // 현재 그리드에 렌더링된 카드들을 순서대로 재생목록으로 사용 (이전/다음 탐색 가능하게)
     const grid = document.getElementById('latestMediaGrid');
     const cards = grid ? Array.from(grid.querySelectorAll('.media-cat-thumb')) : [el];
     homeMmPlaylist = cards.map(c => ({
@@ -163,7 +158,6 @@ function mediaClosePlayer() {
     document.body.style.overflow = '';
 }
 
-// 재생목록 드래그(펼치기/접기) — media.js의 동작과 동일
 (function initHomeMmDrag() {
     let startY = 0, dragging = false, moved = false;
     function pointY(e) { return e.touches ? e.touches[0].clientY : e.clientY; }
