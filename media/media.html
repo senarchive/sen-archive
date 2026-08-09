@@ -272,13 +272,14 @@
                 </div>
             </div>
             <div class="sh-modal-playlist">
+                <div class="sh-sheet-drag-handle" id="shSheetDragHandle"></div>
+                <button type="button" class="sh-mobile-sheet-close" onclick="shCloseMobileSheet()" aria-label="닫기">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
                 <div class="sh-modal-side-tabs">
                     <button type="button" class="sh-side-tab active" id="shTabPlaylistBtn" onclick="shSwitchSideTab('playlist')">재생목록 <b id="shModalPlaylistCount">0</b></button>
                     <button type="button" class="sh-side-tab" id="shTabCommentsBtn" onclick="shSwitchSideTab('comments')">💬 댓글 <b id="shModalCommentCount"></b></button>
                     <button type="button" class="sh-side-tab is-hidden" id="shTabChatBtn" onclick="shSwitchSideTab('chat')">🔴 실시간 채팅</button>
-                    <button type="button" class="sh-mobile-sheet-close" onclick="shCloseMobileSheet()" aria-label="닫기">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-                    </button>
                 </div>
                 <ul class="mm-playlist-list sh-modal-playlist-list" id="shModalPlaylistList"></ul>
                 <div class="sh-comment-panel" id="shCommentPanel" style="display:none;">
