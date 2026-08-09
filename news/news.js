@@ -44,7 +44,7 @@ function renderNewsGrid() {
                     <span>${escapeHtml(n.date || '')}</span>
                 </div>
                 <h3 class="news-item-title">${escapeHtml(n.title || '')}</h3>
-                <p class="news-item-summary">${escapeHtml(n.summary || '')}</p>
+                ${n.summary ? `<p class="news-item-summary">${escapeHtml(n.summary)}</p>` : ''}
                 <span class="news-item-link">기사 보러가기 →</span>
             </div>
         </a>
@@ -76,37 +76,73 @@ function openNewsModal(n) {
                 <span>${escapeHtml(n.date || '')}</span>
             </div>
             <h2 class="news-modal-title">${escapeHtml(n.title || '')}</h2>
-            ${n.summary ? `<p class="news-modal-summary">${escapeHtml(n.summary)}</p>` : ''}
         `;
+    }
+
+    const thumb = document.getElementById('newsModalThumb');
+    if (thumb) thumb.innerHTML = nwThumbHtml(n);
+
+    const summaryEl = document.getElementById('newsModalSummaryText');
+    if (summaryEl) {
+        if (n.summary) {
+            summaryEl.textContent = n.summary;
+            summaryEl.style.display = '';
+        } else {
+            summaryEl.style.display = 'none';
+        }
     }
 
     const openOriginal = document.getElementById('newsModalOpenOriginal');
     if (openOriginal) openOriginal.href = n.url;
 
+    // 인라인 미리보기(iframe)는 기본적으로 접어둔 상태로 시작 — 사이트 보안 정책상 대부분 열리지 않으므로,
+    // 처음부터 빈 회색 박스를 보여주는 대신 '원문 보기' 버튼을 우선 노출하고 미리보기는 선택적으로 열람
+    window.__nwCurrentUrl = n.url;
+    const frameWrap = document.getElementById('newsModalFrameWrap');
+    const toggle = document.getElementById('newsModalInlineToggle');
     const frame = document.getElementById('newsModalFrame');
-    const loading = document.getElementById('newsModalLoading');
-    if (loading) loading.style.display = 'flex';
-    if (frame) {
-        frame.style.visibility = 'hidden';
-        frame.onload = () => {
-            if (loading) loading.style.display = 'none';
-            frame.style.visibility = 'visible';
-        };
-        frame.src = n.url;
-        // 언론사 사이트가 iframe 삽입을 막아둔 경우(X-Frame-Options 등) 로드 신호가 오지 않을 수 있어
-        // 일정 시간 후엔 로딩 문구를 감추고 하단의 '원문에서 보기' 버튼으로 안내
-        clearTimeout(window.__nwModalTimer);
-        window.__nwModalTimer = setTimeout(() => {
-            if (loading) loading.style.display = 'none';
-            frame.style.visibility = 'visible';
-        }, 3000);
-    }
+    if (frameWrap) frameWrap.style.display = 'none';
+    if (toggle) toggle.classList.remove('expanded');
+    if (frame) frame.src = 'about:blank';
+    clearTimeout(window.__nwModalTimer);
 
     const backdrop = document.getElementById('newsModalBackdrop');
     const wrapper = document.getElementById('newsModalWrapper');
     if (backdrop) backdrop.classList.add('active');
     if (wrapper) wrapper.classList.add('active');
     document.body.style.overflow = 'hidden';
+}
+
+/* '사이트 안에서 미리보기 시도' 버튼: 누를 때만 iframe을 로드함 (기본 노출 X) */
+function nwToggleInlinePreview() {
+    const frameWrap = document.getElementById('newsModalFrameWrap');
+    const toggle = document.getElementById('newsModalInlineToggle');
+    const frame = document.getElementById('newsModalFrame');
+    const loading = document.getElementById('newsModalLoading');
+    const fallback = document.getElementById('newsModalFrameFallback');
+    if (!frameWrap || !toggle) return;
+
+    const willExpand = frameWrap.style.display === 'none';
+    frameWrap.style.display = willExpand ? 'block' : 'none';
+    toggle.classList.toggle('expanded', willExpand);
+
+    if (willExpand && frame && frame.src === 'about:blank' && window.__nwCurrentUrl) {
+        if (loading) loading.style.display = 'flex';
+        if (fallback) fallback.style.display = 'none';
+        frame.style.visibility = 'hidden';
+        frame.onload = () => {
+            if (loading) loading.style.display = 'none';
+            frame.style.visibility = 'visible';
+        };
+        frame.src = window.__nwCurrentUrl;
+        // 언론사 사이트가 iframe 삽입을 막아둔 경우(X-Frame-Options 등) 로드 신호가 오지 않을 수 있어
+        // 일정 시간 후엔 로딩 문구 대신 '미리보기 미지원' 안내로 대체
+        clearTimeout(window.__nwModalTimer);
+        window.__nwModalTimer = setTimeout(() => {
+            if (loading) loading.style.display = 'none';
+            if (fallback) fallback.style.display = 'flex';
+        }, 2500);
+    }
 }
 
 function closeNewsModal() {
