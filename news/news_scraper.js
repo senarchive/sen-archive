@@ -93,6 +93,7 @@ async function main() {
     let all = dedupe([...googleItems, ...naverItems]);
     all.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 
+    // 너무 많으면 최근 40건만
     all = all.slice(0, 40);
 
     const fileContent = `/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (${new Date().toISOString()}) */\n\nconst NEWS_DATA = ${JSON.stringify(all, null, 4)};\n`;
