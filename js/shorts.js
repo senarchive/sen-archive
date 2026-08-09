@@ -620,8 +620,76 @@ function shOpenMobileSheet() {
 
 function shCloseMobileSheet() {
     const panel = document.querySelector('.sh-modal-playlist');
-    if (panel) panel.classList.remove('mobile-open');
+    if (panel) panel.classList.remove('mobile-open', 'expanded');
 }
+
+// -----------------------------------------------------
+// 바텀시트 드래그 (위로 끌면 확장 / 아래로 끌면 닫힘)
+// -----------------------------------------------------
+let shSheetDragBound = false;
+function shAttachSheetDrag() {
+    if (shSheetDragBound) return;
+    const handle = document.getElementById('shSheetDragHandle');
+    const panel = document.querySelector('.sh-modal-playlist');
+    if (!handle || !panel) return;
+    shSheetDragBound = true;
+
+    let startY = 0;
+    let dragging = false;
+    // 드래그 시작 시점에 시트가 이미 '반쯤 열림'인지 '확장됨'인지에 따라 기준 위치가 다름
+    let startTranslateVh = 24; // mobile-open 기본 상태(반쯤 열림) 기준값
+
+    const vh = () => window.innerHeight / 100;
+
+    function pointY(e) { return e.touches ? e.touches[0].clientY : e.clientY; }
+
+    function onDown(e) {
+        dragging = true;
+        startY = pointY(e);
+        startTranslateVh = panel.classList.contains('expanded') ? 0 : 24;
+        panel.classList.add('dragging');
+    }
+
+    function onMove(e) {
+        if (!dragging) return;
+        const deltaY = pointY(e) - startY;
+        let nextVh = startTranslateVh + (deltaY / vh());
+        nextVh = Math.max(0, Math.min(24, nextVh)); // 0(완전 확장) ~ 24vh(반쯤 열림) 사이로 제한
+        panel.style.transform = `translateY(${nextVh}vh)`;
+        e.preventDefault();
+    }
+
+    function onUp(e) {
+        if (!dragging) return;
+        dragging = false;
+        panel.classList.remove('dragging');
+        panel.style.transform = '';
+
+        const endY = e.changedTouches ? e.changedTouches[0].clientY : e.clientY;
+        const deltaY = endY - startY;
+
+        if (deltaY > 90) {
+            // 많이 아래로 끌었으면 닫기
+            shCloseMobileSheet();
+        } else if (deltaY < -40) {
+            // 위로 끌었으면 확장
+            panel.classList.add('expanded');
+        } else if (deltaY > 40) {
+            // 조금 아래로 끌었으면 확장 해제(반쯤 열림)만
+            panel.classList.remove('expanded');
+        }
+        // 그 외(살짝 움직인 정도)는 원래 상태로 스냅백 (CSS transition이 처리)
+    }
+
+    handle.addEventListener('touchstart', onDown, { passive: true });
+    handle.addEventListener('touchmove', onMove, { passive: false });
+    handle.addEventListener('touchend', onUp);
+    handle.addEventListener('mousedown', onDown);
+    window.addEventListener('mousemove', onMove);
+    window.addEventListener('mouseup', onUp);
+}
+
+document.addEventListener('DOMContentLoaded', shAttachSheetDrag);
 
 function shCommentEscapeHtml(str) {
     return String(str || '').replace(/[&<>'"]/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[m]));
