@@ -20,16 +20,11 @@ const MEMBER_ALIASES = {
 };
 
 const REQUIRED_KEYWORDS = ['리센느', 'rescene', 'RESCENE'];
-
-// 제외 키워드는 레포에 노출되지 않도록 GitHub Secrets(EXCLUDED_KEYWORDS)에서 읽어온다.
-// 콤마(,)로 구분된 문자열로 등록: 예) "일진,학폭,루머,조국,이준석"
-// 로컬 실행 시엔 .env에 EXCLUDED_KEYWORDS=... 를 추가하면 됨. 값이 없으면 빈 배열(필터 없음).
 const EXCLUDED_KEYWORDS = (process.env.EXCLUDED_KEYWORDS || '')
     .split(',')
     .map(s => s.trim())
     .filter(Boolean);
 
-// 한 태그당 몇 페이지(최대 50건씩)를 더 가져올지. 페이지당 search.list 100 unit 소모.
 const PAGES_PER_TAG = 3;
 
 function parseISODuration(iso) {
@@ -85,7 +80,6 @@ async function searchShortsForTag(tag) {
     const ids = allItems.map(i => i.id && i.id.videoId).filter(Boolean);
     if (!ids.length) return [];
 
-    // videos.list는 한 번에 최대 50개 id까지만 조회 가능하므로 50개씩 나눠서 호출
     const detailItems = [];
     for (let i = 0; i < ids.length; i += 50) {
         const chunk = ids.slice(i, i + 50);
@@ -149,7 +143,7 @@ async function main() {
         const items = await searchShortsForTag(tag);
         console.log(`  → ${items.length}건 발견`);
         all = all.concat(items);
-        await new Promise(r => setTimeout(r, 300)); // 쿼터 배려용 딜레이
+        await new Promise(r => setTimeout(r, 300));
     }
 
     all = dedupe(all);
