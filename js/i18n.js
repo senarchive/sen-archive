@@ -9,7 +9,7 @@
     var TRANSLATIONS = {
         ko: {
             weekdays: ["일", "월", "화", "수", "목", "금", "토"],
-            scheduleTypes: { broadcast: "방송", fansign: "팬사인회", event: "행사", concert: "공연", radio: "라디오", notice: "공지" },
+            scheduleTypes: { broadcast: "방송", fansign: "팬사인회", event: "행사", concert: "공연", radio: "라디오", notice: "공지", youtube: "유튜브" },
             status: { upcoming: "예정", live: "LIVE", ended: "종료" },
             timeLabel: "시간",
             timeTbd: "시간 미정",
@@ -71,7 +71,7 @@
         },
         en: {
             weekdays: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-            scheduleTypes: { broadcast: "Broadcast", fansign: "Fan Sign", event: "Event", concert: "Concert", radio: "Radio", notice: "Notice" },
+            scheduleTypes: { broadcast: "Broadcast", fansign: "Fan Sign", event: "Event", concert: "Concert", radio: "Radio", notice: "Notice", youtube: "YouTube" },
             status: { upcoming: "Upcoming", live: "LIVE", ended: "Ended" },
             timeLabel: "Time",
             timeTbd: "Time TBD",
@@ -133,7 +133,7 @@
         },
         ja: {
             weekdays: ["日", "月", "火", "水", "木", "金", "土"],
-            scheduleTypes: { broadcast: "放送", fansign: "ファンサイン会", event: "イベント", concert: "コンサート", radio: "ラジオ", notice: "お知らせ" },
+            scheduleTypes: { broadcast: "放送", fansign: "ファンサイン会", event: "イベント", concert: "コンサート", radio: "ラジオ", notice: "お知らせ", youtube: "YouTube" },
             status: { upcoming: "予定", live: "LIVE", ended: "終了" },
             timeLabel: "時間",
             timeTbd: "時間未定",
@@ -195,7 +195,7 @@
         },
         zh: {
             weekdays: ["周日", "周一", "周二", "周三", "周四", "周五", "周六"],
-            scheduleTypes: { broadcast: "播出", fansign: "粉丝签名会", event: "活动", concert: "演出", radio: "电台", notice: "公告" },
+            scheduleTypes: { broadcast: "播出", fansign: "粉丝签名会", event: "活动", concert: "演出", radio: "电台", notice: "公告", youtube: "YouTube" },
             status: { upcoming: "即将开始", live: "直播中", ended: "已结束" },
             timeLabel: "时间",
             timeTbd: "时间待定",
