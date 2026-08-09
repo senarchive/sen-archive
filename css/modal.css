@@ -626,14 +626,36 @@ html[data-theme="light"] .sh-modal-wrapper { background: #FFFFFF; }
 
     .sh-modal-playlist {
         display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
-        height: 68vh; max-height: 68vh; border-radius: 16px 16px 0 0;
+        height: 92vh; max-height: 92vh; border-radius: 16px 16px 0 0;
         box-shadow: 0 -10px 30px rgba(0,0,0,0.35);
-        transform: translateY(100%); transition: transform 0.32s cubic-bezier(0.16,1,0.3,1);
+        transform: translateY(100%);
+        transition: transform 0.32s cubic-bezier(0.16,1,0.3,1);
     }
-    .sh-modal-playlist.mobile-open { transform: translateY(0); }
+    /* 기본(반쯤 열림)은 68vh만 보이게, 손잡이로 위로 끌면 .expanded 붙어서 92vh 전체가 보임 */
+    .sh-modal-playlist.mobile-open { transform: translateY(24vh); }
+    .sh-modal-playlist.mobile-open.expanded { transform: translateY(0); }
+    /* 손가락으로 끄는 도중에는 트랜지션 끄고 손가락 위치를 그대로 따라가도록 (JS에서 인라인 transform 적용) */
+    .sh-modal-playlist.dragging { transition: none; }
+
+    /* 탭 줄이 좁아져도(댓글 수 길어짐, 이모지 폭 등) 닫기 버튼이 화면 밖으로 밀려나지 않도록,
+       탭 줄 안이 아니라 시트 자체 우상단에 완전히 고정으로 분리해서 배치 */
+    .sh-modal-side-tabs { padding-right: 52px; }
 
     .sh-mobile-comment-fab { display: flex; }
     .sh-mobile-sheet-close { display: flex; }
+    .sh-sheet-drag-handle { display: flex; }
+}
+
+.sh-modal-playlist { position: relative; }
+
+/* ⭐️ 바텀시트 상단 드래그 손잡이 — 위로 끌면 확장, 아래로 끌면 닫힘 */
+.sh-sheet-drag-handle {
+    display: none; justify-content: center; align-items: center;
+    flex-shrink: 0; height: 22px; cursor: grab; touch-action: none;
+}
+.sh-sheet-drag-handle:active { cursor: grabbing; }
+.sh-sheet-drag-handle::before {
+    content: ''; width: 36px; height: 4px; border-radius: 3px; background: var(--border-highlight);
 }
 
 .sh-mobile-comment-fab {
@@ -646,8 +668,10 @@ html[data-theme="light"] .sh-modal-wrapper { background: #FFFFFF; }
 .sh-mobile-comment-fab span { font-family: var(--font-num); font-size: 9.5px; font-weight: 700; }
 
 .sh-mobile-sheet-close {
-    display: none; margin-left: auto; background: transparent; border: none; cursor: pointer;
-    color: var(--text-muted); padding: 6px; align-items: center; justify-content: center;
+    display: none; position: absolute; top: 28px; right: 10px; z-index: 5;
+    width: 32px; height: 32px; border-radius: 50%;
+    background: var(--bg-surface); border: 1px solid var(--border-light); cursor: pointer;
+    color: var(--text-muted); align-items: center; justify-content: center;
 }
 .sh-mobile-sheet-close svg { width: 16px; height: 16px; }
 .mm-drag-handle::before { content: ''; width: 36px; height: 4px; border-radius: 3px; background: var(--border-highlight); }
