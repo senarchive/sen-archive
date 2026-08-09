@@ -88,6 +88,88 @@ async function fetchNaverNews() {
     }
 }
 
+/* ⭐️ 구글 뉴스 링크(news.google.com/rss/articles/...)는 실제 언론사 주소가 아니라
+   구글 자체 리다이렉트 페이지임. 실제 이동은 브라우저 자바스크립트로만 일어나서,
+   서버에서 그냥 fetch로 접속하면 진짜 기사가 아니라 구글 페이지 자체의 아이콘/설명이 잡힘.
+   → 구글이 내부적으로 쓰는 디코딩 방식을 재현해서 실제 언론사 URL을 알아냄.
+   (구글 공식 API가 아니라 비공식 방식이라 실패할 수 있음 — 실패하면 조용히 null 반환) */
+function extractGoogleArticleId(url) {
+    try {
+        const u = new URL(url);
+        if (u.hostname !== 'news.google.com') return null;
+        const parts = u.pathname.split('/').filter(Boolean);
+        const idx = parts.indexOf('articles');
+        return idx !== -1 && parts[idx + 1] ? parts[idx + 1] : null;
+    } catch (e) {
+        return null;
+    }
+}
+
+async function resolveGoogleNewsUrl(googleUrl) {
+    const articleId = extractGoogleArticleId(googleUrl);
+    if (!articleId) return null;
+    try {
+        const pageRes = await fetch(`https://news.google.com/articles/${articleId}`, {
+            headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36' }
+        });
+        if (!pageRes.ok) return null;
+        const html = await pageRes.text();
+        const $ = cheerio.load(html);
+        const div = $('c-wiz > div').first();
+        const signature = div.attr('data-n-a-sg');
+        const timestamp = div.attr('data-n-a-ts');
+        const base64Str = div.attr('data-n-a-id');
+        if (!signature || !timestamp || !base64Str) return null;
+
+        const innerPayload = JSON.stringify([
+            'garturlreq',
+            [['X', 'X', ['X', 'X'], null, null, 1, 1, 'US:en', null, 1, null, null, null, null, null, 0, 1],
+                'X', 'X', 1, [1, 1, 1], 1, 1, null, 0, 0, null, 0],
+            base64Str,
+            Number(timestamp),
+            signature
+        ]);
+        const freq = JSON.stringify([[['Fbv4je', innerPayload, null, 'generic']]]);
+
+        const rpcRes = await fetch('https://news.google.com/_/DotsSplashUi/data/batchexecute', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/x-www-form-urlencoded;charset=UTF-8',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'
+            },
+            body: `f.req=${encodeURIComponent(freq)}`
+        });
+        if (!rpcRes.ok) return null;
+        const text = await rpcRes.text();
+        const lines = text.split('\n\n');
+        if (lines.length < 2) return null;
+        const parsed = JSON.parse(lines[1]);
+        const inner = JSON.parse(parsed[0][2]);
+        const realUrl = inner && inner[1];
+        if (realUrl && /^https?:\/\//i.test(realUrl) && !/(^|\.)google\.com$/i.test(new URL(realUrl).hostname)) {
+            return realUrl;
+        }
+        return null;
+    } catch (e) {
+        return null;
+    }
+}
+
+/* 이미지/요약이 구글 자체(뉴스 리다이렉트 실패로 구글 페이지에 머문 경우) 값인지 걸러내는 안전장치.
+   URL 디코딩이 실패하더라도, 최소한 "구글 아이콘 + 구글 홍보문구"가 사진/요약으로 노출되는
+   최악의 상황만은 절대 발생하지 않도록 함 */
+function isGoogleOwnedImage(url) {
+    try {
+        const host = new URL(url).hostname.toLowerCase();
+        return host === 'google.com' || host.endsWith('.google.com') ||
+            host === 'gstatic.com' || host.endsWith('.gstatic.com') ||
+            host === 'googleusercontent.com' || host.endsWith('.googleusercontent.com');
+    } catch (e) {
+        return false;
+    }
+}
+const GOOGLE_BOILERPLATE_RE = /aggregated from sources all over the world by google news/i;
+
 /* 기사 원문 페이지에서 대표 이미지(og:image)와 실제 요약(og:description)을 함께 가져옴.
    ⭐️ 구글 뉴스 RSS의 description은 실제 기사 요약이 아니라 "관련기사 링크 목록" HTML이라
    그대로 쓰면 깨진 문자열이 노출됨 → 원문 페이지의 메타 설명으로 완전히 대체함.
@@ -103,6 +185,8 @@ async function fetchArticleMeta(url) {
         });
         clearTimeout(timer);
         if (!res.ok) return {};
+        // 최종적으로 도착한 페이지가 여전히 구글 소유 도메인이면(리다이렉트 실패), 아예 시도하지 않음
+        if (isGoogleOwnedImage(res.url)) return {};
         const html = await res.text();
         const $ = cheerio.load(html);
 
@@ -115,9 +199,7 @@ async function fetchArticleMeta(url) {
         image = (image || '').trim();
         if (image.startsWith('//')) image = 'https:' + image;
         if (image && !/^https?:\/\//i.test(image)) image = ''; // 상대경로 등 신뢰할 수 없는 값은 버림
-        // 구글 뉴스 리다이렉트 페이지에 그대로 머물러 있는 경우(진짜 언론사 페이지로 못 넘어간 경우)
-        // Google 자체 로고/아이콘이 og:image로 잡힐 수 있어 걸러냄
-        if (image && /(^|\.)google\.com|gstatic\.com/i.test(image)) image = '';
+        if (image && isGoogleOwnedImage(image)) image = ''; // 구글 자체 이미지는 절대 사용하지 않음
 
         let summary =
             $('meta[property="og:description"]').attr('content') ||
@@ -125,6 +207,7 @@ async function fetchArticleMeta(url) {
             $('meta[name="twitter:description"]').attr('content') ||
             '';
         summary = stripHtml(summary).slice(0, 160);
+        if (GOOGLE_BOILERPLATE_RE.test(summary)) summary = ''; // 구글 뉴스 자체 홍보 문구는 절대 사용하지 않음
 
         return { image, summary };
     } catch (e) {
@@ -145,17 +228,32 @@ async function withConcurrency(items, limit, worker) {
 }
 
 async function attachArticleMeta(items) {
-    console.log(`기사 썸네일/요약 수집 중... (${items.length}건)`);
-    let imgOk = 0, sumOk = 0;
+    console.log(`구글 뉴스 링크 → 실제 언론사 URL 변환 및 썸네일/요약 수집 중... (${items.length}건)`);
+    let resolvedOk = 0, imgOk = 0, sumOk = 0;
     await withConcurrency(items, 6, async (item) => {
-        const meta = await fetchArticleMeta(item.url);
+        let targetUrl = item.url;
+
+        // 구글 뉴스로 감싸진 링크면, 먼저 실제 언론사 URL로 변환을 시도.
+        // 성공하면 카드/모달에서 쓰는 url 자체도 실제 언론사 주소로 교체(구글을 한 번 더 거치지 않게 됨).
+        if (extractGoogleArticleId(item.url)) {
+            const resolved = await resolveGoogleNewsUrl(item.url);
+            if (resolved) {
+                item.url = resolved;
+                targetUrl = resolved;
+                resolvedOk++;
+            } else {
+                // 변환에 실패하면 구글 리다이렉트 페이지 자체를 fetch해봤자 구글 자체 정보만 나오므로
+                // 아예 시도하지 않고 건너뜀 (로고 fallback으로 안전하게 떨어짐)
+                return;
+            }
+        }
+
+        const meta = await fetchArticleMeta(targetUrl);
         if (meta.image) { item.image = meta.image; imgOk++; }
-        // 원문에서 진짜 요약을 못 구했으면, 구글 RSS의 "관련기사 링크 목록" 찌꺼기를 쓰지 말고 비워둠
-        // (프론트엔드는 요약이 비어있으면 해당 줄을 그냥 숨김)
         item.summary = meta.summary || '';
         if (meta.summary) sumOk++;
     });
-    console.log(`썸네일 확보: ${imgOk}/${items.length}건, 요약 확보: ${sumOk}/${items.length}건`);
+    console.log(`URL 변환 성공: ${resolvedOk}건, 썸네일 확보: ${imgOk}/${items.length}건, 요약 확보: ${sumOk}/${items.length}건`);
 }
 
 function dedupe(items) {
