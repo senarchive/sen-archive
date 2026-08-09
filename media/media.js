@@ -601,7 +601,7 @@ function mediaOpenModalAt(idx) {
     modal.classList.add('active');
     if (backdrop) backdrop.classList.add('active');
     document.body.style.overflow = 'hidden';
-    mmSetExpanded(false);
+    mmSetMinimized(); // ⭐️ 영상 틀 때 댓글 시트가 자동으로 뜨지 않도록, 최소화(영상 위주) 상태로 시작
     renderMmPlaylist();
     loadMmVideo(idx);
 }
@@ -753,7 +753,16 @@ function mmSetExpanded(state) {
     const panel = document.getElementById('mediaModalPlaylist');
     if (panel) {
         panel.classList.toggle('expanded', state);
-        panel.classList.remove('minimized'); // 열 때는 항상 기본(반쯤 열림) 또는 확장으로만 시작, 최소화 잔존 방지
+        panel.classList.remove('minimized');
+        panel.style.transform = '';
+    }
+}
+function mmSetMinimized() {
+    mmExpanded = false;
+    const panel = document.getElementById('mediaModalPlaylist');
+    if (panel) {
+        panel.classList.remove('expanded');
+        panel.classList.add('minimized');
         panel.style.transform = '';
     }
 }
