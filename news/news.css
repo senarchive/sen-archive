@@ -54,37 +54,70 @@
 }
 
 /* ===== 기사 클릭 시 오른쪽에서 열리는 뉴스 모달 ===== */
-.news-modal-wrapper { max-width: 620px !important; }
+/* ⭐️ modal.css의 .modal-backdrop 기본 z-index(9998)는 .modal-wrapper(9910)보다 높아서,
+   #modalBackdrop처럼 별도로 낮춰주지 않으면 배경이 모달 위를 덮어 클릭이 먹통이 됨 */
+#newsModalBackdrop { z-index: 8905; }
+
+.news-modal-wrapper { max-width: 560px !important; }
 @media (min-width: 1050px) {
-    .news-modal-wrapper.active { transform: translate(calc(-50% + 290px), -50%); }
+    .news-modal-wrapper.active { transform: translate(calc(-50% + 320px), -50%); }
 }
 .news-modal-inner { display: flex; flex-direction: column; height: 100%; min-height: 0; }
 
 .news-modal-head { padding: 30px 30px 18px; flex-shrink: 0; border-bottom: 1px solid var(--border-light); }
 .news-modal-meta { display: flex; align-items: center; gap: 8px; font-family: var(--font-num); font-size: 11px; color: var(--text-muted); margin-bottom: 10px; }
 .news-modal-meta .news-item-source { font-weight: 700; color: var(--c-accent); }
-.news-modal-title { margin: 0 0 8px; font-family: var(--font-head); font-size: 18px; font-weight: 800; line-height: 1.45; color: var(--text-primary); word-break: keep-all; }
-.news-modal-summary { margin: 0; font-family: var(--font-body); font-size: 13px; line-height: 1.65; color: var(--text-secondary); word-break: keep-all; }
+.news-modal-title { margin: 0; font-family: var(--font-head); font-size: 18px; font-weight: 800; line-height: 1.45; color: var(--text-primary); word-break: keep-all; }
 
-.news-modal-frame-wrap { position: relative; flex: 1; min-height: 0; background: var(--bg-surface); }
+.news-modal-scroll { flex: 1; min-height: 0; overflow-y: auto; padding: 24px 30px 30px; }
+.news-modal-scroll::-webkit-scrollbar { width: 6px; }
+.news-modal-scroll::-webkit-scrollbar-thumb { background: rgba(150,150,150,0.3); border-radius: 3px; }
+
+/* 기사 대표 이미지 — 실제 썸네일이 없으면 카드 목록과 동일한 로고 대체 이미지가 들어감(항상 "사진") */
+.news-modal-thumb { width: 100%; aspect-ratio: 16/9; border-radius: 6px; overflow: hidden; background: var(--bg-surface); display: flex; align-items: center; justify-content: center; margin-bottom: 18px; }
+.news-modal-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.news-modal-thumb img.news-thumb-fallback-img {
+    width: 50%; height: 50%; object-fit: contain; margin: auto; display: block;
+    filter: brightness(0) invert(1); opacity: 0.92;
+}
+.news-modal-thumb:has(img.news-thumb-fallback-img) {
+    background: linear-gradient(135deg, var(--c-accent), color-mix(in srgb, var(--c-accent) 55%, #7B5CF0));
+}
+
+.news-modal-summary { margin: 0 0 20px; font-family: var(--font-body); font-size: 13.5px; line-height: 1.75; color: var(--text-secondary); word-break: keep-all; }
+
+.news-modal-primary-btn {
+    display: flex; align-items: center; justify-content: center; gap: 6px; width: 100%; box-sizing: border-box;
+    padding: 14px 18px; margin-bottom: 14px; border-radius: 4px; background: var(--c-accent); color: #fff;
+    font-family: var(--font-head); font-size: 13.5px; font-weight: 800; text-decoration: none;
+    transition: opacity 0.2s ease; text-align: center;
+}
+.news-modal-primary-btn:hover { opacity: 0.88; }
+
+.news-modal-inline-toggle {
+    display: flex; align-items: center; justify-content: center; gap: 6px; width: 100%; box-sizing: border-box;
+    appearance: none; cursor: pointer; padding: 10px 14px; border-radius: 4px;
+    background: transparent; border: 1px solid var(--border-light); color: var(--text-muted);
+    font-family: var(--font-head); font-size: 11.5px; font-weight: 700;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+.news-modal-inline-toggle:hover { color: var(--text-secondary); border-color: var(--border-highlight); }
+.news-modal-inline-toggle .news-modal-inline-caret { transition: transform 0.25s ease; display: inline-block; }
+.news-modal-inline-toggle.expanded .news-modal-inline-caret { transform: rotate(180deg); }
+
+.news-modal-frame-wrap { position: relative; margin-top: 14px; height: 360px; border-radius: 4px; overflow: hidden; background: var(--bg-surface); border: 1px solid var(--border-light); }
 .news-modal-iframe { width: 100%; height: 100%; border: 0; display: block; }
 .news-modal-loading {
     position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
     font-family: var(--font-head); font-size: 12.5px; color: var(--text-muted); background: var(--bg-surface);
 }
-
-.news-modal-fallback-bar {
-    flex-shrink: 0; display: flex; align-items: center; justify-content: space-between; gap: 12px;
-    padding: 12px 20px; border-top: 1px solid var(--border-light);
-    font-family: var(--font-body); font-size: 11.5px; color: var(--text-muted);
+.news-modal-frame-fallback {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; text-align: center;
+    padding: 24px; box-sizing: border-box; background: var(--bg-surface);
+    font-family: var(--font-body); font-size: 12px; line-height: 1.7; color: var(--text-muted);
 }
-.news-modal-open-btn {
-    flex-shrink: 0; font-family: var(--font-head); font-size: 12px; font-weight: 700;
-    color: var(--c-accent); text-decoration: none; white-space: nowrap;
-}
-.news-modal-open-btn:hover { text-decoration: underline; }
 
 @media (max-width: 640px) {
     .news-modal-head { padding: 24px 20px 14px; }
-    .news-modal-fallback-bar { padding: 10px 16px; flex-direction: column; align-items: flex-start; gap: 6px; }
+    .news-modal-scroll { padding: 20px 20px 26px; }
 }
