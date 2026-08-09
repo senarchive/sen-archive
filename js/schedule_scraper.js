@@ -57,7 +57,8 @@ const MNET_TYPE_KEYWORDS = {
     concert: ['콘서트', 'concert', 'showcase', '쇼케이스', '팬미팅', 'fanmeeting', '공연', '페스티벌', 'festival', 'kcon'],
     fansign: ['팬사인', 'fansign', '사인회', '팬이벤트', '영상통화'],
     event: ['행사', '이벤트', 'event'],
-    notice: ['공지', '안내', 'notice']
+    notice: ['공지', '안내', 'notice'],
+    youtube: ['유튜브', 'youtube', '안원잘부', '웹콘텐츠', 'ep.', 'ep ']
 };
 
 function mnetClassifyType(ev) {
