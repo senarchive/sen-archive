@@ -186,15 +186,18 @@ async function main() {
             mnetBackfill = existingJson.mnetBackfill;
         }
     } catch (e) {
-        // 기존 파일이 없거나 파싱 실패해도 무시하고 새 데이터로 진행
     }
 
     const secretEvents = await fetchSecretSourceEvents();
     const mnetEvents = await fetchMnetEvents(mnetBackfill);
     const fetchedEvents = secretEvents.concat(mnetEvents);
 
-    const todayKey = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
-    const pastEvents = existingEvents.filter(ev => ev.date && ev.date < todayKey);
+    const todayKey = new Date().toISOString().slice(0, 10); 
+    const SCRAPER_OWNED_SOURCE = 'mnetplus';
+    const pastEvents = existingEvents.filter(ev => {
+        if (ev.source !== SCRAPER_OWNED_SOURCE) return true;
+        return ev.date && ev.date < todayKey; 
+    });
 
     const seen = new Set(pastEvents.map(ev => `${ev.date}__${ev.title}`));
     const mergedNew = [];
