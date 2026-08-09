@@ -155,6 +155,7 @@ function renderCalendarWidgets() {
             <span class="legend-item"><span class="legend-dot" style="background:#ec407a"></span>팬사인회</span>
             <span class="legend-item"><span class="legend-dot" style="background:#26c6da"></span>공연</span>
             <span class="legend-item"><span class="legend-dot" style="background:#78909c"></span>공지</span>
+            <span class="legend-item"><span class="legend-dot" style="background:#ff0000"></span>유튜브</span>
         </div>
     </div>
 
