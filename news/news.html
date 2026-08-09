@@ -47,5 +47,24 @@
 
     <div id="siteCalendarSlot"></div>
     <script>renderCalendarWidgets();</script>
+
+    <!-- 기사 클릭 시 오른쪽에서 열리는 뉴스 모달 -->
+    <div class="modal-backdrop" id="newsModalBackdrop" onclick="closeNewsModal()"></div>
+    <div class="modal-wrapper news-modal-wrapper" id="newsModalWrapper">
+        <button class="popup-close-btn" onclick="closeNewsModal()" aria-label="닫기">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+        <div class="news-modal-inner">
+            <div class="news-modal-head" id="newsModalHead"></div>
+            <div class="news-modal-frame-wrap">
+                <iframe id="newsModalFrame" class="news-modal-iframe" title="기사 미리보기" referrerpolicy="no-referrer" sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-top-navigation-by-user-activation"></iframe>
+                <div class="news-modal-loading" id="newsModalLoading" data-i18n="newsModalLoading">기사를 불러오는 중...</div>
+            </div>
+            <div class="news-modal-fallback-bar">
+                <span data-i18n="newsModalFallbackMsg">일부 언론사는 미리보기가 지원되지 않을 수 있어요.</span>
+                <a id="newsModalOpenOriginal" href="#" target="_blank" rel="noopener noreferrer" class="news-modal-open-btn" data-i18n="newsModalOpenOriginal">원문에서 보기 →</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
