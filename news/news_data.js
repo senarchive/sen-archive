@@ -1,26 +1,26 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-08-09T14:07:51.081Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-08-09T14:42:09.235Z) */
 
 const NEWS_DATA = [
     {
-        "title": "[포토]분위기 확 올리고 가요! '맨시티-ATM전 축하공연' 리센느 - 머니투데이 - 머니투데이",
-        "source": "머니투데이",
-        "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvZ3Q2TlNudVNjS1Fkc2h0RHh6NlVQdl82dmE0LXNSZTRUMjRmRkhlZnphVXE0a3BhZ2didTlOZ21yTnhMTlZDcGFxMGxiRGFMMTdsWU5BUTJyYzhJZXRSZWJ2cVhsYlVJMlHSAW9BVV95cUxOdmpJc054bUJZOHhqVTFtVTJoMllMTGgwZTdFaFdtZmtyLWFFMXVtMVhxa1ZaZnQwTHlUenNuc0gwSFl1clhZX3J1UFZZMGpSLUtRdENaTlZueHR3OG5jZnVHeWlYejVnRlBlZmJ4X2s?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTFBvZ3Q2TlNudVNjS1Fkc2h0RHh6NlVQdl82dmE0LXNSZTRUMjRmRkhlZnphVXE0a3BhZ2didTlOZ21yTnhMTlZDcGFxMGxiRGF"
-    },
-    {
-        "title": "[사진]리센느 제나,'축구장 공연 어땠나요?' - 조선비즈 - Chosunbiz",
+        "title": "[사진]리센느 미나미,'상클발랄 인사' - 조선비즈 - Chosunbiz",
         "source": "Chosunbiz",
         "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb3ZValRmdXVXVnJUX3hGNjY2MzdOblA0d1JtNE5HR2t4UGx5VUd1dllUM3ZyUHNSbE9EV0N1d29EOFJIbjNBYzg0TldCZlVIWkVCTWh0b0FDaVpTLUtqVGV3ZlZoV1h0cS1WY0pYSllDMmpLdTNrcUU5VlltcmJOd0FfajQtTUd0aW05anA1eW1Oc0xLWWg0dnpyY9IBrwFBVV95cUxPTXNEbF9iQ0xYU2ZwdFpTUWZ6bE1QdFRmRWs2MzJPTUZFX29iTEFBWjJMVXlPTzAtUzZQUko0NFlfT2lUWGU0SHZUb1EyN1hhSjVndEFpYUF6SC15MFN0UHA4ODh6ZFl2Wm5VVDBzVHA1YzBKMUhDOVB4VTd3VVl1cXFCM0ZZeEltOXdoRDF4ZkhPd09nLUtvSUZPVUNUYmZaUnBKZHVRUkZnRUdFWmJj?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNb3ZValRmdXVXVnJUX3hGNjY2MzdOblA0d1JtNE5HR2t4UGx5VUd1dllUM3ZyUHNSbE9EV0N1d29EOFJIbjNBYzg0TldCZlV"
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlR4em41SkZuM1JscGhoWFR2RG1Qd3JRVXR6QnY0cGFBajRGZFdrSGZweFAzcGFTZ01QX1Z6OFdDV09mVnBGSVZ0UXVvR2lpRUo1OTZlSVlIRC1LY0ZkUEtFRDROdzJfUlNHVGVQdHJJUDhHdl9CUGF1bGlPWkxKLUM1bENXYW1Z0gGcAUFVX3lxTE1uMWpsV1F6cm1kaWRFNFBLQ3o5eWswNkhybllVQzB3d1o3dDB2OEg1SU5YTW1kcERabVZrQWZyZjExajhrc1lMOGJBYXVHc2t1SENxSnBKTTJJMFZVX09JbWRjU1d2M2VTSmJVUVlxNkZuei1mdWxNaUpEVERtem9faTM3SFNpVmNrRjBYOUNLTHlPT3pMQzFqWkkzbg?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlR4em41SkZuM1JscGhoWFR2RG1Qd3JRVXR6QnY0cGFBajRGZFdrSGZweFAzcGFTZ01QX1Z6OFdDV09mVnBGSVZ0UXVvR2l"
     },
     {
-        "title": "[사진]대세 리센느,'이강인 아틀레티코 마드리드 데뷔전 공연' - 조선일보",
+        "title": "‘축덕 걸그룹’ 리센느, 이강인 데뷔전 하프타임쇼로 성덕됐다 - 스포츠동아",
+        "source": "스포츠동아",
+        "date": "2026-08-09",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BUGt0ZlZPblJJVHp4eTRJckdabkpTcWRRRnpWZkFpdjdiRU40VHYzWkR3ay1DZWJEajJDcmhRNjhBY0NucXNXcm03TWlUN0tnOVRZZ2VDLUpUY3g3UGQ3SWZMYlVsdk5hMVljNHdB?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE5BUGt0ZlZPblJJVHp4eTRJckdabkpTcWRRRnpWZkFpdjdiRU40VHYzWkR3ay1DZWJEajJDcmhRNjhBY0NucXNXcm03TWlUN0t"
+    },
+    {
+        "title": "[사진]리센느 리브,'당당하게 걷기' - 조선일보",
         "source": "조선일보",
         "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORnlhM2tYaUN3QVNHNGE2RC0yVGFTVFBCZFpTRmljRFd5VVZ6MlJCMjU0YlVJR3NYRl92alZ3NGNRYU9OeUd2U0JmeUNCb1pmeUNvTGlzMzFlc3FKdWdWSTZYNTA3RC1HX2tDYWZ0aWg1SmNNTmVROUJmNFNvWWxKSmxjcjNnTjZkeDRsSDgyZ0lZZTEwT0NV?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxORnlhM2tYaUN3QVNHNGE2RC0yVGFTVFBCZFpTRmljRFd5VVZ6MlJCMjU0YlVJR3NYRl92alZ3NGNRYU9OeUd2U0JmeUNCb1p"
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNb0VWNXhVRXFPUXZuOUpaNXFscS1nOHRYRGJCUUhadWNEMTNBLXltZkV0cUZFaTc3M01oRW9LYURuczlOb3BGR3dMa0Zud21Ic3BidDEtTW5NR2xnc2xjNEtNTGp4VTlUOTJUa0xXWnFEMHlaNGthMlBocml2NUVWT3hKY1o3c2Zu?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNb0VWNXhVRXFPUXZuOUpaNXFscS1nOHRYRGJCUUhadWNEMTNBLXltZkV0cUZFaTc3M01oRW9LYURuczlOb3BGR3dMa0Zud21"
     },
     {
         "title": "한국에 이런 미인이…'이강인 고마워' 리센느 원이 만난 비야, 활짝 웃었다 - 네이트",
@@ -44,6 +44,13 @@ const NEWS_DATA = [
         "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xRGRONEZHd1p2ZElKNHAwTzNqd1hNZkR1SE85cFZIRlNyeFBUQXdyRlA3TDhyNmFidjZFd1NzenhhekxmLTVjREJtblJobVp"
     },
     {
+        "title": "하프타임 공연 펼치는 리센느 - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-08-09",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5PTjA1Z0NVemNpVkZmUFdnSF9KdUlUS3FPbzlVSzE2TlllZDNmdEhLTk5IeXlXRVkxM0RCcTlEMUp2MWo2VS1CMlVvUQ?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiS0FVX3lxTE5PTjA1Z0NVemNpVkZmUFdnSF9KdUlUS3FPbzlVSzE2TlllZDNmdEhLTk5IeXlXRVkxM0RCcTlEMUp2MWo2VS1CMlVvUQ?oc=5"
+    },
+    {
         "title": "리센느 ‘Pretty Girl’ 인기 계속…출연 없이 1위 트로피 획득 - 스포츠동아",
         "source": "스포츠동아",
         "date": "2026-08-09",
@@ -65,18 +72,11 @@ const NEWS_DATA = [
         "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE1LRmJldlVVTTJRelExdHlVTWNCLUp4ZzVsemk3U19hMGhFbW5McEZSaUVEYVIwN3ZBbldaWHc3YlJtc08tVnVwZ296SWQ5cUM"
     },
     {
-        "title": "하프타임 공연 펼치는 리센느 - 뉴스1",
-        "source": "뉴스1",
+        "title": "[사진]리센느 메이,'달콤한 손인사' - 조선일보",
+        "source": "조선일보",
         "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA5OWhuZkxiSGNGQ2tjLWVCeFhVVWs3aFplZUVCRFZ5MjRWaG5GMk5pY3ZKNTIxcFNwU2lfTjR2a0wxZXRsN1ZMYTNFcw?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiS0FVX3lxTFA5OWhuZkxiSGNGQ2tjLWVCeFhVVWs3aFplZUVCRFZ5MjRWaG5GMk5pY3ZKNTIxcFNwU2lfTjR2a0wxZXRsN1ZMYTNFcw?oc=5"
-    },
-    {
-        "title": "리센느, 어디서나 당당하게 걷기 - 데일리안",
-        "source": "데일리안",
-        "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNTnMzdDE4TFlvX1otdTZGblgxYk1yZVU0YkRMUml1cnY2Z2o3bXZSM2FHQTRKRDVxR2JocmV2b296anBqZ2JQQ1NPa0t4dEx3dGZ0d2VYVS13MmxieXpSY0xwcVJTbzh1emF1VDFlNTNTbU4wZWhuc043MnhheHdEU2lpTDNDNmdLZFJDV3A4cjRsblY2aVFQSE40OWFVc2xEWktabUx6VWxQd0ozaHhjcXFRUW1JSWRJeGV4UmlfX3dUWDF5UzRfd1AwbkxSaGU3a2pIWEVzVlJPUmZXc05WcUtOeGhYSXJlc1JCbGQzVVJPWlVtbGZuRTRZdmx5Zw?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxNTnMzdDE4TFlvX1otdTZGblgxYk1yZVU0YkRMUml1cnY2Z2o3bXZSM2FHQTRKRDVxR2JocmV2b296anBqZ2JQQ1NPa0t4dEx"
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQODc3TnRpRXc3dzYxUDNoRVVCOG5Od3VaYW45SDJUWUVJdjh1dkFVcXo0Z0VtQkY5VVAzQW9KNWdKQV9XWER1TjZNdXM1WmFMNGhZbmQ1OFRPRWY0ZmFNYVljODBOTVFuVmdNZGk2dFkwOVhtUkloTWkyNkhZWVRzLXVwZzJHakQ3?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQODc3TnRpRXc3dzYxUDNoRVVCOG5Od3VaYW45SDJUWUVJdjh1dkFVcXo0Z0VtQkY5VVAzQW9KNWdKQV9XWER1TjZNdXM1WmF"
     },
     {
         "title": "[포토] 공연 마친 리센느, '팬들에게 인사' - 폴리뉴스 Polinews",
@@ -86,18 +86,25 @@ const NEWS_DATA = [
         "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFB4Z1BfRmtFZ2dqNXk1RzVMc0hPVTV0b0JIVElrZ3BnamxWcHIwRnBqdWsySjVKVF9MVDB2bjhUdVc3alVrLW9JYVhXMlhCYUd"
     },
     {
+        "title": "리센느, '프리티 걸'로 '쇼! 음악중심' 1위…음악방송 3관왕 - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-08-09",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oejhXbnAxNTVWdUo5VFFreUNtQ3VFRC01OHptTkRmeTZaa2lMT0J5eFZJZEJ0OHIxZzhUbEJQWU8tdEtOUW1YQUtCdkllSjA0QTJVcDNxaUgyZG1xVFprRTJ6OVpxeDc3X2IwVEs0b0VBZw?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE5oejhXbnAxNTVWdUo5VFFreUNtQ3VFRC01OHptTkRmeTZaa2lMT0J5eFZJZEJ0OHIxZzhUbEJQWU8tdEtOUW1YQUtCdkllSjA"
+    },
+    {
+        "title": "리센느, 어디서나 당당하게 걷기 - 데일리안",
+        "source": "데일리안",
+        "date": "2026-08-09",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNTnMzdDE4TFlvX1otdTZGblgxYk1yZVU0YkRMUml1cnY2Z2o3bXZSM2FHQTRKRDVxR2JocmV2b296anBqZ2JQQ1NPa0t4dEx3dGZ0d2VYVS13MmxieXpSY0xwcVJTbzh1emF1VDFlNTNTbU4wZWhuc043MnhheHdEU2lpTDNDNmdLZFJDV3A4cjRsblY2aVFQSE40OWFVc2xEWktabUx6VWxQd0ozaHhjcXFRUW1JSWRJeGV4UmlfX3dUWDF5UzRfd1AwbkxSaGU3a2pIWEVzVlJPUmZXc05WcUtOeGhYSXJlc1JCbGQzVVJPWlVtbGZuRTRZdmx5Zw?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxNTnMzdDE4TFlvX1otdTZGblgxYk1yZVU0YkRMUml1cnY2Z2o3bXZSM2FHQTRKRDVxR2JocmV2b296anBqZ2JQQ1NPa0t4dEx"
+    },
+    {
         "title": "리센느, ‘프리티 걸’로 음악방송 3관왕 - bntnews.co.kr",
         "source": "bntnews.co.kr",
         "date": "2026-08-09",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5HQVQtbm9HWjRrRkNUMi1XNXI2bEJEVy1ialJOaWwyWmI3U3ZGRlVCTzhRMVZEamRkODBpQm1QNVFEZUszY1JkY2N5c2NJTUIzVTZFWV9IUVRZT3dEa2RKaUU3VWw?oc=5",
         "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE5HQVQtbm9HWjRrRkNUMi1XNXI2bEJEVy1ialJOaWwyWmI3U3ZGRlVCTzhRMVZEamRkODBpQm1QNVFEZUszY1JkY2N5c2NJTUI"
-    },
-    {
-        "title": "리센느, 깜찍하게 하프타임쇼 [포토엔HD] - 뉴스엔",
-        "source": "뉴스엔",
-        "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5zc1Ryb1E0eV83aHZzNEppQ0dORko1S0JiODVEZmtsbnI0ZlNudDBNTnZFUXhKemtPRVViNGh0djhYanU2M1lpQTJUejJ0TlZ2OHh6NnBmdzl3Y3dobmh6OEFNQzJjUGU5QnI0cXVzM3oyRHBUNFdKcDJNVQ?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5zc1Ryb1E0eV83aHZzNEppQ0dORko1S0JiODVEZmtsbnI0ZlNudDBNTnZFUXhKemtPRVViNGh0djhYanU2M1lpQTJUejJ0TlZ"
     },
     {
         "title": "[포토]'맨시티-ATM전 축하공연' 리센느 - starnewskorea.com",
@@ -114,6 +121,13 @@ const NEWS_DATA = [
         "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiS0FVX3lxTE8wbGdIS1ZWeGhqY3JJeXRaUDRHOXViWkZRcGJsYW9OTTYxNndSYV9LbGFMS2dPcXpkTERHVVNHSkxrWlZubmhyckU2NA?oc=5"
     },
     {
+        "title": "축구장 달군 리센느…맨시티-AT 마드리드전 하프타임 장식 [쿠키포토] - 쿠키뉴스",
+        "source": "쿠키뉴스",
+        "date": "2026-08-09",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5vMEdrNlNad1IxazNKMHVLZDN1VHRmUUJ2R0pEdkZzMnFabVZEblpraWxBNE5XVTJXbWNfSDdWTXdjc2ZYRmlmdnZKenhDeXNsZzF2V3VWLU1fT0JEOXp4dEJObw?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE5vMEdrNlNad1IxazNKMHVLZDN1VHRmUUJ2R0pEdkZzMnFabVZEblpraWxBNE5XVTJXbWNfSDdWTXdjc2ZYRmlmdnZKenhDeXN"
+    },
+    {
         "title": "[ST포토] 리센느 원이, '안녕~' - 네이트",
         "source": "네이트",
         "date": "2026-08-09",
@@ -121,11 +135,11 @@ const NEWS_DATA = [
         "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE56RktDc0tpS2NTUDBDTDFlMVhRNVYwcWtwcTRWcWhuT3g1NVEybFBvZy1HV1VJVVdpTDNNRjVFLW9sSHNsSGdIUnc5OTFiNDl"
     },
     {
-        "title": "나랑드사이다 새 얼굴 리센느···동아오츠카, 신규 광고 공개 - 이뉴스투데이",
-        "source": "이뉴스투데이",
+        "title": "[사진]대세 리센느,'이강인 아틀레티코 마드리드 데뷔전 공연' - 조선일보",
+        "source": "조선일보",
         "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxYXhrakdVNFRQV295bWtUUVdUb08weDNfdkg1QnlnWmJNWnRoUDVfeWJyUEl0TS1keWpGUlJpNHNCOC0zc1dFUWplczBQNnNtNTR6UEhLamRDTHlUX3VZdkltTUhCcDdYcTNWdnVueVfSAXRBVV95cUxNNWZYSjA2ay1QNGxqOWNIcUNTNHc2SUxqNVpwZzRzWWg1cl9wczQ4Y0ZTUmczNVVBSnpJUUN6aXFIdmxjcVhWS1VhVmctNk5DWHRMcjdRaFZOWnFwdDBoU3RNWGdyTDR5ekJyRlZnNFdiRWJBWQ?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFAxYXhrakdVNFRQV295bWtUUVdUb08weDNfdkg1QnlnWmJNWnRoUDVfeWJyUEl0TS1keWpGUlJpNHNCOC0zc1dFUWplczBQNnN"
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORnlhM2tYaUN3QVNHNGE2RC0yVGFTVFBCZFpTRmljRFd5VVZ6MlJCMjU0YlVJR3NYRl92alZ3NGNRYU9OeUd2U0JmeUNCb1pmeUNvTGlzMzFlc3FKdWdWSTZYNTA3RC1HX2tDYWZ0aWg1SmNNTmVROUJmNFNvWWxKSmxjcjNnTjZkeDRsSDgyZ0lZZTEwT0NV?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxORnlhM2tYaUN3QVNHNGE2RC0yVGFTVFBCZFpTRmljRFd5VVZ6MlJCMjU0YlVJR3NYRl92alZ3NGNRYU9OeUd2U0JmeUNCb1p"
     },
     {
         "title": "[ST포토] 리센느 원이, '아나운서 같죠?' - 네이트",
@@ -135,6 +149,34 @@ const NEWS_DATA = [
         "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE56TFp2ekpDTUJtOEhBd2ZsNm9hSWs4WXVJRWpZMTJtSkRDVkM5VnpRMmhPUm1ock5iSmQ4cTBObFBSdHpaY0dfVVVLSFF4ZS1"
     },
     {
+        "title": "나랑드사이다 새 얼굴 리센느···동아오츠카, 신규 광고 공개 - 이뉴스투데이",
+        "source": "이뉴스투데이",
+        "date": "2026-08-09",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxYXhrakdVNFRQV295bWtUUVdUb08weDNfdkg1QnlnWmJNWnRoUDVfeWJyUEl0TS1keWpGUlJpNHNCOC0zc1dFUWplczBQNnNtNTR6UEhLamRDTHlUX3VZdkltTUhCcDdYcTNWdnVueVfSAXRBVV95cUxNNWZYSjA2ay1QNGxqOWNIcUNTNHc2SUxqNVpwZzRzWWg1cl9wczQ4Y0ZTUmczNVVBSnpJUUN6aXFIdmxjcVhWS1VhVmctNk5DWHRMcjdRaFZOWnFwdDBoU3RNWGdyTDR5ekJyRlZnNFdiRWJBWQ?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFAxYXhrakdVNFRQV295bWtUUVdUb08weDNfdkg1QnlnWmJNWnRoUDVfeWJyUEl0TS1keWpGUlJpNHNCOC0zc1dFUWplczBQNnN"
+    },
+    {
+        "title": "리센느 제나-미나미, 청량하게 [포토엔HD] - 뉴스엔",
+        "source": "뉴스엔",
+        "date": "2026-08-09",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJamJnQUZOVTVwaDl1Rkp2OVJXYkljZ3I4ZmZ0dUpYdDRWYjY5NkZmNHJ0ekMwc2dzYjE1N2hMaExzSGtjT3BMcU13NjZfUHlCa3Zwd296WF9fSzM4NlFhbnVYVnZJZDFH?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJamJnQUZOVTVwaDl1Rkp2OVJXYkljZ3I4ZmZ0dUpYdDRWYjY5NkZmNHJ0ekMwc2dzYjE1N2hMaExzSGtjT3BMcU13NjZfUHl"
+    },
+    {
+        "title": "[사진]리센느 리브,'상큼 미소' - osen.co.kr",
+        "source": "osen.co.kr",
+        "date": "2026-08-09",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xUFB2NHBLR0piNmhuNTFHUnpac2U4VTR0am1XaExaX3Utb19VWWVPQk5nVkhXTzY3cXB5QlNJcFFDak9fRTZMSTVxS2p2ellKQUc3Mw?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xUFB2NHBLR0piNmhuNTFHUnpac2U4VTR0am1XaExaX3Utb19VWWVPQk5nVkhXTzY3cXB5QlNJcFFDak9fRTZMSTVxS2p2ell"
+    },
+    {
+        "title": "리센느, 1위는 기세다…활동 끝났는데도 음방 '1위' 행진 - 조선일보",
+        "source": "조선일보",
+        "date": "2026-08-09",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUGY2bThGXzJhU191aUVrYmVGOVVQSHkwdWdrOVdyMVhaeDh0U1hreEpUbnBXa0pvVzQyN3FmYzFuVTloVno0aFhFVWZNMjVLWkMyX2QzbHBZWHBIQy1iemxiQTJZWWpwNFNPLXBhazBSNzF4c3pZemtLTGVrMnZ0a1ZNRktFNDBMM0E?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQUGY2bThGXzJhU191aUVrYmVGOVVQSHkwdWdrOVdyMVhaeDh0U1hreEpUbnBXa0pvVzQyN3FmYzFuVTloVno0aFhFVWZNMjV"
+    },
+    {
         "title": "오늘 저녁 상암 피하세요…맨시티·이강인·리센느 뜬다, 6호선 혼잡 예상 - 아주경제",
         "source": "아주경제",
         "date": "2026-08-09",
@@ -142,11 +184,11 @@ const NEWS_DATA = [
         "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ETW0tbEFCOG9xbG1hc190M2hwSDJ3dW5MdzNCOEd0STJXOWxBTTE4MFZ1YnNFMU1adWp2aHJ1TjZQZUE0eUZYZDlLN1pMU2J"
     },
     {
-        "title": "[MD포토] 리센느 원이, '상암 밝히는 미모' - 네이트",
-        "source": "네이트",
+        "title": "리센느X이강인 `야호`는 상상도 못했네...유니폼에 친필 사인까지 [MD이슈] - 마이데일리",
+        "source": "마이데일리",
         "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYdzBVeC1pc1JGZ1Q5X29CSjFKY2htVlRyYjBnSHRkcFV0Ym1VMWttb2tpTkRoeHI3RGt1alkzOGc4bjIwMGFIMHZPQm05enFZRjVnZGE4R3pTTlRz?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYdzBVeC1pc1JGZ1Q5X29CSjFKY2htVlRyYjBnSHRkcFV0Ym1VMWttb2tpTkRoeHI3RGt1alkzOGc4bjIwMGFIMHZPQm05enF"
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rbUIyUnZQakdwVl9XZ0ZVWGFXaW9ZNlhTaTR4a2k3c2VZb3EwNmdscUxBNVJfQjNOaG9YOHFheUJjX0ZkS0dNVEw4WVI0ZE1UVkpHbU5lWElORmNseElJSGVYaFZJdw?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rbUIyUnZQakdwVl9XZ0ZVWGFXaW9ZNlhTaTR4a2k3c2VZb3EwNmdscUxBNVJfQjNOaG9YOHFheUJjX0ZkS0dNVEw4WVI0ZE1"
     },
     {
         "title": "리센느, 2026 쿠팡플레이 2차전 하프타임쇼 [포토엔HD] - 뉴스엔",
@@ -198,6 +240,34 @@ const NEWS_DATA = [
         "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE1iVWJ2NEliN2dyTEQyQ3JuZFcwQjZqcS04eGtkSGpvNWRrUmxyTklTdkJGX3dvU1lhdGRaRFFsVWNlMDZpek9LOTkwUkthODR"
     },
     {
+        "title": "축구장 달군 리센느…맨시티-AT 마드리드전 하프타임 장식 [쿠키포토] - 네이트",
+        "source": "네이트",
+        "date": "2026-08-09",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAwbHdEQVNsNV84U3NDZ1NPcGRGVHBxUFlWOEE5Y3M4UlVHS2dtUlNoTkUtQnA1OTM3TEd0MkhPN2dMQUJlaUlXVXlqdVZJMnVPUTdB?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFAwbHdEQVNsNV84U3NDZ1NPcGRGVHBxUFlWOEE5Y3M4UlVHS2dtUlNoTkUtQnA1OTM3TEd0MkhPN2dMQUJlaUlXVXlqdVZJMnV"
+    },
+    {
+        "title": "[ST포토] 리센느, 쿠팡시리즈 하프타임 공연 - 네이트",
+        "source": "네이트",
+        "date": "2026-08-09",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11bm01ZVNBMWJoTko4VXN3YmFuNHdhc0NNTnVBYUhtSEFSSjNBSV9DRWF5d1hRT2I4bno1RElpbDFFZVNTYjIzcWlhMEo4aGJveUxRU0ZqS0FOaVNj?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE11bm01ZVNBMWJoTko4VXN3YmFuNHdhc0NNTnVBYUhtSEFSSjNBSV9DRWF5d1hRT2I4bno1RElpbDFFZVNTYjIzcWlhMEo4aGJ"
+    },
+    {
+        "title": "[ST포토] 리센느, 맨시티 경기 하프공연 - 네이트",
+        "source": "네이트",
+        "date": "2026-08-09",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xWnh4ZGl1QUNmQW9XRmpRd1ZlVUl0VnRyTkQ2TFJvRHNkNVM3Qk9yZGthLTd0cWpkRmVTUDc3YTJFNHd1ZlQtOE1qVzZWSkFqa1c1d3VrbVJ1MVZU?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xWnh4ZGl1QUNmQW9XRmpRd1ZlVUl0VnRyTkQ2TFJvRHNkNVM3Qk9yZGthLTd0cWpkRmVTUDc3YTJFNHd1ZlQtOE1qVzZWSkF"
+    },
+    {
+        "title": "리센느X이강인 '야호'는 상상도 못했네…유니폼에 친필 사인까지 [MD이슈] - 네이트",
+        "source": "네이트",
+        "date": "2026-08-09",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1lenlzZk1tNEx1dkt5X245R1pPemNhcDlHV0hOMnY4dm1HSFRJSDRtc0dESktsZU1xaFZ6QWZDZjBFSXA3WEgzQU9DSlFXelZEZjBV?oc=5",
+        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1lenlzZk1tNEx1dkt5X245R1pPemNhcDlHV0hOMnY4dm1HSFRJSDRtc0dESktsZU1xaFZ6QWZDZjBFSXA3WEgzQU9DSlFXelZ"
+    },
+    {
         "title": "'대세' 리센느, 방송 출연 없이 '음중' 정상… 'Pretty Girl' 3관왕 - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-08-09",
@@ -210,75 +280,5 @@ const NEWS_DATA = [
         "date": "2026-08-09",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9WM3UzWWs4ZndjNDJQUXdzaWsyTmpkZFVSaUpCM2thZWk4R1dUN2EzNDBBVGgxd1ZWYWI4VTl5NFlLOTRRLVVLU1VHTlBqU0xZVjVTek5mVk1aOEpELTg2eUFTaXB6cUxSZHlIV1J6d1l1QQ?oc=5",
         "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE9WM3UzWWs4ZndjNDJQUXdzaWsyTmpkZFVSaUpCM2thZWk4R1dUN2EzNDBBVGgxd1ZWYWI4VTl5NFlLOTRRLVVLU1VHTlBqU0x"
-    },
-    {
-        "title": "리센느 리브 '작은 얼굴에 꽉 찬 예쁨'[엑's HD포토] - 네이트",
-        "source": "네이트",
-        "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1DeTNfRWlqeS0yLWwtc0ctSzZpWWhYcXgtTUF3Qk1VTXQ1Y3B1TmFTUFlWNUNvRUxhVHhIV2tZM2pJVGJLdzdkRHpoQ2hnMmozcWtvUnlHSHFydl91?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE1DeTNfRWlqeS0yLWwtc0ctSzZpWWhYcXgtTUF3Qk1VTXQ1Y3B1TmFTUFlWNUNvRUxhVHhIV2tZM2pJVGJLdzdkRHpoQ2hnMmo"
-    },
-    {
-        "title": "리센느 원이, 축구 푹 빠진 이유 \"소속사 대표와 새벽마다 시청\" (프리뷰쇼) - 네이트",
-        "source": "네이트",
-        "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0ODlZaU5EeVpab3d5TUNPRVJVVE50UDlfQTRwN2VvNjRvRGxCaGJuaW03MWllcU9lXzFyT2lzenk1X1FZMTdwNHRUWVNMeUNwV25RWVMwY1FVT1RJNURMYjhIRU5xOVZGNWVrb3NEcjM4aWMwV0JZOQ?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFB0ODlZaU5EeVpab3d5TUNPRVJVVE50UDlfQTRwN2VvNjRvRGxCaGJuaW03MWllcU9lXzFyT2lzenk1X1FZMTdwNHRUWVNMeUN"
-    },
-    {
-        "title": "[ST포토] 리센느 미나미, '축구장 밝히는 미모' - 네이트",
-        "source": "네이트",
-        "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5tbWRCUjBrb0MtaE42NmNVdGVhb1dleHFOaEdBRTIyTlN3d0NDcnFfNFJ5QmpvVzZMeTVGcUZCb05sWEkwaGtSSXYzNkVmWHVkRmFhb0RHNWdsZ0Fi?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE5tbWRCUjBrb0MtaE42NmNVdGVhb1dleHFOaEdBRTIyTlN3d0NDcnFfNFJ5QmpvVzZMeTVGcUZCb05sWEkwaGtSSXYzNkVmWHV"
-    },
-    {
-        "title": "리센느, 알레띠-맨시티 '야호' - 네이트",
-        "source": "네이트",
-        "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45enJtRnM0bXpZZ0wxODUzV193NldTSk9ZOFJhalQ5UFMtVDlKQ3pEQkk2c3pWWVBXcGdaMnd1Q3dleXhoVHhIeFNPS0N4VndCVUJLVlhkcFFTNVpTWi15YzlHcmJsM0dwMndYNU1BODF6Tm1fSDR3WA?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE45enJtRnM0bXpZZ0wxODUzV193NldTSk9ZOFJhalQ5UFMtVDlKQ3pEQkk2c3pWWVBXcGdaMnd1Q3dleXhoVHhIeFNPS0N4Vnd"
-    },
-    {
-        "title": "리센느 원이, T1 케리아에게 사인 CD 전달 [포토엔HD] - 네이트",
-        "source": "네이트",
-        "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xX18zem96T2FrWThyelA3WDBOMDlteVJRanpkNC1Ma1NDX3BoSWUtY2kyczJRcUlOYWlEaDN2VGd5Z3Y2RjI2N0ZlM3B4N09wbVZ5RV9uUmJ0ZWtyNUNfOA?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xX18zem96T2FrWThyelA3WDBOMDlteVJRanpkNC1Ma1NDX3BoSWUtY2kyczJRcUlOYWlEaDN2VGd5Z3Y2RjI2N0ZlM3B4N09"
-    },
-    {
-        "title": "리센느 메이 \"팀 떠날 생각,원이가 살렸다\"→부모님 찾아가 \"저 믿어달라\" 설득 (전참시) - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9sNkdfVFBaNDRkSi1SZW5Oc01kQkdLMjJYOVN2M2pSODhXeUdCdnBwazhPQi12X0d1bU5ucVJ0TS1BZV8wRnpwUmsxeURBSzg?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE9sNkdfVFBaNDRkSi1SZW5Oc01kQkdLMjJYOVN2M2pSODhXeUdCdnBwazhPQi12X0d1bU5ucVJ0TS1BZV8wRnpwUmsxeURBSzg"
-    },
-    {
-        "title": "리센느 미나미 '브이' [포토] - 네이트",
-        "source": "네이트",
-        "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE51Z3BtY2gyOC1Ua294eV96eVIwaTN5QXBlWnY1U0ZWb0hrc00zU0tMdmY4QVEyQlFuUW0ybnBjQ1hlYmFid0pMNVE2M1NqeE5kYUxn?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE51Z3BtY2gyOC1Ua294eV96eVIwaTN5QXBlWnY1U0ZWb0hrc00zU0tMdmY4QVEyQlFuUW0ybnBjQ1hlYmFid0pMNVE2M1NqeE5"
-    },
-    {
-        "title": "[사진]축하 공연 펼치는 리센느 - 네이트",
-        "source": "네이트",
-        "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qSDZpdGhERGZ4ZGZ1SkwzcDVib1dpRWFLX2FpcVV3N2pUbHEzel9aWm04UkRfR1FhaTJHZ0UwME5GTVNZdVl5TXBXVFpEN1ZPQXdv?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qSDZpdGhERGZ4ZGZ1SkwzcDVib1dpRWFLX2FpcVV3N2pUbHEzel9aWm04UkRfR1FhaTJHZ0UwME5GTVNZdVl5TXBXVFpEN1Z"
-    },
-    {
-        "title": "[ST포토] 리센느 원이, 인기 많은 거제소녀 - 네이트",
-        "source": "네이트",
-        "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBLS2UxaktXR2VhOF85d29IVzBGNEN5LUVPdTdXQmhsZHNhNEE1M3lfLWduQjZmMEhSVnVvYjdVZW9ZNmRTZEpBSDAweHhCUFdaMS13dU13?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTFBLS2UxaktXR2VhOF85d29IVzBGNEN5LUVPdTdXQmhsZHNhNEE1M3lfLWduQjZmMEhSVnVvYjdVZW9ZNmRTZEpBSDAweHhCUFd"
-    },
-    {
-        "title": "리센느의 축하무대 - 네이트",
-        "source": "네이트",
-        "date": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5anhMajhOOE9hY1MyQThEblpaZmhVVGxKeXA2ZDhiVk05X2IzMko1cXNOd1kxekhxMmZVZXRfZ09SbWZjVHN4X3ZPaDdSR2pEaEZrSURON2dkam9KbDN1RDVoWjVOclRnd3BIM3dxY2ZVcGdPMGtZQg?oc=5",
-        "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFA5anhMajhOOE9hY1MyQThEblpaZmhVVGxKeXA2ZDhiVk05X2IzMko1cXNOd1kxekhxMmZVZXRfZ09SbWZjVHN4X3ZPaDdSR2p"
     }
 ];
