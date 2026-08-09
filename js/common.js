@@ -65,7 +65,7 @@ function closeLandingSplash() {
 let scheduleDB = {};
 let currentCalYear = new Date().getFullYear();
 let currentCalMonth = new Date().getMonth() + 1;
-const colorMap = { "broadcast": "#7e57c2", "fansign": "#ec407a", "event": "#66bb6a", "concert": "#26c6da", "radio": "#ffa726", "notice": "#78909c" };
+const colorMap = { "broadcast": "#7e57c2", "fansign": "#ec407a", "event": "#66bb6a", "concert": "#26c6da", "radio": "#ffa726", "notice": "#78909c", "youtube": "#ff0000" };
 
 async function fetchScheduleData() {
     try {
@@ -172,7 +172,7 @@ function openModal(year, month, day, dateKey) {
 
     const dateTitle = window.tDate ? window.tDate(year, String(month).padStart(2, '0'), String(day).padStart(2, '0')) : `${year}년 ${month}월 ${day}일`;
     const items = getDayItems(dateKey);
-    const typeLabelMap = window.t ? window.t('scheduleTypes') : { broadcast: "방송", fansign: "팬사인회", event: "행사", concert: "공연", radio: "라디오", notice: "공지" };
+    const typeLabelMap = window.t ? window.t('scheduleTypes') : { broadcast: "방송", fansign: "팬사인회", event: "행사", concert: "공연", radio: "라디오", notice: "공지", youtube: "유튜브" };
     const timeLabel = window.t ? window.t('timeLabel') : '시간';
     const timeTbd = window.t ? window.t('timeTbd') : '시간 미정';
 
