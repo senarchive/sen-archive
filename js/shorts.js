@@ -186,6 +186,7 @@ function shModalOpen(scope, idx) {
     modal.classList.add('active');
     if (backdrop) backdrop.classList.add('active');
     document.body.style.overflow = 'hidden';
+    shCloseMobileSheet(); // ⭐️ 새로 열 땐 항상 시트가 접힌 상태로 시작해야 함(이전 세션 상태 잔존 방지)
     shModalRenderPlaylist();
     shModalLoad(idx);
 }
@@ -308,6 +309,7 @@ function shModalClose() {
     if (backdrop) backdrop.classList.remove('active');
     shDestroyPlayer();
     shStopCommentTeaser();
+    shCloseMobileSheet(); // ⭐️ 시트 열림/확장 상태가 다음 번까지 남아있지 않도록 초기화
     const media = document.getElementById('shModalMediaBox');
     if (media) media.innerHTML = '';
     if (typeof veClearLiveChat === 'function') veClearLiveChat('shLiveChatPanel');
@@ -620,7 +622,10 @@ function shOpenMobileSheet() {
 
 function shCloseMobileSheet() {
     const panel = document.querySelector('.sh-modal-playlist');
-    if (panel) panel.classList.remove('mobile-open', 'expanded');
+    if (panel) {
+        panel.classList.remove('mobile-open', 'expanded', 'dragging');
+        panel.style.transform = ''; // 드래그 도중 인라인으로 남아있을 수 있는 transform 값도 같이 정리
+    }
 }
 
 // -----------------------------------------------------
