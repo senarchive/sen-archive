@@ -38,7 +38,7 @@ async function scrapeOneShop(page, shopKey, url) {
     if (!cfg) throw new Error(`알 수 없는 쇼핑몰 타입: ${shopKey}`);
 
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-    await delay(4000); // SPA(ktown4u/kream)는 클라이언트 렌더링 대기 필요
+    await delay(4000);
 
     await page.waitForSelector(cfg.priceSelector, { timeout: 6000 }).catch(() => null);
     const priceText = await page.$eval(cfg.priceSelector, el => el.innerText).catch(() => null);
@@ -78,12 +78,10 @@ async function scrapeGoods() {
                 shop.stock = priceNum != null ? stock : (shop.stock || 'unknown');
             } catch (e) {
                 console.error(`  ✗ [${itemKey} - ${shop.shop}] 크롤링 에러: ${e.message}`);
-                // 실패 시 기존 값 유지 (전면 덮어쓰지 않음 — 일시적 네트워크 오류로 데이터 날아가는 것 방지)
             }
             await delay(600);
         }
 
-        // 재고 있는 곳 중 최저가를 자동으로 cheapest 로 지정 (없으면 전체 중 최저가)
         const withPrice = item.shops.filter(s => s.priceNum != null);
         const inStockWithPrice = withPrice.filter(s => s.stock === 'available');
         const pool = inStockWithPrice.length ? inStockWithPrice : withPrice;
