@@ -12,8 +12,23 @@ function isBlocked(text) {
     return BLOCKED_KEYWORDS.some(kw => text.includes(kw));
 }
 
+/* HTML 엔티티(&lt; &amp; 등)를 실제 문자로 디코딩. 구글 뉴스 RSS는 태그 자체가
+   &lt;a href=...&gt; 처럼 이스케이프된 채로 오는 경우가 있어, 태그 제거보다 먼저 디코딩해야 함 */
+function decodeEntities(str) {
+    return String(str || '')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&quot;/g, '"')
+        .replace(/&#39;/g, "'")
+        .replace(/&apos;/g, "'")
+        .replace(/&nbsp;/g, ' ')
+        .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(parseInt(n, 10)))
+        .replace(/&#x([0-9a-fA-F]+);/g, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+        .replace(/&amp;/g, '&'); // & 디코딩은 다른 엔티티들을 먼저 푼 뒤 마지막에
+}
+
 function stripHtml(str) {
-    return String(str || '').replace(/<[^>]*>/g, '').replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/&#39;/g, "'").trim();
+    return decodeEntities(str).replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
 }
 
 async function fetchGoogleNews() {
@@ -73,8 +88,11 @@ async function fetchNaverNews() {
     }
 }
 
-/* 기사 원문 페이지의 og:image(대표 이미지)를 최대한 가져옴 — 실패해도 조용히 빈 값 반환 (전체 수집을 막지 않음) */
-async function fetchArticleImage(url) {
+/* 기사 원문 페이지에서 대표 이미지(og:image)와 실제 요약(og:description)을 함께 가져옴.
+   ⭐️ 구글 뉴스 RSS의 description은 실제 기사 요약이 아니라 "관련기사 링크 목록" HTML이라
+   그대로 쓰면 깨진 문자열이 노출됨 → 원문 페이지의 메타 설명으로 완전히 대체함.
+   실패해도 조용히 빈 값을 반환해서 전체 수집이 중단되지 않도록 함 */
+async function fetchArticleMeta(url) {
     try {
         const controller = new AbortController();
         const timer = setTimeout(() => controller.abort(), 8000);
@@ -84,21 +102,30 @@ async function fetchArticleImage(url) {
             signal: controller.signal
         });
         clearTimeout(timer);
-        if (!res.ok) return '';
+        if (!res.ok) return {};
         const html = await res.text();
         const $ = cheerio.load(html);
-        let img =
+
+        let image =
             $('meta[property="og:image"]').attr('content') ||
             $('meta[property="og:image:url"]').attr('content') ||
             $('meta[name="twitter:image"]').attr('content') ||
             $('meta[name="twitter:image:src"]').attr('content') ||
             '';
-        img = (img || '').trim();
-        if (img.startsWith('//')) img = 'https:' + img;
-        if (img && !/^https?:\/\//i.test(img)) return ''; // 상대경로 등 신뢰할 수 없는 값은 버림
-        return img;
+        image = (image || '').trim();
+        if (image.startsWith('//')) image = 'https:' + image;
+        if (image && !/^https?:\/\//i.test(image)) image = ''; // 상대경로 등 신뢰할 수 없는 값은 버림
+
+        let summary =
+            $('meta[property="og:description"]').attr('content') ||
+            $('meta[name="description"]').attr('content') ||
+            $('meta[name="twitter:description"]').attr('content') ||
+            '';
+        summary = stripHtml(summary).slice(0, 160);
+
+        return { image, summary };
     } catch (e) {
-        return '';
+        return {};
     }
 }
 
@@ -114,14 +141,18 @@ async function withConcurrency(items, limit, worker) {
     await Promise.all(Array.from({ length: Math.min(limit, items.length) }, run));
 }
 
-async function attachThumbnails(items) {
-    console.log(`기사 썸네일 이미지 수집 중... (${items.length}건)`);
-    let ok = 0;
+async function attachArticleMeta(items) {
+    console.log(`기사 썸네일/요약 수집 중... (${items.length}건)`);
+    let imgOk = 0, sumOk = 0;
     await withConcurrency(items, 6, async (item) => {
-        const img = await fetchArticleImage(item.url);
-        if (img) { item.image = img; ok++; }
+        const meta = await fetchArticleMeta(item.url);
+        if (meta.image) { item.image = meta.image; imgOk++; }
+        // 원문에서 진짜 요약을 못 구했으면, 구글 RSS의 "관련기사 링크 목록" 찌꺼기를 쓰지 말고 비워둠
+        // (프론트엔드는 요약이 비어있으면 해당 줄을 그냥 숨김)
+        item.summary = meta.summary || '';
+        if (meta.summary) sumOk++;
     });
-    console.log(`썸네일 확보: ${ok}/${items.length}건 (나머지는 사이트에서 기본 로고로 대체 표시됨)`);
+    console.log(`썸네일 확보: ${imgOk}/${items.length}건, 요약 확보: ${sumOk}/${items.length}건`);
 }
 
 function dedupe(items) {
@@ -147,7 +178,7 @@ async function main() {
 
     all = all.slice(0, 100);
 
-    await attachThumbnails(all);
+    await attachArticleMeta(all);
 
     const fileContent = `/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (${new Date().toISOString()}) */\n\nconst NEWS_DATA = ${JSON.stringify(all, null, 4)};\n`;
     fs.writeFileSync(new URL('./news_data.js', import.meta.url), fileContent, 'utf-8');
