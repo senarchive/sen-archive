@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T08:09:29.346Z",
+  "updated": "2026-08-09T14:42:18.828Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3392,22 +3392,6 @@
       "detail": "",
       "type": "concert",
       "source": "mnetplus"
-    },
-    {
-      "date": "2026-08-11",
-      "time": "19:00",
-      "title": "안원잘부 시즌2 ep.2",
-      "detail": "",
-      "type": "youtube",
-      "source": "fan-schedule"
-    },
-    {
-      "date": "2026-08-14",
-      "time": "19:00",
-      "title": "안원잘부 시즌2 ep.3",
-      "detail": "",
-      "type": "youtube",
-      "source": "fan-schedule"
     }
   ],
   "mnetBackfill": {
