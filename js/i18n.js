@@ -26,7 +26,7 @@
             navHome: "HOME", navMembers: "MEMBERS", navCharts: "CHARTS", navSchedule: "SCHEDULE",
             navGoods: "GOODS", navNews: "NEWS", navFanchant: "응원법", navMedia: "영상 모음",
             newsTitle: "RESCENE <span>NEWS</span>", newsSub: "구글·네이버·다음 등에서 모은 리센느 관련 기사입니다.", newsEmpty: "아직 등록된 기사가 없습니다.",
-            newsModalLoading: "기사를 불러오는 중...", newsModalFallbackMsg: "일부 언론사는 미리보기가 지원되지 않을 수 있어요.", newsModalOpenOriginal: "원문에서 보기 →",
+            newsModalLoading: "기사를 불러오는 중...", newsModalFallbackMsg: "이 언론사는 보안 정책상 미리보기를 지원하지 않아요. 위의 버튼으로 원문에서 확인해주세요.", newsModalOpenOriginal: "원문에서 전체 기사 보기 →", newsModalInlineToggleShow: "사이트 안에서 미리보기 시도",
 
             heroWelcome: "리센느 비공식 팬 아카이브에 오신 것을 환영합니다.",
             heroEnter: "바로가기 →",
@@ -89,7 +89,7 @@
             navHome: "HOME", navMembers: "MEMBERS", navCharts: "CHARTS", navSchedule: "SCHEDULE",
             navGoods: "GOODS", navNews: "NEWS", navFanchant: "FANCHANT", navMedia: "MEDIA",
             newsTitle: "RESCENE <span>NEWS</span>", newsSub: "RESCENE news gathered from Google, Naver, and Daum.", newsEmpty: "No articles yet.",
-            newsModalLoading: "Loading article...", newsModalFallbackMsg: "Some outlets may not support previewing.", newsModalOpenOriginal: "View original →",
+            newsModalLoading: "Loading article...", newsModalFallbackMsg: "This outlet's security policy blocks previewing. Use the button above to read the original.", newsModalOpenOriginal: "Read full article →", newsModalInlineToggleShow: "Try inline preview",
 
             heroWelcome: "Welcome to the unofficial RESCENE fan archive.",
             heroEnter: "Enter →",
@@ -152,7 +152,7 @@
             navHome: "HOME", navMembers: "MEMBERS", navCharts: "CHARTS", navSchedule: "SCHEDULE",
             navGoods: "GOODS", navNews: "NEWS", navFanchant: "応援法", navMedia: "動画まとめ",
             newsTitle: "RESCENE <span>NEWS</span>", newsSub: "Google・Naver・Daumなどで集めたRESCENE関連ニュースです。", newsEmpty: "まだ登録された記事がありません。",
-            newsModalLoading: "記事を読み込み中...", newsModalFallbackMsg: "一部のメディアはプレビューに対応していない場合があります。", newsModalOpenOriginal: "原文を見る →",
+            newsModalLoading: "記事を読み込み中...", newsModalFallbackMsg: "このメディアはセキュリティポリシー上プレビューに対応していません。上のボタンから原文をご確認ください。", newsModalOpenOriginal: "原文で全文を見る →", newsModalInlineToggleShow: "サイト内でプレビューを試す",
 
             heroWelcome: "RESCENE非公式ファンアーカイブへようこそ。",
             heroEnter: "入る →",
@@ -215,7 +215,7 @@
             navHome: "首页", navMembers: "成员", navCharts: "榜单", navSchedule: "日程",
             navGoods: "周边", navNews: "新闻", navFanchant: "应援口号", navMedia: "视频合集",
             newsTitle: "RESCENE <span>新闻</span>", newsSub: "从谷歌、Naver、Daum等收集的RESCENE相关新闻。", newsEmpty: "暂无收录的新闻。",
-            newsModalLoading: "正在加载文章...", newsModalFallbackMsg: "部分媒体可能不支持预览。", newsModalOpenOriginal: "查看原文 →",
+            newsModalLoading: "正在加载文章...", newsModalFallbackMsg: "该媒体的安全策略不支持预览，请点击上方按钮查看原文。", newsModalOpenOriginal: "查看完整原文 →", newsModalInlineToggleShow: "尝试站内预览",
 
             heroWelcome: "欢迎来到RESCENE非官方粉丝档案站。",
             heroEnter: "进入 →",
