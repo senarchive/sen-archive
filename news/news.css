@@ -20,10 +20,15 @@
 }
 .news-item-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s cubic-bezier(0.16,1,0.3,1); }
 .news-item:hover .news-item-thumb img { transform: scale(1.04); }
-.news-item-thumb-fallback {
-    width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
-    font-family: var(--font-head); font-size: 26px; font-weight: 800; color: #fff;
+
+/* 실제 기사 썸네일이 없을 때: 글자 대신 로고 이미지를 브랜드 그라데이션 배경 위에 얹어서 보여줌 (항상 "사진"으로만 노출) */
+.news-item-thumb img.news-thumb-fallback-img {
+    width: 62%; height: 62%; object-fit: contain; margin: auto; display: block;
+    filter: brightness(0) invert(1); opacity: 0.92;
+}
+.news-item-thumb:has(img.news-thumb-fallback-img) {
     background: linear-gradient(135deg, var(--c-accent), color-mix(in srgb, var(--c-accent) 55%, #7B5CF0));
+    display: flex; align-items: center; justify-content: center;
 }
 
 .news-item-body { min-width: 0; flex: 1; overflow-wrap: break-word; word-break: keep-all; }
@@ -46,4 +51,40 @@
     .news-item-body { width: 100%; min-width: 0; }
     .news-item-title { font-size: 16px; }
     .news-item-summary { -webkit-line-clamp: 2; font-size: 12.5px; }
+}
+
+/* ===== 기사 클릭 시 오른쪽에서 열리는 뉴스 모달 ===== */
+.news-modal-wrapper { max-width: 620px !important; }
+@media (min-width: 1050px) {
+    .news-modal-wrapper.active { transform: translate(calc(-50% + 290px), -50%); }
+}
+.news-modal-inner { display: flex; flex-direction: column; height: 100%; min-height: 0; }
+
+.news-modal-head { padding: 30px 30px 18px; flex-shrink: 0; border-bottom: 1px solid var(--border-light); }
+.news-modal-meta { display: flex; align-items: center; gap: 8px; font-family: var(--font-num); font-size: 11px; color: var(--text-muted); margin-bottom: 10px; }
+.news-modal-meta .news-item-source { font-weight: 700; color: var(--c-accent); }
+.news-modal-title { margin: 0 0 8px; font-family: var(--font-head); font-size: 18px; font-weight: 800; line-height: 1.45; color: var(--text-primary); word-break: keep-all; }
+.news-modal-summary { margin: 0; font-family: var(--font-body); font-size: 13px; line-height: 1.65; color: var(--text-secondary); word-break: keep-all; }
+
+.news-modal-frame-wrap { position: relative; flex: 1; min-height: 0; background: var(--bg-surface); }
+.news-modal-iframe { width: 100%; height: 100%; border: 0; display: block; }
+.news-modal-loading {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    font-family: var(--font-head); font-size: 12.5px; color: var(--text-muted); background: var(--bg-surface);
+}
+
+.news-modal-fallback-bar {
+    flex-shrink: 0; display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    padding: 12px 20px; border-top: 1px solid var(--border-light);
+    font-family: var(--font-body); font-size: 11.5px; color: var(--text-muted);
+}
+.news-modal-open-btn {
+    flex-shrink: 0; font-family: var(--font-head); font-size: 12px; font-weight: 700;
+    color: var(--c-accent); text-decoration: none; white-space: nowrap;
+}
+.news-modal-open-btn:hover { text-decoration: underline; }
+
+@media (max-width: 640px) {
+    .news-modal-head { padding: 24px 20px 14px; }
+    .news-modal-fallback-bar { padding: 10px 16px; flex-direction: column; align-items: flex-start; gap: 6px; }
 }
