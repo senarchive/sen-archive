@@ -1,23 +1,17 @@
 if (typeof SITE_ROOT === 'undefined') { var SITE_ROOT = ''; }
-
-/* ---- 공통 HTML 이스케이프 (media/news/fanchant/chart 페이지에서 공용으로 사용) ---- */
 function escapeHtml(str) {
     if (!str) return '';
     return String(str).replace(/[&<>'"]/g, match => ({
         '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
     })[match]);
 }
-
-/* ---- 모바일 햄버거 메뉴 ---- */
 function toggleMobileMenu() {
     document.getElementById('hamburgerBtn').classList.toggle('active');
     document.getElementById('mobileMenuPanel').classList.toggle('active');
     document.getElementById('mobileMenuBackdrop').classList.toggle('active');
     document.body.style.overflow = document.getElementById('mobileMenuPanel').classList.contains('active') ? 'hidden' : 'auto';
-    toggleLangAccordion(false, 'mobile'); // ⭐️ 메뉴 열고 닫을 때마다 언어 아코디언은 항상 접힌 상태로 초기화
+    toggleLangAccordion(false, 'mobile');
 }
-
-/* ---- 언어 선택 아코디언 (지구본 아이콘) — 데스크톱/모바일 공용 ---- */
 function toggleLangAccordion(force, variant) {
     const isMobile = variant === 'mobile';
     const acc = document.getElementById(isMobile ? 'langAccordionMobile' : 'langAccordion');
@@ -35,7 +29,6 @@ document.addEventListener('click', (e) => {
     if (wrapMobile && accMobile && !wrapMobile.contains(e.target) && !accMobile.contains(e.target)) toggleLangAccordion(false, 'mobile');
 });
 
-/* ---- 다크 / 화이트 모드 토글 ---- */
 const sunIcon = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>';
 const moonIcon = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>';
 
@@ -52,7 +45,6 @@ function toggleTheme() {
 }
 window.addEventListener('DOMContentLoaded', () => { updateThemeIcon(document.documentElement.getAttribute('data-theme') || 'dark'); });
 
-/* ---- 스크롤 reveal 애니메이션 (공통) ---- */
 const revealObserver = new IntersectionObserver((entries) => {
     entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('active'); });
 }, { threshold: 0.15 });
@@ -63,7 +55,6 @@ function scrollToSection(id) {
     if (el) el.scrollIntoView({ behavior: 'smooth' });
 }
 
-/* ---- 루트 주소 웰컴 스플래시 닫기 ---- */
 function closeLandingSplash() {
     const el = document.getElementById('landingSplash');
     if (!el) return;
@@ -71,7 +62,6 @@ function closeLandingSplash() {
     setTimeout(() => { window.location.href = 'index.html'; }, 500);
 }
 
-/* ---- 스케줄 데이터 로드 & 캘린더 팝업 ---- */
 let scheduleDB = {};
 let currentCalYear = new Date().getFullYear();
 let currentCalMonth = new Date().getMonth() + 1;
@@ -94,7 +84,7 @@ async function fetchScheduleData() {
         }
     } catch (error) { console.warn("스케줄 데이터 로드 실패", error); }
     renderCalendar();
-    // ⭐️ index.html에만 있는 '오늘의 일정' 위젯 — 있으면 같이 갱신
+
     if (typeof renderTodaySchedule === 'function') renderTodaySchedule();
     if (typeof renderTodayMonthSchedule === 'function') renderTodayMonthSchedule();
     if (typeof renderAgendaList === 'function') renderAgendaList();
@@ -229,7 +219,6 @@ function closeModal() {
 
 window.addEventListener('DOMContentLoaded', () => { fetchScheduleData(); initSheetDrag(); });
 
-/* ---- 모바일 바텀시트: 핸들 드래그해서 아래로 내리면 닫힘 (rAF + CSS 변수로 부드럽게) ---- */
 function initSheetDrag() {
     const sheet = document.getElementById('scheduleModal');
     const handle = document.getElementById('scheduleSheetHandle');
