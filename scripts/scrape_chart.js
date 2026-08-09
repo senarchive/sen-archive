@@ -1,7 +1,3 @@
-/* ⭐️ 멀티 플랫폼 음원 차트 스크래퍼
-   원본 참고: https://github.com/adam-yam/SCENE-FLIX (crawlers/crawl_chart.py) 를 Node.js로 이식.
-   멜론/지니/바이브/벅스/FLO/유튜브뮤직(kworb)/스포티파이(kworb)에서 RESCENE 곡을 찾아
-   chart/chart_data.json 으로 저장한다. */
 import fs from 'fs';
 import * as cheerio from 'cheerio';
 
@@ -133,7 +129,6 @@ async function fetchBugs() {
     } catch (e) { console.error('[bugs] 실패:', e.message); return []; }
 }
 
-// FLO 앱이 내부적으로 쓰는 비공식 차트 API. 로그인 필요 없음
 async function fetchFlo() {
     try {
         const data = await safeJson('https://api.music-flo.com/display/v1/browser/chart/1/list?mixYn=N', {
@@ -163,7 +158,6 @@ function parsePreviousRank(rank, change) {
     return Number.isNaN(n) ? null : rank + n;
 }
 
-// 유튜브뮤직/스포티파이는 직접 크롤링이 불안정해서, kworb.net이 정리해둔 표를 대신 사용
 async function fetchKworbTable(url, artistFirst) {
     try {
         const res = await fetch(url, { headers: COMMON_HEADERS });
@@ -226,7 +220,6 @@ function mergePlatformResults(platformResults) {
     return songs;
 }
 
-// 앨범 이미지가 없는 곡(바이브/스포티파이/유튜브뮤직)은 iTunes -> Deezer 순서로 채워 넣음 (둘 다 API 키 불필요)
 async function fetchAlbumImageItunes(artistName, songName) {
     try {
         const params = new URLSearchParams({ term: `${artistName} ${songName}`, entity: 'song', limit: '1' });
