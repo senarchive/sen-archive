@@ -542,6 +542,15 @@ html[data-theme="light"] .sh-modal-wrapper { background: #FFFFFF; }
 .sh-swipe-catcher { position: absolute; inset: 0; z-index: 5; touch-action: none; background: transparent; cursor: grab; }
 .sh-swipe-catcher:active { cursor: grabbing; }
 
+.sh-sound-btn {
+    position: absolute; top: 14px; right: 14px; z-index: 15;
+    width: 36px; height: 36px; border-radius: 50%; border: none; cursor: pointer;
+    background: rgba(20,20,20,0.55); backdrop-filter: blur(4px); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+}
+.sh-sound-btn svg { width: 18px; height: 18px; }
+.sh-sound-btn.is-muted { background: rgba(255,77,148,0.85); }
+
 /* ⭐️ 유튜브 쇼츠처럼, 영상 "아래"(액션바 위)에 자동으로 순환하는 댓글 미리보기.
    데스크톱은 오른쪽에 이미 댓글 패널이 항상 보여서 굳이 필요 없으므로 모바일 전용.
    (댓글 목록 안의 .sh-comment-bubble 말풍선과는 다른 요소라 이름을 -teaser 로 분리함) */
