@@ -21,8 +21,6 @@ function veResetComments(panelId) {
     if (veCommentState[panelId]) veCommentState[panelId].vid = null;
 }
 
-// commentThreads API는 한 번에 최대 50개까지만 내려주기 때문에,
-// 유튜브 페이지와 동일한 "총 댓글 수"는 videos.statistics.commentCount에서 별도로 가져와야 한다.
 async function veGetCommentTotal(vid) {
     if (vid in veCommentTotalCache) return veCommentTotalCache[vid];
     if (typeof YOUTUBE_API_KEY === 'undefined' || !YOUTUBE_API_KEY) return null;
@@ -57,8 +55,6 @@ function veUpdateSortBar(barEl, order) {
     });
 }
 
-// 댓글은 처음엔 로딩 지연 없이 한 페이지(50개)만 빠르게 불러오고,
-// 목록을 스크롤해서 바닥에 가까워지면 nextPageToken으로 다음 페이지를 이어서 불러온다.
 const VE_COMMENT_PAGE_SIZE = 50;
 
 function veCommentUrl(vid, order, pageToken) {
@@ -85,8 +81,6 @@ function veCommentItemHtml(c) {
             </div>
         </div>`;
 }
-
-// 목록 아래쪽으로 스크롤하면 다음 페이지를 이어서 불러온다.
 function veAttachCommentScroll(listEl, listId) {
     if (listEl.dataset.veScrollBound === '1') return;
     listEl.dataset.veScrollBound = '1';
@@ -154,8 +148,6 @@ async function veLoadComments(opts) {
 
     listEl.innerHTML = `<div class="sh-comment-loading">댓글 불러오는 중...</div>`;
     setCount('');
-
-    // 배지에는 (commentThreads 응답 개수가 아니라) 유튜브 페이지와 같은 실제 총 댓글 수를 표시.
     veGetCommentTotal(vid).then(total => {
         const now = veCommentState[listId];
         if (!now || now.vid !== vid) return;
@@ -193,6 +185,25 @@ async function veLoadComments(opts) {
         veAttachCommentScroll(listEl, listId);
     } catch (e) {
         listEl.innerHTML = `<div class="sh-comment-error">댓글을 불러오는 중 오류가 났어요.<br>${openLink}</div>`;
+    }
+}
+const veTopCommentCache = {};
+async function veFetchTopComments(vid, count = 5) {
+    if (vid in veTopCommentCache) return veTopCommentCache[vid];
+    if (typeof YOUTUBE_API_KEY === 'undefined' || !YOUTUBE_API_KEY) return [];
+    try {
+        const res = await fetch(veCommentUrl(vid, 'relevance'));
+        const data = await res.json();
+        if (!res.ok) { veTopCommentCache[vid] = []; return []; }
+        const items = (data.items || [])
+            .map(it => it.snippet.topLevelComment.snippet)
+            .slice(0, count)
+            .map(c => ({ author: c.authorDisplayName, text: c.textOriginal || c.textDisplay, like: c.likeCount || 0 }));
+        veTopCommentCache[vid] = items;
+        return items;
+    } catch (e) {
+        veTopCommentCache[vid] = [];
+        return [];
     }
 }
 
@@ -297,15 +308,8 @@ function veShare(kind, vid, btnEl) {
 }
 
 const veLiveCache = {};
-const veLiveStatusCache = {}; // vid -> 'live' | 'ended' | 'none'
+const veLiveStatusCache = {};
 
-// 유튜브 공식 문서 기준: 실시간 채팅 iframe 임베드(live_chat)는
-//  1) "라이브가 진행 중일 때만" 공식 지원되고, 방송이 끝난 뒤의 "채팅 다시보기"를 위한
-//     공식 임베드 엔드포인트는 따로 존재하지 않는다(live_chat_replay는 실제로 없는 주소라
-//     "Something went wrong" 오류가 났음 — 이전 수정이 잘못된 정보였음, 원복).
-//  2) 모바일 웹 브라우저에서는 애초에 채팅 임베드 자체를 지원하지 않는다.
-// 그래서 (a) 모바일이거나 (b) 방송이 이미 끝난 경우엔 iframe을 아예 시도하지 않고,
-// 유튜브로 바로 가는 안내만 보여준다 (veRenderLiveChat 참고).
 function veIsMobileViewport() {
     return !!(window.matchMedia && window.matchMedia('(max-width: 700px)').matches);
 }
@@ -328,19 +332,17 @@ async function veGetLiveStatus(vid) {
         const item = (data.items || [])[0];
         const details = item && item.liveStreamingDetails;
         if (!details) {
-            veLiveStatusCache[vid] = 'none'; // 라이브/최초공개였던 적 없는 일반 영상
+            veLiveStatusCache[vid] = 'none';
         } else if (details.activeLiveChatId) {
-            veLiveStatusCache[vid] = 'live'; // 지금 진행 중이거나 곧 시작할 라이브
+            veLiveStatusCache[vid] = 'live';
         } else {
-            veLiveStatusCache[vid] = 'ended'; // 라이브 또는 최초공개였지만 이미 끝남 → 채팅 다시보기 대상
+            veLiveStatusCache[vid] = 'ended';
         }
     } catch (e) {
         veLiveStatusCache[vid] = 'none';
     }
     return veLiveStatusCache[vid];
 }
-
-// 채팅 탭을 보여줄지 말지 결정할 때 쓰는 하위 호환 함수 (라이브였던 적이 있으면 true)
 async function veCheckLive(vid, fallbackIsLive) {
     if (vid in veLiveCache) return veLiveCache[vid];
     const status = await veGetLiveStatus(vid);
@@ -355,16 +357,13 @@ async function veRenderLiveChat(containerId, vid) {
 
     const openLink = `<a href="${veWatchUrl(vid)}" target="_blank" rel="noopener">유튜브에서 바로 보기 →</a>`;
 
-    // 모바일 웹은 유튜브가 채팅 임베드 자체를 지원하지 않으므로 iframe을 시도하지 않는다.
     if (veIsMobileViewport()) {
         el.innerHTML = `<div class="ve-livechat-none">모바일 웹에서는 유튜브 정책상 채팅을 화면에 직접 띄울 수 없어요.<br>${openLink}</div>`;
         return;
     }
 
     const status = await veGetLiveStatus(vid);
-    if (!el.isConnected) return; // 그 사이 다른 영상/탭으로 바뀌었으면 중단
-
-    // 끝난 라이브/최초공개는 채팅 다시보기를 임베드할 공식 방법이 없어 iframe을 시도하지 않는다.
+    if (!el.isConnected) return; 
     if (status !== 'live') {
         el.innerHTML = `<div class="ve-livechat-none">방송이 끝난 영상은 채팅 다시보기를 이 화면에 직접 띄울 수 없어요.<br>유튜브에서는 채팅 다시보기를 볼 수 있어요.<br>${openLink}</div>`;
         return;
