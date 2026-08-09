@@ -751,7 +751,11 @@ function highlightMmPlaylistActive() {
 function mmSetExpanded(state) {
     mmExpanded = state;
     const panel = document.getElementById('mediaModalPlaylist');
-    if (panel) panel.classList.toggle('expanded', state);
+    if (panel) {
+        panel.classList.toggle('expanded', state);
+        panel.classList.remove('minimized'); // 열 때는 항상 기본(반쯤 열림) 또는 확장으로만 시작, 최소화 잔존 방지
+        panel.style.transform = '';
+    }
 }
 function mmToggleExpanded() { mmSetExpanded(!mmExpanded); }
 
@@ -766,31 +770,75 @@ function mediaClosePlayer() {
     document.body.style.overflow = '';
 }
 
-// 영상 플레이리스트 드래그 로직
+// ⭐️ 풀영상 모달 바텀시트 드래그 — 손가락을 그대로 따라오는 진짜 드래그.
+// 3단계: 최소화(영상 거의 다 보임) / 기본(반쯤) / 확장(댓글 거의 다 보임)
 (function initMmDrag() {
-    let startY = 0, dragging = false, moved = false;
+    const MIN_PEEK_PX = 56;    // 최소화 상태에서 남겨둘 손잡이 높이
+    const HALF_VH = 24;        // 기본(반쯤 열림) 상태의 translateY 값(vh)
+
+    let startY = 0;
+    let dragging = false;
+    let startVh = HALF_VH;
+
+    function panel() { return document.getElementById('mediaModalPlaylist'); }
     function pointY(e) { return e.touches ? e.touches[0].clientY : e.clientY; }
-    function onDown(e) { dragging = true; moved = false; startY = pointY(e); }
+    function vh() { return window.innerHeight / 100; }
+    function minVh() { return 92 - (MIN_PEEK_PX / vh()); }
+
+    function currentStateVh(p) {
+        if (p.classList.contains('expanded')) return 0;
+        if (p.classList.contains('minimized')) return minVh();
+        return HALF_VH;
+    }
+
+    function applyState(p, targetVh) {
+        p.classList.remove('expanded', 'minimized');
+        // 세 지점 중 가장 가까운 상태로 스냅
+        const points = [0, HALF_VH, minVh()];
+        const nearest = points.reduce((a, b) => Math.abs(b - targetVh) < Math.abs(a - targetVh) ? b : a);
+        if (nearest === 0) p.classList.add('expanded');
+        else if (nearest === minVh()) p.classList.add('minimized');
+        mmExpanded = nearest === 0;
+    }
+
+    function onDown(e) {
+        const p = panel();
+        if (!p) return;
+        dragging = true;
+        startY = pointY(e);
+        startVh = currentStateVh(p);
+        p.classList.add('dragging');
+    }
+
     function onMove(e) {
         if (!dragging) return;
-        if (Math.abs(pointY(e) - startY) > 6) moved = true;
+        const p = panel();
+        if (!p) return;
+        const deltaVh = (pointY(e) - startY) / vh();
+        const nextVh = Math.max(0, Math.min(minVh(), startVh + deltaVh));
+        p.style.transform = `translateY(${nextVh}vh)`;
+        if (e.cancelable) e.preventDefault();
     }
+
     function onUp(e) {
         if (!dragging) return;
         dragging = false;
+        const p = panel();
+        if (!p) return;
+        p.classList.remove('dragging');
+        p.style.transform = '';
         const endY = e.changedTouches ? e.changedTouches[0].clientY : e.clientY;
-        const delta = startY - endY;
-        if (!moved) { mmToggleExpanded(); return; }
-        if (delta > 20) mmSetExpanded(true);
-        else if (delta < -20) mmSetExpanded(false);
+        const deltaVh = (endY - startY) / vh();
+        applyState(p, startVh + deltaVh);
     }
+
     document.addEventListener('DOMContentLoaded', () => {
         const handle = document.getElementById('mmDragHandle');
         if (!handle) return;
         handle.addEventListener('mousedown', onDown);
         handle.addEventListener('touchstart', onDown, { passive: true });
         window.addEventListener('mousemove', onMove);
-        window.addEventListener('touchmove', onMove, { passive: true });
+        window.addEventListener('touchmove', onMove, { passive: false });
         window.addEventListener('mouseup', onUp);
         window.addEventListener('touchend', onUp);
     });
