@@ -142,26 +142,71 @@ let shPlayer = null;
 let shYtApiReady = false;
 let shYtApiLoading = false;
 let shYtApiCallbacks = [];
+let shYtApiTimeoutId = null;
+// ⭐️ 광고 차단기, 사내망/특정 국가 네트워크 등에서 유튜브 iframe_api 스크립트 자체가
+// 막혀서 절대 로드/콜백되지 않는 경우가 있음 → 이럴 땐 커스텀 플레이어를 영원히 기다리다
+// "쇼츠 영상이 안 나오는" 것처럼 보임. 이 플래그가 켜지면 그냥 표준 <iframe> 임베드로 전환.
+let shUseIframeFallback = false;
 
 let shSkipNextTapToggle = false;
 
 function shEnsureYouTubeApi(cb) {
+    if (shUseIframeFallback) return; // 폴백 모드에선 커스텀 플레이어를 아예 만들지 않음
     if (shYtApiReady && window.YT && window.YT.Player) { cb(); return; }
     shYtApiCallbacks.push(cb);
-    if (shYtApiLoading) return;
+    if (shYtApiLoading) {
+        return;
+    }
     shYtApiLoading = true;
     const prevReadyFn = window.onYouTubeIframeAPIReady;
     window.onYouTubeIframeAPIReady = function () {
         if (typeof prevReadyFn === 'function') prevReadyFn();
         shYtApiReady = true;
+        clearTimeout(shYtApiTimeoutId);
         shYtApiCallbacks.forEach(fn => fn());
         shYtApiCallbacks = [];
     };
     if (!document.querySelector('script[src="https://www.youtube.com/iframe_api"]')) {
         const tag = document.createElement('script');
         tag.src = 'https://www.youtube.com/iframe_api';
+        tag.onerror = shTriggerIframeFallback;
         document.head.appendChild(tag);
     }
+    // 일정 시간 안에 API 준비 콜백이 안 오면(스크립트가 차단되었거나 무응답) 폴백으로 전환
+    clearTimeout(shYtApiTimeoutId);
+    shYtApiTimeoutId = setTimeout(() => {
+        if (!shYtApiReady) shTriggerIframeFallback();
+    }, 3500);
+}
+
+function shTriggerIframeFallback() {
+    if (shUseIframeFallback) return;
+    shUseIframeFallback = true;
+    shYtApiCallbacks = [];
+    // 이미 쇼츠 모달이 열려 있다면 바로 표준 iframe으로 다시 그려서 재생되게 함
+    const modal = document.getElementById('shModal');
+    if (modal && modal.classList.contains('active') && shModalScope) {
+        shModalLoad(shModalIndex);
+    }
+}
+
+function shBuildFallbackIframe(item) {
+    return `<iframe src="https://www.youtube.com/embed/${item.vid}?autoplay=1&mute=1&playsinline=1&rel=0&modestbranding=1"
+        title="${shEscapeAttr(item.title)}" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>`;
+}
+
+function shHandlePlayerError() {
+    // 임베드 제한(101/150), 비공개/삭제된 영상(100) 등으로 커스텀 플레이어가 재생 못 할 때
+    // 최소한 표준 iframe으로라도 시도해서 완전히 빈 화면이 되는 걸 막음
+    const list = shListCache[shModalScope] || [];
+    const item = list[shModalIndex];
+    const media = document.getElementById('shModalMediaBox');
+    if (!item || !media) return;
+    shDestroyPlayer();
+    media.innerHTML = shBuildFallbackIframe(item) + '<div class="sh-swipe-catcher" id="shSwipeCatcher"></div>';
+    shAttachSwipeCatcher();
 }
 
 function shDestroyPlayer() {
@@ -249,27 +294,35 @@ function shModalLoad(idx) {
 
     shDestroyPlayer();
     if (media) {
-        media.innerHTML = '<div id="shYtPlayer"></div><div class="sh-swipe-catcher" id="shSwipeCatcher"></div>';
-        shAttachSwipeCatcher();
-    }
+        if (shUseIframeFallback) {
+            // 커스텀 플레이어(API) 로드가 실패했던 세션 → 바로 표준 iframe으로 재생
+            media.innerHTML = shBuildFallbackIframe(item) + '<div class="sh-swipe-catcher" id="shSwipeCatcher"></div>';
+            shAttachSwipeCatcher();
+        } else {
+            media.innerHTML = '<div id="shYtPlayer"></div><div class="sh-swipe-catcher" id="shSwipeCatcher"></div>';
+            shAttachSwipeCatcher();
 
-    shEnsureYouTubeApi(() => {
-        const modal = document.getElementById('shModal');
-        if (!modal || !modal.classList.contains('active')) return;
-        if (!document.getElementById('shYtPlayer')) return;
-        const currentList = shListCache[shModalScope] || [];
-        if (currentList[shModalIndex] !== item) return;
-        shPlayer = new YT.Player('shYtPlayer', {
-            videoId: item.vid,
-            // ⭐️ 모바일 브라우저는 '음소거 안 된' autoplay를 정책적으로 막아버려서
-            // (특히 controls:0이라 재생 버튼도 안 보여서 그냥 "영상이 안 나온다"처럼 보임)
-            // mute:1로 시작해서 autoplay가 확실히 되게 하고, 사운드 버튼으로 켤 수 있게 함.
-            playerVars: { autoplay: 1, mute: 1, playsinline: 1, rel: 0, modestbranding: 1, controls: 0 },
-            events: {
-                onReady: () => { shUpdateSoundBtn(); }
-            }
-        });
-    });
+            shEnsureYouTubeApi(() => {
+                const modal = document.getElementById('shModal');
+                if (!modal || !modal.classList.contains('active')) return;
+                if (!document.getElementById('shYtPlayer')) return;
+                const currentList = shListCache[shModalScope] || [];
+                if (currentList[shModalIndex] !== item) return;
+                shPlayer = new YT.Player('shYtPlayer', {
+                    videoId: item.vid,
+                    // ⭐️ 모바일 브라우저는 '음소거 안 된' autoplay를 정책적으로 막아버려서
+                    // (특히 controls:0이라 재생 버튼도 안 보여서 그냥 "영상이 안 나온다"처럼 보임)
+                    // mute:1로 시작해서 autoplay가 확실히 되게 하고, 사운드 버튼으로 켤 수 있게 함.
+                    playerVars: { autoplay: 1, mute: 1, playsinline: 1, rel: 0, modestbranding: 1, controls: 0 },
+                    events: {
+                        onReady: () => { shUpdateSoundBtn(); },
+                        // ⭐️ 임베드 제한/비공개/삭제된 영상이면 여기로 옴 → 표준 iframe으로 대체
+                        onError: shHandlePlayerError
+                    }
+                });
+            });
+        }
+    }
 
     if (title) title.textContent = item.title;
     if (sub) sub.textContent = `${item.channel ? item.channel + ' · ' : ''}${item.date || ''}`;
