@@ -32,6 +32,12 @@
                 <div class="goods-main">
                     <div class="goods-toolbar">
                         <div id="goodsResultCount" class="goods-result-count">상품을 불러오는 중...</div>
+                        <div class="goods-sort-tabs" id="goodsSortTabs">
+                            <button type="button" class="goods-sort-btn active" data-sort="default" onclick="goodsSetSort('default')">인기순</button>
+                            <button type="button" class="goods-sort-btn" data-sort="price-asc" onclick="goodsSetSort('price-asc')">낮은가격순</button>
+                            <button type="button" class="goods-sort-btn" data-sort="price-desc" onclick="goodsSetSort('price-desc')">높은가격순</button>
+                            <button type="button" class="goods-sort-btn" data-sort="stock" onclick="goodsSetSort('stock')">재고있는순</button>
+                        </div>
                     </div>
 
                     <div class="goods-grid-v2" id="goodsGrid">
