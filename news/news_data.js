@@ -1,14 +1,6 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-08-11T15:31:13.708Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-08-11T20:25:08.163Z) */
 
 const NEWS_DATA = [
-    {
-        "title": "조여정, 리센느 만나 거제 야호 \"우리 팀 모두 흥분\" - 뉴시스",
-        "source": "뉴시스",
-        "date": "2026-08-11",
-        "url": "https://www.newsis.com/view/NISX20260811_0003744605",
-        "summary": "[서울=뉴시스]박재민 인턴 기자 = 배우 조여정이 그룹 리센느를 만난 뒤 설레는 마음을 표현했다. 조여정은 10일 소셜미디어에 \"와, 리센느. 우리 팀 모두 흥분\"이라는 글과 함께 사진 1장을 올렸다. 사진 속 조여정은 리센느 완전체 멤버들 사이에 서서 사진을 남겼다. 리센느는 조여정과",
-        "image": "https://img1.newsis.com/2026/08/11/NISI20260811_0002209722_web.jpg"
-    },
     {
         "title": "[공식] 잘나가는 리센느, 8월 1주차 비드라마 화제성 1위 - 마이데일리",
         "source": "마이데일리",
@@ -18,12 +10,36 @@ const NEWS_DATA = [
         "image": "https://mydaily.co.kr/photos/2026/08/11/2026081111240409058_l.jpg"
     },
     {
+        "title": "조여정, 리센느 만나 거제 야호 \"우리 팀 모두 흥분\" - 뉴시스",
+        "source": "뉴시스",
+        "date": "2026-08-11",
+        "url": "https://www.newsis.com/view/NISX20260811_0003744605",
+        "summary": "[서울=뉴시스]박재민 인턴 기자 = 배우 조여정이 그룹 리센느를 만난 뒤 설레는 마음을 표현했다. 조여정은 10일 소셜미디어에 \"와, 리센느. 우리 팀 모두 흥분\"이라는 글과 함께 사진 1장을 올렸다. 사진 속 조여정은 리센느 완전체 멤버들 사이에 서서 사진을 남겼다. 리센느는 조여정과",
+        "image": "https://img1.newsis.com/2026/08/11/NISI20260811_0002209722_web.jpg"
+    },
+    {
         "title": "라이즈·에이티즈·르세라핌·아일릿·리센느 출연 ‘K-WORLD DREAM AWARDS’… 알비레오 티켓 이벤트, 현재 당첨확률 100% 근접 - 서울신문",
         "source": "서울신문",
         "date": "2026-08-11",
         "url": "https://www.seoul.co.kr/news/economy/2026/08/11/20260811500169",
         "summary": "알비레오가 서비스 오픈을 기념해 K-WORLD DREAM AWARDS 티켓 응모 이벤트를 연다. 라이즈, 에이티즈, 르세라핌, 아일릿, 리센느 등 인기 K-POP 아티스트 출연으로 팬 관심이 높고, 현재 예상 당첨 확률은 100%에 가깝다.",
         "image": "https://img.seoul.co.kr//img/upload/2026/08/11/SSC_20260811144019_O2.png.webp"
+    },
+    {
+        "title": "리센느·제베원·트레저…K팝 대세돌 美 달군다 - 매일경제",
+        "source": "매일경제",
+        "date": "2026-08-11",
+        "url": "https://www.mk.co.kr/news/culture/12124136",
+        "summary": "케이콘 LA 2026 14일 개막36개 K아티스트들 무대로에드워드 리·박은빈 등K컬처 대표 스타도 참여",
+        "image": "https://pimg.mk.co.kr/news/cms/202608/12/20260812_01160128000001_L00.jpg"
+    },
+    {
+        "title": "리센느 출연에 ‘전참시’ 화제성 1위 - bntnews.co.kr",
+        "source": "bntnews.co.kr",
+        "date": "2026-08-11",
+        "url": "https://www.bntnews.co.kr/article/view/bnt202608110207",
+        "summary": "리센느 효과가 제대로 통했다.MBC ‘전지적 참견 시점’(이하 ‘전참시’)이 8월 1주차 TV-OTT 비드라마 프로그램 화제성 정상에 올랐다. 11일",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/08/11/bnt202608110405.jpg"
     },
     {
         "title": "리센느가 알리는 중소기업 제품…중기부, 미국 LA서 'K컬렉션' - 연합뉴스",
@@ -50,14 +66,6 @@ const NEWS_DATA = [
         "image": "https://cdn.footballist.co.kr/news/thumbnail/202608/213499_177406_298_v150.jpg"
     },
     {
-        "title": "\"신라 공주 모르면 간첩\" 리센느 제나, 고향 경주 황리단길 마비시킨 금의환향 ('안원잘부') - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-11",
-        "url": "https://v.daum.net/v/20260811214603941",
-        "summary": "(MHN 장샛별 기자) 걸그룹 리센느(RESCENE)의 원이와 제나가 폭발적으로 상승한 인기를 실감하며 고향 경주에서 뜻깊은 금의환향의 시간을 가졌다. 11일 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’에서는 제나의 고향인 경주 황리단길을 찾은 원이와 제나의 특별한 일상이 공개됐다.",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/11/HockeyNewsKorea/20260811214606159jjkm.jpg"
-    },
-    {
         "title": "리센느·서장훈·임영웅·정준원·마틴, 32주차 예능 출연자 화제성 TOP5(굿데이터 펀덱스) - 톱스타뉴스",
         "source": "톱스타뉴스",
         "date": "2026-08-11",
@@ -74,28 +82,12 @@ const NEWS_DATA = [
         "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20260811103649004980b91e133c1f11015245119.jpg&nmt=27"
     },
     {
-        "title": "'전참시' 리센느, 화제성 1위 싹쓸이⋯올해만 세 번째 - 조이뉴스24",
-        "source": "조이뉴스24",
+        "title": "\"신라 공주 모르면 간첩\" 리센느 제나, 고향 경주 황리단길 마비시킨 금의환향 ('안원잘부') - v.daum.net",
+        "source": "v.daum.net",
         "date": "2026-08-11",
-        "url": "https://www.joynews24.com/view/1993985",
-        "summary": "그룹 리센느가 화제성을 싹쓸이했다. 출연자는 물론 전참시' 역시 화제성 1위에 오르며 리센느의 놀라운 인기를 실감케 했다. 굿데이터코퍼레이션 펀덱스(FUNdex)가 발표한 8월 1주차 TV-OTT 비드라마 프로그램 화제성 조사에서 MBC '전지적 참견 시점'이 1위를 차지했다. 비드라마",
-        "image": "https://image.inews24.com/v1/143f8059368e50.jpg"
-    },
-    {
-        "title": "리센느 효과..‘전지적 참견 시점’ 화제성 1위 '윈윈' - OSEN",
-        "source": "OSEN",
-        "date": "2026-08-11",
-        "url": "https://www.osen.co.kr/article/G1112854957",
-        "summary": "리센느 효과는 대단했다. 11일 굿데이터코퍼레이션 펀덱스(FUNdex)가 발표한 8월 1주차 TV-OTT 비드라마 프로그램 화제성 조사에서 MBC ‘전지적 참견...",
-        "image": "http://file.osen.co.kr/article_thumb/2026/08/11/202608111124777345_6a7a8940818bb_300x.jpg"
-    },
-    {
-        "title": "리센느·제베원·트레저…K팝 대세돌 美 달군다 - 네이트",
-        "source": "네이트",
-        "date": "2026-08-11",
-        "url": "https://news.nate.com/view/20260811n24857",
-        "summary": "�Ѵ��� ���� ���� : ������ ȭ�� - ���� : K�� �ؿ� �ܼ�Ʈ�� '����'�� �Ҹ��� ������(KCON)�� �� 36������ ���ϴ� K��Ƽ��Ʈ���� �����ϴ� ��� �̹� �ָ� �̱� �ν���������(LA)�� �ޱ��",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/mk/2026/08/11/20260812_01160128000001_L00.jpg"
+        "url": "https://v.daum.net/v/20260811214603941?f=m",
+        "summary": "(MHN 장샛별 기자) 걸그룹 리센느(RESCENE)의 원이와 제나가 폭발적으로 상승한 인기를 실감하며 고향 경주에서 뜻깊은 금의환향의 시간을 가졌다. 11일 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’에서는 제나의 고향인 경주 황리단길을 찾은 원이와 제나의 특별한 일상이 공개됐다.",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/11/HockeyNewsKorea/20260811214606159jjkm.jpg"
     },
     {
         "title": "'전참시' 리센느, TV·OTT 비드라마 출연자 화제성 순위 1위…대세 걸그룹 인증 - 톱스타뉴스",
@@ -106,12 +98,44 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202608/16160480_1988212_5539_crop.jpg"
     },
     {
+        "title": "[공식] 잘나가는 리센느, 8월 1주차 비드라마 화제성 1위 - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-08-11",
+        "url": "https://v.daum.net/v/20260811112528710",
+        "summary": "[마이데일리 = 이승길 기자] 그룹 리센느(RESCENE)가 다시 한번 예능 프로그램의 화제성을 견인하며 독보적인 대세 행보를 입증했다. K-콘텐츠 경쟁력 분석 전문 기관 굿데이터코퍼레이션 펀덱스(FUNdex)가 발표한 8월 1주차(8월 3일~8월 9일 집계) 조사 결과에 따르면, MB",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/11/mydaily/20260811112529699gacu.jpg"
+    },
+    {
         "title": "리센느 출연에 ‘전참시’ 화제성 1위 - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-08-11",
         "url": "https://v.daum.net/v/20260811140839467",
         "summary": "리센느 효과가 제대로 통했다. MBC ‘전지적 참견 시점’(이하 ‘전참시’)이 8월 1주차 TV-OTT 비드라마 프로그램 화제성 정상에 올랐다. 11일 굿데이터코퍼레이션 펀덱스(FUNdex)가 발표한 8월 1주차 TV-OTT 비드라마 프로그램 화제성 조사에 따르면 ‘전참시’가 1위를 차",
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/11/bntnews/20260811140840773ygep.jpg"
+    },
+    {
+        "title": "'전참시' 리센느, 화제성 1위 싹쓸이⋯올해만 세 번째 - 조이뉴스24",
+        "source": "조이뉴스24",
+        "date": "2026-08-11",
+        "url": "https://www.joynews24.com/view/1993985",
+        "summary": "그룹 리센느가 화제성을 싹쓸이했다. 출연자는 물론 전참시' 역시 화제성 1위에 오르며 리센느의 놀라운 인기를 실감케 했다. 굿데이터코퍼레이션 펀덱스(FUNdex)가 발표한 8월 1주차 TV-OTT 비드라마 프로그램 화제성 조사에서 MBC '전지적 참견 시점'이 1위를 차지했다. 비드라마",
+        "image": "https://image.inews24.com/v1/143f8059368e50.jpg"
+    },
+    {
+        "title": "리센느·제베원·트레저…K팝 대세돌 美 달군다 - 네이트",
+        "source": "네이트",
+        "date": "2026-08-11",
+        "url": "https://news.nate.com/view/20260811n24857",
+        "summary": "�Ѵ��� ���� ���� : ������ ȭ�� - ���� : K�� �ؿ� �ܼ�Ʈ�� '����'�� �Ҹ��� ������(KCON)�� �� 36������ ���ϴ� K��Ƽ��Ʈ���� �����ϴ� ��� �̹� �ָ� �̱� �ν���������(LA)�� �ޱ��",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/mk/2026/08/11/20260812_01160128000001_L00.jpg"
+    },
+    {
+        "title": "리센느 효과..‘전지적 참견 시점’ 화제성 1위 '윈윈' - OSEN",
+        "source": "OSEN",
+        "date": "2026-08-11",
+        "url": "https://www.osen.co.kr/article/G1112854957",
+        "summary": "리센느 효과는 대단했다. 11일 굿데이터코퍼레이션 펀덱스(FUNdex)가 발표한 8월 1주차 TV-OTT 비드라마 프로그램 화제성 조사에서 MBC ‘전지적 참견...",
+        "image": "http://file.osen.co.kr/article_thumb/2026/08/11/202608111124777345_6a7a8940818bb_300x.jpg"
     },
     {
         "title": "조여정, 리센느 만나 거제 야호 \"우리 팀 모두 흥분\" - 네이트",
@@ -154,20 +178,20 @@ const NEWS_DATA = [
         "image": "https://cdn.slist.kr/news/thumbnail/202608/758065_1161789_4136_v150.jpg"
     },
     {
-        "title": "‘리센느’ 하프 타임 쇼 보더니…대세 男 스타, 연신 환호→감동 가득한 표정 [MHN:피드] - mhnse.com",
-        "source": "mhnse.com",
-        "date": "2026-08-11",
-        "url": "https://mhnse.com/news/articleView.html?idxno=1485251",
-        "summary": "코미디언 이선민이 서울월드컵경기장에서 열린 '2026 쿠팡플레이 시리즈'의 하프타임 쇼에서 그룹 리센느의 공연에 감동을 받았다. 그는 자신의 SNS에 경기 관람 영상과 함께 리센느에 대한 팬심을 드러내며, 그룹의 최근 성과인 '러브 어택'의 1위 등극 소식을 전했다.",
-        "image": "https://cdn.mhnse.com/mhnsports/2026/08/11085620/thumb_ccms_39524.jpg"
-    },
-    {
         "title": "리센느 효과 제대로…'전참시', TV-OTT 첫 1위→자체 최고 기록 [화제성 VS.] - 네이트",
         "source": "네이트",
         "date": "2026-08-11",
         "url": "https://news.nate.com/view/20260811n21834",
         "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : [�����̵�� ������ ����] �������� ���� ������(�������á�)�� �׷� ������ ȿ���� ���Ծ� TV�� OTT�� �ƿ츣�� ���� ȭ���� ���� ó������ �ö�",
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/ab/2026/08/11/11525564.jpg"
+    },
+    {
+        "title": "‘리센느’ 하프 타임 쇼 보더니…대세 男 스타, 연신 환호→감동 가득한 표정 [MHN:피드] - mhnse.com",
+        "source": "mhnse.com",
+        "date": "2026-08-11",
+        "url": "https://mhnse.com/news/articleView.html?idxno=1485251",
+        "summary": "코미디언 이선민이 서울월드컵경기장에서 열린 '2026 쿠팡플레이 시리즈'의 하프타임 쇼에서 그룹 리센느의 공연에 감동을 받았다. 그는 자신의 SNS에 경기 관람 영상과 함께 리센느에 대한 팬심을 드러내며, 그룹의 최근 성과인 '러브 어택'의 1위 등극 소식을 전했다.",
+        "image": "https://cdn.mhnse.com/mhnsports/2026/08/11085620/thumb_ccms_39524.jpg"
     },
     {
         "title": "디플로부터 리센느까지…내달 '스포티파이 하우스' 출연 - v.daum.net",
@@ -178,20 +202,36 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/10/yonhap/20260810114743446zfyj.jpg"
     },
     {
-        "title": "\"진짜 삼촌 미소\"…이선민, 리센느 승승장구 무대에 \"야, 원이야\" 울컥 - chosun.com",
-        "source": "chosun.com",
+        "title": "\"진짜 삼촌 미소\"…이선민, 리센느 승승장구 무대에 \"야, 원이야\" 울컥 - 조선일보",
+        "source": "조선일보",
         "date": "2026-08-10",
         "url": "https://www.chosun.com/entertainments/broadcast/2026/08/10/GMYTGMLFMVSTQNRSMQ3GEZRYHA/",
         "summary": "방송인 이선민이 서울월드컵경기장에서 진행된 리센느의 하프타임 공연 현장을 찾아 멤버 원이를 응원했다. 과거 웹예능을 통해 맺은 인연으로 원이의 성장을 지켜봐 온 이선민은 무대 위 원이의 모습을 보며 눈시울을 붉히는 등 깊은 애정을 보이며 대중들에게 훈훈함을 전했다.",
         "image": "https://www.chosun.com/resizer/v2/HFSTGZRSGBTGGZBQMZRTCZDCMU.jpg?auth=cf392cf972ea52fb8a147f7a3d3e7cc46e519cb13fffe7cf3de80594c57f0baf&width=600&height=315&smart=true"
     },
     {
+        "title": "리센느 ‘프리티 ’ 컴백 활동 뜯어보니… 글로벌 K팝 팬 76.8% ‘대만족’ - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-08-10",
+        "url": "https://v.daum.net/v/20260810092250673",
+        "summary": "대세 그룹 리센느가 신곡 ‘프리티 걸’ 활동을 성료한 가운데, 글로벌 K팝 팬들도 이들의 활동에 높은 만족도를 드러냈다. K팝 스케줄 앱 블립은 리센느의 신곡 ‘프리티 걸’ 활동을 주제로 진행한 ‘블립 컴백평가단’ 설문 결과를 발표했다. 지난달 20일부터 26일까지 블립 앱 내 ‘덕질 ",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/10/ilgansports/20260810092251343fcdl.jpg"
+    },
+    {
         "title": "리센느, ‘Pretty Girl’ 컴백 활동 호평…글로벌 K팝 팬 76.8% ‘대만족’ - 아시아뉴스통신",
         "source": "아시아뉴스통신",
         "date": "2026-08-10",
-        "url": "https://www.anewsa.com/detail.php?number=3187313",
+        "url": "https://m.anewsa.com/article_sub3.php?number=3187313&type=&mobile=",
         "summary": "(사진출처=리센느 공식 SNS) [아시아뉴스통신=이상진 기자] 글로벌 K팝 팬들이 걸그룹 리센느(RESCENE)의 신곡 활동을 호평했다.K팝 스케줄 앱 ‘블립(blip)’은 리센느의 신곡 ‘Pretty Girl’ 활동을 주제로 진행한 ‘블립 컴백평가단’ 설문 결과를 발표했다.이번 설문은",
         "image": "https://www.anewsa.com/news_images/2026/07/11/mark/20260711103530.jpg"
+    },
+    {
+        "title": "억대 수입 찍겠네…리센느, 광고 문의만 100건→화장실 3개 달린 99평 숙소로 이사 ('전참시')[종합] - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-08-10",
+        "url": "https://v.daum.net/v/20260810210137707",
+        "summary": "[텐아시아=이소정 기자]리센느가 달라진 위상을 실감하게 했다. 광고 문의만 100건에 달한 데 이어 화장실 하나를 함께 쓰던 숙소를 떠나 99평 새 보금자리에 입성했다. 지난 8일 방송된 MBC 예능 프로그램 '전지적 참견 시점' 410회에는 리센느가 단독 게스트로 출연해 최근 달라진 ",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/10/10asia/20260810210143485pybc.jpg"
     },
     {
         "title": "“글로벌 스타 됐으면”…이선민 “리센느 덕분에 저도 언급돼 감격” - 아시아투데이",
@@ -210,28 +250,12 @@ const NEWS_DATA = [
         "image": "https://img1.yna.co.kr/etc/inner/KR/2026/08/10/AKR20260810072500005_01_i_P4.jpg"
     },
     {
-        "title": "태연·리센느부터 앳하트까지…시대 넘어 더 뜨거워진 ‘리메이크’ 열풍 [줌인] - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-08-10",
-        "url": "https://isplus.com/article/view/isp202608100053",
-        "summary": "최근 가요계에 장르와 세대를 불문한 다채로운 리메이크 열풍이 이어지고 있다.신인 그룹 앳하트는 30년의 간극을 뛰어넘는 음악적 시도로 눈길을 끌...",
-        "image": "https://isplus.com/data/isp/image/2026/08/10/isp20260810000075.800x.0.jpg"
-    },
-    {
         "title": "\"서로 성공하자\" 약속했던 이선민, 리센느 원이 하프타임쇼 보고 '울컥' - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-08-10",
         "url": "https://v.daum.net/v/xhR1lzqFWD",
         "summary": "[스포티비뉴스=문준호 기자] 코미디언 이선민이 그룹 리센느 원이의 무대를 보고 울컥한 마음을 드러냈다. 이선민은 9일 자신의 SNS에 서울월드컵경기장에서 찍은 짧은 영상을 게재했다. 이날 경기장에서는 '2026 쿠팡플레이 시리즈' 아틀레티코 마드리드와 맨체스터 시티의 경기가 열렸고, 이",
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/10/spotvnews/20260810171410763hdwz.jpg"
-    },
-    {
-        "title": "억대 수입 찍겠네…리센느, 광고 문의만 100건→화장실 3개 달린 99평 숙소로 이사 ('전참시')[종합] - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-10",
-        "url": "https://v.daum.net/v/20260810210137707",
-        "summary": "[텐아시아=이소정 기자]리센느가 달라진 위상을 실감하게 했다. 광고 문의만 100건에 달한 데 이어 화장실 하나를 함께 쓰던 숙소를 떠나 99평 새 보금자리에 입성했다. 지난 8일 방송된 MBC 예능 프로그램 '전지적 참견 시점' 410회에는 리센느가 단독 게스트로 출연해 최근 달라진 ",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/10/10asia/20260810210143485pybc.jpg"
     },
     {
         "title": "이선민, 축구장 찾은 ‘원이 삼촌’…“리센느” 외치며 하프타임 무대 직관 - 서울신문",
@@ -250,20 +274,12 @@ const NEWS_DATA = [
         "image": "https://cdn.footballist.co.kr/news/thumbnail/202608/213431_177318_4415_v150.jpg"
     },
     {
-        "title": "리센느 1위, 8월 걸그룹 브랜드평판 정상..2위 아이브·3위 레드벨벳 - 브레이크뉴스",
-        "source": "브레이크뉴스",
+        "title": "태연·리센느부터 앳하트까지…시대 넘어 더 뜨거워진 ‘리메이크’ 열풍 [줌인] - 일간스포츠",
+        "source": "일간스포츠",
         "date": "2026-08-10",
-        "url": "http://breaknews.com/1228004",
-        "summary": "리센느(RESCENE / 원이, 리브, 미나미, 메이, 제나) © 뉴시스브레이크뉴스 박동제 기자= 리센느가 8월 걸그룹 브랜드평판 1위를 차지했다. 리센느에 이어",
-        "image": "https://www.breaknews.com/imgdata/breaknews_com/202608/2026081014324448.jpg"
-    },
-    {
-        "title": "[뮤지션100] 준·로키드·이보람 55·41·36계단 급등…임영웅 2위 도약, 리센느 1위 유지 속 중하위권 재편 - 톱스타뉴스",
-        "source": "톱스타뉴스",
-        "date": "2026-08-10",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16160160",
-        "summary": "8월 11일 7시 뮤지션100에서 준·로키드·이보람이 큰 폭으로 상승한 가운데 임영웅이 2위로 도약했고, 플랫폼별 1위 분산과 다곡 소비 구조가 순위 경쟁을 갈랐다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202608/16160160_1987822_3820_crop.jpg"
+        "url": "https://isplus.com/article/view/isp202608100053",
+        "summary": "최근 가요계에 장르와 세대를 불문한 다채로운 리메이크 열풍이 이어지고 있다.신인 그룹 앳하트는 30년의 간극을 뛰어넘는 음악적 시도로 눈길을 끌...",
+        "image": "https://isplus.com/data/isp/image/2026/08/10/isp20260810000075.800x.0.jpg"
     },
     {
         "title": "이선민, 리센느 하프타임 무대 직관…“원이야” 외치며 ‘울컥’ - 스포츠경향",
@@ -282,16 +298,16 @@ const NEWS_DATA = [
         "image": "https://img.seoul.co.kr/img/upload/2026/08/10/SSI_2026081009353701.jpg.webp"
     },
     {
-        "title": "리센느 ‘프리티 걸’에 팬심 응답…미나미, 콘셉트 소화 1위 - 지피코리아",
-        "source": "지피코리아",
+        "title": "리센느 ‘프리티 걸’에 팬심 응답…미나미, 콘셉트 소화 1위 - gpkorea.com",
+        "source": "gpkorea.com",
         "date": "2026-08-10",
         "url": "https://www.gpkorea.com/news/articleView.html?idxno=145532",
         "summary": "걸그룹 리센느(RESCENE)의 신곡 ‘프리티 걸’(Pretty Girl) 활동에 팬들의 긍정적인 반응이 이어졌다.K팝 스케줄 앱 블립(blip)이 지난 7월 20일부터 26일까지 진행한 ‘블립 컴백평가단’ 설문에는 총 1,448명이 참여했다. 조사 결과 응답자의 76.8%가 이번 활동",
         "image": "https://cdn.gpkorea.com/news/photo/202608/145532_309018_489.jpeg"
     },
     {
-        "title": "화장실 하나 쓰던 리센느, 99평 숙소보다 빛난 다섯 우정 - 데일리스포츠한국",
-        "source": "데일리스포츠한국",
+        "title": "화장실 하나 쓰던 리센느, 99평 숙소보다 빛난 다섯 우정 - dailysportshankook.co.kr",
+        "source": "dailysportshankook.co.kr",
         "date": "2026-08-10",
         "url": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=432378",
         "summary": "[데일리스포츠한국 이광수 기자] 99평 숙소와 음악방송 3관왕보다 눈길을 끈 것은 성공한 뒤에도 달라지지 않은 리센느 다섯 멤버의 거리였다.지난 8일 방송된 MB",
@@ -314,12 +330,12 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202608/16159894_1987375_858_crop.jpg"
     },
     {
-        "title": "한국에 이런 미인이…'이강인 고마워' 리센느 원이 만난 비야, 활짝 웃었다 - 네이트",
+        "title": "스윗한 이강인, '대세' 리센느 향해 '월클'급 팬서비스[스한 스틸컷] - 네이트",
         "source": "네이트",
         "date": "2026-08-09",
-        "url": "https://sports.news.nate.com/view/20260809n14273",
-        "summary": "�Ѵ��� ���� ���� : �౸ - ���� : [�������ѱ� ����ö ����]�������� '�౸ ����' �ٺ�� ��߰� ��������Ű������ ã�Ҵ�. �̰����� ��Ʋ��Ƽ��(AT) ���帮�� �Դܽ��� ������ ���ؼ� ������ ��",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/sh/2026/08/09/6937704_1212441_2145.png"
+        "url": "https://sports.news.nate.com/view/20260810n01776",
+        "summary": "�Ѵ��� ���� ���� : �ؿ��౸ - ���� : [�������ѱ� ����ö ����]�̰����� ��Ʋ��Ƽ��(AT) ���帮�� �������� ġ����. ������ ������ �̰����� �������� �Դܽ��� ���������. �Դܽ� ��, �̰�",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/sh/2026/08/10/6937716_1212479_5248.png"
     },
     {
         "title": "\"아재폰? 이번엔 잘 나왔다\"…BTS·리센느도 쓰더니 '대반전' [유지희의 ITMI] - 한국경제",
@@ -330,19 +346,19 @@ const NEWS_DATA = [
         "image": "https://img.hankyung.com/photo/202608/01.45273313.1.png"
     },
     {
-        "title": "리센느 원이·제나, 데뷔 초 다이어트 실패 고백..“그때보다 8kg 빠져” (안원잘부) - OSEN",
-        "source": "OSEN",
-        "date": "2026-08-09",
-        "url": "https://www.osen.co.kr/article/G1112854470",
-        "summary": "리센느 원이와 제나가 제나의 고향인 경주로 떠난 가운데 데뷔 초 다이어트에 실패한 비화를 전했다. 지난 7일 유튜브 채널...",
-        "image": "http://file.osen.co.kr/article_thumb/2026/08/09/202608092330776352_6a7893d4a676d_300x.png"
-    },
-    {
         "title": "하프타임 공연 펼치는 리센느 - 뉴스1",
         "source": "뉴스1",
         "date": "2026-08-09",
         "url": "https://www.news1.kr/photos/8047806",
         "summary": ""
+    },
+    {
+        "title": "리센느 원이, 축구 푹 빠진 이유 \"소속사 대표와 새벽마다 시청\" (프리뷰쇼) - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-08-09",
+        "url": "https://v.daum.net/v/20260809192041399",
+        "summary": "[마이데일리 = 김도형 기자] 원이(22)가 축구에 빠지게 된 특별한 계기를 밝혔다. 그룹 리센느 원이는 9일 서울월드컵경기장에서 열리는 '2026 쿠팡플레이 시리즈' 아틀레티코 마드리드와 맨체스터 시티의 경기에 앞서 진행된 프리뷰쇼에 출연했다. 이날 원이는 축구와 인연을 맺게 된 계기",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/09/mydaily/20260809192043511pcce.png"
     },
     {
         "title": "리센느, 방송 출연없이 ‘음중’ 1위 ‘Pretty Girl’ 인기 계속 - JTBC",
@@ -361,22 +377,6 @@ const NEWS_DATA = [
         "image": "https://wimg.munhwa.com/news/cms/2026/08/09/news-p.v1.20260809.2c8086a91d804adab4321b4f6dd7988a_R.jpg"
     },
     {
-        "title": "리센느 원이, 축구 푹 빠진 이유 \"소속사 대표와 새벽마다 시청\" (프리뷰쇼) - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-09",
-        "url": "https://v.daum.net/v/20260809192041399",
-        "summary": "[마이데일리 = 김도형 기자] 원이(22)가 축구에 빠지게 된 특별한 계기를 밝혔다. 그룹 리센느 원이는 9일 서울월드컵경기장에서 열리는 '2026 쿠팡플레이 시리즈' 아틀레티코 마드리드와 맨체스터 시티의 경기에 앞서 진행된 프리뷰쇼에 출연했다. 이날 원이는 축구와 인연을 맺게 된 계기",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/09/mydaily/20260809192043511pcce.png"
-    },
-    {
-        "title": "[월요칼럼] 리센느&한로로&청춘아 아프지 마라 - 영남일보",
-        "source": "영남일보",
-        "date": "2026-08-09",
-        "url": "https://www.yeongnam.com/web/view.php?key=20260809027500809",
-        "summary": "40도가 넘는 폭염 속을 전속력으로 달려가고 있는 이 시대의 모든 청춘들에게 미안한 마음을 담아 고마움을 전한다 아프니까 청춘이다라는 시절이 있었다 그러나 불확실한 미래를 수도권을 제외한 지역신문 중 가장 오래된 역사를 가진 지역 일간지 영남일보입니다. 방문에 감사드립니다.",
-        "image": "https://www.yeongnam.com/mnt/file/202608/news-p.v1.20260311.273296f528334e64b1df022dc64549e6_R.png"
-    },
-    {
         "title": "[ST포토] 리센느 원이, '아나운서 같죠?' - 네이트",
         "source": "네이트",
         "date": "2026-08-09",
@@ -393,28 +393,20 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/09/mydaily/20260809193930020djev.jpg"
     },
     {
-        "title": "리센느X이강인 '야호'는 상상도 못했네...유니폼에 친필 사인까지 [MD이슈] - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-09",
-        "url": "https://v.daum.net/v/20260809233148883",
-        "summary": "[마이데일리 = 김도형 기자] 리센느가 축구장에서 누구보다 바쁜 하루를 보냈다. 프리뷰쇼 출연부터 하프타임 공연, 경기 후 이강인에게 친필 사인까지 받으며 특별한 추억을 남겼다. 그룹 리센느는 9일 서울월드컵경기장에서 열린 '2026 쿠팡플레이 시리즈' 아틀레티코 마드리드와 맨체스터 시",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/09/mydaily/20260809233150838teve.png"
-    },
-    {
-        "title": "\"아이돌은 부자만 되는 줄…\" 리센느 원이, 대표 한마디에 마음 열어 - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-09",
-        "url": "https://v.daum.net/v/20260809153950982",
-        "summary": "[마이데일리 = 곽명동 기자]그룹 리센느의 원이가 팀에 합류하게 된 계기를 밝혔다. 8일 방송된 MBC 예능 프로그램 '전지적 참견 시점'(이하 '전참시')에서는 리센느가 최초 단독 게스트로 출연해 일상을 공개했다. 이날 리센느 멤버들과 통화한 소속사 대표는 \"예전 영상을 찾아보니 생각",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/09/mydaily/20260809153952700bioj.jpg"
-    },
-    {
         "title": "리센느 원이 \"이강인 AT 마드리드 우승? 폰 뺏어야\" 너스레 (프리뷰쇼) - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-08-09",
         "url": "https://v.daum.net/v/20260809195949000",
         "summary": "[마이데일리 = 김도형 기자] 원이(22)가 아틀레티코 마드리드의 우승을 위한 '특별한 방법'을 제안해 웃음을 자아냈다. 그룹 리센느 원이는 9일 서울월드컵경기장에서 열린 '2026 쿠팡플레이 시리즈' 아틀레티코 마드리드와 맨체스터 시티의 경기에 앞서 진행된 프리뷰쇼에 출연했다. 이날 ",
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/09/mydaily/20260809195950925ctdu.jpg"
+    },
+    {
+        "title": "[포토] 리센느, '하프타임 장악하는 퍼포먼스' - 폴리뉴스 Polinews",
+        "source": "폴리뉴스 Polinews",
+        "date": "2026-08-09",
+        "url": "https://www.polinews.co.kr/news/articleView.html?idxno=739253",
+        "summary": "[폴리뉴스 문용준 기자] 9일 서울월드컵경기장에서 열린 '2026 쿠팡플레이 시리즈' 2차전 아틀레티코 마드리드와 맨체스터 시티의 경기, 하프타임 쇼에서 걸그룹 리센느가 공연을 펼치고 있다.걸그룹 리센느는 리더 원이를 중심으로 리브, 미나미, 메이, 제나로 구성된 5인조 걸그룹이다.",
+        "image": "https://cdn.polinews.co.kr/news/thumbnail/202608/739253_560985_1059_v150.jpg"
     },
     {
         "title": "리센느, ‘Pretty Girl’ 활동 설문서 76.8% 높은 만족도 - 톱스타뉴스",
@@ -425,16 +417,24 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202608/16159298_1986645_2526_crop.jpg"
     },
     {
-        "title": "[한번에쓱]분위기 확 올리고 가요! '맨시티-ATM전 축하공연' 리센느 - 머니투데이 - mt.co.kr",
-        "source": "mt.co.kr",
+        "title": "리센느X이강인 '야호'는 상상도 못했네...유니폼에 친필 사인까지 [MD이슈] - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-08-09",
+        "url": "https://v.daum.net/v/20260809233148883",
+        "summary": "[마이데일리 = 김도형 기자] 리센느가 축구장에서 누구보다 바쁜 하루를 보냈다. 프리뷰쇼 출연부터 하프타임 공연, 경기 후 이강인에게 친필 사인까지 받으며 특별한 추억을 남겼다. 그룹 리센느는 9일 서울월드컵경기장에서 열린 '2026 쿠팡플레이 시리즈' 아틀레티코 마드리드와 맨체스터 시",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/09/mydaily/20260809233150838teve.png"
+    },
+    {
+        "title": "[한번에쓱]분위기 확 올리고 가요! '맨시티-ATM전 축하공연' 리센느 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
         "date": "2026-08-09",
         "url": "https://www.mt.co.kr/entertainment/2026/08/09/2026080921180279036",
         "summary": "하프타임 공연을 마친 리센느가 2026쿠팡플레이 시리즈 맨체스터시티와 아틀레티코 마드리드 경기 분위기를 후끈 달군 후 그라운드를 통해 퇴장하고 있다. 2026.08.09 ${IC10} ${IC11}",
         "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/08/2026080921180279036_1.jpg"
     },
     {
-        "title": "[포토]분위기 확 올리고 가요! '맨시티-ATM전 축하공연' 리센느 - 머니투데이 - mt.co.kr",
-        "source": "mt.co.kr",
+        "title": "[포토]분위기 확 올리고 가요! '맨시티-ATM전 축하공연' 리센느 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
         "date": "2026-08-09",
         "url": "https://www.mt.co.kr/amp/sports/2026/08/09/2026080921191771292",
         "summary": "하프타임 공연을 마친 리센느가 2026쿠팡플레이 시리즈 맨체스터시티와 아틀레티코 마드리드 경기 분위기를 후끈 달군 후 그라운드를 통해 퇴장하고 있다. 2026.08.09",
@@ -447,14 +447,6 @@ const NEWS_DATA = [
         "url": "https://www.bntnews.co.kr/article/view/bnt202608100070",
         "summary": "걸그룹 리센느의 신곡 ‘프리티 걸(Pretty Girl)’ 활동에 대한 글로벌 K팝 팬들의 평가가 공개됐다. 응답자 76.8%가 이번 활동에 만족한다고 답한 가",
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/08/10/bnt202608100102.jpg"
-    },
-    {
-        "title": "스윗한 이강인, '대세' 리센느 향해 '월클'급 팬서비스[스한 스틸컷] - 네이트",
-        "source": "네이트",
-        "date": "2026-08-09",
-        "url": "https://sports.news.nate.com/view/20260810n01776",
-        "summary": "�Ѵ��� ���� ���� : �ؿ��౸ - ���� : [�������ѱ� ����ö ����]�̰����� ��Ʋ��Ƽ��(AT) ���帮�� �������� ġ����. ������ ������ �̰����� �������� �Դܽ��� ���������. �Դܽ� ��, �̰�",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/sh/2026/08/10/6937716_1212479_5248.png"
     },
     {
         "title": "리센느 원이, 빛나는 미소 - 뉴스1",
@@ -495,16 +487,24 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202608/16159158_1986365_1728_crop.jpg"
     },
     {
-        "title": "[사진]리센느 메이,'달콤한 손인사' - chosun.com",
-        "source": "chosun.com",
+        "title": "[사진]리센느 메이,'달콤한 손인사' - 조선일보",
+        "source": "조선일보",
         "date": "2026-08-09",
         "url": "https://www.chosun.com/sports/sports_photo/2026/08/09/MUYWMMZWMQYGKY3CMQYGCOJWGU/",
         "summary": "서울월드컵경기장에서 개최된 2026 쿠팡플레이 시리즈 친선전에서 아틀레티코 마드리드가 맨체스터 시티에게 1-3으로 역전패했습니다. 맨시티의 오마르 마르무시가 멀티골을 기록하며 승리를 견인했고, 가수 리센느 메이가 공연 후 인사를 나누며 현장 분위기를 더했습니다.",
         "image": "https://www.chosun.com/resizer/v2/G42GEYJXGMYGMM3GHE4DANDDMY.jpg?auth=56f9abf0b9e6ed976b99a7b65ea06672dc06a7d1f07b349a732ff1763f4a7f59&width=530&height=278&smart=true"
     },
     {
-        "title": "[사진]리센느 리브,'당당하게 걷기' - 머니투데이 - mt.co.kr",
-        "source": "mt.co.kr",
+        "title": "한국에 이런 미인이…'이강인 고마워' 리센느 원이 만난 비야, 활짝 웃었다 - 네이트",
+        "source": "네이트",
+        "date": "2026-08-09",
+        "url": "https://sports.news.nate.com/view/20260809n14273",
+        "summary": "�Ѵ��� ���� ���� : �౸ - ���� : [�������ѱ� ����ö ����]�������� '�౸ ����' �ٺ�� ��߰� ��������Ű������ ã�Ҵ�. �̰����� ��Ʋ��Ƽ��(AT) ���帮�� �Դܽ��� ������ ���ؼ� ������ ��",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/sh/2026/08/09/6937704_1212441_2145.png"
+    },
+    {
+        "title": "[사진]리센느 리브,'당당하게 걷기' - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
         "date": "2026-08-09",
         "url": "https://www.mt.co.kr/amp/sports/2026/08/09/202608092315775924O",
         "summary": "[OSEN=서울월드컵경기장, 이대선 기자] 이강인(25, ATM)이 아틀레티코 마드리드에서 화려한 데뷔전을 펼쳤다. 아틀레티코 마드리드는 9일 오후 8시 서울월드컵경기장에서 개최된 ‘2026 쿠팡플레이 시리즈’ 친선전에서 맨체스터 시티(이하 맨시티)를 상대로 1-3으로 역전패했다.",
@@ -550,8 +550,8 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
-        "title": "[사진]리센느 리브,'상큼 미소' - 머니투데이 - mt.co.kr",
-        "source": "mt.co.kr",
+        "title": "[사진]리센느 리브,'상큼 미소' - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
         "date": "2026-08-09",
         "url": "https://www.mt.co.kr/sports/2026/08/09/202608092315777849O",
         "summary": "[OSEN=서울월드컵경기장, 이대선 기자] 이강인(25, ATM)이 아틀레티코 마드리드에서 화려한 데뷔전을 펼쳤다. 아틀레티코 마드리드는 9일 오후 8시 서울월드컵경기장에서 개최된 ‘2026 쿠팡플레이 시리즈’ 친선전에서 맨체스터 시티(이하 맨시티)를 상대로 1-3으로 역전패했다.",
@@ -573,6 +573,14 @@ const NEWS_DATA = [
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/st/2026/08/09/09_1082458_67604.jpg"
     },
     {
+        "title": "운동회 행사 뛰던 리센느, 1년 만에 상암경기장 섰다 [MD포커스] - 마이데일리",
+        "source": "마이데일리",
+        "date": "2026-08-09",
+        "url": "https://mydaily.co.kr/page/view/2026080921475584476",
+        "summary": "리센느 / 사진 = 송일섭 기자(andlyu@mydaily....",
+        "image": "https://mydaily.co.kr/photos/2026/08/09/2026080921473348873_l.png"
+    },
+    {
         "title": "[ST포토] 리센느 원이, '안녕~' - 네이트",
         "source": "네이트",
         "date": "2026-08-09",
@@ -581,8 +589,8 @@ const NEWS_DATA = [
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/st/2026/08/09/09_1082459_95813.jpg"
     },
     {
-        "title": "[사진]리센느 메이,'달콤한 손인사' - 머니투데이 - mt.co.kr",
-        "source": "mt.co.kr",
+        "title": "[사진]리센느 메이,'달콤한 손인사' - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
         "date": "2026-08-09",
         "url": "https://www.mt.co.kr/sports/2026/08/09/202608092315772109O",
         "summary": "[OSEN=서울월드컵경기장, 이대선 기자] 이강인(25, ATM)이 아틀레티코 마드리드에서 화려한 데뷔전을 펼쳤다. 아틀레티코 마드리드는 9일 오후 8시 서울월드컵경기장에서 개최된 ‘2026 쿠팡플레이 시리즈’ 친선전에서 맨체스터 시티(이하 맨시티)를 상대로 1-3으로 역전패했다.",
@@ -594,6 +602,22 @@ const NEWS_DATA = [
         "date": "2026-08-09",
         "url": "https://www.news1.kr/photos/8047923",
         "summary": ""
+    },
+    {
+        "title": "리센느X이강인 `야호`는 상상도 못했네...유니폼에 친필 사인까지 [MD이슈] - 마이데일리",
+        "source": "마이데일리",
+        "date": "2026-08-09",
+        "url": "https://mydaily.co.kr/page/view/2026080923123029526",
+        "summary": "리센느, 이강인./쿠팡플레이...",
+        "image": "https://mydaily.co.kr/photos/2026/08/09/2026080923225481712_l.png"
+    },
+    {
+        "title": "리센느, '전참시' 역사 새로 썼다…단독 게스트 '영광' 시청률은 '하락' [美친 시청률] - 조선일보",
+        "source": "조선일보",
+        "date": "2026-08-08",
+        "url": "https://www.chosun.com/entertainments/broadcast/2026/08/09/HA3WGNLCMU3TSNRUGIZWMYRYMU/",
+        "summary": "리센느가 전지적 참견 시점에 출연해 99평 숙소 입주와 음악 방송 3관왕 달성기를 공개했다. 멤버들의 연습생 시절 갈등 극복기와 함께 성장사를 조명했으나, 해당 회차 시청률은 2.9%를 기록하며 전주 대비 0.5%포인트 하락하는 결과를 보였다.",
+        "image": "https://www.chosun.com/resizer/v2/MI3DGY3GMVSWKODCGFTDSMZRGU.jpg?auth=86bfbf45f7040a9514ee3e56737700df976b2fc596167696f647ab1c85aaac3f&width=650&height=341&smart=true"
     },
     {
         "title": "'전참시' 리센느 메이 \"희망 안 보여 팀 떠날 생각도\" 고백 - 뉴스1",
@@ -659,20 +683,12 @@ const NEWS_DATA = [
         "image": "https://images.khan.co.kr/article/2026/08/08/news-p.v1.20260808.2353dd9a3a3a4c86835211b9bafbd93c_P1.png"
     },
     {
-        "title": "'전참시' 음악방송 1위 후보 오른 리센느의 꿈같은 하루 공개 - 머니투데이 - mt.co.kr",
-        "source": "mt.co.kr",
+        "title": "'전참시' 음악방송 1위 후보 오른 리센느의 꿈같은 하루 공개 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
         "date": "2026-08-08",
         "url": "https://www.mt.co.kr/entertainment/2026/08/08/2026080809137220807",
         "summary": "‘전지적 참견 시점’에서 데뷔 3년 만에 음악방송 1위 후보로 오른 걸그룹 리센트의 하루가 공개된다. 오늘(8일) 방송되는 MBC 예능 프로그램 ‘전지적 참견 시점’(기획 강영선, 연출 김윤집·전재욱·김해니·정동식·이다운, 작가 여현전) 410회에서는 새 앨범 ‘프리티걸(Pretty G",
         "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=754,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/08/2026080809137220807_1.jpg"
-    },
-    {
-        "title": "“그래, 이것도 사줄게”...유통가는 지금 ‘리센느 모시기’ - 매일경제",
-        "source": "매일경제",
-        "date": "2026-08-07",
-        "url": "https://www.mk.co.kr/news/business/12121077",
-        "summary": "편의점·학생복·음료·뷰티까지 ‘중소돌’ 친근한 이미지로 인기",
-        "image": "https://static.mk.co.kr/2025/economy/images/economy600600.png"
     },
     {
         "title": "동아오츠카, 나랑드사이다 새 얼굴 리센느와 신규 광고 온에어 - intn.co.kr",
@@ -683,8 +699,16 @@ const NEWS_DATA = [
         "image": "http://www.intn.co.kr/news/thumbnail/202608/2052411_737596_537_v150.jpg"
     },
     {
-        "title": "동아오츠카, 나랑드사이다 새 모델 '리센느' 광고 공개 - 전자신문",
-        "source": "전자신문",
+        "title": "“그래, 이것도 사줄게”...유통가는 지금 ‘리센느 모시기’ - 매일경제",
+        "source": "매일경제",
+        "date": "2026-08-07",
+        "url": "https://www.mk.co.kr/news/business/12121077",
+        "summary": "편의점·학생복·음료·뷰티까지 ‘중소돌’ 친근한 이미지로 인기",
+        "image": "https://static.mk.co.kr/2025/economy/images/economy600600.png"
+    },
+    {
+        "title": "동아오츠카, 나랑드사이다 새 모델 '리센느' 광고 공개 - etnews.com",
+        "source": "etnews.com",
         "date": "2026-08-07",
         "url": "https://www.etnews.com/20260807000082",
         "summary": "동아오츠카는 나랑드사이다의 새 모델 '리센느'(RESCENE)와 함께 한 신규 광고를 7일 공개했다. 이번 광고는 차량에 탄 리센느 멤버들이 CM송을 부르며 해안가를 달리는 장면으로 시작한다. 이어 다양한 음식과 나랑드사이다가 어우러지는 모습을 통해 브랜드 특유의 청량감을 표현했다. 나",
@@ -697,6 +721,14 @@ const NEWS_DATA = [
         "url": "https://v.daum.net/v/7qVN2Svmv7",
         "summary": "[OSEN=하수정 기자] 대세 걸그룹 리센느가 99평 새 숙소로 보금자리를 옮겼다. MBC ‘전지적 참견 시점’에서 역주행 신화를 쓴 걸그룹 리센느가 99평짜리 새 숙소에서의 생활을 최초 공개한다. 오는 8일(토) 밤 11시 10분 방송되는 MBC 예능 프로그램 ‘전지적 참견 시점’(기",
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/07/poctan/20260807085108379pzpr.png"
+    },
+    {
+        "title": "'차트 1위' 리센느 키운 중소 기획사 뒤엔 벤처투자 있었다 - 연합뉴스",
+        "source": "연합뉴스",
+        "date": "2026-08-05",
+        "url": "https://www.yna.co.kr/view/AKR20260805035500030",
+        "summary": "(서울=연합뉴스) 구정모 기자 = 한국벤처투자는 걸그룹 리센느의 소속사 더뮤즈엔터테인먼트의 'KVIC 비욘드&브릿지(Beyond &amp...",
+        "image": "https://img4.yna.co.kr/etc/inner/KR/2026/08/05/AKR20260805035500030_01_i_P4.jpg"
     },
     {
         "title": "‘야호’에 광고도, 매출도 움직였다...브랜드가 주목한 '리센느 효과' - YTN",
