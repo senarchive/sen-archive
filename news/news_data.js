@@ -1,4 +1,4 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-08-13T15:32:43.256Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-08-13T20:04:23.506Z) */
 
 const NEWS_DATA = [
     {
@@ -42,6 +42,14 @@ const NEWS_DATA = [
         "image": "https://cdn.gpkorea.com/news/photo/202608/145618_309225_817.jpg"
     },
     {
+        "title": "‘거제 야호’ 리센느, 에이페 모델 됐다 - 시장경제신문",
+        "source": "시장경제신문",
+        "date": "2026-08-13",
+        "url": "https://www.meconomynews.com/news/articleView.html?idxno=200535",
+        "summary": "어댑트가 자사의 고기능 헤어 솔루션 브랜드 에이페(epais)의 새로운 모델로 라이징 걸그룹 리센느(RESCENE)를 발탁하고 소비자 접점 확대를 위한 브랜드 캠",
+        "image": "https://cdn.meconomynews.com/news/photo/202608/200535_200986_589.jpg"
+    },
+    {
         "title": "스마트스터디벤처스, '리센느' 데뷔도 전에 소속사 최초 투자…기업가치 '껑충' - 마켓잉크",
         "source": "마켓잉크",
         "date": "2026-08-13",
@@ -56,6 +64,14 @@ const NEWS_DATA = [
         "url": "https://news.lghellovision.net/news/articleView.html?idxno=551030",
         "summary": "56만 명.이미 작년 한 해 치를 넘어섰습니다.거제 앞바다 해수욕장 이야기입니다.이달 2일까지 거제 16개 해수욕장을 찾은 인원이 56만723명, 지난해보다 80% 늘었는데요.핵심 배경은 ‘마른장마’입니다.비가 뜸해지면서 쾌적한 수질이 유지된 겁니다.여기에 걸그룹 리센느 멤버 원이의 유",
         "image": "https://cdn.news.lghellovision.net/news/thumbnail/202608/551030_187809_1744_v150.jpg"
+    },
+    {
+        "title": "리센느, 요즘 나오는 차트마다 정상…이번엔 아차랭킹 1위 - 마이데일리",
+        "source": "마이데일리",
+        "date": "2026-08-13",
+        "url": "https://www.mydaily.co.kr/page/view/2026081316502925640",
+        "summary": "리센느 / 마이데일리...",
+        "image": "https://mydaily.co.kr/photos/2026/08/13/2026081316501162925_l.jpg"
     },
     {
         "title": "리센느 맨시티어택 쿠팡 공개 - v.daum.net",
@@ -82,14 +98,6 @@ const NEWS_DATA = [
         "image": "http://www.ktnews.com/news/thumbnail/202608/147705_128636_318_v150.jpg"
     },
     {
-        "title": "에이페, 리센느 모델 발탁...헤어 케어 솔루션 제안 - 월요신문",
-        "source": "월요신문",
-        "date": "2026-08-13",
-        "url": "https://www.wolyo.co.kr/news/articleView.html?idxno=316393",
-        "summary": "어댑트의 헤어 케어 브랜드 에이페(epais)가 걸그룹 리센느(RESCENE)를 브랜드 모델로 발탁하고 소비자 접점 확대를 위한 브랜드 캠페인을 본격 전개한다고",
-        "image": "https://cdn.wolyo.co.kr/news/photo/202608/316393_222980_5737.jpg"
-    },
-    {
         "title": "에이페, 리센느 브랜드 모델 발탁… Z세대 공략 강화 - 패션비즈",
         "source": "패션비즈",
         "date": "2026-08-13",
@@ -106,12 +114,12 @@ const NEWS_DATA = [
         "image": "https://news.nateimg.co.kr/orgImg/mt/2026/08/13/2026081315502388514_1.jpg"
     },
     {
-        "title": "[HD포토] 트와이스 사나, ‘리센느 미나미가 사랑하는 언니’ (조 말론 런던 포토월) - 톱스타뉴스",
-        "source": "톱스타뉴스",
+        "title": "[정선기의 힐링타임] \"거제 야호!\" 한 마디가 바꾼 운명…중소돌 리센느가 쓴 역주행 신화 - 시장경제신문",
+        "source": "시장경제신문",
         "date": "2026-08-13",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16162563",
-        "summary": "8월 13일 서울 성동구 성수동 조 말론 런던 팝업 스토어에서 ‘조 말론 런던 씨 솔트 앤 베르가못 코롱 출시 기념 포토콜’이 진행됐다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202608/16162563_1990621_504_crop.jpg"
+        "url": "https://www.meconomynews.com/news/articleView.html?idxno=200525",
+        "summary": "\"거제, 야호~!\" 2026년 상반기, 이 한 마디가 K팝 업계의 공식 자체를 흔들었다. 중소돌 그룹 일본인 멤버 미나미가 리더 원이의 유튜브 채널에서 무심코 외",
+        "image": "https://cdn.meconomynews.com/news/photo/202608/200525_200962_2859.jpg"
     },
     {
         "title": "쿠팡플레이 뭐 보지? 리센느부터 빅뱅·김혜수까지 - v.daum.net",
@@ -122,6 +130,14 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/13/bntnews/20260813142442461uwai.jpg"
     },
     {
+        "title": "[HD포토] 트와이스 사나, ‘리센느 미나미가 사랑하는 언니’ (조 말론 런던 포토월) - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-08-13",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16162563",
+        "summary": "8월 13일 서울 성동구 성수동 조 말론 런던 팝업 스토어에서 ‘조 말론 런던 씨 솔트 앤 베르가못 코롱 출시 기념 포토콜’이 진행됐다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202608/16162563_1990621_504_crop.jpg"
+    },
+    {
         "title": "에이페, 리센느 브랜드 모델 발탁 - 한스경제",
         "source": "한스경제",
         "date": "2026-08-13",
@@ -130,19 +146,12 @@ const NEWS_DATA = [
         "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202608/856514_876820_2834_v150.jpg"
     },
     {
-        "title": "세계 누빈 방탄·대중 홀린 리센느·Chill 스키즈…32주차 써클차트 최상단 - nc.press",
-        "source": "nc.press",
+        "title": "세계 누빈 방탄·대중 홀린 리센느·Chill 스키즈…32주차 써클차트 최상단 - 뉴스컬처",
+        "source": "뉴스컬처",
         "date": "2026-08-13",
         "url": "https://www.nc.press/news/articleView.html?idxno=623564",
         "summary": "[뉴스컬처 박동선 기자] 거대한 글로벌 투어를 기점으로 시장을 장악한 톱티어들과, 친숙한 밈(Meme) 확산 및 극적인 역주행 서사를 앞세운 대세들이 32주차 차",
         "image": "https://cdn.nc.press/news/photo/202608/623564_852228_363.jpg"
-    },
-    {
-        "title": "[영상] 리센느 향해 쌩까네? 뭘 째려봐 발언한 기자 - 아주경제",
-        "source": "아주경제",
-        "date": "2026-08-12",
-        "url": "https://www.ajunews.com/view/20260812172107622",
-        "summary": ""
     },
     {
         "title": "리센느 '포즈 장인들~'[★포토] - starnewskorea.com",
@@ -161,20 +170,28 @@ const NEWS_DATA = [
         "image": "https://cdn.slist.kr/news/thumbnail/202608/758402_1162227_3459_v150.jpg"
     },
     {
-        "title": "“언젠가 뜰 것 같더라”…리센느 저점 매수 성공한 이창희 감독 - v.daum.net",
-        "source": "v.daum.net",
+        "title": "김혜수 '지금 불륜'에 왜 '러브 어택'이?..\"1년 전 판권 사, 리센느 뜰 줄 알았다\" '감다살' 연출 비화 [인터뷰②] - starnewskorea.com",
+        "source": "starnewskorea.com",
         "date": "2026-08-12",
-        "url": "https://v.daum.net/v/20260812171128203",
-        "summary": "쿠팡플레이 시리즈 ‘지금 불륜이 문제가 아닙니다’의 이창희 감독이 걸그룹 리센느의 ‘러브 어택’을 작품에 삽입한 배경을 공개했다. 이창희 감독은 12일 서울 종로구 삼청동 한 카페에서 진행된 인터뷰에서 극 중 ‘러브 어택’을 사용한 이유에 대해 “내가 원래 팬이었다. 촬영 당시 듣고 노",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/12/segye/20260812171128861amfo.jpg"
+        "url": "https://www.starnewskorea.com/star/2026/08/12/2026081212330884663",
+        "summary": "'지금 불륜' 이창희 감독이 '역주행 신화' 리센느(RESCENE)를 일찍이 알아본 놀라운 '촉'을 자랑했다. 이창희 감독은 12일 오전 서울 종로구 삼청동 한 카페에서 스타뉴스와 인터뷰를 진행했다. 앞서 지난달 31일 OTT 쿠팡플레이 시리즈 '지금 불륜이 문제가 아닙니다'(이하 '지",
+        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=1581,fit=cover,q=high,sharpen=2/21/2026/08/2026081212330884663_1.jpg"
     },
     {
-        "title": "'지금 불륜' 이창희 감독 \"리센느 '러브 어택' 삽입, 제가 팬이라\"[인터뷰②] - 네이트",
+        "title": "‘지금 불륜’ 이창희 감독 “리센느 ‘러브 어택’ 삽입, 제가 팬이라”[인터뷰②] - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-08-12",
+        "url": "https://v.daum.net/v/20260812143307379",
+        "summary": "[스포츠경향 이다원 기자] OTT플랫폼 쿠팡플레이 새 시리즈 ‘지금 불륜이 문제가 아닙니다’ 이창희 감독이 극 중 그룹 리센느의 히트곡 ‘러브 어택’을 삽입한 배경을 공개했다. 이창희 감독은 12일 오전 스포츠경향과 인터뷰에서 리센느 ‘러브 어택’을 배경음악으로 선택한 이유를 묻자 “제",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/12/sportskhan/20260812143308868ihiv.jpg"
+    },
+    {
+        "title": "\"언젠가 뜰 것 같더라\"…리센느 저점 매수 성공한 이창희 감독 - 네이트",
         "source": "네이트",
         "date": "2026-08-12",
-        "url": "https://news.nate.com/view/20260812n20374",
-        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : �׷� ������(����)�� ��â�� ����.[���������� �̴ٿ� ����] OTT�÷��� �����÷��� �� �ø��� ������ �ҷ��� ������ �ƴմϴ١� ��â�� ������ �� ",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/kz/2026/08/12/news-p.v1.20260812.26b36392e39c4432bd76fb225ab98025_P1.jpg"
+        "url": "https://news.nate.com/view/20260812n28106",
+        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : �����÷��� �ø��� ������ �ҷ��� ������ �ƴմϴ١��� ��â�� ������ �ɱ׷� �������� ������ ���á��� ��ǰ�� ������ ����� �����ߴ�. ��â�� ���",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/sg/2026/08/12/20260812519725.jpg"
     },
     {
         "title": "인'스타'그램 세상|[영상] 리센느 향해 \"쌩까네? 뭘 째려봐\" 발언한 기자 - ZUM 뉴스",
@@ -208,20 +225,18 @@ const NEWS_DATA = [
         "image": "https://cdn.leadeconomy.co.kr/news/photo/202608/9132_9194_433.jpg"
     },
     {
-        "title": "에이페, 새 브랜드 모델에 걸그룹 리센느 발탁 - 비욘드포스트",
-        "source": "비욘드포스트",
+        "title": "[영상] 리센느 향해 쌩까네? 뭘 째려봐 발언한 기자 - 아주경제",
+        "source": "아주경제",
         "date": "2026-08-12",
-        "url": "https://www.beyondpost.co.kr/view.php?ud=2026081308395812946a9e4dd7f_30",
-        "summary": "어댑트의 헤어 솔루션 브랜드 에이페가 걸그룹 리센느를 새 브랜드 모델로 발탁했다고 13일 밝혔다. 에이페는 리센느와 함께 브랜드 콘텐츠와 마케팅 활동을 전개할 예정이다.에이페는 최근 리센느 멤버들의 일상과 헤어 관리 과정을 담은 '왓츠 인 마이 백' 콘텐츠를 공개했다. 콘텐츠에는 '스칼",
-        "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=2026081308402405644046a9e4dd7f1822257147.jpg&nmt=30"
+        "url": "https://www.ajunews.com/amp/20260812172107622",
+        "summary": ""
     },
     {
-        "title": "에이페, 걸그룹 리센느 모델 발탁···헤어 케어 캠페인 전개 - 글로벌E",
-        "source": "글로벌E",
+        "title": "[보도자료] 쿠팡플레이 예능 '리센느의 맨시티 어택!' 8월 14일(금) 오후 4시 전격 공개! ‘홀란’도 주목한 화제의 만남, 그 전말은? - 쿠팡 뉴스룸",
+        "source": "쿠팡 뉴스룸",
         "date": "2026-08-12",
-        "url": "https://www.globale.co.kr/news/articleView.html?idxno=39855",
-        "summary": "어댑트의 고기능 헤어 솔루션 브랜드 에이페(epais)가 걸그룹 리센느(RESCENE)를 새로운 브랜드 모델로 발탁하고 브랜드 캠페인을 전개한다고 밝혔다.에이페는 리센느의 팬덤과 트렌디한 이미지가 소비자 접점을 넓히는 데 적합하다고 판단해 모델로 선정했다.",
-        "image": "https://cdn.globale.co.kr/news/thumbnail/202608/39855_65602_4438_v150.jpg"
+        "url": "https://news.coupang.com/archives/65607/",
+        "summary": ""
     },
     {
         "title": "리센느 원이 '미소 활짝'[★포토] - v.daum.net",
@@ -230,21 +245,6 @@ const NEWS_DATA = [
         "url": "https://v.daum.net/v/20260812120451602?f=m",
         "summary": "[스타뉴스 | 인천국제공항=임성균 기자] 그룹 리센느(RESCENE) 원이가 해외 일정 차 12일 오전 인천국제공항을 통해 출국하고 있다. 2026.08.12 인천국제공항=임성균 기자 tjdrbs23@mt.co.kr",
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/12/starnews/20260812120452620efky.jpg"
-    },
-    {
-        "title": "[뮤직컴퍼니100] 리센느 더뮤즈엔터테인먼트 5.9%로 최근 10일 첫 2위…키키 155점↑ 스타쉽 0.16%↑ - 톱스타뉴스",
-        "source": "톱스타뉴스",
-        "date": "2026-08-12",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16162281",
-        "summary": "8월 13일 오전 7시 뮤직컴퍼니100에서 리센느의 더뮤즈엔터테인먼트가 5.9%로 8월 4일 이후 처음 2위에 올랐고, 키키의 155점 상승과 스타쉽엔터테인먼트의 0.16% 상승도 확인됐다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202608/16162281_1990270_4037_crop.jpg"
-    },
-    {
-        "title": "[보도자료] 쿠팡플레이 예능 '리센느의 맨시티 어택!' 8월 14일(금) 오후 4시 전격 공개! ‘홀란’도 주목한 화제의 만남, 그 전말은? - 쿠팡 뉴스룸",
-        "source": "쿠팡 뉴스룸",
-        "date": "2026-08-12",
-        "url": "https://news.coupang.com/archives/65607/",
-        "summary": ""
     },
     {
         "title": "'리센느 원이 삼촌' 이선민 \"6개월 만에 전교 240등→15등\"…성적표 공개('유퀴즈') - v.daum.net",
@@ -263,28 +263,12 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/12/starnews/20260812120416197yvnr.jpg"
     },
     {
-        "title": "Stray Kids·리센느·HUNTR/X, 32주차 써클차트 정상 싹쓸이 - 톱스타뉴스",
-        "source": "톱스타뉴스",
+        "title": "에이페, 새 브랜드 모델에 걸그룹 리센느 발탁 - 비욘드포스트",
+        "source": "비욘드포스트",
         "date": "2026-08-12",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16162361",
-        "summary": "2026년 32주차 써클차트에서 Stray Kids(스트레이 키즈)가 미니 앨범 ‘THIS & THAT’과 타이틀곡 ‘This & That’으로 앨범·리테일 앨범·다운로드차트 3관왕을 차지했고, RESCENE(리센느) ‘LOVE ATTACK’과 HUNTR/X ‘Golden’이 각 차트 ",
-        "image": "https://cdn.topstarnews.net/news/photo/202608/16162361_1990404_540_crop.jpg"
-    },
-    {
-        "title": "리센느 리브도 ‘샤라웃’ 하트오브우먼, 레트로 패러다임 뒤엎은 ‘Y3K’ [줌인] - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-08-12",
-        "url": "https://isplus.com/article/view/isp202608120038",
-        "summary": "그룹 하트오브우먼이 가요계에 몰아친 레트로 열풍 속에서 자신들만의 정체성으로 승부수를 던졌다.지난 5월 데뷔해 최근 약 2개월간의 활동을 마무리...",
-        "image": "https://isplus.com/data/isp/image/2026/08/12/isp20260812000121.800x.0.jpg"
-    },
-    {
-        "title": "[뮤지션100] 에이핑크 정은지·림킴·원우 급등…중하위권 재편, 리센느 1위·하츠투하츠 78점 증가 - 톱스타뉴스",
-        "source": "톱스타뉴스",
-        "date": "2026-08-12",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16162273",
-        "summary": "8월 13일 7시 뮤지션100에서 에이핑크 정은지가 37계단, 림킴이 32계단, 원우가 20계단 오르며 중하위권 재편을 주도했고, 리센느는 다곡 분산형 점유율로 종합 1위를 지켰다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202608/16162273_1990248_3422_crop.jpg"
+        "url": "https://www.beyondpost.co.kr/view.php?ud=2026081308395812946a9e4dd7f_30",
+        "summary": "어댑트의 헤어 솔루션 브랜드 에이페가 걸그룹 리센느를 새 브랜드 모델로 발탁했다고 13일 밝혔다. 에이페는 리센느와 함께 브랜드 콘텐츠와 마케팅 활동을 전개할 예정이다.에이페는 최근 리센느 멤버들의 일상과 헤어 관리 과정을 담은 '왓츠 인 마이 백' 콘텐츠를 공개했다. 콘텐츠에는 '스칼",
+        "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=2026081308402405644046a9e4dd7f1822257147.jpg&nmt=30"
     },
     {
         "title": "리센느 '포즈 장인들~' - 머니투데이",
@@ -295,27 +279,36 @@ const NEWS_DATA = [
         "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/08/2026081212102998366_1.jpg"
     },
     {
-        "title": "리센느 원이 '머리띠가 포인트!'[★포토] - starnewskorea.com",
+        "title": "에이페, 걸그룹 리센느 모델 발탁···헤어 케어 캠페인 전개 - 글로벌E",
+        "source": "글로벌E",
+        "date": "2026-08-12",
+        "url": "https://www.globale.co.kr/news/articleView.html?idxno=39855",
+        "summary": "어댑트의 고기능 헤어 솔루션 브랜드 에이페(epais)가 걸그룹 리센느(RESCENE)를 새로운 브랜드 모델로 발탁하고 브랜드 캠페인을 전개한다고 밝혔다.에이페는 리센느의 팬덤과 트렌디한 이미지가 소비자 접점을 넓히는 데 적합하다고 판단해 모델로 선정했다.",
+        "image": "https://cdn.globale.co.kr/news/thumbnail/202608/39855_65602_4438_v150.jpg"
+    },
+    {
+        "title": "[뮤직컴퍼니100] 리센느 더뮤즈엔터테인먼트 5.9%로 최근 10일 첫 2위…키키 155점↑ 스타쉽 0.16%↑ - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-08-12",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16162281",
+        "summary": "8월 13일 오전 7시 뮤직컴퍼니100에서 리센느의 더뮤즈엔터테인먼트가 5.9%로 8월 4일 이후 처음 2위에 올랐고, 키키의 155점 상승과 스타쉽엔터테인먼트의 0.16% 상승도 확인됐다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202608/16162281_1990270_4037_crop.jpg"
+    },
+    {
+        "title": "리센느 꽃이 피었습니다![★포토] - starnewskorea.com",
         "source": "starnewskorea.com",
         "date": "2026-08-12",
-        "url": "https://www.starnewskorea.com/music/2026/08/12/2026081212073575512",
-        "summary": "그룹 리센느(RESCENE) 원이가 해외 일정 차 12일 오전 인천국제공항을 통해 출국하고 있다. 2026.08.12",
-        "image": "https://image.starnewskorea.com/21/2026/08/2026081212073575512_1.jpg"
+        "url": "https://www.starnewskorea.com/music/2026/08/12/2026081212043191289",
+        "summary": "그룹 리센느(RESCENE) 리브, 미나미, 제나, 원이, 메이가 해외 일정 차 12일 오전 인천국제공항을 통해 출국하고 있다. 2026.08.12",
+        "image": "https://image.starnewskorea.com/21/2026/08/2026081212043191289_1.jpg"
     },
     {
-        "title": "7개월 만에 50만개 팔린 두피 앰플…에이페, 리센느와 팬덤 확장 - pinpointnews.co.kr",
-        "source": "pinpointnews.co.kr",
+        "title": "Stray Kids·리센느·HUNTR/X, 32주차 써클차트 정상 싹쓸이 - 톱스타뉴스",
+        "source": "톱스타뉴스",
         "date": "2026-08-12",
-        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=476898",
-        "summary": "어댑트의 헤어 솔루션 브랜드 에이페가 걸그룹 리센느(RESCENE)를 새 모델로 발탁하고 국내외 소비자 접점 확대에 나선다. 출시 7개월 만에 누적 판매량 50만개를 기록한 ‘스칼프 부스팅 앰플’을 중심으로 두피 관리를 일상적인 셀프케어 영역으로 넓힌다는 전략이다.라이프솔루션 기반 D2",
-        "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202608/476898_463895_4032_v150.jpg"
-    },
-    {
-        "title": "리센느 원이·유재석 등에 업은 이선민 “평정심 유지중” 웃찾사 폐지의 교훈(유퀴즈)[어제TV] - 뉴스엔",
-        "source": "뉴스엔",
-        "date": "2026-08-12",
-        "url": "https://m.newsen.com/news_view.php?uid=202608121916006110",
-        "summary": ""
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16162361",
+        "summary": "2026년 32주차 써클차트에서 Stray Kids(스트레이 키즈)가 미니 앨범 ‘THIS & THAT’과 타이틀곡 ‘This & That’으로 앨범·리테일 앨범·다운로드차트 3관왕을 차지했고, RESCENE(리센느) ‘LOVE ATTACK’과 HUNTR/X ‘Golden’이 각 차트 ",
+        "image": "https://cdn.topstarnews.net/news/photo/202608/16162361_1990404_540_crop.jpg"
     },
     {
         "title": "리센느, '월클' 축구선수 만난다…'맨시티 어택!' 14일 공개 - 뉴스1",
@@ -332,28 +325,12 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
-        "title": "리센느 'KCON 잘 다녀올게요~'[★영상] - starnewskorea.com",
-        "source": "starnewskorea.com",
-        "date": "2026-08-12",
-        "url": "https://www.starnewskorea.com/music/2026/08/12/2026081212011185542",
-        "summary": "그룹 리센느(RESCENE) 원이, 리브, 미나미, 메이, 제나가 해외 일정 차 12일 오전 인천국제공항을 통해 출국하고 있다. 2026.08.12",
-        "image": "https://image.starnewskorea.com/21/2026/08/2026081212011185542_1.jpg"
-    },
-    {
         "title": "맨시티 야호… ‘리센느의 맨시티 어택’ 14일 공개 - bntnews.co.kr",
         "source": "bntnews.co.kr",
         "date": "2026-08-12",
         "url": "https://www.bntnews.co.kr/article/view/bnt202608120122",
         "summary": "쿠팡플레이가 맨체스터 시티와 걸그룹 리센느의 만남을 담은 예능 ‘리센느의 맨시티 어택!’을 14일 공개하며 역대급 스포츠 예능의 탄생을 알",
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/08/12/bnt202608120194.jpg"
-    },
-    {
-        "title": "‘지금 불륜’ 이창희 감독 “리센느 ‘러브 어택’ 삽입, 제가 팬이라”[인터뷰②] - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-12",
-        "url": "https://v.daum.net/v/20260812143307379",
-        "summary": "[스포츠경향 이다원 기자] OTT플랫폼 쿠팡플레이 새 시리즈 ‘지금 불륜이 문제가 아닙니다’ 이창희 감독이 극 중 그룹 리센느의 히트곡 ‘러브 어택’을 삽입한 배경을 공개했다. 이창희 감독은 12일 오전 스포츠경향과 인터뷰에서 리센느 ‘러브 어택’을 배경음악으로 선택한 이유를 묻자 “제",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/12/sportskhan/20260812143308868ihiv.jpg"
     },
     {
         "title": "맨시티·리센느 만났다…쿠팡플레이 ‘리센느의 맨시티 어택!’ 14일 공개 - 이투데이",
@@ -372,12 +349,19 @@ const NEWS_DATA = [
         "image": "https://image.starnewskorea.com/21/2026/08/2026081212113617075_1.jpg"
     },
     {
-        "title": "리센느, 'Pretty Girl' 3관왕 찍고 LA행…국내 역주행 열기 KCON으로 - 네이트",
-        "source": "네이트",
+        "title": "리센느 'KCON 잘 다녀올게요~'[★영상] - starnewskorea.com",
+        "source": "starnewskorea.com",
         "date": "2026-08-12",
-        "url": "https://news.nate.com/view/20260813n05274?mid=e0600",
-        "summary": "�Ѵ��� ���� ���� : ���̵�24�� - ���� : �������� ���� ��Ʈ�� ���ǹ�ۿ��� �̾��� ��¼��� �Ȱ� �̱� LA�� ���ߴ�. ������(RESCENE)�� 12�� ���� KCON LA 2026 �ܼ�Ʈ ���� ������ ��",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/aa/2026/08/13/news-p.v1.20260813.76a0a8619b5043ff85d3bf70fb26ac57_P1.png"
+        "url": "https://www.starnewskorea.com/music/2026/08/12/2026081212011185542",
+        "summary": "그룹 리센느(RESCENE) 원이, 리브, 미나미, 메이, 제나가 해외 일정 차 12일 오전 인천국제공항을 통해 출국하고 있다. 2026.08.12",
+        "image": "https://image.starnewskorea.com/21/2026/08/2026081212011185542_1.jpg"
+    },
+    {
+        "title": "리센느 원이·유재석 등에 업은 이선민 “평정심 유지중” 웃찾사 폐지의 교훈(유퀴즈)[어제TV] - 뉴스엔",
+        "source": "뉴스엔",
+        "date": "2026-08-12",
+        "url": "https://m.newsen.com/news_view.php?uid=202608121916006110",
+        "summary": ""
     },
     {
         "title": "[인터뷰②] ‘지금 불륜’ 이창희 감독 “리센느 ‘러브 어택’ 삽입, 제가 팬이라” - 스포츠경향",
@@ -412,12 +396,44 @@ const NEWS_DATA = [
         "image": "https://image.starnewskorea.com/21/2026/08/2026081212053791668_1.jpg"
     },
     {
+        "title": "리센느 돌풍 속 대형 엔터사 ‘신인 걸그룹’ 자존심 대결 - 서울경제",
+        "source": "서울경제",
+        "date": "2026-08-12",
+        "url": "https://www.sedaily.com/article/20078709",
+        "summary": "‘중소돌의 기적’ 리센느 돌풍 속에 하이브와 JYP엔터테인먼트가 나란히 7인조 신인 걸그룹을 선보이며 정면 승부를 펼친다. 국내 대표 엔터테인먼트사가 비슷한 시기에 같은 7인조 신인을 내놓는 데다 서로 다른 음악과 콘셉트로 차별화에 나서면서 분위기가 달아오르고 있다.",
+        "image": "https://wimg.sedaily.com/news/cms/2026/08/13/news-p.v1.20260812.71e5a45c98d44e898df395becd733fbe_R.jpg"
+    },
+    {
+        "title": "[뮤지션100] 에이핑크 정은지·림킴·원우 급등…중하위권 재편, 리센느 1위·하츠투하츠 78점 증가 - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-08-12",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16162273",
+        "summary": "8월 13일 7시 뮤지션100에서 에이핑크 정은지가 37계단, 림킴이 32계단, 원우가 20계단 오르며 중하위권 재편을 주도했고, 리센느는 다곡 분산형 점유율로 종합 1위를 지켰다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202608/16162273_1990248_3422_crop.jpg"
+    },
+    {
         "title": "리센느 제나-원이 '하트-야호~'[★포토] - starnewskorea.com",
         "source": "starnewskorea.com",
         "date": "2026-08-12",
         "url": "https://www.starnewskorea.com/music/2026/08/12/2026081212093616422",
         "summary": "그룹 리센느(RESCENE) 제나, 원이가 해외 일정 차 12일 오전 인천국제공항을 통해 출국하고 있다. 2026.08.12",
         "image": "https://image.starnewskorea.com/21/2026/08/2026081212093616422_1.jpg"
+    },
+    {
+        "title": "리센느 리브도 ‘샤라웃’ 하트오브우먼, 레트로 패러다임 뒤엎은 ‘Y3K’ [줌인] - 일간스포츠",
+        "source": "일간스포츠",
+        "date": "2026-08-12",
+        "url": "https://isplus.com/article/view/isp202608120038",
+        "summary": "그룹 하트오브우먼이 가요계에 몰아친 레트로 열풍 속에서 자신들만의 정체성으로 승부수를 던졌다.지난 5월 데뷔해 최근 약 2개월간의 활동을 마무리...",
+        "image": "https://isplus.com/data/isp/image/2026/08/12/isp20260812000121.800x.0.jpg"
+    },
+    {
+        "title": "리센느 원이 '미소 활짝'[★포토] - starnewskorea.com",
+        "source": "starnewskorea.com",
+        "date": "2026-08-12",
+        "url": "https://www.starnewskorea.com/music/2026/08/12/2026081212025977440",
+        "summary": "그룹 리센느(RESCENE) 원이가 해외 일정 차 12일 오전 인천국제공항을 통해 출국하고 있다. 2026.08.12",
+        "image": "https://image.starnewskorea.com/21/2026/08/2026081212025977440_1.jpg"
     },
     {
         "title": "‘역주행 대세’ 리센느, 맨시티와 예능 출격…홀란도 관심 - 미디어펜",
@@ -428,20 +444,12 @@ const NEWS_DATA = [
         "image": "https://image.mediapen.com/news/202608/news_1115801_1786493988_m.jpg"
     },
     {
-        "title": "에이페, 걸그룹 리센느 브랜드 모델로 발탁… 헤어 케어 캠페인 전개 - 스페셜타임스",
-        "source": "스페셜타임스",
+        "title": "7개월 만에 50만개 팔린 두피 앰플…에이페, 리센느와 팬덤 확장 - 핀포인트뉴스",
+        "source": "핀포인트뉴스",
         "date": "2026-08-12",
-        "url": "https://www.specialtimes.co.kr/news/articleView.html?idxno=450248",
-        "summary": "D2C 미디어커머스 기업 어댑트의 헤어 솔루션 브랜드 에이페가 걸그룹 리센느를 새 브랜드 모델로 세우고 소비자 접점을 넓히기 위한 캠페인에 나섰다고 13일 밝혔다.에이페 측은 밝고 트렌디한 이미지와 탄탄한 팬덤을 갖춘 리센느가 브랜드와 소비자 사이의 거리를 좁히는 데 도움이 될 것으로",
-        "image": "https://cdn.specialtimes.co.kr/news/thumbnail/202608/450248_451178_4117_v150.jpg"
-    },
-    {
-        "title": "리센느 원이 '미소 활짝'[★포토] - starnewskorea.com",
-        "source": "starnewskorea.com",
-        "date": "2026-08-12",
-        "url": "https://www.starnewskorea.com/music/2026/08/12/2026081212025977440",
-        "summary": "그룹 리센느(RESCENE) 원이가 해외 일정 차 12일 오전 인천국제공항을 통해 출국하고 있다. 2026.08.12",
-        "image": "https://image.starnewskorea.com/21/2026/08/2026081212025977440_1.jpg"
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=476898",
+        "summary": "어댑트의 헤어 솔루션 브랜드 에이페가 걸그룹 리센느(RESCENE)를 새 모델로 발탁하고 국내외 소비자 접점 확대에 나선다. 출시 7개월 만에 누적 판매량 50만개를 기록한 ‘스칼프 부스팅 앰플’을 중심으로 두피 관리를 일상적인 셀프케어 영역으로 넓힌다는 전략이다.라이프솔루션 기반 D2",
+        "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202608/476898_463895_4032_v150.jpg"
     },
     {
         "title": "리센느, 맨시티 선수들과 예능 ‘야호’ - 스포츠경향",
@@ -524,12 +532,12 @@ const NEWS_DATA = [
         "image": "https://isplus.com/data/isp/image/2026/08/12/isp20260812000195.800x.0.jpg"
     },
     {
-        "title": "김혜수 '지금 불륜'에 왜 '러브 어택'이?..\"1년 전 판권 사, 리센느 뜰 줄 알았다\" '감다살' 연출 비화 [인터뷰②] - starnewskorea.com",
-        "source": "starnewskorea.com",
+        "title": "리센느, 'Pretty Girl' 3관왕 찍고 LA행…국내 역주행 열기 KCON으로 - 네이트",
+        "source": "네이트",
         "date": "2026-08-12",
-        "url": "https://www.starnewskorea.com/star/2026/08/12/2026081212330884663",
-        "summary": "'지금 불륜' 이창희 감독이 '역주행 신화' 리센느(RESCENE)를 일찍이 알아본 놀라운 '촉'을 자랑했다. 이창희 감독은 12일 오전 서울 종로구 삼청동 한 카페에서 스타뉴스와 인터뷰를 진행했다. 앞서 지난달 31일 OTT 쿠팡플레이 시리즈 '지금 불륜이 문제가 아닙니다'(이하 '지",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=1581,fit=cover,q=high,sharpen=2/21/2026/08/2026081212330884663_1.jpg"
+        "url": "https://news.nate.com/view/20260813n05274?mid=e0600",
+        "summary": "�Ѵ��� ���� ���� : ���̵�24�� - ���� : �������� ���� ��Ʈ�� ���ǹ�ۿ��� �̾��� ��¼��� �Ȱ� �̱� LA�� ���ߴ�. ������(RESCENE)�� 12�� ���� KCON LA 2026 �ܼ�Ʈ ���� ������ ��",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/aa/2026/08/13/news-p.v1.20260813.76a0a8619b5043ff85d3bf70fb26ac57_P1.png"
     },
     {
         "title": "리센느, 아이돌차트 8월 1주차 아차랭킹 1위…‘LOVE ATTACK’ 역주행 힘 입었다 - 톱스타뉴스",
@@ -540,14 +548,6 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202608/16161519_1989493_3017_crop.jpg"
     },
     {
-        "title": "'리센느의 맨시티 어택!', 8월 14일 공개 확정 - 더팩트",
-        "source": "더팩트",
-        "date": "2026-08-12",
-        "url": "https://news.tf.co.kr/read/entertain/2353191.htm",
-        "summary": "리센느와 맨시티의 만남8월 14일 오후 4시 공개그룹 리센느와 맨체스터 시티 소속 축구 선수들이 쿠팡플레이 새 오리지널 예능프로그램 리센느의 맨시티 어택!으로 뭉친다. /E..",
-        "image": "https://img.tf.co.kr/article/home/2026/08/12/202652041786496919.jpg"
-    },
-    {
         "title": "리센느, 대세 아이돌의 출국 현장 - 텐아시아",
         "source": "텐아시아",
         "date": "2026-08-12",
@@ -556,12 +556,44 @@ const NEWS_DATA = [
         "image": "https://img.tenasia.co.kr/photo/202608/BF.45313115.1.jpg"
     },
     {
-        "title": "김혜수 ‘지금 불륜’에 왜 ‘러브 어택’이?.. “1년 전 판권 사, 리센느 뜰 줄 알았다” ‘감다살’ 연출 비화 - 미주한국일보",
-        "source": "미주한국일보",
+        "title": "리센느 미나미 '거제 야호~'[★포토] - starnewskorea.com",
+        "source": "starnewskorea.com",
+        "date": "2026-08-12",
+        "url": "https://www.starnewskorea.com/music/2026/08/12/2026081212162878616",
+        "summary": "그룹 리센느(RESCENE) 미나미가 해외 일정 차 12일 오전 인천국제공항을 통해 출국하고 있다. 2026.08.12",
+        "image": "https://image.starnewskorea.com/21/2026/08/2026081212162878616_1.jpg"
+    },
+    {
+        "title": "리센느 원이 ‘사랑스러운 출국 인사’ [MK포토] - 매일경제",
+        "source": "매일경제",
+        "date": "2026-08-12",
+        "url": "https://www.mk.co.kr/news/entertain/12125206",
+        "summary": "리센느(RESCENE)가 KCON LA 2026 콘서트 일정 참석차 12일 오전 인천국제공항을 통해 미국 LA로 출국했다. 출국장으로 향하는 리센느 원이. 인천공항=김영구 MK스포츠 기자",
+        "image": "https://pimg.mk.co.kr/news/cms/202608/12/news-p.v1.20260812.4524e69760204766bd39d03c70126855_R.jpg"
+    },
+    {
+        "title": "에이페, 걸그룹 리센느 브랜드 모델로 발탁… 헤어 케어 캠페인 전개 - 스페셜타임스",
+        "source": "스페셜타임스",
+        "date": "2026-08-12",
+        "url": "https://www.specialtimes.co.kr/news/articleView.html?idxno=450248",
+        "summary": "D2C 미디어커머스 기업 어댑트의 헤어 솔루션 브랜드 에이페가 걸그룹 리센느를 새 브랜드 모델로 세우고 소비자 접점을 넓히기 위한 캠페인에 나섰다고 13일 밝혔다.에이페 측은 밝고 트렌디한 이미지와 탄탄한 팬덤을 갖춘 리센느가 브랜드와 소비자 사이의 거리를 좁히는 데 도움이 될 것으로",
+        "image": "https://cdn.specialtimes.co.kr/news/thumbnail/202608/450248_451178_4117_v150.jpg"
+    },
+    {
+        "title": "[패션엔 포토] 리센느 원이, 추리닝과 셔링 블라우스 굿조합! 러블리한 청순 여친룩 LA 출국 - 패션엔",
+        "source": "패션엔",
+        "date": "2026-08-12",
+        "url": "https://m.fashionn.com/board/read.php?table=style&number=62023",
+        "summary": "[패션엔 포토] 리센느 원이, 추리닝과 셔링 블라우스 굿조합! 러블리한 청순 여친룩 LA 출국",
+        "image": "http://www.fashionn.com/files/board/2026/image/o_1jvq7n5u7177814qj4fh1b4kjfbb.jpg"
+    },
+    {
+        "title": "조여정도 못 참았다…리센느 만나 '거제 야~호' 포즈 [★해시태그] - 네이트",
+        "source": "네이트",
         "date": "2026-08-11",
-        "url": "http://www.koreatimes.com/article/20260811/1625250",
-        "summary": "‘지금 불륜’ 이창희 감독이 ‘역주행 신화’ 리센느(RESCENE)를 일찍이 알아본 놀라운 ‘촉’을 자랑했다.이창희 감독은 12일(한국시간 기준) 오전 서울 종로구 삼청동 한 카페에서 스타뉴스와 인터뷰를 진행했다. 앞서 지난달 31일 OTT 쿠팡플레이 시리즈 ‘지금 불륜이 문제가 아닙니",
-        "image": "http://mimg.koreatimes.com/286/172/article/2026/08/11/202608112120426a1.jpg"
+        "url": "https://news.nate.com/view/20260811n19791?mid=e0600",
+        "summary": "�Ѵ��� ���� ���� : ���̵�24�� - ���� : (������������ ������ ����) ��� �������� �׷� �������� ���� ��� '���� ��~ȣ' ��� �Բ��ߴ�. ���� 10�� �������� �ڽ��� ������ \"�;",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/xs/2026/08/11/1786425904971526.jpg"
     },
     {
         "title": "\"리센느 야호!\"… 광고계 휩쓴 리센느, 전성시대 넘어 '유니버스'로 확장 - 브랜드브리프",
@@ -588,27 +620,11 @@ const NEWS_DATA = [
         "image": "https://cdn.newstopkorea.com/news/photo/202608/46946_48028_2539.png"
     },
     {
-        "title": "“K중소기업 야~호”…리센느, 미 LA서 국내 중기 해외진출 지원 행사 - 경향신문",
-        "source": "경향신문",
-        "date": "2026-08-11",
-        "url": "https://www.khan.co.kr/article/202608111019001",
-        "summary": "세계적인 한류 축제로 자리잡은 케이콘(KCON)과 연계해 국내 중소기업의 해외 진출을 지원하는 행사가 미국 로스앤젤레스(LA)에서 열린다. 중소벤처기업부와 대·중소기업·농어업협력재단(상생협력재단)은 오는 14∼16일 LA 컨벤션센터에서 ‘K-컬렉션 with 케이콘 LA 2026’(K컬렉",
-        "image": "https://img.khan.co.kr/news/2026/08/11/news-p.v1.20260811.2ae98655a31041db85b0d36be7c61664_P1.png"
-    },
-    {
         "title": "상승세 탄 리센느, 2연속 1위…대세 등극 [스타1픽] - 뉴스1",
         "source": "뉴스1",
         "date": "2026-08-11",
         "url": "https://www.news1.kr/entertain/music/6255619",
         "summary": ""
-    },
-    {
-        "title": "[공식] 잘나가는 리센느, 8월 1주차 비드라마 화제성 1위 - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-11",
-        "url": "https://v.daum.net/v/YeqTiJiPsf",
-        "summary": "[마이데일리 = 이승길 기자] 그룹 리센느(RESCENE)가 다시 한번 예능 프로그램의 화제성을 견인하며 독보적인 대세 행보를 입증했다. K-콘텐츠 경쟁력 분석 전문 기관 굿데이터코퍼레이션 펀덱스(FUNdex)가 발표한 8월 1주차(8월 3일~8월 9일 집계) 조사 결과에 따르면, MB",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/11/mydaily/20260811112529699gacu.jpg"
     },
     {
         "title": "리센느·제베원·트레저…K팝 대세돌 美 달군다 - 매일경제",
@@ -635,12 +651,12 @@ const NEWS_DATA = [
         "image": "https://img1.newsis.com/2026/08/11/NISI20260811_0002209722_web.jpg"
     },
     {
-        "title": "\"서로 성공하자\" 약속했던 이선민, 리센느 원이 하프타임쇼 보고 '울컥' - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-10",
-        "url": "https://v.daum.net/v/20260810171409335",
-        "summary": "[스포티비뉴스=문준호 기자] 코미디언 이선민이 그룹 리센느 원이의 무대를 보고 울컥한 마음을 드러냈다. 이선민은 9일 자신의 SNS에 서울월드컵경기장에서 찍은 짧은 영상을 게재했다. 이날 경기장에서는 '2026 쿠팡플레이 시리즈' 아틀레티코 마드리드와 맨체스터 시티의 경기가 열렸고, 이",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/10/spotvnews/20260810171410763hdwz.jpg"
+        "title": "리센느·서장훈·임영웅·정준원·마틴, 32주차 예능 출연자 화제성 TOP5(굿데이터 펀덱스) - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-08-11",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16160449",
+        "summary": "리센느가 32주차 비드라마 출연자 화제성 1위에 오른 가운데 ‘전지적 참견 시점’도 프로그램 1위를 차지했고, ‘아는 형님’은 점유율 상승세로 3위에 올랐으며 서장훈은 출연자 2위에 신규 진입했다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202608/16160449_1988173_1115_crop.jpg"
     },
     {
         "title": "디플로부터 리센느까지…내달 '스포티파이 하우스' 출연 - 연합뉴스",
@@ -649,22 +665,6 @@ const NEWS_DATA = [
         "url": "https://www.yna.co.kr/view/AKR20260810072500005",
         "summary": "(서울=연합뉴스) 김선우 기자 = 세계적인 DJ 디플로를 비롯해 다이나믹 듀오, 혁오, 라이즈, 리센느 등 국내외 가수들이 다음 달 10∼13일...",
         "image": "https://img1.yna.co.kr/etc/inner/KR/2026/08/10/AKR20260810072500005_01_i_P4.jpg"
-    },
-    {
-        "title": "억대 수입 찍겠네…리센느, 광고 문의만 100건→화장실 3개 달린 99평 숙소로 이사 ('전참시')[종합] - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-10",
-        "url": "https://v.daum.net/v/20260810210137707",
-        "summary": "[텐아시아=이소정 기자]리센느가 달라진 위상을 실감하게 했다. 광고 문의만 100건에 달한 데 이어 화장실 하나를 함께 쓰던 숙소를 떠나 99평 새 보금자리에 입성했다. 지난 8일 방송된 MBC 예능 프로그램 '전지적 참견 시점' 410회에는 리센느가 단독 게스트로 출연해 최근 달라진 ",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/10/10asia/20260810210143485pybc.jpg"
-    },
-    {
-        "title": "이선민, 축구장 찾은 ‘원이 삼촌’…“리센느” 외치며 하프타임 무대 직관 - twig24.com",
-        "source": "twig24.com",
-        "date": "2026-08-10",
-        "url": "https://www.twig24.com/news/entertainments/celebrity/2026/08/10/20260810500214",
-        "summary": "개그맨 이선민이 서울월드컵경기장에서 그룹 리센느의 하프타임 공연을 직접 관람하며 뜨거운 응원을 보냈다. 그는 무대에 오른 원이를 향해 연신 이름을 외치고, 감격한 표정으로 공연을 지켜봤다. 두 사람의 인연은 웹예능에서 시작됐고, 이선민은 최근에도 리센느의 성장을 진심으로 응원했다.",
-        "image": "https://img.seoul.co.kr//img/upload/2026/08/10/SSC_20260810173106.jpg.webp"
     },
     {
         "title": "'리센느' 하프 타임 쇼 보더니…대세 男 스타, 연신 환호→감동 가득한 표정 [MHN:피드] - v.daum.net",
@@ -715,20 +715,12 @@ const NEWS_DATA = [
         "image": "https://image.ajunews.com/content/image/2026/08/09/20260809113339687590.jpg"
     },
     {
-        "title": "[ST포토] 리센느 원이, '아나운서 같죠?' - 네이트",
-        "source": "네이트",
+        "title": "[사진]리센느 제나,'다정한 인사' - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
         "date": "2026-08-09",
-        "url": "https://sports.news.nate.com/view/20260809n13598",
-        "summary": "�Ѵ��� ���� ���� : �౸ - ���� : [������������ ������ ����] 9�� ��������Ű���忡�� ���� 2026 �����÷��� �ø��� �ǽ�Ƽ�� AT.���帮���� ���, �׷� �������� ���̰� �����߰踦 �ϰ� �ִ",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/st/2026/08/09/09_1082416_36658.jpg"
-    },
-    {
-        "title": "[사진]리센느 리브,'당당하게 걷기' - 조선비즈 - Chosunbiz",
-        "source": "Chosunbiz",
-        "date": "2026-08-09",
-        "url": "https://biz.chosun.com/sports/sports_photo/2026/08/09/GQYTEZRZMM4GMYRXMZTDONLBMY/",
-        "summary": "사진리센느 리브,당당하게 걷기",
-        "image": "https://biz.chosun.com/resizer/v2/GFSDOZRXGBRDEOJXMI2TCZRZMU.jpg?auth=0b9535400fe67309a595e5f446f9f169df551618167ea3d5424e9c8ba19e2933&width=572&height=300&smart=true"
+        "url": "https://www.mt.co.kr/amp/sports/2026/08/09/202608092315776791O",
+        "summary": "[OSEN=서울월드컵경기장, 이대선 기자] 이강인(25, ATM)이 아틀레티코 마드리드에서 화려한 데뷔전을 펼쳤다. 아틀레티코 마드리드는 9일 오후 8시 서울월드컵경기장에서 개최된 ‘2026 쿠팡플레이 시리즈’ 친선전에서 맨체스터 시티(이하 맨시티)를 상대로 1-3으로 역전패했다.",
+        "image": "https://menu.mt.co.kr/cdn-cgi/image/w=1200,h=1241,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/mobile/osen/data/2026/08/09/202608092315776791_1.jpg"
     },
     {
         "title": "리센느 원이, 빛나는 미소 - 뉴스1",
@@ -738,8 +730,8 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
-        "title": "스윗한 이강인, '대세' 리센느 향해 '월클'급 팬서비스[스한 스틸컷] - 네이트",
-        "source": "네이트",
+        "title": "스윗한 이강인, '대세' 리센느 향해 '월클'급 팬서비스[스한 스틸컷] - 네이트 스포츠",
+        "source": "네이트 스포츠",
         "date": "2026-08-09",
         "url": "https://sports.news.nate.com/view/20260810n01776",
         "summary": "�Ѵ��� ���� ���� : �ؿ��౸ - ���� : [�������ѱ� ����ö ����]�̰����� ��Ʋ��Ƽ��(AT) ���帮�� �������� ġ����. ������ ������ �̰����� �������� �Դܽ��� ���������. �Դܽ� ��, �̰�",
@@ -761,14 +753,6 @@ const NEWS_DATA = [
         "image": "https://img.etoday.co.kr/pto_db/2026/08/20260809005052_2370479_1200_2676.jpg"
     },
     {
-        "title": "리센느, 요즘 대세 인기 실감…\"너무 신기하고 감사한 마음\" (전참시) - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-08",
-        "url": "https://v.daum.net/v/20260808234142259",
-        "summary": "(엑스포츠뉴스 정연주 기자) 그룹 리센느의 완전체가 '전참시'에 출격한 가운데, 인기에 대한 감사한 마음을 드러냈다. 8일 방송된 MBC 예능 프로그램 '전지적 참견 시점'(이하 '전참시')에서는 역주행 열풍의 주인공 리센느의 다섯 멤버가 스튜디오를 찾았다. 이날 전현무는 리센느를 향해",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/08/xportsnews/20260808234143639jjqb.jpg"
-    },
-    {
         "title": "1위 리센느, 2위 아이브, 3위 레드벨벳 - starnewskorea.com",
         "source": "starnewskorea.com",
         "date": "2026-08-08",
@@ -777,11 +761,27 @@ const NEWS_DATA = [
         "image": "https://image.starnewskorea.com/21/2026/08/2026080908360363663_4.jpg"
     },
     {
+        "title": "리센느, 요즘 대세 인기 실감…\"너무 신기하고 감사한 마음\" (전참시) - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-08-08",
+        "url": "https://v.daum.net/v/20260808234142259",
+        "summary": "(엑스포츠뉴스 정연주 기자) 그룹 리센느의 완전체가 '전참시'에 출격한 가운데, 인기에 대한 감사한 마음을 드러냈다. 8일 방송된 MBC 예능 프로그램 '전지적 참견 시점'(이하 '전참시')에서는 역주행 열풍의 주인공 리센느의 다섯 멤버가 스튜디오를 찾았다. 이날 전현무는 리센느를 향해",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/08/xportsnews/20260808234143639jjqb.jpg"
+    },
+    {
         "title": "'차트 1위' 리센느 키운 중소 기획사 뒤엔 벤처투자 있었다 - 연합뉴스",
         "source": "연합뉴스",
         "date": "2026-08-05",
         "url": "https://www.yna.co.kr/view/AKR20260805035500030",
         "summary": "(서울=연합뉴스) 구정모 기자 = 한국벤처투자는 걸그룹 리센느의 소속사 더뮤즈엔터테인먼트의 'KVIC 비욘드&브릿지(Beyond &amp...",
         "image": "https://img4.yna.co.kr/etc/inner/KR/2026/08/05/AKR20260805035500030_01_i_P4.jpg"
+    },
+    {
+        "title": "‘야호’에 광고도, 매출도 움직였다...브랜드가 주목한 '리센느 효과' - ytn.co.kr",
+        "source": "ytn.co.kr",
+        "date": "2026-07-30",
+        "url": "https://www.ytn.co.kr/_ln/0117_202607301114210385",
+        "summary": "광고업계가 걸그룹 리센느(RESCENE)를 주목하고 있다. 단순히 인지도가 높은 아이돌이 아니라 실제 광고 성과를 만들어내는 모델이라는 평가가 이어지면서 유통·식음료업...",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/0730/202607301114210385_t.jpg"
     }
 ];
