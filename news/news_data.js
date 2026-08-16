@@ -1,11 +1,11 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-08-16T03:28:04.477Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-08-16T07:46:07.920Z) */
 
 const NEWS_DATA = [
     {
-        "title": "대세 리센느, '프리티 걸'로 '음중' 트리플 크라운…음방 4관왕 - 뉴스1",
-        "source": "뉴스1",
+        "title": "대세 리센느, ‘프리티 걸’로 ‘음중’ 트리플 크라운…음방 4관왕 - 동아일보",
+        "source": "동아일보",
         "date": "2026-08-16",
-        "url": "https://www.news1.kr/entertain/music/6260482",
+        "url": "https://www.donga.com/news/Entertainment/article/all/20260816/134484049/1",
         "summary": ""
     },
     {
@@ -17,12 +17,28 @@ const NEWS_DATA = [
         "image": "https://img1.newsis.com/2026/08/13/NISI20260813_0002211288_web.jpg"
     },
     {
-        "title": "'리센느 돌풍' 원이, 장원영·제니 꺾고 1위…멤버 전원 톱10 진입 - 네이트",
+        "title": "리센느 원이, 장원영·제니 제쳤다…8월 걸그룹 개인 브랜드평판 '1위' 등극 - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-08-16",
+        "url": "https://v.daum.net/v/20260816154723709",
+        "summary": "(MHN 김소영 기자) 그룹 리센느(RESCENE) 멤버 원이가 대세 걸그룹 멤버들을 제치고 걸그룹 개인 브랜드평판 1위에 올랐다. 2위는 아이브 장원영, 3위는 블랙핑크 제니가 차지했다. 16일 한국기업평판연구소에 따르면, 2026년 8월 걸그룹 개인 브랜드평판 빅데이터 분석 결과 리",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/16/HockeyNewsKorea/20260816154726368gcft.jpg"
+    },
+    {
+        "title": "리센느 원이, 장원영·제니 꺾고 브랜드평판 1위 - 네이트",
         "source": "네이트",
         "date": "2026-08-16",
-        "url": "https://news.nate.com/view/20260816n04907",
-        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : [�����̵�� ������ ����] �׷� ������ ���̰� ������� ���ϸ� ��ġ�� 8�� �ɱ׷� ���� �귣������ ���� �ö���. Ư�� �������� ��� 5�� ������ �",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/ab/2026/08/16/1786848332_525853.jpg"
+        "url": "https://news.nate.com/view/20260816n06277",
+        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : [Ƽ���̵��ϸ� Ȳ���� ����] �׷� ������ ���̰� ���̺� �����, ������ũ ���ϸ� ���� �귣������ 1���� �ö���. 16�� �ѱ�������ǿ����Ҵ� �ɱ׷� ���",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/tv/2026/08/16/161798010.jpg"
+    },
+    {
+        "title": "리센느 원이, 걸그룹 개인 브랜드평판 1위 등극 2위는 장원영 - 지피코리아",
+        "source": "지피코리아",
+        "date": "2026-08-16",
+        "url": "https://www.gpkorea.com/news/articleView.html?idxno=145708",
+        "summary": "한국기업평판연구소가 발표한 걸그룹 개인 브랜드평판 빅데이터 분석 결과, 리센느 원이가 1위를 차지했다. 2위 아이브 장원영, 3위 블랙핑크 제니가 뒤를 이었다.16일부터 16일까지 걸그룹 개인 735명의 브랜드 빅데이터 1억3천300만여 개를 분석한 결과다. 지난달과 비교해 12.50%",
+        "image": "https://cdn.gpkorea.com/news/photo/202608/145708_309468_2518.jpg"
     },
     {
         "title": "[주간 쿠팡플레이] '리센느X맨시티'부터 '빅뱅 20주년'까지 - 미디어펜",
@@ -31,6 +47,13 @@ const NEWS_DATA = [
         "url": "https://www.mediapen.com/news/view/1116599",
         "summary": "[미디어펜=김민서 기자] ▲ '리센느의 맨시티 어택!'그룹 리센느가 맨체스터 시티 선수들과 만난 예능이다. 리센느는 지난 9일 열린 ‘2026 쿠팡플레이 시리즈’ 맨시티와",
         "image": "https://image.mediapen.com/news/202608/news_1116599_1786693846_m.jpg"
+    },
+    {
+        "title": "'국민 걸그룹' 도약! 리센느, 'Pretty Girl' 음방 4관왕 - 전자신문",
+        "source": "전자신문",
+        "date": "2026-08-16",
+        "url": "https://www.etnews.com/20260816000014",
+        "summary": ""
     },
     {
         "title": "걸그룹 리센느, 음악방송 4관왕 달성 - 2news.co.kr",
@@ -49,6 +72,14 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202608/16164696_1993296_5241_crop.jpg"
     },
     {
+        "title": "'인기가요' 리센느, 이번엔 '러브 어택'이다…1위 추가요 [TV캡처] - 네이트",
+        "source": "네이트",
+        "date": "2026-08-16",
+        "url": "https://news.nate.com/view/20260816n07958?mid=e1200",
+        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : [������������ ������ ����] �׷� �������� ������� '���� ����(LOVE ATTACK)'���� '�αⰡ��' 1���� �Ÿ���� �뼼 �ຸ�� �̾��. 16�� ��۵� S",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/st/2026/08/16/16_1083571_56626.jpg"
+    },
+    {
         "title": "리센느, 'Pretty Girl'로 데뷔 첫 트리플 크라운 달성 - 지피코리아",
         "source": "지피코리아",
         "date": "2026-08-16",
@@ -57,20 +88,52 @@ const NEWS_DATA = [
         "image": "https://cdn.gpkorea.com/news/photo/202608/145709_309470_2711.jpg"
     },
     {
-        "title": "리센느 원이, 걸그룹 개인 브랜드평판 1위 등극 2위는 장원영 - 지피코리아",
-        "source": "지피코리아",
-        "date": "2026-08-16",
-        "url": "https://www.gpkorea.com/news/articleView.html?idxno=145708",
-        "summary": "한국기업평판연구소가 발표한 걸그룹 개인 브랜드평판 빅데이터 분석 결과, 리센느 원이가 1위를 차지했다. 2위 아이브 장원영, 3위 블랙핑크 제니가 뒤를 이었다.16일부터 16일까지 걸그룹 개인 735명의 브랜드 빅데이터 1억3천300만여 개를 분석한 결과다. 지난달과 비교해 12.50%",
-        "image": "https://cdn.gpkorea.com/news/photo/202608/145708_309468_2518.jpg"
-    },
-    {
-        "title": "리센느, 활동 끝나도 1위…'프리티 걸'로 첫 트리플 크라운 - 네이트",
+        "title": "리센느, '프리티 걸'로 음악방송 네 번째 1위…트로피 5개로 늘어 - 네이트",
         "source": "네이트",
         "date": "2026-08-16",
-        "url": "https://news.nate.com/view/20260816n04007?mid=e1200",
-        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : [�̵��ϸ� ��Ÿin ����� ����] �׷� ������(RESCENE)�� ������Ƽ �ɡ�(Pretty Girl)�� ���ǹ�� Ʈ���Ǹ� �߰��ϸ� ���� ���� ���� �ε巯�� ������ ",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/ed/2026/08/16/PS26081600104.jpg"
+        "url": "https://news.nate.com/view/20260816n07883?mid=n1101",
+        "summary": "�Ѵ��� ���� ���� : ���� - ���� : �ɱ׷� �������� ���� 15�� ���� MBC ����! �����߽ɡ����� ������ũ �̱� ��Pretty Girl��(����Ƽ ��)�� 1���� �����߽��ϴ�. �������� ��Pretty ",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/ny/2026/08/16/AKR20260816162213pGS_01_i.jpg"
+    },
+    {
+        "title": "리센느, 출연 없이도 '인기가요' 1위…대세 걸그룹 입증 - 네이트",
+        "source": "네이트",
+        "date": "2026-08-16",
+        "url": "https://news.nate.com/view/20260816n07976?mid=n1101",
+        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : [��Ÿ���� | ������ ����] /����=SBS '�αⰡ��' ĸó�׷� ������(RESCENE)�� '�αⰡ��'���� 1���� �����ߴ�. 16�� ��۵� SBS �������α׷� '�αⰡ��",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/tn/2026/08/16/2026081616195548868_1.jpg"
+    },
+    {
+        "title": "리센느, '러브 어택' 또 1위…음방 총 6관왕 ('인기가요')[셀럽캡처] - 네이트",
+        "source": "네이트",
+        "date": "2026-08-16",
+        "url": "https://news.nate.com/view/20260816n07962?mid=n0100",
+        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : [�����̵�� ������ ����] �׷� �������� ���αⰡ�䡯 1���� �����ߴ�. 16�� ���� ��۵� SBS ���αⰡ�䡯������ 8�� 3°�� 1���� �����ƴ�. 8�� 3°��",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/ab/2026/08/16/1786865195_525857.jpg"
+    },
+    {
+        "title": "\"국민 걸그룹이 만났다\" 리센느 원이X소녀시대 태연 깜짝 '프리티걸' 챌린지 - 네이트",
+        "source": "네이트",
+        "date": "2026-08-16",
+        "url": "https://news.nate.com/view/20260816n08102?mid=e1100",
+        "summary": "�Ѵ��� ���� ���� : ������ ȭ�� - ���� : ��Ʃ�� ä�� ��RESCENE��[���������� �̽��� ����] �ɱ׷� ������(RESCENE)�� ���̰� �뼱���� �ҳ�ô� �¿��� �Բ� ��������� �ɹ̸� �˳´�.16�� ",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/kz/2026/08/16/news-p.v1.20260816.43a303845b5e4b80921b856113e1a845_P1.jpg"
+    },
+    {
+        "title": "'리센느 돌풍' 원이, 장원영·제니 꺾고 1위…멤버 전원 톱10 진입 - 네이트",
+        "source": "네이트",
+        "date": "2026-08-16",
+        "url": "https://news.nate.com/view/20260816n04907",
+        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : [�����̵�� ������ ����] �׷� ������ ���̰� ������� ���ϸ� ��ġ�� 8�� �ɱ׷� ���� �귣������ ���� �ö���. Ư�� �������� ��� 5�� ������ �",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/ab/2026/08/16/1786848332_525853.jpg"
+    },
+    {
+        "title": "리센느, 활동 끝나도 1위… ‘프리티 걸’로 첫 트리플 크라운 - edaily.co.kr",
+        "source": "edaily.co.kr",
+        "date": "2026-08-16",
+        "url": "https://www.edaily.co.kr/News/Read?newsId=01295606645547976&mediaCodeNo=257",
+        "summary": "그룹 리센느(RESCENE)가 ‘프리티 걸’(Pretty Girl)로 음악방송 트로피를 추가하며 데뷔 이후 가장 두드러진 성과를 이어가고 있다. 활동 종료 이후에도 1위 행진이 계속되고 있다는 점에서 음원과 팬덤의 뒷심을 보여줬다는 평가다. 리센느(사진=더뮤즈엔터테...",
+        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/08/PS26081600104.jpg"
     },
     {
         "title": "리센느, '국민 걸그룹' 저력…'쇼! 음악중심' 1위 추가 음방 4관왕 달성 - 네이트",
@@ -89,6 +152,22 @@ const NEWS_DATA = [
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/hm/2026/08/16/news-p.v1.20260816.00d2f408cdd04fe7bbcf2ca6b86dfddc_P1.jpg"
     },
     {
+        "title": "'대세' 리센느, '프리티 걸'로 음악방송 4관왕 - 티브이데일리",
+        "source": "티브이데일리",
+        "date": "2026-08-16",
+        "url": "http://www.tvdaily.co.kr/read.php3?aid=17868479871798009010",
+        "summary": "���, ����, ��ȭ, �ؿܿ���, ���󴺽�, ��������, ���� �� ����.",
+        "image": "http://image.tvdaily.co.kr/upimages/gisaimg/202608/161798009.jpg"
+    },
+    {
+        "title": "리센느 원이, 장원영·제니 꺾고 브랜드평판 1위 - 티브이데일리",
+        "source": "티브이데일리",
+        "date": "2026-08-16",
+        "url": "http://www.tvdaily.co.kr/read.php3?aid=17868524501798010010",
+        "summary": "���, ����, ��ȭ, �ؿܿ���, ���󴺽�, ��������, ���� �� ����.",
+        "image": "http://image.tvdaily.co.kr/upimages/gisaimg/202608/161798010.jpg"
+    },
+    {
         "title": "리센느, '프리티 걸'로 데뷔 첫 트리플 크라운…역주행 이어 정주행 '기염' - 네이트",
         "source": "네이트",
         "date": "2026-08-16",
@@ -105,36 +184,20 @@ const NEWS_DATA = [
         "image": "https://contents-cdn.viewus.co.kr/creator-cms/image/2026/08/7356d66c-f6de-4624-959d-1e4d3e38d5c7.jpg"
     },
     {
-        "title": "리센느 원이, 소고기로 인기 실감…\"가격·부위 상관없어\" - 뉴시스",
-        "source": "뉴시스",
+        "title": "리센느, 섭외 못해서 안달인데..막상 나왔더니 토크 금지령(놀토) - v.daum.net",
+        "source": "v.daum.net",
         "date": "2026-08-15",
-        "url": "https://www.newsis.com/view/NISX20260815_0003750752",
-        "summary": "[서울=뉴시스]강주희 기자 = 그룹 리센느 원이가 메뉴를 고를 때 인기를 실감한다고 밝혔다.15일 방송된 tvN 예능 프로그램 '놀라운 토요일'에는 리센느 원이, 제나, 리브가 게스트로 출연했다.이날 원이는 최근 인기를 실감하냐는 질문에 \"지금 이 자리에서 실감하고 있다. 양옆에 계신 ",
-        "image": "https://img1.newsis.com/2026/08/15/NISI20260815_0002213643_web.jpg"
+        "url": "https://v.daum.net/v/qoFTJJWIC6",
+        "summary": "[OSEN=하수정 기자] 대세 5인조 걸그룹 리센느가 '놀토'에 나와서 토크 금지령을 받았다. tvN ‘놀라운 토요일’에 대세 아이돌 리센느가 출격한다. 오늘(15일) 저녁 7시 30분 방송하는 ‘놀라운 토요일’(이하 ‘놀토’) ‘여름방학 특집’ 2탄에는 국민 걸그룹으로 떠오른 리센느의",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/15/poctan/20260815181612669vqhx.jpg"
     },
     {
-        "title": "리센느 원이, 긍정 비율 93.52% 압도적 '1위' - 조선일보",
+        "title": "정일영, 디지털 문해 교육 받아 리센느 팬카페 가입..\"1위 축하하고 싶어\" - 조선일보",
         "source": "조선일보",
         "date": "2026-08-15",
-        "url": "https://www.chosun.com/entertainments/music/2026/08/16/GU4WCMBSHE2DMMJWGU2TGNBXMM/",
-        "summary": "2026년 8월 걸그룹 개인 브랜드 평판 분석 결과, 리센느의 원이가 1위를 기록했습니다. 멤버 전원이 10위권에 진입하는 성과를 거두었으며, 원이는 93.52%의 긍정 평가 비율을 바탕으로 브랜드 평판 지수 8,123,817을 달성하며 강력한 상승세를 보여주었습니다.",
-        "image": "https://www.chosun.com/resizer/v2/MIZDSMZVHFQTCMLFMFQTOMLFGY.jpg?auth=6da7bda22fe9af06d907e12f8418a4caf8718c14f21c885fcf296f70615fe330&width=530&height=278&smart=true"
-    },
-    {
-        "title": "리센느 원이, 장원영·제니 제치고 걸그룹 개인 브랜드평판 1위 - 싱글리스트",
-        "source": "싱글리스트",
-        "date": "2026-08-15",
-        "url": "https://www.slist.kr/news/articleView.html?idxno=759081",
-        "summary": "리센느 원이가 걸그룹 개인 브랜드평판 8월 빅데이터 분석 결과, 1위를 차지했다. 아이브 장원영과 블랙핑크 제니가 뒤를 이었다.한국기업평판연구소는 걸그룹 개인 브랜드평판 8월 빅데이터 분석을 위해 7월 16일부터 8월 16일까지 걸그룹 개인 735명의 브랜드 빅데이터 133,004,19",
-        "image": "https://cdn.slist.kr/news/thumbnail/202608/759081_1163129_542_v150.jpg"
-    },
-    {
-        "title": "[금주 OTT 신작] '대등왜', '리센느의 맨시티 어택!', '가요대전 써머' 등 공개 - 뉴스핌",
-        "source": "뉴스핌",
-        "date": "2026-08-15",
-        "url": "https://www.newspim.com/news/view/20260814000835",
-        "summary": "[서울=뉴스핌] 최문선 기자 = 이번주는 '리센느의 맨시티 어택!' 등이 공개됐고 다음주는 '대체 등산을 왜 하는 건데?', '2026 SBS 가요대전 써머' 등이 공개된다.'대체 등산을 왜 하는 건데?'는 평생 등산에 관심 없던 비자발적 등산러 4인방이 생애 최초 한",
-        "image": "https://img.newspim.com/news/2026/08/14/2608141441250830_227_tc.jpg"
+        "url": "https://www.chosun.com/entertainments/broadcast/2026/08/15/GFRDAZRWHBQWKZTGGIYTIOLBMU/",
+        "summary": "방송인 정일영이 유튜브 채널을 통해 침착맨에게 디지털 기기 활용법을 배우고, 음악방송 1위를 차지한 아이돌 그룹 리센느의 팬카페에 축하 메시지를 남기는 과정을 담았다. 과거 인연을 바탕으로 응원을 보낸 정일영의 행보가 눈길을 끈다.",
+        "image": "https://www.chosun.com/resizer/v2/GI4WGMBSMVTDQMJTMIYWKODBGE.png?auth=db87df2f7d99bc922449cff8231e04d9f87a8f5dc4ed8df76b3f1cc27784c1e8&width=650&height=341&smart=true"
     },
     {
         "title": "리센느 원이도 '야호~'...'아재폰'의 대반전 - 한경매거진&북",
@@ -145,22 +208,6 @@ const NEWS_DATA = [
         "image": "https://static.hankyung.com/photo/202608/AD.45348304.1.jpg"
     },
     {
-        "title": "정일영, 디지털 문해 교육 받아 리센느 팬카페 가입..\"1위 축하하고 싶어\" - OSEN",
-        "source": "OSEN",
-        "date": "2026-08-15",
-        "url": "https://www.osen.co.kr/article/G1112858065",
-        "summary": "영상 시청 후 작성된 리뷰 기사입니다. 프랑스어 전문가 겸 방송인 정일영이 리센느 팬카페에 글 남기기를 도전했다. 지난 12일 유튜브 채널 '악성내성인...",
-        "image": "http://file.osen.co.kr/article_thumb/2026/08/15/202608152048776024_6a8057cbcc749_300x.png"
-    },
-    {
-        "title": "리센느, ‘프리티 걸’로 트리플 크라운 달성 - bntnews.co.kr",
-        "source": "bntnews.co.kr",
-        "date": "2026-08-15",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202608160017",
-        "summary": "‘국민 걸그룹’ 리센느(RESCENE)가 ‘Pretty Girl’로 데뷔 후 첫 트리플 크라운을 달성했다.리센느(원이, 리브, 미나미, 메이, 제나)는 지난 15",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/08/16/bnt202608160035.jpg"
-    },
-    {
         "title": "리센느 원이, 긍정 비율 93.52% 압도적 '1위' - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-08-15",
@@ -169,20 +216,19 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/16/poctan/20260816085812076ialx.jpg"
     },
     {
-        "title": "리센느, ‘프리티 걸’로 데뷔 첫 트리플 크라운…음방 4관왕 - 스포츠동아",
-        "source": "스포츠동아",
+        "title": "'대세' 리센느 '음악중심' 1위..음방 4관왕 달성[스타이슈] - starnewskorea.com",
+        "source": "starnewskorea.com",
         "date": "2026-08-15",
-        "url": "https://sports.donga.com/ent/article/all/20260816/134483785/1",
-        "summary": "[동아닷컴 김승현 기자] 그룹 리센느(RESCENE)가 ‘Pretty Girl’로 데뷔 첫 트리플 크라운을 달성했다.리센느(원이, 리브, 미나미, 메이, 제나)는 지난 15일 방송된 MBC ‘쇼! 음악중심’에서 리메이크 싱글 ‘Pretty Girl’(프리티 걸)로 …",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/08/16/134483782.1.jpg"
+        "url": "https://www.starnewskorea.com/music/2026/08/16/2026081608053563404",
+        "summary": "걸그룹 리센느(RESCENE)가 'Pretty Girl'로 데뷔 첫 3관왕을 달성했다. 리센느(원이 리브 미나미 메이 제나)는 지난 15일 오후 방송된 MBC '쇼! 음악중심'에서 리메이크 싱글 'Pretty Girl'(프리티 걸)로 1위 트로피를 또 거머쥐었다. 이로써 '쇼! 음악중심",
+        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=960,fit=cover,q=high,sharpen=2/21/2026/08/2026081608053563404_1.jpg"
     },
     {
-        "title": "“소고기 가격·부위 NO상관” 리센느, 메뉴 고를 때 인기 실감 (‘놀토’) - 스타투데이 - 매일경제",
-        "source": "매일경제",
+        "title": "리센느, ‘프리티 걸’로 데뷔 첫 트리플 크라운…음방 4관왕 - sports.donga.com",
+        "source": "sports.donga.com",
         "date": "2026-08-15",
-        "url": "https://www.mk.co.kr/news/broadcasting-service/12128798",
-        "summary": "",
-        "image": "https://pimg.mk.co.kr/news/cms/202608/15/news-p.v1.20260815.3b0cbd51af954031844c322eb0174a96_R.jpg"
+        "url": "https://sports.donga.com/ent/article/all/20260816/134483785/1",
+        "summary": ""
     },
     {
         "title": "리센느, ‘쇼! 음악중심’서 ‘Pretty Girl’로 트리플 크라운 달성 - 톱스타뉴스",
@@ -201,20 +247,19 @@ const NEWS_DATA = [
         "image": "http://file.osen.co.kr/article_thumb/2026/08/16/202608160805775870_6a80f235a75d8_300x.jpg"
     },
     {
+        "title": "리센느, '음악중심' 또 1위...‘Pretty Girl’로 음악방송 4관왕 - 뉴스컬처",
+        "source": "뉴스컬처",
+        "date": "2026-08-15",
+        "url": "https://www.nc.press/news/articleView.html?idxno=623796",
+        "summary": "[뉴스컬처 이준섭 기자] 대세 그룹 리센느(원이, 리브, 미나미, 메이, 제나)가 ‘Pretty Girl’로 음악방송 4관왕에 올랐다.리센느는 지난 15일 방송된",
+        "image": "https://cdn.nc.press/news/photo/202608/623796_852923_1055.jpg"
+    },
+    {
         "title": "‘놀토’ 리센느 원이, 엄마도 딸 못지 않은 인기…“목격담까지 나와” - 동아일보",
         "source": "동아일보",
         "date": "2026-08-15",
         "url": "https://www.donga.com/news/amp/all/20260815/134483461/1",
-        "summary": "‘대세’ 아이돌로 떠오른 리센느 원이가 어머니까지 유명해졌다고 말했다. 15일 방송된 tvN 예능 프로그램 ‘놀라운 토요일’은 ‘공주들아 모여라’ 특집으로 꾸며졌고, 리센느 원이, 리브, 제나가 게스트로 출연했다. 이날…",
-        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/15/134483462.1.jpg"
-    },
-    {
-        "title": "리센느, 섭외 못해서 안달인데..막상 나왔더니 토크 금지령(놀토) - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-15",
-        "url": "https://v.daum.net/v/qoFTJJWIC6",
-        "summary": "[OSEN=하수정 기자] 대세 5인조 걸그룹 리센느가 '놀토'에 나와서 토크 금지령을 받았다. tvN ‘놀라운 토요일’에 대세 아이돌 리센느가 출격한다. 오늘(15일) 저녁 7시 30분 방송하는 ‘놀라운 토요일’(이하 ‘놀토’) ‘여름방학 특집’ 2탄에는 국민 걸그룹으로 떠오른 리센느의",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/15/poctan/20260815181612669vqhx.jpg"
+        "summary": ""
     },
     {
         "title": "‘덕연이 딸’ 리센느 원이, 더 핫한 母 인기에 어질..“피부과 목격담도” (‘놀토’) - OSEN",
@@ -225,27 +270,27 @@ const NEWS_DATA = [
         "image": "http://file.osen.co.kr/article_thumb/2026/08/15/202608152055772154_6a80589c1e5e4_300x.png"
     },
     {
+        "title": "“소고기 가격·부위 NO상관” 리센느, 메뉴 고를 때 인기 실감 (‘놀토’) - 스타투데이 - 매일경제",
+        "source": "매일경제",
+        "date": "2026-08-15",
+        "url": "https://www.mk.co.kr/news/broadcasting-service/12128798",
+        "summary": "",
+        "image": "https://pimg.mk.co.kr/news/cms/202608/15/news-p.v1.20260815.3b0cbd51af954031844c322eb0174a96_R.jpg"
+    },
+    {
+        "title": "리센느, 1등 했는데도 핸드폰 없다? “중요한 시기라서 자진반납” (놀토) - 뉴스엔",
+        "source": "뉴스엔",
+        "date": "2026-08-15",
+        "url": "https://m.newsen.com/news_view.php?uid=202608160601281710",
+        "summary": ""
+    },
+    {
         "title": "리센느, `프리티 걸`로 음악방송 4관왕…데뷔 첫 트리플크라운 - 마이데일리",
         "source": "마이데일리",
         "date": "2026-08-15",
         "url": "https://mydaily.co.kr/page/view/2026081608413392009",
         "summary": "그룹 리센느./더뮤즈엔터테인먼트...",
         "image": "https://mydaily.co.kr/photos/2026/08/16/2026081608410874108_l.jpg"
-    },
-    {
-        "title": "리센느, 1등 했는데도 핸드폰 없다? “중요한 시기라서 자진반납” (놀토) - newsen.com",
-        "source": "newsen.com",
-        "date": "2026-08-15",
-        "url": "https://m.newsen.com/news_view.php?uid=202608160601281710",
-        "summary": ""
-    },
-    {
-        "title": "리센느, '음악중심' 또 1위...‘Pretty Girl’로 음악방송 4관왕 - 뉴스컬처",
-        "source": "뉴스컬처",
-        "date": "2026-08-15",
-        "url": "https://www.nc.press/news/articleView.html?idxno=623796",
-        "summary": "[뉴스컬처 이준섭 기자] 대세 그룹 리센느(원이, 리브, 미나미, 메이, 제나)가 ‘Pretty Girl’로 음악방송 4관왕에 올랐다.리센느는 지난 15일 방송된",
-        "image": "https://cdn.nc.press/news/photo/202608/623796_852923_1055.jpg"
     },
     {
         "title": "리센느, 'Pretty Girl'로 음악 방송 트리플 크라운 달성…음원 차트도 휩쓸어 - 스페셜타임스",
@@ -263,12 +308,11 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
-        "title": "리센느 원이도 '야호~'...'아재폰'의 대반전 - v.daum.net",
-        "source": "v.daum.net",
+        "title": "리센느 원이, 꼰대력 발산 “너 지금 몇 년생이야?” (놀토) - sports.donga.com",
+        "source": "sports.donga.com",
         "date": "2026-08-15",
-        "url": "https://v.daum.net/v/20260815161307198",
-        "summary": "삼성전자의 폴더블폰 신작 갤럭시Z8 시리즈가 글로벌 예약판매에서 최대 520만대를 기록했을 것이라는 전망이 제기됐다. 특히 '여권크기'의 새 화면 비율을 적용한 갤럭시Z폴드8이 전체 예약 물량의 약 60%를 차지해 흥행을 주도한 것으로 알려졌다. 15일 IT업계에 따르면 해외 IT 전문",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/15/kedbiz/20260815161309269tinn.jpg"
+        "url": "https://sports.donga.com/ent/article/all/20260815/134483107/1",
+        "summary": ""
     },
     {
         "title": "리센느 원이 얼굴 얼마나 작으면, 붐 머리 커 보여 깜짝 (놀토)[결정적장면] - 네이트",
@@ -295,12 +339,35 @@ const NEWS_DATA = [
         "image": "http://file.osen.co.kr/article_thumb/2026/08/15/202608152038779383_6a8053a166937_300x.png"
     },
     {
-        "title": "‘놀라운 토요일’ 평택송탄시장 함박스테이크 맛집 위치는? “리센느 원이·리브·제나와 함께…” - 톱스타뉴스",
-        "source": "톱스타뉴스",
+        "title": "리센느 원이, 장원영·제니 제치고 걸그룹 개인 브랜드평판 1위 - 싱글리스트",
+        "source": "싱글리스트",
         "date": "2026-08-15",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16163942",
-        "summary": "‘놀라운 토요일’에서 소개한 경기도 평택시 지산동 소재 ‘육즙 가득’ 함박스테이크 맛집이 화제다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202608/16163942_1992473_1254_crop.jpg"
+        "url": "https://www.slist.kr/news/articleView.html?idxno=759081",
+        "summary": "리센느 원이가 걸그룹 개인 브랜드평판 8월 빅데이터 분석 결과, 1위를 차지했다. 아이브 장원영과 블랙핑크 제니가 뒤를 이었다.한국기업평판연구소는 걸그룹 개인 브랜드평판 8월 빅데이터 분석을 위해 7월 16일부터 8월 16일까지 걸그룹 개인 735명의 브랜드 빅데이터 133,004,19",
+        "image": "https://cdn.slist.kr/news/thumbnail/202608/759081_1163129_542_v150.jpg"
+    },
+    {
+        "title": "리센느, 데뷔 첫 트리플 크라운...‘음중’서 ‘Pretty Girl’로 1위 - 싱글리스트",
+        "source": "싱글리스트",
+        "date": "2026-08-15",
+        "url": "https://www.slist.kr/news/articleView.html?idxno=759077",
+        "summary": "‘대세 걸그룹’ 리센느가 ‘Pretty Girl’로 데뷔 첫 트리플 크라운을 달성했다.리센느는 15일 방송된 MBC ‘쇼! 음악중심’에서 리메이크 싱글 ‘Pretty Girl’(프리티 걸)로 1위 트로피를 또 거머쥐었다. 이로써 ‘쇼! 음악중심’에서만 통산 3번째 수상을 기록했다. 특히",
+        "image": "https://cdn.slist.kr/news/thumbnail/202608/759077_1163114_451_v150.jpg"
+    },
+    {
+        "title": "리센느 원이도 '야호~'...'아재폰'의 대반전 - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-08-15",
+        "url": "https://v.daum.net/v/20260815161307198",
+        "summary": "삼성전자의 폴더블폰 신작 갤럭시Z8 시리즈가 글로벌 예약판매에서 최대 520만대를 기록했을 것이라는 전망이 제기됐다. 특히 '여권크기'의 새 화면 비율을 적용한 갤럭시Z폴드8이 전체 예약 물량의 약 60%를 차지해 흥행을 주도한 것으로 알려졌다. 15일 IT업계에 따르면 해외 IT 전문",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/15/kedbiz/20260815161309269tinn.jpg"
+    },
+    {
+        "title": "리센느 '놀토' 출격…04년생 원이, 막내 제나에 \"너 몇년생이야\" - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-08-15",
+        "url": "https://www.news1.kr/entertain/broadcast-tv/6260149",
+        "summary": ""
     },
     {
         "title": "리센느 원이, 인기 실감은 '소고기'로...\"가격·부위 상관없이 먹어\" - 스포츠조선",
@@ -311,20 +378,34 @@ const NEWS_DATA = [
         "image": "https://www.sportschosun.com/article/html/2026/08/15/2026081501000907800057401_w.jpg"
     },
     {
-        "title": "리센느, 섭외 못해서 안달인데..막상 나왔더니 토크 금지령(놀토) - OSEN",
-        "source": "OSEN",
+        "title": "리센느 원이, 막내 제나에 “몇 년생이야”…꼰대력 폭발 - sports.donga.com",
+        "source": "sports.donga.com",
         "date": "2026-08-15",
-        "url": "https://www.osen.co.kr/article/G1112857884",
-        "summary": "대세 5인조 걸그룹 리센느가 '놀토'에 나와서 토크 금지령을 받았다. tvN ‘놀라운 토요일’에 대세 아이돌 리센느가 출격한다. 오늘(15일) 저녁 7시...",
-        "image": "http://file.osen.co.kr/article_thumb/2026/08/15/202608151814774846_6a802e2f4a928_300x.jpg"
+        "url": "https://sports.donga.com/ent/article/all/20260815/134482972/1",
+        "summary": ""
     },
     {
-        "title": "리센느, 이게 성공의 맛? 소고기가 식탁에…\"가격·부위 상관없어\" (놀토) - xportsnews.com",
-        "source": "xportsnews.com",
+        "title": "‘놀라운 토요일’ 평택송탄시장 함박스테이크 맛집 위치는? “리센느 원이·리브·제나와 함께…” - 톱스타뉴스",
+        "source": "톱스타뉴스",
         "date": "2026-08-15",
-        "url": "https://www.xportsnews.com/article/2184220",
-        "summary": "(엑스포츠뉴스 윤재연 기자) '대세'로 자리매김 중인 그룹 리센느가 소고기로 성공을 실감했다고 고백했다. 15일 방송된 tvN 예능 프로그램 '놀라운 토요일'(이하 '놀토)에는 그룹 리센느 원이·리브·제나가 출연했다. 이날 리센느는 대세임을 실감하게 된 순간을 솔직히 고백했다. 원이는 ",
-        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/0815/1786792508906124.webp"
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16163942",
+        "summary": "‘놀라운 토요일’에서 소개한 경기도 평택시 지산동 소재 ‘육즙 가득’ 함박스테이크 맛집이 화제다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202608/16163942_1992473_1254_crop.jpg"
+    },
+    {
+        "title": "정일영, 디지털 문해 교육 받아 리센느 팬카페 가입..\"1위 축하하고 싶어\" - OSEN",
+        "source": "OSEN",
+        "date": "2026-08-15",
+        "url": "https://www.osen.co.kr/article/G1112858065",
+        "summary": "영상 시청 후 작성된 리뷰 기사입니다. 프랑스어 전문가 겸 방송인 정일영이 리센느 팬카페에 글 남기기를 도전했다. 지난 12일 유튜브 채널 '악성내성인...",
+        "image": "http://file.osen.co.kr/article_thumb/2026/08/15/202608152048776024_6a8057cbcc749_300x.png"
+    },
+    {
+        "title": "RESCENE (리센느) - 20260815 - LOVE ATTACK - KCON Los Angeles [Fancam / 직캠] - YouTube",
+        "source": "YouTube",
+        "date": "2026-08-15",
+        "url": "https://youtu.be/fQsXexb20Ac?is=8R3k7IAqZy8kJSk2",
+        "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
     },
     {
         "title": "'대세' 리센느, 회사 대우 확 달라졌다…\"가격 안 보고 소고기 골라\" ('놀토') - 텐아시아",
@@ -335,12 +416,36 @@ const NEWS_DATA = [
         "image": "https://img.tenasia.co.kr/photo/202608/BF.45349271.1.png"
     },
     {
+        "title": "리센느, 이게 성공의 맛? 소고기가 식탁에…\"가격·부위 상관없어\" (놀토) - xportsnews.com",
+        "source": "xportsnews.com",
+        "date": "2026-08-15",
+        "url": "https://www.xportsnews.com/article/2184220",
+        "summary": "(엑스포츠뉴스 윤재연 기자) '대세'로 자리매김 중인 그룹 리센느가 소고기로 성공을 실감했다고 고백했다. 15일 방송된 tvN 예능 프로그램 '놀라운 토요일'(이하 '놀토)에는 그룹 리센느 원이·리브·제나가 출연했다. 이날 리센느는 대세임을 실감하게 된 순간을 솔직히 고백했다. 원이는 ",
+        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/0815/1786792508906124.webp"
+    },
+    {
+        "title": "리센느, 섭외 못해서 안달인데..막상 나왔더니 토크 금지령(놀토) - OSEN",
+        "source": "OSEN",
+        "date": "2026-08-15",
+        "url": "https://www.osen.co.kr/article/G1112857884",
+        "summary": "대세 5인조 걸그룹 리센느가 '놀토'에 나와서 토크 금지령을 받았다. tvN ‘놀라운 토요일’에 대세 아이돌 리센느가 출격한다. 오늘(15일) 저녁 7시...",
+        "image": "http://file.osen.co.kr/article_thumb/2026/08/15/202608151814774846_6a802e2f4a928_300x.jpg"
+    },
+    {
         "title": "리센느 원이, 태연 성공한 덕후 \"아이돌계 이미자\" 신동엽 비유 '폭소' (놀토)[어제TV] - 네이트",
         "source": "네이트",
         "date": "2026-08-15",
         "url": "https://news.nate.com/view/20260816n01265?mid=e0608&isq=10098",
         "summary": "�Ѵ��� ���� ���� : ���̵�24�� - ���� : [������ ����� ����] ���̰� �¿� �ҽ��� �巯���� �ŵ����� �¿��� �̹��ڿ� ������ ������ �����ߴ�. 8�� 15�� ��۵� tvN ������ ����ϡ������",
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/nn/2026/08/16/202608160600211710_1.jpg"
+    },
+    {
+        "title": "리센느 제나, “너 지금 몇 년생이야”…‘놀토’에서 막내 답 없는 속마음 고백 - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-08-15",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16164301",
+        "summary": "tvN ‘놀라운 토요일’ 여름방학 특집에 리센느 원이·리브·제나가 출연해 ‘나 이런 사람이야!’ 퀴즈와 스피드 받쓰, 디저트 게임 ‘무대 위 패션왕’ 등에서 개인기와 폭로전, 라이벌전까지 이어지는 예능 활약을 선보인다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202608/16164301_1992761_615_crop.jpg"
     },
     {
         "title": "\"소고기 가격·부위 NO상관\" 리센느, 메뉴 고를 때 인기 실감 ('놀토') - 네이트",
@@ -351,35 +456,12 @@ const NEWS_DATA = [
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/tt/2026/08/15/news-p.v1.20260815.3b0cbd51af954031844c322eb0174a96_P1.jpg"
     },
     {
-        "title": "리센느 '놀토' 출격…04년생 원이, 막내 제나에 \"너 몇년생이야\" - 뉴스1",
-        "source": "뉴스1",
+        "title": "리센느, ‘Pretty Girl’로 음악방송 4관왕…‘쇼! 음악중심’ 통산 3번째 1위 - 스타데일리뉴스",
+        "source": "스타데일리뉴스",
         "date": "2026-08-15",
-        "url": "https://www.news1.kr/entertain/broadcast-tv/6260149",
-        "summary": ""
-    },
-    {
-        "title": "리센느 원이, 막내 제나에 “몇 년생이야”…꼰대력 폭발 - 스포츠동아",
-        "source": "스포츠동아",
-        "date": "2026-08-15",
-        "url": "https://sports.donga.com/ent/article/all/20260815/134482972/1",
-        "summary": "[스포츠동아 이정연 기자] 그룹 리센느(RESCENE)의 원이, 리브, 제나가 ‘놀라운 토요일’에서 거침없는 입담과 예능감으로 존재감을 드러낸다.15일 오후 7시 30분 방송되는 tvN ‘놀라운 토요일’(이하 ‘놀토’) ‘여름방학 특집’ 2탄에는 리센느 원이, 리브,…",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/08/15/134482976.1.jpeg"
-    },
-    {
-        "title": "‘놀토’ 04년생 리센느 원이, 제나에 꼰대력 발산 “몇 년생이야” - gukjenews.com",
-        "source": "gukjenews.com",
-        "date": "2026-08-15",
-        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3665690",
-        "summary": "화제의 걸그룹 리센느가 '놀토'에 뜬다. 15일 방송되는 tvN 예능 프로그램 '놀라운 토요일'(이하 '놀토')은 리센느 멤버 원이 리브 제나가 출연하는 '여름방학 특집' 2탄으로 꾸며진다. '놀토'에 처음 출연하는 리센느는 등장과 동시에 '예능 본능'을 폭발시킨다. 원이는 '놀토' 버",
-        "image": "https://cdn.gukjenews.com/news/thumbnail/202608/3665690_3833038_508_v150.jpg"
-    },
-    {
-        "title": "리센느 원이 母, 연예인 못지 않은 화제성 \"자꾸 목격담 쏟아져\"('놀토')[셀럽캡처] - 네이트",
-        "source": "네이트",
-        "date": "2026-08-15",
-        "url": "https://news.nate.com/view/20260815n10713?mid=e0600",
-        "summary": "�Ѵ��� ���� ���� : ���̵�24�� - ���� : [�����̵�� �ӿ��� ����] �׷� ������ ���̰� ���� �������� �� ��Ӵ��� ��Ȳ�� ���ߴ�. 15�� ��۵� tvN '���� �����'���� ������ ����, ���",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/ab/2026/08/15/1786790879_525839.jpg"
+        "url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=546137",
+        "summary": "[스타데일리뉴스=천설화 기자] ‘국민 걸그룹’ 리센느(RESCENE)가 리메이크 싱글 ‘Pretty Girl’로 음악방송 4관왕을 달성했다.리센느(원이, 리브, 미나미, 메이, 제나)는 지난 15일 방송된 MBC ‘...",
+        "image": "https://cdn.stardailynews.co.kr/news/thumbnail/202608/546137_578301_255_v150.jpg"
     },
     {
         "title": "리센느, 달라진 인기는 소고기로 실감…\"가격·부위 언제든 상관없어\" ('놀토') - 네이트",
@@ -398,20 +480,28 @@ const NEWS_DATA = [
         "image": "https://www.anewsa.com/news_images/2026/08/10/mark/20260810124415.jpg"
     },
     {
-        "title": "리센느, ‘Pretty Girl’로 음악방송 4관왕…‘쇼! 음악중심’ 통산 3번째 1위 - 스타데일리뉴스",
-        "source": "스타데일리뉴스",
+        "title": "리센느 원이 母, 연예인 못지 않은 화제성 \"자꾸 목격담 쏟아져\"('놀토')[셀럽캡처] - 네이트",
+        "source": "네이트",
         "date": "2026-08-15",
-        "url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=546137",
-        "summary": "[스타데일리뉴스=천설화 기자] ‘국민 걸그룹’ 리센느(RESCENE)가 리메이크 싱글 ‘Pretty Girl’로 음악방송 4관왕을 달성했다.리센느(원이, 리브, 미나미, 메이, 제나)는 지난 15일 방송된 MBC ‘...",
-        "image": "https://cdn.stardailynews.co.kr/news/thumbnail/202608/546137_578301_255_v150.jpg"
+        "url": "https://news.nate.com/view/20260815n10713?mid=e0600",
+        "summary": "�Ѵ��� ���� ���� : ���̵�24�� - ���� : [�����̵�� �ӿ��� ����] �׷� ������ ���̰� ���� �������� �� ��Ӵ��� ��Ȳ�� ���ߴ�. 15�� ��۵� tvN '���� �����'���� ������ ����, ���",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/ab/2026/08/15/1786790879_525839.jpg"
     },
     {
-        "title": "리센느 원이, 꼰대력 발산 “너 지금 몇 년생이야?” (놀토) - 동아일보",
-        "source": "동아일보",
+        "title": "대세 걸그룹 리센느, '놀라운 토요일' 무대서 예능 본능 폭발 - 지피코리아",
+        "source": "지피코리아",
         "date": "2026-08-15",
-        "url": "https://www.donga.com/SODA/article/0210/20260815/134483107/1",
-        "summary": "[동아닷컴 이슬비 기자] 리센느 원이, 리브, 제나가 ‘놀라운 토요일’에서 대세다운 남다른 예능감을 뽐낸다.15일 방송되는 tvN ‘놀라운 토요일’(이하 ‘놀토’) ‘여름방학 특집’ 2탄에는 리센느 원이, 리브, 제나가 출연한다.‘놀토’ 첫 방문인 세 사람은 등장부터…",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/08/15/134483103.1.jpg"
+        "url": "https://www.gpkorea.com/news/articleView.html?idxno=145700",
+        "summary": "tvN '놀라운 토요일'(이하 '놀토') '여름방학 특집' 2탄에는 국민 걸그룹 리센느의 원이, 리브, 제나가 출연해 다채로운 활약을 펼친다.'놀토' 첫 방문인 리센느 3인방은 등장 직후 예능 본능을 폭발시킨다. '놀토' 버전 '파이리' 포즈를 선보인 원이, 화장실에서 발가락 다리 찢기",
+        "image": "https://cdn.gpkorea.com/news/photo/202608/145700_309455_4054.jpg"
+    },
+    {
+        "title": "‘놀토’ 04년생 리센느 원이, 제나에 꼰대력 발산 “몇 년생이야” - gukjenews.com",
+        "source": "gukjenews.com",
+        "date": "2026-08-15",
+        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3665690",
+        "summary": "화제의 걸그룹 리센느가 '놀토'에 뜬다. 15일 방송되는 tvN 예능 프로그램 '놀라운 토요일'(이하 '놀토')은 리센느 멤버 원이 리브 제나가 출연하는 '여름방학 특집' 2탄으로 꾸며진다. '놀토'에 처음 출연하는 리센느는 등장과 동시에 '예능 본능'을 폭발시킨다. 원이는 '놀토' 버",
+        "image": "https://cdn.gukjenews.com/news/thumbnail/202608/3665690_3833038_508_v150.jpg"
     },
     {
         "title": "리센느 원이 \"소고기 부위 가격 상관없이 항시 먹어 인기 실감\" (놀토) - 네이트",
@@ -430,60 +520,20 @@ const NEWS_DATA = [
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/nn/2026/08/15/202608152019201710_1.jpg"
     },
     {
-        "title": "리센느 제나, “너 지금 몇 년생이야”…‘놀토’에서 막내 답 없는 속마음 고백 - 톱스타뉴스",
-        "source": "톱스타뉴스",
-        "date": "2026-08-15",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16164301",
-        "summary": "tvN ‘놀라운 토요일’ 여름방학 특집에 리센느 원이·리브·제나가 출연해 ‘나 이런 사람이야!’ 퀴즈와 스피드 받쓰, 디저트 게임 ‘무대 위 패션왕’ 등에서 개인기와 폭로전, 라이벌전까지 이어지는 예능 활약을 선보인다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202608/16164301_1992761_615_crop.jpg"
-    },
-    {
-        "title": "대세 걸그룹 리센느, '놀라운 토요일' 무대서 예능 본능 폭발 - 지피코리아",
-        "source": "지피코리아",
-        "date": "2026-08-15",
-        "url": "https://www.gpkorea.com/news/articleView.html?idxno=145700",
-        "summary": "tvN '놀라운 토요일'(이하 '놀토') '여름방학 특집' 2탄에는 국민 걸그룹 리센느의 원이, 리브, 제나가 출연해 다채로운 활약을 펼친다.'놀토' 첫 방문인 리센느 3인방은 등장 직후 예능 본능을 폭발시킨다. '놀토' 버전 '파이리' 포즈를 선보인 원이, 화장실에서 발가락 다리 찢기",
-        "image": "https://cdn.gpkorea.com/news/photo/202608/145700_309455_4054.jpg"
-    },
-    {
-        "title": "리센느 리브, 발가락 찢기 개인기 비밀 공개 \"화장실서 몰래 연습\" (놀토) - 네이트",
-        "source": "네이트",
-        "date": "2026-08-15",
-        "url": "https://news.nate.com/view/20260815n11139?mid=e0600",
-        "summary": "�Ѵ��� ���� ���� : ���̵�24�� - ���� : [������ ����� ����] ������ ���갡 �߰��� ���� ���α� ����� �����ߴ�. 8�� 15�� ��۵� tvN ������ ����ϡ������� ������ ����, ����, ��",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/nn/2026/08/15/202608152028201710_1.jpg"
-    },
-    {
-        "title": "'놀토' 리센느 원이, 막내 제나에 \"너 몇 년생이야\"…예능감 폭발 - edaily.co.kr",
-        "source": "edaily.co.kr",
-        "date": "2026-08-15",
-        "url": "https://www.edaily.co.kr/News/Read?newsId=02407526645547648&mediaCodeNo=257",
-        "summary": "대세 아이돌 리센느가 ‘놀라운 토요일’에서 예능감을 뽐낸다.(사진=tvN)15일 방송하는 tvN ‘놀라운 토요일’(놀토) ‘여름방학 특집’ 2탄에는 국민 걸그룹으로 떠오른 리센느의 원이, 리브, 제나가 출연, 다채로운 활약으로 스튜디오를 뒤흔들 계획이다.‘놀토’ 첫 ...",
-        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/08/PS26081500476.jpg"
-    },
-    {
-        "title": "리센느, 출연 없이 '쇼! 음악중심' 1위 수성 [TV캡처] - 네이트",
-        "source": "네이트",
-        "date": "2026-08-15",
-        "url": "https://news.nate.com/view/20260815n08805",
-        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : [������������ ������ ����] �׷� �������� '��! �����߽�' 1�� Ʈ���Ǹ� �Ÿ������. 15�� ��۵� MBC '��! �����߽�' 1�� �ĺ����� ���座�� '�",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/st/2026/08/15/15_1083503_71468.jpg"
-    },
-    {
-        "title": "리센느, 방송출연 없이 'Pretty Girl' 1위…데뷔 첫 트리플 크라운('음악중심')[셀럽캡처] - 네이트",
-        "source": "네이트",
-        "date": "2026-08-15",
-        "url": "https://news.nate.com/view/20260815n08868",
-        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : [�����̵�� �ӿ��� ����] �׷� �������� '��! �����߽�'���� Ʈ���� ũ����� �޼��ߴ�. 15�� ���� ��۵� MBC '��! �����߽�'������ �������� 'P",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/ab/2026/08/15/1786779917_525834.jpg"
-    },
-    {
         "title": "리센느의 감각은 어디서 시작됐을까? 프로듀서 김혜수 인터뷰 (+ 미공개 사진) - cosmopolitan.co.kr",
         "source": "cosmopolitan.co.kr",
         "date": "2026-08-14",
         "url": "https://www.cosmopolitan.co.kr/article/1907898",
         "summary": "리센느의 독특한 감각 뒤에는 음악과 비주얼, 코딩까지 경계 없이 넘나드는 프로듀서 김혜수가 있습니다. ‘YoYo’와 ‘Pinball’에 담긴 시작점부터 리센느가 앞으로 남기고 싶은 향까지, 김혜수가 만드는 세계를 들여다봤어요. 리센느의 미공개 사진 공개는 덤!",
         "image": "https://www.cosmopolitan.co.kr/resources/online/thumbnail/hf/2026/08/13/5baa85fb-c397-46fd-94a3-c8c9a74d4962.jpg"
+    },
+    {
+        "title": "‘중소돌의 기적’ 리센느, 뷰티 광고까지 꿰찼다..광고주들이 줄서는 이유 - 이코노미스트",
+        "source": "이코노미스트",
+        "date": "2026-08-14",
+        "url": "https://economist.co.kr/article/view/ecn202608140004",
+        "summary": "‘중소돌의 기적’ 리센느가 마침내 뷰티 광고 모델까지 올라섰다. 데뷔 2년 차인 리센느를 향한 브랜드들의 러브콜이 편의점과 음료를 넘어 향",
+        "image": "https://economist.co.kr/data/ecn/image/2026/08/14/ecn20260814000005.800x.0.jpg"
     },
     {
         "title": "리센느 원이, 스킨케어 브랜드 새 얼굴 됐다 - bntnews.co.kr",
@@ -499,14 +549,6 @@ const NEWS_DATA = [
         "date": "2026-08-14",
         "url": "https://channelpnu.pusan.ac.kr/news/articleViewAmp.html?idxno=39321",
         "summary": ""
-    },
-    {
-        "title": "‘중소돌의 기적’ 리센느, 뷰티 광고까지 꿰찼다..광고주들이 줄서는 이유 - 이코노미스트",
-        "source": "이코노미스트",
-        "date": "2026-08-14",
-        "url": "https://economist.co.kr/article/view/ecn202608140004",
-        "summary": "‘중소돌의 기적’ 리센느가 마침내 뷰티 광고 모델까지 올라섰다. 데뷔 2년 차인 리센느를 향한 브랜드들의 러브콜이 편의점과 음료를 넘어 향",
-        "image": "https://economist.co.kr/data/ecn/image/2026/08/14/ecn20260814000005.800x.0.jpg"
     },
     {
         "title": "바이오던스, 리센느 원이 앰버서더 발탁…‘My First Collagen’ 캠페인 전개 - 약업닷컴",
@@ -525,8 +567,8 @@ const NEWS_DATA = [
         "image": "https://www.fashionbiz.co.kr/images/articleImg/mainImg/1786666251674-%EB%B0%94%EC%9D%B4%EC%98%A4%EB%8D%98%EC%8A%A4x%EB%A6%AC%EC%84%BC%EB%8A%90%20%EC%9B%90%EC%9D%B4_1.jpg"
     },
     {
-        "title": "바이오던스, 리센느 원이 앰버서더 발탁… 'My First Collagen' 캠페인 펼쳐 - brandbrief.co.kr",
-        "source": "brandbrief.co.kr",
+        "title": "바이오던스, 리센느 원이 앰버서더 발탁… 'My First Collagen' 캠페인 펼쳐 - 브랜드브리프",
+        "source": "브랜드브리프",
         "date": "2026-08-14",
         "url": "https://www.brandbrief.co.kr/news/articleView.html?idxno=10203",
         "summary": "글로벌 스킨케어 브랜드 바이오던스가 그룹 리센느(RESCENE)의 원이를 새로운 앰버서더로 발탁하고, 'My First Collagen' 캠페인을 전개한다고 14일 밝혔다.바이오던스는 리센느의 리더로서 꾸준한 노력으로 팀의 성장을 이끌어온 원이의 서사와 밝고 당당한 에너지에 주목했다. ",
@@ -557,8 +599,8 @@ const NEWS_DATA = [
         "image": "https://cdn.woman-story.co.kr/news/thumbnail/202608/13365_17241_2059_v150.jpg"
     },
     {
-        "title": "바이오던스, 리센느 원이와 ‘첫 콜라겐 루틴’ 메시지 확장 - ktnews.com",
-        "source": "ktnews.com",
+        "title": "바이오던스, 리센느 원이와 ‘첫 콜라겐 루틴’ 메시지 확장 - 한국섬유신문",
+        "source": "한국섬유신문",
         "date": "2026-08-14",
         "url": "https://www.ktnews.com/news/articleView.html?idxno=147722",
         "summary": "바이오던스(BIODANCE)가 리센느(RESCENE) 원이를 앰버서더로 발탁하고 신규 캠페인을 전개한다.바이오던스는 리센느 원이와 함께 ‘My First Collagen’ 캠페인을 진행한다고 14일 밝혔다. 이번 캠페인은 콜라겐을 안티에이징 중심의 성분에서 데일리 스킨케어 영역으로 확장",
@@ -589,20 +631,20 @@ const NEWS_DATA = [
         "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=2026081409542900127046a9e4dd7f1822257147.jpg&nmt=30"
     },
     {
+        "title": "바이오던스, 리센느 원이 앰버서더 발탁···'화잘먹 콜라겐' 알린다 - 글로벌E",
+        "source": "글로벌E",
+        "date": "2026-08-14",
+        "url": "https://www.globale.co.kr/news/articleView.html?idxno=39876",
+        "summary": "스킨케어 브랜드 바이오던스가 걸그룹 리센느(RESCENE)의 리더 원이를 브랜드의 새로운 앰버서더로 발탁하고 'My First Collagen' 캠페인에 나선다.바이오던스는 팀의 리더로서 성장을 이끌어온 원이의 서사와 2030 여성 소비자와 공감대를 형성하는 당당하고 친근한 매력에 주",
+        "image": "https://cdn.globale.co.kr/news/thumbnail/202608/39876_65642_2730_v150.jpg"
+    },
+    {
         "title": "스마트스터디벤처스, '리센느' 데뷔도 전에 소속사 최초 투자…기업가치 '껑충' - 마켓잉크",
         "source": "마켓잉크",
         "date": "2026-08-13",
         "url": "https://www.market-ink.co.kr/news/articleView.html?idxno=10280",
         "summary": "2023년 걸그룹 론칭 전 Pre-A 투자 집행리센느, 멜론 TOP100 1위·음악방송 3관왕에 신인 아이돌 브랜드평판 1위'핑크퐁'과 '아기상어'로 알려진 콘텐",
         "image": "https://cdn.market-ink.co.kr/news/photo/202608/10280_13442_2416.png"
-    },
-    {
-        "title": "에이페, 걸그룹 리센느 브랜드 모델 발탁 - ktnews.com",
-        "source": "ktnews.com",
-        "date": "2026-08-13",
-        "url": "https://www.ktnews.com/news/articleView.html?idxno=147705",
-        "summary": "헤어케어 브랜드들이 아이돌 그룹과의 협업을 통해 젊은 소비자층과의 접점을 확대하는 가운데 에이페(epais)가 걸그룹 리센느(RESCENE)를 브랜드 모델로 발탁했다.어댑트가 운영하는 헤어 솔루션 브랜드 에이페는 리센느와 함께 디지털 콘텐츠와 마케팅 활동을 중심으로 브랜드 캠페인을 전개",
-        "image": "http://www.ktnews.com/news/thumbnail/202608/147705_128636_318_v150.jpg"
     },
     {
         "title": "‘거제 야호’ 리센느, 에이페 모델 됐다 - 시장경제신문",
@@ -613,14 +655,6 @@ const NEWS_DATA = [
         "image": "https://cdn.meconomynews.com/news/photo/202608/200535_200986_589.jpg"
     },
     {
-        "title": "에이페, 새 얼굴로 걸그룹 리센느 발탁…K-헤어 시장 공략 확대 - 뉴스탭",
-        "source": "뉴스탭",
-        "date": "2026-08-13",
-        "url": "https://www.newstap.co.kr/news/articleView.html?idxno=332240",
-        "summary": "라이프솔루션 기반 D2C 미디어커머스 기업 어댑트의 헤어 솔루션 브랜드 에이페(epais)가 걸그룹 리센느(RESCENE)를 새로운 브랜드 모델로 발탁하고 소비자",
-        "image": "https://cdn.newstap.co.kr/news/photo/202608/332240_441005_528.jpg"
-    },
-    {
         "title": "에이페, 리센느 브랜드 모델 발탁…K-헤어 소비자 접점 확대 - 푸드투데이",
         "source": "푸드투데이",
         "date": "2026-08-13",
@@ -629,19 +663,11 @@ const NEWS_DATA = [
         "image": "https://www.foodtoday.or.kr/data/photos/20260833/art_17865822048389_ffeb49.jpg"
     },
     {
-        "title": "인'스타'그램 세상|[영상] 리센느 향해 \"쌩까네? 뭘 째려봐\" 발언한 기자 - news.zum.com",
-        "source": "news.zum.com",
+        "title": "인'스타'그램 세상|[영상] 리센느 향해 \"쌩까네? 뭘 째려봐\" 발언한 기자 - ZUM 뉴스",
+        "source": "ZUM 뉴스",
         "date": "2026-08-12",
         "url": "https://m.news.zum.com/photo/58287739/107159982?cm=news_edit&r=1&thumb=1",
         "summary": ""
-    },
-    {
-        "title": "'리센느 원이 삼촌' 이선민 \"6개월 만에 전교 240등→15등\"…성적표 공개('유퀴즈') - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-12",
-        "url": "https://v.daum.net/v/20260812192129578",
-        "summary": "[스포티비뉴스=정혜원 기자] 그룹 리센느 원이의 운전 연수 삼촌으로 불리는 개그맨 이선민이 공부 천재였던 과거를 공개했다. 12일 tvN 예능 프로그램 '유 퀴즈 온 더 블럭(이하 '유퀴즈')'은 공식 SNS에 \"지덕체를 완벽하게 갖춘 개그맨 이선민. 중학교 시절 6개월 만에 전교 24",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/12/spotvnews/20260812192132867lgvj.png"
     },
     {
         "title": "리센느 원이 '미소 활짝'[★포토] - v.daum.net",
@@ -652,20 +678,20 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/12/starnews/20260812120452620efky.jpg"
     },
     {
+        "title": "'리센느 원이 삼촌' 이선민 \"6개월 만에 전교 240등→15등\"…성적표 공개('유퀴즈') - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-08-12",
+        "url": "https://v.daum.net/v/20260812192129578",
+        "summary": "[스포티비뉴스=정혜원 기자] 그룹 리센느 원이의 운전 연수 삼촌으로 불리는 개그맨 이선민이 공부 천재였던 과거를 공개했다. 12일 tvN 예능 프로그램 '유 퀴즈 온 더 블럭(이하 '유퀴즈')'은 공식 SNS에 \"지덕체를 완벽하게 갖춘 개그맨 이선민. 중학교 시절 6개월 만에 전교 24",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/12/spotvnews/20260812192132867lgvj.png"
+    },
+    {
         "title": "월드클래스 `맨체스터 시티`와 걸 그룹 `리센느` 예능 만남 - 매일신문",
         "source": "매일신문",
         "date": "2026-08-12",
         "url": "https://www.imaeil.com/page/view/2026081213495966358",
         "summary": "'리센느의 맨시티 어택!' 단체사진 쿠팡플레이 제공...",
         "image": "https://www.imaeil.com/photos/2026/08/12/2026081213483026912_l.jpg"
-    },
-    {
-        "title": "리센느 리브도 ‘샤라웃’ 하트오브우먼, 레트로 패러다임 뒤엎은 ‘Y3K’ [줌인] - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-12",
-        "url": "https://v.daum.net/v/20260813060151101?f=p",
-        "summary": "그룹 하트오브우먼이 가요계에 몰아친 레트로 열풍 속에서 자신들만의 정체성으로 승부수를 던졌다. 지난 5월 데뷔해 최근 약 2개월간의 활동을 마무리한 이들은 고 휘성이 제작을 맡은 신인으로 데뷔 전부터 주목을 받았다.하트오브우먼은 다수의 아이돌이 2000년대 초반을 풍미한 Y2K 감성을 ",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/13/ilgansports/20260813060152588zfip.jpg"
     },
     {
         "title": "\"이강인 야호~\" 아틀레티코 7번 단 이강인, 대세 걸그룹 리센느와 만났다...인증샷에 친필사인까지 - v.daum.net",
@@ -690,30 +716,6 @@ const NEWS_DATA = [
         "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260812_0003745533",
         "summary": "[서울=뉴시스] 남정현 기자 = 쿠팡플레이가 예능 '리센느의 맨시티 어택!'을 14일 오후 4시 공개한다",
         "image": "https://img1.newsis.com/2026/08/12/NISI20260812_0002210217_web.jpg"
-    },
-    {
-        "title": "리센느 원이 '머리띠가 포인트!'[★포토] - starnewskorea.com",
-        "source": "starnewskorea.com",
-        "date": "2026-08-12",
-        "url": "https://www.starnewskorea.com/music/2026/08/12/2026081212073575512",
-        "summary": "그룹 리센느(RESCENE) 원이가 해외 일정 차 12일 오전 인천국제공항을 통해 출국하고 있다. 2026.08.12",
-        "image": "https://image.starnewskorea.com/21/2026/08/2026081212073575512_1.jpg"
-    },
-    {
-        "title": "리센느 꽃이 피었습니다![★포토] - starnewskorea.com",
-        "source": "starnewskorea.com",
-        "date": "2026-08-12",
-        "url": "https://www.starnewskorea.com/music/2026/08/12/2026081212043191289",
-        "summary": "그룹 리센느(RESCENE) 리브, 미나미, 제나, 원이, 메이가 해외 일정 차 12일 오전 인천국제공항을 통해 출국하고 있다. 2026.08.12",
-        "image": "https://image.starnewskorea.com/21/2026/08/2026081212043191289_1.jpg"
-    },
-    {
-        "title": "리센느 원이 '미소 활짝'[★포토] - starnewskorea.com",
-        "source": "starnewskorea.com",
-        "date": "2026-08-12",
-        "url": "https://www.starnewskorea.com/music/2026/08/12/2026081212025977440",
-        "summary": "그룹 리센느(RESCENE) 원이가 해외 일정 차 12일 오전 인천국제공항을 통해 출국하고 있다. 2026.08.12",
-        "image": "https://image.starnewskorea.com/21/2026/08/2026081212025977440_1.jpg"
     },
     {
         "title": "‘거제 야호’ 리센느 뜨자...더뮤즈엔터 몸값도 껑충 - 뉴스톱",
