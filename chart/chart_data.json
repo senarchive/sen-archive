@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T10:17:39.341Z",
+  "updatedAt": "2026-08-17T11:53:57.304Z",
   "platforms": [
     "melon",
     "genie",
@@ -64,7 +64,7 @@
         },
         "bugs": {
           "rank": 9,
-          "previousRank": 11
+          "previousRank": 9
         },
         "flo": {
           "rank": 5,
@@ -91,15 +91,15 @@
         },
         "genie": {
           "rank": 16,
-          "previousRank": 19
+          "previousRank": 16
         },
         "vibe": {
           "rank": 22,
           "previousRank": 21
         },
         "bugs": {
-          "rank": 6,
-          "previousRank": 5
+          "rank": 5,
+          "previousRank": 6
         },
         "flo": {
           "rank": 7,
@@ -122,11 +122,11 @@
       "ranks": {
         "melon": {
           "rank": 56,
-          "previousRank": 57
+          "previousRank": 56
         },
         "bugs": {
-          "rank": 36,
-          "previousRank": 43
+          "rank": 45,
+          "previousRank": 36
         },
         "flo": {
           "rank": 72,
@@ -148,8 +148,8 @@
       "albumImageUrl": "https://image.bugsm.co.kr/album/images/350/41063/4106349.jpg",
       "ranks": {
         "bugs": {
-          "rank": 66,
-          "previousRank": 52
+          "rank": 77,
+          "previousRank": 66
         },
         "flo": {
           "rank": 90,
