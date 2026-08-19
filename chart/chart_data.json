@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T03:13:39.131Z",
+  "updatedAt": "2026-08-19T05:16:58.088Z",
   "platforms": [
     "melon",
     "genie",
@@ -56,15 +56,15 @@
         },
         "genie": {
           "rank": 7,
-          "previousRank": 7
+          "previousRank": 6
         },
         "vibe": {
           "rank": 5,
           "previousRank": 5
         },
         "bugs": {
-          "rank": 7,
-          "previousRank": 6
+          "rank": 11,
+          "previousRank": 9
         },
         "flo": {
           "rank": 5,
@@ -86,20 +86,20 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/118/75/116/11875116_20250701165641_500.jpg?86da3088c776a346e926b1b4052f227c/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 7,
-          "previousRank": 6
+          "rank": 6,
+          "previousRank": 7
         },
         "genie": {
-          "rank": 20,
-          "previousRank": 20
+          "rank": 19,
+          "previousRank": 18
         },
         "vibe": {
           "rank": 22,
           "previousRank": 22
         },
         "bugs": {
-          "rank": 9,
-          "previousRank": 10
+          "rank": 6,
+          "previousRank": 8
         },
         "flo": {
           "rank": 7,
@@ -122,11 +122,11 @@
       "ranks": {
         "melon": {
           "rank": 52,
-          "previousRank": 51
+          "previousRank": 54
         },
         "bugs": {
-          "rank": 27,
-          "previousRank": 28
+          "rank": 56,
+          "previousRank": 44
         },
         "flo": {
           "rank": 67,
@@ -148,12 +148,12 @@
       "albumImageUrl": "https://image.bugsm.co.kr/album/images/350/41063/4106349.jpg",
       "ranks": {
         "bugs": {
-          "rank": 44,
-          "previousRank": 32
+          "rank": 42,
+          "previousRank": 63
         },
         "flo": {
-          "rank": 86,
-          "previousRank": 86
+          "rank": 88,
+          "previousRank": 88
         },
         "youtube_music": {
           "rank": 30,
