@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T21:20:12.908Z",
+  "updatedAt": "2026-08-23T22:19:56.321Z",
   "platforms": [
     "melon",
     "genie",
@@ -20,8 +20,8 @@
           "previousRank": 1
         },
         "genie": {
-          "rank": 18,
-          "previousRank": 2
+          "rank": 1,
+          "previousRank": 18
         },
         "vibe": {
           "rank": 1,
@@ -55,19 +55,19 @@
           "previousRank": 5
         },
         "genie": {
-          "rank": 22,
-          "previousRank": 20
+          "rank": 12,
+          "previousRank": 22
         },
         "vibe": {
           "rank": 7,
-          "previousRank": 8
+          "previousRank": 7
         },
         "bugs": {
-          "rank": 14,
-          "previousRank": 13
+          "rank": 16,
+          "previousRank": 14
         },
         "flo": {
-          "rank": 6,
+          "rank": 7,
           "previousRank": 6
         },
         "youtube_music": {
@@ -90,16 +90,16 @@
           "previousRank": 8
         },
         "genie": {
-          "rank": 28,
-          "previousRank": 27
+          "rank": 30,
+          "previousRank": 28
         },
         "vibe": {
           "rank": 24,
-          "previousRank": 23
+          "previousRank": 24
         },
         "bugs": {
-          "rank": 8,
-          "previousRank": 7
+          "rank": 9,
+          "previousRank": 8
         },
         "flo": {
           "rank": 11,
@@ -125,8 +125,8 @@
           "previousRank": 63
         },
         "bugs": {
-          "rank": 30,
-          "previousRank": 29
+          "rank": 32,
+          "previousRank": 30
         },
         "flo": {
           "rank": 71,
@@ -148,12 +148,12 @@
       "albumImageUrl": "https://image.bugsm.co.kr/album/images/350/41063/4106349.jpg",
       "ranks": {
         "bugs": {
-          "rank": 46,
-          "previousRank": 55
+          "rank": 51,
+          "previousRank": 46
         },
         "flo": {
-          "rank": 78,
-          "previousRank": 80
+          "rank": 79,
+          "previousRank": 78
         },
         "youtube_music": {
           "rank": 26,
