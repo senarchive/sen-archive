@@ -111,6 +111,7 @@ html[data-theme="light"] .buy-btn { color: #17181C; background: rgba(0,0,0,0.06)
 .goods-result-count { font-size: 13px; color: var(--text-muted); }
 .goods-result-count strong { color: var(--text-primary); font-family: var(--font-num); }
 
+/* 네이버 스토어의 인기순/낮은가격순 정렬 탭 참고 */
 .goods-sort-tabs { display: flex; align-items: center; gap: 2px; }
 .goods-sort-btn {
     background: none; border: none; font-family: var(--font-body); font-size: 12.5px; font-weight: 500;
@@ -154,60 +155,3 @@ html[data-theme="light"] .buy-btn { color: #17181C; background: rgba(0,0,0,0.06)
     .goods-sidebar { position: static; flex-direction: row; flex-wrap: wrap; width: 100%; overflow-x: auto; }
     .goods-cat-btn { flex: 0 0 auto; white-space: nowrap; }
 }
-
-html[data-theme="dark"] { --goods-blue: #4C8DFF; }
-html[data-theme="light"] { --goods-blue: #2F6FE0; }
-
-.goods-page-container .section-header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; margin-bottom: 22px; }
-.goods-subtitle { margin-left: 0; }
-
-.goods-quick-cats { display: flex; gap: 10px; overflow-x: auto; padding: 10px 2px 22px; scrollbar-width: none; }
-.goods-quick-cats::-webkit-scrollbar { display: none; }
-.goods-quick-btn {
-    flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; gap: 8px;
-    width: 76px; background: none; border: none; cursor: pointer; padding: 2px 0;
-    font-family: var(--font-body); color: var(--text-secondary);
-}
-.goods-quick-icon {
-    width: 54px; height: 54px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
-    background: var(--bg-surface); border: 1px solid var(--border-light); transition: 0.2s ease; color: var(--text-secondary);
-}
-.goods-quick-icon svg { width: 22px; height: 22px; }
-.goods-quick-btn span { font-size: 11.5px; font-weight: 600; white-space: nowrap; letter-spacing: -0.1px; }
-.goods-quick-btn:hover .goods-quick-icon { border-color: var(--border-highlight); transform: translateY(-2px); }
-.goods-quick-btn.active .goods-quick-icon { background: var(--c-accent); border-color: var(--c-accent); color: #fff; box-shadow: 0 6px 16px var(--c-accent-glow); }
-.goods-quick-btn.active span { color: var(--c-accent); font-weight: 800; }
-
-.goods-sidebar { background: var(--bg-surface); border: 1px solid var(--border-light); border-radius: 12px; padding: 10px; gap: 2px; }
-.goods-cat-btn { position: relative; padding: 10px 12px 10px 14px; border-radius: 8px; }
-.goods-cat-btn::before { content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 3px; height: 0; border-radius: 2px; background: var(--c-accent); transition: height 0.18s ease; }
-.goods-cat-btn.active { background: var(--c-accent-glow); color: var(--c-accent); }
-.goods-cat-btn.active::before { height: 62%; }
-.goods-cat-count { background: var(--bg-surface-hover); padding: 1px 7px; border-radius: 20px; font-weight: 700; }
-.goods-cat-btn.active .goods-cat-count { background: var(--c-accent); color: #fff; opacity: 1; }
-
-.goods-toolbar { padding-bottom: 14px; border-bottom: 1px solid var(--border-light); margin-bottom: 20px; }
-.goods-result-count { font-weight: 600; }
-.goods-sort-tabs { background: var(--bg-surface); border-radius: 999px; padding: 3px; gap: 0; }
-.goods-sort-btn { padding: 7px 14px; border-radius: 999px; }
-.goods-sort-btn:not(:last-child)::after { display: none; }
-.goods-sort-btn.active { background: var(--c-accent); color: #fff; }
-html[data-theme="light"] .goods-sort-btn.active { color: #fff; }
-
-.goods-grid-v2 { gap: 18px; }
-.goods-item { border-radius: 12px; }
-.goods-item:hover { transform: translateY(-3px); box-shadow: 0 10px 26px rgba(0,0,0,0.22); }
-html[data-theme="light"] .goods-item:hover { box-shadow: 0 10px 26px rgba(20,20,30,0.10); }
-.goods-badge { border-radius: 999px; font-weight: 700; }
-.goods-price-row { align-items: center; }
-.goods-price-text { font-size: 19px; }
-.goods-price-badge { border-radius: 999px; padding: 3px 8px; }
-.goods-compare-toggle { border-radius: 999px; }
-.buy-btn { border-radius: 999px; padding: 6px 14px; background: var(--c-accent); color: #fff; }
-html[data-theme="light"] .buy-btn { color: #fff; }
-.buy-btn:hover { filter: brightness(1.08); background: var(--c-accent); }
-.buy-btn.sold-out { background: transparent; }
-.cheapest-badge, .goods-price-badge { background: var(--goods-blue); }
-.stock-row.is-cheapest .shop-price { color: var(--goods-blue); }
-
-.goods-ended-toggle button { border-radius: 999px; }
