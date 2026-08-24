@@ -24,37 +24,6 @@
                 <div class="goods-subtitle">WITHMUU · KTOWN4U · KREAM 판매가/재고를 비교해서 모아봤습니다. 6시간마다 자동 갱신됩니다.</div>
             </div>
 
-            <div class="goods-quick-cats" id="goodsQuickCats">
-                <button type="button" class="goods-quick-btn active" data-cat="전체" onclick="goodsQuickCatClick(this,'전체')">
-                    <span class="goods-quick-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span>
-                    <span>전체</span>
-                </button>
-                <button type="button" class="goods-quick-btn" data-cat="앨범" onclick="goodsQuickCatClick(this,'앨범')">
-                    <span class="goods-quick-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg></span>
-                    <span>앨범</span>
-                </button>
-                <button type="button" class="goods-quick-btn" data-cat="인형·키링" onclick="goodsQuickCatClick(this,'인형·키링')">
-                    <span class="goods-quick-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="6" r="3"/><path d="M12 9v3"/><rect x="7" y="12" width="10" height="8" rx="2"/></svg></span>
-                    <span>인형·키링</span>
-                </button>
-                <button type="button" class="goods-quick-btn" data-cat="응원봉" onclick="goodsQuickCatClick(this,'응원봉')">
-                    <span class="goods-quick-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3 11.2V16h6v-1.8A6 6 0 0 0 12 3z"/></svg></span>
-                    <span>응원봉</span>
-                </button>
-                <button type="button" class="goods-quick-btn" data-cat="콜라보 MD" onclick="goodsQuickCatClick(this,'콜라보 MD')">
-                    <span class="goods-quick-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.5 12.5L12.5 20.5a2 2 0 0 1-2.8 0l-6.2-6.2a2 2 0 0 1 0-2.8L11.5 3.5H19a1.5 1.5 0 0 1 1.5 1.5v7.5z"/><circle cx="15.3" cy="8.7" r="1.2" fill="currentColor" stroke="none"/></svg></span>
-                    <span>콜라보 MD</span>
-                </button>
-                <button type="button" class="goods-quick-btn" data-cat="팬콘 MD" onclick="goodsQuickCatClick(this,'팬콘 MD')">
-                    <span class="goods-quick-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v4"/></svg></span>
-                    <span>팬콘 MD</span>
-                </button>
-                <button type="button" class="goods-quick-btn" data-cat="기타" onclick="goodsQuickCatClick(this,'기타')">
-                    <span class="goods-quick-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 7l9-4 9 4-9 4-9-4z"/><path d="M3 7v10l9 4 9-4V7"/><path d="M12 11v10"/></svg></span>
-                    <span>기타</span>
-                </button>
-            </div>
-
             <div class="goods-layout">
                 <aside class="goods-sidebar" id="goodsSidebar"></aside>
 
@@ -86,32 +55,5 @@
     </script>
     <script src="../js/common.js"></script>
     <script src="goods.js"></script>
-
-    <script>
-        function goodsQuickCatClick(btn, cat) {
-            if (typeof goodsSetCategory === 'function') goodsSetCategory(cat);
-            document.querySelectorAll('.goods-quick-btn').forEach(b => b.classList.toggle('active', b === btn));
-        }
-
-        function goodsSyncQuickCatsFromSidebar() {
-            const activeSidebarBtn = document.querySelector('#goodsSidebar .goods-cat-btn.active');
-            if (!activeSidebarBtn) return;
-            const cat = activeSidebarBtn.textContent.replace(/\s*\d+\s*$/, '').trim();
-            document.querySelectorAll('.goods-quick-btn').forEach(b => b.classList.toggle('active', b.dataset.cat === cat));
-        }
-
-        document.addEventListener('DOMContentLoaded', () => {
-            const sidebar = document.getElementById('goodsSidebar');
-            if (sidebar) {
-                new MutationObserver(goodsSyncQuickCatsFromSidebar).observe(sidebar, { childList: true, subtree: true });
-            }
-        });
-
-        document.addEventListener('click', (e) => {
-            if (e.target.closest('#goodsSidebar .goods-cat-btn')) {
-                requestAnimationFrame(goodsSyncQuickCatsFromSidebar);
-            }
-        });
-    </script>
 </body>
 </html>
