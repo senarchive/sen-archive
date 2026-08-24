@@ -11,13 +11,6 @@
     <link rel="stylesheet" href="goods.css">
 
     <script src="../js/theme-init.js"></script>
-
-    <!--
-        네이버 쇼핑 UI 참고 리디자인
-        - 상단 프로모 배너 2단, 카테고리 원형 아이콘 퀵메뉴 마크업 추가
-        - 관련 스타일은 전부 goods.css 에 추가함 (아래는 마크업/스크립트만)
-        - goods.js 로직/데이터 구조는 변경하지 않음
-    -->
 </head>
 <body>
     <div id="siteNavSlot"></div>
@@ -31,23 +24,6 @@
                 <div class="goods-subtitle">WITHMUU · KTOWN4U · KREAM 판매가/재고를 비교해서 모아봤습니다. 6시간마다 자동 갱신됩니다.</div>
             </div>
 
-            <!-- 네이버 쇼핑 메인 배너 로우 참고 -->
-            <div class="goods-promo-row">
-                <div class="goods-promo-card is-main">
-                    <div class="goods-promo-eyebrow">Price Compare</div>
-                    <div class="goods-promo-title">실시간 최저가 자동비교 · <span id="goodsBannerCount">-</span></div>
-                    <div class="goods-promo-desc">판매처별 가격과 재고를 한 화면에서 비교하고, 가장 저렴한 곳으로 바로 이동하세요.</div>
-                    <div class="goods-promo-deco"></div>
-                </div>
-                <div class="goods-promo-card is-sub">
-                    <div class="goods-promo-eyebrow">Stock Alert</div>
-                    <div class="goods-promo-title">품절이어도 놓치지 마세요</div>
-                    <div class="goods-promo-desc">6시간마다 재고가 자동으로 갱신돼요. 찜(♥) 해두면 다시 풀렸을 때 비교하기 편해요.</div>
-                    <div class="goods-promo-deco"></div>
-                </div>
-            </div>
-
-            <!-- 네이버 쇼핑 원형 카테고리 아이콘 로우 참고 -->
             <div class="goods-quick-cats" id="goodsQuickCats">
                 <button type="button" class="goods-quick-btn active" data-cat="전체" onclick="goodsQuickCatClick(this,'전체')">
                     <span class="goods-quick-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span>
@@ -80,9 +56,7 @@
             </div>
 
             <div class="goods-layout">
-                <aside class="goods-sidebar" id="goodsSidebar">
-                    <!-- JS 렌더 -->
-                </aside>
+                <aside class="goods-sidebar" id="goodsSidebar"></aside>
 
                 <div class="goods-main">
                     <div class="goods-toolbar">
@@ -95,9 +69,7 @@
                         </div>
                     </div>
 
-                    <div class="goods-grid-v2" id="goodsGrid">
-                        <!-- JS 렌더 -->
-                    </div>
+                    <div class="goods-grid-v2" id="goodsGrid"></div>
 
                     <div id="goodsEndedToggle" class="goods-ended-toggle" style="display:none;"></div>
                 </div>
@@ -110,18 +82,11 @@
     </div>
 
     <script>
-        // 하위 폴더(goods/)에서 실행되므로 이미지/스크립트 경로 앞에 ../ 를 붙여야 함
         var SITE_ROOT = '../';
     </script>
     <script src="../js/common.js"></script>
     <script src="goods.js"></script>
 
-    <!--
-        아래는 goods.js를 건드리지 않고 이 파일 안에서만 처리하는 "덧붙임" 스크립트입니다.
-        1) 퀵 아이콘 클릭 시 기존 전역 함수 goodsSetCategory(cat) 재사용 + 아이콘 활성 표시 동기화
-        2) 좌측 사이드바에서 카테고리를 바꿔도(=goodsSetCategory 호출) 퀵 아이콘 활성 상태가 같이 바뀌도록 동기화
-        3) 상단 배너의 "총 N개" 숫자를 goodsResultCount 값과 동기화
-    -->
     <script>
         function goodsQuickCatClick(btn, cat) {
             if (typeof goodsSetCategory === 'function') goodsSetCategory(cat);
@@ -135,27 +100,13 @@
             document.querySelectorAll('.goods-quick-btn').forEach(b => b.classList.toggle('active', b.dataset.cat === cat));
         }
 
-        function goodsSyncBannerCount() {
-            const src = document.getElementById('goodsResultCount');
-            const dst = document.getElementById('goodsBannerCount');
-            if (!src || !dst) return;
-            const strong = src.querySelector('strong');
-            dst.textContent = strong ? `총 ${strong.textContent}개 추적 중` : '상품 비교';
-        }
-
         document.addEventListener('DOMContentLoaded', () => {
             const sidebar = document.getElementById('goodsSidebar');
-            const resultCount = document.getElementById('goodsResultCount');
             if (sidebar) {
                 new MutationObserver(goodsSyncQuickCatsFromSidebar).observe(sidebar, { childList: true, subtree: true });
             }
-            if (resultCount) {
-                new MutationObserver(goodsSyncBannerCount).observe(resultCount, { childList: true, subtree: true });
-            }
-            goodsSyncBannerCount();
         });
 
-        // 사이드바 카테고리 버튼은 goods.js가 매번 새로 그리므로, 클릭 시에도 한 번 더 동기화(이벤트 위임)
         document.addEventListener('click', (e) => {
             if (e.target.closest('#goodsSidebar .goods-cat-btn')) {
                 requestAnimationFrame(goodsSyncQuickCatsFromSidebar);
