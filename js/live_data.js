@@ -1,4 +1,7 @@
 const LIVE_DATA = [
+    {"date": "2026-08-23", "title": "까엉까엉이🩷🩷", "cast": "제나", "vid": "QDkBLWkwqhw"},
+    {"date": "2026-08-21", "title": "파이리 포켓몬 센터 방문 🔥", "cast": "원이", "vid": "tFF93tMIgTQ"},
+    {"date": "2026-08-19", "title": "MAY☀️ Birthday!!!!!!!🎉🎂", "cast": "메이", "vid": "ccnNVyPu2Gw"},
     {"date": "2026-08-03", "title": "원쨩먹짱X메라디오XCU😘", "cast": "원이, 리브, 메이", "vid": "dgUOLHElpJg"},
     {"date": "2026-07-31", "title": "까엉TV 가 왔다 🤍🤍", "cast": "제나", "vid": "bDE6e40utiY"},
     {"date": "2026-07-22", "title": "리브지롱 ~~", "cast": "리브", "vid": "NUInBr_Lfq4"},
@@ -23,6 +26,7 @@ const LIVE_DATA = [
     {"date": "2026-04-16", "title": "꿀벌의 여행🐝", "cast": "원이", "vid": "oaPTaoYn_nQ"},
     {"date": "2026-04-15", "title": "까냠...💙💜", "cast": "미나미, 제나", "vid": "BFuq597SWAA"},
     {"date": "2026-04-12", "title": "런어웨이 첫 주 끝!!💕메라디오💕", "cast": "메이", "vid": "g92oyTei23w"},
+    {"date": "2026-04-08", "title": "RESCENE 1st Digital Single [Runaway] Countdown Live", "cast": "전원", "vid": "SsZwyvEUi2A"},
     {"date": "2026-03-27", "title": "미냠이까엉🫶🏻드르와🤍", "cast": "미나미, 제나", "vid": "HeFboYmjuys"},
     {"date": "2026-03-26", "title": "🎉HAPPY 2ND ANNIVERSARY🎉", "cast": "전원", "vid": "ZoKjU232QKg"},
     {"date": "2026-03-17", "title": "장발메이!!라디오🤭🎧", "cast": "메이", "vid": "ibXfcqYoeW4"},
