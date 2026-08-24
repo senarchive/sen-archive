@@ -2,25 +2,48 @@ import puppeteer from 'puppeteer';
 import fs from 'fs';
 const DATA_PATH = 'goods/goods_data.json';
 
+function browserCheckSoldout(cfg) {
+    if (cfg.explicitMarkerSelector && document.querySelector(cfg.explicitMarkerSelector)) return true;
+
+    if (cfg.buyBtnSelector) {
+        const buyBtn = document.querySelector(cfg.buyBtnSelector);
+        if (buyBtn) {
+            const label = (buyBtn.innerText || buyBtn.textContent || '').trim();
+            if (/품절|판매중지|판매종료|SOLD ?OUT/i.test(label)) return true;
+            if (buyBtn.disabled || buyBtn.getAttribute('aria-disabled') === 'true') return true;
+            if (buyBtn.classList && (buyBtn.classList.contains('disabled') || buyBtn.classList.contains('soldout'))) return true;
+            return false;
+        }
+    }
+
+    const scope = (cfg.scopeSelector && document.querySelector(cfg.scopeSelector)) || null;
+    if (!scope) return false;
+    return /품절|판매중지|판매종료|SOLD ?OUT/i.test(scope.innerText || '');
+}
+
 const SHOP_SELECTORS = {
     withmuu: {
         priceSelector: '.item_price',
-        soldoutCheck: (page) => page.evaluate(() => {
-            if (document.querySelector('.btn_soldout')) return true;
-            const img = document.querySelector('img[alt="품절"]');
-            if (img) return true;
-            return /품절/.test(document.body.innerText || '');
+        soldoutCheck: (page) => page.evaluate(browserCheckSoldout, {
+            explicitMarkerSelector: '.btn_soldout, .icon_soldout, .soldout_img, img[alt="품절"]',
+            buyBtnSelector: '#buyBtn, .btn_buy, a[onclick*="goOrder"], button[onclick*="goOrder"], .btnBuy, .prd-buy-btn',
+            scopeSelector: '.infowrap, .item_price, .prd_detail, #span_product_price_text'
         })
     },
     ktown4u: {
         priceSelector: '.text-s1, [class*="text-s1"]',
-        soldoutCheck: (page) => page.evaluate(() => /품절/.test(document.body.innerText || ''))
+        soldoutCheck: (page) => page.evaluate(browserCheckSoldout, {
+            explicitMarkerSelector: '[class*="soldOut"], [class*="sold_out"], .icon-soldout',
+            buyBtnSelector: 'button[class*="buy"], a[class*="buy"], [class*="btnBuy"]',
+            scopeSelector: '[class*="product"], [class*="detail"], main'
+        })
     },
     kream: {
         priceSelector: '.amount, [class*="amount"]',
-        soldoutCheck: (page) => page.evaluate(() => {
-            if (document.querySelector('.btn_soldout')) return true;
-            return /품절|판매중지|SOLD ?OUT/i.test(document.body.innerText || '');
+        soldoutCheck: (page) => page.evaluate(browserCheckSoldout, {
+            explicitMarkerSelector: '.btn_soldout, [class*="sold_out"], [class*="soldOut"]',
+            buyBtnSelector: 'button[class*="buy"], button[class*="Buy"], a[class*="buy"]',
+            scopeSelector: 'main, #__next, [class*="product_detail"], [class*="productDetail"]'
         })
     }
 };
