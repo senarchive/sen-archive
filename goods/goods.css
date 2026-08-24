@@ -155,43 +155,13 @@ html[data-theme="light"] .buy-btn { color: #17181C; background: rgba(0,0,0,0.06)
     .goods-cat-btn { flex: 0 0 auto; white-space: nowrap; }
 }
 
-html[data-theme="dark"] {
-    --goods-blue: #4C8DFF;
-    --goods-blue-soft: rgba(76, 141, 255, 0.14);
-    --goods-banner-2: linear-gradient(135deg, #2E3A66 0%, #4C8DFF 100%);
-}
-html[data-theme="light"] {
-    --goods-blue: #2F6FE0;
-    --goods-blue-soft: rgba(47, 111, 224, 0.10);
-    --goods-banner-2: linear-gradient(135deg, #eaf1ff 0%, #cfe0ff 100%);
-}
+html[data-theme="dark"] { --goods-blue: #4C8DFF; }
+html[data-theme="light"] { --goods-blue: #2F6FE0; }
 
 .goods-page-container .section-header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; margin-bottom: 22px; }
 .goods-subtitle { margin-left: 0; }
 
-.goods-promo-row { display: grid; grid-template-columns: 1.35fr 1fr; gap: 14px; margin-bottom: 28px; }
-.goods-promo-card {
-    position: relative; overflow: hidden; border-radius: 16px; padding: 26px 28px;
-    min-height: 118px; display: flex; flex-direction: column; justify-content: center;
-    color: #fff; isolation: isolate;
-}
-.goods-promo-card.is-main { background: linear-gradient(135deg, var(--c-accent) 0%, color-mix(in srgb, var(--c-accent) 55%, #7B5CF0) 100%); }
-.goods-promo-card.is-sub { background: var(--goods-banner-2); }
-html[data-theme="light"] .goods-promo-card.is-sub { color: var(--text-primary); }
-.goods-promo-eyebrow { font-family: var(--font-head); font-size: 11px; font-weight: 800; letter-spacing: 0.14em; opacity: 0.85; text-transform: uppercase; margin-bottom: 8px; }
-.goods-promo-title { font-family: var(--font-head); font-size: 22px; font-weight: 800; letter-spacing: -0.3px; line-height: 1.35; margin-bottom: 4px; }
-.goods-promo-title span#goodsBannerCount { font-family: var(--font-num); }
-.goods-promo-desc { font-size: 12.5px; font-weight: 500; opacity: 0.92; line-height: 1.6; max-width: 360px; }
-.goods-promo-deco { position: absolute; right: -30px; bottom: -40px; width: 160px; height: 160px; border-radius: 50%; background: rgba(255,255,255,0.14); z-index: -1; }
-.goods-promo-card.is-sub .goods-promo-deco { background: rgba(255,255,255,0.35); }
-html[data-theme="dark"] .goods-promo-card.is-sub .goods-promo-deco { background: rgba(255,255,255,0.06); }
-@media (max-width: 800px) {
-    .goods-promo-row { grid-template-columns: 1fr; }
-    .goods-promo-card { padding: 20px 22px; min-height: 96px; }
-    .goods-promo-title { font-size: 18px; }
-}
-
-.goods-quick-cats { display: flex; gap: 10px; overflow-x: auto; padding: 4px 2px 22px; scrollbar-width: none; }
+.goods-quick-cats { display: flex; gap: 10px; overflow-x: auto; padding: 10px 2px 22px; scrollbar-width: none; }
 .goods-quick-cats::-webkit-scrollbar { display: none; }
 .goods-quick-btn {
     flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; gap: 8px;
