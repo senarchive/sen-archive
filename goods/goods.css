@@ -155,3 +155,102 @@ html[data-theme="light"] .buy-btn { color: #17181C; background: rgba(0,0,0,0.06)
     .goods-sidebar { position: static; flex-direction: row; flex-wrap: wrap; width: 100%; overflow-x: auto; }
     .goods-cat-btn { flex: 0 0 auto; white-space: nowrap; }
 }
+
+/* =========================================================================
+   네이버 쇼핑 UI 참고 리디자인 (goods 페이지 전용)
+   상단 프로모 배너, 카테고리 원형 아이콘 로우, 사이드바/정렬탭/카드 톤 조정
+   ========================================================================= */
+
+/* 로컬 팔레트: 사이트 accent 그라디언트에 배너용 보조색(블루)만 추가 */
+html[data-theme="dark"] {
+    --goods-blue: #4C8DFF;
+    --goods-blue-soft: rgba(76, 141, 255, 0.14);
+    --goods-banner-2: linear-gradient(135deg, #2E3A66 0%, #4C8DFF 100%);
+}
+html[data-theme="light"] {
+    --goods-blue: #2F6FE0;
+    --goods-blue-soft: rgba(47, 111, 224, 0.10);
+    --goods-banner-2: linear-gradient(135deg, #eaf1ff 0%, #cfe0ff 100%);
+}
+
+/* 헤더 영역 */
+.goods-page-container .section-header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; margin-bottom: 22px; }
+.goods-subtitle { margin-left: 0; }
+
+/* 상단 프로모 배너 (네이버 메인 배너 로우 참고) */
+.goods-promo-row { display: grid; grid-template-columns: 1.35fr 1fr; gap: 14px; margin-bottom: 28px; }
+.goods-promo-card {
+    position: relative; overflow: hidden; border-radius: 16px; padding: 26px 28px;
+    min-height: 118px; display: flex; flex-direction: column; justify-content: center;
+    color: #fff; isolation: isolate;
+}
+.goods-promo-card.is-main { background: linear-gradient(135deg, var(--c-accent) 0%, color-mix(in srgb, var(--c-accent) 55%, #7B5CF0) 100%); }
+.goods-promo-card.is-sub { background: var(--goods-banner-2); }
+html[data-theme="light"] .goods-promo-card.is-sub { color: var(--text-primary); }
+.goods-promo-eyebrow { font-family: var(--font-head); font-size: 11px; font-weight: 800; letter-spacing: 0.14em; opacity: 0.85; text-transform: uppercase; margin-bottom: 8px; }
+.goods-promo-title { font-family: var(--font-head); font-size: 22px; font-weight: 800; letter-spacing: -0.3px; line-height: 1.35; margin-bottom: 4px; }
+.goods-promo-title span#goodsBannerCount { font-family: var(--font-num); }
+.goods-promo-desc { font-size: 12.5px; font-weight: 500; opacity: 0.92; line-height: 1.6; max-width: 360px; }
+.goods-promo-deco { position: absolute; right: -30px; bottom: -40px; width: 160px; height: 160px; border-radius: 50%; background: rgba(255,255,255,0.14); z-index: -1; }
+.goods-promo-card.is-sub .goods-promo-deco { background: rgba(255,255,255,0.35); }
+html[data-theme="dark"] .goods-promo-card.is-sub .goods-promo-deco { background: rgba(255,255,255,0.06); }
+@media (max-width: 800px) {
+    .goods-promo-row { grid-template-columns: 1fr; }
+    .goods-promo-card { padding: 20px 22px; min-height: 96px; }
+    .goods-promo-title { font-size: 18px; }
+}
+
+/* 카테고리 퀵 아이콘 로우 (네이버 원형 아이콘 메뉴 참고) */
+.goods-quick-cats { display: flex; gap: 10px; overflow-x: auto; padding: 4px 2px 22px; scrollbar-width: none; }
+.goods-quick-cats::-webkit-scrollbar { display: none; }
+.goods-quick-btn {
+    flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; gap: 8px;
+    width: 76px; background: none; border: none; cursor: pointer; padding: 2px 0;
+    font-family: var(--font-body); color: var(--text-secondary);
+}
+.goods-quick-icon {
+    width: 54px; height: 54px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    background: var(--bg-surface); border: 1px solid var(--border-light); transition: 0.2s ease; color: var(--text-secondary);
+}
+.goods-quick-icon svg { width: 22px; height: 22px; }
+.goods-quick-btn span { font-size: 11.5px; font-weight: 600; white-space: nowrap; letter-spacing: -0.1px; }
+.goods-quick-btn:hover .goods-quick-icon { border-color: var(--border-highlight); transform: translateY(-2px); }
+.goods-quick-btn.active .goods-quick-icon { background: var(--c-accent); border-color: var(--c-accent); color: #fff; box-shadow: 0 6px 16px var(--c-accent-glow); }
+.goods-quick-btn.active span { color: var(--c-accent); font-weight: 800; }
+
+/* 좌측 사이드바 (네이버 카테고리 필터 참고: 좌측 accent 바 + 카운트 필) */
+.goods-sidebar { background: var(--bg-surface); border: 1px solid var(--border-light); border-radius: 12px; padding: 10px; gap: 2px; }
+.goods-cat-btn { position: relative; padding: 10px 12px 10px 14px; border-radius: 8px; }
+.goods-cat-btn::before { content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 3px; height: 0; border-radius: 2px; background: var(--c-accent); transition: height 0.18s ease; }
+.goods-cat-btn.active { background: var(--c-accent-glow); color: var(--c-accent); }
+.goods-cat-btn.active::before { height: 62%; }
+.goods-cat-count { background: var(--bg-surface-hover); padding: 1px 7px; border-radius: 20px; font-weight: 700; }
+.goods-cat-btn.active .goods-cat-count { background: var(--c-accent); color: #fff; opacity: 1; }
+
+/* 툴바 / 정렬 탭 (네이버 인기순·낮은가격순 탭 참고) */
+.goods-toolbar { padding-bottom: 14px; border-bottom: 1px solid var(--border-light); margin-bottom: 20px; }
+.goods-result-count { font-weight: 600; }
+.goods-sort-tabs { background: var(--bg-surface); border-radius: 999px; padding: 3px; gap: 0; }
+.goods-sort-btn { padding: 7px 14px; border-radius: 999px; }
+.goods-sort-btn:not(:last-child)::after { display: none; }
+.goods-sort-btn.active { background: var(--c-accent); color: #fff; }
+html[data-theme="light"] .goods-sort-btn.active { color: #fff; }
+
+/* 상품 카드 (네이버 쇼핑 카드 톤: 큰 가격 강조 + 칩형 배지 + 채워진 구매 버튼) */
+.goods-grid-v2 { gap: 18px; }
+.goods-item { border-radius: 12px; }
+.goods-item:hover { transform: translateY(-3px); box-shadow: 0 10px 26px rgba(0,0,0,0.22); }
+html[data-theme="light"] .goods-item:hover { box-shadow: 0 10px 26px rgba(20,20,30,0.10); }
+.goods-badge { border-radius: 999px; font-weight: 700; }
+.goods-price-row { align-items: center; }
+.goods-price-text { font-size: 19px; }
+.goods-price-badge { border-radius: 999px; padding: 3px 8px; }
+.goods-compare-toggle { border-radius: 999px; }
+.buy-btn { border-radius: 999px; padding: 6px 14px; background: var(--c-accent); color: #fff; }
+html[data-theme="light"] .buy-btn { color: #fff; }
+.buy-btn:hover { filter: brightness(1.08); background: var(--c-accent); }
+.buy-btn.sold-out { background: transparent; }
+.cheapest-badge, .goods-price-badge { background: var(--goods-blue); }
+.stock-row.is-cheapest .shop-price { color: var(--goods-blue); }
+
+.goods-ended-toggle button { border-radius: 999px; }
