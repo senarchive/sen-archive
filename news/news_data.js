@@ -1,13 +1,13 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-08-25T06:54:56.463Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-08-25T12:54:05.564Z) */
 
 const NEWS_DATA = [
     {
-        "title": "리센느→알디원·앤더블, ‘2026 SKA’ 특별 무대 총출동 - 싱글리스트",
-        "source": "싱글리스트",
+        "title": "리센느 원이, 캐주얼 스트릿 브랜드 모델 발탁…밝고 유쾌한 매력 [화보] - Chosunbiz",
+        "source": "Chosunbiz",
         "date": "2026-08-25",
-        "url": "https://www.slist.kr/news/articleView.html?idxno=761149",
-        "summary": "‘2026 SPOTV K-POP AWARDS’(이하 SKA)가 아티스트별 개성을 살린 스페셜 스테이지로 관객들을 만난다.스포티비(SPOTV)와 글로벌 팬덤 플랫폼 빅크(BIGC)가 공동 운영하는 ‘2026 SKA’는 오는 9월 6일 일산 킨텍스에서 개최된다. 방송인 장성규를 비롯해 빌리",
-        "image": "https://cdn.slist.kr/news/thumbnail/202608/761149_1165914_721_v150.jpg"
+        "url": "https://biz.chosun.com/entertainment/enter_general/2026/08/25/GMZTIMZQMYYDANJSMI2TEY3DGQ/",
+        "summary": "리센느 원이, 캐주얼 스트릿 브랜드 모델 발탁밝고 유쾌한 매력 화보",
+        "image": "https://biz.chosun.com/resizer/v2/MNSGCMRQGIYDKMBVHA2DMOLBMQ.jpg?auth=b18547161263a69a9944c99fd795bbe50a298990ae8e0a4c88a71b07e5999c92&width=900&height=472&smart=true"
     },
     {
         "title": "`리센느` 원이, 유튜브 채널 수익 얼마? `입이 쩍`…6개월 만에 구독자 183만 - 마이데일리",
@@ -18,20 +18,28 @@ const NEWS_DATA = [
         "image": "https://mydaily.co.kr/photos/2026/08/20/2026082023424551836_l.jpg"
     },
     {
+        "title": "리센느→알디원·앤더블, ‘2026 SKA’ 특별 무대 총출동 - 싱글리스트",
+        "source": "싱글리스트",
+        "date": "2026-08-25",
+        "url": "https://www.slist.kr/news/articleView.html?idxno=761149",
+        "summary": "‘2026 SPOTV K-POP AWARDS’(이하 SKA)가 아티스트별 개성을 살린 스페셜 스테이지로 관객들을 만난다.스포티비(SPOTV)와 글로벌 팬덤 플랫폼 빅크(BIGC)가 공동 운영하는 ‘2026 SKA’는 오는 9월 6일 일산 킨텍스에서 개최된다. 방송인 장성규를 비롯해 빌리",
+        "image": "https://cdn.slist.kr/news/thumbnail/202608/761149_1165914_721_v150.jpg"
+    },
+    {
+        "title": "거제 홍보대사 ‘리센느’, 수해 복구 현장에 음료 기탁 - 경남일보",
+        "source": "경남일보",
+        "date": "2026-08-25",
+        "url": "https://www.gnnews.co.kr/news/articleView.html?idxno=643942",
+        "summary": "거제시 홍보대사 걸그룹 ‘리센느’가 집중호우 피해로 어려움을 겪고 있는 거제시민과 피해 복구에 힘쓰고 있는 자원봉사자들을 위해 또 한 번 따뜻한 나눔을 실천했다.",
+        "image": "https://cdn.gnnews.co.kr/news/photo/202608/643942_444649_1052.jpg"
+    },
+    {
         "title": "‘거제 야호’ 외치던 리센느, 이번엔 ‘거제 힘내요’ - 거제신문",
         "source": "거제신문",
         "date": "2026-08-25",
         "url": "https://www.geojenews.co.kr/news/articleView.html?idxno=96292",
         "summary": "“거제 야호!”를 외치며 거제의 매력을 알렸던 걸그룹 리센느(RESCENE)가 이번에는 “거제 힘내요!”라는 응원과 함께 수해 복구 지원에 나섰다.거제시 홍보대사로 활동 중인 리센느는 최근 기록적인 폭우로 피해를 입은 거제지역 이재민과 복구 현장 자원봉사자들을 위해 동아오츠카의 나랑드 ",
         "image": "https://cdn.geojenews.co.kr/news/thumbnail/202608/96292_92214_3937_v150.jpg"
-    },
-    {
-        "title": "리센느 원이, 와키윌리 모델 발탁 - ppss.kr",
-        "source": "ppss.kr",
-        "date": "2026-08-25",
-        "url": "https://www.ppss.kr/news/articleView.html?idxno=307089",
-        "summary": "(PPSS 백현석 기자) 캐주얼 스트릿 브랜드 와키윌리가 아이돌 그룹 리센느(RESCENE) 멤버 원이를 26FW 시즌 새로운 뮤즈로 발탁하고, 첫 번째 화보 ‘",
-        "image": "https://cdn.ppss.kr/news/photo/202608/307089_127787_5658.png"
     },
     {
         "title": "거제시 홍보대사 리센느, 거제 호우 피해 복구에 또 한 번 따뜻한 나눔 - 거제뉴스광장",
@@ -50,11 +58,12 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/25/mydaily/20260825133050282njxq.jpg"
     },
     {
-        "title": "와키윌리, 리센느 원이 26FW 새 뮤즈 발탁… '오늘은 원이데이~' 화보 공개 - 스타패션",
-        "source": "스타패션",
+        "title": "리센느, 거제 집중호우 피해에 음료 1만6200개 추가 기탁 - NANOOM ENERGY",
+        "source": "NANOOM ENERGY",
         "date": "2026-08-25",
-        "url": "https://www.kstarfashion.com/ko-kr/articles/254932",
-        "summary": ""
+        "url": "https://www.ksw-news.com/news/articleView.html?idxno=3026676",
+        "summary": "걸그룹 리센느(RESCENE)가 거제시 집중호우 피해 복구를 위해 다시 한번 나눔의 손길을 내밀었다.25일 거제시에 따르면 리센느는 지난 21일 동아오츠카의 '나랑드 사이다' 1만 6,200개를 거제시에 기탁했다. 이번 기부는 지난 15일부터 17일까지 거제 지역에 기록된 집중호우로",
+        "image": "https://cdn.ksw-news.com/news/thumbnail/202608/3026676_3023237_1825_v150.jpg"
     },
     {
         "title": "와키윌리, 리센느 원이 새 모델 발탁…26FW 화보 공개 - 지피코리아",
@@ -65,12 +74,11 @@ const NEWS_DATA = [
         "image": "https://cdn.gpkorea.com/news/photo/202608/145977_310128_4630.jpg"
     },
     {
-        "title": "'거제 홍보대사' 리센느, 성금 5천만 원 이어 음료 1만 6천 개 기탁 - 네이트",
-        "source": "네이트",
+        "title": "와키윌리, 리센느 원이 26FW 새 뮤즈 발탁… '오늘은 원이데이~' 화보 공개 - 스타패션",
+        "source": "스타패션",
         "date": "2026-08-25",
-        "url": "https://m.news.nate.com/view/20260825n21520",
-        "summary": "�Ѵ��� ���� ���� : ���̵�24�� - ���� : ���� | ������ ���� SNS [���������� | �ֽ¼�����] �ɱ׷� ������(RESCENE)�� ������ ����ȣ�� ���� ������ ���� �ٽ� �ѹ� ������ ������",
-        "image": "https://news.nateimg.co.kr/orgImg/sp/2026/08/25/news-p.v1.20260825.43519463de3647f9b7e7e94796882d5e_P1.jpg"
+        "url": "https://www.kstarfashion.com/ko-kr/articles/254932",
+        "summary": ""
     },
     {
         "title": "걸그룹 리센느, 거제시 집중호우 피해 주민 위해 '나랑드 사이다' 1만6,200개 기부 - 스페셜타임스",
@@ -97,20 +105,28 @@ const NEWS_DATA = [
         "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202608/859136_880633_1454_v150.jpg"
     },
     {
+        "title": "'리센느' 원이, 유튜브 채널 수익 얼마? '입이 쩍'…6개월 만에 구독자 183만 - 네이트",
+        "source": "네이트",
+        "date": "2026-08-25",
+        "url": "https://news.nate.com/view/20260825n17734",
+        "summary": "�Ѵ��� ���� ���� : ������ ȭ�� - ���� : '������'�� ���� ��Ʃ�� ä�� ���� ������ �˷�����. / ��Ʃ�� '�ȳ��ϼ�������Դϴ��ߺ�Ź�帳�ϴ�'[���̵��ϸ� = ������ ����] �׷� '������'�� �",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/my/2026/08/25/2026082023424551836_l.jpg"
+    },
+    {
+        "title": "‘거제 홍보대사’ 리센느, 성금 5천만 원 이어 음료 1만 6천 개 기탁 - 스포츠서울",
+        "source": "스포츠서울",
+        "date": "2026-08-25",
+        "url": "https://www.sportsseoul.com/news/read/1630704",
+        "summary": "[스포츠서울 | 최승섭기자] 걸그룹 리센느(RESCENE)가 거제시 집중호우 피해 복구를 위해 다시 한번 따뜻한 나눔의 손길을 내밀었다. 25일 거제시에 따르면 리센느는 지난 21일 동아오츠카의 ‘나랑드 사이다’ 1만 6,200개를 거제시에 기탁했다. 이번 기부는 지난 15일부터 1",
+        "image": "https://file.sportsseoul.com/news/cms/2026/08/25/news-p.v1.20260825.43519463de3647f9b7e7e94796882d5e_T1.jpg"
+    },
+    {
         "title": "홍보대사 '리센느'의 거제 사랑…성금 이어 음료도 지원 - 네이트",
         "source": "네이트",
         "date": "2026-08-25",
         "url": "https://news.nate.com/view/20260825n09973",
         "summary": "�Ѵ��� ���� ���� : ��ȸ - ���� : �泲 ������ ȫ������ Ȱ�� ���� �ɱ׷� ������(RESCENE)�� �ֱ� �߻��� ����ȣ��� ���ظ� ���� ���� �ֹΰ� ���� ���� �ηµ��� ���� ���̾� ������ ����",
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/cb/2026/08/25/202608251010343907_0.jpg"
-    },
-    {
-        "title": "[거제 24시] 거제시, 수해 여파로 주요 축제 잇따라 취소 - 시사저널",
-        "source": "시사저널",
-        "date": "2026-08-25",
-        "url": "https://www.sisajournal.com/news/articleView.html?idxno=384659",
-        "summary": "경남 거제시의 집중호우 피해가 커지면서 올해 예정된 주요 축제들이 잇따라 취소됐다.거제시는 10월2일부터 3일까지 열릴 예정이었던 ‘제32회 거제 시민의 날 기념",
-        "image": "https://cdn.sisajournal.com/news/thumbnail/202608/384659_392572_1811_v150.jpg"
     },
     {
         "title": "고윤정, '리센느 제나 언니' 화제 속 브랜드평판 1위…소지섭 2위 - 네이트",
@@ -129,6 +145,14 @@ const NEWS_DATA = [
         "image": "https://cdn.stardailynews.co.kr/news/thumbnail/202608/547113_579362_237_v150.jpg"
     },
     {
+        "title": "[거제 24시] 거제시, 수해 여파로 주요 축제 잇따라 취소 - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-08-25",
+        "url": "https://v.daum.net/v/20260825112609566",
+        "summary": "(시사저널=영남본부=이기암 기자) 경남 거제시의 집중호우 피해가 커지면서 올해 예정된 주요 축제들이 잇따라 취소됐다. 거제시는 10월2일부터 3일까지 열릴 예정이었던 '제32회 거제 시민의 날 기념행사'를 취소하기로 했다. 10월30일부터 11월8일까지 개최하려던 '제20회 거제섬꽃축제",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/25/sisapress/20260825112610397krxe.jpg"
+    },
+    {
         "title": "자고 일어나면 ‘O년 전 영상 파묘’···“뭐야? 이것도 봐줄게” 리센느가 ‘과거’로 더 뜨는 이유 - 경향신문",
         "source": "경향신문",
         "date": "2026-08-24",
@@ -145,25 +169,33 @@ const NEWS_DATA = [
         "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/08/24/134531554.1.jpg"
     },
     {
-        "title": "거제 홍보대사 '리센느', 수해 복구 자원봉사자에 음료 1만 6200개 전달 - 뉴스1",
-        "source": "뉴스1",
+        "title": "'거제 홍보대사' 리센느, 성금 이어 수해복구 음료도 지원 - v.daum.net",
+        "source": "v.daum.net",
         "date": "2026-08-24",
-        "url": "https://www.news1.kr/local/busan-gyeongnam/6268000",
-        "summary": ""
+        "url": "https://v.daum.net/v/pLqebj3GHL",
+        "summary": "(거제=연합뉴스) 박영민 기자 = 경남 거제시 홍보대사인 걸그룹 리센느(RESCENE)가 집중호우 피해 주민과 복구 인력을 위해 음료 1만6천여개를 기탁했다. 24일 거제시에 따르면 리센느는 지난 21일 동아오츠카의 나랑드 사이다 1만6천200개를 시에 전달했다. 음료는 수해를 본 이재",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/24/yonhap/20260824184838610nmok.jpg"
     },
     {
-        "title": "한스킨, 리센느 미나미·제나 모델로 리브랜딩 캠페인 전개 - 로이슈",
-        "source": "로이슈",
+        "title": "고윤정, 배우 브랜드평판 1위…리센느 제나와 ‘닮은꼴’ 특별한 인연 - 지피코리아",
+        "source": "지피코리아",
         "date": "2026-08-24",
-        "url": "https://www.lawissue.co.kr/view.php?ud=202608241017126159204ead0791_12",
-        "summary": "한스킨이 걸그룹 리센느의 미나미와 제나를 브랜드 모델로 발탁하고 새로운 브랜드 방향성을 담은 캠페인을 24일 시작했다고 밝혔다.이번 캠페인은 아라연꽃 PDRN 히알루론 광채 세럼을 중심으로 진행된다. 해당 제품은 핑크볼과 세럼을 섞어 사용하는 제형을 적용했다.한스킨은 이번 모델 기용과",
-        "image": "https://cliimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20260824101747070240204ead079118023320059.jpg&nmt=12"
+        "url": "https://www.gpkorea.com/news/articleView.html?idxno=145972",
+        "summary": "배우 브랜드평판 2026년 8월 빅데이터 분석 결과, 고윤정이 1위를 차지했다. 소지섭과 윤경호가 뒤를 이었다.한국기업평판연구소는 7월 25일부터 8월 25일까지 드라마·영화·OTT에 출연 중인 배우 100명의 브랜드 빅데이터 1억5531만1039개를 분석해 이같이 발표했다. 지난 7월",
+        "image": "https://cdn.gpkorea.com/news/photo/202608/145972_310102_3628.png"
     },
     {
         "title": "[#053/054] 침체하는 도시에서 ‘리센느’를 선망하다 - 뉴스민",
         "source": "뉴스민",
         "date": "2026-08-24",
         "url": "https://www.newsmin.co.kr/news/136267/",
+        "summary": ""
+    },
+    {
+        "title": "오디세이·리센느·사랑이온다·오싹한연애, 1위 [한눈에 보는 엔터차트] - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-08-24",
+        "url": "https://www.news1.kr/entertain/celebrity-topic/6267342",
         "summary": ""
     },
     {
@@ -175,11 +207,12 @@ const NEWS_DATA = [
         "image": "https://img4.yna.co.kr/etc/inner/KR/2026/08/24/AKR20260824157200052_01_i_P4.jpg"
     },
     {
-        "title": "오디세이·리센느·사랑이온다·오싹한연애, 1위 [한눈에 보는 엔터차트] - 뉴스1",
-        "source": "뉴스1",
+        "title": "‘거제 야호’로 흥한 리센느, 수해 신음 거제에 또 따뜻한 나눔 - 부산일보",
+        "source": "부산일보",
         "date": "2026-08-24",
-        "url": "https://www.news1.kr/entertain/celebrity-topic/6267342",
-        "summary": ""
+        "url": "https://mobile.busan.com/view/busan/view.php?code=2026082418174568033",
+        "summary": "거제시 출신 멤버 원이가 리더로 활동 중인 걸그룹 리센느가 수해로 지난 광복절 극한 호우가 남긴 수해로 신음하는 거제시에 나랑드 사이다 1만 62...",
+        "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/08/24/2026082418174187342_l.jpg"
     },
     {
         "title": "리센느, 거제 수해 현장에 ‘통 큰 응원’…성금 이어 음료 1만 6천여개 전달 - 한국NGO신문",
@@ -190,12 +223,12 @@ const NEWS_DATA = [
         "image": "https://cdn.ngonews.kr/news/photo/202608/236190_240356_033.jpg"
     },
     {
-        "title": "‘거제 야호’로 흥한 리센느, 수해 신음 거제에 또 따뜻한 나눔 - 부산일보",
-        "source": "부산일보",
+        "title": "리센느부터 익명 기부자까지…거제 수해에 온정 이어져 - 서울신문",
+        "source": "서울신문",
         "date": "2026-08-24",
-        "url": "https://mobile.busan.com/view/busan/view.php?code=2026082418174568033",
-        "summary": "거제시 출신 멤버 원이가 리더로 활동 중인 걸그룹 리센느가 수해로 지난 광복절 극한 호우가 남긴 수해로 신음하는 거제시에 나랑드 사이다 1만 62...",
-        "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/08/24/2026082418174187342_l.jpg"
+        "url": "https://www.seoul.co.kr/news/publicnews/local_govern/2026/08/24/20260824500240",
+        "summary": "광복절 연휴 집중호우로 큰 피해를 입은 경남 거제에 기업과 사회단체, 홍보대사 리센느, 익명 기부자까지 성금과 물품을 보내며 복구 지원에 나섰다. 거제시는 특별재난지역으로 선포됐고, 모금된 성금은 주택 침수와 시설 피해 복구, 이재민 지원에 쓰일 예정이다.",
+        "image": "https://imggo.seoul.co.kr/img/go_share.png"
     },
     {
         "title": "경남 ‘거제 홍보대사’ 리센느, 호우 피해 복구 현장에 음료 1만 6천개 전달 - 더경남뉴스",
@@ -204,14 +237,6 @@ const NEWS_DATA = [
         "url": "https://thegnnews.com/View.aspx?No=4197497",
         "summary": "경남 거제시 홍보대사인 걸그룹 리센느(RESCENE)가 집중호우 피해를 입은 거제시민과 피해 복구에 힘쓰고 있는 자원봉사자들을 위해 또 한 번 나눔을 실천했다.리센느는 지난 21일 동아오츠카의 ‘나랑드 사이다’ 1만 6200개를 리센느의 이름으로 거제시에 기탁했다고 24일 밝혔다. 이번",
         "image": "https://cdn.coenworks.com/Files/273/News/202608/4628_20260824234149428.jpg"
-    },
-    {
-        "title": "리센느부터 익명 기부자까지…거제 수해에 온정 이어져 - 서울신문",
-        "source": "서울신문",
-        "date": "2026-08-24",
-        "url": "https://www.seoul.co.kr/news/publicnews/local_govern/2026/08/24/20260824500240",
-        "summary": "광복절 연휴 집중호우로 큰 피해를 입은 경남 거제에 기업과 사회단체, 홍보대사 리센느, 익명 기부자까지 성금과 물품을 보내며 복구 지원에 나섰다. 거제시는 특별재난지역으로 선포됐고, 모금된 성금은 주택 침수와 시설 피해 복구, 이재민 지원에 쓰일 예정이다.",
-        "image": "https://imggo.seoul.co.kr/img/go_share.png"
     },
     {
         "title": "거제시 홍보대사 리센느, 거제 호우 피해 복구에 또 한 번 따뜻한 나눔 - 해양레저신문",
@@ -230,14 +255,6 @@ const NEWS_DATA = [
         "image": "https://cdn.kado.net/news/photo/202608/2068317_876799_1227.jpg"
     },
     {
-        "title": "고윤정, 배우 브랜드평판 1위…리센느 제나와 ‘닮은꼴’ 특별한 인연 - 지피코리아",
-        "source": "지피코리아",
-        "date": "2026-08-24",
-        "url": "https://www.gpkorea.com/news/articleView.html?idxno=145972",
-        "summary": "배우 브랜드평판 2026년 8월 빅데이터 분석 결과, 고윤정이 1위를 차지했다. 소지섭과 윤경호가 뒤를 이었다.한국기업평판연구소는 7월 25일부터 8월 25일까지 드라마·영화·OTT에 출연 중인 배우 100명의 브랜드 빅데이터 1억5531만1039개를 분석해 이같이 발표했다. 지난 7월",
-        "image": "https://cdn.gpkorea.com/news/photo/202608/145972_310102_3628.png"
-    },
-    {
         "title": "“5000만원 기부하고 또 왔다”…리센느, 이번엔 거제에 음료 1만6200개 - 거제타임즈",
         "source": "거제타임즈",
         "date": "2026-08-24",
@@ -254,46 +271,6 @@ const NEWS_DATA = [
         "image": "https://cdn.meconomynews.com/news/photo/202608/200827_201625_4123.jpg"
     },
     {
-        "title": "거제시 홍보대사 리센느, 호우 복구 지원 나랑드 사이다 1만6,200개 기탁 - 새거제신문",
-        "source": "새거제신문",
-        "date": "2026-08-24",
-        "url": "https://www.saegeoje.com/news/articleView.html?idxno=307698",
-        "summary": "걸그룹 리센느(RESCENE)가 21일 동아오츠카의 나랑드 사이다 1만6,200개를 리센느 이름으로 기탁해 호우 피해 복구에 동참했다. 이번 기부는 15일부터 1",
-        "image": "https://cdn.saegeoje.com/news/photo/202608/307698_69133_4042.jpg"
-    },
-    {
-        "title": "[자막뉴스] 거제 폭우 피해에 위로해주는 리센느 - LG헬로비전",
-        "source": "LG헬로비전",
-        "date": "2026-08-24",
-        "url": "https://news.lghellovision.net/news/articleView.html?idxno=552117",
-        "summary": "경남 거제시 홍보대사인 걸 그룹 리센느가 거제시의 집중호우 피해 복구와 이재민의 일상 회복을 위해 5천만 원을 쾌척했습니다.팬덤 리마인의 이름으로 기부한 것으로 알려졌습니다.이번에 전달된 성금은 이재민에게 위로금으로 전달될 예정입니다.지난 18일 희망브리지 전국재해구호협회는 리센느 팬덤",
-        "image": "https://cdn.news.lghellovision.net/news/thumbnail/202608/552117_189465_5854_v150.jpg"
-    },
-    {
-        "title": "리센느 원이, 와키윌리 새 얼굴 됐다…26FW 뮤즈 발탁 - 싱글리스트",
-        "source": "싱글리스트",
-        "date": "2026-08-24",
-        "url": "https://www.slist.kr/news/articleView.html?idxno=761080",
-        "summary": "그룹 리센느(RESCENE) 원이가 캐주얼 스트릿 브랜드 와키윌리의 새 뮤즈로 발탁됐다.와키윌리는 원이를 26FW 시즌 뮤즈로 선정하고 첫 번째 화보 ‘오늘은 원이데이~’를 공개했다고 밝혔다.공개된 화보에는 촬영을 준비하거나 휴식을 취하고 장난을 치는 등 원이의 자연스러운 모습이 담겼다",
-        "image": "https://cdn.slist.kr/news/thumbnail/202608/761080_1165817_3245_v150.jpg"
-    },
-    {
-        "title": "'거제 홍보대사' 리센느, 수해 현장에 음료 1만 6000개 기부 - 비즈엔터",
-        "source": "비즈엔터",
-        "date": "2026-08-24",
-        "url": "https://enter.etoday.co.kr/news/view/301474",
-        "summary": "▲동아오츠카 모델 리센느가 수해 피해를 입은 거제 지역에 음료를 기부했다.(사진출처=동아오츠카)그룹 리센느(RESCENE)가 거제 집중호우 피해 주민과",
-        "image": "https://img.etoday.co.kr/pto_db/2026/08/600/20260825000730_2377513_1200_800.jpg"
-    },
-    {
-        "title": "리센느, 집중호우 피해 거제시에 사이다 1만6200개 기부 - 거제저널",
-        "source": "거제저널",
-        "date": "2026-08-24",
-        "url": "https://www.geojejournal.co.kr/news/articleView.html?idxno=207402",
-        "summary": "걸그룹 리센느가 거제시 홍보대사로서 집중호우 피해를 입은 거제시민과 복구에 참여 중인 자원봉사자들을 위해 나랑드 사이다 1만6200개를 기탁했다.리센느는 지난 2",
-        "image": "https://cdn.geojejournal.co.kr/news/photo/202608/207402_111749_4519.jpg"
-    },
-    {
         "title": "Multimedia de OWIS de Weverse - [Archel.wav] RESCENE (리센느) - Deja Vu | Covered by OWIS(오위스) 소이 (LIVE) - Weverse",
         "source": "Weverse",
         "date": "2026-08-24",
@@ -308,20 +285,28 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
-        "title": "[뮤지션100주간] 빅뱅 31계단·MC몽&서인영 115계단 급등…리센느 8.01% 다곡 분산형 1위 - 톱스타뉴스",
-        "source": "톱스타뉴스",
+        "title": "거제시 홍보대사 리센느, 호우 복구 지원 나랑드 사이다 1만6,200개 기탁 - 새거제신문",
+        "source": "새거제신문",
         "date": "2026-08-24",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16172296",
-        "summary": "2026년 34주차 뮤지션100에서 빅뱅과 MC몽&서인영이 큰 폭으로 뛰었고, 리센느는 8.01%로 1위를 지키며 다곡 분산형 소비와 6개 플랫폼 상위권을 동시에 만들었다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202608/16172296_2002268_5114_crop.jpg"
+        "url": "https://www.saegeoje.com/news/articleView.html?idxno=307698",
+        "summary": "걸그룹 리센느(RESCENE)가 21일 동아오츠카의 나랑드 사이다 1만6,200개를 리센느 이름으로 기탁해 호우 피해 복구에 동참했다. 이번 기부는 15일부터 1",
+        "image": "https://cdn.saegeoje.com/news/photo/202608/307698_69133_4042.jpg"
     },
     {
-        "title": "'거제 홍보대사' 리센느, 성금 이어 수해복구 음료도 지원 - 네이트",
-        "source": "네이트",
+        "title": "리센느 원이, 와키윌리 새 얼굴 됐다…26FW 뮤즈 발탁 - 싱글리스트",
+        "source": "싱글리스트",
         "date": "2026-08-24",
-        "url": "https://news.nate.com/view/20260824n32622",
-        "summary": "�Ѵ��� ���� ���� : ���� - ���� : (����=���մ���) �ڿ��� ���� = �泲 ������ ȫ������� �ɱ׷� ������(RESCENE)�� ����ȣ�� ���� �ֹΰ� ���� �η��� ���� ���� 1��6õ������ ��Ź�ߴ�.",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/yt/2026/08/24/AKR20260824157200052_01_i.jpg"
+        "url": "https://www.slist.kr/news/articleView.html?idxno=761080",
+        "summary": "그룹 리센느(RESCENE) 원이가 캐주얼 스트릿 브랜드 와키윌리의 새 뮤즈로 발탁됐다.와키윌리는 원이를 26FW 시즌 뮤즈로 선정하고 첫 번째 화보 ‘오늘은 원이데이~’를 공개했다고 밝혔다.공개된 화보에는 촬영을 준비하거나 휴식을 취하고 장난을 치는 등 원이의 자연스러운 모습이 담겼다",
+        "image": "https://cdn.slist.kr/news/thumbnail/202608/761080_1165817_3245_v150.jpg"
+    },
+    {
+        "title": "리센느, 집중호우 피해 거제시에 사이다 1만6200개 기부 - 거제저널",
+        "source": "거제저널",
+        "date": "2026-08-24",
+        "url": "https://www.geojejournal.co.kr/news/articleView.html?idxno=207402",
+        "summary": "걸그룹 리센느가 거제시 홍보대사로서 집중호우 피해를 입은 거제시민과 복구에 참여 중인 자원봉사자들을 위해 나랑드 사이다 1만6200개를 기탁했다.리센느는 지난 2",
+        "image": "https://cdn.geojejournal.co.kr/news/photo/202608/207402_111749_4519.jpg"
     },
     {
         "title": "한스킨, 리센느 미나미·제나 모델 선정...24일부터 신규 캠페인 진행 - 비욘드포스트",
@@ -332,28 +317,28 @@ const NEWS_DATA = [
         "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202608241030490991709aeda6993417521136223.jpg&nmt=30"
     },
     {
+        "title": "'거제 홍보대사' 리센느, 수해 현장에 음료 1만 6000개 기부 - 비즈엔터",
+        "source": "비즈엔터",
+        "date": "2026-08-24",
+        "url": "https://enter.etoday.co.kr/news/view/301474",
+        "summary": "▲동아오츠카 모델 리센느가 수해 피해를 입은 거제 지역에 음료를 기부했다.(사진출처=동아오츠카)그룹 리센느(RESCENE)가 거제 집중호우 피해 주민과",
+        "image": "https://img.etoday.co.kr/pto_db/2026/08/600/20260825000730_2377513_1200_800.jpg"
+    },
+    {
+        "title": "한스킨, 리센느 미나미·제나 모델로 리브랜딩 캠페인 전개 - 로이슈",
+        "source": "로이슈",
+        "date": "2026-08-24",
+        "url": "https://www.lawissue.co.kr/view.php?ud=202608241017126159204ead0791_12",
+        "summary": "한스킨이 걸그룹 리센느의 미나미와 제나를 브랜드 모델로 발탁하고 새로운 브랜드 방향성을 담은 캠페인을 24일 시작했다고 밝혔다.이번 캠페인은 아라연꽃 PDRN 히알루론 광채 세럼을 중심으로 진행된다. 해당 제품은 핑크볼과 세럼을 섞어 사용하는 제형을 적용했다.한스킨은 이번 모델 기용과",
+        "image": "https://cliimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20260824101747070240204ead079118023320059.jpg&nmt=12"
+    },
+    {
         "title": "한스킨, 리센느 미나미·제나 모델 기용...PDRN 광채 세럼 프로모션 실시 - thepowernews.co.kr",
         "source": "thepowernews.co.kr",
         "date": "2026-08-24",
         "url": "https://www.thepowernews.co.kr/view.php?ud=2026082410323779609aeda69934_7",
         "summary": "[더파워 최성민 기자]스킨케어 브랜드 한스킨이 아이돌 그룹 리센느의 미나미와 제나를 브랜드 모델로 계약하고 리브랜딩 프로젝트를 가동한다.리센느는 음원 ‘LOVE ATTACK’의 멜론 TOP100 1위 달성과 멤버 미나미의 ‘거제 야호’, 제나의 경주 사투리 밈을 통해 온라인 주목도를 높",
         "image": "https://cliimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202608241035390405509aeda6993417521136223.jpg&nmt=7"
-    },
-    {
-        "title": "리센느, KCON LA 이어 근황까지 뜨겁다...스타트렌드 K-POP 걸그룹 1위 - 더퍼블릭",
-        "source": "더퍼블릭",
-        "date": "2026-08-24",
-        "url": "https://www.thepublic.kr/news/articleView.html?idxno=315883",
-        "summary": "[더퍼블릭=장경욱 기자] 지난 22일, 리센느가 스타트렌드 K-POP 여자 그룹 부문 8월 3주차 투표에서 180만6500표를 기록하며 1위에 올랐다. 리센느는 180만 표가 넘는 팬들의 지지를 끌어내며 정상에 이름을 올렸고, 멤버 리브가 공개한 LA에서의 행복한 순간도 함께 관심을",
-        "image": "https://cdn.thepublic.kr/news/photo/202608/315883_319181_142.png"
-    },
-    {
-        "title": "고윤정, 리센느 650만원 선물보다 눈길 간 건…미대 출신다운 '디테일' [MD피플] - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-23",
-        "url": "https://v.daum.net/v/6Mav1GMVms",
-        "summary": "[마이데일리 = 김하영 기자] 배우 고윤정이 세심한 배려가 묻어나는 미담으로 화제를 모았다. 그룹 리센느 멤버 제나는 지난 22일 팬 소통 플랫폼을 통해 고윤정에게 받은 이사 선물을 공개했다. 제나는 \"윤정 언니가 LA에 있을 때 숙소로 선물을 보내줬다\"며 \"비밀로 해서 숙소 앞에 엄청",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/24/mydaily/20260824012252495ibkq.jpg"
     },
     {
         "title": "[단독] '네이처 출신' 우혜준 \"리센느처럼 역주행 했으면…다시 무대에 서보고 싶다\" (인터뷰①) - 네이트",
@@ -364,20 +349,20 @@ const NEWS_DATA = [
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/xs/2026/08/24/1787453390981745.jpg"
     },
     {
-        "title": "“원래 알던 사이도 아닌데…” 고윤정이 리센느 제나에게 보낸 ‘통 큰 선물’ 액수 - 위키트리",
-        "source": "위키트리",
-        "date": "2026-08-23",
-        "url": "https://www.wikitree.co.kr/articles/1154287",
-        "summary": "“그사세네 진짜”, “고윤정 멋지다” 반응 폭발 중",
-        "image": "https://cdnweb01.wikitree.co.kr/webdata/editor/202608/23/202608231613144301.jpg"
-    },
-    {
         "title": "리센느 미나미·제나, 한스킨 모델 발탁 - bntnews.co.kr",
         "source": "bntnews.co.kr",
         "date": "2026-08-23",
         "url": "https://www.bntnews.co.kr/article/view/bnt202608240012",
         "summary": "그룹 리센느(RESCENE) 미나미와 제나가 뷰티 브랜드 한스킨의 새 얼굴이 됐다. 최근 음원 차트와 사회관계망서비스(SNS)에서 화제성을 높인 데 이어 광고",
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/08/24/bnt202608240023.jpg"
+    },
+    {
+        "title": "“원래 알던 사이도 아닌데…” 고윤정이 리센느 제나에게 보낸 ‘통 큰 선물’ 액수 - 위키트리",
+        "source": "위키트리",
+        "date": "2026-08-23",
+        "url": "https://www.wikitree.co.kr/articles/1154287",
+        "summary": "“그사세네 진짜”, “고윤정 멋지다” 반응 폭발 중",
+        "image": "https://cdnweb01.wikitree.co.kr/webdata/editor/202608/23/202608231613144301.jpg"
     },
     {
         "title": "[김현우의 핫스팟] 리센느 ‘거제 야호’엔 열광, 하영 증조부엔 분노하는 한국인의 이중성 - 여성경제신문",
@@ -412,14 +397,6 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/24/xportsnews/20260824065611116gztj.jpg"
     },
     {
-        "title": "리센느, LA서 빛난 ‘LOVE ATTACK’…음악지표가 만든 브랜드 힘 - 톱스타뉴스",
-        "source": "톱스타뉴스",
-        "date": "2026-08-23",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16170939",
-        "summary": "리센느가 KCON LA 2026에서 ‘LOVE ATTACK’과 ‘Pretty Girl’을 선보이고 거제 수해 복구 성금 5,000만원을 전달했다. 33주차 브랜드가치는 열독·써클차트·뮤지션100이 이끌었다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202608/16170939_2000825_838_crop.jpg"
-    },
-    {
         "title": "'닮은꼴' 인연이 진짜 친분으로…고윤정, 리센느 제나에 '650만 원대' 역대급 이사 선물 - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-08-23",
@@ -444,20 +421,20 @@ const NEWS_DATA = [
         "image": "https://isplus.com/data/isp/image/2026/08/23/isp20260823000086.800x.0.jpeg"
     },
     {
+        "title": "고윤정, 리센느 650만원 선물보다 눈길 간 건…미대 출신다운 `디테일` [MD피플] - 마이데일리",
+        "source": "마이데일리",
+        "date": "2026-08-23",
+        "url": "https://mydaily.co.kr/page/view/2026082317594839907",
+        "summary": "배우 고윤정(왼쪽)에게 받은 선물을 인증한 리센느 멤버 제나...",
+        "image": "https://mydaily.co.kr/photos/2026/08/23/2026082317571402771_l.jpg"
+    },
+    {
         "title": "8월 가수 브랜드 평판 톱3 리센느·BTS·임영웅 - 문화일보",
         "source": "문화일보",
         "date": "2026-08-22",
         "url": "https://www.munhwa.com/article/11611169",
         "summary": "그룹 리센느가 8월 가수 브랜드 평판 1위에 올랐다. 이어 방탄소년단(BTS)과 임영웅 순이었다. 22일 한국기업평판연구소는 7월 22일부터 8월 22일까지 가수 브랜드 빅데이터 1억2948만4511개를 분석해 이 같은 결과를 발표했다. 소비자들의 브랜드 참여, 미디어",
         "image": "https://wimg.munhwa.com/news/cms/2026/08/22/news-p.v1.20260822.5fd63e5e573a4da5aa9fa3c38f76a9f1_R.jpg"
-    },
-    {
-        "title": "최홍만, 리센느 원이에게 러브콜 받았다 \"언제든 불러주시길\"('전참시') - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-22",
-        "url": "https://v.daum.net/v/20260823065638729",
-        "summary": "[OSEN=오세진 기자] ‘전지적 참견 시점’ 최홍만이 대세 걸그룹 리센느와 함께 챌린지를 찍은 비하인드를 밝혔다. 22일 방영한 MBC 드라마 ‘전지적 참견 시점’(이하 ‘전참시’)에서는 하윤경, 최홍만이 출연했다. 홍현희는 \"얼마 전에 리센느랑 챌린지를 찍었던데\"라며 놀랍다는 표정을",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/23/poctan/20260823065639229udch.jpg"
     },
     {
         "title": "리센느 제나, 롤모델 고윤정 미담 공개…“이사했다고 전신거울 선물” - 스포츠경향",
@@ -468,6 +445,14 @@ const NEWS_DATA = [
         "image": "https://images.khan.co.kr/article/2026/08/22/news-b.v1.20260822.b55346002adf4471952c40af3bae4289_P1.png"
     },
     {
+        "title": "“고양특례시 영상 보고 진짜 감동”…리센느 메이, 고향의 생일 축하에 ‘화답’ - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-08-22",
+        "url": "https://v.daum.net/v/20260822111310671",
+        "summary": "고양특례시가 지역 출신이자 시 홍보대사인 걸그룹 리센느(RESCENE) 멤버 메이의 생일을 맞아 모교 후배와 민경선 시장의 축하 메시지를 담은 영상을 공개하자 메이가 직접 감사의 뜻을 전하며 화답했다. 22일 시에 따르면 메이의 생일인 지난 19일 공식 유튜브 채널을 통해 ‘메이야, 생",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/22/kyeonggi/20260822111312905zplk.jpg"
+    },
+    {
         "title": "“리센느 미안” 전현무, 카자흐스탄 계곡서 ‘야호’..김신영 “끝났다” (‘나혼산’) - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-08-22",
@@ -476,12 +461,12 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/22/10asia/20260822220309154uszr.jpg"
     },
     {
-        "title": "최홍만, 리센느 원이에게 러브콜 받았다 \"언제든 불러주시길\"('전참시') - 조선비즈 - Chosunbiz",
-        "source": "Chosunbiz",
+        "title": "리센느, BTS·임영웅 제쳤다…가수 브랜드평판 1위 - 스타투데이 - 매일경제",
+        "source": "매일경제",
         "date": "2026-08-22",
-        "url": "https://biz.chosun.com/entertainment/enter_general/2026/08/23/GBQWIZJRGYZTCOBZG5QWCOJXGM/?outputType=amp",
-        "summary": "최홍만, 리센느 원이에게 러브콜 받았다 언제든 불러주시길전참시",
-        "image": "https://biz.chosun.com/resizer/v2/GRSWEMBXGJRWINJRMI4TGMDFG4.jpg?auth=7d9a7f7090c3b3f09b33b535dad2044c0f30880b3e3bcf21654eb97b3b60668e&width=650&height=341&smart=true"
+        "url": "https://www.mk.co.kr/news/musics/12133738",
+        "summary": "",
+        "image": "https://pimg.mk.co.kr/news/cms/202608/22/news-p.v1.20260822.4e105f8f0ef7483cbf51da4185d7ea90_R.png"
     },
     {
         "title": "고윤정 만난 리센느 제나, 미담 공개 \"깜짝 이사 선물 받아\" - 뉴스1",
@@ -506,20 +491,20 @@ const NEWS_DATA = [
         "image": "https://wimg.heraldcorp.com/news/cms/2026/08/21/rcv.YNA.20260716.PYH2026071609880001300_T1.jpg"
     },
     {
+        "title": "리센느 제나, 고윤정 미담 공개 \"이사했다고 전신거울 선물..마음도 아름다워\" - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-08-22",
+        "url": "https://v.daum.net/v/20260822205108251",
+        "summary": "[스타뉴스 | 최진실 기자] /사진=유튜브 채널 '안녕하세요원이입니다잘부탁드립니다'배우 고윤정이 그룹 리센느 제나에게 선물을 전했다. 22일 제나는 팬 소통 플랫폼을 통해 \"(고)윤정 언니가 LA에 있을 때 숙소로 선물 보내줬다. 근데 비밀로 해서 숙소 앞에 엄청 큰 전신거울이 와있었는",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/22/starnews/20260822205109845ovim.jpg"
+    },
+    {
         "title": "최홍만, '대세' 리센느 만났다 \"원이가 방송 같이하고 싶다고 러브콜\" [전참시] - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-08-22",
         "url": "https://v.daum.net/v/20260822232637744",
         "summary": "[스타뉴스 | 최진실 기자] /사진=MBC '전지적 참견 시점' 방송화면이종격투기 선수 출신 방송인 최홍만이 리센느와의 만남을 말했다. 22일 방송된 MBC 예능 프로그램 '전지적 참견 시점'(이하 '전참시')에는 최홍만이 출연해 일상을 공개했다. /사진=MBC '전지적 참견 시점' 방",
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/22/starnews/20260822232639192beoy.jpg"
-    },
-    {
-        "title": "공항 빅백·바닷가 호보백…리센느 미나미의 가방 ‘픽’[누구템] - edaily.co.kr",
-        "source": "edaily.co.kr",
-        "date": "2026-08-21",
-        "url": "https://www.edaily.co.kr/News/Read?newsId=01813846645549944&mediaCodeNo=257",
-        "summary": "리센느(RESCENE) 멤버 미나미가 힘을 뺀 옷차림에 존재감 있는 가방을 더하는 스타일로 눈길을 끌고 있다. 편안한 공항룩에는 몸통을 가릴 만큼 큰 빅백을, 바닷가에서는 캐주얼한 차림에 디자이너 호보백을 매치하며 비슷한 ‘꾸안꾸(꾸민 듯 안 꾸민 듯한)’ 스타일에서...",
-        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/08/PS26082200270.jpg"
     },
     {
         "title": "이제 빵 뜨나 싶었는데...'리센느 효과' 보기 직전 '한숨' [자막뉴스] - YTN",
@@ -567,6 +552,22 @@ const NEWS_DATA = [
         "url": "https://v.daum.net/v/20260822001707458",
         "summary": "(엑스포츠뉴스 원민순 기자) 전현무가 '야호'까지 절단낼 조짐을 보이며 리센느에게 미안하다고 했다. 21일 방송된 MBC '나 혼자 산다'에서는 전현무가 카자흐스탄에서 야호를 외치는 모습이 전파를 탔다. 이날 전현무는 무작정 떠난 카자흐스탄 여행에서 콜사이 호수를 본 뒤 시간이 별로 없",
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/22/xportsnews/20260822001708998guxd.jpg"
+    },
+    {
+        "title": "공항 빅백·바닷가 호보백…리센느 미나미의 가방 ‘픽’[누구템] - edaily.co.kr",
+        "source": "edaily.co.kr",
+        "date": "2026-08-21",
+        "url": "https://www.edaily.co.kr/News/Read?newsId=01813846645549944&mediaCodeNo=257",
+        "summary": "리센느(RESCENE) 멤버 미나미가 힘을 뺀 옷차림에 존재감 있는 가방을 더하는 스타일로 눈길을 끌고 있다. 편안한 공항룩에는 몸통을 가릴 만큼 큰 빅백을, 바닷가에서는 캐주얼한 차림에 디자이너 호보백을 매치하며 비슷한 ‘꾸안꾸(꾸민 듯 안 꾸민 듯한)’ 스타일에서...",
+        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/08/PS26082200270.jpg"
+    },
+    {
+        "title": "리센느 제나, 닮은꼴 고윤정 만났다 \"더 어리고 예뻐\" [안원잘부] - starnewskorea.com",
+        "source": "starnewskorea.com",
+        "date": "2026-08-21",
+        "url": "https://www.starnewskorea.com/star/2026/08/21/2026082122163378300",
+        "summary": "그룹 리센느 제나가 닮은꼴인 배우 고윤정과 만났다. 21일 유튜브 채널 '안녕하세요원이입니다잘부탁드립니다'에는 '고윤정을 좋아하세요?'라는 제목의 영상이 게재됐다. 공개된 영상에서는 고윤정의 뿌리를 찾아 나선 리센느 제나의 모습이 그려졌다. 앞서 제나는 고윤정과 닮은꼴로 화제가 된 바 ",
+        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=657,fit=cover,q=high,sharpen=2/21/2026/08/2026082122163378300_1.jpg"
     },
     {
         "title": "리센느가 불러온 '거제 여행 열풍'...폭우로 관광객 '뚝' [앵커리포트] - YTN",
@@ -617,14 +618,6 @@ const NEWS_DATA = [
         "image": "http://news.kbs.co.kr/data/news/title_image/newsmp4/changwon/newsplaza/2026/08/20/90_8641330.jpg"
     },
     {
-        "title": "리센느, 거제 수해 복구에 5000만원 - 조선일보",
-        "source": "조선일보",
-        "date": "2026-08-19",
-        "url": "https://www.chosun.com/culture-life/culture_general/2026/08/20/RGLWDTPMYFFD7JXLPDBMB3FPZ4/",
-        "summary": "걸그룹 리센느가 폭우 피해를 본 경남 거제시에 성금 5000만 원을 기부함. 리센느는 거제 홍보대사로 활동 중이며 멤버 원이의 고향이기도 함. 팬덤 리마인 또한 희망브리지 전국재해구호협회를 통해 4000만 원 이상의 성금을 추가로 모금하여 이재민을 돕고 있음.",
-        "image": "https://www.chosun.com/resizer/v2/GM4DKNJVGI2TOZLBHAYTANJRHE.jpg?auth=1ee0e53722153e2b3f7af47af306a4d267e71fcee1dfee666ae9464fe439e110&width=1200&height=630&smart=true"
-    },
-    {
         "title": "‘거제 홍보대사’ 리센느, 수해 성금 5000만원 기부 - 동아일보",
         "source": "동아일보",
         "date": "2026-08-19",
@@ -633,20 +626,28 @@ const NEWS_DATA = [
         "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/19/134507129.2.jpg"
     },
     {
-        "title": "리센느, '원이 고향' 거제 수해 복구 위해 5천만원 기부 - 연합뉴스",
-        "source": "연합뉴스",
-        "date": "2026-08-19",
-        "url": "https://www.yna.co.kr/view/AKR20260819159000005",
-        "summary": "(서울=연합뉴스) 김선우 기자 = 경남 거제시 홍보대사인 걸그룹 리센느가 최근 거제에서 발생한 집중호우 피해 복구와 이재민들의 일상 회복을 위해...",
-        "image": "https://img9.yna.co.kr/photo/cms/2026/07/20/49/PCM20260720000049052_P4.jpg"
-    },
-    {
         "title": "‘거제야, 호~해줄게’ 리센느와 팬덤, 폭우 피해 경남에 성금 - 한겨레",
         "source": "한겨레",
         "date": "2026-08-19",
         "url": "https://www.hani.co.kr/arti/culture/music/1273611.html",
         "summary": "‘역주행 돌풍’ 걸그룹 리센느(RESCENE)와 팬들이 집중호우로 피해를 본 경남 지역 주민들을 돕기 위한 기부에 나섰다. 19일 가요계와 거제시에 따르면 리센느 소속사 더뮤즈엔터테인먼트는 거제시를 찾아 집중호우 피해 복구와 이재민 지원을 위한 성",
         "image": "https://flexible.img.hani.co.kr/flexible/normal/970/776/imgdb/original/2026/0819/20260819502882.webp"
+    },
+    {
+        "title": "리센느, 거제 수해 복구에 5000만원 - 조선일보",
+        "source": "조선일보",
+        "date": "2026-08-19",
+        "url": "https://www.chosun.com/culture-life/culture_general/2026/08/20/RGLWDTPMYFFD7JXLPDBMB3FPZ4/",
+        "summary": "걸그룹 리센느가 폭우 피해를 본 경남 거제시에 성금 5000만 원을 기부함. 리센느는 거제 홍보대사로 활동 중이며 멤버 원이의 고향이기도 함. 팬덤 리마인 또한 희망브리지 전국재해구호협회를 통해 4000만 원 이상의 성금을 추가로 모금하여 이재민을 돕고 있음.",
+        "image": "https://www.chosun.com/resizer/v2/GM4DKNJVGI2TOZLBHAYTANJRHE.jpg?auth=1ee0e53722153e2b3f7af47af306a4d267e71fcee1dfee666ae9464fe439e110&width=1200&height=630&smart=true"
+    },
+    {
+        "title": "리센느, '원이 고향' 거제 수해 복구 위해 5천만원 기부 - 연합뉴스",
+        "source": "연합뉴스",
+        "date": "2026-08-19",
+        "url": "https://www.yna.co.kr/view/AKR20260819159000005",
+        "summary": "(서울=연합뉴스) 김선우 기자 = 경남 거제시 홍보대사인 걸그룹 리센느가 최근 거제에서 발생한 집중호우 피해 복구와 이재민들의 일상 회복을 위해...",
+        "image": "https://img9.yna.co.kr/photo/cms/2026/07/20/49/PCM20260720000049052_P4.jpg"
     },
     {
         "title": "‘거제 야호’ 인연, 수해 이웃 돕기로…리센느·광고사 잇단 기부 - 거제신문",
@@ -713,14 +714,6 @@ const NEWS_DATA = [
         "image": "https://ojsfile.ohmynews.com/BIG_IMG_FILE/2026/0819/IE003661347_BIG.jpg"
     },
     {
-        "title": "'원이 고향' 거제 위해 리센느가 나섰다…수해 복구에 5000만원 기부 - 머니투데이 - 머니투데이",
-        "source": "머니투데이",
-        "date": "2026-08-19",
-        "url": "https://www.mt.co.kr/society/2026/08/20/2026082005181073254",
-        "summary": "걸그룹 리센느(RESCENE)와 팬덤 '리마인(REMINE)'이 기록적인 집중호우로 피해를 입은 경남 거제 지역의 수해 복구와 이재민 지원을 위해 5000만원을 기부했다. 19일 뉴스1, 뉴시스에 따르면 리센느 소속사 더뮤즈엔터테인먼트는 이날 거제시를 찾아 리센느와 팬덤 리마인 공동 명",
-        "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/08/2026082005181073254_1.jpg"
-    },
-    {
         "title": "‘거제 야호’ 리센느, 거제 수해 지원 5000만원 기부 - JTBC",
         "source": "JTBC",
         "date": "2026-08-19",
@@ -743,14 +736,6 @@ const NEWS_DATA = [
         "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1329944",
         "summary": "고양시가 19일 고양시 출신이자 시 공식 홍보대사로 활동하고 있는 걸그룹 리센느(RESCENE) 멤버 메이의 생일을 맞아 응원 콘텐츠를 공개했다.이번 콘텐츠는 메이의 생일을 계기로 고향인 고양시가 아티스트의 활동을 응원하고 시민들과 함께 축하하는 취지로 마련됐다.",
         "image": "https://cdn.incheonilbo.com/news/thumbnail/202608/1329944_669290_2259_v150.jpg"
-    },
-    {
-        "title": "2년 만에 빛 본 리센느…중소기획사 '버틸 돈'이 없다 - 아시아경제",
-        "source": "아시아경제",
-        "date": "2026-08-18",
-        "url": "https://view.asiae.co.kr/article/2026081812490859852",
-        "summary": "K콘텐츠가 세계시장에서 질주하고 있지만 다음 스타와 작품을 키울 자금줄은 마르고 있다. 국내 콘텐츠기업의 자금조달 공백은 연간 최대 2조원을 웃돈다.",
-        "image": "https://cphoto.asiae.co.kr/listimglink/1/2026081812183483577_1787023114.jpg"
     },
     {
         "title": "원이·미나미 다녀간 해수욕장 흙탕물…리센느 팬 “눈물의 거제 야호 ㅠㅠ” - 한겨레",
@@ -777,11 +762,27 @@ const NEWS_DATA = [
         "image": "https://www.brandbrief.co.kr/news/thumbnail/202608/10187_23089_5931_v150.jpg"
     },
     {
+        "title": "‘거제 야호’ 리센느 뜨자...더뮤즈엔터 몸값도 껑충 - 뉴스톱",
+        "source": "뉴스톱",
+        "date": "2026-08-12",
+        "url": "https://www.newstopkorea.com/news/articleView.html?idxno=46946",
+        "summary": "걸그룹 리센느(RESCENE)가 음원 차트, 광고, 대형 무대 등에서 존재감을 키우면서 소속사 더뮤즈엔터테인먼트의 기업가치도 덩달아 주목받고 있다. 과거 시리즈A",
+        "image": "https://cdn.newstopkorea.com/news/photo/202608/46946_48028_2539.png"
+    },
+    {
         "title": "‘대세’ 리센느 메이, 솔직 심경 고백…“팀 떠날 생각했었다” (전참시) - 스포츠경향",
         "source": "스포츠경향",
         "date": "2026-08-08",
         "url": "https://sports.khan.co.kr/article/202608081316003",
         "summary": "걸그룹 리센느가 ‘프리티 걸’ 활동의 마지막 이야기를 공개한다. 8일 방송하는 MBC 예능 프로그램 ‘전지적 참견 시점’에서는 음악방송 3관왕을 달성한 리센느의 활동 마무리 회식 현장이 그려진다. 이날 리센느는...",
         "image": "https://images.khan.co.kr/article/2026/08/08/news-p.v1.20260808.2353dd9a3a3a4c86835211b9bafbd93c_P1.png"
+    },
+    {
+        "title": "\"3년내 못 뜨면 해체\"…화려하지만 냉혹한 아이돌 경제 - 한국경제",
+        "source": "한국경제",
+        "date": "2026-08-04",
+        "url": "https://www.hankyung.com/article/2026080323291",
+        "summary": "\"3년내 못 뜨면 해체\"…화려하지만 냉혹한 아이돌 경제, 유승호의 경제야 놀자 2년전 데뷔한 '중소돌' 걸그룹 리센느 투자비 손실 딛고 뒤늦게 역주행 '승자독식' 아이돌 시장에서 생존",
+        "image": "https://img.hankyung.com/photo/202608/AA.45232323.1.jpg"
     }
 ];
