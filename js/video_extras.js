@@ -1,4 +1,5 @@
 const VE_ORDER_LABEL = { relevance: '추천순', time: '최신순' };
+const VE_PAGE_SIZE = 20;
 
 function veEscape(str) {
     return String(str || '').replace(/[&<>'"]/g, m => ({
@@ -10,8 +11,17 @@ function veWatchUrl(vid) {
     return `https://www.youtube.com/watch?v=${encodeURIComponent(vid)}`;
 }
 
+let veDataPromise = null;
+function veLoadData() {
+    if (veDataPromise) return veDataPromise;
+    const root = (typeof SITE_ROOT !== 'undefined' ? SITE_ROOT : '');
+    veDataPromise = fetch(`${root}js/video_extras_data.json?t=` + Math.floor(Date.now() / 3600000))
+        .then(res => res.ok ? res.json() : {})
+        .catch(() => ({}));
+    return veDataPromise;
+}
+
 const veCommentState = {};
-const veCommentTotalCache = {};
 
 function veGetCommentOrder(panelId) {
     return (veCommentState[panelId] && veCommentState[panelId].order) || 'relevance';
@@ -22,20 +32,9 @@ function veResetComments(panelId) {
 }
 
 async function veGetCommentTotal(vid) {
-    if (vid in veCommentTotalCache) return veCommentTotalCache[vid];
-    if (typeof YOUTUBE_API_KEY === 'undefined' || !YOUTUBE_API_KEY) return null;
-    try {
-        const url = `https://www.googleapis.com/youtube/v3/videos`
-            + `?part=statistics&id=${encodeURIComponent(vid)}&key=${YOUTUBE_API_KEY}`;
-        const res = await fetch(url);
-        const data = await res.json();
-        const item = (data.items || [])[0];
-        const raw = item && item.statistics && item.statistics.commentCount;
-        veCommentTotalCache[vid] = (raw !== undefined && raw !== null) ? parseInt(raw, 10) : null;
-    } catch (e) {
-        veCommentTotalCache[vid] = null;
-    }
-    return veCommentTotalCache[vid];
+    const data = await veLoadData();
+    const entry = data[vid];
+    return entry ? entry.commentCount : null;
 }
 
 function veCommentSortBarHtml(panelId, onChange) {
@@ -55,15 +54,6 @@ function veUpdateSortBar(barEl, order) {
     });
 }
 
-const VE_COMMENT_PAGE_SIZE = 50;
-
-function veCommentUrl(vid, order, pageToken) {
-    return `https://www.googleapis.com/youtube/v3/commentThreads`
-        + `?part=snippet&videoId=${encodeURIComponent(vid)}`
-        + `&maxResults=${VE_COMMENT_PAGE_SIZE}&order=${order}&textFormat=plainText&key=${YOUTUBE_API_KEY}`
-        + (pageToken ? `&pageToken=${encodeURIComponent(pageToken)}` : '');
-}
-
 function veCommentItemHtml(c) {
     return `
         <div class="sh-comment-item">
@@ -81,6 +71,7 @@ function veCommentItemHtml(c) {
             </div>
         </div>`;
 }
+
 function veAttachCommentScroll(listEl, listId) {
     if (listEl.dataset.veScrollBound === '1') return;
     listEl.dataset.veScrollBound = '1';
@@ -90,40 +81,32 @@ function veAttachCommentScroll(listEl, listId) {
     });
 }
 
-async function veLoadMoreComments(listId) {
+function veLoadMoreComments(listId) {
     const state = veCommentState[listId];
     const listEl = document.getElementById(listId);
     if (!state || !listEl || !state.vid) return;
-    if (state.loadingMore || state.exhausted || !state.nextPageToken) return;
-    if (typeof YOUTUBE_API_KEY === 'undefined' || !YOUTUBE_API_KEY) return;
+    if (state.exhausted) return;
 
-    state.loadingMore = true;
-    const moreEl = document.createElement('div');
-    moreEl.className = 'sh-comment-loading sh-comment-loading-more';
-    moreEl.textContent = '댓글 더 불러오는 중...';
-    listEl.appendChild(moreEl);
-
-    try {
-        const res = await fetch(veCommentUrl(state.vid, state.order, state.nextPageToken));
-        const data = await res.json();
-
-        const now = veCommentState[listId];
-        const stillCurrent = now && now.vid === state.vid && now.order === state.order;
-        if (moreEl.parentNode) moreEl.parentNode.removeChild(moreEl);
-        if (!stillCurrent) return;
-
-        if (!res.ok) { state.exhausted = true; return; }
-
-        const items = (data.items || []).map(it => it.snippet.topLevelComment.snippet);
-        items.forEach(c => listEl.insertAdjacentHTML('beforeend', veCommentItemHtml(c)));
-
-        state.nextPageToken = data.nextPageToken || null;
-        if (!state.nextPageToken) state.exhausted = true;
-    } catch (e) {
-        if (moreEl.parentNode) moreEl.parentNode.removeChild(moreEl);
+    const nextItems = state.items.slice(state.shown, state.shown + VE_PAGE_SIZE);
+    if (!nextItems.length) {
         state.exhausted = true;
-    } finally {
-        state.loadingMore = false;
+        veMaybeAppendMoreLink(listEl, state);
+        return;
+    }
+    nextItems.forEach(c => listEl.insertAdjacentHTML('beforeend', veCommentItemHtml(c)));
+    state.shown += nextItems.length;
+
+    if (state.shown >= state.items.length) {
+        state.exhausted = true;
+        veMaybeAppendMoreLink(listEl, state);
+    }
+}
+
+function veMaybeAppendMoreLink(listEl, state) {
+    if (state.totalCount != null && state.totalCount > state.items.length) {
+        listEl.insertAdjacentHTML('beforeend',
+            `<div class="sh-comment-more-link"><a href="${veWatchUrl(state.vid)}" target="_blank" rel="noopener">
+                전체 댓글 ${state.totalCount.toLocaleString('ko-KR')}개는 유튜브에서 보기 →</a></div>`);
     }
 }
 
@@ -135,76 +118,56 @@ async function veLoadComments(opts) {
 
     const prev = veCommentState[listId];
     if (!opts.force && prev && prev.vid === vid && prev.order === order) return;
-    veCommentState[listId] = { vid, order, nextPageToken: null, loadingMore: false, exhausted: false };
 
     const setCount = (val) => { if (typeof onCount === 'function') onCount(val); };
     const openLink = `<a href="${veWatchUrl(vid)}" target="_blank" rel="noopener">유튜브에서 보기 →</a>`;
 
-    if (typeof YOUTUBE_API_KEY === 'undefined' || !YOUTUBE_API_KEY) {
-        listEl.innerHTML = `<div class="sh-comment-error">아직 댓글창 연동이 준비 중이에요.<br>${openLink}</div>`;
+    listEl.innerHTML = `<div class="sh-comment-loading">댓글 불러오는 중...</div>`;
+    setCount('');
+
+    const data = await veLoadData();
+    const entry = data[vid];
+
+    if (!entry) {
+        listEl.innerHTML = `<div class="sh-comment-error">아직 이 영상의 댓글을 준비 중이에요.<br>${openLink}</div>`;
         setCount('');
         return;
     }
 
-    listEl.innerHTML = `<div class="sh-comment-loading">댓글 불러오는 중...</div>`;
-    setCount('');
-    veGetCommentTotal(vid).then(total => {
-        const now = veCommentState[listId];
-        if (!now || now.vid !== vid) return;
-        if (total != null) setCount(total);
-    });
-
-    try {
-        const res = await fetch(veCommentUrl(vid, order));
-        const data = await res.json();
-
-        const now = veCommentState[listId];
-        if (!now || now.vid !== vid || now.order !== order) return;
-
-        if (!res.ok) {
-            const reason = data && data.error && data.error.errors && data.error.errors[0] && data.error.errors[0].reason;
-            let msg = '댓글을 불러오지 못했어요.';
-            if (reason === 'commentsDisabled') msg = '이 영상은 댓글 기능이 꺼져 있어요.';
-            else if (reason === 'quotaExceeded') msg = '오늘 댓글 조회 가능 횟수를 다 썼어요. 내일 다시 시도해주세요.';
-            listEl.innerHTML = `<div class="sh-comment-error">${veEscape(msg)}<br>${openLink}</div>`;
-            return;
-        }
-
-        const items = (data.items || []).map(it => it.snippet.topLevelComment.snippet);
-        now.nextPageToken = data.nextPageToken || null;
-        if (!now.nextPageToken) now.exhausted = true;
-
-        if (!items.length) {
-            listEl.innerHTML = `<div class="sh-comment-empty">아직 댓글이 없어요.</div>`;
-            setCount(0);
-            return;
-        }
-
-        listEl.innerHTML = items.map(veCommentItemHtml).join('');
-        listEl.scrollTop = 0;
-        veAttachCommentScroll(listEl, listId);
-    } catch (e) {
-        listEl.innerHTML = `<div class="sh-comment-error">댓글을 불러오는 중 오류가 났어요.<br>${openLink}</div>`;
+    if (entry.commentsDisabled) {
+        listEl.innerHTML = `<div class="sh-comment-error">이 영상은 댓글 기능이 꺼져 있어요.</div>`;
+        setCount(0);
+        return;
     }
+
+    const items = (entry.comments && entry.comments[order]) || [];
+    veCommentState[listId] = {
+        vid, order, items, shown: 0, exhausted: false,
+        totalCount: entry.commentCount
+    };
+    setCount(entry.commentCount != null ? entry.commentCount : '');
+
+    if (!items.length) {
+        listEl.innerHTML = `<div class="sh-comment-empty">아직 댓글이 없어요.</div>`;
+        return;
+    }
+
+    listEl.innerHTML = '';
+    veLoadMoreComments(listId);
+    listEl.scrollTop = 0;
+    veAttachCommentScroll(listEl, listId);
 }
-const veTopCommentCache = {};
+
 async function veFetchTopComments(vid, count = 5) {
-    if (vid in veTopCommentCache) return veTopCommentCache[vid];
-    if (typeof YOUTUBE_API_KEY === 'undefined' || !YOUTUBE_API_KEY) return [];
-    try {
-        const res = await fetch(veCommentUrl(vid, 'relevance'));
-        const data = await res.json();
-        if (!res.ok) { veTopCommentCache[vid] = []; return []; }
-        const items = (data.items || [])
-            .map(it => it.snippet.topLevelComment.snippet)
-            .slice(0, count)
-            .map(c => ({ author: c.authorDisplayName, text: c.textOriginal || c.textDisplay, like: c.likeCount || 0 }));
-        veTopCommentCache[vid] = items;
-        return items;
-    } catch (e) {
-        veTopCommentCache[vid] = [];
-        return [];
-    }
+    const data = await veLoadData();
+    const entry = data[vid];
+    if (!entry || entry.commentsDisabled) return [];
+    const items = (entry.comments && entry.comments.relevance) || [];
+    return items.slice(0, count).map(c => ({
+        author: c.authorDisplayName,
+        text: c.textOriginal || c.textDisplay,
+        like: c.likeCount || 0
+    }));
 }
 
 function veFormatDate(iso) {
@@ -308,7 +271,6 @@ function veShare(kind, vid, btnEl) {
 }
 
 const veLiveCache = {};
-const veLiveStatusCache = {};
 
 function veIsMobileViewport() {
     return !!(window.matchMedia && window.matchMedia('(max-width: 700px)').matches);
@@ -319,30 +281,11 @@ function veLiveChatUrl(vid) {
 }
 
 async function veGetLiveStatus(vid) {
-    if (vid in veLiveStatusCache) return veLiveStatusCache[vid];
-    if (typeof YOUTUBE_API_KEY === 'undefined' || !YOUTUBE_API_KEY) {
-        veLiveStatusCache[vid] = 'none';
-        return veLiveStatusCache[vid];
-    }
-    try {
-        const url = `https://www.googleapis.com/youtube/v3/videos`
-            + `?part=liveStreamingDetails&id=${encodeURIComponent(vid)}&key=${YOUTUBE_API_KEY}`;
-        const res = await fetch(url);
-        const data = await res.json();
-        const item = (data.items || [])[0];
-        const details = item && item.liveStreamingDetails;
-        if (!details) {
-            veLiveStatusCache[vid] = 'none';
-        } else if (details.activeLiveChatId) {
-            veLiveStatusCache[vid] = 'live';
-        } else {
-            veLiveStatusCache[vid] = 'ended';
-        }
-    } catch (e) {
-        veLiveStatusCache[vid] = 'none';
-    }
-    return veLiveStatusCache[vid];
+    const data = await veLoadData();
+    const entry = data[vid];
+    return entry ? entry.liveStatus : 'none';
 }
+
 async function veCheckLive(vid, fallbackIsLive) {
     if (vid in veLiveCache) return veLiveCache[vid];
     const status = await veGetLiveStatus(vid);
@@ -363,7 +306,7 @@ async function veRenderLiveChat(containerId, vid) {
     }
 
     const status = await veGetLiveStatus(vid);
-    if (!el.isConnected) return; 
+    if (!el.isConnected) return;
     if (status !== 'live') {
         el.innerHTML = `<div class="ve-livechat-none">방송이 끝난 영상은 채팅 다시보기를 이 화면에 직접 띄울 수 없어요.<br>유튜브에서는 채팅 다시보기를 볼 수 있어요.<br>${openLink}</div>`;
         return;
