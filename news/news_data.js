@@ -1,21 +1,13 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-08-29T16:29:09.379Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-08-29T20:42:26.749Z) */
 
 const NEWS_DATA = [
     {
-        "title": "리센느 원이 \"이 인기 딱 1년만 더 갔으면 좋겠다\" - 뉴시스",
-        "source": "뉴시스",
-        "date": "2026-08-29",
-        "url": "https://www.newsis.com/view/NISX20260829_0003767910",
-        "summary": "[서울=뉴시스] 손정빈 기자 = 그룹 리센느 원이가 현재 인기가 1년만 더 갔으면 좋겠다고 했다.원이는 28일 자신의 유튜브 채널에서 최근 폭발적인 인기에 관한 애기를 했다.이 영상은 원이가 톱스타가 됐다는 설정으로 진행됐다. 다만 원이는 현재 인기에 관한 자기 생각을 솔직하게 풀어냈다",
-        "image": "https://img1.newsis.com/2026/08/29/NISI20260829_0002224735_web.jpg"
-    },
-    {
-        "title": "대세는 리센느…8월 스타브랜드 평판 1위 - v.daum.net",
+        "title": "원이, 갑작스러운 리센느 열풍에 \"딱 1년만 더 갔으면\" - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-08-29",
-        "url": "https://v.daum.net/v/20260829090749322",
-        "summary": "그룹 리센느(원이, 리브, 미나미, 메이, 제나)가 8월 스타 브랜드평판 1위에 오르며 대세 인기를 재확인했다. 리센느는 29일 한국기업평판연구소가 공개한 2026년 8월 스타 브랜드평판에서 1위를 차지했다. 리센느에 이어 방탄소년단과 임영웅이 각각 2위와 3위에 올랐다. 연구소가 20",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/29/ilgansports/20260829090750993nhhw.jpg"
+        "url": "https://v.daum.net/v/20260829182859547",
+        "summary": "리센느 원이가 뜨거운 인기를 얻은 후의 솔직한 심정을 밝혔다. 28일 유튜브 채널 '안녕하세요원이입니다잘부탁드립니다'에는 '원이 근황'이라는 제목의 영상이 올라왔다. 이날 콘텐트는 원이가 톱스타가 된 10년 후를 가정한 컨셉트로 진행됐다. 리센느는 원이의 유튜브 채널을 통해 주목을 받기",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/29/JTBC/20260829182900321swuu.jpg"
     },
     {
         "title": "리센느, 방탄소년단·임영웅 뛰어 넘었다…8월 스타브랜드 평판 '1위' - 조선비즈 - Chosunbiz",
@@ -26,6 +18,14 @@ const NEWS_DATA = [
         "image": "https://biz.chosun.com/resizer/v2/GA4DINJWMFRGEMRWHAZGIYJQGI.jpg?auth=faba5d9dbbe57e1f9c1fdea5db4fac871b63cd1f3330201b1d23d27a53432b36&width=650&height=341&smart=true"
     },
     {
+        "title": "대세는 리센느…8월 스타브랜드 평판 1위 - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-08-29",
+        "url": "https://v.daum.net/v/20260829090749322",
+        "summary": "그룹 리센느(원이, 리브, 미나미, 메이, 제나)가 8월 스타 브랜드평판 1위에 오르며 대세 인기를 재확인했다. 리센느는 29일 한국기업평판연구소가 공개한 2026년 8월 스타 브랜드평판에서 1위를 차지했다. 리센느에 이어 방탄소년단과 임영웅이 각각 2위와 3위에 올랐다. 연구소가 20",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/29/ilgansports/20260829090750993nhhw.jpg"
+    },
+    {
         "title": "임영웅 소통지수만 341만…리센느·BTS와 나란히 ‘스타 TOP3’ - 스포츠서울",
         "source": "스포츠서울",
         "date": "2026-08-29",
@@ -34,20 +34,20 @@ const NEWS_DATA = [
         "image": "https://file.sportsseoul.com/news/cms/2026/08/29/news-p.v1.20260828.26a72faaa680443a9b94686e747dc8e2_T1.png"
     },
     {
-        "title": "리센느 다음 주자는 유스피어…한류특별상 수상 \"K-컬처 알릴 것\" - OSEN",
-        "source": "OSEN",
-        "date": "2026-08-29",
-        "url": "https://www.osen.co.kr/article/G1112865644",
-        "summary": "그룹 USPEER(유스피어)가 특별한 상을 받은 후 그 행보를 이어간다. USPEER(시안, 소이, 서유, 다온, 채나, 로아)는 지난 28일 진행된 ‘제8회...",
-        "image": "http://file.osen.co.kr/article_thumb/2026/08/29/202608291103776980_6a92406ead733_300x.jpg"
-    },
-    {
-        "title": "[셀럽포토]리센느 제나 '신라공주 떴다' - 네이트",
+        "title": "[ST포토] 리센느 메이-제나, '대세 중에 대세' - 네이트",
         "source": "네이트",
         "date": "2026-08-29",
-        "url": "https://news.nate.com/view/20260829n12054",
-        "summary": "�Ѵ��� ���� ���� : ������ ȭ�� - ���� : [�����̵�� ������ ����] �׷� ������ ������ 27�� ��� ����� Ų�ؽ����� ���� '2026 ���� ���� �帲 �����(2026 K WORLD DREAM AWARDS)'",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/ab/2026/08/29/1788010153_526631.jpg"
+        "url": "https://news.nate.com/view/20260829n06327",
+        "summary": "�Ѵ��� ���� ���� : ������ ȭ�� - ���� : [����(���)=������������ ������ ����] K���� ���� ���� ������ 2,000�� �� �ô�� K-��ȭ ���� ������ ����ϴ� ��2026 ���� ���� �帲 �",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/st/2026/08/29/29_1085831_55424.jpg"
+    },
+    {
+        "title": "\"나는 고윤정 언니를 사랑해♥\" 리센느 제나만 있는 줄 알았더니…`원조 바라기` 아린 있었네 - 마이데일리",
+        "source": "마이데일리",
+        "date": "2026-08-29",
+        "url": "https://mydaily.co.kr/page/view/2026082817370482608",
+        "summary": "아린이 고윤정에게 커피차를 보냈다. / 온라인 커뮤니티 및...",
+        "image": "https://mydaily.co.kr/photos/2026/08/28/2026082817344730639_l.jpg"
     },
     {
         "title": "리센느 원이 “이 인기 딱 1년만 더 갔으면 좋겠다” - 동아일보",
@@ -73,22 +73,6 @@ const NEWS_DATA = [
         "image": "https://img.tenasia.co.kr/photo/202608/BF.45490274.1.jpg"
     },
     {
-        "title": "[셀럽포토]리센느 제나 \\'신라공주 떴다\\' - 셀럽미디어",
-        "source": "셀럽미디어",
-        "date": "2026-08-29",
-        "url": "http://www.celuvmedia.com/article.php?aid=1788010153526631009",
-        "summary": "[�����̵�� ������ ����] �׷� ������ ������ 27�� ��� ����� Ų�ؽ����� ���� 2026 ���� ���� �帲 �����(2026 K WORLD DREAM AWARDS) ����ī�꿡 ������ ��� ���ϰ� �ִ�.�̳� �����",
-        "image": "http://www.celuvmedia.com/upimages/gisaimg/202608/1788010153_526631.jpg"
-    },
-    {
-        "title": "‘리센느’ 원이, 시그니엘 톱스타 변신→13시간 만에 450만뷰 “진짜 슈퍼스타 맞네” - 조선일보",
-        "source": "조선일보",
-        "date": "2026-08-29",
-        "url": "https://www.chosun.com/entertainments/enter_general/2026/08/29/GIZDCMJUG4ZDKNRQHBSDOYTCMI/",
-        "summary": "그룹 리센느 원이가 유튜브 영상 '원이 근황'을 통해 공개 13시간 만에 450만 조회수를 기록했습니다. 톱스타 콘셉트로 화려한 일상과 성공 이후의 고독을 페이크 다큐 형식으로 담아내어 국내 팬들의 뜨거운 호응을 얻었으며, 그의 강력한 대중적 영향력을 입증했습니다.",
-        "image": "https://www.chosun.com/resizer/v2/GFSWIYRRGAYGCZJUMUZTKZBSMM.jpg?auth=33d629a5afa65a54b35da2337138ae29720a8e8906107afbd68c606dc8f0c828&width=700&height=367&smart=true"
-    },
-    {
         "title": "리센느, 방탄소년단·임영웅 뛰어 넘었다…8월 스타브랜드 평판 '1위' - OSEN",
         "source": "OSEN",
         "date": "2026-08-29",
@@ -105,20 +89,28 @@ const NEWS_DATA = [
         "image": "https://www.anewsa.com/news_images/2026/08/22/mark/20260822105534.jpg"
     },
     {
-        "title": "거제 야호 역주행 더뮤즈엔터…리센느 몸값 2배 : 네이버 블로그 - Naver Blog",
-        "source": "Naver Blog",
+        "title": "‘리센느’ 원이, 시그니엘 톱스타 변신→13시간 만에 450만뷰 “진짜 슈퍼스타 맞네” - 조선일보",
+        "source": "조선일보",
         "date": "2026-08-29",
-        "url": "https://blog.naver.com/PostView.naver?blogId=dealsite&logNo=224393577212&redirect=Dlog",
-        "summary": "멤버 미나미·원이 경남 거제 콘텐츠 터지면서 280억밸류 IR 중단…이후 구주 거래서 500억 가치 거론 데...",
-        "image": "https://blogthumb.pstatic.net/MjAyNjA4MjhfMjk1/MDAxNzg3OTE4OTc1ODU2.jYJj92ePrIghoKYnVXy3OQA6kgEWF9NDDRgXUUHugQUg.XJ7g0IR_sYJrzNiSUyRXByjWwQbG3YnG8m_XoZENENcg.JPEG/thumb_%287%29.jpg?type=w2"
+        "url": "https://www.chosun.com/entertainments/enter_general/2026/08/29/GIZDCMJUG4ZDKNRQHBSDOYTCMI/",
+        "summary": "그룹 리센느 원이가 유튜브 영상 '원이 근황'을 통해 공개 13시간 만에 450만 조회수를 기록했습니다. 톱스타 콘셉트로 화려한 일상과 성공 이후의 고독을 페이크 다큐 형식으로 담아내어 국내 팬들의 뜨거운 호응을 얻었으며, 그의 강력한 대중적 영향력을 입증했습니다.",
+        "image": "https://www.chosun.com/resizer/v2/GFSWIYRRGAYGCZJUMUZTKZBSMM.jpg?auth=33d629a5afa65a54b35da2337138ae29720a8e8906107afbd68c606dc8f0c828&width=700&height=367&smart=true"
     },
     {
-        "title": "리센느 원이, 역주행 대박에도 불안…\"이 인기 1년만 더 갔으면\" [마데핫리뷰] - 마이데일리",
-        "source": "마이데일리",
+        "title": "리센느 원이 “PD님 아니었으면…이대로 1년만 더” 인기 뒤 불안 고백 - 스포츠경향",
+        "source": "스포츠경향",
         "date": "2026-08-29",
-        "url": "https://www.mydaily.co.kr/page/view/2026082916595988563",
-        "summary": "...",
-        "image": "https://mydaily.co.kr/photos/2026/08/29/2026082916575953155_l.jpg"
+        "url": "https://sports.khan.co.kr/article/202608291416003",
+        "summary": "그룹 리센느 원이가 데뷔 초 힘들었던 시절과 현재의 인기를 돌아봤다. 28일 원이의 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다(안원잘부)’에는 ‘원이 근황’이라는 제목의 영상이 공개됐다. 영상은 원이가 톱스...",
+        "image": "https://images.khan.co.kr/article/2026/08/29/news-p.v1.20260829.63ed420ffd684ea19abad48d215c0122_P1.png"
+    },
+    {
+        "title": "리센느 원이 \"성인 되고 난 후 데뷔...팀 없어질까봐 발벗고 달렸다\" [RE:뷰] - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-08-29",
+        "url": "https://v.daum.net/v/20260829154549525",
+        "summary": "[TV리포트 = 하수나 기자] 리센느 원이가 팀이 망하더라도 멤버들과 함께 다른 일을 했을 거라고 밝히며 돈독한 팀워크를 자랑했다. 28일 온라인 채널 ‘안녕하세요원이입니다잘부탁드립니다’에선 ‘원이 근황’이라는 제목의 영상이 업로드 됐다. 영상에선 세월이 흘러 슈퍼스타가 된 리센느 원이",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/29/tvreport/20260829154556462njkn.jpg"
     },
     {
         "title": "리센느 원이 “팀 없어질까 봐 열심히 달려…망하면 같이 카페 차리자고” - sports.donga.com",
@@ -129,12 +121,12 @@ const NEWS_DATA = [
         "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/08/29/134567813.1.png"
     },
     {
-        "title": "리센느 원이 \"성인 되고 난 후 데뷔...팀 없어질까봐 발벗고 달렸다\" [RE:뷰] - v.daum.net",
-        "source": "v.daum.net",
+        "title": "리센느 원이 “인기 딱 1년만 더 가도…” (‘안원잘부’) - 일간스포츠",
+        "source": "일간스포츠",
         "date": "2026-08-29",
-        "url": "https://v.daum.net/v/20260829154549525",
-        "summary": "[TV리포트 = 하수나 기자] 리센느 원이가 팀이 망하더라도 멤버들과 함께 다른 일을 했을 거라고 밝히며 돈독한 팀워크를 자랑했다. 28일 온라인 채널 ‘안녕하세요원이입니다잘부탁드립니다’에선 ‘원이 근황’이라는 제목의 영상이 업로드 됐다. 영상에선 세월이 흘러 슈퍼스타가 된 리센느 원이",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/29/tvreport/20260829154556462njkn.jpg"
+        "url": "https://isplus.com/article/view/isp202608290070",
+        "summary": "그룹 리센느 원이가 뜨거운 인기에 대한 솔직한 생각을 전했다. 원이는 28일 자신의 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’(이하...",
+        "image": "https://isplus.com/data/isp/image/2026/08/29/isp20260829000094.800x.0.png"
     },
     {
         "title": "하루만에 680만뷰 터졌다…리센느 원이, 시그니엘 99층 사는 톱스타의 삶(안원잘부) - 네이트",
@@ -153,12 +145,20 @@ const NEWS_DATA = [
         "image": "https://cdn.mediafine.co.kr/news/photo/202608/88323_126367_1910.jpg"
     },
     {
-        "title": "리센느 원이 “인기 딱 1년만 더 가도…” (‘안원잘부’) - 일간스포츠",
-        "source": "일간스포츠",
+        "title": "리센느 원이, 역주행 대박에도 불안…\"이 인기 1년만 더 갔으면\" [마데핫리뷰] - 마이데일리",
+        "source": "마이데일리",
         "date": "2026-08-29",
-        "url": "https://isplus.com/article/view/isp202608290070",
-        "summary": "그룹 리센느 원이가 뜨거운 인기에 대한 솔직한 생각을 전했다. 원이는 28일 자신의 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’(이하...",
-        "image": "https://isplus.com/data/isp/image/2026/08/29/isp20260829000094.800x.0.png"
+        "url": "https://mydaily.co.kr/page/view/2026082916595988563",
+        "summary": "...",
+        "image": "https://mydaily.co.kr/photos/2026/08/29/2026082916575953155_l.jpg"
+    },
+    {
+        "title": "거제 야호 역주행 더뮤즈엔터…리센느 몸값 2배 : 네이버 블로그 - Naver Blog",
+        "source": "Naver Blog",
+        "date": "2026-08-29",
+        "url": "https://blog.naver.com/PostView.naver?blogId=dealsite&logNo=224393577212&redirect=Dlog",
+        "summary": "멤버 미나미·원이 경남 거제 콘텐츠 터지면서 280억밸류 IR 중단…이후 구주 거래서 500억 가치 거론 데...",
+        "image": "https://blogthumb.pstatic.net/MjAyNjA4MjhfMjk1/MDAxNzg3OTE4OTc1ODU2.jYJj92ePrIghoKYnVXy3OQA6kgEWF9NDDRgXUUHugQUg.XJ7g0IR_sYJrzNiSUyRXByjWwQbG3YnG8m_XoZENENcg.JPEG/thumb_%287%29.jpg?type=w2"
     },
     {
         "title": "[셀럽포토]리센느 미나미 'KWDA 야호~' - 네이트",
@@ -169,6 +169,14 @@ const NEWS_DATA = [
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/ab/2026/08/29/1788010089_526630.jpg"
     },
     {
+        "title": "리센느 원이, 시그니엘 99층 생활에 미나미까지? 2036년 톱스타 세계관이 터졌다 - Naver Blog",
+        "source": "Naver Blog",
+        "date": "2026-08-29",
+        "url": "https://blog.naver.com/PostView.naver?blogId=yooju0913&logNo=224394662750&redirect=Dlog",
+        "summary": "리센느 원이, 시그니엘 99층 생활에 미나미까지? 2036년 톱스타 세계관이 터졌다 시그니엘 서울 99층에서 ...",
+        "image": "https://blogthumb.pstatic.net/MjAyNjA4MzBfMjIw/MDAxNzg4MDI4MTIxMDI2.lfxLCS77vq5MBbn7zfvOkbBP9UMsUfqG3hGnmESWcbIg.5KFsY0V-FowAE9q81JS0WFDjKLRen4yS5L_SsC3FOPkg.PNG/image.png?type=w2"
+    },
+    {
         "title": "원이, 갑작스러운 리센느 열풍에 \"딱 1년만 더 갔으면\" - 네이트",
         "source": "네이트",
         "date": "2026-08-29",
@@ -177,20 +185,20 @@ const NEWS_DATA = [
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/jt/2026/08/29/5a6f3913-0432-470c-bd18-aa989529ae7f.jpg"
     },
     {
-        "title": "리센느 원이, 유튜브 인기와 차트 역주행 속 심경…\"길게 가야 하는데\" (안원잘부) - 네이트",
-        "source": "네이트",
-        "date": "2026-08-29",
-        "url": "https://news.nate.com/view/20260829n09638",
-        "summary": "�Ѵ��� ���� ���� : ������ ȭ�� - ���� : [������������ ������ ����] �׷� ������ ���̰� ���� �α⿡ ���� ������ �ɰ��� ���ߴ�. 28�� ��Ʃ�� ä�� '�ȳ��ϼ�������Դϴ��ߺ�Ź�帳�ϴ�'���",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/st/2026/08/29/29_1085896_38596.jpg"
-    },
-    {
         "title": "리센느 원이 \"팀 없어질까 봐 달렸다…망해도 함께 하기로 해\" - 데일리안",
         "source": "데일리안",
         "date": "2026-08-29",
         "url": "https://www.dailian.co.kr/news/view/1684016/?sc=rss",
         "summary": "그룹 리센느 원이가 멤버들에 대한 애틋함을 드러냈다.29일 유튜브 채널 '안녕하세요원이입니다잘부탁드립니다'에는 '원이 근황'이라는 제목의 영상이 게재됐다.10년 뒤인 2036년 배경으로, 톱스타가 된 원이와 그의 비서로 일하는 리브의 하루를 담는 페이크 다큐멘터리다.현실과 코미디의 경계",
         "image": "https://cdnimage.dailian.co.kr/news/202608/news_1787981245_1684016_m_1.jpg"
+    },
+    {
+        "title": "리센느 원이, 유튜브 인기와 차트 역주행 속 심경…\"길게 가야 하는데\" (안원잘부) - 네이트",
+        "source": "네이트",
+        "date": "2026-08-29",
+        "url": "https://news.nate.com/view/20260829n09638",
+        "summary": "�Ѵ��� ���� ���� : ������ ȭ�� - ���� : [������������ ������ ����] �׷� ������ ���̰� ���� �α⿡ ���� ������ �ɰ��� ���ߴ�. 28�� ��Ʃ�� ä�� '�ȳ��ϼ�������Դϴ��ߺ�Ź�帳�ϴ�'���",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/st/2026/08/29/29_1085896_38596.jpg"
     },
     {
         "title": "리센느 원이 \"팀 없어질까봐 열심히 했다…인기 딱 1년만 더 갔으면\" 속내 고백 - 네이트",
@@ -217,6 +225,14 @@ const NEWS_DATA = [
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/is/2026/08/29/isp20260829000094.1280x.0.png"
     },
     {
+        "title": "리센느 다음 주자는 유스피어…한류특별상 수상 \"K-컬처 알릴 것\" - OSEN",
+        "source": "OSEN",
+        "date": "2026-08-29",
+        "url": "https://www.osen.co.kr/article/G1112865644",
+        "summary": "그룹 USPEER(유스피어)가 특별한 상을 받은 후 그 행보를 이어간다. USPEER(시안, 소이, 서유, 다온, 채나, 로아)는 지난 28일 진행된 ‘제8회...",
+        "image": "http://file.osen.co.kr/article_thumb/2026/08/29/202608291103776980_6a92406ead733_300x.jpg"
+    },
+    {
         "title": "[ST포토] 리센느, 데뷔 첫 수상에 긴장 - 네이트",
         "source": "네이트",
         "date": "2026-08-29",
@@ -233,20 +249,20 @@ const NEWS_DATA = [
         "image": "https://file.sportsseoul.com/news/cms/2026/08/29/news-p.v1.20260829.943e065cf58b43a78919433b2582feab_T1.jpg"
     },
     {
-        "title": "유스피어, 지난해 리센느 이어 한류특별상 영예…데뷔 후 첫 수상 - edaily.co.kr",
-        "source": "edaily.co.kr",
-        "date": "2026-08-29",
-        "url": "https://www.edaily.co.kr/News/Read?newsId=02043446645552240&mediaCodeNo=257",
-        "summary": "그룹 유스피어(USPEER)가 한류특별상을 수상하며 차세대 한류스타로서의 존재감을 입증했다. 유스피어(사진=MW엔터테인먼트)유스피어는 지난 28일 진행된 ‘제8회 뉴시스 한류엑스포(K-EXPO)’에서 ‘한류특별상’ 트로피를 품에 안았다. 특히 이번 수상은 유스피어가...",
-        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/08/PS26082900339.jpg"
-    },
-    {
         "title": "리센느 원이 \"성인 되고 난 후 데뷔…팀 없어질까봐 발벗고 달렸다\" [RE:뷰] - 네이트",
         "source": "네이트",
         "date": "2026-08-29",
         "url": "https://news.nate.com/view/20260829n07608",
         "summary": "�Ѵ��� ���� ���� : ������ ȭ�� - ���� : [TV����Ʈ = �ϼ��� ����] ������ ���̰� ���� ���ϴ��� ������ �Բ� �ٸ� ���� ���� �Ŷ�� ������ ������ ����ũ�� �ڶ��ߴ�. 28�� �¶��� ä�",
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/tr/2026/08/29/11207c4a-d26f-4b3b-863d-d3ab7acd4a32.jpg"
+    },
+    {
+        "title": "유스피어, 지난해 리센느 이어 한류특별상 영예…데뷔 후 첫 수상 - edaily.co.kr",
+        "source": "edaily.co.kr",
+        "date": "2026-08-29",
+        "url": "https://www.edaily.co.kr/News/Read?newsId=02043446645552240&mediaCodeNo=257",
+        "summary": "그룹 유스피어(USPEER)가 한류특별상을 수상하며 차세대 한류스타로서의 존재감을 입증했다. 유스피어(사진=MW엔터테인먼트)유스피어는 지난 28일 진행된 ‘제8회 뉴시스 한류엑스포(K-EXPO)’에서 ‘한류특별상’ 트로피를 품에 안았다. 특히 이번 수상은 유스피어가...",
+        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/08/PS26082900339.jpg"
     },
     {
         "title": "리센느, 방탄소년단·임영웅 제쳤다…8월 스타 브랜드평판 1위 - 네이트",
@@ -313,14 +329,6 @@ const NEWS_DATA = [
         "image": "https://photo.jtbc.co.kr/news/jam_photo/202608/28/923f73d1-d06d-4c7a-9f12-36b800c5914b.jpg"
     },
     {
-        "title": "독보적인 대세 행보 리센느 방탄소년단과 임영웅 제치고 스타 브랜드평판 정상 우뚝 - 지피코리아",
-        "source": "지피코리아",
-        "date": "2026-08-28",
-        "url": "https://www.gpkorea.com/news/articleView.html?idxno=146148",
-        "summary": "걸그룹 리센느가 방탄소년단과 임영웅을 제치고 스타 브랜드평판 1위를 차지했다.한국기업평판연구소는 지난달 29일부터 29일까지 측정한 스타 브랜드 빅데이터 2억 1365만여 개를 분석한 결과, 리센느가 브랜드평판지수 1018만 185로 정상을 차지했다고 밝혔다. 이는 지난달 대비 27.6",
-        "image": "https://cdn.gpkorea.com/news/photo/202608/146148_310504_4036.jpg"
-    },
-    {
         "title": "리센느 덕에 유통가도 '야호'…매출·화제성 '쑥쑥'→러브콜 쇄도 - 머니투데이 - 머니투데이",
         "source": "머니투데이",
         "date": "2026-08-28",
@@ -353,12 +361,12 @@ const NEWS_DATA = [
         "image": "https://image.ajunews.com/content/image/2026/08/28/20260828184116697503.jpg"
     },
     {
-        "title": "\"팬덤 효과\" 리센느, 8월 ★ 브랜드평판 1위 - 네이트",
-        "source": "네이트",
+        "title": "독보적인 대세 행보 리센느 방탄소년단과 임영웅 제치고 스타 브랜드평판 정상 우뚝 - 지피코리아",
+        "source": "지피코리아",
         "date": "2026-08-28",
-        "url": "https://m.news.nate.com/view/20260829n03319?mid=e02&list=recent&cpcd=",
-        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : [Ƽ���̵��ϸ� �̱��� ����] 8�� ��Ÿ �귣������ ������ �м� ���, ȭ���� �������� 1���� �����ߴ�. ��ź�ҳ�ܰ� �ӿ����� �ڸ� �ѾҴ�. 29�� �ѱ����",
-        "image": "https://news.nateimg.co.kr/orgImg/tv/2026/08/29/1787961197_1799733.jpg"
+        "url": "https://www.gpkorea.com/news/articleView.html?idxno=146148",
+        "summary": "걸그룹 리센느가 방탄소년단과 임영웅을 제치고 스타 브랜드평판 1위를 차지했다.한국기업평판연구소는 지난달 29일부터 29일까지 측정한 스타 브랜드 빅데이터 2억 1365만여 개를 분석한 결과, 리센느가 브랜드평판지수 1018만 185로 정상을 차지했다고 밝혔다. 이는 지난달 대비 27.6",
+        "image": "https://cdn.gpkorea.com/news/photo/202608/146148_310504_4036.jpg"
     },
     {
         "title": "‘열혈농구단’ 리센느, ‘라이징이글스’ 위해 지원사격 출격 - bntnews.co.kr",
@@ -385,12 +393,12 @@ const NEWS_DATA = [
         "image": "https://image.ajunews.com/content/image/2026/08/28/20260828183545641570.jpg"
     },
     {
-        "title": "\"세상 단 하나 최애 굿즈\"…크레페 커미션으로 '리센느 키링'[잇:써봐] - 네이트",
+        "title": "\"팬덤 효과\" 리센느, 8월 ★ 브랜드평판 1위 - 네이트",
         "source": "네이트",
         "date": "2026-08-28",
-        "url": "https://news.nate.com/view/20260829n02989",
-        "summary": "�Ѵ��� ���� ���� : IT/���� - ���� : [�̵��ϸ� �̼��� ����] �����ϴ� ��Ƽ��Ʈ�� �ܼ�Ʈ�� Ư���� ���带 ������ ����� ������ ������ �� �ִٸ� ���. �ֱ� ������ó ���� �߽����� �⼺ǰ�",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/ed/2026/08/29/PS26082900272.jpg"
+        "url": "https://m.news.nate.com/view/20260829n03319?mid=e02&list=recent&cpcd=",
+        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : [Ƽ���̵��ϸ� �̱��� ����] 8�� ��Ÿ �귣������ ������ �м� ���, ȭ���� �������� 1���� �����ߴ�. ��ź�ҳ�ܰ� �ӿ����� �ڸ� �ѾҴ�. 29�� �ѱ����",
+        "image": "https://news.nateimg.co.kr/orgImg/tv/2026/08/29/1787961197_1799733.jpg"
     },
     {
         "title": "리센느, 카카오톡과 협업…춘식이 케이크 앞 미소 - NANOOM ENERGY",
@@ -417,21 +425,6 @@ const NEWS_DATA = [
         "image": "https://img.hankyung.com/photo/202608/01.45463066.1.jpg"
     },
     {
-        "title": "리센느, 빛나는 손 인사 - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-08-27",
-        "url": "https://www.news1.kr/photos/8076142",
-        "summary": ""
-    },
-    {
-        "title": "리센느, 확신의 대세…시상식 2관왕 \"리마인 덕분\" - 조선비즈 - Chosunbiz",
-        "source": "Chosunbiz",
-        "date": "2026-08-27",
-        "url": "https://biz.chosun.com/entertainment/enter_general/2026/08/28/MQZDMYLBGVRDIMZUMZQTKZJXGE/",
-        "summary": "리센느, 확신의 대세시상식 2관왕 리마인 덕분",
-        "image": "https://biz.chosun.com/resizer/v2/GQZTKZBXHEZTKYJYMQ2TEYJUMQ.jpg?auth=f4a9ee7e75cae5a81454d004cfd2aefc3ecef3420dc54249c835176ac61cd5af&width=650&height=341&smart=true"
-    },
-    {
         "title": "'거제 야호' 외치자 매출도 껑충…유통가 휩쓴 리센느 - 뉴시스",
         "source": "뉴시스",
         "date": "2026-08-27",
@@ -456,20 +449,20 @@ const NEWS_DATA = [
         "image": "https://image.newdaily.co.kr/site/data/img/2026/08/27/2026082700348_0.jpg"
     },
     {
-        "title": "[대전소식] \"미식부터 리센느까지\"…10월 대전 '동구동락 축제' - 연합뉴스",
-        "source": "연합뉴스",
-        "date": "2026-08-27",
-        "url": "https://www.yna.co.kr/view/AKR20260827112700063",
-        "summary": "(대전=연합뉴스) 대전 동구는 27일 '2026 대전 동구동락 축제' 중간보고회를 열어 주요 프로그램 운영 계획을 포함한 행사 추진 상황을 점검...",
-        "image": "https://img1.yna.co.kr/photo/yna/YH/2025/10/25/PYH2025102503530006300_P4.jpg"
-    },
-    {
         "title": "'리센느' 덕 봤다…동아오츠카, 나랑드사이다 매출 '쑥' - 비즈워치",
         "source": "비즈워치",
         "date": "2026-08-27",
         "url": "https://news.bizwatch.co.kr/article/consumer/2026/08/27/0004",
         "summary": "동아오츠카의 나랑드사이다가 소비자에게 호응을 얻고 있다. 지난 7월 브랜드 모델로 발탁한 걸그룹 리센느의 효과가 컸다는 분석이다. 동아오츠카는 리센느를 앞세운 다양한 마케팅 활동을 통해 이 같은 관심을 이어가겠...",
         "image": "https://cdn.bizwatch.co.kr/news/photo/2026/08/27/f2cb23364a2f1b37a8eb9f5fb3d740c2.jpg"
+    },
+    {
+        "title": "[대전소식] \"미식부터 리센느까지\"…10월 대전 '동구동락 축제' - 연합뉴스",
+        "source": "연합뉴스",
+        "date": "2026-08-27",
+        "url": "https://www.yna.co.kr/view/AKR20260827112700063",
+        "summary": "(대전=연합뉴스) 대전 동구는 27일 '2026 대전 동구동락 축제' 중간보고회를 열어 주요 프로그램 운영 계획을 포함한 행사 추진 상황을 점검...",
+        "image": "https://img1.yna.co.kr/photo/yna/YH/2025/10/25/PYH2025102503530006300_P4.jpg"
     },
     {
         "title": "동아오츠카, 나랑드사이다 리센느 발탁 이후 매출 48% 증가 - intn.co.kr",
@@ -504,13 +497,6 @@ const NEWS_DATA = [
         "image": "https://image.dnews.co.kr/photo/photo/2026/08/27/202608270915335510503-2-686649.jpg"
     },
     {
-        "title": "도미노피자, 걸그룹 '리센느' 브로마이드 증정 프로모션 - 전자신문",
-        "source": "전자신문",
-        "date": "2026-08-27",
-        "url": "https://www.etnews.com/20260827000118",
-        "summary": ""
-    },
-    {
         "title": "[포토] 리센느 '대세 아이돌 등장' - 뉴데일리",
         "source": "뉴데일리",
         "date": "2026-08-27",
@@ -519,12 +505,11 @@ const NEWS_DATA = [
         "image": "https://image.newdaily.co.kr/site/data/img/2026/08/27/2026082700347_0.jpg"
     },
     {
-        "title": "동아오츠카, ‘리센느’ 모델 발탁 후 나랑드사이다 매출 전년比 48%↑ - 인더스트리뉴스",
-        "source": "인더스트리뉴스",
+        "title": "도미노피자, 걸그룹 '리센느' 브로마이드 증정 프로모션 - 전자신문",
+        "source": "전자신문",
         "date": "2026-08-27",
-        "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=85102",
-        "summary": "[인더스트리뉴스 한원석 기자] 동아오츠카는 음료 브랜드 ‘나랑드사이다’의 모델로 걸그룹 리센느(RESCENE)를 발탁한 이후 한 달간 매출이 전년 동기 대비 48",
-        "image": "https://cdn.industrynews.co.kr/news/photo/202608/85102_105298_4138.jpg"
+        "url": "https://www.etnews.com/20260827000118",
+        "summary": ""
     },
     {
         "title": "[마케팅 신의한수 ①] 동아오츠카 나랑드, 리센느 발탁 후 매출 48% 증가 - 이코노미톡뉴스",
@@ -535,12 +520,11 @@ const NEWS_DATA = [
         "image": "https://cdn.economytalk.kr/news/photo/202608/423791_231186_5139.png"
     },
     {
-        "title": "리센느 효과…동아오츠카, 나랑드사이다 매출 48% '껑충' - v.daum.net",
-        "source": "v.daum.net",
+        "title": "리센느, 빛나는 손 인사 - 뉴스1",
+        "source": "뉴스1",
         "date": "2026-08-27",
-        "url": "https://v.daum.net/v/20260827094652476",
-        "summary": "리센느 모델 발탁 후 한 달간 전년 동기 대비 매출 한정판 패키지·포토카드 이벤트 등 예고 [더팩트ㅣ유연석 기자] 동아오츠카가 나랑드사이다 광고 모델로 걸그룹 '리센느(RESCENE)'를 발탁한 이후 한 달간 매출이 전년 동기 대비 48% 증가했다고 27일 밝혔다. 이번 매출은 리센느를",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/27/THEFACT/20260827094653987gfhy.jpg"
+        "url": "https://www.news1.kr/photos/8076142",
+        "summary": ""
     },
     {
         "title": "리센느 원이, 최고 대세 - 뉴스1",
@@ -558,19 +542,19 @@ const NEWS_DATA = [
         "image": "https://img1.newsis.com/2026/08/27/NISI20260827_0002222612_web.jpg"
     },
     {
+        "title": "리센느 미나미, 예쁨 콕 - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-08-27",
+        "url": "https://www.news1.kr/photos/8075888",
+        "summary": ""
+    },
+    {
         "title": "\"리센느 효과에 야호\" 나랑드사이다, 모델 발탁 후 매출 48% '껑충' - 뉴시스",
         "source": "뉴시스",
         "date": "2026-08-27",
         "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260827_0003764589",
         "summary": "[서울=뉴시스]김상윤 기자 = 동아오츠카가 나랑드사이다 모델로 걸그룹 리센느(RESCENE)를 발탁한 이후 한 달간 매출이 전년 동기 대비 48% 증가했다고 27일 밝혔다",
         "image": "https://img1.newsis.com/2026/08/27/NISI20260827_0002222592_web.jpg"
-    },
-    {
-        "title": "리센느 미나미, 예쁨 콕 - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-08-27",
-        "url": "https://www.news1.kr/photos/8075888",
-        "summary": ""
     },
     {
         "title": "MHN스포츠 '스타블링Shot'|[포토] 리센느 제나 '신라 공주 미모' - ZUM 뉴스",
@@ -625,12 +609,12 @@ const NEWS_DATA = [
         "image": "https://image.newdaily.co.kr/site/data/img/2026/08/27/2026082700032_0.jpg"
     },
     {
-        "title": "“리센느 효과 톡톡”…동아오츠카 나랑드사이다, 모델 발탁 후 매출 48%↑ - 동아일보",
-        "source": "동아일보",
+        "title": "리센느, 아이돌차트 아차랭킹 1위…“거제 야호” 인연까지 - 톱스타뉴스",
+        "source": "톱스타뉴스",
         "date": "2026-08-27",
-        "url": "https://www.donga.com/news/Economy/article/all/20260827/134554053/1",
-        "summary": "동아오츠카의 ‘나랑드사이다’가 걸그룹 리센느를 모델로 발탁한 효과를 톡톡히 보고 있다.동아오츠카는 리센느를 새 브랜드 모델로 기용한 이후 한 달간 나랑드사이다의 매출이 전년 동기 대비 48% 증가했다고 27일 밝혔다. 지난달 21일부터 이달 21일까지 한 달 동안 주…",
-        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/27/134554015.1.jpg"
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16175059",
+        "summary": "리센느가 아이돌차트 8월 3주차 아차랭킹에서 음원 1160점, 유튜브 1만32점, 소셜 8330점 등 총점 1만9522점으로 1위를 차지했고, 멤버 원이의 고향 거제 집중호우 피해 복구와 이재민 지원을 위해 5000만원을 기부한 사실이 함께 알려졌다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202608/16175059_2005570_2845_crop.jpg"
     },
     {
         "title": "리센느 미나미, 러블리한 ‘오죠사마’ [포토엔HD] - 뉴스엔",
@@ -641,12 +625,12 @@ const NEWS_DATA = [
         "image": "https://photo.newsen.com/news_photo/2026/08/28/202608280255195510_1.jpg"
     },
     {
-        "title": "뷔가 마신 진로 5억뷰·리센느가 노래한 나랑드 매출 48%↑…식음료업계, K팝 팬덤 마케팅 활발 - 푸드투데이",
-        "source": "푸드투데이",
+        "title": "[포토] 리센느 원이X미나미, 필승 조합! - 조이뉴스24",
+        "source": "조이뉴스24",
         "date": "2026-08-27",
-        "url": "https://www.foodtoday.or.kr/news/article.html?no=207534",
-        "summary": "[푸드투데이 = 조성윤기자] 식품업계가 K팝 스타를 앞세운 팬덤 마케팅에 힘을 싣고 있다. 글로벌 팬덤을 보유한 아이돌을 브랜드 앰모델로 기용하는 데 그치지 않고, SNS 콘텐츠 확산과 오프라인 브랜드 경험으로 연결하며 마케팅 효과를 극대화하는 모습이다. 27일 업계에 따르면 하이트진로",
-        "image": "https://www.foodtoday.or.kr/data/photos/20260835/art_17878199746341_5195e2.jpg"
+        "url": "https://www.joynews24.com/view/1999223",
+        "summary": "그룹 리센느(RESCENE) 원이-미나미가 27일 경기 고양시 킨텍스에서 열린 2026 케이 월드 드림 어워즈(K WORLD DREAM AWARDS)' 블루카펫에 참석하고 있다.",
+        "image": "https://image.inews24.com/v1/d69a8094f8bcb2.jpg"
     },
     {
         "title": "리센느 메이, 예쁨 톡톡 - 뉴스1",
@@ -685,7 +669,7 @@ const NEWS_DATA = [
         "date": "2026-08-26",
         "url": "https://www.viva100.com/article/20260827500209",
         "summary": "도미노피자가 신메뉴와 협업 상품에 이어 인기 아이돌 굿즈를 활용한 프로모션까지 선보이며 젊은 소비층 공략에 나섰다. 패션 플랫폼 무신사와의 협업으로 차별화된 메뉴를 출시한 데 이어 자사 모델인 걸그룹 ‘리센느(RESCENE)’를 활용한 마케팅으로 고객 접점을 확대하고",
-        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/08/27/.cache/512/20260827500195.jpg?v=20260830012902"
+        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/08/27/.cache/512/20260827500195.jpg?v=20260830054214"
     },
     {
         "title": "[영상] 대세 개그맨 '영우 삼촌', 리센느 원이 운전연수 다시 한다면? - OhmyNews",
@@ -737,7 +721,7 @@ const NEWS_DATA = [
     {
         "title": "6000분의 1 ‘역주행 대박’ 리센느 뜨기 전부터 찍었다…‘잭팟’ 눈앞에 둔 VC들 - 헤럴드경제",
         "source": "헤럴드경제",
-        "date": "2026-08-22",
+        "date": "2026-08-21",
         "url": "https://biz.heraldcorp.com/article/10847827",
         "summary": "[헤럴드경제=홍석희·김서현 기자] 걸그룹 리센느가 이름을 알리기 전부터 소속사 더뮤즈엔터테인먼트에 베팅한 벤처캐피탈(VC)들이 투자 결실을 눈앞에 두고 있다. 올해",
         "image": "https://wimg.heraldcorp.com/news/cms/2026/08/21/rcv.YNA.20260716.PYH2026071609880001300_T1.jpg"
@@ -789,5 +773,20 @@ const NEWS_DATA = [
         "url": "https://www.hani.co.kr/arti/culture/music/1273611.html",
         "summary": "‘역주행 돌풍’ 걸그룹 리센느(RESCENE)와 팬들이 집중호우로 피해를 본 경남 지역 주민들을 돕기 위한 기부에 나섰다. 19일 가요계와 거제시에 따르면 리센느 소속사 더뮤즈엔터테인먼트는 거제시를 찾아 집중호우 피해 복구와 이재민 지원을 위한 성",
         "image": "https://flexible.img.hani.co.kr/flexible/normal/970/776/imgdb/original/2026/0819/20260819502882.webp"
+    },
+    {
+        "title": "할리스, 브랜드 첫 모델로 걸그룹 '리센느' 발탁 - 뉴시스",
+        "source": "뉴시스",
+        "date": "2026-08-18",
+        "url": "https://www.newsis.com/view/NISX20260818_0003751971",
+        "summary": "[서울=뉴시스] 이혜원 기자 = 커피 브랜드 할리스는 1998년 창사 이래 첫 브랜드 광고 모델로 걸그룹 '리센느(RESCENE)'를 발탁했다고 18일 밝혔다. 할리스의 첫 모델로 선정된 걸그룹 리센느는 친근한 이미지와 긍정적인 에너지로 최근 음원 역주행, 차트 1위를 석권하며 대세로 ",
+        "image": "https://img1.newsis.com/2026/08/18/NISI20260818_0002214400_web.jpg"
+    },
+    {
+        "title": "할리스, 창립 28년 만에 첫 광고모델…걸그룹 '리센느' 발탁 - 전자신문",
+        "source": "전자신문",
+        "date": "2026-08-18",
+        "url": "https://www.etnews.com/20260818000116",
+        "summary": ""
     }
 ];
