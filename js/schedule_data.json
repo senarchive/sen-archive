@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T22:18:11.067Z",
+  "updated": "2026-09-01T03:09:02.467Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3416,6 +3416,30 @@
       "detail": "",
       "type": "concert",
       "source": "mnetplus"
+    },
+    {
+      "date": "2026-10-03",
+      "time": "",
+      "title": "2026 입크페스티벌",
+      "detail": "",
+      "type": "concert",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-10-11",
+      "time": "",
+      "title": "2026 GHOST (경기 한류 OST 뮤직페스티벌)",
+      "detail": "",
+      "type": "concert",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "",
+      "title": "NOL FESTIVAL - 고양",
+      "detail": "",
+      "type": "concert",
+      "source": "mnetplus"
     }
   ],
   "mnetBackfill": {
@@ -3451,6 +3475,7 @@
     "2026-06": true,
     "2026-07": true,
     "2026-08": true,
-    "2026-09": true
+    "2026-09": true,
+    "2026-10": true
   }
 }
