@@ -1,4 +1,4 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-09-02T16:16:43.241Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-09-02T20:48:09.405Z) */
 
 const NEWS_DATA = [
     {
@@ -10,28 +10,28 @@ const NEWS_DATA = [
         "image": "https://image.zdnet.co.kr/2026/09/02/8b381cbdf552d32969a4ea385651fcef.jpg"
     },
     {
-        "title": "‘2026 더 팩트 뮤직 어워드’ 임영웅부터 리센느까지…‘영크크’·‘올크크’ 다 잡았다 - 스포츠경향",
-        "source": "스포츠경향",
-        "date": "2026-09-02",
-        "url": "https://sports.khan.co.kr/article/202609020954003",
-        "summary": "팬과 아티스트가 함께 즐기는 K-POP 축제 ‘2026 더팩트 뮤직 어워즈’가 탄탄한 라인업으로 기대를 자아내고 있다. 오는 9월 19일 부산아시아드주경기장에서 개최되는 ‘2026 더팩트 뮤직 어워즈(2026 ...",
-        "image": "https://images.khan.co.kr/article/2026/09/02/news-p.v1.20260902.4451c4abc0ce4f5a8d65d3db4378bba1_P1.png"
-    },
-    {
-        "title": "여기어때 콘서트팩, 거제 여행에 리센느 덕질까지 - weekly.hankooki.com",
-        "source": "weekly.hankooki.com",
+        "title": "여기어때 콘서트팩, 거제 여행에 리센느 덕질까지 - 주간한국",
+        "source": "주간한국",
         "date": "2026-09-02",
         "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7182062",
         "summary": "[주간한국 송정인 기자] 여기어때는 열 번째 ‘여기어때 콘서트팩’ 여행지로 거제를 선정하고 응모 접수를 시작한다고 2일 밝혔다.여기어때 콘서트팩은 여행과 콘서트를 결합한 여기어때의 콘텐츠로, 여행지에서 아티스트의 공연을 즐길 수 있는 패키지다.이번 콘서트팩은 최근 집중호우로 침수 피해를",
         "image": "https://cdn.weekly.hankooki.com/news/thumbnail/202609/7182062_245470_3621_v150.jpg"
     },
     {
-        "title": "\"촬영 못하겠다\" 리센느 미나미, 부모님도 울었다…최애 영접 울컥 ('냉터뷰') - 조선비즈 - Chosunbiz",
-        "source": "Chosunbiz",
+        "title": "\"촬영 못하겠다\" 리센느 미나미, 부모님도 울었다…최애 영접 울컥 ('냉터뷰') - 조선비즈 - biz.chosun.com",
+        "source": "biz.chosun.com",
         "date": "2026-09-02",
         "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/02/MI2TAMDDGM2TGNBVGUYWMZLEGA/",
         "summary": "촬영 못하겠다 리센느 미나미, 부모님도 울었다최애 영접 울컥 냉터뷰",
         "image": "https://biz.chosun.com/resizer/v2/HE4DINZXMY4DEZDBMM2TSZBTGU.jpg?auth=59ebf0a225745375a3402aafc7cb586c1e851f0cad96ae864a10b5182fcdbac8&width=574&height=300&smart=true"
+    },
+    {
+        "title": "'2026 제천영화제' 리센느·몬엑 뜬다...출연진 라인업 '화려' - gukjenews.com",
+        "source": "gukjenews.com",
+        "date": "2026-09-02",
+        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3682945",
+        "summary": "방송인 송은이와 배우 한예리가 제천국제음악영화제 폐막식 사회자로 나선다.제22회 제천국제음악영화제(JIMFF·집행위원장 장항준)에 따르면 두 사람은 8일 제천예술의전당 대공연장에서 열리는 폐막식 진행을 맡아 처음으로 진행 호흡을 맞춘다.장항준 감독이 집행위원장으로 진두지휘하는 22회 제",
+        "image": "https://cdn.gukjenews.com/news/thumbnail/202609/3682945_3852375_1610_v150.jpg"
     },
     {
         "title": "'야호의 기적' 리센느, 흥 넘치는 인생 첫 시상식 나들이 \"리마인 들어온나\" ['2026 KWDA' 대기실 인터뷰] - news.nate.com",
@@ -42,19 +42,43 @@ const NEWS_DATA = [
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/st/2026/09/02/1788247521_20260830184216-9206.jpg"
     },
     {
-        "title": "카카오, 리센느와 카카오톡 AI 알린다…통화 요약·일정 정리 - yna.co.kr",
-        "source": "yna.co.kr",
+        "title": "리센느 원이, 4일 만에 천만 뷰 터졌다… 역주행 제대로 - bntnews.co.kr",
+        "source": "bntnews.co.kr",
+        "date": "2026-09-02",
+        "url": "https://www.bntnews.co.kr/article/view/bnt202609020183",
+        "summary": "그룹 리센느의 상승세가 유튜브에서도 이어지고 있다. 40분에 가까운 롱폼 콘텐츠가 공개 나흘 만에 1000만 조회수를 넘어서며 뜨거운 인기를 입증했다.",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/02/bnt202609020346.png"
+    },
+    {
+        "title": "카카오, ‘리센느’와 일상 속 AI 경험 알린다 - 카카오",
+        "source": "카카오",
+        "date": "2026-09-02",
+        "url": "https://www.kakaocorp.com/page/detail/12126",
+        "summary": "#카카오 #카카오톡 #리센느 #RESCENE #대화를하자",
+        "image": "https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/news/5fae0e7501a000001.jpg?type=thumb&opt=C800x400"
+    },
+    {
+        "title": "카카오, ‘리센느’와 일상 속 AI 경험 알린다 - aitimes.com",
+        "source": "aitimes.com",
+        "date": "2026-09-02",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=214762",
+        "summary": "카카오(대표 정신아)는 아이돌 그룹 리센느(RESCENE)와 캠페인을 진행, 일상 속 AI 활용 경험을 알려 나간다고 2일 밝혔다. 이번 캠페인은 카카오톡의 AI",
+        "image": "https://cdn.aitimes.com/news/photo/202609/214762_218483_412.jpeg"
+    },
+    {
+        "title": "카카오, 리센느와 카카오톡 AI 알린다…통화 요약·일정 정리 - 연합뉴스",
+        "source": "연합뉴스",
         "date": "2026-09-02",
         "url": "https://www.yna.co.kr/amp/view/AKR20260902073900017",
         "summary": "(서울=연합뉴스) 한상용 기자 = 카카오[035720]는 아이돌 그룹 리센느를 모델로 카카오톡의 인공지능(AI) 기능을 알리는 '대화를 하자' ...",
         "image": "https://img1.yna.co.kr/etc/inner/KR/2026/09/02/AKR20260902073900017_01_i_P4.jpg"
     },
     {
-        "title": "`대세` 리센느 손 잡은 카카오…\"일상 속 AI 경험 알린다\" - 디지털데일리",
-        "source": "디지털데일리",
+        "title": "\"리센느가 알려주는 카카오톡 AI\"…카카오, 이용자 대상 캠페인 시작 - 아시아경제",
+        "source": "아시아경제",
         "date": "2026-09-02",
-        "url": "https://www.ddaily.co.kr/page/view/2026090215541114773",
-        "summary": "[사진=카카오][디지털데일리 채성오기자] 카카오가 아이돌 그룹 '리센느'와 인공지능(AI)을 활용한 일상 속 새로운 대화 경험을 알리기 위해 캠페인을 시작한다고 2일 밝혔다.이번..."
+        "url": "https://www.asiae.co.kr/article/2026090213473595395",
+        "summary": ""
     },
     {
         "title": "\"카톡 AI 이렇게 씁니다\"…카카오, 리센느와 캠페인 진행 - 뉴스핌",
@@ -65,20 +89,19 @@ const NEWS_DATA = [
         "image": "https://img.newspim.com/news/2026/09/02/2609021106271940_t1.jpg"
     },
     {
+        "title": "카카오, 리센느 통해 카카오톡 AI 기능 알린다 - IT조선",
+        "source": "IT조선",
+        "date": "2026-09-02",
+        "url": "https://it.chosun.com/news/articleViewAmp.html?idxno=2023092169314",
+        "summary": ""
+    },
+    {
         "title": "카카오, 리센느와 카카오톡 AI 기능 알린다 - 전자신문",
         "source": "전자신문",
         "date": "2026-09-02",
         "url": "http://www.etnews.com/20260902000347",
         "summary": "카카오가 아이돌 그룹 리센느와 함께 카카오톡 등 일상 속 인공지능(AI) 서비스에 대해 소개한다. 이용자 의견을 반영한 유저퍼스트 활동의 일환으로, 이달 한 달간 다양한 에피소드가 공개된다. 카카오는 리센느와 AI을 활용한 카카오톡의 새로운 대화 경험을 알리는 이용자 대상 캠페인을 시작",
         "image": "https://img.etnews.com/news/article/2026/09/02/news-p.v1.20260902.31bdc426a9e24346ac1116673bb89237_P1.jpg"
-    },
-    {
-        "title": "\"사나 실물? 심장마비 올 수도\"…'사나의 냉터뷰' 리센느 미나미 편, 오늘(3일) 공개 - topstarnews.net",
-        "source": "topstarnews.net",
-        "date": "2026-09-02",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16181274",
-        "summary": "리센느(RESCENE) 미나미가 트와이스(TWICE) 사나와 만났다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202609/16181274_2013027_213_crop.jpg"
     },
     {
         "title": "카카오, 리센느와 AI 기능 알린다…통화 요약·일정 정리 - 매일일보",
@@ -89,20 +112,12 @@ const NEWS_DATA = [
         "image": "https://cdn.m-i.kr/news/thumbnail/202609/1409281_1197490_2022_v150.jpg"
     },
     {
-        "title": "리센느 원이, 4일 만에 천만 뷰 터졌다… 역주행 제대로 - bntnews.co.kr",
-        "source": "bntnews.co.kr",
+        "title": "카카오, 아이돌 리센느와 ‘일상 속 AI 대화’ 캠페인 - 서울경제TV",
+        "source": "서울경제TV",
         "date": "2026-09-02",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202609020183",
-        "summary": "그룹 리센느의 상승세가 유튜브에서도 이어지고 있다. 40분에 가까운 롱폼 콘텐츠가 공개 나흘 만에 1000만 조회수를 넘어서며 뜨거운 인기를 입증했다.",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/02/bnt202609020346.png"
-    },
-    {
-        "title": "카카오, 리센느와 AI 캠페인…카카오톡 활용 경험 알린다 - 테크월드",
-        "source": "테크월드",
-        "date": "2026-09-02",
-        "url": "https://www.epnc.co.kr/news/articleView.html?idxno=406405",
-        "summary": "[테크월드=김승기 기자] 카카오가 카카오톡과 인공지능(AI) 서비스를 활용한 일상 속 대화 경험을 알리기 위한 이용자 캠페인을 시작한다.카카오는 아이돌 그룹 리센",
-        "image": "https://cdn.epnc.co.kr/news/photo/202609/406405_406881_5941.jpg"
+        "url": "https://www.sentv.co.kr/article/view/sentv202609020063",
+        "summary": "카카오는 아이돌 그룹 ‘리센느(RESCENE)’와 인공지능(AI)을 활용한 대화 경험을 알리기 위해 이용자 대상 캠페인 ‘대화를 하자’를 시작한",
+        "image": "https://www.sentv.co.kr/data/sentv/image/2026/09/02/sentv20260902000059.jpg"
     },
     {
         "title": "카카오, 리센느와 ‘AI 대화 경험’ 캠페인 … 카카오톡 이용자 소통 강화 - 워크투데이",
@@ -113,8 +128,8 @@ const NEWS_DATA = [
         "image": "http://www.worktoday.co.kr/news/thumbnail/202609/88760_127872_3450_v150.jpg"
     },
     {
-        "title": "거제서 리센느 공연 보고 2박 여행…여기어때, '콘서트팩' 출시 - yna.co.kr",
-        "source": "yna.co.kr",
+        "title": "거제서 리센느 공연 보고 2박 여행…여기어때, '콘서트팩' 출시 - 연합뉴스",
+        "source": "연합뉴스",
         "date": "2026-09-02",
         "url": "https://www.yna.co.kr/amp/view/AKR20260902064100030",
         "summary": "(서울=연합뉴스) 구정모 기자 = 여행·여가 플랫폼 여기어때는 걸그룹 리센느의 공연과 거제 여행을 결합한 열 번째 '여기어때 콘서트팩'의 응모를...",
@@ -128,16 +143,8 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
-        "title": "카카오, 리센느 통해 카카오톡 AI 기능 알린다 - IT조선",
-        "source": "IT조선",
-        "date": "2026-09-02",
-        "url": "https://it.chosun.com/news/articleView.html?idxno=2023092169314",
-        "summary": "카카오가 아이돌 그룹 리센느(RESCENE)를 모델로 카카오톡 인공지능(AI) 기능을 알리는 이용자 캠페인을 진행한다. 통화 내용 요약과 일정 정리 등 AI를 활용한 카카오톡 기능을 영상으로 소개한다.2일 카카오에 따르면 이번 ‘대화를 하자’ 캠페인은 이용자 의견을 서비스에 반영하는",
-        "image": "https://cdn.it.chosun.com/news/thumbnail/202609/2023092169314_451550_2448_v150.jpg"
-    },
-    {
-        "title": "카카오, '리센느' 앞세워 카톡 AI 알린다⋯'일상 AI' 대중화 - 현대경제신문",
-        "source": "현대경제신문",
+        "title": "카카오, '리센느' 앞세워 카톡 AI 알린다⋯'일상 AI' 대중화 - finomy.com",
+        "source": "finomy.com",
         "date": "2026-09-02",
         "url": "http://www.finomy.com/news/articleView.html?idxno=260629",
         "summary": "현대경제신문 최예헌 기자 | 카카오가 아이돌 그룹 '리센느(RESCENE)'를 앞세워 카카오톡에 적용된 인공지능(AI) 기능 알리기에 나선다. 통화 요약부터 약속 일정 정리까지 일상에서 활용할 수 있는 AI 경험을 이용자에게 전달한다는 구상이다.카카오는 리센느와 AI를 활용한 일상 속",
@@ -159,28 +166,12 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
-        "title": "카카오, 일상 속 AI 경험 ‘리센느’와 함께 알린다 - 인더뉴스",
-        "source": "인더뉴스",
-        "date": "2026-09-02",
-        "url": "https://www.inthenews.co.kr/news/article.html?no=91324",
-        "summary": "인더뉴스 이종현 기자ㅣ카카오[035720]가 아이돌 그룹 '리센느'와 AI를 활용한 대화 경험을 알리기 위한 이용자 대상 캠페인을 시작한다고 2일 밝혔습니다. 이번 캠페인은 이용자들의 의견을 듣는 '유저퍼스트' 활동의 일환으로 카카오톡의 AI 서비스 등 기능을 통해 일상 속에서 쉽고 편",
-        "image": "https://www.inthenews.co.kr/data/photos/20260936/art_17883255216413_444825.jpg"
-    },
-    {
-        "title": "카카오, 리센느와 카카오톡 AI 서비스 알린다 - 디지털투데이",
-        "source": "디지털투데이",
+        "title": "카카오, 리센느와 카카오톡 AI 서비스 알린다 - digitaltoday.co.kr",
+        "source": "digitaltoday.co.kr",
         "date": "2026-09-02",
         "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=697560",
         "summary": "[디지털투데이 이호정 기자] 카카오는 아이돌 그룹 '리센느'와 함께 카카오톡의 AI 서비스를 소개하는 '대화를 하자' 캠페인을 시작한다고 2일 밝혔다.카카오는 9월 한달 동안 일상에서 카카오톡 AI 기능을 사용하는 모습을 담은 영상을 순차적으로 공개한다. 영상에서는 AI 서비스 '카나나",
         "image": "https://cdn.digitaltoday.co.kr/news/photo/202609/697560_645350_2623.jpg"
-    },
-    {
-        "title": "리센느·김용빈·AKMU, 8월 '아티스트탑텐 K-팝 장르 브랜드' 영예 - 텐아시아",
-        "source": "텐아시아",
-        "date": "2026-09-02",
-        "url": "https://www.tenasia.co.kr/article/2026090296654",
-        "summary": "리센느, 김용빈, AKMU, 아일릿, 김소연, 보아, 박서진, 예나, 신승태, 성리가 텐아시아 아티스트탑텐(TENASIA ARTIST TOP TEN) 8월 '아티스트탑텐 K-팝 장르 브랜드' 주인공으로 선정됐다. 8월 텐아시아 투표 서비스를 통해 아티스트탑텐 K-팝 보...",
-        "image": "https://img.tenasia.co.kr/photo/202609/BF.45532557.1.jpg"
     },
     {
         "title": "카카오, 리센느와 AI 대화 경험 캠페인 전개 - 컨슈머타임스",
@@ -207,14 +198,6 @@ const NEWS_DATA = [
         "image": "https://www.techm.kr/news/thumbnail/202609/154860_219901_109_v150.jpg"
     },
     {
-        "title": "[산업소식] 카카오, '리센느'와 일상 속 AI 경험 소개 - 포쓰저널",
-        "source": "포쓰저널",
-        "date": "2026-09-02",
-        "url": "https://www.4th.kr/news/articleView.html?idxno=2117315",
-        "summary": "카카오, ‘리센느’와 일상 속 AI 경험 소개 카카오는 아이돌 그룹 ‘리센느(RESCENE)’와 카카오톡의 인공지능(AI) 서비스를 소개하는 이용자 캠페인 ‘대화를 하자’를 진행한다고 2일 밝혔다.캠페인 영상은 9월 한 달 동안 다양한 에피소드로 나눠 순차적으로 공개한다.유튜브, 인스타",
-        "image": "https://cdn.4th.kr/news/thumbnail/202609/2117315_215668_405_v150.jpg"
-    },
-    {
         "title": "‘리센느’ 2026년 9월 신인 아이돌 브랜드평판 1위 등극… 코르티스·키키 뒤이어 - 케이트렌디뉴스",
         "source": "케이트렌디뉴스",
         "date": "2026-09-02",
@@ -231,20 +214,20 @@ const NEWS_DATA = [
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/tr/2026/09/02/3ae5c562-83cb-4668-bb4c-350415f21227.jpg"
     },
     {
-        "title": "카카오 리센느와 대화 시작 \"카톡 AI 알린다\" - econovill.com",
-        "source": "econovill.com",
-        "date": "2026-09-02",
-        "url": "https://www.econovill.com/news/articleView.html?idxno=749628",
-        "summary": "카카오톡은 메신저 본연의 기능을 넘어 AI가 대화를 거들어주는 방향으로 진화하고 있다. 문제는 이런 변화를 이용자가 얼마나 체감하느냐다. 카카오가 이번에 꺼낸 카드는 아이돌 그룹을 앞세운 캠페인이다.카카오(대표이사 정신아)는 카카오톡 안에 숨어 있는 AI 기능을 이용자 눈높이에서 알리기",
-        "image": "https://cdn.econovill.com/news/thumbnail/202609/749628_724880_237_v150.jpg"
-    },
-    {
-        "title": "카카오, “아이돌 ‘리센느’와 일상 속 AI 경험 알려요” - 게임톡",
-        "source": "게임톡",
+        "title": "카카오, “아이돌 ‘리센느’와 일상 속 AI 경험 알려요” - gametoc.co.kr",
+        "source": "gametoc.co.kr",
         "date": "2026-09-02",
         "url": "https://www.gametoc.co.kr/news/articleView.html?idxno=111136",
         "summary": "“리센느의 밝고 친근한 이미지, 팬들과 일상 속 AI로 소통해요.”카카오(대표이사 정신아)가 아이돌 그룹 ‘리센느(RESCENE)’와 AI(인공지능)를 활용한 일",
         "image": "https://cdn.gametoc.co.kr/news/photo/202609/111136_324215_138.jpg"
+    },
+    {
+        "title": "\"리센느가 알려주는 카톡 AI\"…카카오, 새 캠페인 시작 - news.nate.com",
+        "source": "news.nate.com",
+        "date": "2026-09-02",
+        "url": "https://news.nate.com/view/20260902n11550",
+        "summary": "�Ѵ��� ���� ���� : IT/���� - ���� : īī�� ķ���� ���� �⿬�� �ɱ׷� ������. / ����=īī�� ��Ʃ�� ĸóīī���� ���̵� �׷� '������(RESCENE)'�� �ռ��� īī������ �ΰ�����(AI) ��� �˸�",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/hk/2026/09/02/01.45529520.1.jpg"
     },
     {
         "title": "\"카톡 AI 쓴다, 너도? 나도!\"…카카오, 리센느와 캠페인 - news.nate.com",
@@ -255,12 +238,44 @@ const NEWS_DATA = [
         "image": "https://news.nateimg.co.kr/orgImg/ns/2026/09/02/NISI20260902_0002227900_web.jpg"
     },
     {
+        "title": "여기어때, 거제 관광 살리기 나섰다…리센느 공연·2박 패키지 선봬 - thepowernews.co.kr",
+        "source": "thepowernews.co.kr",
+        "date": "2026-09-02",
+        "url": "https://www.thepowernews.co.kr/view.php?ud=202609021030004781de3f0aa1be_7",
+        "summary": "[더파워 이설아 기자]여기어때가 최근 집중호우로 침수 피해를 입은 거제를 열 번째 ‘콘서트팩’ 여행지로 정했다. 여행객을 지역으로 끌어들이기 위해 숙박과 공연, 식사, 지역 여행 혜택을 하나의 2박3일 상품으로 묶었다.여기어때는 거제 지역의 여행 활성화를 위해 ‘여기어때 콘서트팩 거제’",
+        "image": "https://cliimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20260902103033078670de3f0aa1be175193255143.jpg&nmt=7"
+    },
+    {
+        "title": "카카오, 리센느와 AI 활용 캠페인…\"카나나로 새로운 대화 경험\" - news.nate.com",
+        "source": "news.nate.com",
+        "date": "2026-09-02",
+        "url": "https://news.nate.com/view/20260902n19794",
+        "summary": "�Ѵ��� ���� ���� : IT/���� - ���� : īī���� ���̵� �׷� ������(RESCENE)�� �ΰ�����(AI)�� Ȱ���� ��ȭ ������ �˸��� ķ������ �����Ѵٰ� 2�� ������.īī���� īī������ AI ���� �",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/cz/2026/09/02/cz_1788324245195_721749_0.jpg"
+    },
+    {
+        "title": "카카오, 리센느와 카카오톡 AI 알린다…통화 요약·일정 정리 - news.nate.com",
+        "source": "news.nate.com",
+        "date": "2026-09-02",
+        "url": "https://m.news.nate.com/view/20260902n13370?mid=m05&list=recent&cpcd=",
+        "summary": "�Ѵ��� ���� ���� : IT/���� - ���� : '��ȭ�� ����' ķ���� �� �ް� ���ࡦī���� Ȱ��� �Ұ� (����=���մ���) �ѻ�� ���� = īī���� ���̵� �׷� �������� �𵨷� īī������ �ΰ�����(AI) �",
+        "image": "https://news.nateimg.co.kr/orgImg/yt/2026/09/02/AKR20260902073900017_01_i.jpg"
+    },
+    {
         "title": "리센느, 이번엔 4일 만에 유튜브 천만뷰…대세 행보 멈춤 없다 [N이슈] - news.nate.com",
         "source": "news.nate.com",
         "date": "2026-09-02",
         "url": "https://news.nate.com/view/20260902n10360",
         "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : �׷� ������ ����(���ʺ���)�� ����, ����, ����, �̳��� �� ����1 ������ ���� (����=����1) ������ ���� = �׷� ������(RESCENE) �����",
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/na/2026/09/02/8076138_high.jpg"
+    },
+    {
+        "title": "'2026 더 팩트 뮤직 어워드' 임영웅부터 리센느까지…'영크크'·'올크크' 다 잡았다 - news.nate.com",
+        "source": "news.nate.com",
+        "date": "2026-09-02",
+        "url": "https://news.nate.com/view/20260902n09150",
+        "summary": "�Ѵ��� ���� ���� : ������ ȭ�� - ���� : ����(���� ������ ��) = SM�������θ�Ʈ(������), ����������θ�Ʈ(������), KQ�������θ�Ʈ(����Ŀ��������Ƽ��), ��Ÿ���������θ�Ʈ(���̵�",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/kz/2026/09/02/news-p.v1.20260902.4451c4abc0ce4f5a8d65d3db4378bba1_P1.png"
     },
     {
         "title": "리센느 원이·제나, 브랜드평판 1·2위 석권 - bntnews.co.kr",
@@ -271,8 +286,8 @@ const NEWS_DATA = [
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/02/bnt202609020015.jpg"
     },
     {
-        "title": "리센느, 9월 신인 아이돌그룹 브랜드평판 1위! - 아시아뉴스통신",
-        "source": "아시아뉴스통신",
+        "title": "리센느, 9월 신인 아이돌그룹 브랜드평판 1위! - anewsa.com",
+        "source": "anewsa.com",
         "date": "2026-09-01",
         "url": "https://m.anewsa.com/article_sub3.php?number=3194526&type=&mobile=",
         "summary": "(사진출처=리센느 공식 SNS) [아시아뉴스통신=이상진 기자] 신인 아이돌그룹 브랜드평판 2026년 9월 빅데이터 분석결과, 1위 리센느 2위 코르티스 3위 키키 순으로 분석되었다.한국기업평판연구소는 신인 아이돌그룹 브랜드평판 빅데이터 분석을 위해 2026년 8월 1일부터 2026년 9",
@@ -285,14 +300,6 @@ const NEWS_DATA = [
         "url": "https://www.slist.kr/news/articleView.html?idxno=762990",
         "summary": "그룹 리센느(RESCENE)가 9월 신인 아이돌 개인 브랜드평판 상위권을 휩쓸었다. 원이부터 제나, 리브, 미나미, 메이까지 멤버 전원이 1~5위를 차지했다.2일 한국기업평판연구소가 발표한 2026년 9월 신인 아이돌 개인 브랜드평판 빅데이터 분석 결과에 따르면 리센느 원이가 1위에 올",
         "image": "https://cdn.slist.kr/news/thumbnail/202609/762990_1168406_5917_v150.jpg"
-    },
-    {
-        "title": "“의심 들 때마다 노래 들었다”…리센느 하나 보고 3년 버틴 투자자의 고백 - 헤럴드경제",
-        "source": "헤럴드경제",
-        "date": "2026-09-01",
-        "url": "https://biz.heraldcorp.com/article/10858515",
-        "summary": "[헤럴드경제=장윤우 기자] 걸그룹 리센느의 첫 기관 투자자가 3년 전 투자 결정 과정을 공개했다. 지난달 31일 유튜브 채널 ‘비디오머그’에는 리센느 소속사 더뮤즈엔터",
-        "image": "https://wimg.heraldcorp.com/news/cms/2026/09/01/ams.V01.photo.HDN.P.20260828.P12026082807143347000235671_T1.jpg"
     },
     {
         "title": "Weverse Magazine - Everything K-POP and More! - Weverse Magazine",
@@ -311,35 +318,27 @@ const NEWS_DATA = [
         "image": "https://wimg.heraldcorp.com/news/cms/2026/09/01/news-p.v1.20260901.cb94ae8d76a74963a30e9abc961536a2_T1.jpg"
     },
     {
-        "title": "리센느 손잡은 CU…전국 1만8800개 점포서 브랜드 캠페인 - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-09-01",
-        "url": "https://v.daum.net/v/20260901154907343",
-        "summary": "[아이뉴스24 유범열 기자] 편의점 CU가 걸그룹 리센느를 앞세워 온·오프라인을 아우르는 브랜드 캠페인을 펼친다. CU는 브랜드 모델 리센느와 함께 '일상의 모든 Scene, CU' 캠페인을 진행한다고 1일 밝혔다. 전국 점포와 자체 애플리케이션(앱), 사회관계망서비스(SNS) 등 고객",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/01/inews24/20260901154908847rtdw.jpg"
-    },
-    {
-        "title": "고윤정과 리센느 제나가 닮아 보이는 진짜 이유 - harpersbazaar.co.kr",
-        "source": "harpersbazaar.co.kr",
-        "date": "2026-09-01",
-        "url": "https://www.harpersbazaar.co.kr/article/1908925",
-        "summary": "눈매부터 콧대, 애굣살까지. 고윤정과 제나가 닮아 보이는 메이크업의 비밀.",
-        "image": "https://www.harpersbazaar.co.kr/resources/online/thumbnail/hf/2026/09/01/c232bf9e-41cf-4c67-8c07-1eb3a87f2fa7.jpg"
-    },
-    {
-        "title": "CU, 리센느와 브랜드 캠페인…전국 1만 8800여 점포서 전개 - weekly.hankooki.com",
-        "source": "weekly.hankooki.com",
-        "date": "2026-09-01",
-        "url": "https://weekly.hankooki.com/news/articleViewAmp.html?idxno=7181799",
-        "summary": ""
-    },
-    {
         "title": "CU, 리센느와 전국 브랜드 캠페인…“일상 속 경험 강화” - 전자신문",
         "source": "전자신문",
         "date": "2026-09-01",
         "url": "https://www.etnews.com/20260901000228",
         "summary": "CU가 아이돌 그룹 리센느(RESCENE)를 앞세워 온·오프라인을 아우르는 대규모 브랜드 캠페인에 나선다. CU는 1일부터 브랜드 모델 리센느와 함께 '일상의 모든 Scene, CU' 캠페인을 전개한다고 밝혔다. 일상 속에서 자연스럽게 CU를 경험하는 콘텐츠를 확대해 젊은 소비자와의 접",
         "image": "https://img.etnews.com/news/article/2026/09/01/news-p.v1.20260901.090cd743de774cf5a050ca27c4e812e5_P1.jpg"
+    },
+    {
+        "title": "“37분 롱폼이 천만뷰?” 리센느 원이, 4일 만에 대기록 - YTN",
+        "source": "YTN",
+        "date": "2026-09-01",
+        "url": "https://www.ytn.co.kr/_ln/0117_202609020754334029",
+        "summary": "그룹 리센느(RESCENE)의 상승세가 거침없다. 이번에는 리더 원이다. 무려 37분짜리 롱폼 영상이 공개 4일 만에 천만뷰를 돌파했다. 짧은 숏폼도, 챌린지도 아니다. ‘원이’라는 스타 자체의 매력으로 일궈낸 기록이라는 점에서 더욱 눈길을 끈다. 원이의 개인 유튜브 채널 ‘안녕하세요원",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/0902/202609020754334029_t.jpg"
+    },
+    {
+        "title": "CU, 리센느와 브랜드 캠페인…전국 1만 8800여 점포서 전개 - 주간한국",
+        "source": "주간한국",
+        "date": "2026-09-01",
+        "url": "https://weekly.hankooki.com/news/articleViewAmp.html?idxno=7181799",
+        "summary": ""
     },
     {
         "title": "CU 가면 대세 '리센느' 있다…팬덤 마케팅 전개 - 신아일보",
@@ -350,8 +349,8 @@ const NEWS_DATA = [
         "image": "https://cdn.shinailbo.co.kr/news/photo/202609/5057043_2054856_500.jpg"
     },
     {
-        "title": "‘거제 딸’ 원이 인연으로 뭉쳤다…리센느 팬클럽, 수해 성금 1억1천만원 기부 - geojenews.co.kr",
-        "source": "geojenews.co.kr",
+        "title": "‘거제 딸’ 원이 인연으로 뭉쳤다…리센느 팬클럽, 수해 성금 1억1천만원 기부 - 거제신문",
+        "source": "거제신문",
         "date": "2026-09-01",
         "url": "https://www.geojenews.co.kr/news/articleView.html?idxno=96417",
         "summary": "걸그룹 리센느(RESCENE) 멤버 원이의 고향인 거제에서 발생한 집중호우 피해를 돕기 위해 팬들이 1억 원이 넘는 성금을 모아 전달했다.희망브리지 전국재해구호협회는 지난달 31일 리센느 공식 팬클럽 ‘리마인’이 지난 8월 18일부터 31일까지 2주간 진행한 모금을 통해 총 1억1253",
@@ -366,14 +365,6 @@ const NEWS_DATA = [
         "image": "https://cdn.coenworks.com/Files/478/News/202609/8462_20260901094314250.jpg"
     },
     {
-        "title": "\"아예 1~5위 싹쓸이\" 리센느 원이·제나·리브·미나미·메이, 신인 아이돌 개인 브랜드평판 '올킬' - 지피코리아",
-        "source": "지피코리아",
-        "date": "2026-09-01",
-        "url": "https://www.gpkorea.com/news/articleView.html?idxno=146267",
-        "summary": "리센느(RESCENE)가 신인 아이돌 개인 브랜드평판 1위부터 5위까지를 모두 차지했다.2026년 9월 신인 아이돌 개인 브랜드평판 빅데이터 분석 결과, 리센느 원이가 1위에 올랐으며 제나, 리브, 미나미, 메이가 뒤를 이었다.한국기업평판연구소는 2026년 8월 2일부터 9월 2일까지 ",
-        "image": "https://cdn.gpkorea.com/news/photo/202609/146267_310733_5653.jpg"
-    },
-    {
         "title": "CU, 리센느와 ‘일상의 모든 Scene, CU’ 브랜드 캠페인 전개 - 글로벌이코노믹",
         "source": "글로벌이코노믹",
         "date": "2026-09-01",
@@ -382,12 +373,12 @@ const NEWS_DATA = [
         "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026090109472107838056c1628031211677722.jpg"
     },
     {
-        "title": "\"37분 롱폼이 천만뷰?\" 리센느 원이, 4일 만에 대기록 - news.nate.com",
-        "source": "news.nate.com",
+        "title": "LG전자는 ‘에이아이돌’ 파격 실험… CU·동아오츠카는 ‘리센느’로 통했다 - 이코노미톡뉴스",
+        "source": "이코노미톡뉴스",
         "date": "2026-09-01",
-        "url": "https://m.news.nate.com/view/20260902n04272?mid=e01&list=recent&cpcd=",
-        "summary": "�Ѵ��� ���� ���� : ������ ȭ�� - ���� : �׷� ������(RESCENE)�� ��¼��� ��ħ����. �̹����� ���� ���̴�. ���� 37��¥�� ���� ������ ���� 4�� ���� õ���並 �����ߴ�. ª�� ������",
-        "image": "https://news.nateimg.co.kr/orgImg/yn/2026/09/02/202609020754334029_d.jpg"
+        "url": "http://www.economytalk.kr/news/articleView.html?idxno=423872",
+        "summary": "[권신혁 기자 @이코노미톡뉴스] 소비자향(B2C)시장에서 K팝 아이돌을 기용하는 마케팅이 ‘흥행 보증수표’처럼 쓰이는 가운데, 가전업계에선 LG전자가 직접 아이돌",
+        "image": "https://cdn.economytalk.kr/news/photo/202609/423872_231319_2124.jpg"
     },
     {
         "title": "리센느, 8월 멜론 월간차트 첫 1위‥3곡 톱10 꿰찼다 - v.daum.net",
@@ -405,20 +396,20 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
-        "title": "1위 리센느 원이, 2위 리센느 제나, 3위 리센느 리브 - news.nate.com",
-        "source": "news.nate.com",
-        "date": "2026-09-01",
-        "url": "https://news.nate.com/view/20260902n03516",
-        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : ���� ���̵� ���� �귣������ 2026�� 9�� [��Ÿ���� | ���Ͻ� ����] ������ ����, ����, ����(���ʺ���) /����=��Ÿ���� DB�ɱ׷� �������� 9�",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/tn/2026/09/02/2026090206534157771_1.jpg"
-    },
-    {
         "title": "전국 CU서 리센느 만난다…브랜드 캠페인 진행 - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-09-01",
         "url": "https://v.daum.net/v/20260901092549310",
         "summary": "(지디넷코리아=김민아 기자)편의점 CU가 브랜드 모델 ‘리센느’를 앞세워 온·오프라인 브랜드 마케팅을 강화한다. 온라인에서는 브랜드 필름을 공개하고 오프라인에서는 포스터와 음성 메시지를 활용하는 방식이다. CU를 운영 중인 BGF리테일은 이날부터 리센느와 함께 ‘일상의 모든 Scene,",
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/01/ZDNetKorea/20260901092550916ybbx.jpg"
+    },
+    {
+        "title": "\"아예 1~5위 싹쓸이\" 리센느 원이·제나·리브·미나미·메이, 신인 아이돌 개인 브랜드평판 '올킬' - 지피코리아",
+        "source": "지피코리아",
+        "date": "2026-09-01",
+        "url": "https://www.gpkorea.com/news/articleView.html?idxno=146267",
+        "summary": "리센느(RESCENE)가 신인 아이돌 개인 브랜드평판 1위부터 5위까지를 모두 차지했다.2026년 9월 신인 아이돌 개인 브랜드평판 빅데이터 분석 결과, 리센느 원이가 1위에 올랐으며 제나, 리브, 미나미, 메이가 뒤를 이었다.한국기업평판연구소는 2026년 8월 2일부터 9월 2일까지 ",
+        "image": "https://cdn.gpkorea.com/news/photo/202609/146267_310733_5653.jpg"
     },
     {
         "title": "전국 1만8800개 CU에 ‘리센느’ 뜬다…브랜드 캠페인 전개 - 데일리안",
@@ -453,12 +444,12 @@ const NEWS_DATA = [
         "image": "https://cliimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20260901134117032670204ead079118023320059.jpg&nmt=12"
     },
     {
-        "title": "임영웅 →코르티스-에이티즈-리센느 등 출격…오는19일 부산서 열리는 '2026 더팩트 뮤직 어워즈' - news.nate.com",
+        "title": "1위 리센느 원이, 2위 리센느 제나, 3위 리센느 리브 - news.nate.com",
         "source": "news.nate.com",
         "date": "2026-09-01",
-        "url": "https://news.nate.com/view/20260902n04117",
-        "summary": "�Ѵ��� ���� ���� : ������ ȭ�� - ���� : ����(���� ������ ��) = SM�������θ�Ʈ(������), ����������θ�Ʈ(������), KQ�������θ�Ʈ(����Ŀ��������Ƽ��), ��Ÿ���������θ�Ʈ(���̵�",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/sz/2026/09/02/548190_580536_4147.jpg"
+        "url": "https://news.nate.com/view/20260902n03516",
+        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : ���� ���̵� ���� �귣������ 2026�� 9�� [��Ÿ���� | ���Ͻ� ����] ������ ����, ����, ����(���ʺ���) /����=��Ÿ���� DB�ɱ׷� �������� 9�",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/tn/2026/09/02/2026090206534157771_1.jpg"
     },
     {
         "title": "[스타家] 리센느 ②ㅣ 광고계도 지역도 ‘거제 야호’…매출 48%↑에 기부까지 - CBC뉴스",
@@ -469,19 +460,28 @@ const NEWS_DATA = [
         "image": "https://www.cbci.co.kr/news/thumbnail/202609/602797_413383_4855_v150.jpg"
     },
     {
-        "title": "\"계산대에 원이 목소리 들린다\"…CU, 리센느와 브랜드 캠페인 펼쳐 - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-08-31",
-        "url": "https://www.news1.kr/industry/distribution/6275511",
-        "summary": ""
+        "title": "리센느 손잡은 CU…전국 1만8800개 점포서 브랜드 캠페인 - news.nate.com",
+        "source": "news.nate.com",
+        "date": "2026-09-01",
+        "url": "https://news.nate.com/view/20260901n27503",
+        "summary": "�Ѵ��� ���� ���� : ���� - ���� : [���̴���24 ������ ����] ������ CU�� �ɱ׷� �������� �ռ��� �¡����������� �ƿ츣�� �귣�� ķ������ ��ģ��.CU�� ���̵� �׷� '������'�� '�ϻ��� ",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/in/2026/09/01/8b21aeb81edb80.jpg"
     },
     {
-        "title": "CU, 리센느와 브랜드 캠페인…이달 협업상품 출시 - yna.co.kr",
-        "source": "yna.co.kr",
+        "title": "\"계산대에 원이 목소리 들린다\"…CU, 리센느와 브랜드 캠페인 펼쳐 - v.daum.net",
+        "source": "v.daum.net",
         "date": "2026-08-31",
-        "url": "https://www.yna.co.kr/amp/view/AKR20260901028800030",
-        "summary": "(서울=연합뉴스) 정수연 기자 = 편의점 CU는 1일부터 아이돌 '리센느(RESCENE)'와 함께 브랜드 캠페인 '일상의 모든 Scene(씬),...",
-        "image": "https://img1.yna.co.kr/etc/inner/KR/2026/09/01/AKR20260901028800030_01_i_P4.jpg"
+        "url": "https://v.daum.net/v/20260901083054994",
+        "summary": "(서울=뉴스1) 유민주 기자 = 편의점 CU가 브랜드 모델 리센느(RESCENE)와 함께 '일상의 모든 Scene, CU' 브랜드 캠페인을 전개한다고 1일 밝혔다. CU는 유튜브 '씨유튜브'와 인스타그램 등 SNS를 통해 이번 캠페인의 시작을 알리는 브랜드 필름을 공개했다. 리센느 멤버",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/01/NEWS1/20260901083056207isra.jpg"
+    },
+    {
+        "title": "리센느 팬덤 ‘리마인’, 원이 고향 거제 등 수해 복구 위해 1억1000만원 기부 - 헤럴드경제",
+        "source": "헤럴드경제",
+        "date": "2026-08-31",
+        "url": "https://biz.heraldcorp.com/article/10857615",
+        "summary": "[헤럴드경제=최원혁 기자] 걸그룹 ‘리센느’의 팬덤 ‘리마인’이 수해 피해를 본 남부지역 이재민을 돕기 위해 성금을 기부하며 선한 영향력을 펼쳤다. 31일 희망브리지",
+        "image": "https://wimg.heraldcorp.com/news/cms/2026/08/31/news-p.v1.20260831.77c9bd8c5668464589229dadea6fc964_T1.jpg"
     },
     {
         "title": "리센느 팬덤 '리마인', 거제 수해 복구에 1억 1천만 원 기부 - YTN",
@@ -490,6 +490,14 @@ const NEWS_DATA = [
         "url": "https://www.ytn.co.kr/_ln/0117_202608311438057015",
         "summary": "걸그룹 리센느(RESCENE)의 팬덤 '리마인'이 수해 피해를 본 남부지역 이재민을 돕기 위해 1억 원이 넘는 성금을 모아 전달했다. ​31일 희망브리지 전국재해구호협회에 따르면, 리센느의 팬덤 '리마인'은 거제와 통영 등 남부지역 수해 복구 및 이재민 지원을 위해 성금 1억 1,000",
         "image": "https://image.ytn.co.kr/general/jpg/2026/0831/202608311438057015_t.jpg"
+    },
+    {
+        "title": "CU, 리센느와 브랜드 캠페인…이달 협업상품 출시 - 연합뉴스",
+        "source": "연합뉴스",
+        "date": "2026-08-31",
+        "url": "https://www.yna.co.kr/amp/view/AKR20260901028800030",
+        "summary": "(서울=연합뉴스) 정수연 기자 = 편의점 CU는 1일부터 아이돌 '리센느(RESCENE)'와 함께 브랜드 캠페인 '일상의 모든 Scene(씬),...",
+        "image": "https://img1.yna.co.kr/etc/inner/KR/2026/09/01/AKR20260901028800030_01_i_P4.jpg"
     },
     {
         "title": "1위 리센느, 2위 코르티스, 3위 키키 - starnewskorea.com",
@@ -505,7 +513,14 @@ const NEWS_DATA = [
         "date": "2026-08-31",
         "url": "https://www.viva100.com/article/20260901500044",
         "summary": "편의점 CU가 브랜드 모델인 걸그룹 리센느(RESCENE)와 함께 고객의 일상 속 접점을 넓히는 대규모 브랜드 캠페인에 나선다. 동시에 개강·개학 시즌을 겨냥해 간편식 경쟁력을 높이는 등 온·오프라인 전반에서 고객 잡기에 나섰다. CU는 1일부터 리센느와 함께 ‘일상의",
-        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/09/01/.cache/512/20260901500039.jpg?v=20260903011633"
+        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/09/01/.cache/512/20260901500039.jpg?v=20260903054759"
+    },
+    {
+        "title": "\"계산대에 원이 목소리 들린다\"…CU, 리센느와 브랜드 캠페인 펼쳐 - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-08-31",
+        "url": "https://www.news1.kr/industry/distribution/6275511",
+        "summary": ""
     },
     {
         "title": "“리센느 없어질까 봐 열심히 달렸다”…원이, 속마음 영상 3일 만에 900만뷰 터졌다 - 헤럴드경제",
@@ -540,14 +555,6 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/31/ned/20260831133510452golb.jpg"
     },
     {
-        "title": "리센느 팬덤 ‘리마인’, 원이 고향 거제 등 수해 복구 위해 1억1000만원 기부 - 헤럴드경제",
-        "source": "헤럴드경제",
-        "date": "2026-08-31",
-        "url": "https://biz.heraldcorp.com/article/10857615",
-        "summary": "[헤럴드경제=최원혁 기자] 걸그룹 ‘리센느’의 팬덤 ‘리마인’이 수해 피해를 본 남부지역 이재민을 돕기 위해 성금을 기부하며 선한 영향력을 펼쳤다. 31일 희망브리지",
-        "image": "https://wimg.heraldcorp.com/news/cms/2026/08/31/news-p.v1.20260831.77c9bd8c5668464589229dadea6fc964_T1.jpg"
-    },
-    {
         "title": "CU, 리센느와 브랜드 캠페인 전개…전국 1만8천여 점포서 마케팅 - 청년일보",
         "source": "청년일보",
         "date": "2026-08-31",
@@ -580,8 +587,8 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/01/NEWS1/20260901070153759fwyr.jpg"
     },
     {
-        "title": "[뮤직100] 제니 ‘FALLEN ANGEL’ 47계단↑ 55위…리센느 1위·빅뱅 2위 - topstarnews.net",
-        "source": "topstarnews.net",
+        "title": "[뮤직100] 제니 ‘FALLEN ANGEL’ 47계단↑ 55위…리센느 1위·빅뱅 2위 - 톱스타뉴스",
+        "source": "톱스타뉴스",
         "date": "2026-08-31",
         "url": "https://www.topstarnews.net/news/articleView.html?idxno=16178889",
         "summary": "9월 1일 오전 7시 뮤직100에서 제니 ‘FALLEN ANGEL’이 47계단 뛰며 스코어도 350.9점 늘었다. 상위권은 리센느·빅뱅이 1·2위를 지켰다.",
@@ -604,12 +611,20 @@ const NEWS_DATA = [
         "image": "https://img1.newsis.com/2026/08/31/NISI20260831_0002225729_web.jpg"
     },
     {
-        "title": "리센느 원이, 바이오던스와 올영세일 출격…산리오캐릭터즈까지 만났다 - ohnews.co.kr",
-        "source": "ohnews.co.kr",
+        "title": "리센느, 신인 아이돌 브랜드평판 1위…코르티스 제치고 정상 ‘우뚝’ - 핀포인트뉴스",
+        "source": "핀포인트뉴스",
         "date": "2026-08-31",
-        "url": "https://www.ohnews.co.kr/news/articleView.html?idxno=30627",
-        "summary": "[오뉴스=정도빈 기자] 걸그룹 리센느(RESCENE)의 원이가 글로벌 스킨케어 브랜드 바이오던스(BIODANCE)와 함께 9월 올영세일 소비자 공략에 나선다.바이",
-        "image": "https://cdn.ohnews.co.kr/news/photo/202609/30627_40658_2856.jpg"
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=482358",
+        "summary": "신인 아이돌그룹 브랜드평판에서 리센느가 코르티스를 제치고 1위에 올랐다. 코르티스는 8월보다 브랜드평판지수가 크게 떨어진 반면 키키와 하츠투하츠는 상승세를 보였다.한국기업평판연구소는 8월 1일부터 9월 1일까지 신인 아이돌그룹 브랜드 빅데이터 1973만5635개를 분석한 결과 이같이 나",
+        "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202609/482358_468864_5123_v150.jpg"
+    },
+    {
+        "title": "‘800만뷰’ 원이, 톱스타 상황극 중 속마음…“PD님 안 만났으면 어땠을까” - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-08-31",
+        "url": "https://v.daum.net/v/20260831101750457",
+        "summary": "리센느 원이가 유튜브 영상에서 데뷔 초 팀이 사라질까 걱정했던 시절과 최근 역주행 성공 이후에도 남아 있는 불안감을 털어놨다. 리센느 원이 유튜브 채널 화면리센느 원이 유튜브 채널 화면걸그룹 리센느 멤버 원이가 음원 역주행과 유튜브 콘텐츠 흥행 이후에도 미래에 대한 불안감을 털어놨다. ",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/31/donga/20260831101753453vtiw.png"
     },
     {
         "title": "리센느 ‘러브 어택’, 8월 지니차트 1위…여가수 7곡 톱10 - 지피코리아",
@@ -628,8 +643,16 @@ const NEWS_DATA = [
         "image": "https://wimg.heraldcorp.com/news/cms/2026/08/30/news-p.v1.20260830.a5cfb3af50784d3aaa86ac81a7f05fb0_T1.jpg"
     },
     {
-        "title": "[뮤직100] 제니 ‘FALLEN ANGEL’ 63계단↓ 102위…리센느 1위·빅뱅 2위 - topstarnews.net",
-        "source": "topstarnews.net",
+        "title": "“BTS·임영웅 다 제쳤다” 걸그룹 리센느, 8월 ★브랜드평판 ‘대이변 1위’ - 스포츠경향",
+        "source": "스포츠경향",
+        "date": "2026-08-30",
+        "url": "https://sports.khan.co.kr/article/202608301144003",
+        "summary": "신인 걸그룹 리센느(RESCENE)가 방탄소년단(BTS)과 임영웅 등 쟁쟁한 톱스타들을 제치고 스타 브랜드평판 1위에 오르는 대이변을 썼다. 30일 한국기업평판연구소에 따르면, 2026년 7월 29일부터 8월 ...",
+        "image": "https://images.khan.co.kr/article/2026/08/30/news-p.v1.20260830.343a678200b243e18c8681bbb0c3206e_P1.png"
+    },
+    {
+        "title": "[뮤직100] 제니 ‘FALLEN ANGEL’ 63계단↓ 102위…리센느 1위·빅뱅 2위 - 톱스타뉴스",
+        "source": "톱스타뉴스",
         "date": "2026-08-30",
         "url": "https://www.topstarnews.net/news/articleView.html?idxno=16177736",
         "summary": "8월 31일 오전 7시 뮤직100에서 제니 ‘FALLEN ANGEL’이 39위에서 102위로 밀렸고, 리센느 ‘LOVE ATTACK’과 빅뱅 ‘BiiiG’는 1·2위를 지켰다.",
@@ -644,16 +667,24 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/30/sportskhan/20260830114610838qvkz.png"
     },
     {
-        "title": "원이, 갑작스러운 리센느 열풍에 \"딱 1년만 더 갔으면\" - JTBC뉴스",
-        "source": "JTBC뉴스",
+        "title": "리센느 원이, 시그니엘 99층 톱스타 삶 반응 터졌다…이틀만 800만뷰 돌파 - news.nate.com",
+        "source": "news.nate.com",
+        "date": "2026-08-30",
+        "url": "https://news.nate.com/view/20260830n11712",
+        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : [������ Ȳ���� ����] �׷� ������ ��� ���̰� �齺Ÿ�� ���� ������ �������� 800�� �並 �޼��ߴ�. ���̴� 8�� 28�� ���� ��Ʃ�� ä�� '�ȳ��ϼ���",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/nn/2026/08/30/202608301639360410_1.jpg"
+    },
+    {
+        "title": "원이, 갑작스러운 리센느 열풍에 \"딱 1년만 더 갔으면\" - JTBC",
+        "source": "JTBC",
         "date": "2026-08-29",
         "url": "https://news.jtbc.co.kr/article/NB12315735",
         "summary": "리센느 원이가 뜨거운 인기를 얻은 후의 솔직한 심정을 밝혔다. 28일 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’에는 ‘원이 근황’이라는 ...",
         "image": "https://photo.jtbc.co.kr/news/jam_photo/202608/29/5a6f3913-0432-470c-bd18-aa989529ae7f.jpg"
     },
     {
-        "title": "[새벽벌로부터] 우리는 이제야 리센느를 발견했다 - channelpnu.pusan.ac.kr",
-        "source": "channelpnu.pusan.ac.kr",
+        "title": "[새벽벌로부터] 우리는 이제야 리센느를 발견했다 - 채널PNU",
+        "source": "채널PNU",
         "date": "2026-08-28",
         "url": "https://channelpnu.pusan.ac.kr/news/articleView.html?idxno=39420",
         "summary": "지난해 축제 영상을 찾으려 부랴부랴 편집국 하드를 뒤졌다. 올해 기적처럼 떠오른 아이돌 ‘리센느’ 때문이었다. “우리도 리센느 코인 좀 타 보자.” 화제를 모을 생각에 편집국은 싱글벙글이었다. 불과 1년 전 학교 축제 무대에 섰던 이들이 요즘 가장 핫한 아이돌이 됐으니, 묵혀 둔 영상도",
@@ -676,22 +707,6 @@ const NEWS_DATA = [
         "image": "https://img.hankyung.com/photo/202608/01.45463066.1.jpg"
     },
     {
-        "title": "[사진]리센느 원이,'입장하며 미소 활짝' - 조선비즈 - Chosunbiz",
-        "source": "Chosunbiz",
-        "date": "2026-08-27",
-        "url": "https://biz.chosun.com/entertainment/entertainment_photo/2026/08/27/GUZTCMRRHFRTOYZZMI3DSMZVHA/",
-        "summary": "사진리센느 원이,입장하며 미소 활짝",
-        "image": "https://biz.chosun.com/resizer/v2/GU4TQZJQGM2TKOJWHFQTSNRYGM.jpg?auth=9091f54714d1e32ba70aa93d7574e9c17d73f8aa595fc5035294941113374615&width=572&height=300&smart=true"
-    },
-    {
-        "title": "'독박투어' 김준호→유세윤, 리센느 '거제 야호~'에 도전장…유행어 전쟁 - YTN",
-        "source": "YTN",
-        "date": "2026-08-27",
-        "url": "https://star.ytn.co.kr/_sn/0117_202608271017448040_001",
-        "summary": "‘독박즈’가 걸그룹 리센느의 화제의 유행어 ‘거제 야호~’에 도전장을 내민다. 다섯 멤버가 각자의 개성을 살린 ‘5인 5색 유행어’를 직접 만들어 상하이를 누빈다. 29일 밤 9시 방송되는 채널S·E채널 ‘끝까지 간다! 독박투어’ 13회에서는 김대희, 김준호, 장동민, 유세윤, 홍인규가",
-        "image": "https://image.ytn.co.kr/general/jpg/2026/0827/202608271017448040_t.jpg"
-    },
-    {
         "title": "현대판 전래동화 주인공 된 리센느···할리스 브랜드 첫 모델 ‘리센느’와 함께한 신규 광고 온에어 - 스포츠경향",
         "source": "스포츠경향",
         "date": "2026-08-26",
@@ -706,14 +721,6 @@ const NEWS_DATA = [
         "url": "https://www.khan.co.kr/article/202608250600071",
         "summary": "경남 거제시, 일본 치바현, 경북 경주시…. 올해 최고의 ‘라이징 스타’인 걸그룹 리센느 멤버들의 출신지이자, 리센느 역주행 인기의 일등 공신인 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’(안원잘부)의 최근 촬영지다. ‘거제 야호’ 열풍 이후 멤버 원이와 미나미는 서로의 고향인 거제",
         "image": "https://img.khan.co.kr/news/2026/08/25/news-p.v1.20260824.004fd74e1dfd4ee2ae719896bbdac37f_P1.png"
-    },
-    {
-        "title": "[영상] 대세 개그맨 '영우 삼촌', 리센느 원이 운전연수 다시 한다면? - OhmyNews",
-        "source": "OhmyNews",
-        "date": "2026-08-25",
-        "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003261734",
-        "summary": "리센느 팬들에겐 ‘원이 삼촌’, 발라드 팬들에겐 ‘가수보다 노래 잘하는 개그맨’. 최근 리센느 원이의 운전을 돕는 유튜브 콘텐츠 ‘나의 연수 아저씨’를 정주행하다 보면, 결국 이 노랑머리 남자를 ‘덕질’하게 된다는 평이 자자하다.",
-        "image": "https://ojsfile.ohmynews.com/CRI_T_IMG/2026/0825/A0003261734_T.jpg"
     },
     {
         "title": "'거제 홍보대사' 리센느, 성금 이어 수해복구 음료도 지원 - v.daum.net",
@@ -779,19 +786,11 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/19/mydaily/20260819150552005dyov.jpg"
     },
     {
-        "title": "리센느, 섭외 못해서 안달인데..막상 나왔더니 토크 금지령(놀토) - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-15",
-        "url": "https://v.daum.net/v/20260815181612635",
-        "summary": "[OSEN=하수정 기자] 대세 5인조 걸그룹 리센느가 '놀토'에 나와서 토크 금지령을 받았다. tvN ‘놀라운 토요일’에 대세 아이돌 리센느가 출격한다. 오늘(15일) 저녁 7시 30분 방송하는 ‘놀라운 토요일’(이하 ‘놀토’) ‘여름방학 특집’ 2탄에는 국민 걸그룹으로 떠오른 리센느의",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/15/poctan/20260815181612669vqhx.jpg"
-    },
-    {
-        "title": "\"리센느 야호!\"… 광고계 휩쓴 리센느, 전성시대 넘어 '유니버스'로 확장 - 브랜드브리프",
-        "source": "브랜드브리프",
-        "date": "2026-08-12",
-        "url": "https://www.brandbrief.co.kr/news/articleView.html?idxno=10187",
-        "summary": "피자, 탄산 음료, 게임 캐릭터는 물론 식당 테이블 위 주문용 태블릿에 공공기관까지. 최근 걸그룹 리센느(RESCENE)를 향한 광고업계의 러브콜이 잇따르고 있다. 브랜드들이 지금 리센느에서 발견하고 있는 것은 완성된 톱스타의 후광만이 아니다. 각자의 브랜드가 들어가 함께 놀 수 있는 ",
-        "image": "https://www.brandbrief.co.kr/news/thumbnail/202608/10187_23089_5931_v150.jpg"
+        "title": "리센느, '원이 고향' 거제 수해 복구 위해 5천만원 기부 - 연합뉴스",
+        "source": "연합뉴스",
+        "date": "2026-08-19",
+        "url": "https://www.yna.co.kr/view/AKR20260819159000005",
+        "summary": "(서울=연합뉴스) 김선우 기자 = 경남 거제시 홍보대사인 걸그룹 리센느가 최근 거제에서 발생한 집중호우 피해 복구와 이재민들의 일상 회복을 위해...",
+        "image": "https://img9.yna.co.kr/photo/cms/2026/07/20/49/PCM20260720000049052_P4.jpg"
     }
 ];
