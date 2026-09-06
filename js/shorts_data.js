@@ -1,6 +1,120 @@
-/* ⭐️ RESCENE SHORTS 데이터 — scripts/scrape_shorts.js 로 자동 생성됨 (2026-09-06T04:11:18.965Z) */
+/* ⭐️ RESCENE SHORTS 데이터 — scripts/scrape_shorts.js 로 자동 생성됨 (2026-09-06T10:43:28.762Z) */
 
 const SHORTS_DATA = [
+    {
+        "vid": "waaps5X_QcU",
+        "title": "피디니무가 밝힌 메이와 리브의 편집 난이도ㅋㅋㅋ #rescene",
+        "channel": "센느삼촌",
+        "date": "2026-09-06",
+        "tags": [
+            "rescene",
+            "liv",
+            "minami",
+            "may"
+        ]
+    },
+    {
+        "vid": "FNd3mCWONZ8",
+        "title": "최애 앞에서 표정관리 실패한 덕후, 리센느 미나미와 트와이스 사나 챌린지",
+        "channel": "덕후지인",
+        "date": "2026-09-06",
+        "tags": [
+            "rescene",
+            "minami"
+        ]
+    },
+    {
+        "vid": "g99O5ciASfw",
+        "title": "[리센느_만화] 리브의 머리핀이 사라진 날 🌸 리브에게 찾아온 작은 이별 이야기 #리센느 #RESCENE #리브 #LIV #리센느만화 #팬애니 #애니메이션 #Shorts #REO",
+        "channel": "REO",
+        "date": "2026-09-06",
+        "tags": [
+            "rescene",
+            "liv",
+            "may"
+        ]
+    },
+    {
+        "vid": "sgnDOurAE2s",
+        "title": "한국 여자 평균 키보다 길다 리센느 제나의 충격적인 팔 길이 비밀",
+        "channel": "루프홀릭(LoopHolic)",
+        "date": "2026-09-06",
+        "tags": [
+            "rescene",
+            "may",
+            "zena"
+        ]
+    },
+    {
+        "vid": "zk1cug0q5kE",
+        "title": "“이 노래, 왜 자꾸 생각나지?” 리센느 ‘고백주파수’",
+        "channel": "리scene",
+        "date": "2026-09-06",
+        "tags": [
+            "rescene",
+            "woni",
+            "liv",
+            "minami",
+            "may",
+            "zena"
+        ]
+    },
+    {
+        "vid": "t-M-GKfPTOw",
+        "title": "[리센느] 킬링 파트를 위해 달리는 원이 #리센느",
+        "channel": "리센느서치P 🔭",
+        "date": "2026-09-06",
+        "tags": [
+            "rescene",
+            "woni",
+            "liv",
+            "minami",
+            "may",
+            "zena"
+        ]
+    },
+    {
+        "vid": "jAwLUda-7HY",
+        "title": "원이가 하는 건 일단 따라하고 보는 제나ㅋㅋ #리센느 #RESCENE",
+        "channel": "리센느카페",
+        "date": "2026-09-06",
+        "tags": [
+            "rescene",
+            "woni",
+            "liv",
+            "minami",
+            "may",
+            "zena"
+        ]
+    },
+    {
+        "vid": "mxmUszf4jsU",
+        "title": "[리센느]리트와 메트 케미 입덕 모먼트 ㅋㅋ",
+        "channel": "리센느집합소",
+        "date": "2026-09-06",
+        "tags": [
+            "rescene",
+            "woni",
+            "liv",
+            "minami",
+            "may",
+            "zena"
+        ]
+    },
+    {
+        "vid": "fYafNEJnrvg",
+        "title": "비서룩으로 미모쇼크   #shorts #리센느",
+        "channel": "핫큐",
+        "date": "2026-09-06",
+        "tags": [
+            "rescene",
+            "woni",
+            "liv",
+            "minami",
+            "may",
+            "zena"
+        ]
+    },
     {
         "vid": "eKmFP5B9yCU",
         "title": "칼군무 미쳤다고 난리 난 리센느 '다시 만난 세계' 커버 무대 ⚡️ / RESCENE",
@@ -31,26 +145,22 @@ const SHORTS_DATA = [
         ]
     },
     {
+        "vid": "F7bHcbO2xMc",
+        "title": "LIV & ZENA #리센느 #rescene #LIV #ZENA  #kpop #shorts",
+        "channel": "조군",
+        "date": "2026-09-06",
+        "tags": [
+            "rescene",
+            "liv"
+        ]
+    },
+    {
         "vid": "HxB1gw3kGBQ",
-        "title": "아이돌 센터감의 치명적인 뒷태👶🏻💗 #아기 #리센느 #dejavu #shorts",
+        "title": "엄마한테 춤보여주는 아기👶🏻💗 #아기 #리센느 #dejavu #shorts",
         "channel": "Hee_mum♡",
         "date": "2026-09-06",
         "tags": [
             "rescene"
-        ]
-    },
-    {
-        "vid": "OJKr8r1pNj8",
-        "title": "리센느 리브 - LIKE LIV | 2036년에서 가져온 노래 | LIKE WONI 연결곡",
-        "channel": "COPLAND",
-        "date": "2026-09-06",
-        "tags": [
-            "rescene",
-            "woni",
-            "liv",
-            "minami",
-            "may",
-            "zena"
         ]
     },
     {
@@ -70,6 +180,66 @@ const SHORTS_DATA = [
         "tags": [
             "rescene",
             "may"
+        ]
+    },
+    {
+        "vid": "oMUmoi4nEu8",
+        "title": "리센느 팬의 감다살 질문",
+        "channel": "썰구마",
+        "date": "2026-09-06",
+        "tags": [
+            "woni",
+            "minami"
+        ]
+    },
+    {
+        "vid": "lhiWfFAKxnc",
+        "title": "아기 메이의 긴급 민원 접수ㅋㅋ#shorts",
+        "channel": "파이리센느강",
+        "date": "2026-09-06",
+        "tags": [
+            "woni",
+            "may"
+        ]
+    },
+    {
+        "vid": "K1yTLmc-2_8",
+        "title": "아무것도 없이 기차랑 잘노는 리센느\r#리센느 #기차 #원이 #리브 #미나미 #메이 #제나 #shorts #프리티걸 #러브어택 #데자부",
+        "channel": "뮤드숏",
+        "date": "2026-09-06",
+        "tags": [
+            "woni",
+            "liv",
+            "minami",
+            "may",
+            "zena"
+        ]
+    },
+    {
+        "vid": "Eaj7RYQ9X_Y",
+        "title": "선생님 홀리게 만드는 리센느 원이의 치명적인 매력",
+        "channel": "아이돌모먼트",
+        "date": "2026-09-06",
+        "tags": [
+            "woni"
+        ]
+    },
+    {
+        "vid": "2TQ-jlL19ko",
+        "title": "리센느 원이가 전력질주를 해야만했던 이유 #리센느 #무대실수 #리센느 원이",
+        "channel": "서센느",
+        "date": "2026-09-06",
+        "tags": [
+            "woni"
+        ]
+    },
+    {
+        "vid": "obrYLOiHNxQ",
+        "title": "리센느 원이 고향 거제도사는 6년차헬스유튜버 첫대회 3년만에 서울갑니다",
+        "channel": "나혼자레벨업TV",
+        "date": "2026-09-06",
+        "tags": [
+            "woni"
         ]
     },
     {
@@ -93,7 +263,7 @@ const SHORTS_DATA = [
     },
     {
         "vid": "mkva8278pZc",
-        "title": "밥심으로 활동하는 아이돌 원이의 레전드 고봉밥\r#리센느 #원이 #리브 #미나미 #메이 #제나 #shorts #프리티걸 #러브어택 #데자부",
+        "title": "밥심으로 활동하는 아이돌 원이#리센느 #원이 #리브 #미나미 #메이 #제나 #shorts #프리티걸 #러브어택 #데자부",
         "channel": "뮤드숏",
         "date": "2026-09-06",
         "tags": [
@@ -131,6 +301,19 @@ const SHORTS_DATA = [
         ]
     },
     {
+        "vid": "tHA8qBFW00s",
+        "title": "이제는 뭐하는지 감도 안오는 리브 ㅋㅋ",
+        "channel": "리scene",
+        "date": "2026-09-06",
+        "tags": [
+            "liv",
+            "woni",
+            "minami",
+            "may",
+            "zena"
+        ]
+    },
+    {
         "vid": "Wr10Jifdj9k",
         "title": "많은 생각이 드는 리센느와 안원잘부PD니무의 대화#리센느 #원이 #미나미 #제나 #리브 #메이 #kpop #shorts #아이돌 #연예인 #웃음 #유머 #숏츠",
         "channel": "뿜스닥(BBUM-S-DAK)",
@@ -153,11 +336,99 @@ const SHORTS_DATA = [
         ]
     },
     {
+        "vid": "OJKr8r1pNj8",
+        "title": "리센느 리브 - LIKE LIV | 2036년에서 가져온 노래 | LIKE WONI 연결곡",
+        "channel": "COPLAND",
+        "date": "2026-09-06",
+        "tags": [
+            "liv",
+            "woni",
+            "minami",
+            "may",
+            "zena"
+        ]
+    },
+    {
+        "vid": "L8ftaETVJZY",
+        "title": "리센느 미나미 파라파라 댄스 RESCENE MINAMI PARAPARA #리센느 #rescene #kpop #parapara #파라파라 #shorts",
+        "channel": "조군",
+        "date": "2026-09-06",
+        "tags": [
+            "minami"
+        ]
+    },
+    {
+        "vid": "chV5ZOduJ6w",
+        "title": "미나미의 20kg 감량설과 앞자리의 진실",
+        "channel": "리센느보관소",
+        "date": "2026-09-06",
+        "tags": [
+            "minami"
+        ]
+    },
+    {
+        "vid": "VYV82cK4mAM",
+        "title": "진짜 현지 갸루가 가르쳐주는 일본어 상태가...? ㅋㅋㅋ",
+        "channel": "안원잘부",
+        "date": "2026-09-06",
+        "tags": [
+            "minami",
+            "woni"
+        ]
+    },
+    {
+        "vid": "uHqcFqTyrco",
+        "title": "리센느 미나미가 픽한 최대 난제라는 QWER신곡은?",
+        "channel": "차트충",
+        "date": "2026-09-06",
+        "tags": [
+            "minami"
+        ]
+    },
+    {
         "vid": "IZI3295n4SQ",
         "title": "결국 GD 까지 따라한 리센느 '거제 야호'",
         "channel": "딱한입",
         "date": "2026-09-06",
         "tags": [
+            "minami"
+        ]
+    },
+    {
+        "vid": "hzfapARq4Bc",
+        "title": "무명이었던 리센느를 홍보하기 위해 메이 부모님이 만들어주신 물건",
+        "channel": "낭만이 울림이지",
+        "date": "2026-09-06",
+        "tags": [
+            "may"
+        ]
+    },
+    {
+        "vid": "kluQU4nzNuY",
+        "title": "하이파이브를 하려다 상대 눈을 때린 리센느 메이",
+        "channel": "판다바이브",
+        "date": "2026-09-06",
+        "tags": [
+            "may",
+            "zena"
+        ]
+    },
+    {
+        "vid": "sA75hFkXjEY",
+        "title": "제천 국제음악영화제 #리센느 #메이 #shorts",
+        "channel": "채떤",
+        "date": "2026-09-06",
+        "tags": [
+            "may"
+        ]
+    },
+    {
+        "vid": "nVVImBVRgi0",
+        "title": "최대의 미스터리? 리센느 멤버들만 알고 있는 역대급 비밀 🤫 #리센느#메이의 고백#쇼츠#shorts#fyp",
+        "channel": "케이팝이슈pick",
+        "date": "2026-09-06",
+        "tags": [
+            "may",
             "minami"
         ]
     },
@@ -168,6 +439,15 @@ const SHORTS_DATA = [
         "date": "2026-09-06",
         "tags": [
             "may"
+        ]
+    },
+    {
+        "vid": "5Gipx1OcnQg",
+        "title": "리센느 :: 한양잼민+신라잼민 :: 고윤정+제나 예쁜애 옆에 예쁜애? 노노 잼민이 옆에 잼민이! #리센느 #제나 #까엉 #신라공주 #한양공주  #kpop",
+        "channel": "Ko Shorts :: 코숏",
+        "date": "2026-09-06",
+        "tags": [
+            "zena"
         ]
     },
     {
@@ -204,16 +484,6 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "QPO7u1R8sMU",
-        "title": "리센느 수학여행 간 곳, 영상 속 단서만으로 전부 찾았습니다",
-        "channel": "[data-viz 빅스타] Bigxtar",
-        "date": "2026-09-05",
-        "tags": [
-            "rescene",
-            "zena"
-        ]
-    },
-    {
         "vid": "PxbOtxsYlSw",
         "title": "만나기만 하면 서로 공격하는 리센느ㅋㅋㅋ",
         "channel": "Ongatpick",
@@ -234,16 +504,6 @@ const SHORTS_DATA = [
             "minami",
             "may",
             "zena"
-        ]
-    },
-    {
-        "vid": "BtSBbVNcM2M",
-        "title": "5만원 vs 3천원, 이 차이 뭐길래",
-        "channel": "시나몬",
-        "date": "2026-09-05",
-        "tags": [
-            "rescene",
-            "woni"
         ]
     },
     {
@@ -335,20 +595,6 @@ const SHORTS_DATA = [
         "vid": "ydlTJ-_M9kA",
         "title": "[리센느] 우이 원이만 외치는 초성게임",
         "channel": "리센느며들다",
-        "date": "2026-09-05",
-        "tags": [
-            "rescene",
-            "woni",
-            "liv",
-            "minami",
-            "may",
-            "zena"
-        ]
-    },
-    {
-        "vid": "nR_y0BEDhhA",
-        "title": "리센느가 가위바위보 하는 방법 #리센느 #RESCENE",
-        "channel": "리센느어택",
         "date": "2026-09-05",
         "tags": [
             "rescene",
@@ -556,20 +802,6 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "GUvGoQ47Vag",
-        "title": "전국 뒤흔든 파급력 #shorts #리센느",
-        "channel": "핫큐",
-        "date": "2026-09-05",
-        "tags": [
-            "rescene",
-            "woni",
-            "liv",
-            "minami",
-            "may",
-            "zena"
-        ]
-    },
-    {
         "vid": "u6c1BQdXrsE",
         "title": "데뷔 후 0일 휴식 리센느가 라이브 찢는 진짜 이유",
         "channel": "루프홀릭(LoopHolic)",
@@ -594,15 +826,6 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "O30IbTelzUc",
-        "title": "원이의 화려한 소리즬러엇! #리센느 #원이 #rescene #kpop #fancam #4k #shorts #260905 #제천",
-        "channel": "사악키",
-        "date": "2026-09-05",
-        "tags": [
-            "woni"
-        ]
-    },
-    {
         "vid": "z_5FbhasCTA",
         "title": "다섯 번호 끝!!!  #리센느",
         "channel": "데일리센느",
@@ -612,6 +835,16 @@ const SHORTS_DATA = [
             "liv",
             "minami",
             "may",
+            "zena"
+        ]
+    },
+    {
+        "vid": "JpUBah6H12w",
+        "title": "[리센느]맏막즈조합 이걸 어떻게 안봐",
+        "channel": "다시덕질을할줄이야",
+        "date": "2026-09-05",
+        "tags": [
+            "woni",
             "zena"
         ]
     },
@@ -690,19 +923,6 @@ const SHORTS_DATA = [
         "date": "2026-09-05",
         "tags": [
             "woni"
-        ]
-    },
-    {
-        "vid": "BNo1ga-tSaM",
-        "title": "엔딩 3초에 터진 눈물 #shorts #리센느",
-        "channel": "핫큐",
-        "date": "2026-09-05",
-        "tags": [
-            "woni",
-            "liv",
-            "minami",
-            "may",
-            "zena"
         ]
     },
     {
@@ -803,6 +1023,19 @@ const SHORTS_DATA = [
         ]
     },
     {
+        "vid": "GUvGoQ47Vag",
+        "title": "전국 뒤흔든 파급력 #shorts #리센느",
+        "channel": "핫큐",
+        "date": "2026-09-05",
+        "tags": [
+            "liv",
+            "woni",
+            "minami",
+            "may",
+            "zena"
+        ]
+    },
+    {
         "vid": "UBx5xINa2Rk",
         "title": "리센느 미나미가 부탁드린다고하는이유 #리센느 #비포애프터 #리센느미나미",
         "channel": "서센느",
@@ -894,6 +1127,24 @@ const SHORTS_DATA = [
         ]
     },
     {
+        "vid": "rqkd4Pwbd-k",
+        "title": "리센느 미나미 실제 과거 모습 ㄷㄷ",
+        "channel": "샤워하다 든 생각",
+        "date": "2026-09-05",
+        "tags": [
+            "minami"
+        ]
+    },
+    {
+        "vid": "T_rW2bMZeB8",
+        "title": "리센느 미나미 먹방 파트너들 ㅋㅋ",
+        "channel": "샤워하다 든 생각",
+        "date": "2026-09-05",
+        "tags": [
+            "minami"
+        ]
+    },
+    {
         "vid": "utJm8_ck_aY",
         "title": "리센느 메이 스껄 ~♪ #shorts",
         "channel": "까딱 KATTAK",
@@ -912,40 +1163,6 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "-hCTcSBS-eQ",
-        "title": "제나vs메이 팔길이 대결",
-        "channel": "아이돌발상황",
-        "date": "2026-09-05",
-        "tags": [
-            "may",
-            "woni",
-            "liv",
-            "zena"
-        ]
-    },
-    {
-        "vid": "l2Eat9xAgHE",
-        "title": "피디니무의 심경 #shorts #리센느",
-        "channel": "센느콩",
-        "date": "2026-09-05",
-        "tags": [
-            "may",
-            "woni",
-            "liv",
-            "minami",
-            "zena"
-        ]
-    },
-    {
-        "vid": "KLov1_xtNKA",
-        "title": "그립감이 좋다! - 메이(MAY) | LIKE MAY | RESCENE",
-        "channel": "Meluruna",
-        "date": "2026-09-05",
-        "tags": [
-            "may"
-        ]
-    },
-    {
         "vid": "aEDTcB2Is98",
         "title": "유독 다르다는 리센느 멤버",
         "channel": "짤잉 Zzal ing",
@@ -955,26 +1172,16 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "5q66Sowq-P4",
-        "title": "그네 타다 소환된 갈매기 제나 메이",
-        "channel": "렛츠쇼츠타임",
+        "vid": "BNo1ga-tSaM",
+        "title": "엔딩 3초에 터진 눈물 #shorts #리센느",
+        "channel": "핫큐",
         "date": "2026-09-05",
         "tags": [
-            "zena",
-            "may"
-        ]
-    },
-    {
-        "vid": "O2BH83NueCQ",
-        "title": "이등병 제나의 좌충우돌 험난기 #리센느",
-        "channel": "후반부의악마진경은",
-        "date": "2026-09-05",
-        "tags": [
-            "zena",
+            "may",
             "woni",
             "liv",
             "minami",
-            "may"
+            "zena"
         ]
     },
     {
@@ -1168,9 +1375,32 @@ const SHORTS_DATA = [
         ]
     },
     {
+        "vid": "XYhatYsmlg4",
+        "title": "260904 리센느(RESCENE) - Pinball 핀볼 [살람서울페스티벌] #shorts",
+        "channel": "Susie Lee",
+        "date": "2026-09-04",
+        "tags": [
+            "rescene"
+        ]
+    },
+    {
         "vid": "_Vwcma3WB48",
         "title": "드디어 리센느 응원봉 등장💡✨무대 위 리센느가 빛난다면객석에서는 우리가 빛날 차례💙원이, 리브, 미나미, 메이, 제나를 향한리마인들의 마음이 하나의 빛으로 모이는 순간.",
         "channel": "1987리우데자네이루",
+        "date": "2026-09-04",
+        "tags": [
+            "rescene",
+            "woni",
+            "liv",
+            "minami",
+            "may",
+            "zena"
+        ]
+    },
+    {
+        "vid": "UAJj25dIaBk",
+        "title": "PD님 당신이 리센느를 키우셨나요? (답정너) | 리센느",
+        "channel": "이센느",
         "date": "2026-09-04",
         "tags": [
             "rescene",
@@ -1300,6 +1530,16 @@ const SHORTS_DATA = [
         ]
     },
     {
+        "vid": "RKHLzJPhmM4",
+        "title": "팬들이 기대하고 있든 리센느 만남 근황",
+        "channel": "미녀협회",
+        "date": "2026-09-04",
+        "tags": [
+            "rescene",
+            "may"
+        ]
+    },
+    {
         "vid": "sFqfOmtszpM",
         "title": "큰일 해낸 리센느 광고주",
         "channel": "짤잉 Zzal ing",
@@ -1349,6 +1589,20 @@ const SHORTS_DATA = [
         "date": "2026-09-04",
         "tags": [
             "rescene",
+            "zena"
+        ]
+    },
+    {
+        "vid": "YVea1PDF-9g",
+        "title": "아이유 커버한 리센느 리브! 1000:1 경쟁률 뚫을만 했네 ㅋㅋㅋ",
+        "channel": "웃픽쇼츠",
+        "date": "2026-09-04",
+        "tags": [
+            "rescene",
+            "woni",
+            "liv",
+            "minami",
+            "may",
             "zena"
         ]
     },
@@ -1455,35 +1709,9 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "P-M8n5LmBcA",
-        "title": "엄마 이름 하나로 동네 식당 통닭 공짜로 먹는 리센느 원이 #리센느 #원이 #리브 #메이 #미나미 #제나 #아이돌 #kpop  #shorts",
-        "channel": "문어필름",
-        "date": "2026-09-04",
-        "tags": [
-            "woni",
-            "liv",
-            "minami",
-            "may",
-            "zena"
-        ]
-    },
-    {
         "vid": "u7a996nyTcI",
         "title": "\"왜 따뜻하겠어 ㅋㅋㅋ\" 골드버튼 실물 보고 경악한 리센느 근황",
         "channel": "렛츠쇼츠타임",
-        "date": "2026-09-04",
-        "tags": [
-            "woni",
-            "liv",
-            "minami",
-            "may",
-            "zena"
-        ]
-    },
-    {
-        "vid": "UAJj25dIaBk",
-        "title": "PD님 당신이 리센느를 키우셨나요? (답정너) | 리센느",
-        "channel": "이센느",
         "date": "2026-09-04",
         "tags": [
             "woni",
@@ -1597,6 +1825,19 @@ const SHORTS_DATA = [
         ]
     },
     {
+        "vid": "P-M8n5LmBcA",
+        "title": "엄마 이름 하나로 동네 식당 통닭 공짜로 먹는 리센느 원이 #리센느 #원이 #리브 #메이 #미나미 #제나 #아이돌 #kpop  #shorts",
+        "channel": "문어필름",
+        "date": "2026-09-04",
+        "tags": [
+            "liv",
+            "woni",
+            "minami",
+            "may",
+            "zena"
+        ]
+    },
+    {
         "vid": "SiW36LpIc_g",
         "title": "진경은 vs 리센느 리브 ㄷㄷ",
         "channel": "샤워하다 든 생각",
@@ -1622,19 +1863,6 @@ const SHORTS_DATA = [
         "vid": "NLStm1cuAWU",
         "title": "리센느 (.feat 선민삼촌) 낭만치사량의 서사 바람대로 이루어진 선민삼촌과 원이의 소원",
         "channel": "열두시",
-        "date": "2026-09-04",
-        "tags": [
-            "liv",
-            "woni",
-            "minami",
-            "may",
-            "zena"
-        ]
-    },
-    {
-        "vid": "YVea1PDF-9g",
-        "title": "아이유 커버한 리센느 리브! 1000:1 경쟁률 뚫을만 했네 ㅋㅋㅋ",
-        "channel": "웃픽쇼츠",
         "date": "2026-09-04",
         "tags": [
             "liv",
@@ -1706,9 +1934,9 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "gTqc4eIHQZo",
-        "title": "라이브가 뜸했던 이유를 알려주는 미나미 #미나미",
-        "channel": "대전왕발까락",
+        "vid": "8C8XF7x48CE",
+        "title": "[리센느] 언어천재 미나미의 한국어 교실",
+        "channel": "오늘도 리센느",
         "date": "2026-09-04",
         "tags": [
             "minami",
@@ -1748,9 +1976,9 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "JnjQM_2KGUw",
-        "title": "[리센느] 다음 메이의 뿌리는 아빠 출연???",
-        "channel": "신라까엉주",
+        "vid": "Demxbj-5ffk",
+        "title": "미나미가 알려주는 짜장라면 조합 #리센느 #RESCENE",
+        "channel": "리센느어택",
         "date": "2026-09-04",
         "tags": [
             "may",
@@ -1761,9 +1989,9 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "D2tfFKY5U1E",
-        "title": "골드버튼 막 다루는 안원잘부ㅋㅋ #리센느 #RESCENE",
-        "channel": "리센느어택",
+        "vid": "JnjQM_2KGUw",
+        "title": "[리센느] 다음 메이의 뿌리는 아빠 출연???",
+        "channel": "신라까엉주",
         "date": "2026-09-04",
         "tags": [
             "may",
@@ -1784,12 +2012,13 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "GW4lt_mDBr8",
-        "title": "고윤… 아니 제나😳 아디다스 져지 입고 등장 데뷔초 2024.04.12 뮤뱅 리센느(RESCENE) 두 번째 출근길 #리센느 #RESCENE #제나 #JENA #musicbank",
-        "channel": "PMK 포토뮤직코리아",
+        "vid": "5U3UGqlTTeo",
+        "title": "리브가 모기한테 피를 나눠주는 조건ㅋㅋㅋ#shorts",
+        "channel": "파이리센느강",
         "date": "2026-09-04",
         "tags": [
-            "zena"
+            "zena",
+            "liv"
         ]
     },
     {
@@ -1988,27 +2217,9 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "MzRT28Y0iUQ",
-        "title": "#shorts 국립부경대학교 댄스동아리 네오쇼크 'RESCENE (리센느) - Deja Vu'",
-        "channel": "달달혀누",
-        "date": "2026-09-03",
-        "tags": [
-            "rescene"
-        ]
-    },
-    {
         "vid": "jdVhjhllWE4",
         "title": "리센느 멤버들이 핸드폰이 없는 진짜 이유? #이슈",
         "channel": "스르륵",
-        "date": "2026-09-03",
-        "tags": [
-            "rescene"
-        ]
-    },
-    {
-        "vid": "2Yxu6myhy2U",
-        "title": "리센느 영상 안보는 이유",
-        "channel": "샤워하다 든 생각",
         "date": "2026-09-03",
         "tags": [
             "rescene"
@@ -2136,17 +2347,6 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "5NypavC-kCA",
-        "title": "리센느가 음방 번따남을 차단하는 법 #리센느 #원이 #미나미 #shorts",
-        "channel": "돌아에몽",
-        "date": "2026-09-03",
-        "tags": [
-            "rescene",
-            "woni",
-            "minami"
-        ]
-    },
-    {
         "vid": "GKZzLSJKv2w",
         "title": "리센느 (RESCENE) - 제나❤️2026 천안 K-Culture 박람회",
         "channel": "REC 축제직캠",
@@ -2154,6 +2354,15 @@ const SHORTS_DATA = [
         "tags": [
             "rescene",
             "zena"
+        ]
+    },
+    {
+        "vid": "MR6aJ5uoM18",
+        "title": "갑자기 이별 언급한 리센느",
+        "channel": "짤잉 Zzal ing",
+        "date": "2026-09-03",
+        "tags": [
+            "rescene"
         ]
     },
     {
@@ -2174,15 +2383,6 @@ const SHORTS_DATA = [
         "tags": [
             "rescene",
             "woni"
-        ]
-    },
-    {
-        "vid": "fZveeCbEfQc",
-        "title": "장도연 보자마자 와락 안기더니 찐팬 고백한 리센느 ㅋㅋ #리센느 #RESCENE #장도연 #살롱드립 #예능 #아이돌 #케미 #웃긴영상 #쇼츠 #shorts #유머",
-        "channel": "매일웃숏",
-        "date": "2026-09-03",
-        "tags": [
-            "rescene"
         ]
     },
     {
@@ -2260,28 +2460,6 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "Oj7uuR0IW88",
-        "title": "너 걔 싫지? #리브#제나#메이#리센느#미나미#원이#shorts#쇼츠#아이돌#리센느사랑해#무시하면반대#떡상#떠라#복수",
-        "channel": "거제예쁘니",
-        "date": "2026-09-03",
-        "tags": [
-            "woni",
-            "liv",
-            "minami",
-            "may",
-            "zena"
-        ]
-    },
-    {
-        "vid": "PCPoyk4c0VU",
-        "title": "연습이 의심되는 원이의 삑사리(ft. 소리질러)",
-        "channel": "방구석리마인",
-        "date": "2026-09-03",
-        "tags": [
-            "woni"
-        ]
-    },
-    {
         "vid": "4HrhyhlHaBA",
         "title": "브랜드평판 올킬 #shorts #리센느",
         "channel": "센느콩",
@@ -2317,15 +2495,6 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "3Zvt_WzfDWI",
-        "title": "이선민 부름에 응답하는 리센느와 원이(feat.허남준)",
-        "channel": "킹카퀸카 아카이브",
-        "date": "2026-09-03",
-        "tags": [
-            "woni"
-        ]
-    },
-    {
         "vid": "463h2xdwk3k",
         "title": "원이 \"라이브 억지로 킨 거 아니에요\" (초심을 잃지 않는 원이)",
         "channel": "거제파이리 원이의 리센느 일기장",
@@ -2336,6 +2505,16 @@ const SHORTS_DATA = [
             "minami",
             "may",
             "zena"
+        ]
+    },
+    {
+        "vid": "5NypavC-kCA",
+        "title": "리센느가 음방 번따남을 차단하는 법 #리센느 #원이 #미나미 #shorts",
+        "channel": "돌아에몽",
+        "date": "2026-09-03",
+        "tags": [
+            "woni",
+            "minami"
         ]
     },
     {
@@ -2365,16 +2544,6 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "GYHGZoyCPdI",
-        "title": "리센느가 아직도 개인 휴대폰이 없는 이유",
-        "channel": "최고의장면1분",
-        "date": "2026-09-03",
-        "tags": [
-            "woni",
-            "minami"
-        ]
-    },
-    {
         "vid": "_Zx6lW1yKBc",
         "title": "파이리 원짱  #리센느",
         "channel": "데일리센느",
@@ -2385,6 +2554,25 @@ const SHORTS_DATA = [
             "minami",
             "may",
             "zena"
+        ]
+    },
+    {
+        "vid": "1gsDRiAmXmk",
+        "title": "하루 종일 자는 별이  #리센느",
+        "channel": "데일리센느",
+        "date": "2026-09-03",
+        "tags": [
+            "woni"
+        ]
+    },
+    {
+        "vid": "HBpBkFkI79s",
+        "title": "호감 스무디 먹어봤어요?  #리센느",
+        "channel": "데일리센느",
+        "date": "2026-09-03",
+        "tags": [
+            "woni",
+            "liv"
         ]
     },
     {
@@ -2399,13 +2587,13 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "HLfgJ7Knf8c",
-        "title": "제나한테 ‘니가 먼데’ 했던 리브의 진짜 속마음ㅋㅋ | 리센느",
-        "channel": "센둥이우이",
+        "vid": "HLWmhQeZ7mU",
+        "title": "멤버 전원 천만 뷰 터진 리센느 #shorts #리센느",
+        "channel": "루프홀릭(LoopHolic)",
         "date": "2026-09-03",
         "tags": [
             "liv",
-            "zena"
+            "may"
         ]
     },
     {
@@ -2445,16 +2633,6 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "HBpBkFkI79s",
-        "title": "호감 스무디 먹어봤어요?  #리센느",
-        "channel": "데일리센느",
-        "date": "2026-09-03",
-        "tags": [
-            "liv",
-            "woni"
-        ]
-    },
-    {
         "vid": "tuY0rR3Obs8",
         "title": "모이기만 하면 조롱하는 여돌 실존ㅋㅋ #shorts #쇼츠 #리센느 #RESCENE #원이 #미나미 #제나 #리브 #메이 #안원잘부 #친자매케미 #서로놀리기 #현실친구",
         "channel": "스타픽스",
@@ -2486,32 +2664,12 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "fdbS8bkA3-A",
-        "title": "리센느 미나미 라이브 최고 동접 3만 5,453명",
-        "channel": "[data-viz 빅스타] Bigxtar",
-        "date": "2026-09-03",
-        "tags": [
-            "minami",
-            "zena"
-        ]
-    },
-    {
         "vid": "UiIxj8HwuOg",
         "title": "사투리가 어려운 미나미",
         "channel": "모아바",
         "date": "2026-09-03",
         "tags": [
             "minami"
-        ]
-    },
-    {
-        "vid": "LPUQTAcQFUE",
-        "title": "거제도에 갸루 데리고 왔더니 현실 반응 폭발함 ㅋㅋㅋ #리센느 #원이 #미나미 #Shorts",
-        "channel": "문어필름",
-        "date": "2026-09-03",
-        "tags": [
-            "minami",
-            "woni"
         ]
     },
     {
@@ -2524,28 +2682,22 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "y-c8g84pip0",
-        "title": "향기에 진심인 미나미 핸드바디크림 다 같은 향으로",
-        "channel": "유용핑",
+        "vid": "KTslA4Wwqfw",
+        "title": "[리센느] 드디어 실물 영접한 미나미",
+        "channel": "오늘도 리센느",
         "date": "2026-09-03",
         "tags": [
-            "minami"
+            "minami",
+            "woni",
+            "liv",
+            "may",
+            "zena"
         ]
     },
     {
         "vid": "f0yLpfK_UZo",
         "title": "日本語で愛されるK-POPアイドル (리센느 미나미) #shorts #리센느 #미나미 #リセンヌ",
         "channel": "リアルコリア(리얼코리아)",
-        "date": "2026-09-03",
-        "tags": [
-            "minami",
-            "woni"
-        ]
-    },
-    {
-        "vid": "SIA1FTRyVhs",
-        "title": "리센느 미나미가 원이 강퇴시킨 사연 #shorts #리센느",
-        "channel": "루프홀릭(LoopHolic)",
         "date": "2026-09-03",
         "tags": [
             "minami",
@@ -2575,9 +2727,9 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "HLWmhQeZ7mU",
-        "title": "멤버 전원 천만 뷰 터진 리센느 #shorts #리센느",
-        "channel": "루프홀릭(LoopHolic)",
+        "vid": "exdPbttnMHQ",
+        "title": "한 번도 안본 사람은 있어도 한번만 본 사람은 없다는 메이 입덕 영상",
+        "channel": "낭만이 울림이지",
         "date": "2026-09-03",
         "tags": [
             "may"
@@ -2801,19 +2953,6 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "dycSt2ehoR8",
-        "title": "리센느 - Love Attack (러브어택)💕 / 2026 천안 K-Culture 박람회",
-        "channel": "REC 축제직캠",
-        "date": "2026-09-02",
-        "tags": [
-            "woni",
-            "liv",
-            "minami",
-            "may",
-            "zena"
-        ]
-    },
-    {
         "vid": "1WzMGHQnHHg",
         "title": "원이 \"시그니엘에서 엄마랑 잤어요\" (룸서비스까지 시켜준 꾸대표님)",
         "channel": "거제파이리 원이의 리센느 일기장",
@@ -2827,15 +2966,6 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "LEhtIsgHC5s",
-        "title": "이정도면 무대 삑살 고의성 리센느 원이  #리센느 #리센느원이 #무대실수",
-        "channel": "서센느",
-        "date": "2026-09-02",
-        "tags": [
-            "woni"
-        ]
-    },
-    {
         "vid": "hmT4Th8brCA",
         "title": "리센느 원이 노잼은 절대 용서못함 (미나미 아재개그 최후)#리센느#RESCENE",
         "channel": "아이돌썰플리",
@@ -2844,6 +2974,15 @@ const SHORTS_DATA = [
             "woni",
             "minami",
             "may"
+        ]
+    },
+    {
+        "vid": "DC7KUXJY5kI",
+        "title": "리센느 인기가 절대 식을 수 없는 이유",
+        "channel": "스타월드",
+        "date": "2026-09-02",
+        "tags": [
+            "woni"
         ]
     },
     {
@@ -2866,6 +3005,19 @@ const SHORTS_DATA = [
         ]
     },
     {
+        "vid": "dycSt2ehoR8",
+        "title": "리센느 - Love Attack (러브어택)💕 / 2026 천안 K-Culture 박람회",
+        "channel": "REC 축제직캠",
+        "date": "2026-09-02",
+        "tags": [
+            "liv",
+            "woni",
+            "minami",
+            "may",
+            "zena"
+        ]
+    },
+    {
         "vid": "RXgYdOJfTys",
         "title": "공연 중 원이가 리브에게 끌려가는 이유",
         "channel": "리센느냐?",
@@ -2882,19 +3034,6 @@ const SHORTS_DATA = [
         "vid": "Sp8dgkk_UMs",
         "title": "리센느, 신인 아이돌 브랜드평판 1위부터 5위까지 #shorts",
         "channel": "[data-viz 빅스타] Bigxtar",
-        "date": "2026-09-02",
-        "tags": [
-            "liv",
-            "woni",
-            "minami",
-            "may",
-            "zena"
-        ]
-    },
-    {
-        "vid": "nw6Xa54OQnU",
-        "title": "언니즈만 남은 리센느 전원일기\r#킥드럼베이스 #리센느 #원이 #리브 #미나미 #메이 #제나#shorts #프리티걸 #러브어택 #데자부",
-        "channel": "뮤드숏",
         "date": "2026-09-02",
         "tags": [
             "liv",
@@ -2966,6 +3105,19 @@ const SHORTS_DATA = [
         ]
     },
     {
+        "vid": "Yoq6C0ylCUo",
+        "title": "카페 사장님한테 아이돌인 척 해봤는데 반응이 너무 현실적이라 도망쳤습니다 ㅋㅋ #리센느 #메이 #리브 #원이 #미나미 #제나 #아이돌 #kpop  #shorts",
+        "channel": "문어필름",
+        "date": "2026-09-02",
+        "tags": [
+            "liv",
+            "woni",
+            "minami",
+            "may",
+            "zena"
+        ]
+    },
+    {
         "vid": "ucgo_qfJbQI",
         "title": "드디어 오랜 최애 사나랑 만난 미나미",
         "channel": "볼사람",
@@ -2975,9 +3127,9 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "U_lxSqQ2mqU",
-        "title": "더 눈부시게 피어나는 리센느✨향기로운 RESCENE 두 번째 미니앨범 ‘Glow Up’ 쇼케이스 인터뷰중 펼쳐진 한글자 릴레이 게임🎤 #리센느 #원이 #미나미 #제나 #리브 #메이",
-        "channel": "PMK 포토뮤직코리아",
+        "vid": "l19sQQMPSwc",
+        "title": "[리센느] 개쩌는 노래에 취해버린 메이 #리센느",
+        "channel": "리센느서치P 🔭",
         "date": "2026-09-02",
         "tags": [
             "may",
@@ -2988,9 +3140,9 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "l19sQQMPSwc",
-        "title": "[리센느] 개쩌는 노래에 취해버린 메이 #리센느",
-        "channel": "리센느서치P 🔭",
+        "vid": "OLi03JCbquI",
+        "title": "평론가 라이너가 생각하는 리센느 인기 비결 #리센느 #RESCENE #라이너",
+        "channel": "리센느카페",
         "date": "2026-09-02",
         "tags": [
             "may",
@@ -3064,32 +3216,15 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "w6fZ3iJzOP4",
-        "title": "리센느 제나 망해또띠 ~ ♪ #shorts",
-        "channel": "까딱 KATTAK",
+        "vid": "nw6Xa54OQnU",
+        "title": "언니즈만 남은 리센느 전원일기\r#킥드럼베이스 #리센느 #원이 #리브 #미나미 #메이 #제나#shorts #프리티걸 #러브어택 #데자부",
+        "channel": "뮤드숏",
         "date": "2026-09-02",
         "tags": [
             "zena",
-            "may"
-        ]
-    },
-    {
-        "vid": "nfOx6YdGXAc",
-        "title": "이번주 아이돌 패션 (에스파 카리나, 레드벨벳 예리, 리센느 제나) 착장 #아이돌착장 #데일리룩",
-        "channel": "아이돌Hunter",
-        "date": "2026-09-02",
-        "tags": [
-            "zena",
-            "liv"
-        ]
-    },
-    {
-        "vid": "8PTsMGjdEUc",
-        "title": "리센느 제나X메이 도르마무 걸린 레전드 방송사고 #shorts #리센느",
-        "channel": "루프홀릭(LoopHolic)",
-        "date": "2026-09-02",
-        "tags": [
-            "zena",
+            "woni",
+            "liv",
+            "minami",
             "may"
         ]
     },
@@ -3219,6 +3354,30 @@ const SHORTS_DATA = [
         ]
     },
     {
+        "vid": "y3BvaAsDbII",
+        "title": "리센느 원이 - LIKE WONI (라이크 워니) | 팬송 M/V 🔥 안원잘부 · 미나미 · 라이크원이",
+        "channel": "김피디 AI",
+        "date": "2026-09-01",
+        "tags": [
+            "woni",
+            "minami",
+            "may"
+        ]
+    },
+    {
+        "vid": "nPn4lfo3Xjs",
+        "title": "어릴 때 축구 잘한다고 소문난 김까엉씨 #리센느",
+        "channel": "후반부의악마진경은",
+        "date": "2026-09-01",
+        "tags": [
+            "woni",
+            "liv",
+            "minami",
+            "may",
+            "zena"
+        ]
+    },
+    {
         "vid": "MvtVxBx1Ifw",
         "title": "원이가 내리는데 갑자기 반말하는 팬 #리센느 #리센느원이 #리마인",
         "channel": "서센느",
@@ -3248,19 +3407,6 @@ const SHORTS_DATA = [
         "tags": [
             "liv",
             "minami",
-            "zena"
-        ]
-    },
-    {
-        "vid": "nPn4lfo3Xjs",
-        "title": "어릴 때 축구 잘한다고 소문난 김까엉씨 #리센느",
-        "channel": "후반부의악마진경은",
-        "date": "2026-09-01",
-        "tags": [
-            "liv",
-            "woni",
-            "minami",
-            "may",
             "zena"
         ]
     },
@@ -3326,19 +3472,6 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "_5BFCgekfKE",
-        "title": "막내즈가 LA에서 노는 법 하루 요약본 #리센느",
-        "channel": "후반부의악마진경은",
-        "date": "2026-09-01",
-        "tags": [
-            "may",
-            "woni",
-            "liv",
-            "minami",
-            "zena"
-        ]
-    },
-    {
         "vid": "TSbPJ1VdBQg",
         "title": "리센느 메이가 제나에게 첫인상 물어봤다가 충격받은 이유 ㅋㅋㅋ #shorts",
         "channel": "리센느쇼츠",
@@ -3372,9 +3505,9 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "PJT89GjTDgI",
-        "title": "서울보다 2배 큰 도시가 촌이라고? 리센느 멤버들 목숨 건 지역부심 싸움 #리센느 #제나 #원이 #미나미#메이 #리브 #아이돌 #kpop #shorts",
-        "channel": "문어필름",
+        "vid": "_5BFCgekfKE",
+        "title": "막내즈가 LA에서 노는 법 하루 요약본 #리센느",
+        "channel": "후반부의악마진경은",
         "date": "2026-09-01",
         "tags": [
             "zena",
@@ -3385,12 +3518,29 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "1Fca1jzpjoc",
-        "title": "더 고점이 남아있는 리센느 최신근황",
-        "channel": "미녀협회",
+        "vid": "Pj4-2iMhBH0",
+        "title": "[리센느] 진짜 잼민이 메이",
+        "channel": "리센느며들다",
         "date": "2026-09-01",
         "tags": [
-            "zena"
+            "zena",
+            "woni",
+            "liv",
+            "minami",
+            "may"
+        ]
+    },
+    {
+        "vid": "PJT89GjTDgI",
+        "title": "서울보다 2배 큰 도시가 촌이라고? 리센느 멤버들 목숨 건 지역부심 싸움 #리센느 #제나 #원이 #미나미#메이 #리브 #아이돌 #kpop #shorts",
+        "channel": "문어필름",
+        "date": "2026-09-01",
+        "tags": [
+            "zena",
+            "woni",
+            "liv",
+            "minami",
+            "may"
         ]
     },
     {
@@ -3417,15 +3567,6 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "i74U4Tnt91Y",
-        "title": "리센느 RESCENE 미니 3집 lip bomb Bloom 앨범깡 리뷰 #shorts #리센느 #rescene #kpop #앨범깡 #앨범언박싱",
-        "channel": "엔써리",
-        "date": "2026-08-31",
-        "tags": [
-            "rescene"
-        ]
-    },
-    {
         "vid": "g_AVR5Yr7S8",
         "title": "메이 배경화면 하면 돈들어옴 #리센느 #RESCENE",
         "channel": "리센느어택",
@@ -3437,17 +3578,6 @@ const SHORTS_DATA = [
             "minami",
             "may",
             "zena"
-        ]
-    },
-    {
-        "vid": "EQCtAV6Svk0",
-        "title": "[리센느] 뭔가 달라진 거제 야호 #rescene #kpop #리센느 #팬영상 #팬튜브 #미나미 #원이 #유머 #예능 #케이팝 #쇼츠 #아이돌 #안원잘부 #shorts",
-        "channel": "오늘도 미나미",
-        "date": "2026-08-31",
-        "tags": [
-            "rescene",
-            "woni",
-            "minami"
         ]
     },
     {
@@ -3683,6 +3813,19 @@ const SHORTS_DATA = [
         ]
     },
     {
+        "vid": "pO-ny1ef-XU",
+        "title": "미나미 \"너는 작아서 보이지도 않겠다~\" (메이 \"허! 미나미 언니 실체 보셨죠?\")",
+        "channel": "거제파이리 원이의 리센느 일기장",
+        "date": "2026-08-31",
+        "tags": [
+            "zena",
+            "woni",
+            "liv",
+            "minami",
+            "may"
+        ]
+    },
+    {
         "vid": "BVdMZimOZ8E",
         "title": "까엉이가 팬의 부탁을 들어줄 수 없는 이유",
         "channel": "제노 플래쉬",
@@ -3747,43 +3890,6 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "2Dic14pus2k",
-        "title": "메이의 다이소 추천템ㅋㅋ#리센느 #RESCENE",
-        "channel": "리센느어택",
-        "date": "2026-08-30",
-        "tags": [
-            "rescene",
-            "woni",
-            "liv",
-            "minami",
-            "may",
-            "zena"
-        ]
-    },
-    {
-        "vid": "fJYrse1YKD0",
-        "title": "원이와 리브의 초딩모먼트ㅋㅋ #리센느 #RESCENE",
-        "channel": "리센느어택",
-        "date": "2026-08-30",
-        "tags": [
-            "rescene",
-            "woni",
-            "liv",
-            "minami",
-            "may",
-            "zena"
-        ]
-    },
-    {
-        "vid": "YX793p58W3Q",
-        "title": "May is So Cute - Rescene (리센느) - KCON LA 2026 4K #rescene #shorts",
-        "channel": "DWong1",
-        "date": "2026-08-30",
-        "tags": [
-            "rescene"
-        ]
-    },
-    {
         "vid": "Lquss-dRHYo",
         "title": "Like WONI  LIVE Stage ver. 리센느 원이  라이크  워니 라이크 워니 안원잘부 #원이 #안원잘부 #RESCENE #Shorts #리센느",
         "channel": "REO",
@@ -3830,6 +3936,19 @@ const SHORTS_DATA = [
         ]
     },
     {
+        "vid": "PBQexxTMFiE",
+        "title": "리브 \"너 진짜 혼나볼래~?\" (하다하다 녹음 목소리로 웃김ㅋㅋㅋ)",
+        "channel": "거제파이리 원이의 리센느 일기장",
+        "date": "2026-08-30",
+        "tags": [
+            "liv",
+            "woni",
+            "minami",
+            "may",
+            "zena"
+        ]
+    },
+    {
         "vid": "T0V48Zk2-kU",
         "title": "시그니엘에서의 모습! 우리가 좋아하는 그냥 리센느!",
         "channel": "리scene",
@@ -3840,6 +3959,16 @@ const SHORTS_DATA = [
             "minami",
             "may",
             "zena"
+        ]
+    },
+    {
+        "vid": "mJss6JxIP1Y",
+        "title": "28년 고집 꺾은 걸그룹 #Shorts",
+        "channel": "핫큐",
+        "date": "2026-08-30",
+        "tags": [
+            "minami",
+            "woni"
         ]
     },
     {
@@ -3889,6 +4018,15 @@ const SHORTS_DATA = [
         ]
     },
     {
+        "vid": "2eY298sF4As",
+        "title": "창문이 열리자 사람들이 모두 깜짝 놀란 이유",
+        "channel": "제노 플래쉬",
+        "date": "2026-08-30",
+        "tags": [
+            "may"
+        ]
+    },
+    {
         "vid": "Rl7V229h4y0",
         "title": "학습능력 엄청난 리센느 제나",
         "channel": "짤잉 Zzal ing",
@@ -3905,19 +4043,6 @@ const SHORTS_DATA = [
         "date": "2026-08-30",
         "tags": [
             "zena"
-        ]
-    },
-    {
-        "vid": "PBQexxTMFiE",
-        "title": "리브 \"너 진짜 혼나볼래~?\" (하다하다 녹음 목소리로 웃김ㅋㅋㅋ)",
-        "channel": "거제파이리 원이의 리센느 일기장",
-        "date": "2026-08-30",
-        "tags": [
-            "zena",
-            "woni",
-            "liv",
-            "minami",
-            "may"
         ]
     },
     {
@@ -3968,19 +4093,6 @@ const SHORTS_DATA = [
         "vid": "35TXlIokcVk",
         "title": "리브가 무대에서 실수하고 한 말",
         "channel": "리센느냐?",
-        "date": "2026-08-29",
-        "tags": [
-            "liv",
-            "woni",
-            "minami",
-            "may",
-            "zena"
-        ]
-    },
-    {
-        "vid": "vDR6UMa4Q28",
-        "title": "[리센느] 재혼 드립에 말문이 막힌 삼촌 #리센느",
-        "channel": "리센느서치P 🔭",
         "date": "2026-08-29",
         "tags": [
             "liv",
@@ -4059,16 +4171,6 @@ const SHORTS_DATA = [
         "vid": "5PxO0IKOOKg",
         "title": "저점매수 가능하다며 입소문 타는 리센느 명곡들 #shorts",
         "channel": "말아드림",
-        "date": "2026-08-29",
-        "tags": [
-            "minami",
-            "woni"
-        ]
-    },
-    {
-        "vid": "ByvAreVfMOs",
-        "title": "리센느 미나미 건치 미소 꿀팁✨",
-        "channel": "셀픽내픽",
         "date": "2026-08-29",
         "tags": [
             "minami",
@@ -4250,17 +4352,6 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "Nl2VkT1NpCI",
-        "title": "하유 \"땄다 치고\" #shorts, #리센느, #RESCENE, #원이, #미나미, #리브, #원이와인, #라이크원이, #LIKE WONI, #망고빙수,",
-        "channel": "리센느닷없이",
-        "date": "2026-08-28",
-        "tags": [
-            "minami",
-            "woni",
-            "liv"
-        ]
-    },
-    {
         "vid": "lfosb2T6YhQ",
         "title": "[리센느 안원잘부] 갸루가 뭐더라?",
         "channel": "오늘도 리센느",
@@ -4274,20 +4365,15 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "jf-EJiztRqs",
-        "title": "오늘은 리센느의 데자뷰 후렴구를 불러봤습니다. #shorts #알고리즘 #리센느 #제나 #dejavu #인기급상승",
-        "channel": "지워니의 채널",
-        "date": "2026-08-28",
+        "vid": "RJc5tIGmIoU",
+        "title": "충격적인 리센느 광고 촬영 현장",
+        "channel": "리센느어택",
+        "date": "2026-08-27",
         "tags": [
-            "zena"
-        ]
-    },
-    {
-        "vid": "YphNdcJwZ3Y",
-        "title": "멤버 모두 1000만 조회수 달성한 리센느 최신근황",
-        "channel": "미녀협회",
-        "date": "2026-08-28",
-        "tags": [
+            "woni",
+            "liv",
+            "minami",
+            "may",
             "zena"
         ]
     },
@@ -4314,35 +4400,12 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "Yp6mRZbLIZs",
-        "title": "리센느 메이, 데뷔하자마자 대참사 날 뻔한 사건ㅋㅋㅋ🤣WONI ATTACK #리센느 #RESCENE #메이 #MAY #원이 #WONI #ATTACK #러브어택 #뮤직뱅크 #KPOP",
-        "channel": "PMK 포토뮤직코리아",
-        "date": "2026-08-27",
-        "tags": [
-            "woni",
-            "may"
-        ]
-    },
-    {
         "vid": "__h9jb7aqe4",
         "title": "원이만 보면 따라하는 리센느 제나 근황",
         "channel": "미녀협회",
         "date": "2026-08-27",
         "tags": [
             "woni",
-            "zena"
-        ]
-    },
-    {
-        "vid": "RJc5tIGmIoU",
-        "title": "충격적인 리센느 광고 촬영 현장",
-        "channel": "리센느어택",
-        "date": "2026-08-27",
-        "tags": [
-            "liv",
-            "woni",
-            "minami",
-            "may",
             "zena"
         ]
     },
@@ -4396,59 +4459,6 @@ const SHORTS_DATA = [
             "minami",
             "may",
             "zena"
-        ]
-    },
-    {
-        "vid": "aJts-e8U7E4",
-        "title": "갸루되다 깜놀한 아이돌#리센느 #미나미 #원이 #rescene #kpop",
-        "channel": "덕후지인",
-        "date": "2026-08-27",
-        "tags": [
-            "minami",
-            "woni"
-        ]
-    },
-    {
-        "vid": "Zzf29FBBbnY",
-        "title": "리브 따라하기 장인 미나미 ㅋㅋㅋ #리센느 #RESCENE #미나미 #MINAMI #리브 #LIV #아이돌쇼츠 #KPOP #케이팝 #걸그룹 #팬튜브 #쇼츠 #shorts",
-        "channel": "센느주의보",
-        "date": "2026-08-27",
-        "tags": [
-            "minami",
-            "woni",
-            "liv"
-        ]
-    },
-    {
-        "vid": "JFrXjgJI6OE",
-        "title": "리센느 떡상 후 미나미 팬들이 아쉬워하는 이유 #shorts",
-        "channel": "말아드림",
-        "date": "2026-08-27",
-        "tags": [
-            "minami",
-            "woni"
-        ]
-    },
-    {
-        "vid": "H01bcHbsBMs",
-        "title": "아무도 제나를 막을 수 없다ㅋㅋ (메이 \"리브 언니 까엉이 혼내줘ㅠㅠ\")",
-        "channel": "거제파이리 원이의 리센느 일기장",
-        "date": "2026-08-27",
-        "tags": [
-            "may",
-            "woni",
-            "liv",
-            "minami",
-            "zena"
-        ]
-    },
-    {
-        "vid": "S-ISUw2sAzU",
-        "title": "리센느 CU 광고에서 100% 애드립이었던 장면",
-        "channel": "제노 플래쉬",
-        "date": "2026-08-27",
-        "tags": [
-            "may"
         ]
     },
     {
@@ -4536,16 +4546,6 @@ const SHORTS_DATA = [
         ]
     },
     {
-        "vid": "xkkHx9U6MdU",
-        "title": "리브 언니가 부러운 메이 모음 | 리센느 메이",
-        "channel": "이센느",
-        "date": "2026-08-26",
-        "tags": [
-            "liv",
-            "may"
-        ]
-    },
-    {
         "vid": "aoJ5S5AZxrk",
         "title": "제대로 긁혀버린 원이 ㅋㅋ #리센느 #RESCENE",
         "channel": "리센느어택",
@@ -4615,64 +4615,6 @@ const SHORTS_DATA = [
         "title": "미나미가 유일하게 못하는 한국어ㅋㅋ#리센느 #RESCENE",
         "channel": "리센느어택",
         "date": "2026-08-24",
-        "tags": [
-            "woni",
-            "liv",
-            "minami",
-            "may",
-            "zena"
-        ]
-    },
-    {
-        "vid": "_IZ3vUpv-9o",
-        "title": "본인 요리 먹겠냐 물었다가 거절당한 리브 #리센느 #rescene",
-        "channel": "SCENE PICK",
-        "date": "2026-08-24",
-        "tags": [
-            "woni",
-            "liv",
-            "minami",
-            "may",
-            "zena"
-        ]
-    },
-    {
-        "vid": "wGMxAlqo6io",
-        "title": "[리센느] 원이 따라쟁이 동생들",
-        "channel": "온리센느",
-        "date": "2026-08-24",
-        "tags": [
-            "woni",
-            "liv",
-            "minami",
-            "may",
-            "zena"
-        ]
-    },
-    {
-        "vid": "xKZgm9jsx6U",
-        "title": "리브에게 기습당한 원이 #kpop #리센느 #rescene  #쇼츠",
-        "channel": "월화수목금리센느",
-        "date": "2026-08-23",
-        "tags": [
-            "woni",
-            "liv"
-        ]
-    },
-    {
-        "vid": "DMYrWRtBpa0",
-        "title": "전설이 되어버린 이선민X리센느 원이의 첫 만남ㅋㅋㅋ #shorts #예능 #이선민",
-        "channel": "깔깔숏츠+",
-        "date": "2026-08-23",
-        "tags": [
-            "woni"
-        ]
-    },
-    {
-        "vid": "cUll1Fkh8V4",
-        "title": "납치범한테 미인계쓰는 리센느 ㅋㅋ",
-        "channel": "리센느어택",
-        "date": "2026-08-23",
         "tags": [
             "woni",
             "liv",
