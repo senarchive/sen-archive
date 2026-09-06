@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T10:19:28.669Z",
+  "updatedAt": "2026-09-06T13:56:16.668Z",
   "platforms": [
     "melon",
     "genie",
@@ -29,15 +29,15 @@
         },
         "bugs": {
           "rank": 1,
-          "previousRank": 1
+          "previousRank": 2
         },
         "flo": {
           "rank": 1,
           "previousRank": 1
         },
         "youtube_music": {
-          "rank": 4,
-          "previousRank": 2
+          "rank": 3,
+          "previousRank": 4
         },
         "spotify": {
           "rank": 3,
@@ -51,20 +51,20 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/137/88/545/13788545_20260707111659_500.jpg?3ef0f9e6af1ea09e3f919c7cb69065ed/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 5,
+          "rank": 4,
           "previousRank": 5
         },
         "genie": {
-          "rank": 5,
-          "previousRank": 5
+          "rank": 7,
+          "previousRank": 6
         },
         "vibe": {
           "rank": 6,
           "previousRank": 5
         },
         "bugs": {
-          "rank": 7,
-          "previousRank": 5
+          "rank": 13,
+          "previousRank": 12
         },
         "flo": {
           "rank": 4,
@@ -86,27 +86,27 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/118/75/116/11875116_20250701165641_500.jpg?86da3088c776a346e926b1b4052f227c/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 7,
+          "rank": 6,
           "previousRank": 7
         },
         "genie": {
-          "rank": 13,
-          "previousRank": 13
+          "rank": 11,
+          "previousRank": 11
         },
         "vibe": {
           "rank": 19,
           "previousRank": 18
         },
         "bugs": {
-          "rank": 8,
-          "previousRank": 9
+          "rank": 10,
+          "previousRank": 10
         },
         "flo": {
           "rank": 7,
           "previousRank": 7
         },
         "youtube_music": {
-          "rank": 8,
+          "rank": 9,
           "previousRank": 8
         },
         "spotify": {
@@ -121,20 +121,16 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/133/12/413/13312413_20260406143448_500.jpg?0d1b1aec895dbf60aa601748ddf64dd9/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 59,
-          "previousRank": 59
+          "rank": 49,
+          "previousRank": 54
         },
         "bugs": {
-          "rank": 46,
-          "previousRank": 38
+          "rank": 35,
+          "previousRank": 36
         },
         "flo": {
-          "rank": 82,
-          "previousRank": 81
-        },
-        "youtube_music": {
-          "rank": 53,
-          "previousRank": 51
+          "rank": 81,
+          "previousRank": 82
         },
         "spotify": {
           "rank": 39,
@@ -148,42 +144,16 @@
       "albumImageUrl": "https://image.bugsm.co.kr/album/images/350/41063/4106349.jpg",
       "ranks": {
         "bugs": {
-          "rank": 44,
-          "previousRank": 53
+          "rank": 28,
+          "previousRank": 71
         },
         "flo": {
-          "rank": 80,
-          "previousRank": 79
-        },
-        "youtube_music": {
-          "rank": 25,
-          "previousRank": 26
+          "rank": 79,
+          "previousRank": 80
         },
         "spotify": {
           "rank": 59,
           "previousRank": 58
-        }
-      }
-    },
-    {
-      "songName": "Bloom",
-      "artistName": "RESCENE",
-      "albumImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/66/5a/91665a02-b5c1-8336-e973-88746539ab71/8804775401787.jpg/600x600bb.jpg",
-      "ranks": {
-        "youtube_music": {
-          "rank": 68,
-          "previousRank": 53
-        }
-      }
-    },
-    {
-      "songName": "Glow Up",
-      "artistName": "RESCENE",
-      "albumImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/72/c9/b672c9d1-e8a1-4def-363e-dc0e86042761/cover_KM0020943_1.jpg/600x600bb.jpg",
-      "ranks": {
-        "youtube_music": {
-          "rank": 69,
-          "previousRank": 54
         }
       }
     }
