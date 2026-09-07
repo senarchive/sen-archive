@@ -1,13 +1,13 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-09-07T12:01:09.016Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-09-07T21:20:21.992Z) */
 
 const NEWS_DATA = [
     {
-        "title": "화려한 장항준의 제천국제음악영화제, 박찬욱·봉준호에 리센느까지 - v.daum.net",
-        "source": "v.daum.net",
+        "title": "‘살 쏙 빠진’ 리센느 미나미, “챙겨 먹은 다이어트 음식 있어”… 대체 뭐야? - 헬스조선",
+        "source": "헬스조선",
         "date": "2026-09-07",
-        "url": "https://v.daum.net/v/20260907181229984",
-        "summary": "장항준 집행위원장이 이끄는 제천국제음악영화제 라인업이 화려하다. 3일 개막한 제22회 제천국제음악영화제(JMIFF)에는 올해 영화제 홍보대사 '짐페이스'로 임명된 배우 안재홍과 개막식 사회를 맡은 장도연·문상민을 비롯해 수많은 국내외 영화인들이 제천을 찾았다. 박찬욱 감독은 제천영화음악",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/07/JTBC/20260907181230973fzhm.jpg"
+        "url": "https://health.chosun.com/site/data/html_dir/2026/09/07/2026090702425.html",
+        "summary": "건강하게 체중을 감량하려면 식사량을 줄이더라도 필요한 영양소를 고루 섭취하는 것이 중요하다. 다양한 식재료를 한 끼에 간편하게 섭취할 수 있는 월남쌈을 식단으로 활용하는 것도 방법...",
+        "image": "https://health.chosun.com/site/data/img_dir/2026/09/07/2026090702424_0.jpg"
     },
     {
         "title": "MBC는 리센느, KBS는 아이브 레이…아시안게임 중계에 부는 K팝 바람 - 스포츠동아",
@@ -16,6 +16,14 @@ const NEWS_DATA = [
         "url": "https://sports.donga.com/ent/article/all/20260907/134620145/1",
         "summary": "[스포츠동아 곽현수 기자] 2026 아이치·나고야아시안게임을 앞두고 지상파 방송 3사의 시청자 사수 경쟁도 막이 올랐다. KBS와 MBC는 특히 케이(K)팝 스타를 전면 배치해 대회 중계 홍보에 나서 눈길을 끈다.KBS는 이번 아시안게임 개최지와 인연이 남다른 케이…",
         "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/09/07/134618177.1.jpg"
+    },
+    {
+        "title": "화려한 장항준의 제천국제음악영화제, 박찬욱·봉준호에 리센느까지 - news.jtbc.co.kr",
+        "source": "news.jtbc.co.kr",
+        "date": "2026-09-07",
+        "url": "https://news.jtbc.co.kr/article/NB12317183",
+        "summary": "장항준 집행위원장이 이끄는 제천국제음악영화제 라인업이 화려하다. 3일 개막한 제22회 제천국제음악영화제(JMIFF)에는 올해 영화제 홍보대사 ...",
+        "image": "https://photo.jtbc.co.kr/news/jam_photo/202609/07/9cf228cf-fd86-430d-8f34-c11743dcfb7b.jpg"
     },
     {
         "title": "리센느도 ‘호감’…카페업계, 가을 식재료 활용 신메뉴 출시 - 이코노미스트",
@@ -34,6 +42,14 @@ const NEWS_DATA = [
         "image": "https://cdn.newsuwon.com/news/thumbnail/202609/52629_53793_5116_v150.jpg"
     },
     {
+        "title": "바이오던스, 리센느 원이 캠페인 효과… 굿즈 완판·유튜브 1000만뷰 - 패션비즈",
+        "source": "패션비즈",
+        "date": "2026-09-07",
+        "url": "https://fashionbiz.co.kr/article/229247",
+        "summary": "뷰티셀렉션(대표 박재빈)의 글로벌 스킨케어 브랜드 바이오던스(BIODANCE)가 그룹 리센느(RESCENE) 원이와 함께한 ‘MY FIRST COLLAGEN’ 캠페인의 온·오프라인 접점을 확대하고 있다.",
+        "image": "https://www.fashionbiz.co.kr/images/articleImg/mainImg/1788739846667-%EB%B0%94%EC%9D%B4%EC%98%A4%EB%8D%98%EC%8A%A4X%EB%B3%B4%EB%8F%84%EC%9E%90%EB%A3%8C%20(1).jpg"
+    },
+    {
         "title": "리센느 원이, 한국방송대상 무대서 이선민과 약속한 시그니처 포즈 선보여 - 스페셜타임스",
         "source": "스페셜타임스",
         "date": "2026-09-07",
@@ -49,12 +65,11 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
-        "title": "리센느, '2026 SKA'서 2관왕…'대세 걸그룹' 재증명 - SPOTV NEWS",
-        "source": "SPOTV NEWS",
+        "title": "\"CU, 리센느빵 선보인다\"…멤버들이 직접 시식하고 피드백 - 뉴스1",
+        "source": "뉴스1",
         "date": "2026-09-07",
-        "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1006123",
-        "summary": "그룹 리센느가 '2026 SKA'에서 2관왕을 차지하며 거침없는 대세 행보를 보여줬다. 리센느는 6일 일산 킨텍스에서 개최된 ‘2026 SPOTV K-POP AWARDS’(이하 ‘2026 SKA’)에 출연해 2개의 트로피를 품에 안으며 '대세 걸그룹'의 저력을 입증했다.",
-        "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202609/1006123_2011649_5112.jpg"
+        "url": "https://www.news1.kr/industry/distribution/6282031",
+        "summary": ""
     },
     {
         "title": "리센느 원이, 약속지켰다…무대서 보인 시그니처 포즈에→이선민 '왈칵' - 네이트",
@@ -65,21 +80,6 @@ const NEWS_DATA = [
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/tr/2026/09/07/2c677f43-3689-4fcd-9bde-8d79faf5b67f.jpg"
     },
     {
-        "title": "\"CU, 리센느빵 선보인다\"…멤버들이 직접 시식하고 피드백 - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-09-07",
-        "url": "https://www.news1.kr/industry/distribution/6282031",
-        "summary": ""
-    },
-    {
-        "title": "바이오던스, 리센느 원이 앞세워 온·오프라인 캠페인 확장 - 스페셜타임스",
-        "source": "스페셜타임스",
-        "date": "2026-09-07",
-        "url": "https://www.specialtimes.co.kr/news/articleView.html?idxno=459502",
-        "summary": "스킨케어 브랜드 바이오던스가 그룹 리센느의 멤버 원이를 공식 앰배서더로 발탁하고 진행 중인 ‘MY FIRST COLLAGEN’ 캠페인의 접점을 넓힌다. 바이오던스는 2030 세대를 겨냥해 ‘콜라겐, 나중에 말고 지금부터’라는 메시지를 내세우며 브랜드 인지도를 높이는 데 주력하고 있다.",
-        "image": "https://cdn.specialtimes.co.kr/news/thumbnail/202609/459502_456748_5758_v150.jpg"
-    },
-    {
         "title": "리센느 원이 삼촌 이선민, 손가락 욕 딛고 ‘컬투쇼’ 고정 DJ 발탁 “섭외 1순위” - newsen.com",
         "source": "newsen.com",
         "date": "2026-09-07",
@@ -88,12 +88,12 @@ const NEWS_DATA = [
         "image": "https://photo.newsen.com/news_photo/2026/09/07/202609071157185710_1.jpg"
     },
     {
-        "title": "리센느, ‘2026 SKA’ 2관왕 차지..‘5세대 대세 걸그룹’다운 뜨거운 인기 - 브레이크뉴스",
-        "source": "브레이크뉴스",
+        "title": "리센느, '2026 SKA'서 2관왕…'대세 걸그룹' 재증명 - SPOTV NEWS",
+        "source": "SPOTV NEWS",
         "date": "2026-09-07",
-        "url": "http://m.breaknews.com/a.html?uid=1234464",
-        "summary": "브레이크뉴스 박동제 기자= 리센느(RESCENE / 원이, 리브, 미나미, 메이, 제나)가 ‘2026 SKA’에서 2관왕을 달성, ‘5세대 대세 걸그룹’다운 뜨거운 인기를 입증했다. 7일 소속사 더뮤즈엔터테인먼트에 따르면, 리센느는 지난 6일 일산 킨텍스에서 개최된 ‘2026 SPOTV",
-        "image": "https://www.breaknews.com/imgdata/breaknews_com/202609/2026090731052038.png?ti=1788780289"
+        "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1006123",
+        "summary": "그룹 리센느가 '2026 SKA'에서 2관왕을 차지하며 거침없는 대세 행보를 보여줬다. 리센느는 6일 일산 킨텍스에서 개최된 ‘2026 SPOTV K-POP AWARDS’(이하 ‘2026 SKA’)에 출연해 2개의 트로피를 품에 안으며 '대세 걸그룹'의 저력을 입증했다.",
+        "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202609/1006123_2011649_5112.jpg"
     },
     {
         "title": "아일릿 민주가 알앤비 스타일로 커버한 전설의 명곡 - 엘르 코리아 │ ELLE KOREA",
@@ -136,30 +136,6 @@ const NEWS_DATA = [
         "image": "https://cdn.slist.kr/news/thumbnail/202609/764171_1170039_018_v150.jpg"
     },
     {
-        "title": "'5세대 아이돌 돌풍 주역' 리센느, 시상식 2관왕...스타트렌드 주간 정상까지 - 중앙이코노미뉴스",
-        "source": "중앙이코노미뉴스",
-        "date": "2026-09-07",
-        "url": "https://www.joongangenews.com/news/articleView.html?idxno=545984",
-        "summary": "[중앙이코노미뉴스 김영진] 8월 5주차, 리센느가 스타트렌드 K-POP 여자 그룹 부문 투표에서 1,526,686표를 획득하며 1위에 올랐다. 150만 표가 넘는",
-        "image": "https://cdn.joongangenews.com/news/photo/202609/545984_352247_4149.png"
-    },
-    {
-        "title": "MBC는 리센느, KBS는 아이브 레이…아시안게임 중계에 부는 K팝 바람 - 네이트",
-        "source": "네이트",
-        "date": "2026-09-07",
-        "url": "https://news.nate.com/view/20260907n26501",
-        "summary": "�Ѵ��� ���� ���� : ������ ȭ�� - ���� : [���������� ������ ����] 2026 ����ġ�������߾ƽþȰ����� �յΰ� ������ ��� 3���� ��û�� ��� ���ﵵ ���� �ö���. KBS�� MBC�� Ư�� ����(",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/sd/2026/09/07/134618177.1.jpg"
-    },
-    {
-        "title": "갸루·사투리 콘텐츠 통했다, 리센느 원이 유튜브 200만 돌파한 안원잘부의 힘 : 네이버 블로그 - Naver Blog",
-        "source": "Naver Blog",
-        "date": "2026-09-07",
-        "url": "https://blog.naver.com/PostView.naver?blogId=yooju0913&logNo=224403141159&redirect=Dlog",
-        "summary": "갸루·사투리 콘텐츠 통했다, 리센느 원이 유튜브 200만 돌파한 안원잘부의 힘 유튜브에서 아이돌 콘텐츠라...",
-        "image": "https://blogthumb.pstatic.net/MjAyNjA5MDdfMTc4/MDAxNzg4NzIxNzEyMTE4.MunmaVembFawsBXJcUSFU3gxqZFdhOOLGeBv8NsVcuUg.OM9RlPSWUwtsVv6jeWGZPAStjwBuPLIUF2REXgeMBC4g.PNG/image.png?type=w2"
-    },
-    {
         "title": "[단독] 리센느, 여의도 진출…메리츠證 ‘모음’ 모델로 발탁 - 서울경제",
         "source": "서울경제",
         "date": "2026-09-06",
@@ -167,12 +143,28 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
-        "title": "[포토] 리센느, 2026 SKA 포토월서 눈길…고양 킨텍스서 포즈 - gukjenews.com",
-        "source": "gukjenews.com",
+        "title": "[사진]리센느 제나, 반가운 손인사 - 조선비즈 - Chosunbiz",
+        "source": "Chosunbiz",
         "date": "2026-09-06",
-        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3686257",
-        "summary": "6일 경기 고양 킨텍스 제1전시장에서 2026 스포티비 케이팝 시상식(SKA) 포토월이 열렸다. 걸그룹 리센느가 포즈를 취하고 있다.",
-        "image": "https://cdn.gukjenews.com/news/thumbnail/202609/3686257_3856254_629_v150.jpg"
+        "url": "https://biz.chosun.com/entertainment/entertainment_photo/2026/09/06/MFSGKODCMIYDKM3GGI3WINTFMU/",
+        "summary": "사진리센느 제나, 반가운 손인사",
+        "image": "https://biz.chosun.com/resizer/v2/MQYDSNBTGU3GCMZVG5RDEMJUMY.jpg?auth=5c65a60ff9ee3199f9120c19e3eafc5e52b522fbf96b9ed0b244e65ddffcbcf4&width=572&height=300&smart=true"
+    },
+    {
+        "title": "‘국민 걸그룹’ 리센느 ‘2026 SKA’ 2관왕 달성 - sports.khan.co.kr",
+        "source": "sports.khan.co.kr",
+        "date": "2026-09-06",
+        "url": "https://sports.khan.co.kr/article/202609070834003",
+        "summary": "2관왕이다. ‘국민 걸그룹’ 리센느(RESCENE)가 거침없는 대세 행보를 보여주고 있다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 6일 일산 킨텍스에서 개최된 ‘2026 SPOTV K-POP AWA...",
+        "image": "https://images.khan.co.kr/article/2026/09/07/news-p.v1.20260907.059bdf1e68d5436cae67c4d73722bb30_P1.jpg"
+    },
+    {
+        "title": "리센느 미나미, 요정의 입장 [포토엔HD] - 네이트",
+        "source": "네이트",
+        "date": "2026-09-06",
+        "url": "https://news.nate.com/view/20260906n18300",
+        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : [�ϻ�(��� ����)=������ ������ ����] �ɱ׷� �������� 9�� 6�� ���� ��⵵ ����� �ϻ� Ų�ؽ����� ���� ��2026 SPOTV K-POP AWARDS(SKA)�� �",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/nn/2026/09/06/202609062338065510_1.jpg"
     },
     {
         "title": "도미노피자, 1334세대 공략…SKT 제휴·리센느 앞세워 할인 경쟁 - 브릿지경제",
@@ -180,7 +172,15 @@ const NEWS_DATA = [
         "date": "2026-09-06",
         "url": "https://www.viva100.com/article/20260907500125",
         "summary": "도미노피자가 10~30대 젊은 고객층을 겨냥한 할인 프로모션과 아이돌 협업 마케팅을 잇달아 선보이며 고객 확보에 나선다. 도미노피자는 SK텔레콤의 만 13~34세 고객을 대상으로 오는 11일까지 ‘SKT YOUNG WEEK’를 진행한다고 7일 밝혔다. 이번 프로모션을",
-        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/09/07/.cache/512/20260907500113.jpg?v=20260907210050"
+        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/09/07/.cache/512/20260907500113.jpg?v=20260908062000"
+    },
+    {
+        "title": "인사말하는 리센느 원이 - 연합뉴스",
+        "source": "연합뉴스",
+        "date": "2026-09-06",
+        "url": "https://www.yna.co.kr/view/PYH20260906068800013",
+        "summary": "(고양=연합뉴스) 이재희 기자 = 그룹 리센느가 6일 경기 고양 킨텍스 제1전시장에서 열린 2026 스포티비 케이팝 시상식(SKA) 포토월에서 ...",
+        "image": "https://img1.yna.co.kr/photo/yna/YH/2026/09/06/PYH2026090606880001300_P4.jpg"
     },
     {
         "title": "수원시 홍보대사 걸 그룹 리센느(RESCENE) '홍보어사' 위촉 - 뉴스핌",
@@ -191,30 +191,6 @@ const NEWS_DATA = [
         "image": "https://img.newspim.com/news/2026/09/06/2609061418015940_t1.jpg"
     },
     {
-        "title": "리센느 ‘수원 홍보어사’ 변신…‘화성문화제’ 전 세계 알린다 - 한겨레신문",
-        "source": "한겨레신문",
-        "date": "2026-09-06",
-        "url": "https://www.hani.co.kr/arti/area/capital/1276419.html",
-        "summary": "대세 걸그룹 리센느가 오는 10월4일부터 11일까지 열리는 ‘제63회 수원화성문화제’를 세계에 알릴 특명 과제를 안고 ‘수원시 홍보어사’로 본격 활동을 시작한다. 수원시는 리센느를 수원시 홍보어사로 위촉했다고 6일 밝혔다. 이재준 시장은 리센느 구성원들에게 직접 어사화",
-        "image": "https://flexible.img.hani.co.kr/flexible/normal/660/444/imgdb/original/2026/0906/20260906500630.webp"
-    },
-    {
-        "title": "수원시, '리센느' 앞세워 젊은 관광객 공략…'홍보어사' 위촉 - 뉴스웍스",
-        "source": "뉴스웍스",
-        "date": "2026-09-06",
-        "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=852781",
-        "summary": "[뉴스웍스=한재갑 기자] 수원특례시 홍보대사로 활동 중인 걸그룹 리센느(RESCENE)가 이번에는 '수원시 홍보어사'로 변신해 수원화성문화제와 지역의 역사·문화 콘텐츠 알리기에 나선다.수원시는 지난달 29일 수원전통문화관에서 리센느 멤버들에게 어사화와 홍보어사증을 수여하고 국내외 팬층을",
-        "image": "https://cdn.newsworks.co.kr/news/thumbnail/202609/852781_814863_256_v150.jpg"
-    },
-    {
-        "title": "여기어때, 리센느 콘서트 ‘2박3일 콘서트팩’ 출시... 응모 시작일은? - 금강일보",
-        "source": "금강일보",
-        "date": "2026-09-06",
-        "url": "https://www.ggilbo.com/news/articleView.html?idxno=1179210",
-        "summary": "여행·여가 플랫폼 여기어때가 걸그룹 리센느의 공연과 거제 여행을 결합한 열 번째 ‘여기어때 콘서트팩’ 응모를 시작한다.여기어때는 리센느의 공연과 거제 여행을 함께 즐길 수 있는 ‘콘서트팩 거제’ 응모를 오는 20일까지 진행한다고 지난 2일 밝혔다.여기어때 콘서트팩은 국내 여행지에서 숙박",
-        "image": "https://cdn.ggilbo.com/news/photo/202609/1179210_1031683_5049.jpg"
-    },
-    {
         "title": "[MD포토] 리센느 원이, '제 향기 어때요?' - 네이트",
         "source": "네이트",
         "date": "2026-09-06",
@@ -223,44 +199,12 @@ const NEWS_DATA = [
         "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/my/2026/09/06/2026090615273710441_l.jpg"
     },
     {
-        "title": "‘국민 걸그룹’ 리센느 ‘2026 SKA’ 2관왕 달성 - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-09-06",
-        "url": "https://v.daum.net/v/20260907083607219",
-        "summary": "[스포츠경향 안병길 기자] 2관왕이다. ‘국민 걸그룹’ 리센느(RESCENE)가 거침없는 대세 행보를 보여주고 있다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 6일 일산 킨텍스에서 개최된 ‘2026 SPOTV K-POP AWARDS’(이하 ‘2026 SKA’)에 출연해 2개의",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/07/sportskhan/20260907083608826shdm.jpg"
-    },
-    {
-        "title": "리센느, “글로벌로 뻗어나가겠다”…‘2026 SKA’서 2관왕 쾌거 - 톱스타뉴스",
-        "source": "톱스타뉴스",
-        "date": "2026-09-06",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16185073",
-        "summary": "리센느(원이, 리브, 미나미, 메이, 제나)는 ‘2026 SPOTV K-POP AWARDS’에서 ‘글로벌 커넥트’와 ‘스포티비 앰버서더’ 부문을 수상해 2관왕을 기록했고, ‘LOVE ATTACK’과 ‘Pretty Girl’ 무대를 포함한 히트곡 메들리로 현장 열기를 더했다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202609/16185073_2017185_118_crop.jpg"
-    },
-    {
-        "title": "‘러브 어택’ 역주행하더니…리센느, SKA 2관왕 - gpkorea.com",
-        "source": "gpkorea.com",
-        "date": "2026-09-06",
-        "url": "https://www.gpkorea.com/news/articleView.html?idxno=146429",
-        "summary": "그룹 리센느(RESCENE)가 음원 차트 역주행에 이어 시상식 2관왕까지 거머쥐며 상승세를 이어가고 있다.리센느(원이, 리브, 미나미, 메이, 제나)는 지난 6일 일산 킨텍스에서 열린 ‘2026 SPOTV K-POP AWARDS’(이하 ‘2026 SKA’)에서 ‘글로벌 커넥트’와 ‘스포",
-        "image": "https://cdn.gpkorea.com/news/photo/202609/146429_311112_4013.jpg"
-    },
-    {
         "title": "[ET포토] 리센느 원이, '남다른 밝음' - 전자신문",
         "source": "전자신문",
         "date": "2026-09-06",
         "url": "https://www.etnews.com/20260906000126",
         "summary": "그룹 리센느가 6일 경기도 고양시 일산 킨텍스에서 진행된 &lsquo;2026 SKA(스포티비 케이팝 어워즈)&rsquo; 포토월 행사 일정에 참석해 포토타임을 갖고 있다. 이승훈 기자 (mozart1205@etnews.com)",
         "image": "https://img.etnews.com/news/article/2026/09/06/cms_temp_stats_1788686253448526822.jpg"
-    },
-    {
-        "title": "[뮤직100] 투어스 ‘OVERDRIVE’ 189계단↑ 101위…리센느 1위·코르티스 2위 - 톱스타뉴스",
-        "source": "톱스타뉴스",
-        "date": "2026-09-06",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16185038",
-        "summary": "9월 7일 오전 7시 뮤직100에서 투어스 ‘OVERDRIVE’가 290위에서 101위로 189계단 뛰며 통합 스코어도 318.9점 증가했다. TOP10에서는 코르티스 ‘REDRED’가 2위로 올라섰다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202609/16185038_2017129_3148_crop.jpg"
     },
     {
         "title": "[포토] 리센느, 스포티비 케이팝 시상식 참석 - 아주경제",
@@ -279,6 +223,14 @@ const NEWS_DATA = [
         "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202609/1006004_2011379_3459.jpg"
     },
     {
+        "title": "수원시, '리센느' 앞세워 젊은 관광객 공략…'홍보어사' 위촉 - 뉴스웍스",
+        "source": "뉴스웍스",
+        "date": "2026-09-06",
+        "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=852781",
+        "summary": "[뉴스웍스=한재갑 기자] 수원특례시 홍보대사로 활동 중인 걸그룹 리센느(RESCENE)가 이번에는 '수원시 홍보어사'로 변신해 수원화성문화제와 지역의 역사·문화 콘텐츠 알리기에 나선다.수원시는 지난달 29일 수원전통문화관에서 리센느 멤버들에게 어사화와 홍보어사증을 수여하고 국내외 팬층을",
+        "image": "https://cdn.newsworks.co.kr/news/thumbnail/202609/852781_814863_256_v150.jpg"
+    },
+    {
         "title": "[ET포토] 리센느 메이, '물오른 예쁨' - 전자신문",
         "source": "전자신문",
         "date": "2026-09-06",
@@ -287,36 +239,20 @@ const NEWS_DATA = [
         "image": "https://img.etnews.com/news/article/2026/09/06/cms_temp_stats_178868590397983749.jpg"
     },
     {
-        "title": "리센느, ‘2026 SKA’ 2관왕 - v.daum.net",
+        "title": "리센느 ‘수원 홍보어사’ 변신…‘화성문화제’ 전 세계 알린다 - hani.co.kr",
+        "source": "hani.co.kr",
+        "date": "2026-09-06",
+        "url": "https://www.hani.co.kr/arti/area/capital/1276419.html",
+        "summary": "대세 걸그룹 리센느가 오는 10월4일부터 11일까지 열리는 ‘제63회 수원화성문화제’를 세계에 알릴 특명 과제를 안고 ‘수원시 홍보어사’로 본격 활동을 시작한다. 수원시는 리센느를 수원시 홍보어사로 위촉했다고 6일 밝혔다. 이재준 시장은 리센느 구성원들에게 직접 어사화",
+        "image": "https://flexible.img.hani.co.kr/flexible/normal/660/444/imgdb/original/2026/0906/20260906500630.webp"
+    },
+    {
+        "title": "‘국민 걸그룹’ 리센느 ‘2026 SKA’ 2관왕 달성 - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-09-06",
-        "url": "https://v.daum.net/v/20260907080728458",
-        "summary": "걸그룹 리센느가 ‘2026 SPOTV K-POP AWARDS’에서 2관왕에 올랐다. ‘러브 어택’과 ‘프리티 걸’ 무대까지 선보이며 수상과 공연으로 존재감을 드러냈다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 6일 일산 킨텍스에서 열린 ‘2026 SPOTV K-POP AWAR",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/07/bntnews/20260907080729678rjsd.jpg"
-    },
-    {
-        "title": "인사말하는 리센느 원이 - 연합뉴스",
-        "source": "연합뉴스",
-        "date": "2026-09-06",
-        "url": "https://www.yna.co.kr/view/PYH20260906068800013",
-        "summary": "(고양=연합뉴스) 이재희 기자 = 그룹 리센느가 6일 경기 고양 킨텍스 제1전시장에서 열린 2026 스포티비 케이팝 시상식(SKA) 포토월에서 ...",
-        "image": "https://img1.yna.co.kr/photo/yna/YH/2026/09/06/PYH2026090606880001300_P4.jpg"
-    },
-    {
-        "title": "리센느 원이, 뷰티계도 통했다 - ohnews.co.kr",
-        "source": "ohnews.co.kr",
-        "date": "2026-09-06",
-        "url": "https://www.ohnews.co.kr/news/articleView.html?idxno=30642",
-        "summary": "[오뉴스=정도빈 기자]그룹 리센느 원이가 무대 밖에서도 존재감을 보여주고 있다.글로벌 스킨케어 브랜드 바이오던스가 원이와 함께 진행 중인 ‘MY FIRST COL",
-        "image": "https://cdn.ohnews.co.kr/news/photo/202609/30642_40671_5226.jpg"
-    },
-    {
-        "title": "리센느 원이, 거제 파이리의 ‘프리티 걸’ [포토엔HD] - newsen.com",
-        "source": "newsen.com",
-        "date": "2026-09-06",
-        "url": "https://www.newsen.com/news_view.php?uid=202609062339315510&code=199999",
-        "summary": "[�ϻ�(��� ����)=������ ������ ����] �ɱ׷� �������� 9�� 6�� ���� ��⵵ ����� �ϻ� Ų�ؽ����� ���� ��2026 SPOTV K-POP AWARDS(SKA)�� ����� ��翡 ������ ����Ÿ���� ������ �ִ�",
-        "image": "https://photo.newsen.com/news_photo/2026/09/06/202609062339315510_1.jpg"
+        "url": "https://v.daum.net/v/20260907083607219",
+        "summary": "[스포츠경향 안병길 기자] 2관왕이다. ‘국민 걸그룹’ 리센느(RESCENE)가 거침없는 대세 행보를 보여주고 있다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 6일 일산 킨텍스에서 개최된 ‘2026 SPOTV K-POP AWARDS’(이하 ‘2026 SKA’)에 출연해 2개의",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/07/sportskhan/20260907083608826shdm.jpg"
     },
     {
         "title": "[포토] 리센느, 상큼하게 브이 - 서울신문",
@@ -327,12 +263,12 @@ const NEWS_DATA = [
         "image": "https://img.seoul.co.kr/img/upload/2026/09/06/SSI_20260906172708.jpg"
     },
     {
-        "title": "리센느, '2026 SKA' 2관왕…글로벌 커넥트·스포티비 앰버서더 수상 - 싱글리스트",
-        "source": "싱글리스트",
+        "title": "리센느, “글로벌로 뻗어나가겠다”…‘2026 SKA’서 2관왕 쾌거 - 톱스타뉴스",
+        "source": "톱스타뉴스",
         "date": "2026-09-06",
-        "url": "https://www.slist.kr/news/articleView.html?idxno=764135",
-        "summary": "리센느가 '2026 SPOTV K-POP AWARDS'에서 2개 부문을 수상하고 대표곡 무대를 선보이며 활동 상승세를 이어갔다.리센느(원이, 리브, 미나미, 메이, 제나)는 지난 6일 일산 킨텍스에서 열린 '2026 SPOTV K-POP AWARDS'(2026 SKA)에 참석해 '글로벌",
-        "image": "https://cdn.slist.kr/news/thumbnail/202609/764135_1169995_1753_v150.jpg"
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16185073",
+        "summary": "리센느(원이, 리브, 미나미, 메이, 제나)는 ‘2026 SPOTV K-POP AWARDS’에서 ‘글로벌 커넥트’와 ‘스포티비 앰버서더’ 부문을 수상해 2관왕을 기록했고, ‘LOVE ATTACK’과 ‘Pretty Girl’ 무대를 포함한 히트곡 메들리로 현장 열기를 더했다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202609/16185073_2017185_118_crop.jpg"
     },
     {
         "title": "[ET포토] 리센느, '대세중에 대세' - 전자신문",
@@ -359,6 +295,14 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/06/spotvnews/20260906185352177pgsf.jpg"
     },
     {
+        "title": "‘러브 어택’ 역주행하더니…리센느, SKA 2관왕 - 지피코리아",
+        "source": "지피코리아",
+        "date": "2026-09-06",
+        "url": "https://www.gpkorea.com/news/articleView.html?idxno=146429",
+        "summary": "그룹 리센느(RESCENE)가 음원 차트 역주행에 이어 시상식 2관왕까지 거머쥐며 상승세를 이어가고 있다.리센느(원이, 리브, 미나미, 메이, 제나)는 지난 6일 일산 킨텍스에서 열린 ‘2026 SPOTV K-POP AWARDS’(이하 ‘2026 SKA’)에서 ‘글로벌 커넥트’와 ‘스포",
+        "image": "https://cdn.gpkorea.com/news/photo/202609/146429_311112_4013.jpg"
+    },
+    {
         "title": "[ET포토] 리센느, '현 시점 가장 핫한 아이돌 그룹' - 전자신문",
         "source": "전자신문",
         "date": "2026-09-06",
@@ -367,12 +311,12 @@ const NEWS_DATA = [
         "image": "https://img.etnews.com/news/article/2026/09/06/cms_temp_stats_17886840591834114992.jpg"
     },
     {
-        "title": "바이오던스×리센느 원이 ‘첫 콜라겐’ 통했다…서울 전역으로 캠페인 확대 - 뉴스탭",
-        "source": "뉴스탭",
+        "title": "[뮤직100] 투어스 ‘OVERDRIVE’ 189계단↑ 101위…리센느 1위·코르티스 2위 - 톱스타뉴스",
+        "source": "톱스타뉴스",
         "date": "2026-09-06",
-        "url": "https://www.newstap.co.kr/news/articleView.html?idxno=333512",
-        "summary": "글로벌 스킨케어 브랜드 바이오던스(BIODANCE)가 그룹 리센느(RESCENE) 원이와 진행하는 ‘MY FIRST COLLAGEN’ 캠페인의 온·오프라인 접점을",
-        "image": "https://cdn.newstap.co.kr/news/photo/202609/333512_442720_2342.jpg"
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16185038",
+        "summary": "9월 7일 오전 7시 뮤직100에서 투어스 ‘OVERDRIVE’가 290위에서 101위로 189계단 뛰며 통합 스코어도 318.9점 증가했다. TOP10에서는 코르티스 ‘REDRED’가 2위로 올라섰다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202609/16185038_2017129_3148_crop.jpg"
     },
     {
         "title": "키키·리센느→알디원·앤더블…'2026 SKA', 대세 ★들 총출동한 'K팝 축제'[종합] - v.daum.net",
@@ -383,28 +327,12 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/06/spotvnews/20260906205350107hulk.jpg"
     },
     {
-        "title": "수원특례시, 걸그룹 리센느 수원시 홍보어사로 위촉 - 모닝투데이",
-        "source": "모닝투데이",
-        "date": "2026-09-06",
-        "url": "http://www.morningtoday.co.kr/124298",
-        "summary": "[모닝투데이=신지현기자]수원특례시가시홍보대사로활동중인걸그룹리센느(RESCENE)를‘수원시홍보어사’로위촉했다.위촉식은지난달29일수원전통문화관",
-        "image": "http://www.morningtoday.co.kr/data/morningtoday_co_kr/mainimages/202609/2026090608225200.jpg"
-    },
-    {
         "title": "QWER, 미발매 신곡 2곡 일부 공개..리센느 미나미→지석진 청음회 참여 - starnewskorea.com",
         "source": "starnewskorea.com",
         "date": "2026-09-06",
         "url": "https://www.starnewskorea.com/music/2026/09/06/2026090613382767784",
         "summary": "밴드 QWER(큐더블유이알, 쵸단 마젠타 히나 시연)이 미발매 신곡 2곡의 일부를 깜짝 공개했다. QWER은 6일 공식 유튜브 채널을 통해 '당신의 QWER에 투표하세요!'의 첫 번째 에피소드를 업로드했다. 공개된 영상에는 QWER이 두 개의 미발매 신곡 중 단독 콘서트에서 팬들에게 어",
         "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=1350,fit=cover,q=high,sharpen=2/21/2026/09/2026090613382767784_1.jpg"
-    },
-    {
-        "title": "‘안원잘부’의 힘…리센느 원이, 7개월 만에 유튜브 200만 돌파 - 스포츠동아",
-        "source": "스포츠동아",
-        "date": "2026-09-06",
-        "url": "https://sports.donga.com/ent/article/all/20260906/134612902/1",
-        "summary": "[스포츠동아 곽현수 기자] 아이돌을 좋아해야만 찾아보게 되는 콘텐츠가 있다. 반대로 아이돌에 관심이 없던 사람까지 끌어당기는 콘텐츠도 있다. 그룹 리센느 멤버 원이의 개인 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’(이하 안원잘부)는 후자에 가깝다. 무대 위의 화…",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/09/06/134613112.1.jpg"
     },
     {
         "title": "리센느 원이, 자체발광 발걸음 [포토엔HD] - newsen.com",
@@ -415,44 +343,44 @@ const NEWS_DATA = [
         "image": "https://photo.newsen.com/news_photo/2026/09/06/202609062001295510_1.jpg"
     },
     {
-        "title": "[사진]리센느 제나, 반가운 손인사 - 조선비즈 - Chosunbiz",
-        "source": "Chosunbiz",
-        "date": "2026-09-06",
-        "url": "https://biz.chosun.com/entertainment/entertainment_photo/2026/09/06/MFSGKODCMIYDKM3GGI3WINTFMU/",
-        "summary": "사진리센느 제나, 반가운 손인사",
-        "image": "https://biz.chosun.com/resizer/v2/MQYDSNBTGU3GCMZVG5RDEMJUMY.jpg?auth=5c65a60ff9ee3199f9120c19e3eafc5e52b522fbf96b9ed0b244e65ddffcbcf4&width=572&height=300&smart=true"
-    },
-    {
-        "title": "[포토S] 리센느, '우리가 대세' - SPOTV NEWS",
-        "source": "SPOTV NEWS",
-        "date": "2026-09-06",
-        "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1006013",
-        "summary": "2026 스포티비 K팝 어워즈(이하 '2026 SKA')가 6일 오후 경기도 고양시 일산 킨텍스에서 열렸다. 글로벌 커넥트상을 수상한 리센느가 기념 촬영을 하고 있다.",
-        "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202609/1006013_2011390_8649.jpg"
-    },
-    {
-        "title": "‘안원잘부’의 힘…리센느 원이, 7개월 만에 유튜브 200만 돌파 - v.daum.net",
+        "title": "리센느 원이 유튜브 ‘안원잘부’ 개설 7개월 만에 200만 구독자 돌파 [왓IS] - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-09-06",
-        "url": "https://v.daum.net/v/20260906144149914",
-        "summary": "사진│‘안원잘부’ 유튜브 화면 캡처 [스포츠동아 곽현수 기자] 아이돌을 좋아해야만 찾아보게 되는 콘텐츠가 있다. 반대로 아이돌에 관심이 없던 사람까지 끌어당기는 콘텐츠도 있다. 그룹 리센느 멤버 원이의 개인 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’(이하 안원잘부)는 후자에 가깝다",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/06/sportsdonga/20260906144150708myqh.jpg"
+        "url": "https://v.daum.net/v/20260906135053658",
+        "summary": "그룹 리센느 원이의 개인 유튜브 채널이 개설 7개월 만에 구독자 200만 명을 돌파했다. 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’(이하 안원잘부)는 지난 5일 구독자 200만 명을 돌파했으며 하루 뒤인 6일 기준 203만 명을 기록 중이다. 올해 2월 첫 영상을 올린 지 약 7개",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/06/ilgansports/20260906135054775nbgv.jpg"
     },
     {
-        "title": "'국민 걸그룹' 리센느 '2026 SKA' 2관왕 달성 - 네이트",
-        "source": "네이트",
+        "title": "리센느, ‘2026 SKA’ 2관왕 - v.daum.net",
+        "source": "v.daum.net",
         "date": "2026-09-06",
-        "url": "https://news.nate.com/view/20260907n05742",
-        "summary": "�Ѵ��� ���� ���� : ���/���� - ���� : ��2026 SPOTV K-POP AWARDS�� ��� ȭ�� ĸó[���������� �Ⱥ��� ����] 2�����̴�.������ �ɱ׷졯 ������(RESCENE)�� ��ħ���� �뼼 �ຸ�� �����ְ�",
-        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/kz/2026/09/07/news-p.v1.20260907.059bdf1e68d5436cae67c4d73722bb30_P1.jpg"
+        "url": "https://v.daum.net/v/20260907080728458",
+        "summary": "걸그룹 리센느가 ‘2026 SPOTV K-POP AWARDS’에서 2관왕에 올랐다. ‘러브 어택’과 ‘프리티 걸’ 무대까지 선보이며 수상과 공연으로 존재감을 드러냈다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 6일 일산 킨텍스에서 열린 ‘2026 SPOTV K-POP AWAR",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/07/bntnews/20260907080729678rjsd.jpg"
     },
     {
-        "title": "[사진]리센느, 사랑스럽게 - OSEN",
-        "source": "OSEN",
+        "title": "수원특례시, 걸그룹 리센느 수원시 홍보어사로 위촉 - 모닝투데이",
+        "source": "모닝투데이",
+        "date": "2026-09-06",
+        "url": "http://www.morningtoday.co.kr/124298",
+        "summary": "[모닝투데이=신지현기자]수원특례시가시홍보대사로활동중인걸그룹리센느(RESCENE)를‘수원시홍보어사’로위촉했다.위촉식은지난달29일수원전통문화관",
+        "image": "http://www.morningtoday.co.kr/data/morningtoday_co_kr/mainimages/202609/2026090608225200.jpg"
+    },
+    {
+        "title": "[사진]리센느, 사랑스럽게 - osen.co.kr",
+        "source": "osen.co.kr",
         "date": "2026-09-06",
         "url": "https://www.osen.co.kr/article/G1112871009",
         "summary": "6일 오후 경기도 고양시 킨텍스에서 2026 SPOTV K-POP AWARDS(이하 2026 SKA)가 진행됐다. ‘2026 SKA’는 K팝의 과거와 현재, 미래를 잇는...",
         "image": "http://file.osen.co.kr/article_thumb/2026/09/06/202609061537779757_6a9d0a35aa3ed_300x.jpg"
+    },
+    {
+        "title": "리센느 원이, 뷰티계도 통했다 - ohnews.co.kr",
+        "source": "ohnews.co.kr",
+        "date": "2026-09-06",
+        "url": "https://www.ohnews.co.kr/news/articleView.html?idxno=30642",
+        "summary": "[오뉴스=정도빈 기자]그룹 리센느 원이가 무대 밖에서도 존재감을 보여주고 있다.글로벌 스킨케어 브랜드 바이오던스가 원이와 함께 진행 중인 ‘MY FIRST COL",
+        "image": "https://cdn.ohnews.co.kr/news/photo/202609/30642_40671_5226.jpg"
     },
     {
         "title": "[HD포토] 리센느 미나미, ‘미남이십니다’ (2026 SKA 레드카펫) - 톱스타뉴스",
@@ -463,8 +391,8 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202609/16184463_2016749_5640_crop.jpg"
     },
     {
-        "title": "[사진]리센느 원이, 러블리 - OSEN",
-        "source": "OSEN",
+        "title": "[사진]리센느 원이, 러블리 - osen.co.kr",
+        "source": "osen.co.kr",
         "date": "2026-09-06",
         "url": "https://www.osen.co.kr/article/G1112871052",
         "summary": "6일 오후 경기도 고양시 킨텍스에서 2026 SPOTV K-POP AWARDS(이하 2026 SKA)가 진행됐다. ‘2026 SKA’는 K팝의 과거와 현재, 미래를 잇는...",
@@ -479,11 +407,20 @@ const NEWS_DATA = [
         "image": "https://img1.newsis.com/2026/09/04/NISI20260904_0002230209_web.jpg"
     },
     {
-        "title": "리센느·정해인·이선민·유영우…스타들도 뮤지컬 '나는 반딧불' 응원 열기 '후끈' - 뉴스1",
-        "source": "뉴스1",
+        "title": "카카오톡, 확 달라진다… 리센느와 ‘대화를 하자’ 캠페인 시작 - 금강일보",
+        "source": "금강일보",
+        "date": "2026-09-06",
+        "url": "http://www.ggilbo.com/news/articleView.html?idxno=1179203",
+        "summary": "카카오가 아이돌 그룹 리센느를 모델로 카카오톡의 인공지능(AI) 기능을 알리는 캠페인을 시작한다.카카오는 리센느와 함께 ‘대화를 하자’ 캠페인을 이달부터 진행한다고 지난 2일 밝혔다. 이번 캠페인은 이용자 의견을 바탕으로 카카오톡 서비스를 개선하는 ‘유저 퍼스트’ 활동의 일환으로 마련됐",
+        "image": "https://cdn.ggilbo.com/news/photo/202609/1179203_1031681_3159.jpg"
+    },
+    {
+        "title": "리센느·정해인·이선민·유영우…스타들도 뮤지컬 '나는 반딧불' 응원 열기 '후끈' - v.daum.net",
+        "source": "v.daum.net",
         "date": "2026-09-05",
-        "url": "https://www.news1.kr/life-culture/performance-exhibition/6281125",
-        "summary": ""
+        "url": "https://v.daum.net/v/20260906082839501",
+        "summary": "(서울=뉴스1) 정수영 기자 = 어린이·가족 뮤지컬 '나는 반딧불'이 개막을 사흘 앞두면서 스타들의 열띤 응원도 이어지고 있다. '나는 반딧불'은 아빠를 잃은 뒤 어둠을 두려워하게 된 소녀 서윤이가 작은 반딧불과 함께 잃어버린 마음의 빛을 찾아가는 과정을 그린 창작 뮤지컬이다. 뮤지션 ",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/06/NEWS1/20260906082839733msaq.jpg"
     },
     {
         "title": "\"소녀시대·원더걸스 이후 처음\"…'거제 야호' 효과 이 정도였나 [김소연의 얼굴전략] - 한국경제",
@@ -499,7 +436,15 @@ const NEWS_DATA = [
         "date": "2026-09-05",
         "url": "https://www.kyeonggi.com/article/20260905580072",
         "summary": "수원특례시 홍보대사로 활동 중인 걸그룹 리센느(RESCENE)가 제63회 수원화성문화제를 앞두고 ‘수원시 홍보어사’로 위촉됐다. 수원시는 지난달 29일 수원전통문화관에서 위촉식을 열고 리센느를 홍보어사로 위촉했다고 5일 밝혔다. 시는 오는 10월4~11일 열리는 제63",
-        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/09/05/.cache/512/20260905580073.jpg?v=20260907210059"
+        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/09/05/.cache/512/20260905580073.jpg?v=20260908062007"
+    },
+    {
+        "title": "대세 ‘리센느’, 이번엔 홍보어사…수원화성문화제 알린다 - 동아일보",
+        "source": "동아일보",
+        "date": "2026-09-05",
+        "url": "https://www.donga.com/news/Society/article/all/20260905/134610751/1",
+        "summary": "경기 수원시는 내달 수원화성문화제를 앞두고 걸그룹 ‘리센느’를 축제를 알리는 임무를 수행할 ‘홍보어사’로 임명했다고 5일 밝혔다.리센느는 수원 구운동 출신 멤버 리브를 비롯해 원이·미나미·메이·제나 등 5명으로 구성됐다. 앞서 시는 지난 6월 리센느를 ‘수원시 홍보대…",
+        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/05/134610752.1.jpg"
     },
     {
         "title": "“암행 아닌 홍보어사”…리센느, 수원화성문화제 띄우러 출두 - 전자신문",
@@ -518,12 +463,19 @@ const NEWS_DATA = [
         "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=807,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/09/2026090517595487739_1.jpg"
     },
     {
-        "title": "리센느·정해인·이선민·유영우…스타들도 뮤지컬 '나는 반딧불' 응원 열기 '후끈' - v.daum.net",
-        "source": "v.daum.net",
+        "title": "수원 출신 리브 금의환향 \"야호\"…리센느, 수원시 '홍보어사' 됐다 - 뉴스1",
+        "source": "뉴스1",
         "date": "2026-09-05",
-        "url": "https://v.daum.net/v/20260906082839501",
-        "summary": "(서울=뉴스1) 정수영 기자 = 어린이·가족 뮤지컬 '나는 반딧불'이 개막을 사흘 앞두면서 스타들의 열띤 응원도 이어지고 있다. '나는 반딧불'은 아빠를 잃은 뒤 어둠을 두려워하게 된 소녀 서윤이가 작은 반딧불과 함께 잃어버린 마음의 빛을 찾아가는 과정을 그린 창작 뮤지컬이다. 뮤지션 ",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/06/NEWS1/20260906082839733msaq.jpg"
+        "url": "https://www.news1.kr/local/gyeonggi/6281008",
+        "summary": ""
+    },
+    {
+        "title": "수원시 홍보대사 그룹 리센느 수원시 '홍보어사' 위촉 - 중앙신문",
+        "source": "중앙신문",
+        "date": "2026-09-05",
+        "url": "https://www.jasm.co.kr/news/articleView.html?idxno=312343",
+        "summary": "수원시가 수원시 홍보대사로 활동하고 있는 걸 그룹 리센느를 ‘수원시 홍보어사’로 위촉했다.위촉식은 8월 29일 수원전통문화관에서 열렸다.수원시는 제63회 수원화성",
+        "image": "https://cdn.jasm.co.kr/news/photo/202609/312343_312415_0006.jpg"
     },
     {
         "title": "리센느 5인, 수원 ‘홍보어사’로 변신…리브 고향서 ‘금의환향’ - 이투데이",
@@ -534,12 +486,51 @@ const NEWS_DATA = [
         "image": "https://img.etoday.co.kr/pto_db/2026/09/20260905100627_2383582_1200_808.jpg"
     },
     {
+        "title": "수원시, 걸그룹 리센느 ‘홍보어사’ 위촉…화성문화제 알린다 - 데일리엔뉴스",
+        "source": "데일리엔뉴스",
+        "date": "2026-09-05",
+        "url": "https://dailyn.net/news/article.html?no=115457",
+        "summary": "[데일리엔뉴스 이종성 기자] 수원특례시가 홍보대사인 걸그룹 리센느(RESCENE)를 ‘수원시 홍보어사’로 위촉했다. 위촉식은 지난달 29일 수원전통문화관에서 개최됐다. 이재준 수원특례시장은 리센느 멤버들에게 어사화와 홍보어사증을 수여했다. 홍보어사는 오는 10월 4일부터 11일까지 개최",
+        "image": "https://www.dailyn.net/data/photos/20260936/art_17885962323802_2515ea.jpg"
+    },
+    {
+        "title": "수원시 홍보대사 리센느, ‘수원시 홍보어사’로 깜짝 변신 - 수원일보",
+        "source": "수원일보",
+        "date": "2026-09-05",
+        "url": "https://www.suwonilbo.kr/view.html?id=318026",
+        "summary": "수원시 홍보어사 위촉된 리센느 | 이재준 수원특례시장이 ‘수원시 홍보어사’로 위촉된 리센느 멤버들과 어사화 두루마리를 들고 기념촬영을 하고 있다 (수원시 제공) [수원일보=천의현 기자] 수원특례시는 수원시 홍보대사인 걸 그룹 리센느(RESCENE)를 ‘수원시 홍보어사’로 위촉했다고 지난",
+        "image": "https://cdn.suwonilbo.kr/news/photo/202609/318026_222944_2855.jpg"
+    },
+    {
+        "title": "수원 출신 리브 ‘금의환향’…걸그룹 리센느, 어사화 쓰고 수원 누빈다 - 월드장애인사랑뉴스",
+        "source": "월드장애인사랑뉴스",
+        "date": "2026-09-05",
+        "url": "https://www.youcandonews.com/news/articleView.html?idxno=19537",
+        "summary": "걸그룹 리센느(RESCENE)가 어사화를 쓰고 수원 곳곳을 누비는 ‘수원시 홍보어사’로 변신했다.특히 수원에서 나고 자란 멤버 리브가 멤버들과 함께 고향을 찾는 의미를 담아 ‘홍보어사 금의환향’이라는 이색적인 콘셉트를 선보인다.수원특례시(시장 이재준)는 수원시 홍보대사로 활동하고 있는",
+        "image": "https://cdn.youcandonews.com/news/thumbnail/202609/19537_31871_1752_v150.jpg"
+    },
+    {
+        "title": "걸그룹 리센느 수원시 홍보어사 변신 화성문화제 알리며 국내외 홍보 나서 > 뉴스 - 더코리아",
+        "source": "더코리아",
+        "date": "2026-09-05",
+        "url": "http://www.thekorea.kr/bbs/board.php?bo_table=news&wr_id=549078",
+        "summary": ""
+    },
+    {
+        "title": "리센느 수원시 홍보어사 위촉… 제63회 수원화성문화제 알린다 - 경인미래신문",
+        "source": "경인미래신문",
+        "date": "2026-09-05",
+        "url": "https://www.kifuture.com/news/article.html?no=175971",
+        "summary": "(경인미래신문=민경호 기자) 수원특례시(시장 이재준)가 수원시 홍보대사로 활동 중인 걸그룹 리센느(RESCENE)를 ‘수원시 홍보어사’로 위촉했다. 위촉식은 8월 29일 수원전통문화관에서 열렸으며 리센느는 10월 4일부터 11일까지 열리는 제63회 수원화성문화제와 수원의 매력을 국내외에",
+        "image": "https://www.kifuture.com/data/photos/20260936/art_17886002357091_10de5a.jpg"
+    },
+    {
         "title": "[미디어 평] “1위 하면 기분이 어때?” 꿈이 거대한 현실로 - 울산저널i",
         "source": "울산저널i",
         "date": "2026-09-04",
-        "url": "https://www.usjournal.kr/news/newsview.php?ncode=1065618254872059",
+        "url": "https://www.usjournal.kr/news/newsview.php?ncode=1065617137667931",
         "summary": "음원차트 첫 월간 1위, 화제성과 광고 그리고 평판도 몽땅 1위",
-        "image": "https://www.usjournal.kr/news/data/20260903/p1065618254872059_823_thum.jpg"
+        "image": "https://www.usjournal.kr/news/data/20260903/p1065617137667931_146_thum.jpg"
     },
     {
         "title": "리센느 원이·이선민, 몇 달 전 약속이 현실로… 시상식서 ‘울컥’ - bntnews.co.kr",
@@ -550,6 +541,14 @@ const NEWS_DATA = [
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/04/bnt202609040277.jpg"
     },
     {
+        "title": "리센느, 100만 Q&A 올리자마자 200만 돌파…7개월 만에 쾌거 [핫피플] - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-04",
+        "url": "https://v.daum.net/v/WAab0dztTb",
+        "summary": "[OSEN=장우영 기자] 그룹 리센느(RESCENE) 원이의 유튜브 채널이 구독자 200만 명을 돌파했다. 5일 유튜브 채널 평가 사이트 소셜블레이드에 따르면 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’는 지난 4일 5만 명의 구독자가 더 유입되면서 200만 명을 달성했다. 2026",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/05/poctan/20260905083150811etvi.jpg"
+    },
+    {
         "title": "리센느, 심상치 않은 기세..순도100% 국내팬으로만 '골드버튼' 눈길 - 미주중앙일보",
         "source": "미주중앙일보",
         "date": "2026-09-04",
@@ -558,16 +557,8 @@ const NEWS_DATA = [
         "image": "https://www.koreadaily.com/data/photo/thumbnail/2026/09/05/a79210bc-1cb0-4fec-9c18-e44d72d9e3ef.jpg"
     },
     {
-        "title": "리센느 대표, 거의 '딸바보'네…\"짧은 의상 안 좋아해 직접 교체 요청도\" (살롱드립) - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-09-03",
-        "url": "https://v.daum.net/v/5zVr90CEZG",
-        "summary": "(엑스포츠뉴스 정연주 기자) 그룹 리센느 멤버 원이와 미나미가 소속사 대표의 남다른 애정을 공개했다. 지난 2일 유튜브 채널 '테오'에는 콘텐츠 '살롱드립'의 미방분 영상이 공개됐다. 이날 원이와 미나미는 소속사 대표가 리센느를 각별하게 챙긴다는 이야기를 전했다. 원이는 \"대표님이 젊으",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/03/xportsnews/20260903183638742mcwn.jpg"
-    },
-    {
-        "title": "“리센느가 추천하면 즉시 할인”…내달 2일까지 도미노피자 싸게 먹는 법 - 문화일보",
-        "source": "문화일보",
+        "title": "“리센느가 추천하면 즉시 할인”…내달 2일까지 도미노피자 싸게 먹는 법 - munhwa.com",
+        "source": "munhwa.com",
         "date": "2026-09-03",
         "url": "https://www.munhwa.com/article/11614360",
         "summary": "도미노피자는 자사 모델인 걸그룹 리센느(RESCENE) 멤버들이 추천한 피자를 할인 판매하는 ‘리센느 최애 피자’ 프로모션을 진행한다고 3일 밝혔다. 프로모션은 오는 4일부터 10월 2일까지 진행된다. 자사 앱에서 배달 주문하는 매니아 회원에게 멤버별 추천 피자 5종을",
@@ -590,12 +581,12 @@ const NEWS_DATA = [
         "image": "https://img.seoul.co.kr/img/upload/2026/09/03/SSC_20260903162528.jpg.webp"
     },
     {
-        "title": "리센느, K-브랜드지수 ‘이달의 핫 아이콘’ 1위…블랙핑크·아이브 제쳤다 - v.daum.net",
+        "title": "리센느 대표, 거의 '딸바보'네…\"짧은 의상 안 좋아해 직접 교체 요청도\" (살롱드립) - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-09-03",
-        "url": "https://v.daum.net/v/20260903105358656",
-        "summary": "아시아브랜드연구소가 최근 발표한 K-브랜드지수에서 걸그룹 리센느(RESCENE)가 10억 건이 넘는 온라인 여론 분석 결과를 바탕으로 이달의 핫 아이콘 1위에 올랐다. 이번 조사에서는 총 10억 8365만 1008건의 빅데이터를 통해 대한민국 K-팝 시장의 현재 흐름과 팬들의 관심도를 ",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/03/551725-bDDlA7g/20260903111253433sujc.png"
+        "url": "https://v.daum.net/v/20260903183637987",
+        "summary": "(엑스포츠뉴스 정연주 기자) 그룹 리센느 멤버 원이와 미나미가 소속사 대표의 남다른 애정을 공개했다. 지난 2일 유튜브 채널 '테오'에는 콘텐츠 '살롱드립'의 미방분 영상이 공개됐다. 이날 원이와 미나미는 소속사 대표가 리센느를 각별하게 챙긴다는 이야기를 전했다. 원이는 \"대표님이 젊으",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/03/xportsnews/20260903183638742mcwn.jpg"
     },
     {
         "title": "카카오, ‘리센느’와 일상 속 AI 경험 알린다 - 카카오",
@@ -630,14 +621,6 @@ const NEWS_DATA = [
         "image": "https://img1.yna.co.kr/etc/inner/KR/2026/09/02/AKR20260902073900017_01_i_P4.jpg"
     },
     {
-        "title": "\"리센느가 알려주는 카카오톡 AI\"…카카오, 이용자 대상 캠페인 시작 - 아시아경제",
-        "source": "아시아경제",
-        "date": "2026-09-02",
-        "url": "https://www.asiae.co.kr/article/2026090213473595395",
-        "summary": "카카오는 아이돌 그룹 '리센느'와 인공지능(AI)을 활용한 일상 속 새로운 대화 경험을 알리는 이용자 대상 캠페인을 시작한다고 2일 밝혔다.",
-        "image": "https://cphoto.asiae.co.kr/listimglink/1/2026090213382012529_1788323900.jpg"
-    },
-    {
         "title": "카카오, 아이돌 그룹 ‘리센느’와 일상 속 AI 경험 알린다...카카오톡 AI 서비스 등 새로운 대화 경험 소개 - 인공지능신문",
         "source": "인공지능신문",
         "date": "2026-09-02",
@@ -654,6 +637,22 @@ const NEWS_DATA = [
         "image": "https://img.hankyung.com/photo/202609/01.45529520.1.jpg"
     },
     {
+        "title": "\"카톡 AI 이렇게 씁니다\"…카카오, 리센느와 캠페인 진행 - 뉴스핌",
+        "source": "뉴스핌",
+        "date": "2026-09-02",
+        "url": "https://www.newspim.com/news/view/20260902000567",
+        "summary": "[서울=뉴스핌] 정승원 기자, 심재민 인턴기자 = 카카오는 아이돌 그룹 '리센느(RESCENE)'와 함께 AI를 활용한 카카오톡의 새로운 대화 경험을 알리는 이용자 대상 캠페인을 시작한다고 2일 밝혔다.[사진=카카오]이번 캠페인은 카카오의 '유저퍼스트' 활동의",
+        "image": "https://img.newspim.com/news/2026/09/02/2609021106271940_t1.jpg"
+    },
+    {
+        "title": "카카오, 리센느와 'AI 서비스' 알리는 캠페인 진행 - 지디넷코리아",
+        "source": "지디넷코리아",
+        "date": "2026-09-02",
+        "url": "https://zdnet.co.kr/view/?no=20260902102053",
+        "summary": "카카오는 인공지능(AI)을 활용한 일상 속 새로운 대화 경험을 알리고자 그룹 '리센느'와 손잡고 캠페인을 전개한다고 2일 밝혔다.이번 캠페인은 이용자 의견을 서비스에 적극 반영하는 카카오의 '유저퍼스트' 활동 가운데 하나다. 카카오는 AI를 활용해 카카오...",
+        "image": "https://image.zdnet.co.kr/2026/09/02/8b381cbdf552d32969a4ea385651fcef.jpg"
+    },
+    {
         "title": "1위 방탄소년단, 2위 리센느, 3위 임영웅 - starnewskorea.com",
         "source": "starnewskorea.com",
         "date": "2026-09-02",
@@ -667,22 +666,6 @@ const NEWS_DATA = [
         "date": "2026-09-02",
         "url": "https://www.ddaily.co.kr/page/view/2026090215541114773",
         "summary": "[사진=카카오][디지털데일리 채성오기자] 카카오가 아이돌 그룹 '리센느'와 인공지능(AI)을 활용한 일상 속 새로운 대화 경험을 알리기 위해 캠페인을 시작한다고 2일 밝혔다.이번..."
-    },
-    {
-        "title": "카카오, 리센느와 'AI 서비스' 알리는 캠페인 진행 - 지디넷코리아",
-        "source": "지디넷코리아",
-        "date": "2026-09-02",
-        "url": "https://zdnet.co.kr/view/?no=20260902102053",
-        "summary": "카카오는 인공지능(AI)을 활용한 일상 속 새로운 대화 경험을 알리고자 그룹 '리센느'와 손잡고 캠페인을 전개한다고 2일 밝혔다.이번 캠페인은 이용자 의견을 서비스에 적극 반영하는 카카오의 '유저퍼스트' 활동 가운데 하나다. 카카오는 AI를 활용해 카카오...",
-        "image": "https://image.zdnet.co.kr/2026/09/02/8b381cbdf552d32969a4ea385651fcef.jpg"
-    },
-    {
-        "title": "카카오, ‘리센느’와 일상 속 AI 경험 알린다 - 인포스탁데일리",
-        "source": "인포스탁데일리",
-        "date": "2026-09-02",
-        "url": "https://www.infostockdaily.co.kr/news/articleView.html?idxno=217744",
-        "summary": "[인포스탁데일리=이동희 선임기자] 카카오(035720)가 아이돌 그룹 ‘리센느(RESCENE)'와 AI를 활용한 일상 속 새로운 대화 경험을 알리기 위해 이용자 대상 캠페인을 시작한다고 2일 밝혔다.이번 캠페인은 이용자들의 목소리에 귀 기울이고 더 나은 카카오톡을 만들어가기 위한 '유저",
-        "image": "http://www.infostockdaily.co.kr/news/thumbnail/202609/217744_223591_3837_v150.jpg"
     },
     {
         "title": "고윤정과 리센느 제나가 닮아 보이는 진짜 이유 - harpersbazaar.co.kr",
@@ -709,6 +692,13 @@ const NEWS_DATA = [
         "image": "https://image.ytn.co.kr/general/jpg/2026/0902/202609020754334029_t.jpg"
     },
     {
+        "title": "리센느, 8월 멜론 월간차트 첫 1위‥3곡 톱10 꿰찼다 - news.jtbc.co.kr",
+        "source": "news.jtbc.co.kr",
+        "date": "2026-09-01",
+        "url": "https://news.jtbc.co.kr/article/NB12316195",
+        "summary": ""
+    },
+    {
         "title": "CU, 리센느와 브랜드 캠페인…이달 협업상품 출시 - 연합뉴스",
         "source": "연합뉴스",
         "date": "2026-08-31",
@@ -725,8 +715,8 @@ const NEWS_DATA = [
         "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/29/134567962.1.jpg"
     },
     {
-        "title": "현대판 전래동화 주인공 된 리센느···할리스 브랜드 첫 모델 ‘리센느’와 함께한 신규 광고 온에어 - 스포츠경향",
-        "source": "스포츠경향",
+        "title": "현대판 전래동화 주인공 된 리센느···할리스 브랜드 첫 모델 ‘리센느’와 함께한 신규 광고 온에어 - sports.khan.co.kr",
+        "source": "sports.khan.co.kr",
         "date": "2026-08-27",
         "url": "https://sports.khan.co.kr/article/202608270417003",
         "summary": "커피 브랜드 할리스가 ‘리센느(RESCENE)’와 함께한 신규 광고를 공개했다. 할리스와 리센느가 함께한 이번 광고는 우리에게 친숙한 ‘전래동화’를 컨셉으로, 전통 식자재를 현대적으로 재해석해 스토리를 꾸렸다....",
@@ -741,8 +731,8 @@ const NEWS_DATA = [
         "image": "https://dtd31o1ybbmk8.cloudfront.net/photos/2026/08/24/24ac7961ed3b4400ab596f4240308dfd/thumb.jpg"
     },
     {
-        "title": "자고 일어나면 ‘O년 전 영상 파묘’···“뭐야? 이것도 봐줄게” 리센느가 ‘과거’로 더 뜨는 이유 - 경향신문",
-        "source": "경향신문",
+        "title": "자고 일어나면 ‘O년 전 영상 파묘’···“뭐야? 이것도 봐줄게” 리센느가 ‘과거’로 더 뜨는 이유 - khan.co.kr",
+        "source": "khan.co.kr",
         "date": "2026-08-25",
         "url": "https://www.khan.co.kr/article/202608250600071",
         "summary": "경남 거제시, 일본 치바현, 경북 경주시…. 올해 최고의 ‘라이징 스타’인 걸그룹 리센느 멤버들의 출신지이자, 리센느 역주행 인기의 일등 공신인 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’(안원잘부)의 최근 촬영지다. ‘거제 야호’ 열풍 이후 멤버 원이와 미나미는 서로의 고향인 거제",
@@ -755,6 +745,13 @@ const NEWS_DATA = [
         "url": "https://www.bntnews.co.kr/article/view/bnt202608240012",
         "summary": "그룹 리센느(RESCENE) 미나미와 제나가 뷰티 브랜드 한스킨의 새 얼굴이 됐다. 최근 음원 차트와 사회관계망서비스(SNS)에서 화제성을 높인 데 이어 광고",
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/08/24/bnt202608240023.jpg"
+    },
+    {
+        "title": "[#053/054] 침체하는 도시에서 ‘리센느’를 선망하다 - 뉴스민",
+        "source": "뉴스민",
+        "date": "2026-08-24",
+        "url": "https://www.newsmin.co.kr/news/136267/",
+        "summary": ""
     },
     {
         "title": "'거제 홍보대사' 리센느, 성금 이어 수해복구 음료도 지원 - v.daum.net",
@@ -773,8 +770,8 @@ const NEWS_DATA = [
         "image": "https://wimg.heraldcorp.com/news/cms/2026/08/21/rcv.YNA.20260716.PYH2026071609880001300_T1.jpg"
     },
     {
-        "title": "2년 만에 빛 본 리센느…중소기획사 '버틸 돈'이 없다 - 아시아경제",
-        "source": "아시아경제",
+        "title": "2년 만에 빛 본 리센느…중소기획사 '버틸 돈'이 없다 - view.asiae.co.kr",
+        "source": "view.asiae.co.kr",
         "date": "2026-08-19",
         "url": "https://view.asiae.co.kr/article/2026081812490859852",
         "summary": "K콘텐츠가 세계시장에서 질주하고 있지만 다음 스타와 작품을 키울 자금줄은 마르고 있다. 국내 콘텐츠기업의 자금조달 공백은 연간 최대 2조원을 웃돈다.",
