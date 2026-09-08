@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T10:27:04.119Z",
+  "updated": "2026-09-08T15:50:54.357Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3429,6 +3429,14 @@
       "date": "2026-09-18",
       "time": "",
       "title": "인하대학교 축제",
+      "detail": "",
+      "type": "event",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-09-18",
+      "time": "",
+      "title": "수원대학교 축제",
       "detail": "",
       "type": "event",
       "source": "mnetplus"
