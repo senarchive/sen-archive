@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T02:35:14.139Z",
+  "updated": "2026-09-11T10:27:40.733Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3426,14 +3426,6 @@
       "source": "mnetplus"
     },
     {
-      "date": "2026-09-17",
-      "time": "21:00",
-      "title": "서울대학교 축제",
-      "detail": "",
-      "type": "event",
-      "source": "mnetplus"
-    },
-    {
       "date": "2026-09-18",
       "time": "",
       "title": "인하대학교 축제",
@@ -3453,14 +3445,6 @@
       "date": "2026-09-19",
       "time": "",
       "title": "2026 더팩트 뮤직 어워즈(TMA)",
-      "detail": "",
-      "type": "concert",
-      "source": "mnetplus"
-    },
-    {
-      "date": "2026-09-27",
-      "time": "19:00",
-      "title": "OBJET K-POP FESTA 2026 (OKF2026) - 인천",
       "detail": "",
       "type": "concert",
       "source": "mnetplus"
