@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T02:58:03.354Z",
+  "updated": "2026-09-14T11:31:49.173Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3418,6 +3418,14 @@
       "source": "mnetplus"
     },
     {
+      "date": "2026-09-16",
+      "time": "22:30",
+      "title": "MBC 라디오스타",
+      "detail": "",
+      "type": "broadcast",
+      "source": "mnetplus"
+    },
+    {
       "date": "2026-09-17",
       "time": "",
       "title": "동국대학교 축제",
@@ -3495,14 +3503,6 @@
       "title": "2026 GHOST (경기 한류 OST 뮤직페스티벌)",
       "detail": "",
       "type": "concert",
-      "source": "mnetplus"
-    },
-    {
-      "date": "2026-10-16",
-      "time": "22:30",
-      "title": "MBC 라디오스타",
-      "detail": "",
-      "type": "broadcast",
       "source": "mnetplus"
     },
     {
