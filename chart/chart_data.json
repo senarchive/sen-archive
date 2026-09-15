@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:19:11.007Z",
+  "updatedAt": "2026-09-15T05:51:35.099Z",
   "platforms": [
     "melon",
     "genie",
@@ -28,8 +28,8 @@
           "previousRank": 1
         },
         "bugs": {
-          "rank": 7,
-          "previousRank": 6
+          "rank": 3,
+          "previousRank": 3
         },
         "flo": {
           "rank": 1,
@@ -46,64 +46,29 @@
       }
     },
     {
-      "songName": "Pretty Girl",
-      "artistName": "RESCENE (리센느)",
-      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/137/88/545/13788545_20260707111659_500.jpg?3ef0f9e6af1ea09e3f919c7cb69065ed/melon/resize/144/optimize/90",
-      "ranks": {
-        "melon": {
-          "rank": 9,
-          "previousRank": 8
-        },
-        "genie": {
-          "rank": 8,
-          "previousRank": 8
-        },
-        "vibe": {
-          "rank": 7,
-          "previousRank": 8
-        },
-        "bugs": {
-          "rank": 22,
-          "previousRank": 23
-        },
-        "flo": {
-          "rank": 27,
-          "previousRank": 27
-        },
-        "youtube_music": {
-          "rank": 7,
-          "previousRank": 6
-        },
-        "spotify": {
-          "rank": 7,
-          "previousRank": 5
-        }
-      }
-    },
-    {
       "songName": "Deja Vu",
       "artistName": "RESCENE (리센느)",
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/118/75/116/11875116_20250701165641_500.jpg?86da3088c776a346e926b1b4052f227c/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 8,
+          "rank": 6,
           "previousRank": 6
         },
         "genie": {
           "rank": 13,
-          "previousRank": 15
+          "previousRank": 12
         },
         "vibe": {
           "rank": 20,
           "previousRank": 20
         },
         "bugs": {
-          "rank": 11,
-          "previousRank": 11
+          "rank": 12,
+          "previousRank": 12
         },
         "flo": {
-          "rank": 9,
-          "previousRank": 22
+          "rank": 8,
+          "previousRank": 8
         },
         "youtube_music": {
           "rank": 11,
@@ -116,29 +81,37 @@
       }
     },
     {
-      "songName": "Pinball",
+      "songName": "Pretty Girl",
       "artistName": "RESCENE (리센느)",
-      "albumImageUrl": "https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/085/542/577/85542577_1724656614230_1_140x140.JPG/dims/resize/Q_80,0",
+      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/137/88/545/13788545_20260707111659_500.jpg?3ef0f9e6af1ea09e3f919c7cb69065ed/melon/resize/144/optimize/90",
       "ranks": {
+        "melon": {
+          "rank": 7,
+          "previousRank": 7
+        },
         "genie": {
-          "rank": 95,
-          "previousRank": 101
+          "rank": 10,
+          "previousRank": 11
+        },
+        "vibe": {
+          "rank": 7,
+          "previousRank": 8
         },
         "bugs": {
-          "rank": 26,
-          "previousRank": 26
+          "rank": 21,
+          "previousRank": 21
         },
         "flo": {
-          "rank": 65,
-          "previousRank": 68
+          "rank": 15,
+          "previousRank": 15
         },
         "youtube_music": {
-          "rank": 28,
-          "previousRank": 28
+          "rank": 7,
+          "previousRank": 6
         },
         "spotify": {
-          "rank": 62,
-          "previousRank": 57
+          "rank": 7,
+          "previousRank": 5
         }
       }
     },
@@ -148,15 +121,15 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/133/12/413/13312413_20260406143448_500.jpg?0d1b1aec895dbf60aa601748ddf64dd9/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 62,
-          "previousRank": 61
+          "rank": 68,
+          "previousRank": 63
         },
         "bugs": {
-          "rank": 36,
-          "previousRank": 48
+          "rank": 49,
+          "previousRank": 47
         },
         "flo": {
-          "rank": 85,
+          "rank": 86,
           "previousRank": 86
         },
         "youtube_music": {
@@ -166,6 +139,29 @@
         "spotify": {
           "rank": 40,
           "previousRank": 39
+        }
+      }
+    },
+    {
+      "songName": "Pinball",
+      "artistName": "RESCENE (리센느)",
+      "albumImageUrl": "https://image.bugsm.co.kr/album/images/350/41063/4106349.jpg",
+      "ranks": {
+        "bugs": {
+          "rank": 50,
+          "previousRank": 42
+        },
+        "flo": {
+          "rank": 65,
+          "previousRank": 65
+        },
+        "youtube_music": {
+          "rank": 28,
+          "previousRank": 28
+        },
+        "spotify": {
+          "rank": 62,
+          "previousRank": 57
         }
       }
     },
