@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T10:52:33.956Z",
+  "updated": "2026-09-15T16:04:19.363Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3428,15 +3428,15 @@
     {
       "date": "2026-09-17",
       "time": "",
-      "title": "동국대학교 축제",
+      "title": "서울대학교 축제",
       "detail": "",
       "type": "event",
       "source": "mnetplus"
     },
     {
       "date": "2026-09-17",
-      "time": "",
-      "title": "서울대학교 축제",
+      "time": "19:00",
+      "title": "동국대학교 축제",
       "detail": "",
       "type": "event",
       "source": "mnetplus"
@@ -3451,7 +3451,7 @@
     },
     {
       "date": "2026-09-18",
-      "time": "",
+      "time": "19:00",
       "title": "수원대학교 축제",
       "detail": "",
       "type": "event",
@@ -3468,7 +3468,23 @@
     {
       "date": "2026-09-22",
       "time": "",
+      "title": "한국외국어대학교 글로벌캠퍼스 축제",
+      "detail": "",
+      "type": "event",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-09-22",
+      "time": "",
       "title": "명지대학교 자연캠퍼스 축제",
+      "detail": "",
+      "type": "event",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-09-29",
+      "time": "",
+      "title": "한양대학교 ERICA 축제",
       "detail": "",
       "type": "event",
       "source": "mnetplus"
@@ -3485,6 +3501,14 @@
       "date": "2026-10-03",
       "time": "",
       "title": "공주 백제문화제",
+      "detail": "",
+      "type": "event",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-10-09",
+      "time": "",
+      "title": "연수 능허대 문화 축제",
       "detail": "",
       "type": "event",
       "source": "mnetplus"
