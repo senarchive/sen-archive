@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T03:29:48.448Z",
+  "updatedAt": "2026-09-16T09:05:24.389Z",
   "platforms": [
     "melon",
     "genie",
@@ -20,63 +20,28 @@
           "previousRank": 1
         },
         "genie": {
-          "rank": 1,
-          "previousRank": 1
-        },
-        "vibe": {
-          "rank": 1,
-          "previousRank": 1
-        },
-        "bugs": {
-          "rank": 4,
-          "previousRank": 6
-        },
-        "flo": {
           "rank": 2,
-          "previousRank": 2
-        },
-        "youtube_music": {
-          "rank": 3,
-          "previousRank": 3
-        },
-        "spotify": {
-          "rank": 3,
-          "previousRank": 3
-        }
-      }
-    },
-    {
-      "songName": "Deja Vu",
-      "artistName": "RESCENE (리센느)",
-      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/118/75/116/11875116_20250701165641_500.jpg?86da3088c776a346e926b1b4052f227c/melon/resize/144/optimize/90",
-      "ranks": {
-        "melon": {
-          "rank": 7,
-          "previousRank": 7
-        },
-        "genie": {
-          "rank": 19,
-          "previousRank": 17
+          "previousRank": 1
         },
         "vibe": {
-          "rank": 20,
-          "previousRank": 20
+          "rank": 1,
+          "previousRank": 1
         },
         "bugs": {
-          "rank": 11,
-          "previousRank": 11
+          "rank": 6,
+          "previousRank": 4
         },
         "flo": {
-          "rank": 9,
-          "previousRank": 9
+          "rank": 1,
+          "previousRank": 1
         },
         "youtube_music": {
-          "rank": 11,
-          "previousRank": 10
+          "rank": 3,
+          "previousRank": 3
         },
         "spotify": {
-          "rank": 9,
-          "previousRank": 9
+          "rank": 3,
+          "previousRank": 3
         }
       }
     },
@@ -86,12 +51,12 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/137/88/545/13788545_20260707111659_500.jpg?3ef0f9e6af1ea09e3f919c7cb69065ed/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 8,
-          "previousRank": 8
+          "rank": 7,
+          "previousRank": 6
         },
         "genie": {
-          "rank": 11,
-          "previousRank": 10
+          "rank": 8,
+          "previousRank": 7
         },
         "vibe": {
           "rank": 8,
@@ -102,8 +67,8 @@
           "previousRank": 19
         },
         "flo": {
-          "rank": 15,
-          "previousRank": 17
+          "rank": 12,
+          "previousRank": 12
         },
         "youtube_music": {
           "rank": 7,
@@ -116,21 +81,56 @@
       }
     },
     {
+      "songName": "Deja Vu",
+      "artistName": "RESCENE (리센느)",
+      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/118/75/116/11875116_20250701165641_500.jpg?86da3088c776a346e926b1b4052f227c/melon/resize/144/optimize/90",
+      "ranks": {
+        "melon": {
+          "rank": 8,
+          "previousRank": 8
+        },
+        "genie": {
+          "rank": 12,
+          "previousRank": 14
+        },
+        "vibe": {
+          "rank": 20,
+          "previousRank": 20
+        },
+        "bugs": {
+          "rank": 11,
+          "previousRank": 12
+        },
+        "flo": {
+          "rank": 8,
+          "previousRank": 8
+        },
+        "youtube_music": {
+          "rank": 11,
+          "previousRank": 10
+        },
+        "spotify": {
+          "rank": 9,
+          "previousRank": 9
+        }
+      }
+    },
+    {
       "songName": "Runaway",
       "artistName": "RESCENE (리센느)",
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/133/12/413/13312413_20260406143448_500.jpg?0d1b1aec895dbf60aa601748ddf64dd9/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 68,
-          "previousRank": 65
+          "rank": 60,
+          "previousRank": 60
         },
         "bugs": {
-          "rank": 42,
-          "previousRank": 47
+          "rank": 54,
+          "previousRank": 37
         },
         "flo": {
-          "rank": 86,
-          "previousRank": 86
+          "rank": 88,
+          "previousRank": 88
         },
         "youtube_music": {
           "rank": 54,
@@ -148,12 +148,12 @@
       "albumImageUrl": "https://image.bugsm.co.kr/album/images/350/41063/4106349.jpg",
       "ranks": {
         "bugs": {
-          "rank": 37,
-          "previousRank": 29
+          "rank": 34,
+          "previousRank": 42
         },
         "flo": {
-          "rank": 67,
-          "previousRank": 66
+          "rank": 59,
+          "previousRank": 61
         },
         "youtube_music": {
           "rank": 28,
