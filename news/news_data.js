@@ -1,6 +1,22 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-09-16T04:06:21.704Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-09-16T11:09:44.458Z) */
 
 const NEWS_DATA = [
+    {
+        "title": "리센느 '산업' 그 자체가 되다…\"광고 제안 100건 이상\" 매출도 'Glow Up' - 이코노미스트",
+        "source": "이코노미스트",
+        "date": "2026-09-16",
+        "url": "https://economist.co.kr/article/view/ecn202609160037",
+        "summary": "음원 역주행 신화를 쓰며 대세로 떠오른 신인 걸그룹 리센느(RESCENE)가 단순한 엔터테인먼트적 인기를 넘어 유통·식음료 등 산업 전반의 가치사슬",
+        "image": "https://economist.co.kr/data/ecn/image/2026/09/16/ecn20260916000059.800x.0.png"
+    },
+    {
+        "title": "리센느 미나미 \"역주행 후 광고 제안 100건…日 친구들도 연락와\"('라스') - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-16",
+        "url": "https://v.daum.net/v/20260916141638332",
+        "summary": "[스포티비뉴스=정혜원 기자] 그룹 리센느 미나미가 역주행 후 달라진 인기를 체감하고 있다고 밝힌다. 16일 방송되는 MBC 예능 프로그램 '라디오스타'에는 미나미를 비롯해 이형택, 이혜정, 조준호가 출연해 이야기를 나눈다. 미나미는 '러브어택' 역주행 후 리센느 멤버들 없이 처음으로 예",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/16/spotvnews/20260916141644634dhuh.jpg"
+    },
     {
         "title": "임영웅→에이티즈→리센느, ‘2026 TMA’ 특별 무대 베일 벗는다 - 스포츠경향",
         "source": "스포츠경향",
@@ -18,28 +34,178 @@ const NEWS_DATA = [
         "image": "https://img1.newsis.com/2026/09/16/NISI20260916_0002240481_web.jpg"
     },
     {
-        "title": "임영웅→리센느 다 있다…‘2026 TMA’ 역대급 스케일 스테이지 예고 - 매일경제",
-        "source": "매일경제",
+        "title": "리센느 미나미, 역주행 후 대박 \"광고 제안만 100건 이상\" - 조선일보",
+        "source": "조선일보",
         "date": "2026-09-16",
-        "url": "https://www.mk.co.kr/news/entertain/12154141",
-        "summary": "가수 임영웅의 신곡 무대부터 역주행 신화를 써 내려가고 있는 리센느의 무대까지, ‘2026 더팩트 뮤직 어워즈’에서 베일을 벗는다. 매해 K-POP의 새로운 좌표를 제시하고 있는 ‘더팩트 뮤직 어워즈’는 지난 2019년 4월 첫 출범 이후 어느덧 9회째를 맞이하며 K-POP의 빛나는 역",
-        "image": "https://pimg.mk.co.kr/news/cms/202609/16/news-p.v1.20260916.6b738930e6a3421394bb4c7bc93f83ec_R.jpg"
+        "url": "https://www.chosun.com/entertainments/celebrity/2026/09/16/PBWA7VBDXFEKXK4R3YTSIF2CQU/",
+        "summary": "그룹 리센느의 미나미가 MBC 라디오스타에 출연하여 역주행 이후 급상승한 인기와 근황을 전합니다. 광고 100건 이상의 제안을 받으며 달라진 인지도를 체감하고 있으며, 한국에서의 독특한 캐릭터 구축 과정과 아이돌을 꿈꿨던 과거의 이야기를 솔직하게 공개할 예정입니다.",
+        "image": "https://www.chosun.com/resizer/v2/GYZDGNJTGFRDKNLDGJSGEY3CMY.jpg?auth=1392649067f76c2be8b1a5330aa40dbb0d3a11d5edeb7bf39efdc8096357b972&width=720&height=378&focal=515,259"
     },
     {
-        "title": "'18㎏ 감량' 리센느 미나미, 솔직 심경 \"외모로 괴롭히면 안 돼\" [N이슈] - v.daum.net",
+        "title": "“이제 먼저는 안 할래요”…리센느 미나미, ‘야호’와 유쾌한 작별 - 알파경제",
+        "source": "알파경제",
+        "date": "2026-09-16",
+        "url": "https://www.alphabiz.co.kr/news/articleView.html?idxno=187041",
+        "summary": "[알파경제 = 김단하 기자] 리센느 미나미를 단숨에 각인시킨 한마디 ‘야호~’가 잠시 쉼표를 찍는다. 역주행으로 팀의 인기가 치솟은 뒤 처음으로 홀로 예능에 나선",
+        "image": "https://cdn.alphabiz.co.kr/news/photo/202609/187041_144023_5011.jpg"
+    },
+    {
+        "title": "리센느의 향기와 기억, 팬들과 만나는 팝업스토어 'Scent Archive' 오픈 - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-09-16",
-        "url": "https://v.daum.net/v/20260916105149644",
-        "summary": "(서울=뉴스1) 고승아 기자 = 그룹 리센느 멤버 미나미가 18㎏을 감량했다고 공개한 이후 다이어트에 관한 솔직한 심정을 털어놨다. 미나미는 최근 팬 소통 플랫폼 버블을 통해 \"유튜브 잘 봤나, 솔직히 아이돌 다이어트 얘기 너무 재밌지\"라며 \"나였어도 재밌어할 것 같다\"고 운을 뗐다. ",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/16/NEWS1/20260916105149580rpio.jpg"
+        "url": "https://v.daum.net/v/20260916141249162",
+        "summary": "[텐아시아=김병두 기자]그룹 리센느(RESCENE)가 음악과 팀 콘셉트를 체험형 콘텐츠로 풀어낸 팝업스토어를 선보인다. 리센느는 지난 15일부터 오는 23일까지 서울 여의도 더현대 서울 5층 에픽서울에서 'Scent Archive (memories of RESCENE)' 팝업스토어를 운",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/16/10asia/20260916141250776zttz.jpg"
     },
     {
-        "title": "`리센느 삼촌` 이선민 이렇게 똑똑했어? \"숭실대 학점 4.0\" - 마이데일리",
-        "source": "마이데일리",
+        "title": "‘18kg 감량’ 리센느 미나미, 독하게 빼는 지옥의 ‘운동 루틴’ 공개 [셀럽 건강] - 서울신문",
+        "source": "서울신문",
         "date": "2026-09-16",
-        "url": "https://www.mydaily.co.kr/page/view/2026091610140853391",
-        "summary": "이선민./소셜미디어...",
-        "image": "https://mydaily.co.kr/photos/2026/09/16/2026091610124707789_l.jpg"
+        "url": "https://www.seoul.co.kr/news/entertainment/starinterN/2026/09/16/20260916500142",
+        "summary": "리센느 일본인 멤버 미나미가 18kg 감량 사실을 밝히며 다이어트 고충을 털어놨다. 연습생 시절에는 점핑 버피, 플랭크, 크런치, 런지 등을 하루 8세트씩 소화한 ‘지옥의 운동 루틴’도 다시 주목받았다.",
+        "image": "https://img.seoul.co.kr/img/upload/2026/09/16/SSC_20260916135513.jpg.webp"
+    },
+    {
+        "title": "리센느 미나미, 역주행 후 첫 홀로서기 “광고 제안만 100건 이상” (라스) - 스포츠경향",
+        "source": "스포츠경향",
+        "date": "2026-09-16",
+        "url": "https://sports.khan.co.kr/article/202609161312013",
+        "summary": "‘러브어택’ 역주행 열풍의 주인공 그룹 리센느의 미나미가 멤버들 없이 데뷔 첫 예능 홀로서기에 나선다. 16일 방송되는 MBC ‘라디오스타’는 이형택, 이혜정, 조준호, 미나미가 출연하는 ‘나고야-호! 아시안게...",
+        "image": "https://images.khan.co.kr/article/2026/09/16/news-p.v1.20260916.dad1ca11ef7844428a7f53162841b421_P1.png"
+    },
+    {
+        "title": "'18㎏ 감량' 리센느 미나미, 솔직 심경 \"외모로 괴롭히면 안 돼\" [N이슈] - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-09-16",
+        "url": "https://www.news1.kr/entertain/celebrity-topic/6292016",
+        "summary": ""
+    },
+    {
+        "title": "리센느 미나미, “오늘이 라스트”‥‘야호’ 졸업 선언 배경은 - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-09-16",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16195897",
+        "summary": "리센느 미나미가 MBC ‘라디오스타’ 나고야-호 아시안게임 특집에 출연해 유행어 ‘야호’와의 이별을 언급하며 “오늘이 라스트”라고 말한 이유와 MC들과의 티키타카, 서예 실력과 ‘그런 일은’ 무대까지 선보이는 현장을 전한다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202609/16195897_2027664_1221_crop.jpg"
+    },
+    {
+        "title": "\"연예인 다 됐다\"..리센느 미나미, '야호' 유행어 졸업 ('라스')[방송 프리뷰] - 조선비즈 - Chosunbiz",
+        "source": "Chosunbiz",
+        "date": "2026-09-16",
+        "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/16/GA4TCMJYMEYDOZDDHFTGEOJUHE/?outputType=amp",
+        "summary": "연예인 다 됐다..리센느 미나미, 야호 유행어 졸업 라스방송 프리뷰",
+        "image": "https://biz.chosun.com/resizer/v2/GY3TEYZSGRSGIOLCMJSWGYRTME.jpg?auth=9a56fdc905aa8675bb6ab161879fa8f92a2281cee731f0e57f3140a3d5b84929&width=650&height=341&smart=true"
+    },
+    {
+        "title": "'라디오스타' 유세윤, 리센느 미나미 야호 졸업 선언에 \"난 개코원숭이 아직 해\" - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "date": "2026-09-16",
+        "url": "https://www.mt.co.kr/amp/entertainment/2026/09/16/2026091616107266373",
+        "summary": "'라디오스타'에서 미나미는 '야호~' 졸업을 선언하고 이형택은 자신을 둘러싼 황당한 소문을 해명한다. 16일 오후 방송하는 MBC 예능 프로그램 '라디오스타'에는 게스트로 전 테니스선수 이형택, 모델 이혜정, 전 유도선수 조준호, 걸그룹 리센느 멤버 미나미가 출연해 '나고야-호",
+        "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=660,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/09/2026091616107266373_1.jpg"
+    },
+    {
+        "title": "\"연예인 다 됐다\"..리센느 미나미, '야호' 유행어 졸업 ('라스')[방송 프리뷰] - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-16",
+        "url": "https://v.daum.net/v/20260916133109465",
+        "summary": "[OSEN=장우영 기자] 그룹 리센느(RESCENE) 미나미가 유행어 졸업을 선언한다. 16일 방송되는 MBC ‘라디오스타’는 ‘나고야-호!’ 특집으로 꾸며져 이형택, 이혜정, 조준호, 미나미가 출연한다. 멤버들 없이 처음으로 예능에 홀로 출연하는 미나미는 “멤버들이 ‘너 진짜 연예인 ",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/16/poctan/20260916133109594czth.jpg"
+    },
+    {
+        "title": "다이어트한 스타들|리센느 미나미, 18kg 찌고 다이어트 트라우마 생겼다…\"외모로 사람 괴롭히면 안 돼\" - ZUM 뉴스",
+        "source": "ZUM 뉴스",
+        "date": "2026-09-16",
+        "url": "https://news.zum.com/photo/60493378/107783717",
+        "summary": "그룹 리센느[RESCENE] 미나미가 데뷔 준비 당시 겪은 다이어트 스트레스를 털어놨다./사진=텐아시아DB 그룹 리센느[RESCENE] 미나미가 데뷔 준비 당시 겪은 다이어트 스트레스를 털어놨다. 최근 미나미는 팬 소통 플랫폼 버블을 통해 자신이 출연한 다이어트 관련 콘텐츠를 언급했다.",
+        "image": "https://newszum.zumst.com/news/텐아시아/2026/09/16/BF.45696992.1.jpg"
+    },
+    {
+        "title": "리센느 미나미, 오늘(16일) '라디오스타' 출격⋯\"광고 제안 100건 이상\" - 이투데이",
+        "source": "이투데이",
+        "date": "2026-09-16",
+        "url": "https://www.etoday.co.kr/news/view/2626244",
+        "summary": "▲리센느 미나미. (사진제공=MBC '라디오스타')그룹 리센느 미나미가 '러브어택' 역주행 이후 달라진 인기를 공개하고 유행어 '야호'와의 작별을 예고",
+        "image": "https://img.etoday.co.kr/pto_db/2026/09/20260916160509_2389185_1000_700.jpg"
+    },
+    {
+        "title": "리센느 미나미 \"유행어 '야호' 이제 그만\"…유세윤 \"난 반대\" - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-16",
+        "url": "https://v.daum.net/v/20260916164128705",
+        "summary": "[마이데일리 = 이승길 기자] 그룹 리센느(RESCENE)의 미나미가 대표 유행어인 '야호~'의 졸업을 선언했다. 16일 방송되는 MBC '라디오스타'는 전 테니스 선수 이형택, 요리연구가 이혜정, 전 유도 선수 조준호, 리센느 미나미가 게스트로 출격하는 '나고야-호! 아시안게임' 특집",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/16/mydaily/20260916164129509gfrj.jpg"
+    },
+    {
+        "title": "리센느 미나미 ‘야호’ 졸업 선언에 유세윤 “난 아직도 캐코원숭이 해” - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-16",
+        "url": "https://v.daum.net/v/20260916153444824",
+        "summary": "[스포츠경향 이선명 기자] 그룹 리센느(RESCENE) 멤버 미나미가 자신을 알린 유행어 ‘야호’를 먼저 외치는 일은 그만두겠다고 밝혔다. 16일 MBC에 따르면 미나미는 이날 방송되는 MBC 예능 프로그램 ‘라디오스타’에 출연해 대표 유행어 ‘야호’와 관련한 이야기를 꺼낸다. 이날 방",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/16/sportskhan/20260916153445770znrr.jpg"
+    },
+    {
+        "title": "리센느 미나미, 갸루 유행어 ‘야호’ 졸업 선언 “오늘이 마지막” (라스) - 매일경제",
+        "source": "매일경제",
+        "date": "2026-09-16",
+        "url": "https://www.mk.co.kr/news/broadcasting-service/12154240",
+        "summary": "",
+        "image": "https://pimg.mk.co.kr/news/cms/202609/16/news-p.v1.20260916.a85091cdfccd40cfa215034037ed4f6d_R.png"
+    },
+    {
+        "title": "광고 제안만 100건 넘었다…미나미, 리센느 대세 행보 타고 첫 홀로 예능 (라스) - 일간스포츠",
+        "source": "일간스포츠",
+        "date": "2026-09-16",
+        "url": "https://isplus.com/article/view/isp202609160064",
+        "summary": "그룹 리센느 미나미가 ‘러브어택’ 역주행 이후 달라진 일상을 전했다.16일 방송되는 MBC ‘라디오스타’(이하 ‘라스&rsqu...",
+        "image": "https://isplus.com/data/isp/image/2026/09/16/isp20260916000171.800x.0.png"
+    },
+    {
+        "title": "리센느 미나미, 역주행 터지자 광고 제안 100건↑ “이제 ‘야호’ 졸업” - 스포츠동아",
+        "source": "스포츠동아",
+        "date": "2026-09-16",
+        "url": "https://sports.donga.com/ent/article/all/20260916/134679866/1",
+        "summary": "[스포츠동아 이정연 기자] 그룹 리센느 미나미가 ‘러브어택’ 역주행 이후 광고 제안만 100건 넘게 들어왔다고 밝힌다. 자신을 알린 유행어 ‘야호’와는 깜짝 이별을 선언한다.미나미는 16일 밤 10시 30분 방송되는 MBC ‘라디오스타’의 ‘나고야-호! 아시안게임’ …",
+        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/09/16/134679869.1.jpeg"
+    },
+    {
+        "title": "리센느 미나미, 역주행 후 달라진 일상 \"광고 제안만 100건 이상\" (라스) - iMBC 연예",
+        "source": "iMBC 연예",
+        "date": "2026-09-16",
+        "url": "https://enews.imbc.com/News/RetrieveNewsInfo/518374",
+        "summary": "그룹 리센느 미나미가 멤버들 없이 홀로 ‘라디오스타’에 출연해 예능 신고식을 치른다. ‘러브어택’ 역주행으로 달라진 인지도부터 대학 축제에서 체감한 인기, 자신을 알린 ‘야호’와 갸루 캐릭터에 대한 비하인드까지 다양한 이야기를 털어놓을 예정이다. 16일 오후 10시 30분 방송되는 MB",
+        "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/09/16/763b3f4a-02ea-4fef-9043-9638a1c92f72.jpg"
+    },
+    {
+        "title": "리센느 미나미, '야호' 졸업 선언 \"할 만큼 했다, 그만 할 것\"('라스') - SPOTV NEWS",
+        "source": "SPOTV NEWS",
+        "date": "2026-09-16",
+        "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1007769",
+        "summary": "그룹 리센느 미나미가 '야호 졸업'을 선언했다. 16일 MBC 예능 프로그램 '라디오스타' 공식 유튜브 채널에는 '리센느 미나미의 야호 졸업식'이라는 제목의 영상이 게재됐다.",
+        "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202609/1007769_2015337_1300.jpg"
+    },
+    {
+        "title": "[스타집중조명] 리센느 미나미, ‘라디오스타’ 출연 - JTN EVENT",
+        "source": "JTN EVENT",
+        "date": "2026-09-16",
+        "url": "http://www.jtn.co.kr/tv/view.php?code=2300&idx=79318",
+        "summary": "[JTN���� �ڼ��� ����] ���������� ��ȭ���� �̷� �뼼 ���̵� �������� �̳��̰� ��.."
+    },
+    {
+        "title": "[밀물썰물] `거제 야호` 그 이후 - 부산일보",
+        "source": "부산일보",
+        "date": "2026-09-16",
+        "url": "https://mobile.busan.com/view/bstoday/view.php?code=2026091618003413726",
+        "summary": "경남 거제는 천혜의 해안 경관을 갖춘 조선 도시다. 해금강, 바람의 언덕, 외도, 포로수용소 유적공원 등 전국적으로 알려진 관광 명소와 먹거리가 즐비하다....",
+        "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/09/16/2026091618003373221_l.jpg"
+    },
+    {
+        "title": "리센느 미나미, '야호~' 졸업 선언…\"오늘이 라스트\" (라스) - iMBC 연예",
+        "source": "iMBC 연예",
+        "date": "2026-09-16",
+        "url": "https://enews.imbc.com/News/RetrieveNewsInfo/518383",
+        "summary": "'역주행의 신화'를 쓰며 대세 아이돌로 떠오른 리센느 미나미가 '라디오스타'에서 자신의 대표 유행어 '야호~'와 작별을 예고한다. 16일 밤 방송되는 MBC '라디오스타'(기획 최윤정 / 연출 윤혜진, 황윤상, 변다희, 양인혜)는 이형택, 이혜정, 조준호, 미나미가 함께하는 '나고야-호",
+        "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/09/16/aff5d9b5-8b68-435e-837a-470f5109afd0.jpg"
     },
     {
         "title": "리센느 1위, 9월 아이돌 브랜드평판 정상..2위 방탄소년단(BTS)·3위 블랙핑크 - 브레이크뉴스",
@@ -50,6 +216,13 @@ const NEWS_DATA = [
         "image": "https://www.breaknews.com/imgdata/breaknews_com/202607/2026070146037003.jpg"
     },
     {
+        "title": "리센느 미나미, 광고 제안만 100건 이상 “진짜 연예인 다 됐구나”(라스) - 뉴스엔",
+        "source": "뉴스엔",
+        "date": "2026-09-16",
+        "url": "https://m.newsen.com/news_view.php?uid=202609161301460310",
+        "summary": ""
+    },
+    {
         "title": "임영웅→에이티즈→리센느, ‘2026 TMA’ 특별 무대 베일 벗는다 - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-09-16",
@@ -58,12 +231,60 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/16/sportskhan/20260916094532652oomm.png"
     },
     {
+        "title": "리센느 미나미의 마지막 '야호~' ('라디오스타') - 뉴스컬처",
+        "source": "뉴스컬처",
+        "date": "2026-09-16",
+        "url": "https://www.nc.press/news/articleView.html?idxno=626671",
+        "summary": "[뉴스컬처 이준섭 기자] 그룹 리센느 미나미가 전국을 사로잡았던 유행어 ‘야호~’와 작별을 고한다.미나미는 16일 방송되는 MBC ‘라디오스타’에 출연해 특유의",
+        "image": "https://cdn.nc.press/news/photo/202609/626671_860135_2041.jpg"
+    },
+    {
         "title": "아이들 소연, 리센느 미나미 첫인상 밝혔다⋯과거 무슨 인연? - 이투데이",
         "source": "이투데이",
         "date": "2026-09-16",
-        "url": "https://www.etoday.co.kr/news/view/2626099?trc=right_categori_news",
+        "url": "https://www.etoday.co.kr/news/view/2626099",
         "summary": "▲'허경환의 유행어로 행복하쇼' 방송 화면. (사진제공=E채널)아이들 소연이 자신을 둘러싼 '저작권료 10억원 설'의 진실을 밝힌다.16일 공개되는 티캐",
         "image": "https://img.etoday.co.kr/pto_db/2026/09/20260916093557_2388822_800_669.jpg"
+    },
+    {
+        "title": "'라디오스타' 유세윤, 리센느 미나미 야호 졸업 선언에 \"난 개코원숭이 아직 해\" · 향후 전망은? - supple.kr",
+        "source": "supple.kr",
+        "date": "2026-09-16",
+        "url": "https://supple.kr/news/cmu3ry4su007c6a064ettd01v",
+        "summary": "머니투데이 · 연예 핵심 정리 · '라디오스타'에서 미나미는 '야호~' 졸업을 선언하고 이형택은 자신을 둘러싼 황당한 소문을 해명한다. 16일 오후 방송하는 MBC 예능 프로그램 '라디오스타'에는 게스트로 전 테니스선수 이형택, 모델 이혜정, 전 유도선수 조...",
+        "image": "https://images.supple.kr/?url=https%3A%2F%2Fthumb.mt.co.kr%2F06%2F2026%2F09%2F2026091616107266373_1.jpg"
+    },
+    {
+        "title": "‘라디오스타’ 리센느 미나미 출격(라스) - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-16",
+        "url": "https://v.daum.net/v/20260916131241939",
+        "summary": "‘라디오스타’에서 그룹 리센느의 미나미가 홀로서기에 도전한다. 오늘(16일) 수요일 밤 방송되는 ‘라디오스타’는 이형택, 이혜정, 조준호, 미나미가 출연하는 ‘나고야-호! 아시안게임’ 특집으로 꾸며진다. 미나미는 ‘러브어택’ 역주행 후 광고 제안 100건 이상과 대학 축제 떼창 등 달라",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/16/bntnews/20260916131242609hphd.jpg"
+    },
+    {
+        "title": "임영웅→리센느 다 있다…‘2026 TMA’ 역대급 스케일 스테이지 예고 - 매일경제",
+        "source": "매일경제",
+        "date": "2026-09-16",
+        "url": "https://www.mk.co.kr/news/entertain/12154141",
+        "summary": "가수 임영웅의 신곡 무대부터 역주행 신화를 써 내려가고 있는 리센느의 무대까지, ‘2026 더팩트 뮤직 어워즈’에서 베일을 벗는다. 매해 K-POP의 새로운 좌표를 제시하고 있는 ‘더팩트 뮤직 어워즈’는 지난 2019년 4월 첫 출범 이후 어느덧 9회째를 맞이하며 K-POP의 빛나는 역",
+        "image": "https://pimg.mk.co.kr/news/cms/202609/16/news-p.v1.20260916.6b738930e6a3421394bb4c7bc93f83ec_R.jpg"
+    },
+    {
+        "title": "미나미, 리센느 역주행 실감…멤버들도 “너 진짜 연예인됐다” - atstar1.com",
+        "source": "atstar1.com",
+        "date": "2026-09-16",
+        "url": "http://www.atstar1.com/news/articleView.html?idxno=6038718",
+        "summary": "[앳스타일 김예나 기자] 미나미가 ‘라스’에 출연해 리센느 멤버들의 반응을 전한다.16일 MBC ‘라디오스타’ 측은 “이형택, 이혜정, 조준호, 미나미가 출연하는 ‘나고야-호! 아시안게임’ 특집으로 꾸며진다”고 예고했다.미나미는 역주행 신드롬 후 리센느 멤버들 없이 예능에 처음 홀로 출",
+        "image": "https://cdn.atstar1.com/news/thumbnail/202609/6038718_117640_5514_v150.jpg"
+    },
+    {
+        "title": "\"오늘이 라스트입니다\"… '라스' 리센느 미나미, 대세 만든 '야호·갸루' 전격 졸업 선언 - 중앙이코노미뉴스",
+        "source": "중앙이코노미뉴스",
+        "date": "2026-09-16",
+        "url": "https://www.joongangenews.com/news/articleView.html?idxno=548658",
+        "summary": "[중앙이코노미뉴스 김영진] 그룹 리센느의 미나미가 자신을 대세로 만든 ‘야호’와 갸루 유행어의 졸업을 선언해 관심을 모았다.미나미는 오늘(16일) 방송되는 MBC",
+        "image": "https://cdn.joongangenews.com/news/photo/202609/548658_355168_4835.jpg"
     },
     {
         "title": "‘허경환의 유행쇼’ 아이들 소연, 리센느 인연 공개 - v.daum.net",
@@ -82,20 +303,20 @@ const NEWS_DATA = [
         "image": "https://www.sportsworldi.com/content/image/2026/09/16/20260916505980.jpg"
     },
     {
-        "title": "리센느, 팝업스토어 ‘Scent Archive’ 오픈…향기와 기억 테마 특별한 팬 경험 선사 - sportsseoul.com",
-        "source": "sportsseoul.com",
-        "date": "2026-09-16",
-        "url": "https://www.sportsseoul.com/news/read/1635560",
-        "summary": "[스포츠서울 | 신재유 기자] 그룹 리센느(RESCENE)가 팬들과 특별한 추억을 만드는 체험형 팝업스토어를 15일부터 23일까지 더현대 서울 에픽서울 5층에서 선보인다. ‘Scent Archive (memories of RESCENE)’라는 이름으로 열리는 이번 팝업스토어는 K-컬",
-        "image": "https://file.sportsseoul.com/news/cms/2026/09/16/news-p.v1.20260916.bd0e3dce096846528a9b908572ca18a5_T1.jpg"
-    },
-    {
         "title": "리센느, ‘Scent Archive’ 팝업스토어 오픈…향기·음악 테마 체험 공간 - 스타데일리뉴스",
         "source": "스타데일리뉴스",
         "date": "2026-09-16",
         "url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=550173",
         "summary": "[스타데일리뉴스=천설화 기자] 그룹 리센느(RESCENE)의 음악과 팀 콘셉트를 체험할 수 있는 팝업스토어가 서울에서 운영된다.리센느는 15일부터 오는 23일까지 서울 영등포구 더현대 서울 에픽서울 5층에서 ‘Sce...",
         "image": "https://cdn.stardailynews.co.kr/news/thumbnail/202609/550173_582680_5620_v150.jpg"
+    },
+    {
+        "title": "리센느, 팝업스토어 ‘Scent Archive’ 오픈…향기와 기억 테마 특별한 팬 경험 선사 - 스포츠서울",
+        "source": "스포츠서울",
+        "date": "2026-09-16",
+        "url": "https://www.sportsseoul.com/news/read/1635560",
+        "summary": "[스포츠서울 | 신재유 기자] 그룹 리센느(RESCENE)가 팬들과 특별한 추억을 만드는 체험형 팝업스토어를 15일부터 23일까지 더현대 서울 에픽서울 5층에서 선보인다. ‘Scent Archive (memories of RESCENE)’라는 이름으로 열리는 이번 팝업스토어는 K-컬",
+        "image": "https://file.sportsseoul.com/news/cms/2026/09/16/news-p.v1.20260916.bd0e3dce096846528a9b908572ca18a5_T1.jpg"
     },
     {
         "title": "\"원이가 좋아하는 맛 그대로\"…CU, 리센느 빵 5종 출시 - 지디넷코리아",
@@ -106,6 +327,22 @@ const NEWS_DATA = [
         "image": "https://image.zdnet.co.kr/2026/09/15/6a881fec4c8ce17c281cb7f8f7ee67ca.jpg"
     },
     {
+        "title": "\"맛보며 만들었어요\" 리센느 빵 뭐길래…출시 전부터 '들썩' [갓신상] - 한국경제",
+        "source": "한국경제",
+        "date": "2026-09-15",
+        "url": "https://www.hankyung.com/article/202609154582g",
+        "summary": "\"맛보며 만들었어요\" 리센느 빵 뭐길래…출시 전부터 '들썩' [갓신상], 자체 베이커리 'BAKE405' 협업 원이&middot;미나미 등 멤버 5인 개별 취향 구현",
+        "image": "https://img.hankyung.com/photo/202609/01.45693017.1.jpg"
+    },
+    {
+        "title": "'더팩트 뮤직 어워즈' 임영웅·리센느·에이티즈, 스페셜 스테이지 - 비즈엔터",
+        "source": "비즈엔터",
+        "date": "2026-09-15",
+        "url": "https://enter.etoday.co.kr/news/view/302484",
+        "summary": "▲임영웅, 리센느, 에이티즈 (사진출처=각 소속사 )임영웅, 리센느, 에이티즈가 19일 개최되는 '2026 더팩트 뮤직 어워즈(2026 THE FACT MUSIC AWARDS,",
+        "image": "https://img.etoday.co.kr/pto_db/2026/09/600/20260916074002_2388697_1200_1500.jpg"
+    },
+    {
         "title": "리센느→QWER 출연 예정 페스티벌, 열흘 앞두고 \"연기 결정\" - iMBC 연예",
         "source": "iMBC 연예",
         "date": "2026-09-15",
@@ -114,12 +351,12 @@ const NEWS_DATA = [
         "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/09/15/25461bdc-9993-467e-a221-6918861be8cc.jpg"
     },
     {
-        "title": "[빅데이터로본다] 아이돌그룹 2026년 9월 브랜드평판... 1위 리센느, 2위 방탄소년단, 3위 블랙핑크 - 일간투데이",
-        "source": "일간투데이",
+        "title": "1위 리센느, 2위 방탄소년단, 3위 블랙핑크 - starnewskorea.com",
+        "source": "starnewskorea.com",
         "date": "2026-09-15",
-        "url": "https://www.dtoday.co.kr/news/articleView.html?idxno=791951",
-        "summary": "[일간투데이 박선영 기자] 아이돌그룹 브랜드평판 2026년 9월 빅데이터 분석결과, 1위 리센느 브랜드로 분석됐다.​한국기업평판연구소는 아이돌그룹 브랜드평판 빅데이터 분석을 위해 2026년 8월 16일부터 2026년 9월 16일까지 아이돌그룹 브랜드 빅데이터 112,8",
-        "image": "https://cdn.dtoday.co.kr/news/thumbnail/202609/791951_663897_2753_v150.jpg"
+        "url": "https://www.starnewskorea.com/music/2026/09/16/2026091606475913935",
+        "summary": "걸그룹 리센느(RESCENE)가 9월 아이돌그룹 브랜드평판 1위에 오르며 '대세' 존재감을 빛냈다. 리센느는 9월 16일 한국기업평판연구소가 발표한 아이돌그룹 브랜드평판 2026년 9월 빅데이터 분석결과, 1위를 차지했다. 1위 리센느에 이어 2위 방탄소년단(BTS), 3위 블랙핑크(B",
+        "image": "https://image.starnewskorea.com/21/2026/09/2026091606475913935_1.jpg"
     },
     {
         "title": "[HD포토] 리센느 리브, ‘바보 아니다’ (2026 SKA 레드카펫) - 톱스타뉴스",
@@ -130,12 +367,12 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202609/16194846_2026916_87_crop.jpg"
     },
     {
-        "title": "1위 리센느, 2위 방탄소년단, 3위 블랙핑크 - starnewskorea.com",
-        "source": "starnewskorea.com",
+        "title": "편의점 CU, 걸그룹 ‘리센느’ 손잡고 ‘BAKE405’ 베이커리 5종 업계 단독 출시 - 씨원뉴스",
+        "source": "씨원뉴스",
         "date": "2026-09-15",
-        "url": "https://www.starnewskorea.com/music/2026/09/16/2026091606475913935",
-        "summary": "걸그룹 리센느(RESCENE)가 9월 아이돌그룹 브랜드평판 1위에 오르며 '대세' 존재감을 빛냈다. 리센느는 9월 16일 한국기업평판연구소가 발표한 아이돌그룹 브랜드평판 2026년 9월 빅데이터 분석결과, 1위를 차지했다. 1위 리센느에 이어 2위 방탄소년단(BTS), 3위 블랙핑크(B",
-        "image": "https://image.starnewskorea.com/21/2026/09/2026091606475913935_1.jpg"
+        "url": "https://www.c1news.kr/news/articleView.html?idxno=201058",
+        "summary": "【씨원뉴스】 편의점 CU가 브랜드 모델인 걸그룹 ‘리센느(RESCENE)’와 협업해 멤버들의 실제 취향을 반영한 차별화 베이커리 ‘BAKE405’ 5종을 업계 단",
+        "image": "https://cdn.c1news.kr/news/photo/202609/201058_301750_2825.jpg"
     },
     {
         "title": "임영웅·에이티즈·리센느, ‘더팩트 뮤직 어워즈’ 무대 관전 포인트 - 톱스타뉴스",
@@ -162,12 +399,20 @@ const NEWS_DATA = [
         "image": "https://image.inews24.com/v1/fb245486af41a1.jpg"
     },
     {
-        "title": "편의점 CU, 걸그룹 ‘리센느’ 손잡고 ‘BAKE405’ 베이커리 5종 업계 단독 출시 - 씨원뉴스",
-        "source": "씨원뉴스",
+        "title": "리센느 '러브 어택'의 변신…에이티즈·임영웅까지 TMA 특별 무대 - 지피코리아",
+        "source": "지피코리아",
         "date": "2026-09-15",
-        "url": "https://www.c1news.kr/news/articleView.html?idxno=201058",
-        "summary": "【씨원뉴스】 편의점 CU가 브랜드 모델인 걸그룹 ‘리센느(RESCENE)’와 협업해 멤버들의 실제 취향을 반영한 차별화 베이커리 ‘BAKE405’ 5종을 업계 단",
-        "image": "https://cdn.c1news.kr/news/photo/202609/201058_301750_2825.jpg"
+        "url": "https://www.gpkorea.com/news/articleView.html?idxno=146740",
+        "summary": "리센느의 오케스트라 편곡 무대부터 에이티즈의 신곡 무대 최초 공개, 임영웅의 신곡 라이브까지. ‘2026 더팩트 뮤직 어워즈’에서 세 아티스트가 각기 다른 매력의 무대를 선보인다.오는 19일 부산아시아드주경기장에서 개최되는 ‘2026 더팩트 뮤직 어워즈(2026 THE FACT MUSI",
+        "image": "https://cdn.gpkorea.com/news/photo/202609/146740_311810_494.jpg"
+    },
+    {
+        "title": "[빅데이터로본다] 아이돌그룹 2026년 9월 브랜드평판... 1위 리센느, 2위 방탄소년단, 3위 블랙핑크 - 일간투데이",
+        "source": "일간투데이",
+        "date": "2026-09-15",
+        "url": "https://www.dtoday.co.kr/news/articleView.html?idxno=791951",
+        "summary": "[일간투데이 박선영 기자] 아이돌그룹 브랜드평판 2026년 9월 빅데이터 분석결과, 1위 리센느 브랜드로 분석됐다.​한국기업평판연구소는 아이돌그룹 브랜드평판 빅데이터 분석을 위해 2026년 8월 16일부터 2026년 9월 16일까지 아이돌그룹 브랜드 빅데이터 112,8",
+        "image": "https://cdn.dtoday.co.kr/news/thumbnail/202609/791951_663897_2753_v150.jpg"
     },
     {
         "title": "아이브 레이·리센느→김성주·안정환→배성재·전현무…지상파 3사 ‘중계 대전’ [IS포커스] - 일간스포츠",
@@ -178,14 +423,6 @@ const NEWS_DATA = [
         "image": "https://isplus.com/data/isp/image/2026/09/15/isp20260915000210.800x.0.jpg"
     },
     {
-        "title": "리센느 '러브 어택'의 변신…에이티즈·임영웅까지 TMA 특별 무대 - 지피코리아",
-        "source": "지피코리아",
-        "date": "2026-09-15",
-        "url": "https://www.gpkorea.com/news/articleView.html?idxno=146740",
-        "summary": "리센느의 오케스트라 편곡 무대부터 에이티즈의 신곡 무대 최초 공개, 임영웅의 신곡 라이브까지. ‘2026 더팩트 뮤직 어워즈’에서 세 아티스트가 각기 다른 매력의 무대를 선보인다.오는 19일 부산아시아드주경기장에서 개최되는 ‘2026 더팩트 뮤직 어워즈(2026 THE FACT MUSI",
-        "image": "https://cdn.gpkorea.com/news/photo/202609/146740_311810_494.jpg"
-    },
-    {
         "title": "리센느, 아이돌 브랜드평판 1위 - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-09-15",
@@ -194,12 +431,11 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/16/bntnews/20260916065111393xemm.jpg"
     },
     {
-        "title": "'더팩트 뮤직 어워즈' 임영웅·리센느·에이티즈, 스페셜 스테이지 - enter.etoday.co.kr",
-        "source": "enter.etoday.co.kr",
+        "title": "CU, 걸그룹 리센느 협업 '베이크 405' 베이커리 5종 순차 출시 - 전자신문",
+        "source": "전자신문",
         "date": "2026-09-15",
-        "url": "https://enter.etoday.co.kr/news/view/302484",
-        "summary": "▲임영웅, 리센느, 에이티즈 (사진출처=각 소속사 )임영웅, 리센느, 에이티즈가 19일 개최되는 '2026 더팩트 뮤직 어워즈(2026 THE FACT MUSIC AWARDS,",
-        "image": "https://img.etoday.co.kr/pto_db/2026/09/600/20260916074002_2388697_1200_1500.jpg"
+        "url": "https://www.etnews.com/20260915000064",
+        "summary": ""
     },
     {
         "title": "아이돌그룹 브랜드평판 9월 빅데이터 분석... 1위 리센느, 2위 방탄소년단, 3위 블랙핑크 - 핀포인트뉴스",
@@ -208,54 +444,6 @@ const NEWS_DATA = [
         "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=487346",
         "summary": "걸그룹 리센느가 방탄소년단과 블랙핑크를 제치고 9월 아이돌그룹 브랜드평판 1위에 올랐다. 지난달보다 브랜드평판지수가 16% 넘게 상승하면서 보이그룹과 걸그룹을 통합한 전체 순위에서 정상에 올랐다.한국기업평판연구소가 16일 발표한 아이돌그룹 브랜드평판 9월 빅데이터 분석 결과에 따르면 1",
         "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202609/487346_473533_4836_v150.jpg"
-    },
-    {
-        "title": "[포토] CU, 리센느 취향 담은 빵 5종… 포토카드 27종 동봉 - 콕스뉴스",
-        "source": "콕스뉴스",
-        "date": "2026-09-15",
-        "url": "https://www.coxnews.co.kr/news/articleView.html?idxno=6108",
-        "summary": "편의점 CU가 브랜드 모델 리센느와 협업한 베이커리 'BAKE405' 5종을 17일부터 순차 출시한다. 원이의 옥수수 크림빵, 미나미의 메론빵, 메이의 시나몬 롤",
-        "image": "https://cdn.coxnews.co.kr/news/photo/202609/6108_8881_348.jpg"
-    },
-    {
-        "title": "‘더팩트 뮤직 어워즈’ 임영웅·리센느·에이티즈, 특별 무대 예고 - 싱글리스트",
-        "source": "싱글리스트",
-        "date": "2026-09-15",
-        "url": "https://www.slist.kr/news/articleView.html?idxno=766424",
-        "summary": "‘2026 더팩트 뮤직 어워즈’에서 리센느의 오케스트라 편곡 무대와 에이티즈의 미공개 퍼포먼스, 임영웅의 신곡 라이브가 펼쳐진다.오는 19일 부산아시아드주경기장에서 열리는 ‘2026 더팩트 뮤직 어워즈’는 아티스트별 음악과 개성을 담은 무대를 준비하고 있다. 리센느와 에이티즈, 임영웅은",
-        "image": "https://cdn.slist.kr/news/thumbnail/202609/766424_1173161_724_v150.jpg"
-    },
-    {
-        "title": "리센느, BTS·블핑 제치고 아이돌그룹 브랜드평판 1위 - 싱글리스트",
-        "source": "싱글리스트",
-        "date": "2026-09-15",
-        "url": "https://www.slist.kr/news/articleView.html?idxno=766423",
-        "summary": "걸그룹 리센느가 아이돌그룹 브랜드평판 9월 빅데이터 분석 결과, 1위를 차지했다. 방탄소년단과 블랙핑크가 뒤를 이었다.​한국기업평판연구소는 아이돌그룹 브랜드평판 빅데이터 분석을 위해 8월 16일부터 9월 16일까지 아이돌그룹 브랜드 빅데이터 112,825,617개를 추출했다.9월 아이돌",
-        "image": "https://cdn.slist.kr/news/thumbnail/202609/766423_1173160_716_v150.jpg"
-    },
-    {
-        "title": "CU, 걸그룹 리센느 협업 '베이크 405' 베이커리 5종 순차 출시 - 전자신문",
-        "source": "전자신문",
-        "date": "2026-09-15",
-        "url": "https://www.etnews.com/20260915000064",
-        "summary": "편의점 CU를 운영하는 BGF리테일은 오는 17일부터 브랜드모델 걸그룹 리센느와 협업 개발한 '베이크 405' 차별화 베이커리 상품 5종을 순차 출시한다고 15일 밝혔다. 상품은 리센느 멤버들이 직접 개발 과정에 참여해 각자 선호하는 맛을 반영한 것이 특징이다. 출시 상품은 △원이의 옥",
-        "image": "https://img.etnews.com/news/article/2026/09/15/news-p.v1.20260915.3606b3dece944879b8e4e611ef7d1d1f_P1.jpeg"
-    },
-    {
-        "title": "임영웅부터 리센느·에이티즈까지…‘2026 더팩트 뮤직 어워즈’ 특별 무대 예고 - 스타데일리뉴스",
-        "source": "스타데일리뉴스",
-        "date": "2026-09-15",
-        "url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=550156",
-        "summary": "[스타데일리뉴스=조수현기자] ‘2026 더팩트 뮤직 어워즈’에서 임영웅을 비롯해 리센느, 에이티즈 등 출연 아티스트들의 특별한 무대가 펼쳐진다.오는 19일 부산아시아드주경기장에서 열리는 ‘2026 더팩트 뮤직 어워즈...",
-        "image": "https://cdn.stardailynews.co.kr/news/thumbnail/202609/550156_582659_434_v150.jpg"
-    },
-    {
-        "title": "CU, 리센느 멤버별 취향 담은 BAKE405 베이커리 5종 선보여 - 로이슈",
-        "source": "로이슈",
-        "date": "2026-09-15",
-        "url": "https://www.lawissue.co.kr/view.php?ud=202609151833213490204ead0791_12",
-        "summary": "CU가 리센느 멤버들의 취향을 반영한 BAKE405 베이커리 5종을 17일부터 순차적으로 선보인다고 밝혔다.이번 상품은 리센느 멤버들이 개발 과정에 참여해 선호하는 맛을 제안하고 이를 제품에 반영한 것이 특징이다. 원이의 옥수수 크림빵, 미나미의 메론빵, 메이의 시나몬롤, 제나의 딸기",
-        "image": "https://cliimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20260915183341033230204ead079118023320059.jpg&nmt=12"
     },
     {
         "title": "CU, 리센느 취향 담은 ‘BAKE405’ 출시…한정판 포토카트 동봉 - ER 이코노믹리뷰",
@@ -282,28 +470,12 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/15/tvreport/20260915123938282qlth.jpg"
     },
     {
-        "title": "[HD포토] 리센느 원이, ‘파이리 중에 가장 예쁨’ (2026 SKA 레드카펫) - 톱스타뉴스",
-        "source": "톱스타뉴스",
-        "date": "2026-09-15",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16194424",
-        "summary": "9월 6일 경기 고양시 일산서구 대화동 킨텍스 제1전시장에서 ‘2026 스포티비 케이팝 어워즈(2026 SPOTV K-POP AWARDS)’ 레드카펫 포토월이 진행됐다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202609/16194424_2026511_4651_crop.jpg"
-    },
-    {
         "title": "원이 옥수수 크림빵·미나미 메론빵 ···'리센느 빵' 나온다 - 캠페인 인사이트",
         "source": "캠페인 인사이트",
         "date": "2026-09-15",
         "url": "https://www.campaigninsight.co.kr/news/articleView.html?idxno=6004",
         "summary": "CU와 리센느 협업 캠페인 영상. / CU 유튜브편의점 CU가 브랜드 모델인 걸그룹 리센느와 협업한 자체 베이커리 브랜드 ‘BAKE405’ 신제품 5종을 오는 1",
         "image": "https://cdn.campaigninsight.co.kr/news/photo/202609/6004_8425_940.jpg"
-    },
-    {
-        "title": "표준어 아이돌이란 암묵적 룰을 깬 파격, K팝 산업의 새로운 기준을 제공한 리센느 - CBC뉴스",
-        "source": "CBC뉴스",
-        "date": "2026-09-15",
-        "url": "https://www.cbci.co.kr/news/articleView.html?idxno=607020",
-        "summary": "[CBC뉴스] 거제 사투리를 쓰는 아이돌이 화제의 중심에 섰다. 걸그룹 리센느의 리더 원이가 자신의 개인 유튜브 채널에서 경상남도 거제 억양 그대로 인사를 건네는 장면이 알고리즘을 타고 확산되면서, K팝 산업이 오랫동안 지켜온 암묵적 룰 하나가 흔들리기 시작했다. 아이돌은 표준어를 써야",
-        "image": "https://www.cbci.co.kr/news/thumbnail/202609/607020_416660_2534_v150.jpg"
     },
     {
         "title": "리센느 미나미, 18kg 감량 트라우마였다…\"엄청난 스트레스\" - 톱스타뉴스",
@@ -314,20 +486,20 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202609/16194198_2026373_5158_crop.jpg"
     },
     {
-        "title": "멤버별 빵에 랜덤 포카까지…CU, 리센느 협업 베이커리 상품 선봬 - 파이낸셜뉴스",
-        "source": "파이낸셜뉴스",
+        "title": "[HD포토] 리센느 원이, ‘파이리 중에 가장 예쁨’ (2026 SKA 레드카펫) - 톱스타뉴스",
+        "source": "톱스타뉴스",
         "date": "2026-09-15",
-        "url": "https://www.fnnews.com/news/202609151506113858",
-        "summary": "CU가 브랜드 모델인 걸그룹 리센느와 협업한 베이커리 상품 5종을 선보인다.팬덤을 겨냥한 컬래버 상품 수요가 늘자 멤버별 취향을 반영한 제품과 한정 포토카드를 결합한 것이다.15일 업계에 따르면 CU는 오는 17일부터 자체 베이커리 브랜드 'BAKE405'를 통해 리센느 ..",
-        "image": "https://image.fnnews.com/resource/media/image/2026/09/15/202609151512176379_e.jpg"
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16194424",
+        "summary": "9월 6일 경기 고양시 일산서구 대화동 킨텍스 제1전시장에서 ‘2026 스포티비 케이팝 어워즈(2026 SPOTV K-POP AWARDS)’ 레드카펫 포토월이 진행됐다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202609/16194424_2026511_4651_crop.jpg"
     },
     {
-        "title": "CU, 브랜드 모델 리센느 콜라보 빵 ‘BAKE405’ 5종 단독 출시 - ABC뉴스",
-        "source": "ABC뉴스",
+        "title": "임영웅부터 리센느·에이티즈까지…‘2026 더팩트 뮤직 어워즈’ 특별 무대 예고 - 스타데일리뉴스",
+        "source": "스타데일리뉴스",
         "date": "2026-09-15",
-        "url": "https://www.abcn.kr/news/articleView.html?idxno=91884",
-        "summary": "ABC뉴스=황선우 기자 / 편의점 CU가 브랜드 모델 리센느와 함께 ‘BKAE405’ 베이커리 상품 5종을 업계 단독으로 선보이며, 차별화 컬래버 베이커리 상품을 강화해 나간다.최근 팬덤 수요를 흡수하는 컬래버 베이커리 상품이 큰 주목을 받고 있다. 실제로 편의점 CU에 따르면, 컬래버",
-        "image": "https://cdn.abcn.kr/news/thumbnail/202609/91884_50274_3537_v150.jpg"
+        "url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=550156",
+        "summary": "[스타데일리뉴스=조수현기자] ‘2026 더팩트 뮤직 어워즈’에서 임영웅을 비롯해 리센느, 에이티즈 등 출연 아티스트들의 특별한 무대가 펼쳐진다.오는 19일 부산아시아드주경기장에서 열리는 ‘2026 더팩트 뮤직 어워즈...",
+        "image": "https://cdn.stardailynews.co.kr/news/thumbnail/202609/550156_582659_434_v150.jpg"
     },
     {
         "title": "CU, 리센느와 베이커리 협업...'BAKE405' 5종 선보여 - 이코노미사이언스",
@@ -338,52 +510,19 @@ const NEWS_DATA = [
         "image": "https://cdn.e-science.co.kr/news/photo/202609/135462_68066_1449.jpg"
     },
     {
-        "title": "‘더팩트 뮤직 어워즈’ 임영웅→에이티즈 특별무대 - bntnews.co.kr",
-        "source": "bntnews.co.kr",
+        "title": "[포토] CU, 리센느 취향 담은 빵 5종… 포토카드 27종 동봉 - 콕스뉴스",
+        "source": "콕스뉴스",
         "date": "2026-09-15",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202609160042",
-        "summary": "‘2026 더팩트 뮤직 어워즈’가 개최를 사흘 앞두고 리센느, 에이티즈, 임영웅의 특별 무대를 예고했다. 임영웅의 신곡부터 에이티즈의 최초 공개",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/16/bnt202609160053.jpg"
+        "url": "https://www.coxnews.co.kr/news/articleView.html?idxno=6108",
+        "summary": "편의점 CU가 브랜드 모델 리센느와 협업한 베이커리 'BAKE405' 5종을 17일부터 순차 출시한다. 원이의 옥수수 크림빵, 미나미의 메론빵, 메이의 시나몬 롤",
+        "image": "https://cdn.coxnews.co.kr/news/photo/202609/6108_8881_348.jpg"
     },
     {
-        "title": "“이번엔 리센느!” CU, 리센느 취향 담은 빵 5종 선봬 - 이투데이",
-        "source": "이투데이",
-        "date": "2026-09-15",
-        "url": "https://www.etoday.co.kr/news/view/2625572",
-        "summary": "▲CU, 리센느빵 5종. (사진제공=BGF리테일)CU가 브랜드 모델 리센느와 함께 ‘BAKE405’ 베이커리 상품 5종을 업계 단독으로 선보인다고 15일 밝혔다.CU",
-        "image": "https://img.etoday.co.kr/pto_db/2026/09/20260915092115_2388176_651_522.jpg"
-    },
-    {
-        "title": "리센느 취향 빵으로 만난다…CU, 협업 베이커리 5종 선봬 - 인더뉴스",
-        "source": "인더뉴스",
-        "date": "2026-09-15",
-        "url": "https://www.inthenews.co.kr/news/article.html?no=91883",
-        "summary": "인더뉴스 장승윤 기자ㅣBGF리테일이 운영하는 CU는 브랜드 모델 리센느와 함께 PB(자체브랜드) ‘BKAE405’ 베이커리 상품 5종을 업계 단독으로 선보인다고 15일 밝혔습니다. 최근 팬덤 수요를 흡수하는 컬래버레이션 베이커리 상품이 주목을 받고 있습니다. CU에 따르면 컬래버 베이커",
-        "image": "https://www.inthenews.co.kr/data/photos/20260938/art_17894351051459_79a482.jpg"
-    },
-    {
-        "title": "리센느까지 동원...아시안게임 중계, 당신의 선택은? - 오마이스타",
-        "source": "오마이스타",
-        "date": "2026-09-15",
-        "url": "https://star.ohmynews.com/NWS_Web/OhmyStar/at_pg.aspx?CNTN_CD=A0003267357",
-        "summary": "2026 아이치-나고야 아시안게임이 사실상 막을 올렸다. 개막식은 오는 19일이지만 지난 13일 일본과의 농구 예선전 등 일부 종목 경기가 먼저 거행되면서 TV 중계를 담당한 지상파 3사의 경쟁 또한 일찌감치 돌입한 셈이다.​이번 아시안",
-        "image": "https://ojsfile.ohmynews.com/CT_T_IMG/2026/0915/IE003671845_LT.jpg"
-    },
-    {
-        "title": "역주행 신화 리센느 소속사 74배 잭팟…중소돌 스타트업에 뭉칫돈 - 머니투데이 - mt.co.kr",
-        "source": "mt.co.kr",
+        "title": "CU, 리센느 취향 담은 'BAKE405' 빵 5종 17일 출시 - 뉴스1",
+        "source": "뉴스1",
         "date": "2026-09-14",
-        "url": "https://www.mt.co.kr/future/2026/09/14/2026091017271183280",
-        "summary": "[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 '데이터랩'에서 볼 수 있습니다. ] 걸그룹 '리센느(RESCENE)'의 역주행 신화가 벤처투자업계에서 주목받고 있다.",
-        "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/09/2026091017271183280_1.jpg"
-    },
-    {
-        "title": "리센느·필릭스·혜리·김용빈, ‘2026 대한민국 사회공헌대상’ 국민추천투표 부문별 최종 1위 - 매일경제",
-        "source": "매일경제",
-        "date": "2026-09-14",
-        "url": "https://www.mk.co.kr/news/entertain/12152478",
-        "summary": "‘2026 대한민국 사회공헌대상’ 국민추천투표가 전 세계 팬들의 뜨거운 성원 속에 총 209만여 표를 기록하며 성공적으로 마감됐다. 대한민국 사회공헌대상 조직위원회는 지난 9월 2일부터 14일까지 팬 플랫폼 ‘K탑스타’와 ‘스타덤(STARDOM)’을 통해 진행한 국민추천투표 집계 결과,",
-        "image": "https://pimg.mk.co.kr/news/cms/202609/14/news-p.v1.20260914.b05cacc45e2f40a89b7318e0e2ec02dd_R.png"
+        "url": "https://www.news1.kr/industry/distribution/6290446",
+        "summary": ""
     },
     {
         "title": "인천에 리센느·에일리·신인선 뜬다···10월 9일 연수 능허대 문화축제 - 인천투데이",
@@ -392,6 +531,14 @@ const NEWS_DATA = [
         "url": "https://www.incheontoday.com/news/articleView.html?idxno=323632",
         "summary": "인천투데이=인투아이(INTO-AI)·이형성 기자｜오는 10월 9~10일 인천 연수구 능허대 문화축제가 열린다. 축제 첫날엔 아이돌 그룹 리센느를 비롯해 가수 에일",
         "image": "https://cdn.incheontoday.com/news/photo/202609/323632_329633_1421.jpg"
+    },
+    {
+        "title": "역주행 신화 리센느 소속사 74배 잭팟…중소돌 스타트업에 뭉칫돈 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "date": "2026-09-14",
+        "url": "https://www.mt.co.kr/future/2026/09/14/2026091017271183280",
+        "summary": "[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 '데이터랩'에서 볼 수 있습니다. ] 걸그룹 '리센느(RESCENE)'의 역주행 신화가 벤처투자업계에서 주목받고 있다.",
+        "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/09/2026091017271183280_1.jpg"
     },
     {
         "title": "CU, '리센느 빵' 5종 출시…한정판 투명 포토카드 동봉 - 더팩트",
@@ -422,14 +569,6 @@ const NEWS_DATA = [
         "source": "한국경제",
         "date": "2026-09-14",
         "url": "https://www.hankyung.com/article/202609154377P",
-        "summary": "리센느 취향 담았다! CU, BAKE405 리센느 빵 5종 출시, 컬래버 베이커리 &lsquo;24년 43%, &lsquo;25년 37%, 올해 31% 지속 증가&middot;&middot;&middot; 합리적 가격, 굿즈 동봉 CU, 리센느 협업 &lsquo;BAKE405&rsquo",
-        "image": "https://img.hankyung.com/photo/202609/f6688efb76c666f563dfae5995f6ca4e.jpg"
-    },
-    {
-        "title": "CU, 리센느 취향 담은 'BAKE405' 빵 5종 17일 출시 - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-09-14",
-        "url": "https://www.news1.kr/amp/industry/distribution/6290446",
         "summary": ""
     },
     {
@@ -441,11 +580,12 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/14/JTBC/20260914160820293iuic.jpg"
     },
     {
-        "title": "리센느 미나미, 다이어트 스트레스 고백 \"18kg 빼…옷이 골반부터 안들어가기도\" - 뉴스1",
-        "source": "뉴스1",
+        "title": "역주행 신화 리센느 소속사 74배 잭팟…중소돌 스타트업에 뭉칫돈 - 유니콘팩토리",
+        "source": "유니콘팩토리",
         "date": "2026-09-14",
-        "url": "https://www.news1.kr/amp/entertain/celebrity-topic/6289896",
-        "summary": ""
+        "url": "https://www.unicornfactory.co.kr/article/2026091017271183280",
+        "summary": "[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 '데이터랩'에서 볼 수 있습니다. ] 걸그룹 '리센느(RESCENE)'의 역주행 신화가 벤처투자업계에서 주목받고 있다. 대형 기획사가 아니어도 차별화된 기획력과 팬덤, 적절한 투자가 결합하면 '중소돌'",
+        "image": "https://thumb.mt.co.kr/21/2026/09/2026091017271183280_1.jpg?1789353014"
     },
     {
         "title": "음악이 남긴 향에 취하다…음원차트 신드롬 된 리센느 - v.daum.net",
@@ -511,71 +651,8 @@ const NEWS_DATA = [
         "image": "https://cdn.2news.co.kr/news/photo/202609/mn_25142_20260914165801_1.jpg"
     },
     {
-        "title": "리센느, ‘LOVE ATTACK’으로 멜론 TOP100 정상 장기 점령 - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-09-14",
-        "url": "https://v.daum.net/v/20260914144750958",
-        "summary": "사진│더뮤즈 엔터테인먼트 [스포츠동아 곽현수 기자] 걸그룹 리센느가 주요 음원 차트와 음악방송을 동시 석권하며 장기 흥행 판도를 굳히고 있다. 리센느는 미니 1집 ‘SCENEDROME’(씬드롬)의 타이틀곡 ‘LOVE ATTACK’(러브 어택)으로 멜론 TOP100 정상 자리를 굳건히 지",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/14/sportsdonga/20260914144752319tafu.jpg"
-    },
-    {
-        "title": "\"리센느가 좋아하는 맛 그대로\" CU, 협업 빵 5종 출시 - 뉴시스",
-        "source": "뉴시스",
-        "date": "2026-09-14",
-        "url": "https://www.newsis.com/view/NISX20260915_0003789508",
-        "summary": "[서울=뉴시스]권민지 기자 = 편의점 CU가 브랜드 모델인 걸그룹 리센느와 손잡고 멤버들의 취향을 담은 컬래버레이션 베이커리를 선보인다.CU는 리센느와 협업한 'BAKE405' 베이커리 5종을 17일부터 순차적으로 업계 단독 출시한다고 15일 밝혔다.이번 상품은 리센느 멤버들이 개발 과",
-        "image": "https://img1.newsis.com/2026/09/15/NISI20260915_0002239203_web.jpg"
-    },
-    {
-        "title": "CU, 리센느 멤버 취향 담은 베이커리 5종 출시 - 인사이트코리아",
-        "source": "인사이트코리아",
-        "date": "2026-09-14",
-        "url": "https://www.insightkorea.co.kr/news/articleView.html?idxno=254569",
-        "summary": "[인사이트코리아 = 이숙영 기자] 편의점 업계에서 아티스트 팬덤을 겨냥한 베이커리 상품이 꾸준히 성장하고 있다. 비교적 저렴한 가격에 간편하게 구매할 수 있는 빵에 한정 굿즈를 결합하면서 팬덤의 구매 수요와 수집 욕구를 동시에 끌어내는 방식이다.CU는 브랜드 모델인 걸그룹 리센느와 협",
-        "image": "https://cdn.insightkorea.co.kr/news/thumbnail/202609/254569_266267_2542_v150.jpg"
-    },
-    {
-        "title": "음악이 남긴 향에 취하다…음원차트 신드롬 된 리센느 - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-09-14",
-        "url": "https://isplus.com/article/view/isp202609140189",
-        "summary": "이래서 작명이 중요하다 했나. ‘국민 걸그룹’ 리센느가 이름 그대로 음원 차트에 엄청난 잔향을 일으키며 신드롬을 이어가고 있다.리센느(원...",
-        "image": "https://isplus.com/data/isp/image/2026/09/14/isp20260914000356.800x.0.jpg"
-    },
-    {
-        "title": "리센느, 음원 차트 지속…'5세대' 입지 공고히 [투데이픽] - iMBC 연예",
-        "source": "iMBC 연예",
-        "date": "2026-09-14",
-        "url": "https://enews.imbc.com/News/RetrieveNewsInfo/518232",
-        "summary": "그룹 리센느가 음원 차트에서도 여전히 대세를 입증했다. 14일 리센느(원이, 리브, 미나미, 메이, 제나)는 미니 1집 'SCENEDROME'(씬드롬)의 타이틀곡 'LOVE ATTACK'(러브 어택)으로 멜론 TOP100 1위를 장기간 유지하고 있는 가운데 리메이크 싱글 'Pretty ",
-        "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/09/14/425d45b6-3bcb-41a7-8dff-7f58fa945467.jpg"
-    },
-    {
-        "title": "CU, 리센느 취향 반영한 'BAKE405' 5종 출시…한정판 포토카드 동봉 - 컨슈머타임스",
-        "source": "컨슈머타임스",
-        "date": "2026-09-14",
-        "url": "https://www.cstimes.com/news/articleView.html?idxno=720650",
-        "summary": "컨슈머타임스=안솔지 기자 | CU가 브랜드 모델 리센느와 협업한 'BAKE405' 베이커리 5종을 오는 17일부터 순차 출시한다. 각 제품은 리센느 멤버가 상품 개발에 참여해 자신이 선호하는 맛과 메뉴를 반영했으며, 멤버 이미지가 담긴 투명 포토카드 27종 중 1장이 무작위로 들어간다.",
-        "image": "https://www.cstimes.com/news/photo/202609/720650_641504_5213.jpg"
-    },
-    {
-        "title": "리센느, '러브 어택' 이어 '프리티 걸' 차트 장기 집권...'데자부'·'런어웨이'까지 들썩 - 뉴스컬처",
-        "source": "뉴스컬처",
-        "date": "2026-09-14",
-        "url": "https://www.nc.press/news/articleView.html?idxno=626489",
-        "summary": "[뉴스컬처 이준섭 기자] 그룹 리센느(RESCENE)의 음원 상승세가 장기 흥행으로 이어지고 있다. 한 곡의 반짝 인기에 머무르지 않고 기존 발표곡과 신곡이 동시",
-        "image": "https://cdn.nc.press/news/photo/202609/626489_859719_4826.jpg"
-    },
-    {
-        "title": "리센느, 갑자기 떠난 이유가 있었네 - kstarfashion.com",
-        "source": "kstarfashion.com",
-        "date": "2026-09-13",
-        "url": "https://www.kstarfashion.com/ko-kr/articles/255377",
-        "summary": ""
-    },
-    {
-        "title": "당신은 리센느를 좋아할 가능성이 높습니다 - 머니투데이 - mt.co.kr",
-        "source": "mt.co.kr",
+        "title": "당신은 리센느를 좋아할 가능성이 높습니다 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
         "date": "2026-09-12",
         "url": "https://www.mt.co.kr/tech/2026/09/13/2026091010433111341",
         "summary": "유튜브 홈 화면을 내리다가 우연히 리센느 영상을 발견한 당신 당신은 리센느를 좋아할 가능성이 높다. 적어도 당신이 발견한 그 영상은 마음에 들 확률이 상당하다. 리센느가 이른바 '중소돌(중소기획사에서 기획한 아이돌)의 기적'을 쓴 걸그룹이라는 사실을 모른다고 해도 그렇다.",
@@ -622,45 +699,6 @@ const NEWS_DATA = [
         "image": "http://news.kbs.co.kr/data/news/title_image/newsmp4/changwon/news9/2026/09/11/80_8661559.jpg"
     },
     {
-        "title": "셔누X형원·있지·리센느…‘2026 KGMA’ 3차 라인업 공개 [2026 KGMA] - 조선비즈 - Chosunbiz",
-        "source": "Chosunbiz",
-        "date": "2026-09-11",
-        "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/11/GQ4TGZBQGRRDQYJRMNQWIODFGQ/",
-        "summary": "셔누X형원·있지·리센느2026 KGMA 3차 라인업 공개 2026 KGMA",
-        "image": "https://biz.chosun.com/resizer/v2/HFRDGMRWGFRGMMDGGQZDMOJZHA.png?auth=0e8af525feb2a8bd2e1526d2ff434453138e08c80237315d2e13eee102c1c830&width=650&height=341&smart=true"
-    },
-    {
-        "title": "몬엑 셔누X형원에 있지·리센느까지…'2026 KGMA' 뜬다 - 한국경제",
-        "source": "한국경제",
-        "date": "2026-09-11",
-        "url": "https://www.hankyung.com/article/202609119719H",
-        "summary": "몬엑 셔누X형원에 있지·리센느까지…'2026 KGMA' 뜬다, 김수영 기자, 연예",
-        "image": "https://img.hankyung.com/photo/202609/01.45652112.1.png"
-    },
-    {
-        "title": "‘리센느’ 베팅 미시간벤처, 음원·IP 투자 광폭 행보 - 뉴스톱",
-        "source": "뉴스톱",
-        "date": "2026-09-11",
-        "url": "https://www.newstopkorea.com/news/articleView.html?idxno=47613",
-        "summary": "콘텐츠 전문 투자사 미시간벤처캐피탈이 단순 연예기획사 지분 투자를 넘어 개별 음원·지식재산권(IP) 투자 영역까지 보폭을 확대하고 있다. 다양한 음원 포트폴리오를",
-        "image": "https://cdn.newstopkorea.com/news/photo/202609/47613_48829_2314.png"
-    },
-    {
-        "title": "\"몸무게가 모자라요\"…'깜짝' 리센느, 슬라이드 못 탄 이유 보니 - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-09-11",
-        "url": "https://www.news1.kr/videos/24833",
-        "summary": ""
-    },
-    {
-        "title": "'2026 KGMA' 야호!…리센느, 新 라인업 합류 - 전자신문",
-        "source": "전자신문",
-        "date": "2026-09-11",
-        "url": "https://www.etnews.com/20260911000029",
-        "summary": "'2026 코리아 그랜드 뮤직 어워즈'(KGMA)의 새로운 라인업이 베일을 벗었다. 11일 KGMA 조직위원회에 따르면 누에라·리센느·빌리·몬스타엑스 셔누X형원·알파드라이브원·있지·트리플에스가 '2026 KGMA' 무대",
-        "image": "https://img.etnews.com/news/article/2026/09/11/article_11090547900223.jpg"
-    },
-    {
         "title": "[단독] 리센느, 11월 컴백…‘Pretty Girl’ 흥행 잇는다 - The Korea Herald",
         "source": "The Korea Herald",
         "date": "2026-09-09",
@@ -677,12 +715,35 @@ const NEWS_DATA = [
         "image": "https://img6.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909147900030_01_i_P4.jpg"
     },
     {
-        "title": "그레인온, 리센느 공식 모델 발탁…멤버별 매력 담은 ‘리센느 에디션’ 출시 - khan.co.kr",
-        "source": "khan.co.kr",
+        "title": "690만뷰 터진 리센느 먹방…“맛 궁금해” 매출 대박난 음식 정체 - 중앙일보",
+        "source": "중앙일보",
+        "date": "2026-09-08",
+        "url": "https://www.joongang.co.kr/article/25460113",
+        "summary": "걸그룹 리센느(RESCENE)가 유튜브 콘텐트에서 삼양식품의 짜장라면을 먹는 모습이 공개된 이후 제품 판매가 급증한 것으로 나타났다. 8일 삼양식품에 따르면 지난 4일 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’(안원잘부)에 리센느 멤버들이 ‘짜르르’와 ‘삼양1963’을 먹는 영상이",
+        "image": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202609/08/606f2c32-26d7-4c9b-bebd-d32b6a4a7609.jpg"
+    },
+    {
+        "title": "그레인온, 리센느 공식 모델 발탁…멤버별 매력 담은 ‘리센느 에디션’ 출시 - 경향신문",
+        "source": "경향신문",
         "date": "2026-09-08",
         "url": "https://www.khan.co.kr/article/202609081555018",
         "summary": "고대곡물 전문기업 그레인온(GRAINON)이 걸그룹 리센느(RESCENE)를 공식 모델로 발탁하고, 멤버별 개성과 매력을 담은 ‘RESCENE EDITION(리센느 에디션)’ 캡슐레이션 효소를 선보인다. 그레인온과 리센느는 앞서 레드와인비니거 브랜드 카사베르디를 통해 호흡을 맞춘 바 있",
         "image": "https://img.khan.co.kr/news/2026/09/08/202609081010258103443_0.jpg"
+    },
+    {
+        "title": "'역시 대세' 리센느가 먹은 '짜르르' 매출 얼마나 올랐나 - 한경매거진&북",
+        "source": "한경매거진&북",
+        "date": "2026-09-08",
+        "url": "https://magazine.hankyung.com/business/article/202609080729b",
+        "summary": "'역시 대세' 리센느가 먹은 '짜르르' 매출 얼마나 올랐나, 강홍민 기자, 이슈",
+        "image": "https://img.hankyung.com/photo/202609/AD.45602850.1.jpg"
+    },
+    {
+        "title": "\"CU, 리센느빵 선보인다\"…멤버들이 직접 시식하고 피드백 - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-09-07",
+        "url": "https://www.news1.kr/industry/distribution/6282031",
+        "summary": ""
     },
     {
         "title": "삼양 \"리센느가 먹은 '짜르르', 유튜브 공개 후 주말 매출 두배\" - 연합뉴스",
@@ -693,12 +754,20 @@ const NEWS_DATA = [
         "image": "https://img3.yna.co.kr/etc/inner/KR/2026/09/07/AKR20260907150600030_01_i_P4.jpg"
     },
     {
+        "title": "[사진]리센느, 다같이 세상 깜찍 - 조선비즈 - Chosunbiz",
+        "source": "Chosunbiz",
+        "date": "2026-09-06",
+        "url": "https://biz.chosun.com/entertainment/entertainment_photo/2026/09/06/GQYDCNDEG4ZTAZJYGJSWGZBTGI/",
+        "summary": "사진리센느, 다같이 세상 깜찍",
+        "image": "https://biz.chosun.com/resizer/v2/MQ4WKYZRMEZWIY3BHAYDCNRWME.jpg?auth=6a50abe56bde7e35fcc406889012262be9a602b5339c08f4e73114346a61bcb7&width=650&height=341&smart=true"
+    },
+    {
         "title": "수원 출신 리브 ‘금의환향’…리센느, 이번엔 ‘홍보어사’ 됐다 - 경기일보",
         "source": "경기일보",
         "date": "2026-09-05",
         "url": "https://www.kyeonggi.com/article/20260905580072",
         "summary": "수원특례시 홍보대사로 활동 중인 걸그룹 리센느(RESCENE)가 제63회 수원화성문화제를 앞두고 ‘수원시 홍보어사’로 위촉됐다. 수원시는 지난달 29일 수원전통문화관에서 위촉식을 열고 리센느를 홍보어사로 위촉했다고 5일 밝혔다. 시는 오는 10월4~11일 열리는 제63",
-        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/09/05/.cache/512/20260905580073.jpg?v=20260916130617"
+        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/09/05/.cache/512/20260905580073.jpg?v=20260916200942"
     },
     {
         "title": "원이 빠진 리센느, MLB 새 브랜드 모델 발탁…2026 FW 가을 캠페인 공개 - 조선비즈 - Chosunbiz",
@@ -717,51 +786,11 @@ const NEWS_DATA = [
         "image": "https://cdn.datasom.co.kr/news/thumbnail/202609/209786_39042_5411_v150.jpg"
     },
     {
-        "title": "리센느, 제53회 한국방송대상 시상식 축하공연 출격 - bntnews.co.kr",
-        "source": "bntnews.co.kr",
-        "date": "2026-09-03",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202609030149",
-        "summary": "올해로 53회를 맞이하는 한국방송대상 시상식이 오늘(3일) 개최된다.이번 시상식에서는 작품상 30편과 개인상 15명이 수여된다. MBC는 드라마TV 부문 &lsquo",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/03/bnt202609030273.png"
-    },
-    {
-        "title": "카카오, ‘리센느’와 일상 속 AI 경험 알린다 - 카카오",
-        "source": "카카오",
-        "date": "2026-09-02",
-        "url": "https://www.kakaocorp.com/page/detail/12126",
-        "summary": "#카카오 #카카오톡 #리센느 #RESCENE #대화를하자",
-        "image": "https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/news/5fae0e7501a000001.jpg?type=thumb&opt=C800x400"
-    },
-    {
-        "title": "리센느 원이, 역주행 대박에도 불안…\"이 인기 1년만 더 갔으면\" [마데핫리뷰] - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-08-29",
-        "url": "https://v.daum.net/v/XuXjko5Tsx",
-        "summary": "[마이데일리 = 이정민 기자] 그룹 리센느의 리더 원이가 갑작스럽게 찾아온 인기를 두고 솔직한 속내를 털어놨다. 원이는 지난 28일 자신의 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’에 톱스타가 된 모습을 콘셉트로 한 영상을 공개했다. 화려한 설정으로 시작한 영상이지만, 원이는 제작",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202608/29/mydaily/20260829170132992wbju.jpg"
-    },
-    {
-        "title": "[포토] 소감 밝히는 리센느 원이 - 뉴데일리",
-        "source": "뉴데일리",
-        "date": "2026-08-27",
-        "url": "https://www.newdaily.co.kr/site/data/html/2026/08/27/2026082700348.html",
-        "summary": "리센느 원이가 27일 오후 경기 고양시 일산 킨텍스에서 열린 '케이월드 드림어워즈(2026 K-WORLD DREAM AWARDS)' 블루카펫에서 소감을 밝히고 있다. (경기 고양=서성진 기자)...",
-        "image": "https://image.newdaily.co.kr/site/data/img/2026/08/27/2026082700348_0.jpg"
-    },
-    {
         "title": "‘거제 홍보대사’ 리센느, 수해 성금 5000만원 기부 - 동아일보",
         "source": "동아일보",
         "date": "2026-08-19",
         "url": "https://www.donga.com/news/Culture/article/all/20260819/134507128/2",
         "summary": "걸그룹 ‘리센느(RESCENE)’와 팬덤이 최근 거제에서 발생한 집중호우 피해 복구와 이재민들의 일상회복을 위해 5000만 원을 기부했다. 19일 가요계에 따르면, 리센느 소속사 더뮤즈엔터테인먼트는 이날 거제시를 찾아 수해 복구와 이재민 지원을 위한 성금 5000만 …",
         "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/19/134507129.2.jpg"
-    },
-    {
-        "title": "할리스, 브랜드 첫 모델로 걸그룹 '리센느' 발탁 - 뉴시스",
-        "source": "뉴시스",
-        "date": "2026-08-18",
-        "url": "https://www.newsis.com/view/NISX20260818_0003751971",
-        "summary": "[서울=뉴시스] 이혜원 기자 = 커피 브랜드 할리스는 1998년 창사 이래 첫 브랜드 광고 모델로 걸그룹 '리센느(RESCENE)'를 발탁했다고 18일 밝혔다. 할리스의 첫 모델로 선정된 걸그룹 리센느는 친근한 이미지와 긍정적인 에너지로 최근 음원 역주행, 차트 1위를 석권하며 대세로 ",
-        "image": "https://img1.newsis.com/2026/08/18/NISI20260818_0002214400_web.jpg"
     }
 ];
