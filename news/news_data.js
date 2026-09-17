@@ -1,4 +1,4 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-09-17T11:18:23.204Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-09-17T16:35:19.110Z) */
 
 const NEWS_DATA = [
     {
@@ -13,25 +13,9 @@ const NEWS_DATA = [
         "title": "미연 내시경 영상, 경찰조사 후폭풍…리센느 후속편 휴방→공개 연기까지[이슈S] - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-09-17",
-        "url": "https://v.daum.net/v/20260917121642133",
+        "url": "https://v.daum.net/v/p0iwvTsAT7",
         "summary": "[스포티비뉴스=정혜원 기자] 그룹 아이들 미연이 출연한 유튜브 콘텐츠 '전도사'가 의료법 위반 논란으로 경찰 수사를 받게 된 가운데, 후속 콘텐츠인 리센느 편까지 공개가 연기됐다. 16일 스포츠경향에 따르면 서울 용산구보건소는 '전도사'의 불법 의료광고 여부에 대해 경찰에 수사를 의뢰했",
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/17/spotvnews/20260917121645402pdsj.png"
-    },
-    {
-        "title": "미연 건강검진 영상 경찰 수사까지‥‘전도사’ 리센느 편 결국 공개 연기 - 뉴스엔",
-        "source": "뉴스엔",
-        "date": "2026-09-17",
-        "url": "https://www.newsen.com/news_view.php?uid=202609171453012510&code=100100",
-        "summary": "�׷� ���̵� �̿��� �⿬�� �������硯 �������� ���� ���縦 �ް� �� ���, ������ ������ �������� ���� �ƴ�. ���� 9�� 15�� �������硯 �������� ��9/15(ȭ) ���� �����̾��� ������ .",
-        "image": "https://photo.newsen.com/news_photo/2026/09/17/202609171453012510_1.jpg"
-    },
-    {
-        "title": "10월 2~5일 의령리치리치페스티벌에 걸그룹 리센느 등 인기 가수 총출동 - gukjenews.com",
-        "source": "gukjenews.com",
-        "date": "2026-09-17",
-        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3698560",
-        "summary": "(의령=국제뉴스) 황재윤 기자 = 의령군은 오는 10월 2일부터 5일까지 열리는 '2026 의령리치리치페스티벌'의 주요 공연 라인업을 공개했다.올해는 트로트와 K팝, 힙합, 밴드 등 다양한 장르의 가수들이 나흘간 무대에 올라 축제의 흥을 더한다.축제 첫날인 2일에는 김용빈·김희재·손빈아",
-        "image": "https://cdn.gukjenews.com/news/thumbnail/202609/3698560_3870744_5726_v150.jpg"
     },
     {
         "title": "음악방송보다 대학축제?… 리센느가 5월에만 18개 대학을 돈 이유 - edaily.co.kr",
@@ -42,36 +26,28 @@ const NEWS_DATA = [
         "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/09/PS26091701059.jpg"
     },
     {
-        "title": "'최고령 은메달' 김상겸, '리센느 원이' 닮은 아내 최초 공개…\"1년에 고작 두달 만나\" - 스포츠조선",
-        "source": "스포츠조선",
+        "title": "\"광고 문의만 100개\"…무명 걸그룹에 러브콜 쏟아진 이유 [이슈+] - hankyung.com",
+        "source": "hankyung.com",
         "date": "2026-09-17",
-        "url": "https://www.sportschosun.com/entertainment/2026-09-17/202609170100117180007563",
-        "summary": "국가대표 스노보더 김상겸이 SBS '동상이몽 시즌 2 - 너는 내 운명'(이하 '동상이몽 2')에 합류한 가운데, 리센느 원이를 닮은 아내가 최초로 공개됐다.",
-        "image": "https://www.sportschosun.com/article/html/2026/09/17/2026091701001171800075631.jpg"
+        "url": "https://www.hankyung.com/article/202609171524H",
+        "summary": "\"광고 문의만 100개\"…무명 걸그룹에 러브콜 쏟아진 이유 [이슈+], 뷰티&middot;IT&middot;식음료 광고계 접수한 '리센느 현상' \"화장품 커피 브랜드서도 러브콜\"",
+        "image": "https://img.hankyung.com/photo/202609/01.45101503.1.jpg"
     },
     {
-        "title": "“광고 문의만 100개 넘는다”…미나미가 전한 ‘리센느’ 달라진 위상 - v.daum.net",
+        "title": "10월 2~5일 의령리치리치페스티벌에 걸그룹 리센느 등 인기 가수 총출동 - gukjenews.com",
+        "source": "gukjenews.com",
+        "date": "2026-09-17",
+        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3698560",
+        "summary": "(의령=국제뉴스) 황재윤 기자 = 의령군은 오는 10월 2일부터 5일까지 열리는 '2026 의령리치리치페스티벌'의 주요 공연 라인업을 공개했다.올해는 트로트와 K팝, 힙합, 밴드 등 다양한 장르의 가수들이 나흘간 무대에 올라 축제의 흥을 더한다.축제 첫날인 2일에는 김용빈·김희재·손빈아",
+        "image": "https://cdn.gukjenews.com/news/thumbnail/202609/3698560_3870744_5726_v150.jpg"
+    },
+    {
+        "title": "리센느 미나미 \"역주행 후 광고 문의만 100건 이상\" - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-09-17",
-        "url": "https://v.daum.net/v/20260917143002281",
-        "summary": "그룹 리센느 멤버 미나미가 역주행 이후 뜨거운 인기에 대해 실감하고 있다고 밝혔다. 미나미는 16일 방송된 MBC ‘라디오스트’에 이형택, 이혜정, 조준호와 함께 게스트로 출연했다. 그는 “‘라디오스타’에 나온 것처럼 저점 큰 스케줄이 많게 됐다”며 “광고 문의만 100개가 넘는다”라고",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/17/mk/20260917143003667geza.jpg"
-    },
-    {
-        "title": "리센느 미나미 “트와이스 되고 싶냐며 놀리던 친구들…난 새벽까지 연습했다” - 동아일보",
-        "source": "동아일보",
-        "date": "2026-09-17",
-        "url": "https://www.donga.com/news/amp/all/20260917/134687307/2",
-        "summary": "리센느 미나미가 초등학교 시절 K팝 아이돌을 꿈꾼다는 이유로 친구들에게 놀림을 받았던 일을 공개했다. 이후 실제 가수로 데뷔해 모교 무대에 섰으며, 갸루 콘셉트와 1300만 조회수를 기록한 ‘야호’ 유행어에 얽힌 이야기도 전했다.",
-        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/17/134687196.3.png"
-    },
-    {
-        "title": "2026년 37주차 써클차트, 임영웅·앤팀·헌트릭스·리센느 활약..빛나는 인기 - 브레이크뉴스",
-        "source": "브레이크뉴스",
-        "date": "2026-09-17",
-        "url": "http://www.breaknews.com/1237495",
-        "summary": "임영웅·앤팀·헌트릭스·리센느 ©브레이크뉴스 박동제 기자= 가수 임영",
-        "image": "https://www.breaknews.com/imgdata/breaknews_com/202609/2026091726219785.jpg"
+        "url": "https://v.daum.net/v/20260917203610717",
+        "summary": "리센느 미나미가 역주행 후 광고 러브콜이 100건 이상 들어왔다고 밝혀 눈길을 끌고 있다. 지난 16일 방송된 MBC '라디오스타'에는 이형택, 이혜정, 조준호, 미나미가 출연한 '나고야-호! 아시안게임' 특집으로 꾸며졌다. 이날 미나미는 '러브어택' 역주행 이후 달라진 리센느의 위상을",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/17/JTBC/20260917203611990vfop.jpg"
     },
     {
         "title": "“갑자기 갸루를 하냐?”…절박했던 ‘리센느’ 미나미, 日 친구들에게 놀림 받았다 - 헤럴드경제",
@@ -82,20 +58,28 @@ const NEWS_DATA = [
         "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260917.186493675bcf44f19d18fd2475b107fa_P1.jpg"
     },
     {
+        "title": "2026년 37주차 써클차트, 임영웅·앤팀·헌트릭스·리센느 활약..빛나는 인기 - 브레이크뉴스",
+        "source": "브레이크뉴스",
+        "date": "2026-09-17",
+        "url": "http://www.breaknews.com/1237495",
+        "summary": "임영웅·앤팀·헌트릭스·리센느 ©브레이크뉴스 박동제 기자= 가수 임영",
+        "image": "https://www.breaknews.com/imgdata/breaknews_com/202609/2026091726219785.jpg"
+    },
+    {
+        "title": "“광고 문의만 100개 넘는다”…미나미가 전한 ‘리센느’ 달라진 위상 - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-17",
+        "url": "https://v.daum.net/v/20260917143002281",
+        "summary": "그룹 리센느 멤버 미나미가 역주행 이후 뜨거운 인기에 대해 실감하고 있다고 밝혔다. 미나미는 16일 방송된 MBC ‘라디오스트’에 이형택, 이혜정, 조준호와 함께 게스트로 출연했다. 그는 “‘라디오스타’에 나온 것처럼 저점 큰 스케줄이 많게 됐다”며 “광고 문의만 100개가 넘는다”라고",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/17/mk/20260917143003667geza.jpg"
+    },
+    {
         "title": "[공식] 리센느 불똥 맞았다…미연 '내시경 영상' 의료광고 의혹 여파 \"콘텐츠 연기\" - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-09-17",
-        "url": "https://v.daum.net/v/20260917131709480",
+        "url": "https://v.daum.net/v/GWwFsOcnHP",
         "summary": "(엑스포츠뉴스 정민경 기자) 의료광고 의혹에 휩싸였던 유튜브 채널 '전도사'가 콘텐츠 휴방을 결정하면서, 그룹 리센느의 출연분 공개도 미뤄졌다. 15일 유튜브 '전도사' 제작진은 채널 공지를 통해 \"9/15(화) 공개 예정이었던 리센느 편은 보다 면밀한 검토를 위해 심의 절차를 거치게 ",
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/17/xportsnews/20260917131711120rqoi.jpg"
-    },
-    {
-        "title": "‘라디오스타’ 리센느 미나미 광고 100건 폭주 (라스) - bntnews.co.kr",
-        "source": "bntnews.co.kr",
-        "date": "2026-09-17",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202609170124",
-        "summary": "‘라디오스타’가 이형택, 이혜정, 조준호, 미나미의 솔직한 토크를 보여줬다. 지난 16일 방송된 MBC ‘라디오스타’ 최고의 1분은 리센느",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/17/bnt202609170176.jpg"
     },
     {
         "title": "김상겸, '리센느 원이' 닮은 미모의 아내 공개…\"1년에 두 달만 함께\" ('동상이몽2') - v.daum.net",
@@ -106,12 +90,28 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/17/tvreport/20260917112754285xeuu.jpg"
     },
     {
-        "title": "“이거라도 해야 눈에 띄지”…리센느 미나미, ‘갸루’ 콘셉트 뒷이야기 - segye.com",
-        "source": "segye.com",
+        "title": "“이거라도 해야 눈에 띄지”…리센느 미나미, ‘갸루’ 콘셉트 뒷이야기 - 세계일보",
+        "source": "세계일보",
         "date": "2026-09-17",
         "url": "https://www.segye.com/newsView/20260917506050",
         "summary": "걸그룹 리센느 미나미가 한국에서 선보인 ‘갸루’ 콘셉트 때문에 일본 친구들에게 놀림을 받았던 일화를 공개했다. 미나미는 지난 16일 방송된 MBC 예능 프로그램 ‘라디오스타’에 출연해 자신의 트레이드마크가 된 갸루 스타일과 관련한 뒷이야기를 전했다. 이날 방송에서 미나미는 일본에서 K팝",
         "image": "https://www.segye.com/content/image/2026/09/17/20260917508481.png"
+    },
+    {
+        "title": "미연 ‘불법 의료광고’ 의혹에 리센느까지 ‘불똥’…”콘텐츠 연기 결정” [MHN이슈] - mhnse.com",
+        "source": "mhnse.com",
+        "date": "2026-09-17",
+        "url": "https://mhnse.com/news/articleView.html?idxno=1547813",
+        "summary": "그룹 아이들 멤버 미연의 콘텐츠 영상이 불법 의료광고 논란에 휘말리면서, 채널 '전도사'는 리센느 편의 공개를 연기하기로 결정했다. 의료법 위반 가능성이 제기되며 제작진은 해당 콘텐츠의 심의 절차를 위한 휴방을 발표하였다.",
+        "image": "https://cdn.mhnse.com/mhnsports/2026/09/17164820/thumb_ccms_59540.jpg"
+    },
+    {
+        "title": "‘라디오스타’ 리센느 미나미 광고 100건 폭주 (라스) - bntnews.co.kr",
+        "source": "bntnews.co.kr",
+        "date": "2026-09-17",
+        "url": "https://www.bntnews.co.kr/article/view/bnt202609170124",
+        "summary": "‘라디오스타’가 이형택, 이혜정, 조준호, 미나미의 솔직한 토크를 보여줬다. 지난 16일 방송된 MBC ‘라디오스타’ 최고의 1분은 리센느",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/17/bnt202609170176.jpg"
     },
     {
         "title": "리센느 미나미, 日친구들 조롱에 분노…\"놀릴 동안 난 새벽까지 연습\" [라스] - 마이데일리",
@@ -138,12 +138,12 @@ const NEWS_DATA = [
         "image": "https://cdn.gpkorea.com/news/photo/202609/146784_311925_1546.jpg"
     },
     {
-        "title": "미연 ‘불법 의료광고’ 의혹에 리센느까지 ‘불똥’…”콘텐츠 연기 결정” [MHN이슈] - mhnse.com",
-        "source": "mhnse.com",
+        "title": "'최고령 은메달' 김상겸, '리센느 원이' 닮은 아내 최초 공개…\"1년에 고작 두달 만나\" - 스포츠조선",
+        "source": "스포츠조선",
         "date": "2026-09-17",
-        "url": "https://mhnse.com/news/articleView.html?idxno=1547813",
-        "summary": "그룹 아이들 멤버 미연의 콘텐츠 영상이 불법 의료광고 논란에 휘말리면서, 채널 '전도사'는 리센느 편의 공개를 연기하기로 결정했다. 의료법 위반 가능성이 제기되며 제작진은 해당 콘텐츠의 심의 절차를 위한 휴방을 발표하였다.",
-        "image": "https://cdn.mhnse.com/mhnsports/2026/09/17164820/thumb_ccms_59540.jpg"
+        "url": "https://www.sportschosun.com/entertainment/2026-09-17/202609170100117180007563",
+        "summary": "국가대표 스노보더 김상겸이 SBS '동상이몽 시즌 2 - 너는 내 운명'(이하 '동상이몽 2')에 합류한 가운데, 리센느 원이를 닮은 아내가 최초로 공개됐다.",
+        "image": "https://www.sportschosun.com/article/html/2026/09/17/2026091701001171800075631.jpg"
     },
     {
         "title": "“광고 문의만 100개 넘어” 리센느, 달라진 인기 실감…스타트렌드 1위 - 중앙이코노미뉴스",
@@ -154,20 +154,19 @@ const NEWS_DATA = [
         "image": "https://cdn.joongangenews.com/news/photo/202609/548803_355327_4840.png"
     },
     {
-        "title": "무대 밖 ‘관계성’에 입덕한다, K팝 승부처 된 ‘자컨 유니버스’ - 스포츠동아",
-        "source": "스포츠동아",
+        "title": "'비서진' PD \"리센느ㆍ서인영 만났다 - 이투데이",
+        "source": "이투데이",
+        "date": "2026-09-17",
+        "url": "https://m.etoday.co.kr/view_photo.php?idxno=2619398&seq=1",
+        "summary": "'비서진' PD \"리센느ㆍ서인영 만났다⋯해외 촬영도 추진\" 관련 이미지 원본을 이투데이에서 확인하세요"
+    },
+    {
+        "title": "무대 밖 ‘관계성’에 입덕한다, K팝 승부처 된 ‘자컨 유니버스’ - sports.donga.com",
+        "source": "sports.donga.com",
         "date": "2026-09-17",
         "url": "https://sports.donga.com/ent/article/all/20260917/134679628/1",
         "summary": "[스포츠동아 장은지 기자] 케이(K)팝 상향평준화의 시대다. 완성형 아티스트가 쏟아지는 시장에서 팬덤의 마음을 사로잡는 결정적 요소는 더 이상 무대 위에만 있지 않다. 요즘 케이팝 팬들은 무대 밖 멤버들의 ‘관계성’에 ‘입덕’한다. 멤버끼리 부대끼는 날것의 케미스트리…",
         "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/09/17/134681422.1.png"
-    },
-    {
-        "title": "미나미, 日 친구들에게 놀림 받아…\"너 미쳤냐, 갑자기 갸루를 왜 해?\" - 뉴시스",
-        "source": "뉴시스",
-        "date": "2026-09-17",
-        "url": "https://www.newsis.com/view/NISX20260917_0003793225",
-        "summary": "[서울=뉴시스]강주희 기자 = 그룹 리센느 미나미가 일본 친구들에게 놀림 받았던 일화를 털어놨다.16일 방송된 MBC 예능 프로그램 '라디오 스타'에는 이형택, 이혜정, 조준호, 리센느 미나미가 출연해 이야기를 나눴다.이날 김구라는 미나미에게 \"일본에서 조롱 어택을 받는다고 한다\"며 이",
-        "image": "https://img1.newsis.com/2026/09/17/NISI20260917_0002241800_web.jpg"
     },
     {
         "title": "CU, 리센느와 브랜드 마케팅 \"원이가 할인상품을 알려줘요\" [편의점 이야기] - 매일경제",
@@ -176,6 +175,14 @@ const NEWS_DATA = [
         "url": "https://www.mk.co.kr/news/economy/12154343",
         "summary": "편의점 CU가 브랜드 모델 '리센느(RESCENE)'와 손잡고 고객의 일상 속 다양한 순간을 공략한다. 전국 1만8800여 개 점포부터 SNS, 자체 커머스 앱까지 온·오프라인 채널을 활용해 리센느와 함께하는 브랜드 경험을 확대한다. CU는 이달부터 리센느와 함께 '일상의 모든 Scen",
         "image": "https://pimg.mk.co.kr/news/cms/202609/17/20260917_01110202000002_L00.jpg"
+    },
+    {
+        "title": "‘톡파원 25시’ 이찬원, 리센느 무대에 \"야~호\"…찬냥이 변신 - 비즈엔터",
+        "source": "비즈엔터",
+        "date": "2026-09-16",
+        "url": "https://enter.etoday.co.kr/news/view/302495",
+        "summary": "▲'톡파원25시' (사진출처=JTBC)‘톡파원 25시’ 이찬원이 리센느의 무대에 고양이 소리 같은 \"야~호\"라고 화답한다.16일 방송되는 JTBC ‘톡파원 25시’는",
+        "image": "https://img.etoday.co.kr/pto_db/2026/09/600/20260916101728_2388875_1127_634.jpg"
     },
     {
         "title": "리센느 '산업' 그 자체가 되다…\"광고 제안 100건 이상\" 매출도 'Glow Up' - 이코노미스트",
@@ -194,35 +201,12 @@ const NEWS_DATA = [
         "image": "https://cdn.mhnse.com/mhnsports/2026/09/17080101/thumb_ccms_59212-1.jpg"
     },
     {
-        "title": "리센느 미나미, 광고 문의만 100개…\"대학 축제도 18곳 소화\" - 뉴시스",
-        "source": "뉴시스",
-        "date": "2026-09-16",
-        "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260916_0003792830",
-        "summary": "[서울=뉴시스] 이종희 기자 = 그룹 리센느 미나미가 역주행 이후 뜨거운 인기를 실감했다고 밝혔다",
-        "image": "https://img1.newsis.com/2026/09/17/NISI20260917_0002241533_web.jpg"
-    },
-    {
-        "title": "‘라스’ 미나미 “리센느 잘되고 광고 문의만 100개 ↑” - 동아일보",
-        "source": "동아일보",
-        "date": "2026-09-16",
-        "url": "https://www.donga.com/news/amp/all/20260917/134685316/1",
-        "summary": ""
-    },
-    {
         "title": "지하주차장 “S전자 CM송 진행”…리센느 ‘Love Attack’ 무대 선보인다 - 톱스타뉴스",
         "source": "톱스타뉴스",
         "date": "2026-09-16",
         "url": "https://www.topstarnews.net/news/articleView.html?idxno=16196449",
         "summary": "KBS2 예능 ‘해피투게더-혼자가 아니어서 좋아’에서 커버곡으로 화제를 모은 3인조 보컬 팀 지하주차장이 S전자 CM송 광고와 걸그룹 피프티피프티 릴스 촬영 등 방송 후 근황을 전하고, 리센느 ‘Love Attack’ 무대로 볼빨간사춘기와 이적의 반응을 이끌어낸다.",
         "image": "https://cdn.topstarnews.net/news/photo/202609/16196449_2028301_211_crop.jpg"
-    },
-    {
-        "title": "리센느 미나미, 얼마나 바쁘면? “샤워하고 바로 이동할 정도”(라디오스타) - 스포츠경향",
-        "source": "스포츠경향",
-        "date": "2026-09-16",
-        "url": "https://sports.khan.co.kr/article/202609170001023",
-        "summary": "그룹 리센느(RESCENE)의 멤버 미나미가 폭발적인 인기를 실감하며 바쁜 스케줄 속 근황을 전했다. 16일 방송된 MBC 예능 프로그램 ‘라디오스타’(이하 ‘라스’)에는 미나미가 출연해 최근 가요계를 뜨겁게 ...",
-        "image": "https://images.khan.co.kr/article/2026/09/17/news-p.v1.20260917.cd3b14bc453a4bd1845289817931d31a_P1.png"
     },
     {
         "title": "‘18kg 감량’ 리센느 미나미, 독하게 빼는 지옥의 ‘운동 루틴’ 공개 [셀럽 건강] - twig24.com",
@@ -233,12 +217,12 @@ const NEWS_DATA = [
         "image": "https://img.seoul.co.kr//img/upload/2026/09/16/SSC_20260916135513.jpg.webp"
     },
     {
-        "title": "리센느 미나미, 대세 입증 \"광고 문의만 100개..잘 시간도 부족\" [라스][별별TV] - starnewskorea.com",
-        "source": "starnewskorea.com",
+        "title": "리센느 미나미, 광고 문의만 100개…\"대학 축제도 18곳 소화\" - 뉴시스",
+        "source": "뉴시스",
         "date": "2026-09-16",
-        "url": "https://www.starnewskorea.com/broadcast-show/2026/09/16/2026091622565821277",
-        "summary": "그룹 리센느 미나미가 '대세' 임을 입증했다. 16일 방송된 MBC 예능 프로그램 '라디오스타'는 '나고야-호! 아시안게임' 특집으로 꾸며져 이형택, 이혜정, 조준호, 미나미가 출연했다. 이날 미나미는 '라디오스타' 출연에 대한 어머니의 반응에 \"너무 자랑스럽다고 감사하다고 꼭 전해달라",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=657,fit=cover,q=high,sharpen=2/21/2026/09/2026091622565821277_1.jpg"
+        "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260916_0003792830",
+        "summary": "[서울=뉴시스] 이종희 기자 = 그룹 리센느 미나미가 역주행 이후 뜨거운 인기를 실감했다고 밝혔다",
+        "image": "https://img1.newsis.com/2026/09/17/NISI20260917_0002241533_web.jpg"
     },
     {
         "title": "'야호~!' 대박친 리센느 미나미 \"광고 제안 100건 넘게 받아\" - 머니투데이 - 머니투데이",
@@ -249,60 +233,11 @@ const NEWS_DATA = [
         "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/09/2026091615192584902_1.jpg"
     },
     {
-        "title": "리센느 미나미, ‘야호’ 졸업 선언…”찾으면 무조건, 먼저 하는 건 그만”(라디오스타) - mhnse.com",
-        "source": "mhnse.com",
+        "title": "‘라스’ 미나미 “리센느 잘되고 광고 문의만 100개 ↑” - 동아일보",
+        "source": "동아일보",
         "date": "2026-09-16",
-        "url": "https://mhnse.com/news/articleView.html?idxno=1546840",
-        "summary": "리센느 미나미가 '야호' 유행어 졸업을 선언했다. 그는 향후 요청이 있을 경우에만 이 유행어를 사용하겠다고 밝혔다.",
-        "image": "https://cdn.mhnse.com/mhnsports/2026/09/16235340/thumb_ccms_59382.jpg"
-    },
-    {
-        "title": "[TVis] 리센느 미나미, 오늘(16일) ‘야호’ 졸업식…“사랑해주셔서 감사” (라스) - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-09-16",
-        "url": "https://v.daum.net/v/20260916233349425",
-        "summary": "그룹 리센느 미나미가 자신을 알린 유행어 ‘거제 야호’와 잠시 거리를 두겠다고 선언했다. 16일 방송된 MBC 예능 ‘라디오스타’(이하 ‘라스’)에는 미나미가 출연해 최근 화제가 된 ‘거제 야호’, ‘파라파라나 춰야겠다’ 등 자신의 유행어와 갸루 캐릭터에 얽힌 이야기를 전했다. 미나미는",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/16/ilgansports/20260916233350909jcev.png"
-    },
-    {
-        "title": "리센느 미나미 \"일본 친구들, 갸루 흉내에 '미쳤냐'고...'야호' 이제 그만\"(라스)[종합] - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-09-16",
-        "url": "https://v.daum.net/v/8qts8DgRtK",
-        "summary": "(엑스포츠뉴스 오수정 기자) '라디오스타'에서 리센느 미나미가 갸루 흉내에 대해 언급했다. 16일 방송된 MBC 예능 프로그램 '라디오스타'는 '나고야-호! 아시안게임' 특집으로 꾸며져 이형택, 이혜정, 조준호, 리센느 미나미가 출연해 이야기를 나눴다. 이날 방송에서 미나미는 '리센느의",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/16/xportsnews/20260916235511110wfss.jpg"
-    },
-    {
-        "title": "리센느, 역주행 후 확 달라진 인기…미나미 \"광고 문의 100개·대학 축제서 떼창\"(라디오스타) - mhnse.com",
-        "source": "mhnse.com",
-        "date": "2026-09-16",
-        "url": "https://mhnse.com/news/articleView.html?idxno=1546814",
-        "summary": "리센느의 미나미는 최근 '라디오스타'에 출연하여 역주행 이후 달라진 인기를 전했다. 그는 광고 문의가 100건 이상 증가했고, 대학 축제에서의 인기도 높아져 기쁜 마음을 표현했다.",
-        "image": "https://cdn.mhnse.com/mhnsports/2026/09/16232641/thumb_ccms_59377.jpg"
-    },
-    {
-        "title": "리센느 달라진 위상...미나미 \"광고 문의 100개+대학 축제 18개\" (라스)[전일야화] - xportsnews.com",
-        "source": "xportsnews.com",
-        "date": "2026-09-16",
-        "url": "https://www.xportsnews.com/article/2196498",
-        "summary": "(엑스포츠뉴스 오수정 기자) '라디오스타'에서 미나미가 리센느의 달라진 위상을 전했다. 지난 16일 방송된 MBC 예능 프로그램 '라디오스타'는 '나고야-호! 아시안게임' 특집으로 꾸며져 이형택, 이혜정, 조준호, 리센느 미나미가 출연해 이야기를 나눴다. 이날 미나미는 리센느 멤버들 없",
-        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/0917/1789571360109203.webp"
-    },
-    {
-        "title": "\"연예인 다 됐다\"..리센느 미나미, '야호' 유행어 졸업 ('라스')[방송 프리뷰] - 조선비즈 - Chosunbiz",
-        "source": "Chosunbiz",
-        "date": "2026-09-16",
-        "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/16/GA4TCMJYMEYDOZDDHFTGEOJUHE/?outputType=amp",
-        "summary": "연예인 다 됐다..리센느 미나미, 야호 유행어 졸업 라스방송 프리뷰",
-        "image": "https://biz.chosun.com/resizer/v2/GY3TEYZSGRSGIOLCMJSWGYRTME.jpg?auth=9a56fdc905aa8675bb6ab161879fa8f92a2281cee731f0e57f3140a3d5b84929&width=650&height=341&smart=true"
-    },
-    {
-        "title": "리센느 미나미, 광고 문의만 100개…\"5월 대학축제도 18개 소화\" [라스] - 마이데일리",
-        "source": "마이데일리",
-        "date": "2026-09-16",
-        "url": "https://mydaily.co.kr/page/view/2026091700365096529",
-        "summary": "그룹 리센느 미나미 / MBC '라스'...",
-        "image": "https://mydaily.co.kr/photos/2026/09/17/2026091700512567793_l.jpg"
+        "url": "https://www.donga.com/news/amp/all/20260917/134685316/1",
+        "summary": ""
     },
     {
         "title": "“이제 먼저는 안 할래요”…리센느 미나미, ‘야호’와 유쾌한 작별 - 알파경제",
@@ -313,21 +248,6 @@ const NEWS_DATA = [
         "image": "https://cdn.alphabiz.co.kr/news/photo/202609/187041_144023_5011.jpg"
     },
     {
-        "title": "'18㎏ 감량' 리센느 미나미, 솔직 심경 \"외모로 괴롭히면 안 돼\" [N이슈] - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-09-16",
-        "url": "https://www.news1.kr/entertain/celebrity-topic/6292016",
-        "summary": ""
-    },
-    {
-        "title": "리센느 미나미, '야호'와 이별 \"하루에 삼십번 외쳐..이제는 마지막\" [라스][★밤TView] - starnewskorea.com",
-        "source": "starnewskorea.com",
-        "date": "2026-09-16",
-        "url": "https://www.starnewskorea.com/broadcast-show/2026/09/17/2026091623014943918",
-        "summary": "그룹 리센느 미나미가 '야호' 밈과의 이별을 알렸다. 16일 방송된 MBC 예능 프로그램 '라디오스타'는 '나고야-호! 아시안게임' 특집으로 꾸며져 이형택, 이혜정, 조준호, 미나미가 출연했다. 이날 미나미는 유행어에 대해 \"'거제 야호'와 '난 파라파라나 추고 있어야겠다'가 있다\"라며",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=657,fit=cover,q=high,sharpen=2/21/2026/09/2026091623014943918_1.jpg"
-    },
-    {
         "title": "리센느 미나미 \"역주행 후 광고 제안 100건…日 친구들도 연락와\"('라스') - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-09-16",
@@ -336,19 +256,20 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/16/spotvnews/20260916141644634dhuh.jpg"
     },
     {
-        "title": "이찬원, 리센느 유행어 “야호” 끝냈다 “고양이가 우는 줄” (톡파원25시) - 뉴스엔",
-        "source": "뉴스엔",
+        "title": "리센느 미나미, 방탄소년단·GD도 따라 한 ‘야호’, ‘라스’서 공식 졸업 - 스포츠경향",
+        "source": "스포츠경향",
         "date": "2026-09-16",
-        "url": "https://m.newsen.com/news_view.php?uid=202609170610441710",
-        "summary": ""
+        "url": "https://sports.khan.co.kr/article/202609170044003",
+        "summary": "그룹 리센느의 멤버 미나미가 폭발적인 인기를 끌었던 시그니처 유행어 ‘야호’의 졸업을 선언해 이목을 집중시켰다. 16일 방송된 MBC 예능 프로그램 ‘라디오스타’(이하 ‘라스’)에는 미나미가 출연해 최근 가요계...",
+        "image": "https://images.khan.co.kr/article/2026/09/17/news-p.v1.20260917.e1b7bea9cb2a4c34b25a511746090e49_P1.png"
     },
     {
-        "title": "[뮤지션100] AI 보컬 머무르 322점 급증…에스파 442점 급감, 리센느 1위 - 톱스타뉴스",
-        "source": "톱스타뉴스",
+        "title": "리센느 미나미, 대세 입증 \"광고 문의만 100개..잘 시간도 부족\" [라스][별별TV] - starnewskorea.com",
+        "source": "starnewskorea.com",
         "date": "2026-09-16",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16196407",
-        "summary": "9월 17일 오전 7시 뮤지션100에서 머무르가 하루 만에 스코어를 322점 늘리며 최대 증가폭을 기록했다. 소연과 이창섭도 각각 229점, 209점 증가했고 에스파는 442점 감소했다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202609/16196407_2028243_340_crop.jpg"
+        "url": "https://www.starnewskorea.com/broadcast-show/2026/09/16/2026091622565821277",
+        "summary": "그룹 리센느 미나미가 '대세' 임을 입증했다. 16일 방송된 MBC 예능 프로그램 '라디오스타'는 '나고야-호! 아시안게임' 특집으로 꾸며져 이형택, 이혜정, 조준호, 미나미가 출연했다. 이날 미나미는 '라디오스타' 출연에 대한 어머니의 반응에 \"너무 자랑스럽다고 감사하다고 꼭 전해달라",
+        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=657,fit=cover,q=high,sharpen=2/21/2026/09/2026091622565821277_1.jpg"
     },
     {
         "title": "리센느 미나미, 역주행 후 첫 홀로서기 “광고 제안만 100건 이상” (라스) - 스포츠경향",
@@ -359,12 +280,28 @@ const NEWS_DATA = [
         "image": "https://images.khan.co.kr/article/2026/09/16/news-p.v1.20260916.dad1ca11ef7844428a7f53162841b421_P1.png"
     },
     {
+        "title": "리센느 미나미, 얼마나 바쁘면? “샤워하고 바로 이동할 정도”(라디오스타) - 스포츠경향",
+        "source": "스포츠경향",
+        "date": "2026-09-16",
+        "url": "https://sports.khan.co.kr/article/202609170001023",
+        "summary": "그룹 리센느(RESCENE)의 멤버 미나미가 폭발적인 인기를 실감하며 바쁜 스케줄 속 근황을 전했다. 16일 방송된 MBC 예능 프로그램 ‘라디오스타’(이하 ‘라스’)에는 미나미가 출연해 최근 가요계를 뜨겁게 ...",
+        "image": "https://images.khan.co.kr/article/2026/09/17/news-p.v1.20260917.cd3b14bc453a4bd1845289817931d31a_P1.png"
+    },
+    {
         "title": "'거제 야호' 리센느 미나미 \"광고 제안 100건 이상\" 대세 입증[라스] - starnewskorea.com",
         "source": "starnewskorea.com",
         "date": "2026-09-16",
         "url": "https://www.starnewskorea.com/broadcast-show/2026/09/16/2026091613134172022",
         "summary": "걸그룹 리센느의 미나미가 '라디오스타'에서 멤버들 없이 첫 예능 홀로서기에 나선다. '러브어택' 역주행 후 쏟아진 러브콜과 대학 축제에서 달라진 인기를 공개하는가 하면, 자신을 대세로 만든 '야호'와 갸루 유행어의 졸업을 예고해 관심을 모은다. 초등학교 3학년 때부터 꿈꿔 온 K팝 아이",
         "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=660,fit=cover,q=high,sharpen=2/21/2026/09/2026091613134172022_1.jpg"
+    },
+    {
+        "title": "리센느 미나미, ‘야호’ 졸업 선언…”찾으면 무조건, 먼저 하는 건 그만”(라디오스타) - mhnse.com",
+        "source": "mhnse.com",
+        "date": "2026-09-16",
+        "url": "https://mhnse.com/news/articleView.html?idxno=1546840",
+        "summary": "리센느 미나미가 '야호' 유행어 졸업을 선언했다. 그는 향후 요청이 있을 경우에만 이 유행어를 사용하겠다고 밝혔다.",
+        "image": "https://cdn.mhnse.com/mhnsports/2026/09/16235340/thumb_ccms_59382.jpg"
     },
     {
         "title": "리센느 미나미 ‘야호’ 졸업 선언에 유세윤 “난 아직도 개코원숭이 해” - 스포츠경향",
@@ -383,12 +320,20 @@ const NEWS_DATA = [
         "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=660,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/09/2026091616107266373_1.jpg"
     },
     {
-        "title": "리센느 미나미, 유치원 때부터 조기교육 \"여동생과 영어로만 15분 대화\" [라스] - 마이데일리",
-        "source": "마이데일리",
+        "title": "리센느, 역주행 후 확 달라진 인기…미나미 \"광고 문의 100개·대학 축제서 떼창\"(라디오스타) - mhnse.com",
+        "source": "mhnse.com",
         "date": "2026-09-16",
-        "url": "https://www.mydaily.co.kr/page/view/2026091701064890303",
-        "summary": "그룹 리센느 미나미 / MBC '라스'...",
-        "image": "https://mydaily.co.kr/photos/2026/09/17/2026091701062548088_l.jpg"
+        "url": "https://mhnse.com/news/articleView.html?idxno=1546814",
+        "summary": "리센느의 미나미는 최근 '라디오스타'에 출연하여 역주행 이후 달라진 인기를 전했다. 그는 광고 문의가 100건 이상 증가했고, 대학 축제에서의 인기도 높아져 기쁜 마음을 표현했다.",
+        "image": "https://cdn.mhnse.com/mhnsports/2026/09/16232641/thumb_ccms_59377.jpg"
+    },
+    {
+        "title": "리센느 달라진 위상...미나미 \"광고 문의 100개+대학 축제 18개\" (라스)[전일야화] - xportsnews.com",
+        "source": "xportsnews.com",
+        "date": "2026-09-16",
+        "url": "https://www.xportsnews.com/article/2196498",
+        "summary": "(엑스포츠뉴스 오수정 기자) '라디오스타'에서 미나미가 리센느의 달라진 위상을 전했다. 지난 16일 방송된 MBC 예능 프로그램 '라디오스타'는 '나고야-호! 아시안게임' 특집으로 꾸며져 이형택, 이혜정, 조준호, 리센느 미나미가 출연해 이야기를 나눴다. 이날 미나미는 리센느 멤버들 없",
+        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/0917/1789571360109203.webp"
     },
     {
         "title": "리센느 미나미, 갸루 유행어 ‘야호’ 졸업 선언 “오늘이 마지막” (라스) - 스타투데이 - 매일경제",
@@ -407,12 +352,12 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/16/poctan/20260916133109594czth.jpg"
     },
     {
-        "title": "리센느 미나미, 한국어 어떻게 배웠나 했더니…\"`라스`가 최종 단계\" - 마이데일리",
-        "source": "마이데일리",
+        "title": "[TVis] 리센느 미나미, 오늘(16일) ‘야호’ 졸업식…“사랑해주셔서 감사” (라스) - v.daum.net",
+        "source": "v.daum.net",
         "date": "2026-09-16",
-        "url": "https://www.mydaily.co.kr/page/view/2026091623034228537",
-        "summary": "그룹 리센느 멤버 미나미 / MBC '라스'...",
-        "image": "https://mydaily.co.kr/photos/2026/09/17/2026091700340391645_l.png"
+        "url": "https://v.daum.net/v/20260916233349425",
+        "summary": "그룹 리센느 미나미가 자신을 알린 유행어 ‘거제 야호’와 잠시 거리를 두겠다고 선언했다. 16일 방송된 MBC 예능 ‘라디오스타’(이하 ‘라스’)에는 미나미가 출연해 최근 화제가 된 ‘거제 야호’, ‘파라파라나 춰야겠다’ 등 자신의 유행어와 갸루 캐릭터에 얽힌 이야기를 전했다. 미나미는",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/16/ilgansports/20260916233350909jcev.png"
     },
     {
         "title": "리센느 미나미, 역주행 후 대박 \"광고 제안만 100건 이상\" - 뉴시스",
@@ -429,6 +374,14 @@ const NEWS_DATA = [
         "url": "https://sports.khan.co.kr/article/202609160944003",
         "summary": "‘2026 더팩트 뮤직 어워즈’가 개최를 사흘 앞두고 주요 무대 일부를 공개했다. 오는 19일 부산아시아드주경기장에서 열리는 ‘2026 더팩트 뮤직 어워즈(2026 THE FACT MUSIC AWARDS, 이하...",
         "image": "https://images.khan.co.kr/article/2026/09/16/news-p.v1.20260916.fd6fc9f3746a47bfa73bcb402992b9a3_P1.png"
+    },
+    {
+        "title": "리센느 미나미 \"일본 친구들, 갸루 흉내에 '미쳤냐'고...'야호' 이제 그만\"(라스)[종합] - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-16",
+        "url": "https://v.daum.net/v/8qts8DgRtK",
+        "summary": "(엑스포츠뉴스 오수정 기자) '라디오스타'에서 리센느 미나미가 갸루 흉내에 대해 언급했다. 16일 방송된 MBC 예능 프로그램 '라디오스타'는 '나고야-호! 아시안게임' 특집으로 꾸며져 이형택, 이혜정, 조준호, 리센느 미나미가 출연해 이야기를 나눴다. 이날 방송에서 미나미는 '리센느의",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/16/xportsnews/20260916235511110wfss.jpg"
     },
     {
         "title": "리센느 미나미, 유행어 '야호' 졸업 선언…\"'라스'가 마지막\" - 뉴스1",
@@ -462,18 +415,12 @@ const NEWS_DATA = [
         "image": "https://newszum.zumst.com/news/텐아시아/2026/09/16/BF.45696992.1.jpg"
     },
     {
-        "title": "리센느 돈 얼마나 쓸어담는 거야‥미나미 “광고 문의만 100개, 잠 못 자고 스케줄”(라스) - 뉴스엔",
-        "source": "뉴스엔",
+        "title": "[뮤지션100] AI 보컬 머무르 322점 급증…에스파 442점 급감, 리센느 1위 - 톱스타뉴스",
+        "source": "톱스타뉴스",
         "date": "2026-09-16",
-        "url": "https://m.newsen.com/news_view.php?uid=202609162307396110",
-        "summary": ""
-    },
-    {
-        "title": "리센느 미나미, Kpop 아이돌 꿈 무시한 日 동창 보란듯 성공 “눈물 나”(라스) - 뉴스엔",
-        "source": "뉴스엔",
-        "date": "2026-09-16",
-        "url": "https://m.newsen.com/news_view.php?uid=202609162332316110",
-        "summary": ""
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16196407",
+        "summary": "9월 17일 오전 7시 뮤지션100에서 머무르가 하루 만에 스코어를 322점 늘리며 최대 증가폭을 기록했다. 소연과 이창섭도 각각 229점, 209점 증가했고 에스파는 442점 감소했다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202609/16196407_2028243_340_crop.jpg"
     },
     {
         "title": "광고 제안만 100건 넘었다…미나미, 리센느 대세 행보 타고 첫 홀로 예능 (라스) - 일간스포츠",
@@ -484,8 +431,23 @@ const NEWS_DATA = [
         "image": "https://isplus.com/data/isp/image/2026/09/16/isp20260916000171.800x.0.png"
     },
     {
-        "title": "리센느 미나미, 역주행 터지자 광고 제안 100건↑ “이제 ‘야호’ 졸업” - 스포츠동아",
-        "source": "스포츠동아",
+        "title": "이찬원, 리센느 유행어 “야호” 끝냈다 “고양이가 우는 줄” (톡파원25시) - 뉴스엔",
+        "source": "뉴스엔",
+        "date": "2026-09-16",
+        "url": "https://m.newsen.com/news_view.php?uid=202609170610441710",
+        "summary": ""
+    },
+    {
+        "title": "리센느 미나미, '야호'와 이별 \"하루에 삼십번 외쳐..이제는 마지막\" [라스][★밤TView] - starnewskorea.com",
+        "source": "starnewskorea.com",
+        "date": "2026-09-16",
+        "url": "https://www.starnewskorea.com/broadcast-show/2026/09/17/2026091623014943918",
+        "summary": "그룹 리센느 미나미가 '야호' 밈과의 이별을 알렸다. 16일 방송된 MBC 예능 프로그램 '라디오스타'는 '나고야-호! 아시안게임' 특집으로 꾸며져 이형택, 이혜정, 조준호, 미나미가 출연했다. 이날 미나미는 유행어에 대해 \"'거제 야호'와 '난 파라파라나 추고 있어야겠다'가 있다\"라며",
+        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=657,fit=cover,q=high,sharpen=2/21/2026/09/2026091623014943918_1.jpg"
+    },
+    {
+        "title": "리센느 미나미, 역주행 터지자 광고 제안 100건↑ “이제 ‘야호’ 졸업” - sports.donga.com",
+        "source": "sports.donga.com",
         "date": "2026-09-16",
         "url": "https://sports.donga.com/ent/article/all/20260916/134679866/1",
         "summary": "[스포츠동아 이정연 기자] 그룹 리센느 미나미가 ‘러브어택’ 역주행 이후 광고 제안만 100건 넘게 들어왔다고 밝힌다. 자신을 알린 유행어 ‘야호’와는 깜짝 이별을 선언한다.미나미는 16일 밤 10시 30분 방송되는 MBC ‘라디오스타’의 ‘나고야-호! 아시안게임’ …",
@@ -498,6 +460,14 @@ const NEWS_DATA = [
         "url": "https://enews.imbc.com/News/RetrieveNewsInfo/518374",
         "summary": "그룹 리센느 미나미가 멤버들 없이 홀로 ‘라디오스타’에 출연해 예능 신고식을 치른다. ‘러브어택’ 역주행으로 달라진 인지도부터 대학 축제에서 체감한 인기, 자신을 알린 ‘야호’와 갸루 캐릭터에 대한 비하인드까지 다양한 이야기를 털어놓을 예정이다. 16일 오후 10시 30분 방송되는 MB",
         "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/09/16/763b3f4a-02ea-4fef-9043-9638a1c92f72.jpg"
+    },
+    {
+        "title": "리센느 미나미, 광고 문의만 100개…\"5월 대학축제도 18개 소화\" [라스] - 마이데일리",
+        "source": "마이데일리",
+        "date": "2026-09-16",
+        "url": "https://mydaily.co.kr/page/view/2026091700365096529",
+        "summary": "그룹 리센느 미나미 / MBC '라스'...",
+        "image": "https://mydaily.co.kr/photos/2026/09/17/2026091700512567793_l.jpg"
     },
     {
         "title": "리센느 미나미 \"유행어 '야호' 이제 그만\"…유세윤 \"난 반대\" - v.daum.net",
@@ -524,8 +494,8 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/15/inews24/20260915164408954hhmn.jpg"
     },
     {
-        "title": "\"맛보며 만들었어요\" 리센느 빵 뭐길래…출시 전부터 '들썩' [갓신상] - 한국경제",
-        "source": "한국경제",
+        "title": "\"맛보며 만들었어요\" 리센느 빵 뭐길래…출시 전부터 '들썩' [갓신상] - hankyung.com",
+        "source": "hankyung.com",
         "date": "2026-09-15",
         "url": "https://www.hankyung.com/article/202609154582g",
         "summary": "\"맛보며 만들었어요\" 리센느 빵 뭐길래…출시 전부터 '들썩' [갓신상], 자체 베이커리 'BAKE405' 협업 원이&middot;미나미 등 멤버 5인 개별 취향 구현",
@@ -546,6 +516,14 @@ const NEWS_DATA = [
         "url": "https://zdnet.co.kr/view/?no=20260915091011",
         "summary": "CU가 걸그룹 리센느 멤버들의 입맛을 반영한 빵을 출시한다. 제품마다 한정판 포토카드를 넣어 팬덤의 수집 수요도 공략한다.CU는 브랜드 모델 리센느와 협업한 ‘BAKE405’ 베이커리 5종을 오는 17일부터 순차 판매한다고 15일 밝혔다. 상품 개발 과정에는 리센느 멤버들이 직접 참여해",
         "image": "https://image.zdnet.co.kr/2026/09/15/6a881fec4c8ce17c281cb7f8f7ee67ca.jpg"
+    },
+    {
+        "title": "[포토] CU, 리센느 취향 담은 빵 5종… 포토카드 27종 동봉 - 콕스뉴스",
+        "source": "콕스뉴스",
+        "date": "2026-09-15",
+        "url": "https://www.coxnews.co.kr/news/articleView.html?idxno=6108",
+        "summary": "편의점 CU가 브랜드 모델 리센느와 협업한 베이커리 'BAKE405' 5종을 17일부터 순차 출시한다. 원이의 옥수수 크림빵, 미나미의 메론빵, 메이의 시나몬 롤",
+        "image": "https://cdn.coxnews.co.kr/news/photo/202609/6108_8881_348.jpg"
     },
     {
         "title": "CU, 리센느와 베이커리 협업…팬덤 공략 - 아이뉴스24",
@@ -604,6 +582,14 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/15/tvreport/20260915123938282qlth.jpg"
     },
     {
+        "title": "원이 옥수수 크림빵·미나미 메론빵 ···'리센느 빵' 나온다 - 캠페인 인사이트",
+        "source": "캠페인 인사이트",
+        "date": "2026-09-15",
+        "url": "https://www.campaigninsight.co.kr/news/articleView.html?idxno=6004",
+        "summary": "CU와 리센느 협업 캠페인 영상. / CU 유튜브편의점 CU가 브랜드 모델인 걸그룹 리센느와 협업한 자체 베이커리 브랜드 ‘BAKE405’ 신제품 5종을 오는 1",
+        "image": "https://cdn.campaigninsight.co.kr/news/photo/202609/6004_8425_940.jpg"
+    },
+    {
         "title": "인천에 리센느·에일리·신인선 뜬다···10월 9일 연수 능허대 문화축제 - 인천투데이",
         "source": "인천투데이",
         "date": "2026-09-14",
@@ -628,8 +614,8 @@ const NEWS_DATA = [
         "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/09/2026091017271183280_1.jpg"
     },
     {
-        "title": "[오늘의신상]원이의 옥수수크림빵…CU,리센느 멤버 쏙 담았다 - 아시아경제",
-        "source": "아시아경제",
+        "title": "[오늘의신상]원이의 옥수수크림빵…CU,리센느 멤버 쏙 담았다 - asiae.co.kr",
+        "source": "asiae.co.kr",
         "date": "2026-09-14",
         "url": "https://www.asiae.co.kr/article/2026091508134371573",
         "summary": "편의점 CU가 브랜드 모델 리센느와 협업한 'BAKE405' 베이커리 5종을 이달 17일부터 순차 출시한다고 15일 밝혔다.",
@@ -644,8 +630,8 @@ const NEWS_DATA = [
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/14/bnt202609140349.jpg"
     },
     {
-        "title": "리센느 취향 담았다! CU, BAKE405 리센느 빵 5종 출시 - 한국경제",
-        "source": "한국경제",
+        "title": "리센느 취향 담았다! CU, BAKE405 리센느 빵 5종 출시 - hankyung.com",
+        "source": "hankyung.com",
         "date": "2026-09-14",
         "url": "https://www.hankyung.com/article/202609154377P",
         "summary": ""
@@ -666,8 +652,8 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/14/JTBC/20260914160820293iuic.jpg"
     },
     {
-        "title": "역주행 신화 리센느 소속사 74배 잭팟…중소돌 스타트업에 뭉칫돈 - 유니콘팩토리",
-        "source": "유니콘팩토리",
+        "title": "역주행 신화 리센느 소속사 74배 잭팟…중소돌 스타트업에 뭉칫돈 - unicornfactory.co.kr",
+        "source": "unicornfactory.co.kr",
         "date": "2026-09-14",
         "url": "https://www.unicornfactory.co.kr/article/2026091017271183280",
         "summary": "[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 '데이터랩'에서 볼 수 있습니다. ] 걸그룹 '리센느(RESCENE)'의 역주행 신화가 벤처투자업계에서 주목받고 있다. 대형 기획사가 아니어도 차별화된 기획력과 팬덤, 적절한 투자가 결합하면 '중소돌'",
@@ -688,6 +674,21 @@ const NEWS_DATA = [
         "url": "https://v.daum.net/v/20260914143927469",
         "summary": "[스포츠경향 안병길 기자] 신드롬 계속된다. ‘국민 걸그룹’ 리센느(RESCENE)가 음원 차트에서 장기 흥행을 이어가고 있다. 리센느(원이, 리브, 미나미, 메이, 제나)는 미니 1집 ‘SCENEDROME’(씬드롬)의 타이틀곡 ‘LOVE ATTACK’(러브 어택)으로 멜론 TOP100",
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/14/sportskhan/20260914143929194rpxu.jpg"
+    },
+    {
+        "title": "오디세이·리센느·사랑이온다·포핸즈·들쥐, 1위 [한눈에 보는 엔터차트] - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-09-14",
+        "url": "https://www.news1.kr/entertain/celebrity-topic/6289756",
+        "summary": ""
+    },
+    {
+        "title": "1위도, 2위도 리센느…향기로 물들인 음원차트 - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-14",
+        "url": "https://v.daum.net/v/20260914150839235",
+        "summary": "[마이데일리 = 김하영 기자] 그룹 리센느(RESCENE)가 역주행 신화에 이어 신곡 정주행까지 성공시키며 음원차트에서 장기 흥행을 이어가고 있다. 리센느(원이, 리브, 미나미, 메이, 제나)는 미니 1집 'SCENEDROME'(씬드롬)의 타이틀곡 'LOVE ATTACK'(러브 어택)으",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/14/mydaily/20260914150840801bznl.jpg"
     },
     {
         "title": "당신은 리센느를 좋아할 가능성이 높습니다 - 머니투데이 - 머니투데이",
@@ -730,16 +731,16 @@ const NEWS_DATA = [
         "image": "https://img.khan.co.kr/news/2026/09/08/202609081010258103443_0.jpg"
     },
     {
-        "title": "690만뷰 터진 리센느 먹방…“맛 궁금해” 매출 대박난 음식 정체 - joongang.co.kr",
-        "source": "joongang.co.kr",
+        "title": "690만뷰 터진 리센느 먹방…“맛 궁금해” 매출 대박난 음식 정체 - 중앙일보",
+        "source": "중앙일보",
         "date": "2026-09-08",
         "url": "https://www.joongang.co.kr/article/25460113",
         "summary": "걸그룹 리센느(RESCENE)가 유튜브 콘텐트에서 삼양식품의 짜장라면을 먹는 모습이 공개된 이후 제품 판매가 급증한 것으로 나타났다. 8일 삼양식품에 따르면 지난 4일 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’(안원잘부)에 리센느 멤버들이 ‘짜르르’와 ‘삼양1963’을 먹는 영상이",
         "image": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202609/08/606f2c32-26d7-4c9b-bebd-d32b6a4a7609.jpg"
     },
     {
-        "title": "'역시 대세' 리센느가 먹은 '짜르르' 매출 얼마나 올랐나 - magazine.hankyung.com",
-        "source": "magazine.hankyung.com",
+        "title": "'역시 대세' 리센느가 먹은 '짜르르' 매출 얼마나 올랐나 - 한경매거진&북",
+        "source": "한경매거진&북",
         "date": "2026-09-08",
         "url": "https://magazine.hankyung.com/business/article/202609080729b",
         "summary": "'역시 대세' 리센느가 먹은 '짜르르' 매출 얼마나 올랐나, 강홍민 기자, 이슈",
@@ -761,12 +762,20 @@ const NEWS_DATA = [
         "image": "https://img3.yna.co.kr/etc/inner/KR/2026/09/07/AKR20260907150600030_01_i_P4.jpg"
     },
     {
-        "title": "수원 출신 리브 ‘금의환향’…리센느, 이번엔 ‘홍보어사’ 됐다 - 경기일보",
-        "source": "경기일보",
+        "title": "[사진]리센느, 다같이 세상 깜찍 - 조선비즈 - Chosunbiz",
+        "source": "Chosunbiz",
+        "date": "2026-09-06",
+        "url": "https://biz.chosun.com/entertainment/entertainment_photo/2026/09/06/GQYDCNDEG4ZTAZJYGJSWGZBTGI/",
+        "summary": "사진리센느, 다같이 세상 깜찍",
+        "image": "https://biz.chosun.com/resizer/v2/MQ4WKYZRMEZWIY3BHAYDCNRWME.jpg?auth=6a50abe56bde7e35fcc406889012262be9a602b5339c08f4e73114346a61bcb7&width=650&height=341&smart=true"
+    },
+    {
+        "title": "수원 출신 리브 ‘금의환향’…리센느, 이번엔 ‘홍보어사’ 됐다 - kyeonggi.com",
+        "source": "kyeonggi.com",
         "date": "2026-09-05",
         "url": "https://www.kyeonggi.com/article/20260905580072",
         "summary": "수원특례시 홍보대사로 활동 중인 걸그룹 리센느(RESCENE)가 제63회 수원화성문화제를 앞두고 ‘수원시 홍보어사’로 위촉됐다. 수원시는 지난달 29일 수원전통문화관에서 위촉식을 열고 리센느를 홍보어사로 위촉했다고 5일 밝혔다. 시는 오는 10월4~11일 열리는 제63",
-        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/09/05/.cache/512/20260905580073.jpg?v=20260917201822"
+        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/09/05/.cache/512/20260905580073.jpg?v=20260918013517"
     },
     {
         "title": "[분석] 기업들은 왜 리센느에 돈을 쓰나 - 데이터솜",
