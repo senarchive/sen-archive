@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T13:24:04.213Z",
+  "updatedAt": "2026-09-18T17:30:18.149Z",
   "platforms": [
     "melon",
     "genie",
@@ -16,12 +16,12 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/115/75/849/11575849_20240826152240_500.jpg?da43be78cb2cc67e9ee423c739bc09b6/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 2,
-          "previousRank": 2
+          "rank": 1,
+          "previousRank": 1
         },
         "genie": {
-          "rank": 2,
-          "previousRank": 2
+          "rank": 17,
+          "previousRank": 16
         },
         "vibe": {
           "rank": 2,
@@ -29,7 +29,7 @@
         },
         "bugs": {
           "rank": 3,
-          "previousRank": 3
+          "previousRank": 4
         },
         "flo": {
           "rank": 2,
@@ -42,41 +42,6 @@
         "spotify": {
           "rank": 3,
           "previousRank": 2
-        }
-      }
-    },
-    {
-      "songName": "Pretty Girl",
-      "artistName": "RESCENE (리센느)",
-      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/137/88/545/13788545_20260707111659_500.jpg?3ef0f9e6af1ea09e3f919c7cb69065ed/melon/resize/144/optimize/90",
-      "ranks": {
-        "melon": {
-          "rank": 6,
-          "previousRank": 6
-        },
-        "genie": {
-          "rank": 8,
-          "previousRank": 8
-        },
-        "vibe": {
-          "rank": 8,
-          "previousRank": 8
-        },
-        "bugs": {
-          "rank": 22,
-          "previousRank": 19
-        },
-        "flo": {
-          "rank": 10,
-          "previousRank": 10
-        },
-        "youtube_music": {
-          "rank": 7,
-          "previousRank": 6
-        },
-        "spotify": {
-          "rank": 10,
-          "previousRank": 10
         }
       }
     },
@@ -86,20 +51,20 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/118/75/116/11875116_20250701165641_500.jpg?86da3088c776a346e926b1b4052f227c/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 7,
-          "previousRank": 7
+          "rank": 6,
+          "previousRank": 6
         },
         "genie": {
-          "rank": 14,
-          "previousRank": 12
+          "rank": 25,
+          "previousRank": 26
         },
         "vibe": {
           "rank": 20,
           "previousRank": 21
         },
         "bugs": {
-          "rank": 11,
-          "previousRank": 11
+          "rank": 14,
+          "previousRank": 16
         },
         "flo": {
           "rank": 7,
@@ -116,21 +81,56 @@
       }
     },
     {
+      "songName": "Pretty Girl",
+      "artistName": "RESCENE (리센느)",
+      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/137/88/545/13788545_20260707111659_500.jpg?3ef0f9e6af1ea09e3f919c7cb69065ed/melon/resize/144/optimize/90",
+      "ranks": {
+        "melon": {
+          "rank": 7,
+          "previousRank": 7
+        },
+        "genie": {
+          "rank": 22,
+          "previousRank": 25
+        },
+        "vibe": {
+          "rank": 8,
+          "previousRank": 8
+        },
+        "bugs": {
+          "rank": 21,
+          "previousRank": 25
+        },
+        "flo": {
+          "rank": 11,
+          "previousRank": 10
+        },
+        "youtube_music": {
+          "rank": 7,
+          "previousRank": 6
+        },
+        "spotify": {
+          "rank": 10,
+          "previousRank": 10
+        }
+      }
+    },
+    {
       "songName": "Runaway",
       "artistName": "RESCENE (리센느)",
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/133/12/413/13312413_20260406143448_500.jpg?0d1b1aec895dbf60aa601748ddf64dd9/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 63,
-          "previousRank": 61
+          "rank": 68,
+          "previousRank": 68
         },
         "bugs": {
-          "rank": 30,
-          "previousRank": 86
+          "rank": 39,
+          "previousRank": 41
         },
         "flo": {
           "rank": 86,
-          "previousRank": 82
+          "previousRank": 86
         },
         "youtube_music": {
           "rank": 54,
@@ -149,11 +149,11 @@
       "ranks": {
         "bugs": {
           "rank": 27,
-          "previousRank": 52
+          "previousRank": 33
         },
         "flo": {
           "rank": 57,
-          "previousRank": 58
+          "previousRank": 56
         },
         "youtube_music": {
           "rank": 28,
