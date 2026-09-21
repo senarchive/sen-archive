@@ -1,6 +1,166 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-09-20T20:33:26.635Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-09-21T04:10:04.162Z) */
 
 const NEWS_DATA = [
+    {
+        "title": "\"여자판 '무한도전'이냐고\"…리센느, 트로트까지 650만 '대박', 종잡을 수 없는 콘셉트 변신 [엑's 이슈] - xportsnews.com",
+        "source": "xportsnews.com",
+        "date": "2026-09-21",
+        "url": "https://www.xportsnews.com/article/2198024",
+        "summary": "(엑스포츠뉴스 이예진 기자) 사투리부터 갸루, '10년 후 미래'에 이어 이번엔 트로트다. 매번 예상을 벗어나는 리센느(RESCENE)의 콘텐츠가 뜨거운 반응을 얻으며 '아이돌판 무한도전'이라는 말까지 나오고 있다.최근 유튜브 채널 '안녕하세요원이입니다잘부탁드립니다'(이하 '안원잘부')",
+        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/0921/1789952651599447.webp"
+    },
+    {
+        "title": "CU, '리센느 빵' 출시 나흘 만에 10만개 판매 - 연합뉴스",
+        "source": "연합뉴스",
+        "date": "2026-09-21",
+        "url": "https://www.yna.co.kr/view/AKR20260921039400030",
+        "summary": "(서울=연합뉴스) 정수연 기자 = 편의점 CU가 걸그룹 리센느와 협업한 베이커리 상품이 출시 나흘 만에 약 10만개가 팔렸다.",
+        "image": "https://img1.yna.co.kr/etc/inner/KR/2026/09/21/AKR20260921039400030_01_i_P4.jpg"
+    },
+    {
+        "title": "MMA2026, 최예나·아일릿·리센느·하츠투하츠 출연 - 아시아경제",
+        "source": "아시아경제",
+        "date": "2026-09-21",
+        "url": "https://www.asiae.co.kr/article/2026092111051078608",
+        "summary": "가수 최예나와 그룹 아일릿, 리센느, 하츠투하츠가 '2026 멜론뮤직어워드(MMA2026)' 무대에 오른다고 카카오엔터테인먼트 음악 플랫폼 멜론이 21일 밝혔다.",
+        "image": "https://cphoto.asiae.co.kr/listimglink/1/2026092111001136253_1789956010.png"
+    },
+    {
+        "title": "‘MMA 2026’, 아일릿-하츠투하츠→리센느-최예나까지…2차 라인업 합류 - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-09-21",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16203768",
+        "summary": "공개된 ‘MMA 2026’ 2차 라인업에는 그룹 아일릿(ILLIT), 하츠투하츠(Hearts2Hearts), 리센느(RESCENE), 가수 최예나(YENA)가 합류했다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202609/16203768_2032332_149_crop.jpg"
+    },
+    {
+        "title": "‘역주행→정주행’ 리센느, 2주 연속 ‘K탑스타’ 정상 - 매일경제",
+        "source": "매일경제",
+        "date": "2026-09-21",
+        "url": "https://www.mk.co.kr/news/entertain/12157983",
+        "summary": "그룹 리센느가 2주 ‘K탑스타’ 1위 자리에 올랐다. K-POP의 현 상황을 알려주는 글로벌 K팝 투표사이트 ‘K탑스타’(KTOPSTAR)에 따르면 9월 14일부터 9월 20일까지 집계된 115회차 ‘최고의 루키(여)’ 부문에서 리센느가 1위에 등극했다. ‘대세 걸그룹’으로 급부상한 리",
+        "image": "https://pimg.mk.co.kr/news/cms/202609/21/news-p.v1.20260921.4b3a6804428a4a58bd35db7028809091_R.png"
+    },
+    {
+        "title": "‘역주행 1위’ 리센느부터 최예나·아일릿까지…‘MMA2026’ 달군다 - 메디컬투데이",
+        "source": "메디컬투데이",
+        "date": "2026-09-21",
+        "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=615079",
+        "summary": "[mdtoday = 이가을 기자] 올해 음원 차트를 뜨겁게 달군 얼굴들이 고척돔으로 향한다. 솔로로 꾸준히 존재감을 보여준 최예나부터 상위권을 장악한 아일릿, 2",
+        "image": "https://cdn.mdtoday.co.kr/news/photo/202609/615079_320314_2421.jpg"
+    },
+    {
+        "title": "MMA2026, 예나·아일릿·리센느·하츠투하츠 뜬다! - starnewskorea.com",
+        "source": "starnewskorea.com",
+        "date": "2026-09-21",
+        "url": "https://www.starnewskorea.com/music/2026/09/21/2026092110362312595",
+        "summary": "K팝 최대 규모의 음악 시상식 겸 페스티벌 멜론뮤직어워드에 가수 예나, 그룹 아일릿, 리센느, 하츠투하츠가 뜬다. 카카오엔터테인먼트의 뮤직플랫폼 멜론(Melon)은 오는 11월 14일, 15일 서울 고척스카이돔에서 카카오뱅크 타이틀 스폰서로 열리는 'The 18th Melon Music",
+        "image": "https://image.starnewskorea.com/21/2026/09/2026092110362312595_1.jpg"
+    },
+    {
+        "title": "리센느 제나 트로트 메들리 655만뷰…장윤정 ‘러브 어택’ 춤으로 화답 - 창업일보",
+        "source": "창업일보",
+        "date": "2026-09-21",
+        "url": "https://www.news33.net/news/articleView.html?idxno=118110",
+        "summary": "리센느 제나의 트로트 메들리 영상이 공개 나흘 만에 650만 조회수를 넘어섰다. 장윤정은 ‘어머나’와 ‘초혼’을 부른 제나에게 댓글을 남긴 뒤 리센느 ‘LOVE ATTACK’ 안무 영상으로 화답했다.그룹 리센느(RESCENE) 멤버 제나가 부른 트로트 메들리 영상이 공개 사흘 만에 조회",
+        "image": "https://cdn.news33.net/news/thumbnail/202609/118110_83843_830_v150.jpg"
+    },
+    {
+        "title": "리센느 원이 1위, 9월 걸그룹 개인 브랜드평판 정상..2위 장원영·3위 카리나 - 브레이크뉴스",
+        "source": "브레이크뉴스",
+        "date": "2026-09-21",
+        "url": "http://breaknews.com/1238090",
+        "summary": "리센느 원이 © 뉴시스브레이크뉴스 박동제 기자= 리센느 원이가 9월 걸그룹 개인 브랜드평판 1위를 차지했다. 리센느 원이에 이어 2위는 아이브 장원영",
+        "image": "https://www.breaknews.com/imgdata/breaknews_com/202609/2026092106296211.jpg"
+    },
+    {
+        "title": "리센느 제나, 트로트 메들리 650만 조회 수-장윤정 '덩실덩실' - 미디어파인",
+        "source": "미디어파인",
+        "date": "2026-09-21",
+        "url": "https://www.mediafine.co.kr/news/articleView.html?idxno=90390",
+        "summary": "걸그룹 리센느(RESCENE) 멤버 제나의 트로트 메들리가 예상 밖의 흥행을 거두며 온라인을 뜨겁게 달구고 있다. 아이돌 멤버가 선배 트로트 가",
+        "image": "https://cdn.mediafine.co.kr/news/photo/202609/90390_128871_2938.png"
+    },
+    {
+        "title": "[가요소식] MMA 2026에 리센느·아일릿·하츠투하츠 출연 - 연합뉴스",
+        "source": "연합뉴스",
+        "date": "2026-09-21",
+        "url": "https://www.yna.co.kr/view/AKR20260921044600005",
+        "summary": "(서울=연합뉴스) 이태수 기자 = ▲ MMA 2026 2차 라인업 공개 = '차트 역주행' 신드롬을 일으킨 걸그룹 리센느를 비롯해 최예나, 아일...",
+        "image": "https://img9.yna.co.kr/etc/inner/KR/2026/09/21/AKR20260921044600005_01_i_P4.jpg"
+    },
+    {
+        "title": "[숏클립] 너무 예뻐서 감탄만… 리센느 레드카펫(2026 더팩트 뮤직 어워즈) - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-09-21",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16203762",
+        "summary": "9월 19일 오후 부산광역시 아시아드주경기장에서 ‘2026 더팩트 뮤직 어워즈(2026 The Fact Music Awards, TMA)’ 레드카펫이 열렸다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202609/16203762_2032291_3633_crop.jpg"
+    },
+    {
+        "title": "'플레이브·라이즈→리센느·아일릿' MMA2026, 1·2차 라인업 오픈 - 뉴스컬처",
+        "source": "뉴스컬처",
+        "date": "2026-09-21",
+        "url": "https://www.nc.press/news/articleView.html?idxno=626942",
+        "summary": "[뉴스컬처 박동선 기자] 그룹 플레이브, 라이즈부터 최예나, 아일릿 등 올 한 해 멜론차트를 휩쓴 글로벌 대세 아티스트들이 K팝 최대 규모의 음악 축제 'MMA2",
+        "image": "https://cdn.nc.press/news/photo/202609/626942_860832_455.png"
+    },
+    {
+        "title": "'믿듣' 최예나·아일릿·리센느·하투하, 'MMA2026' 출격 - 조이뉴스24",
+        "source": "조이뉴스24",
+        "date": "2026-09-21",
+        "url": "https://www.joynews24.com/view/2007743",
+        "summary": "가수 최예나, 그룹 아일릿 리센느 하츠투하츠가 멜론뮤직어워드에 출격한다. 멜론은 11월 14일과 15일 서울 고척스카이돔에서 열리는 'MMA2026'의 두 번째 라인업으로 최예나, 아일릿, 리센느, 하츠투하츠를 발표했다. 최예나는 미니앨범 'LOVE CATCHER' 타이틀곡 '캐치 캐치",
+        "image": "https://image.inews24.com/v1/65ce91d12902b5.jpg"
+    },
+    {
+        "title": "[포토] 사나, 리센느 미나미 최애 - iMBC 연예",
+        "source": "iMBC 연예",
+        "date": "2026-09-21",
+        "url": "https://enews.imbc.com/News/RetrieveNewsInfo/518866",
+        "summary": "트와이스(TWICE) 사나가 21일 오전 해외 일정 참석 차 인천국제공항 제2여객터미널을 통해 이탈리아 밀라노로 출국하고 있다. 이날 사나는 포니테일 헤어 스타일의 브라운 롱 헤어, 하늘색 셔츠에 블랙 니트, 짧은 그레이 미니 치마에 그레이 삭스와 가죽 부츠, 백팩과 미니멀 액세서리 등",
+        "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/09/21/3339ae6c-8701-49f5-bd86-9f29c5dad1ea.jpg"
+    },
+    {
+        "title": "리센느 미나미, ‘쏘맥’ 마시고 만취…“인간적인 모습 좋아요” - sportsseoul.com",
+        "source": "sportsseoul.com",
+        "date": "2026-09-21",
+        "url": "https://www.sportsseoul.com/news/read/1636678",
+        "summary": "[스포츠서울 | 김도형 기자] 리센느 미나미가 술에 취해 잠든 모습이 포착돼 팬들의 시선을 집중시켰다. 지난 20일 각종 SNS를 중심으로 리센느 멤버들이 부산의 한 갈빗집에서 회식하는 모습이 담긴 사진이 공개돼 화제를 모았다. 사진 속 리센느 멤버들은 소속사 직원들로 추정되는 사람",
+        "image": "https://file.sportsseoul.com/news/cms/2026/09/21/news-p.v1.20260921.6ed3e5e9ed524e6e89df8d9326d949c7_T1.png"
+    },
+    {
+        "title": "MMA 2026, 리센느 등 2차 라인업...사상 첫 양일 개최 : 연예 - 재경일보",
+        "source": "재경일보",
+        "date": "2026-09-21",
+        "url": "https://news.jkn.co.kr/post/991662",
+        "summary": "올해 처음으로 양일간 펼쳐지는 MMA 2026(멜론뮤직어워드)이 리센느, 최예나, 아일릿, 하츠투하츠 등 2차 라인업을 공개했다. 11월 14일과 15일 고척스카이돔에서 개최되는 이번 행사는 전 세계 K팝 팬들이 함께 즐기는 축제의 장을 목표로 한다.",
+        "image": "https://images.jkn.co.kr/data/images/full/105/53/1055366.jpg?width=1200&height=630"
+    },
+    {
+        "title": "\"47살 공격받아라\" 장윤정, 리센느 제나에 '러브 어택' 춤으로 화답 - starnewskorea.com",
+        "source": "starnewskorea.com",
+        "date": "2026-09-20",
+        "url": "https://www.starnewskorea.com/star/2026/09/20/2026092022273225615",
+        "summary": "트로트 가수 장윤정이 그룹 리센느 제나의 노래에 대한 화답을 춤으로 전했다. 장윤정은 20일 자신의 SNS에 \"골프 연습 왔다가 제나 노래에 답하라는 말씀들이 많아서 '러브 어택(LOVE ATTACK)' 연습만 하다 감. 이제나~~저제나~~할까 봐, 47살 공격받아라\"라며 \"리마인님들 ",
+        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=918,fit=cover,q=high,sharpen=2/21/2026/09/2026092022273225615_1.jpg"
+    },
+    {
+        "title": "장윤정, 리센느 제나 샤라웃…\"자네 트로트 할 생각 있나?\" - 마이데일리",
+        "source": "마이데일리",
+        "date": "2026-09-20",
+        "url": "https://mydaily.co.kr/page/view/2026092020261743201",
+        "summary": "장윤정 / 소셜미디어...",
+        "image": "https://mydaily.co.kr/photos/2026/09/20/2026092020330701274_l.jpg"
+    },
+    {
+        "title": "아일릿·리센느·하츠투하츠·최예나, 'MMA2026' 2차 라인업 공개 - 싱글리스트",
+        "source": "싱글리스트",
+        "date": "2026-09-20",
+        "url": "https://www.slist.kr/news/articleView.html?idxno=767680",
+        "summary": "멜론뮤직어워드 MMA2026 두 번째 라인업에 최예나(YENA), 아일릿(ILLIT), 리센느(RESCENE), 하츠투하츠(Hearts2Hearts)가 합류한다.카카오엔터테인먼트의 뮤직플랫폼 멜론은 오는 11월 14~15일 서울 고척스카이돔에서 열리는 ‘The 18th Melon Mus",
+        "image": "https://cdn.slist.kr/news/thumbnail/202609/767680_1174982_3243_v150.jpg"
+    },
     {
         "title": "유영우, 리센느 원이·이선민에 51만원 한우 선물 - 뉴시스",
         "source": "뉴시스",
@@ -34,84 +194,20 @@ const NEWS_DATA = [
         "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/09/20/134702676.1.jpg"
     },
     {
-        "title": "장윤정, 리센느 제나에 ‘러브어택’ 춤으로 화답..“47살 공격을 받아라” - 조선비즈 - Chosunbiz",
-        "source": "Chosunbiz",
+        "title": "인'스타'그램 세상|예나·아일릿·리센느·하츠투하츠, MMA2026 2차 라인업 합류 - ZUM 뉴스",
+        "source": "ZUM 뉴스",
         "date": "2026-09-20",
-        "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/20/MZTGKMRZMQ2DOMDCGMZGMMZQGM/",
-        "summary": "장윤정, 리센느 제나에 러브어택 춤으로 화답..47살 공격을 받아라",
-        "image": "https://biz.chosun.com/resizer/v2/HE3TENJUMFTGCMRSG42GKMDGMY.jpg?auth=b45add3c364b3c9bcbaea7a0a3ddaa6a189df16707f1c8df83db6ed02de7875c&width=650&height=341&smart=true"
+        "url": "https://m.news.zum.com/photo/58287739/107863163?cm=news_edit&r=1&thumb=1",
+        "summary": "올해 멜론 차트 상위권 오른 여성 아티스트 4팀 출연 11월 14∼15일 고척스카이돔서 첫 이틀간 개최 가수 YENA(최예나)와 그룹 아일릿, 리센느, 하츠투하츠가 ‘2026 멜론뮤직어워드’ 무대에 오른다. 카카오엔터테인먼트의 음악 플랫폼 멜론은 11월 14일부터 15일까지 서울 고척스",
+        "image": "https://newszum.zumst.com/news/이투데이/2026/09/21/20260921084930_2391012_1199_736.png"
     },
     {
-        "title": "리센느, ‘2026 더팩트 뮤직 어워즈’ 수상 쾌거 - bntnews.co.kr",
-        "source": "bntnews.co.kr",
+        "title": "'모친 구속' 장윤정, 리센느도 놀랄 댄스 커버…♥도경완 \"활기차게 지내네\" - ZUM 뉴스",
+        "source": "ZUM 뉴스",
         "date": "2026-09-20",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202609200028",
-        "summary": "‘국민 걸그룹’ 리센느(RESCENE)가 ‘2026 더팩트 뮤직 어워즈’에서 2관왕에 오르며 상승세를 이어갔다.리센느(원이, 리브, 미나미, 메이, 제",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/20/bnt202609200070.jpg"
-    },
-    {
-        "title": "CU 리센느 빵 난리 난 이유가 이거였네…포토카드 27종, 전부 모으려면 몇 개 사야 할까? - 네이버 프리미엄콘텐츠",
-        "source": "네이버 프리미엄콘텐츠",
-        "date": "2026-09-20",
-        "url": "https://contents.premium.naver.com/firstnews/9firstnews9/contents/260919202206358kn",
-        "summary": "처음에는 그냥 아이돌 컬래버 빵 하나가 새로 나온 줄 알았습니다. 그런데 이번 CU 리센느(RESCENE) 빵에서 사람들이 빵보다 더 많이 이야기하는 게 있습니다. 바로 포토카드입니다. 특히 포토카드가 총 27종으로 알려지면서 단순히 신제품 빵을 한 번 먹어보는 수준이",
-        "image": "https://scs-phinf.pstatic.net/MjAyNjA5MTlfNDcg/MDAxNzg5ODE2ODk0NjQ1.ExsT2T3wD84DsECOtU_7S3hW3blpZDgLVhvqDoOnYIsg.u7fI8JHmShJkGGWWzmPyfSbo3ZJDlUn9lNAzlgNNyB8g.PNG/image%7Cpremium%7Cthumbnail%7Cfirstnews_9firstnews9%7C2026%7C09%7C19%7C1789816894540.png?type=w800"
-    },
-    {
-        "title": "\"47살 공격받아라\" 장윤정, 리센느 제나에 '러브 어택' 춤으로 화답 - starnewskorea.com",
-        "source": "starnewskorea.com",
-        "date": "2026-09-20",
-        "url": "https://www.starnewskorea.com/star/2026/09/20/2026092022273225615",
-        "summary": "트로트 가수 장윤정이 그룹 리센느 제나의 노래에 대한 화답을 춤으로 전했다. 장윤정은 20일 자신의 SNS에 \"골프 연습 왔다가 제나 노래에 답하라는 말씀들이 많아서 '러브 어택(LOVE ATTACK)' 연습만 하다 감. 이제나~~저제나~~할까 봐, 47살 공격받아라\"라며 \"리마인님들 ",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=918,fit=cover,q=high,sharpen=2/21/2026/09/2026092022273225615_1.jpg"
-    },
-    {
-        "title": "리센느 원이, 9월 걸그룹 개인 브랜드평판 1위! - 아시아뉴스통신",
-        "source": "아시아뉴스통신",
-        "date": "2026-09-20",
-        "url": "https://m.anewsa.com/article_sub3.php?number=3200793&type=&mobile=",
-        "summary": "(사진출처=리센느 공식 인스타그램) [아시아뉴스통신=이상진 기자] 걸그룹 개인 브랜드평판 2026년 9월 빅데이터 분석결과, 1위 리센느 원이 2위 아이브 장원영 3위 에스파 카리나 순으로 분석되었다.​한국기업평판연구소는 걸그룹 개인 브랜드평판 2026년 9월 빅데이터 분석을 위해 20",
-        "image": "https://www.anewsa.com/news_images/2026/08/21/mark/20260821114130.jpg"
-    },
-    {
-        "title": "[영상] 리센느(RESCENE), 지금은 리센느의 시대 - CBC뉴스",
-        "source": "CBC뉴스",
-        "date": "2026-09-20",
-        "url": "https://www.cbci.co.kr/news/articleView.html?idxno=608439",
-        "summary": "[CBC뉴스] 2026 더팩트 뮤직 어워즈(THE FACT MUSIC AWARDS)가 19일 저녁 부산 연제구 거제동에 위치한 부산아시아드주경기장에서 진행됐다.걸그룹 리센느(RESCENE)가 참석해 포토타임을 가졌다.#리센느 #RESCENE #원이 #리브 #미나미 #메이 #제나 #직캠 ",
-        "image": "https://www.cbci.co.kr/news/thumbnail/202609/608439_417620_520_v150.jpg"
-    },
-    {
-        "title": "‘짠돌이’ 유영우, 하루 1만원도 안 쓰는데…리센느 원이 위해 지갑 열었다 (전참시) - mksports.co.kr",
-        "source": "mksports.co.kr",
-        "date": "2026-09-20",
-        "url": "https://www.mksports.co.kr/news/entertainment/12157637",
-        "summary": "",
-        "image": "https://wimg.mk.co.kr/news/cms/202609/20/news-p.v1.20260920.c2086a4f0aa94aecb2d71e37a9426b3e_P1.jpg"
-    },
-    {
-        "title": "리센느, TMA 2관왕 쾌거…올해의 아티스트→현장 관객 선택 받았다 - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-09-20",
-        "url": "https://v.daum.net/v/20260920171239296",
-        "summary": "[마이데일리 = 김하영 기자] 그룹 리센느(RESCENE)가 끝도 없는 상승 곡선을 그리고 있다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 19일 부산아시아드주경기장에서 열린 '2026 더팩트 뮤직 어워즈'(2026 THE FACT MUSIC AWARDS, TMA)에 참석해 ",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/20/mydaily/20260920171245292byxa.jpg"
-    },
-    {
-        "title": "'요즘 대세'는 리센느 원이 삼촌들..이선민 이어 유영우 '빵' 떴다 - starnewskorea.com",
-        "source": "starnewskorea.com",
-        "date": "2026-09-20",
-        "url": "https://www.starnewskorea.com/star/2026/09/20/2026092014244313270",
-        "summary": "코미디언 유영우가 '전지적 참견 시점'에서 '대세'다운 마성의 매력을 발산했다. 19일 방송된 MBC '전지적 참견 시점'(이하 '전참시') 416회에서는 '요즘 대세' 유영우의 일상이 공개됐다. 이날 '전참시' 티셔츠를 입고 스튜디오를 찾은 유영우는 엠씨더맥스(M.C the MAX)의",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=659,fit=cover,q=high,sharpen=2/21/2026/09/2026092014244313270_1.jpg"
-    },
-    {
-        "title": "유영우, 리센느 원이에 통 큰 한우 플렉스 (전참시) - iMBC 연예",
-        "source": "iMBC 연예",
-        "date": "2026-09-20",
-        "url": "https://enews.imbc.com/News/RetrieveNewsInfo/518836",
-        "summary": "코미디언 유영우가 '라디오스타'에 이어 '전참시'까지 접수했다. 19일 방송된 MBC '전지적 참견 시점' 416회에서는 유영우가 '전지적 참견 시점' 티셔츠를 입고 등장, 엠씨더맥스(M.C the MAX)의 '어디에도'를 시작으로 다양한 곡을 연이어 열창하며 시작부터 폭발적인 가창력을",
-        "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/09/20/e278673f-79c1-4803-87df-f99d7975fc02.jpg"
+        "url": "https://m.news.zum.com/photo/58287739/107862042?cm=news_edit&r=1&thumb=1",
+        "summary": "트로트 가수 장윤정이 춤 실력을 뽐내고 있다. / 사진=장윤정 SNS 트로트 가수 장윤정이 숨겨뒀던 춤 실력을 뽐냈다. 장윤정은 지난 20일 자신의 인스타그램에",
+        "image": "https://newszum.zumst.com/news/텐아시아/2026/09/21/BF.45766484.1.jpg"
     },
     {
         "title": "장윤정, 리센느 제나에 ‘러브어택’ 춤으로 화답..“47살 공격을 받아라” - v.daum.net",
@@ -122,12 +218,92 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/20/poctan/20260920220951312qskt.jpg"
     },
     {
-        "title": "‘역주행 퀸’ 리센느의 진짜 시험대… 11월 3일 오리지널 신곡 컴백 - v.daum.net",
+        "title": "리센느가 상위권 휩쓸었다…9월 걸그룹 평판 1위 원이 - 핀포인트뉴스",
+        "source": "핀포인트뉴스",
+        "date": "2026-09-20",
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=488862",
+        "summary": "리센느 원이가 장원영과 카리나, 제니 등을 제치고 9월 걸그룹 개인 브랜드평판 1위에 올랐다. 리센느는 원이에 이어 제나, 미나미, 메이, 리브까지 30위 안에 5명을 진입시키며 상위권에서 존재감을 드러냈다.한국기업평판연구소는 21일 2026년 9월 걸그룹 개인 브랜드평판 분석 결과를 ",
+        "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202609/488862_474884_4016_v150.jpg"
+    },
+    {
+        "title": "리센느, TMA 2관왕 쾌거…올해의 아티스트→현장 관객 선택 받았다 - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-09-20",
-        "url": "https://v.daum.net/v/20260920120437356",
-        "summary": "사진제공│더뮤즈엔터테인먼트 [스포츠동아 곽현수 기자] 연이은 메가 히트로 가요계 판도를 흔든 ‘대세 걸그룹’ 리센느가 11월 3일 새 앨범을 발표하고 컴백한다. ‘러브 어택’의 신드롬급 역주행과 ‘프리티 걸’ 리메이크 열풍으로 대중성을 입증한 이들이 마침내 자신들만의 오리지널 신곡으로 ",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/20/sportsdonga/20260920120438607vcgn.jpg"
+        "url": "https://v.daum.net/v/20260920171239296",
+        "summary": "[마이데일리 = 김하영 기자] 그룹 리센느(RESCENE)가 끝도 없는 상승 곡선을 그리고 있다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 19일 부산아시아드주경기장에서 열린 '2026 더팩트 뮤직 어워즈'(2026 THE FACT MUSIC AWARDS, TMA)에 참석해 ",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/20/mydaily/20260920171245292byxa.jpg"
+    },
+    {
+        "title": "리센느, ‘2026 더팩트 뮤직 어워즈’ 수상 쾌거 - bntnews.co.kr",
+        "source": "bntnews.co.kr",
+        "date": "2026-09-20",
+        "url": "https://www.bntnews.co.kr/article/view/bnt202609200028",
+        "summary": "‘국민 걸그룹’ 리센느(RESCENE)가 ‘2026 더팩트 뮤직 어워즈’에서 2관왕에 오르며 상승세를 이어갔다.리센느(원이, 리브, 미나미, 메이, 제",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/20/bnt202609200070.jpg"
+    },
+    {
+        "title": "\"47살 공격받아라\" 장윤정, 리센느 제나에 '러브 어택' 춤으로 화답 - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-20",
+        "url": "https://v.daum.net/v/20260920235109372",
+        "summary": "[스타뉴스 | 허지형 기자] /사진=장윤정 SNS트로트 가수 장윤정이 그룹 리센느 제나의 노래에 대한 화답을 춤으로 전했다. 장윤정은 20일 자신의 SNS에 \"골프 연습 왔다가 제나 노래에 답하라는 말씀들이 많아서 '러브 어택(LOVE ATTACK)' 연습만 하다 감. 이제나~~저제나~",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/20/starnews/20260920235111589vati.jpg"
+    },
+    {
+        "title": "CU 리센느 빵 난리 난 이유가 이거였네…포토카드 27종, 전부 모으려면 몇 개 사야 할까? - 네이버 프리미엄콘텐츠",
+        "source": "네이버 프리미엄콘텐츠",
+        "date": "2026-09-20",
+        "url": "https://contents.premium.naver.com/firstnews/9firstnews9/contents/260919202206358kn",
+        "summary": "처음에는 그냥 아이돌 컬래버 빵 하나가 새로 나온 줄 알았습니다. 그런데 이번 CU 리센느(RESCENE) 빵에서 사람들이 빵보다 더 많이 이야기하는 게 있습니다. 바로 포토카드입니다. 특히 포토카드가 총 27종으로 알려지면서 단순히 신제품 빵을 한 번 먹어보는 수준이",
+        "image": "https://scs-phinf.pstatic.net/MjAyNjA5MTlfNDcg/MDAxNzg5ODE2ODk0NjQ1.ExsT2T3wD84DsECOtU_7S3hW3blpZDgLVhvqDoOnYIsg.u7fI8JHmShJkGGWWzmPyfSbo3ZJDlUn9lNAzlgNNyB8g.PNG/image%7Cpremium%7Cthumbnail%7Cfirstnews_9firstnews9%7C2026%7C09%7C19%7C1789816894540.png?type=w800"
+    },
+    {
+        "title": "'모친 구속' 장윤정, 리센느도 놀랄 댄스 커버…♥도경완 \"활기차게 지내네\" - 텐아시아",
+        "source": "텐아시아",
+        "date": "2026-09-20",
+        "url": "https://www.tenasia.co.kr/article/2026092167084",
+        "summary": "트로트 가수 장윤정이 숨겨뒀던 춤 실력을 뽐냈다. 장윤정은 지난 20일 자신의 인스타그램에 골프 연습하러 왔다가 제나 노래에 답하라는 말씀들이 많아서라는 문구와 함께 하나의 영상을 게재했다. 공개된 영상 속에는 장윤정이 실내 스크린 골프장에서 그룹 리센느의 'LOVE ...",
+        "image": "https://img.tenasia.co.kr/photo/202609/BF.45766484.1.jpg"
+    },
+    {
+        "title": "예나·아일릿·리센느·하츠투하츠, MMA2026 2차 라인업 합류 - 이투데이",
+        "source": "이투데이",
+        "date": "2026-09-20",
+        "url": "https://www.etoday.co.kr/news/view/2627749?trc=main_list_news",
+        "summary": "올해 멜론 차트 상위권 오른 여성 아티스트 4팀 출연11월 14∼15일 고척스카이돔서 첫 이틀간 개최(사진제공=카카오엔터테인먼트)가수 YENA(최예나)와",
+        "image": "https://img.etoday.co.kr/pto_db/2026/09/20260921084930_2391012_1199_736.png"
+    },
+    {
+        "title": "주간 아이돌 그룹 브랜드 평판 30차트 - dcnews.kr",
+        "source": "dcnews.kr",
+        "date": "2026-09-20",
+        "url": "https://www.dcnews.kr/news/articleView.html?idxno=2994",
+        "summary": "여의도 =특종김기자가간다 [김덕팔기자]한 주간의 아이돌 브랜드 평판 그룹차트 라인 업",
+        "image": "https://cdn.dcnews.kr/news/photo/202609/2994_7252_1933.jpg"
+    },
+    {
+        "title": "리센느 원이, 9월 걸그룹 개인 브랜드평판 1위! - 아시아뉴스통신",
+        "source": "아시아뉴스통신",
+        "date": "2026-09-20",
+        "url": "https://m.anewsa.com/article_sub3.php?number=3200793&type=&mobile=",
+        "summary": "(사진출처=리센느 공식 인스타그램) [아시아뉴스통신=이상진 기자] 걸그룹 개인 브랜드평판 2026년 9월 빅데이터 분석결과, 1위 리센느 원이 2위 아이브 장원영 3위 에스파 카리나 순으로 분석되었다.​한국기업평판연구소는 걸그룹 개인 브랜드평판 2026년 9월 빅데이터 분석을 위해 20",
+        "image": "https://www.anewsa.com/news_images/2026/08/21/mark/20260821114130.jpg"
+    },
+    {
+        "title": "유영우, 리센느 원이에 통 큰 한우 플렉스 (전참시) - iMBC 연예",
+        "source": "iMBC 연예",
+        "date": "2026-09-20",
+        "url": "https://enews.imbc.com/News/RetrieveNewsInfo/518836",
+        "summary": "코미디언 유영우가 '라디오스타'에 이어 '전참시'까지 접수했다. 19일 방송된 MBC '전지적 참견 시점' 416회에서는 유영우가 '전지적 참견 시점' 티셔츠를 입고 등장, 엠씨더맥스(M.C the MAX)의 '어디에도'를 시작으로 다양한 곡을 연이어 열창하며 시작부터 폭발적인 가창력을",
+        "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/09/20/e278673f-79c1-4803-87df-f99d7975fc02.jpg"
+    },
+    {
+        "title": "‘짠돌이’ 유영우, 하루 1만원도 안 쓰는데…리센느 원이 위해 지갑 열었다 (전참시) - m.mksports.co.kr",
+        "source": "m.mksports.co.kr",
+        "date": "2026-09-20",
+        "url": "https://www.mksports.co.kr/news/entertainment/12157637",
+        "summary": "",
+        "image": "https://wimg.mk.co.kr/news/cms/202609/20/news-p.v1.20260920.c2086a4f0aa94aecb2d71e37a9426b3e_P1.jpg"
     },
     {
         "title": "리센느, ‘2026 TMA’ 2관왕→11월 컴백… 상승세 이어간다 - mhnse.com",
@@ -138,12 +314,12 @@ const NEWS_DATA = [
         "image": "https://cdn.mhnse.com/mhnsports/2026/09/20105150/thumb_ccms_61439.jpg"
     },
     {
-        "title": "\"한끼 5천원 이하\" 유영우, 이선민·리센느 원이에 51만원 한우 플렉스…\"평생 은인\"('전참시') - v.daum.net",
-        "source": "v.daum.net",
+        "title": "'요즘 대세'는 리센느 원이 삼촌들..이선민 이어 유영우 '빵' 떴다 - starnewskorea.com",
+        "source": "starnewskorea.com",
         "date": "2026-09-20",
-        "url": "https://v.daum.net/v/20260920113244383",
-        "summary": "[스포티비뉴스=김현록 기자] MBC '전지적 참견 시점'에 포기하지 않고 자신의 길을 달린 끝에 마침내 전성기를 맞은 개그맨 유영우가 떴다. 가수 뺨치 개그맨으로 주목받고 있는 '짠영우' 유영우는 '평생 은인'이라는 이선민과 리센느 원이를 위해 거금을 들여 추석선물을 구입, 지켜보는 이",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/20/spotvnews/20260920113930124atnv.jpg"
+        "url": "https://www.starnewskorea.com/star/2026/09/20/2026092014244313270",
+        "summary": "코미디언 유영우가 '전지적 참견 시점'에서 '대세'다운 마성의 매력을 발산했다. 19일 방송된 MBC '전지적 참견 시점'(이하 '전참시') 416회에서는 '요즘 대세' 유영우의 일상이 공개됐다. 이날 '전참시' 티셔츠를 입고 스튜디오를 찾은 유영우는 엠씨더맥스(M.C the MAX)의",
+        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=659,fit=cover,q=high,sharpen=2/21/2026/09/2026092014244313270_1.jpg"
     },
     {
         "title": "리센느, “거제 야호” 밈 하나가 2년 된 노래 살렸다…광고 문의 100건 - 더퍼블릭",
@@ -154,12 +330,52 @@ const NEWS_DATA = [
         "image": "https://cdn.thepublic.kr/news/photo/202609/319351_322818_5213.jpg"
     },
     {
-        "title": "‘국민 걸그룹’ 리센느, ‘2026 TMA’ 2관왕…끝없는 상승세 - 일간스포츠",
-        "source": "일간스포츠",
+        "title": "‘역주행 퀸’ 리센느의 진짜 시험대… 11월 3일 오리지널 신곡 컴백 - v.daum.net",
+        "source": "v.daum.net",
         "date": "2026-09-20",
-        "url": "https://isplus.com/article/view/isp202609200052",
-        "summary": "‘국민 걸그룹’ 리센느가 끝없는 상승세를 보여주고 있다.리센느(원이, 리브, 미나미, 메이, 제나)는 지난 19일 부산아시아드주경기장에서 열린 ...",
-        "image": "https://isplus.com/data/isp/image/2026/09/20/isp20260920000112.800x.0.jpg"
+        "url": "https://v.daum.net/v/20260920120437356",
+        "summary": "사진제공│더뮤즈엔터테인먼트 [스포츠동아 곽현수 기자] 연이은 메가 히트로 가요계 판도를 흔든 ‘대세 걸그룹’ 리센느가 11월 3일 새 앨범을 발표하고 컴백한다. ‘러브 어택’의 신드롬급 역주행과 ‘프리티 걸’ 리메이크 열풍으로 대중성을 입증한 이들이 마침내 자신들만의 오리지널 신곡으로 ",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/20/sportsdonga/20260920120438607vcgn.jpg"
+    },
+    {
+        "title": "\"한끼 5천원 이하\" 유영우, 이선민·리센느 원이에 51만원 한우 플렉스…\"평생 은인\"('전참시') - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-20",
+        "url": "https://v.daum.net/v/20260920113244383",
+        "summary": "[스포티비뉴스=김현록 기자] MBC '전지적 참견 시점'에 포기하지 않고 자신의 길을 달린 끝에 마침내 전성기를 맞은 개그맨 유영우가 떴다. 가수 뺨치 개그맨으로 주목받고 있는 '짠영우' 유영우는 '평생 은인'이라는 이선민과 리센느 원이를 위해 거금을 들여 추석선물을 구입, 지켜보는 이",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/20/spotvnews/20260920113930124atnv.jpg"
+    },
+    {
+        "title": "리센느, '2026 TMA' 2관왕→11월 컴백… 상승세 이어간다 - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-20",
+        "url": "https://v.daum.net/v/20260920105154025",
+        "summary": "(MHN 김설 기자) 그룹 리센느가 ‘2026 더팩트 뮤직 어워즈’에서 2관왕을 수상했다. 리센느는 지난 19일 부산아시아드주경기장에서 열린 ‘2026 더팩트 뮤직 어워즈’(2026 THE FACT MUSIC AWARDS, TMA)에 참석했다. 이날 ‘올해의 아티스트’와 ‘투데이스 초이",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/20/HockeyNewsKorea/20260920105156532mdef.jpg"
+    },
+    {
+        "title": "'윤정이들' 케미 무슨 일…'고윤정 닮은꼴' 제나 '어머나' 부르자 장윤정 '러브어택'으로 화답 [★해시태그] - xportsnews.com",
+        "source": "xportsnews.com",
+        "date": "2026-09-20",
+        "url": "https://www.xportsnews.com/article/2197978",
+        "summary": "(엑스포츠뉴스 이예진 기자) 리센느 제나가 장윤정의 '어머나'를 부른 데 이어, 이번에는 장윤정이 리센느의 'LOVE ATTACK' 챌린지로 화답했다.20일 장윤정은 자신의 개인 계정에 \"골프 연습 왔다가 제나 노래에 답하라는 말씀들이 많아서 LOVE ATTACK 연습만 하다 감. 이제",
+        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/0921/1789946338076871.webp"
+    },
+    {
+        "title": "'살림남' 지상렬 \"내가 혈 뚫어 리센느 잘 된 것\" - supple.kr",
+        "source": "supple.kr",
+        "date": "2026-09-20",
+        "url": "https://supple.kr/news/cmu9va2po005icm1z3bmcbx7n",
+        "summary": "iMBC연예 · 연예 핵심 정리 · 19일 방송된 KBS 2TV '살림하는 남자들 시즌2'(이하 '살림남')에서는 영탁이 스페셜 게스트로 함께한 가운데 G.C 해머 지상렬의 컴백 준비와 박서진 가족이 파크 골프를 통해 새로운 추억을 쌓는 모습이 그려졌다. 특히 박...",
+        "image": "https://images.supple.kr/?url=https%3A%2F%2Ftalkimg.imbc.com%2FTVianUpload%2Ftvian%2FTViews%2Fimage%2F2026%2F09%2F20%2Fb33a0255-9735-4da0-954b-1c8383da033d.jpg"
+    },
+    {
+        "title": "‘650만 대박’ 리센느 제나 트롯에 장윤정도 반했다…“자네, 트로트 할 생각 있나?” - sportsseoul.com",
+        "source": "sportsseoul.com",
+        "date": "2026-09-20",
+        "url": "https://www.sportsseoul.com/news/read/1636571",
+        "summary": "[스포츠서울 | 김미영 기자] 걸그룹 리센느(RESCENE) 멤버 제나의 트로트 메들리 영상이 온라인을 뜨겁게 달구고 있다. 공개 나흘 만에 조회수 650만 회를 돌파하는 기염을 토한 가운데, 원곡자인 ‘트로트 여왕’ 장윤정까지 직접 러브콜을 보내 화제를 모으고 있다. 지난 18일",
+        "image": "https://file.sportsseoul.com/news/cms/2026/09/21/news-p.v1.20260921.a44995d6950e4339b4a5d619b49d8719_T1.png"
     },
     {
         "title": "리센느 원이 무섭다, 2달간 ‘걸그룹 브랜드 평판’ 1위 유지 중 - 뉴스엔",
@@ -167,54 +383,6 @@ const NEWS_DATA = [
         "date": "2026-09-20",
         "url": "https://m.newsen.com/news_view.php?uid=202609200901036710",
         "summary": ""
-    },
-    {
-        "title": "‘역주행 퀸’ 리센느, 11월 3일 오리지널 신곡으로 컴백 - 스페셜타임스",
-        "source": "스페셜타임스",
-        "date": "2026-09-20",
-        "url": "https://www.specialtimes.co.kr/news/articleView.html?idxno=465053",
-        "summary": "매체 보도에 따르면 걸그룹 리센느가 11월 3일 새 앨범을 발매하며 컴백을 확정했다. 지난 4월 디지털 싱글 ‘런어웨이’ 이후 7개월 만이자, 7월 ‘프리티 걸’ 리메이크 이후 4개월 만의 행보다. 이번 신곡은 팀 고유의 음악적 색깔을 공고히 하기 위한 승부수로, 리센느가 단순 라이징",
-        "image": "https://cdn.specialtimes.co.kr/news/thumbnail/202609/465053_459941_1332_v150.jpg"
-    },
-    {
-        "title": "대세 걸그룹 리센느 2026 TMA 2관왕 달성 오케스트라 무대로 부산 달궜다 - 지피코리아",
-        "source": "지피코리아",
-        "date": "2026-09-20",
-        "url": "https://www.gpkorea.com/news/articleView.html?idxno=146867",
-        "summary": "걸그룹 리센느(RESCENE)가 '2026 더팩트 뮤직 어워즈(TMA)'에서 2관왕을 차지하며 거침없는 상승세를 입증했다.리센느(원이, 리브, 미나미, 메이, 제나)는 지난 19일 부산아시아드주경기장에서 개최된 '2026 더팩트 뮤직 어워즈'에서 '올해의 아티스트'와 현장 투표로 결정된",
-        "image": "https://cdn.gpkorea.com/news/photo/202609/146867_312137_178.jpg"
-    },
-    {
-        "title": "독보적 대세 입증한 리센느 원이 장원영 카리나 꺾고 걸그룹 개인 브랜드평판 1위 - 지피코리아",
-        "source": "지피코리아",
-        "date": "2026-09-20",
-        "url": "https://www.gpkorea.com/news/articleView.html?idxno=146868",
-        "summary": "걸그룹 리센느(RESCENE)의 원이가 9월 걸그룹 개인 브랜드평판 1위에 오르며 파죽지세의 인기를 입증했다.한국기업평판연구소는 지난달 20일부터 이달 20일까지 걸그룹 개인 735명의 브랜드 빅데이터 1억 4736만여 개를 분석한 결과, 리센느 원이가 브랜드평판지수 810만 422를 ",
-        "image": "https://cdn.gpkorea.com/news/photo/202609/146868_312138_1811.jpg"
-    },
-    {
-        "title": "이서진, 모태 금수저라더니 \"돈이 인생의 전부, 돈 많이 벌어야 행복하다\"(비서진) - sportschosun.com",
-        "source": "sportschosun.com",
-        "date": "2026-09-20",
-        "url": "https://www.sportschosun.com/entertainment/2026-09-20/202609200100137910008984",
-        "summary": "'연예계 대표 금수저'로 알려진 배우 이서진이 대세 걸그룹 리센느를 향해 거침없는 현실 조언을 쏟아내며 '츤데레 매력'을 발산한다.",
-        "image": "https://www.sportschosun.com/article/html/2026/09/20/2026092001001379100089843_w.jpg"
-    },
-    {
-        "title": "'살림남' 지상렬 \"내가 혈 뚫어 리센느 잘 된 것\" - iMBC 연예",
-        "source": "iMBC 연예",
-        "date": "2026-09-20",
-        "url": "https://enews.imbc.com/News/RetrieveNewsInfo/518832",
-        "summary": "래퍼 'G.C 해머' 지상렬의 20년 만에 뮤직비디오 촬영에 도전했다. 19일 방송된 KBS 2TV '살림하는 남자들 시즌2'(이하 '살림남')에서는 영탁이 스페셜 게스트로 함께한 가운데 G.C 해머 지상렬의 컴백 준비와 박서진 가족이 파크 골프를 통해 새로운 추억을 쌓는 모습이 그려졌",
-        "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/09/20/b33a0255-9735-4da0-954b-1c8383da033d.jpg"
-    },
-    {
-        "title": "지상렬 \"내가 리센느 성공 일등 공신-혈 뚫어” GC 해머 존재감 - 미디어파인",
-        "source": "미디어파인",
-        "date": "2026-09-20",
-        "url": "https://www.mediafine.co.kr/news/articleView.html?idxno=90313",
-        "summary": "방송인 지상렬이 약 20년 만에 뮤직비디오 카메라 앞에 서며 특유의 거침없는 입담과 ‘참견 본능’을 폭발시켰다. 마이티 마우스의 신곡에 피처링으",
-        "image": "https://cdn.mediafine.co.kr/news/photo/202609/90313_128774_849.jpeg"
     },
     {
         "title": "이서진, 대세 리센느에 현실 조언…“돈 많이 벌면 행복은 오게 돼 있다” - 헤럴드경제",
@@ -229,23 +397,16 @@ const NEWS_DATA = [
         "source": "gonggam.korea.kr",
         "date": "2026-09-19",
         "url": "https://gonggam.korea.kr/newsContentView.es?mid=a12505000000&section_id=NCCD_SPECIAL&news_id=afb57ea5-032e-4514-994e-27b4b3a8d281",
-        "summary": ""
+        "summary": "다섯 명의 소녀가 초등학교 운동장 흙바닥을 무대 삼아 노래하고 춤춘다. 또 다른 무대에서는 관객의 반응이 없자 음원 차트 114위까지 했던 곡이라며 머쓱하게 웃는다. 시간이 없다는 진행자의 만류에도 1분만요라고 사정을 하며 무대를 보여줄 기회를 청한다. 불과 2년 전 리센느(RESCEN",
+        "image": "https://gonggam.korea.kr/gonggamFileDownload.es?fileName=20260917194054093.jpg&filePath1=newsContent"
     },
     {
-        "title": "리센느 이전 '원조 역주행' 걸그룹..\"月매출 1억4천' 안국 타코집 사장\" EXID 혜린 근황 [스타이슈] - starnewskorea.com",
-        "source": "starnewskorea.com",
-        "date": "2026-09-19",
-        "url": "https://www.starnewskorea.com/star/2026/09/20/2026092007004250402",
-        "summary": "그룹 EXID 멤버 혜린(33·서혜린)이 월 매출 1억 4000만 원의 '타코집 사장'이 된 근황을 밝혀 화제다. 19일 가수 차오루의 유튜브 채널에는 '월 매출 1억 4000만 원 사장님! EXID 혜린 모셔왔어요.. 알바(아르바이트)도 정말 많이 했네'라는 제목의 영상이 게재했다. ",
-        "image": "https://image.starnewskorea.com/21/2026/09/2026092007004250402_1.jpg"
-    },
-    {
-        "title": "유영우, 리센느 대표 이어 원이 모친에게도 큰절 받았다 \"눈물 흘리며 감사하다고\" (전참시)[종합] - v.daum.net",
+        "title": "리센느 원이 '파이리 야호' [사진] - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-09-19",
-        "url": "https://v.daum.net/v/Ywar3b0H54",
-        "summary": "(엑스포츠뉴스 이창규 기자) 코미디언 유영우가 리센느 원이의 어머니에게 큰절을 받은 일화를 공개했다. 19일 방송된 MBC '전지적 참견 시점'(전참시)에는 코미디언 유영우와 가수 최예나가 게스트로 출연했다. 이날 방송에서 유영우는 한국방송대상 시상자로 나서는 이선민을 응원하기 위해 대",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/20/xportsnews/20260920010511784hhjt.jpg"
+        "url": "https://v.daum.net/v/zePnDrNdTB",
+        "summary": "[OSEN=부산, 조은정 기자]2026 더팩트 뮤직 어워즈(TMA) 레드카펫 행사가 19일 부산 아시아드 주경기장에서 열렸다. ‘2026 더팩트 뮤직 어워즈’에는 라이즈(RIIZE), 리센느(RESCENE), 싸이커스(xikers), 아이딧(IDID), 아일릿(ILLIT), 알파드라이브",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/19/poctan/20260919164838095hexz.jpg"
     },
     {
         "title": "“대기실서 라면 먹다 와”…리센느, 투데이스 초이스에 ‘감격’ [2026 TMA] - 매일경제",
@@ -256,20 +417,12 @@ const NEWS_DATA = [
         "image": "https://pimg.mk.co.kr/news/cms/202609/19/news-p.v1.20260919.4594b19c67dc4cac8c02c35522b0c264_R.png"
     },
     {
-        "title": "리센느, ‘2026 더팩트 뮤직 어워즈’ 2관왕 “더 열심히 하겠다” - 톱스타뉴스",
-        "source": "톱스타뉴스",
+        "title": "유영우, 리센느 대표 이어 원이 모친에게도 큰절 받았다 \"눈물 흘리며 감사하다고\" (전참시)[종합] - v.daum.net",
+        "source": "v.daum.net",
         "date": "2026-09-19",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16200541",
-        "summary": "리센느(원이, 리브, 미나미, 메이, 제나)가 부산아시아드주경기장에서 열린 2026 더팩트 뮤직 어워즈에서 올해의 아티스트와 투데이스 초이스를 수상하며 2관왕을 기록했고, Runaway와 LOVE ATTACK 오케스트라 버전 무대로 상큼한 에너지와 색다른 매력을 선보였다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202609/16200541_2031233_3519_crop.jpg"
-    },
-    {
-        "title": "'식비 5천원' 유영우, 리센느 원이에 '51만원 한우' 플렉스 [전참시] - starnewskorea.com",
-        "source": "starnewskorea.com",
-        "date": "2026-09-19",
-        "url": "https://www.starnewskorea.com/star/2026/09/20/2026092007310557732",
-        "summary": "'전지적 참견 시점'이 포기하지 않고 자신의 길을 달린 끝에 마침내 전성기를 맞은 개그맨 유영우와 아이즈원 출신 가수 최예나의 눈부신 현재를 조명했다. 19일 밤 방송된 MBC '전지적 참견 시점'(이하 '전참시') 416회에선 '가수형 개그맨' 유영우가 게스트로 출연했다. 이날 방송은",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=664,fit=cover,q=high,sharpen=2/21/2026/09/2026092007310557732_1.jpg"
+        "url": "https://v.daum.net/v/Ywar3b0H54",
+        "summary": "(엑스포츠뉴스 이창규 기자) 코미디언 유영우가 리센느 원이의 어머니에게 큰절을 받은 일화를 공개했다. 19일 방송된 MBC '전지적 참견 시점'(전참시)에는 코미디언 유영우와 가수 최예나가 게스트로 출연했다. 이날 방송에서 유영우는 한국방송대상 시상자로 나서는 이선민을 응원하기 위해 대",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/20/xportsnews/20260920010511784hhjt.jpg"
     },
     {
         "title": "리센느, 11월 3일 컴백 확정…대세 굳히기 [공식] - 조선비즈 - Chosunbiz",
@@ -278,14 +431,6 @@ const NEWS_DATA = [
         "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/19/G43GIMJQHE2TKMDBMJRGGNDFMM/?outputType=amp",
         "summary": "리센느, 11월 3일 컴백 확정대세 굳히기 공식",
         "image": "https://biz.chosun.com/resizer/v2/G5QWIYZSGM2TKZJZGJSDQNRVMI.jpg?auth=337fb119b2cd01baac91d2b07e041a14b6ea58f8d248ac3f1a3f506f5ed79ff3&width=650&height=341&smart=true"
-    },
-    {
-        "title": "리센느 원이 '파이리 야호' [사진] - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-09-19",
-        "url": "https://v.daum.net/v/zePnDrNdTB",
-        "summary": "[OSEN=부산, 조은정 기자]2026 더팩트 뮤직 어워즈(TMA) 레드카펫 행사가 19일 부산 아시아드 주경기장에서 열렸다. ‘2026 더팩트 뮤직 어워즈’에는 라이즈(RIIZE), 리센느(RESCENE), 싸이커스(xikers), 아이딧(IDID), 아일릿(ILLIT), 알파드라이브",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/19/poctan/20260919164838095hexz.jpg"
     },
     {
         "title": "[포토] ​​​​​​​리센느 (RESCENE), 2026 더팩트뮤직어워즈 참석 - 아주경제",
@@ -304,12 +449,20 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/19/poctan/20260919090409683hrco.jpg"
     },
     {
-        "title": "'리센느 원이 삼촌' 유영우, 스케줄 10배 늘었지만…\"개그 포기하는 지경\" ('전참시') - v.daum.net",
-        "source": "v.daum.net",
+        "title": "리센느, ‘2026 더팩트 뮤직 어워즈’ 2관왕 “더 열심히 하겠다” - 톱스타뉴스",
+        "source": "톱스타뉴스",
         "date": "2026-09-19",
-        "url": "https://v.daum.net/v/20260920072237296",
-        "summary": "[텐아시아=김은정 기자] '전지적 참견 시점' 코미디언 유영우가 노래로 쏟아진 관심에 자신의 직업을 두고 고민을 털어놨다. 19일 방송된 MBC '전지적 참견 시점'(이하 '전참시')에는 코미디언 유영우와 최예나가 게스트로 출연했다. 이날 유영우는 자신을 코미디언이라고 소개하면서도 \"코",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/20/10asia/20260920072238695ikbj.jpg"
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16200541",
+        "summary": "리센느(원이, 리브, 미나미, 메이, 제나)가 부산아시아드주경기장에서 열린 2026 더팩트 뮤직 어워즈에서 올해의 아티스트와 투데이스 초이스를 수상하며 2관왕을 기록했고, Runaway와 LOVE ATTACK 오케스트라 버전 무대로 상큼한 에너지와 색다른 매력을 선보였다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202609/16200541_2031233_3519_crop.jpg"
+    },
+    {
+        "title": "'식비 5천원' 유영우, 리센느 원이에 '51만원 한우' 플렉스 [전참시] - starnewskorea.com",
+        "source": "starnewskorea.com",
+        "date": "2026-09-19",
+        "url": "https://www.starnewskorea.com/star/2026/09/20/2026092007310557732",
+        "summary": "'전지적 참견 시점'이 포기하지 않고 자신의 길을 달린 끝에 마침내 전성기를 맞은 개그맨 유영우와 아이즈원 출신 가수 최예나의 눈부신 현재를 조명했다. 19일 밤 방송된 MBC '전지적 참견 시점'(이하 '전참시') 416회에선 '가수형 개그맨' 유영우가 게스트로 출연했다. 이날 방송은",
+        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=664,fit=cover,q=high,sharpen=2/21/2026/09/2026092007310557732_1.jpg"
     },
     {
         "title": "‘러브 어택’ 역주행 이어…리센느, 11월 3일 컴백 확정 - 톱스타뉴스",
@@ -320,20 +473,12 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202609/16199368_2030589_824_crop.jpg"
     },
     {
-        "title": "몇백 원 아끼던 유영우, 한우 51만원 ‘플렉스’…리센느 원이 보며 눈물 - 스포츠동아",
-        "source": "스포츠동아",
+        "title": "리센느 이전 '원조 역주행' 걸그룹..\"月매출 1억4천' 안국 타코집 사장\" EXID 혜린 근황 [스타이슈] - starnewskorea.com",
+        "source": "starnewskorea.com",
         "date": "2026-09-19",
-        "url": "https://sports.donga.com/ent/article/all/20260920/134701446/1",
-        "summary": "[스포츠동아 이정연 기자] 개그맨 유영우가 예상외의가창력으로 전성기를 맞았다. 개그 영상이 5~6만 조회 수에 머물 때 노래 영상은 수백만 뷰를 기록했고, 한 달에 한두 건이던 스케줄도 10배 이상 늘었다.19일 방송된 MBC ‘전지적 참견 시점’에서는 ‘가수형 개그…",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/09/20/134701447.1.png"
-    },
-    {
-        "title": "리센느 이전 '원조 역주행' 걸그룹..\"月매출 1억4천' 안국 타코집 사장\" EXID 혜린 근황 [스타이슈] - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-09-19",
-        "url": "https://v.daum.net/v/Q6xEkFYCTi",
-        "summary": "[스타뉴스 | 김나라 기자] 혜린 /사진=유튜브 채널 '차오루' 영상 캡처혜린그룹 EXID 멤버 혜린(33·서혜린)이 월 매출 1억 4000만 원의 '타코집 사장'이 된 근황을 밝혀 화제다. 19일 가수 차오루의 유튜브 채널에는 '월 매출 1억 4000만 원 사장님! EXID 혜린 모셔",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/20/starnews/20260920072838767ppyx.jpg"
+        "url": "https://www.starnewskorea.com/star/2026/09/20/2026092007004250402",
+        "summary": "그룹 EXID 멤버 혜린(33·서혜린)이 월 매출 1억 4000만 원의 '타코집 사장'이 된 근황을 밝혀 화제다. 19일 가수 차오루의 유튜브 채널에는 '월 매출 1억 4000만 원 사장님! EXID 혜린 모셔왔어요.. 알바(아르바이트)도 정말 많이 했네'라는 제목의 영상이 게재했다. ",
+        "image": "https://image.starnewskorea.com/21/2026/09/2026092007004250402_1.jpg"
     },
     {
         "title": "'전참시' 유영우, 리센느 시상식 무대 보고 '울컥'…훈훈한 응원 - v.daum.net",
@@ -344,34 +489,12 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/19/NEWS1/20260919095053642xmfa.jpg"
     },
     {
-        "title": "[TOP영상] 리센느, “부산 야호!” 심쿵주의보 발령 '리센느 미소에 팬심 몽글몽글'(2026 더팩트 뮤직 어워즈) - 톱스타뉴스",
-        "source": "톱스타뉴스",
-        "date": "2026-09-19",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16200217",
-        "summary": "9월 19일 오후 부산광역시 아시아드주경기장에서 ‘2026 더팩트 뮤직 어워즈(2026 The Fact Music Awards, TMA)’ 레드카펫이 열렸다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202609/16200217_2030887_3817_crop.jpg"
-    },
-    {
         "title": "유영우, 리센느 위해 한우 플렉스..무대 보다 눈물까지 [전참시][★밤TView] - starnewskorea.com",
         "source": "starnewskorea.com",
         "date": "2026-09-19",
         "url": "https://www.starnewskorea.com/broadcast-show/2026/09/20/2026091923302363717",
         "summary": "방송인 유영우가 그룹 리센느와 감격적으로 재회했다. 19일 방송된 MBC 예능 프로그램 '전지적 참견 시점'(이하 '전참시')에는 유영우가 출연해 일상을 공개했다. 이날 유영우는 '짠내' 나는 라이프를 선보이기도 했다. 매니저는 \"항상 소비를 진짜 안하는 편이어서 혼밥 할 때는 한 끼에",
         "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=652,fit=cover,q=high,sharpen=2/21/2026/09/2026091923302363717_1.jpg"
-    },
-    {
-        "title": "유영우, 리센느 원이 위해 51만원 한우 선물 플렉스‥“평생의 은인”(전참시) - 뉴스엔",
-        "source": "뉴스엔",
-        "date": "2026-09-19",
-        "url": "https://m.newsen.com/news_view.php?uid=202609200824246710",
-        "summary": ""
-    },
-    {
-        "title": "리센느 리브, 미소 뒤에 숨긴 ‘개그본능’ [포토엔HD] - 뉴스엔",
-        "source": "뉴스엔",
-        "date": "2026-09-19",
-        "url": "https://m.newsen.com/news_view.php?uid=202609200814505510",
-        "summary": ""
     },
     {
         "title": "유영우, ‘원이 둘째 삼촌’답네…리센느 무대에 울컥→한우 플렉스 (전참시) - 스포츠동아",
@@ -382,36 +505,20 @@ const NEWS_DATA = [
         "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/09/19/134700521.1.jpeg"
     },
     {
-        "title": "[사진]리센느 원이 '빵실 미소' - 조선일보",
-        "source": "조선일보",
-        "date": "2026-09-19",
-        "url": "https://www.chosun.com/entertainments/entertain_photo/2026/09/19/MNSTCZBSG5QWKNLCGU4GMODBME/",
-        "summary": "19일 부산 아시아드 주경기장에서 개최된 2026 더팩트 뮤직 어워즈 레드카펫 행사에 다양한 케이팝 그룹과 아티스트들이 참석했습니다. 이 자리에서 리센느의 멤버 원이는 취재진을 향해 밝은 미소를 지으며 포토타임을 가졌습니다.",
-        "image": "https://www.chosun.com/resizer/v2/ME3GMZRSMJSTMOBTHE4TANJWMQ.jpg?auth=ffcc2dae6a8420dc4a54416ce4a736d1fe2d032fe97bf09cdd92d03456e301f0&width=530&height=278&smart=true"
-    },
-    {
-        "title": "'리센느 원이 삼촌' 유영우, 스케줄 10배 늘었지만…\"개그 포기하는 지경\" ('전참시') - tenasia.co.kr",
-        "source": "tenasia.co.kr",
-        "date": "2026-09-19",
-        "url": "https://www.tenasia.co.kr/article/2026091953924",
-        "summary": "'전지적 참견 시점' 코미디언 유영우가 노래로 쏟아진 관심에 자신의 직업을 두고 고민을 털어놨다. 19일 방송된 MBC '전지적 참견 시점'(이하 '전참시')에는 코미디언 유영우와 최예나가 게스트로 출연했다. 이날 유영우는 자신을 코미디언이라고 소개하면서도 코미디를 어...",
-        "image": "https://img.tenasia.co.kr/photo/202609/BF.45752029.1.png"
-    },
-    {
-        "title": "민음사부터 리센느까지…편의점 빵, 팬덤을 굽다 - 머니투데이 - mt.co.kr",
-        "source": "mt.co.kr",
-        "date": "2026-09-18",
-        "url": "https://www.mt.co.kr/living/2026/09/19/2026091816101586302",
-        "summary": "양산빵의 품질 개선으로 상품 경쟁력이 높아진 데다 아이돌, 출판사, 프로야구 구단 등 콘텐츠와 결합한 협업 제품이 잇따라 흥행하면서다. 18일 업계에 따르면 GS25가 지난달 21일 출시한 '민음사빵'은 편의점 빵 열풍을 보여주는 대표 사례다.",
-        "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=1762,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/09/2026091816101586302_1.jpg"
-    },
-    {
         "title": "‘역주행 신화’ 리센느, 11월 3일 컴백 확정 - JTBC",
         "source": "JTBC",
         "date": "2026-09-18",
         "url": "https://news.jtbc.co.kr/article/NB12319113",
         "summary": "리센느가 11월 3일 컴백한다. 18일 소속사 더뮤즈엔터테인먼트 관계자는 JTBC 엔터뉴스팀에 ‘리센느가 11월 3일 컴백한다’라고 밝혔다. ...",
         "image": "https://photo.jtbc.co.kr/news/jam_photo/202609/18/4a68443d-6b03-4502-81ee-16a1da947e7e.jpg"
+    },
+    {
+        "title": "민음사부터 리센느까지…편의점 빵, 팬덤을 굽다 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "date": "2026-09-18",
+        "url": "https://www.mt.co.kr/living/2026/09/19/2026091816101586302",
+        "summary": "양산빵의 품질 개선으로 상품 경쟁력이 높아진 데다 아이돌, 출판사, 프로야구 구단 등 콘텐츠와 결합한 협업 제품이 잇따라 흥행하면서다. 18일 업계에 따르면 GS25가 지난달 21일 출시한 '민음사빵'은 편의점 빵 열풍을 보여주는 대표 사례다.",
+        "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=1762,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/09/2026091816101586302_1.jpg"
     },
     {
         "title": "'리센느 빵' 나오자 곧바로 먹방 찍은 리센느 멤버들 - 뉴스1",
@@ -500,48 +607,16 @@ const NEWS_DATA = [
         "image": "https://newsimg.hankookilbo.com/2026/09/18/e544c461-2cdd-4a75-9056-352a24e57af0.jpg"
     },
     {
-        "title": "걸그룹 리센느, 11월 3일 전격 컴백… '역주행' 신드롬 이어간다 - 한국연예스포츠신문",
-        "source": "한국연예스포츠신문",
+        "title": "걸그룹 리센느, 11월 3일 전격 컴백… '역주행' 신드롬 이어간다 - koreaes.com",
+        "source": "koreaes.com",
         "date": "2026-09-18",
         "url": "https://www.koreaes.com/news/articleView.html?idxno=406303",
         "summary": "5인조 걸그룹 리센느가 오는 11월 3일 가요계에 복귀한다.뉴스1에 따르면, 18일 소속사 더뮤즈엔터테인먼트 측은 리센느가 내달 3일 새로운 활동에 돌입한다고 밝",
         "image": "https://cdn.koreaes.com/news/photo/202608/mn_406303_20260918194251_1.jpg"
     },
     {
-        "title": "김수현, 임영웅→리센느 만난다…‘2026 더팩트 뮤직 어워즈’ D-1 - 스포츠경향",
-        "source": "스포츠경향",
-        "date": "2026-09-18",
-        "url": "https://sports.khan.co.kr/article/202609181030003",
-        "summary": "팬과 아티스트가 함께 즐기는 최고의 K-POP 축제 ‘2026 더팩트 뮤직 어워즈’가 하루 뒤 부산에서 막을 올린다. 더팩트가 주최하고 팬앤스타, UCW가 주관하는 ‘2026 더팩트 뮤직 어워즈(2026 THE...",
-        "image": "https://images.khan.co.kr/article/2026/09/18/news-p.v1.20260918.e8861d3d74d644aca8951a1bec64077e_P1.png"
-    },
-    {
-        "title": "'컴백 야호' 리센느 컴백, 4개월 만 '왕의 귀환'…\"11월 새 앨범 발매\" [오피셜] - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-09-18",
-        "url": "https://isplus.com/article/view/isp202609180083",
-        "summary": "'거제 야호' 열풍과 음원 차트 역주행 신화를 쓴 5인조 걸그룹 리센느(RESCENE)가 오는 11월 3일 새 앨범으로 돌아온다. 소속사 더뮤즈엔터테인먼트는 18일...",
-        "image": "https://isplus.com/data/isp/image/2026/08/12/isp20260812000260.800x.0.jpg"
-    },
-    {
-        "title": "리센느, 아이돌차트 9월 1주차 아차랭킹 정상…총점 1만9141점 - 톱스타뉴스",
-        "source": "톱스타뉴스",
-        "date": "2026-09-18",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16197905",
-        "summary": "리센느가 아이돌차트가 집계한 9월 1주차 아차랭킹에서 음원 점수 1105점, 유튜브 점수 1만206점, 소셜 점수 7830점으로 총점 1만9141점을 기록하며 1위에 올랐고, 아이유·리사·빅뱅·에스파 등이 그 뒤를 이었다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202609/16197905_2029799_2058_crop.jpg"
-    },
-    {
-        "title": "\"광고 문의만 100개\"…무명 걸그룹에 러브콜 쏟아진 이유 [이슈+] - 한국경제",
-        "source": "한국경제",
-        "date": "2026-09-17",
-        "url": "https://www.hankyung.com/article/202609171524H",
-        "summary": "\"광고 문의만 100개\"…무명 걸그룹에 러브콜 쏟아진 이유 [이슈+], 뷰티&middot;IT&middot;식음료 광고계 접수한 '리센느 현상' \"화장품 커피 브랜드서도 러브콜\"",
-        "image": "https://img.hankyung.com/photo/202609/01.45101503.1.jpg"
-    },
-    {
-        "title": "리센느 미나미 “트와이스 되고 싶냐며 놀리던 친구들…난 새벽까지 연습했다” - donga.com",
-        "source": "donga.com",
+        "title": "리센느 미나미 “트와이스 되고 싶냐며 놀리던 친구들…난 새벽까지 연습했다” - 동아일보",
+        "source": "동아일보",
         "date": "2026-09-17",
         "url": "https://www.donga.com/news/Culture/article/all/20260917/134687307/2",
         "summary": "리센느 미나미가 초등학교 시절 K팝 아이돌을 꿈꾼다는 이유로 친구들에게 놀림을 받았던 일을 공개했다. 이후 실제 가수로 데뷔해 모교 무대에 섰으며, 갸루 콘셉트와 1300만 조회수를 기록한 ‘야호’ 유행어에 얽힌 이야기도 전했다.",
@@ -556,28 +631,12 @@ const NEWS_DATA = [
         "image": "https://biz.chosun.com/resizer/v2/HFRTAYRQGAZTKOJSG42WMYZVMU.jpg?auth=754e9e85d78eb100df46672579da004b3bd5d21fee3286be5b77aa38b1a15dac&width=900&height=472&smart=true"
     },
     {
-        "title": "“이거라도 해야 눈에 띄지”…리센느 미나미, ‘갸루’ 콘셉트 뒷이야기 - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-09-17",
-        "url": "https://v.daum.net/v/20260917134844897",
-        "summary": "걸그룹 리센느 미나미가 한국에서 선보인 ‘갸루’ 콘셉트 때문에 일본 친구들에게 놀림을 받았던 일화를 공개했다. 미나미는 지난 16일 방송된 MBC 예능 프로그램 ‘라디오스타’에 출연해 자신의 트레이드마크가 된 갸루 스타일과 관련한 뒷이야기를 전했다. 이날 방송에서 미나미는 일본에서 K팝",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/17/segye/20260917134845129tblg.png"
-    },
-    {
         "title": "리센느 미나미 \"역주행 후 광고 문의만 100건 이상\" - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-09-17",
         "url": "https://v.daum.net/v/20260917203610717",
         "summary": "리센느 미나미가 역주행 후 광고 러브콜이 100건 이상 들어왔다고 밝혀 눈길을 끌고 있다. 지난 16일 방송된 MBC '라디오스타'에는 이형택, 이혜정, 조준호, 미나미가 출연한 '나고야-호! 아시안게임' 특집으로 꾸며졌다. 이날 미나미는 '러브어택' 역주행 이후 달라진 리센느의 위상을",
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/17/JTBC/20260917203611990vfop.jpg"
-    },
-    {
-        "title": "“광고 문의만 100개 넘는다”…미나미가 전한 ‘리센느’ 달라진 위상 - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-09-17",
-        "url": "https://v.daum.net/v/20260917143002281",
-        "summary": "그룹 리센느 멤버 미나미가 역주행 이후 뜨거운 인기에 대해 실감하고 있다고 밝혔다. 미나미는 16일 방송된 MBC ‘라디오스트’에 이형택, 이혜정, 조준호와 함께 게스트로 출연했다. 그는 “‘라디오스타’에 나온 것처럼 저점 큰 스케줄이 많게 됐다”며 “광고 문의만 100개가 넘는다”라고",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/17/mk/20260917143003667geza.jpg"
     },
     {
         "title": "‘18kg 감량’ 리센느 미나미, 독하게 빼는 지옥의 ‘운동 루틴’ 공개 [셀럽 건강] - 서울신문",
@@ -588,8 +647,8 @@ const NEWS_DATA = [
         "image": "https://img.seoul.co.kr/img/upload/2026/09/16/SSC_20260916135513.jpg.webp"
     },
     {
-        "title": "'야호~!' 대박친 리센느 미나미 \"광고 제안 100건 넘게 받아\" - 머니투데이 - mt.co.kr",
-        "source": "mt.co.kr",
+        "title": "'야호~!' 대박친 리센느 미나미 \"광고 제안 100건 넘게 받아\" - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
         "date": "2026-09-16",
         "url": "https://www.mt.co.kr/entertainment/2026/09/16/2026091615192584902",
         "summary": "그룹 리센느 멤버 미나미가 광고 제안을 100건 넘게 받았다고 밝힌다. 미나미는 초등학교 3학년 때부터 K팝 아이돌을 꿈꿨다며 졸업앨범에도 장래 희망으로 적을 정도였다고 말한다. 미나미는 리센느가 MBC 아시안게임 방송 홍보대사로 활동 중이라는 사실도 전한다.",
@@ -609,30 +668,6 @@ const NEWS_DATA = [
         "date": "2026-09-16",
         "url": "https://www.news1.kr/entertain/celebrity-topic/6292016",
         "summary": ""
-    },
-    {
-        "title": "“이제 먼저는 안 할래요”…리센느 미나미, ‘야호’와 유쾌한 작별 - 알파경제",
-        "source": "알파경제",
-        "date": "2026-09-16",
-        "url": "https://www.alphabiz.co.kr/news/articleView.html?idxno=187041",
-        "summary": "[알파경제 = 김단하 기자] 리센느 미나미를 단숨에 각인시킨 한마디 ‘야호~’가 잠시 쉼표를 찍는다. 역주행으로 팀의 인기가 치솟은 뒤 처음으로 홀로 예능에 나선",
-        "image": "https://cdn.alphabiz.co.kr/news/photo/202609/187041_144023_5011.jpg"
-    },
-    {
-        "title": "\"연예인 다 됐다\"..리센느 미나미, '야호' 유행어 졸업 ('라스')[방송 프리뷰] - 조선비즈 - Chosunbiz",
-        "source": "Chosunbiz",
-        "date": "2026-09-16",
-        "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/16/GA4TCMJYMEYDOZDDHFTGEOJUHE/",
-        "summary": "연예인 다 됐다..리센느 미나미, 야호 유행어 졸업 라스방송 프리뷰",
-        "image": "https://biz.chosun.com/resizer/v2/GY3TEYZSGRSGIOLCMJSWGYRTME.jpg?auth=9a56fdc905aa8675bb6ab161879fa8f92a2281cee731f0e57f3140a3d5b84929&width=650&height=341&smart=true"
-    },
-    {
-        "title": "리센느 미나미, 역주행 후 대박 \"광고 제안만 100건 이상\" - 조선일보",
-        "source": "조선일보",
-        "date": "2026-09-16",
-        "url": "https://www.chosun.com/entertainments/celebrity/2026/09/16/PBWA7VBDXFEKXK4R3YTSIF2CQU/",
-        "summary": "그룹 리센느의 미나미가 MBC 라디오스타에 출연하여 역주행 이후 급상승한 인기와 근황을 전합니다. 광고 100건 이상의 제안을 받으며 달라진 인지도를 체감하고 있으며, 한국에서의 독특한 캐릭터 구축 과정과 아이돌을 꿈꿨던 과거의 이야기를 솔직하게 공개할 예정입니다.",
-        "image": "https://www.chosun.com/resizer/v2/GYZDGNJTGFRDKNLDGJSGEY3CMY.jpg?auth=1392649067f76c2be8b1a5330aa40dbb0d3a11d5edeb7bf39efdc8096357b972&width=720&height=378&focal=515,259"
     },
     {
         "title": "\"원이가 좋아하는 맛 그대로\"…CU, 리센느 빵 5종 출시 - 지디넷코리아",
@@ -667,16 +702,8 @@ const NEWS_DATA = [
         "image": "https://img.hankyung.com/photo/202609/f6688efb76c666f563dfae5995f6ca4e.jpg"
     },
     {
-        "title": "역주행 신화 리센느 소속사 74배 잭팟…중소돌 스타트업에 뭉칫돈 - 머니투데이 - mt.co.kr",
-        "source": "mt.co.kr",
-        "date": "2026-09-14",
-        "url": "https://www.mt.co.kr/future/2026/09/14/2026091017271183280",
-        "summary": "[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 '데이터랩'에서 볼 수 있습니다. ] 걸그룹 '리센느(RESCENE)'의 역주행 신화가 벤처투자업계에서 주목받고 있다.",
-        "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/09/2026091017271183280_1.jpg"
-    },
-    {
-        "title": "당신은 리센느를 좋아할 가능성이 높습니다 - 머니투데이 - mt.co.kr",
-        "source": "mt.co.kr",
+        "title": "당신은 리센느를 좋아할 가능성이 높습니다 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
         "date": "2026-09-12",
         "url": "https://www.mt.co.kr/tech/2026/09/13/2026091010433111341",
         "summary": "유튜브 홈 화면을 내리다가 우연히 리센느 영상을 발견한 당신 당신은 리센느를 좋아할 가능성이 높다. 적어도 당신이 발견한 그 영상은 마음에 들 확률이 상당하다. 리센느가 이른바 '중소돌(중소기획사에서 기획한 아이돌)의 기적'을 쓴 걸그룹이라는 사실을 모른다고 해도 그렇다.",
@@ -699,8 +726,8 @@ const NEWS_DATA = [
         "image": "https://img6.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909147900030_01_i_P4.jpg"
     },
     {
-        "title": "이번엔 “동해 야호”…리센느와 떠나는 특별한 ‘동해 수학여행’ - donga.com",
-        "source": "donga.com",
+        "title": "이번엔 “동해 야호”…리센느와 떠나는 특별한 ‘동해 수학여행’ - 동아일보",
+        "source": "동아일보",
         "date": "2026-09-08",
         "url": "https://www.donga.com/news/Society/article/all/20260908/134626310/1",
         "summary": "강원 동해시가 걸그룹 리센느(RESCENE)와 함께 ‘동해 수학여행’을 떠난다.동해시는 리센느가 지역 주요 관광지를 직접 여행하고 체험하는 여행 예능형 유튜브 콘텐츠 ‘동해 수학여행’을 제작해 순차적으로 공개한다고 8일 밝혔다.총 3부작으로 구성된 콘텐츠는 ‘수학여행…",
@@ -715,20 +742,20 @@ const NEWS_DATA = [
         "image": "https://img.khan.co.kr/news/2026/09/08/202609081010258103443_0.jpg"
     },
     {
-        "title": "삼양 \"리센느가 먹은 '짜르르', 유튜브 공개 후 주말 매출 두배\" - 연합뉴스",
-        "source": "연합뉴스",
-        "date": "2026-09-08",
-        "url": "https://www.yna.co.kr/view/AKR20260907150600030",
-        "summary": "(서울=연합뉴스) 홍국기 기자 = 걸그룹 리센느(RESCENE)가 유튜브 콘텐츠에서 삼양식품의 짜장라면을 먹는 모습이 공개된 이후 제품 판매가 ...",
-        "image": "https://img3.yna.co.kr/etc/inner/KR/2026/09/07/AKR20260907150600030_01_i_P4.jpg"
-    },
-    {
         "title": "\"리센느 보느라 잠 못 자\" 고준희도 빠졌다..수산시장서 '야호~' - 조선비즈 - Chosunbiz",
         "source": "Chosunbiz",
         "date": "2026-09-08",
         "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/08/GA3DSOJZGI2WKMLCGYZDINLCGY/",
         "summary": "리센느 보느라 잠 못 자 고준희도 빠졌다..수산시장서 야호~",
         "image": "https://biz.chosun.com/resizer/v2/MFRDINTGGNSWKNZUGIYDMYJYGI.png?auth=b63cd0ba118f8abb6592fc617d309b3b4c7d1571dad129569a9cc93665551540&width=650&height=341&smart=true"
+    },
+    {
+        "title": "삼양 \"리센느가 먹은 '짜르르', 유튜브 공개 후 주말 매출 두배\" - 연합뉴스",
+        "source": "연합뉴스",
+        "date": "2026-09-08",
+        "url": "https://www.yna.co.kr/view/AKR20260907150600030",
+        "summary": "(서울=연합뉴스) 홍국기 기자 = 걸그룹 리센느(RESCENE)가 유튜브 콘텐츠에서 삼양식품의 짜장라면을 먹는 모습이 공개된 이후 제품 판매가 ...",
+        "image": "https://img3.yna.co.kr/etc/inner/KR/2026/09/07/AKR20260907150600030_01_i_P4.jpg"
     },
     {
         "title": "690만뷰 터진 리센느 먹방…“맛 궁금해” 매출 대박난 음식 정체 - 중앙일보",
@@ -739,27 +766,11 @@ const NEWS_DATA = [
         "image": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202609/08/606f2c32-26d7-4c9b-bebd-d32b6a4a7609.jpg"
     },
     {
-        "title": "'역시 대세' 리센느가 먹은 '짜르르' 매출 얼마나 올랐나 - 한경매거진&북",
-        "source": "한경매거진&북",
-        "date": "2026-09-08",
-        "url": "https://magazine.hankyung.com/business/article/202609080729b",
-        "summary": "'역시 대세' 리센느가 먹은 '짜르르' 매출 얼마나 올랐나, 강홍민 기자, 이슈",
-        "image": "https://img.hankyung.com/photo/202609/AD.45602850.1.jpg"
-    },
-    {
         "title": "\"CU, 리센느빵 선보인다\"…멤버들이 직접 시식하고 피드백 - 뉴스1",
         "source": "뉴스1",
         "date": "2026-09-07",
         "url": "https://www.news1.kr/industry/distribution/6282031",
         "summary": ""
-    },
-    {
-        "title": "수원 출신 리브 ‘금의환향’…리센느, 이번엔 ‘홍보어사’ 됐다 - 경기일보",
-        "source": "경기일보",
-        "date": "2026-09-05",
-        "url": "https://www.kyeonggi.com/article/20260905580072",
-        "summary": "수원특례시 홍보대사로 활동 중인 걸그룹 리센느(RESCENE)가 제63회 수원화성문화제를 앞두고 ‘수원시 홍보어사’로 위촉됐다. 수원시는 지난달 29일 수원전통문화관에서 위촉식을 열고 리센느를 홍보어사로 위촉했다고 5일 밝혔다. 시는 오는 10월4~11일 열리는 제63",
-        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/09/05/.cache/512/20260905580073.jpg?v=20260921053325"
     },
     {
         "title": "[분석] 기업들은 왜 리센느에 돈을 쓰나 - 데이터솜",
@@ -778,19 +789,11 @@ const NEWS_DATA = [
         "image": "https://biz.chosun.com/resizer/v2/GEYTSOLFMI4TMZJWGFTDIOLEMU.jpg?auth=f59ed647875fd7be186a23e7424fb0165d9e585d05be0013a4227324b1152842&width=900&height=472&smart=true"
     },
     {
-        "title": "카카오, ‘리센느’와 일상 속 AI 경험 알린다 - kakaocorp.com",
-        "source": "kakaocorp.com",
+        "title": "카카오, ‘리센느’와 일상 속 AI 경험 알린다 - 카카오",
+        "source": "카카오",
         "date": "2026-09-02",
         "url": "https://www.kakaocorp.com/page/detail/12126",
         "summary": "#카카오 #카카오톡 #리센느 #RESCENE #대화를하자",
         "image": "https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/news/5fae0e7501a000001.jpg?type=thumb&opt=C800x400"
-    },
-    {
-        "title": "자고 일어나면 ‘O년 전 영상 파묘’···“뭐야? 이것도 봐줄게” 리센느가 ‘과거’로 더 뜨는 이유 - 경향신문",
-        "source": "경향신문",
-        "date": "2026-08-25",
-        "url": "https://www.khan.co.kr/article/202608250600071",
-        "summary": "경남 거제시, 일본 치바현, 경북 경주시…. 올해 최고의 ‘라이징 스타’인 걸그룹 리센느 멤버들의 출신지이자, 리센느 역주행 인기의 일등 공신인 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’(안원잘부)의 최근 촬영지다. ‘거제 야호’ 열풍 이후 멤버 원이와 미나미는 서로의 고향인 거제",
-        "image": "https://img.khan.co.kr/news/2026/08/25/news-p.v1.20260824.004fd74e1dfd4ee2ae719896bbdac37f_P1.png"
     }
 ];
