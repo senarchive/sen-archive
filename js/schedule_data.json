@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T11:45:50.663Z",
+  "updated": "2026-09-21T17:41:38.440Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3490,9 +3490,25 @@
       "source": "mnetplus"
     },
     {
+      "date": "2026-09-29",
+      "time": "",
+      "title": "경희대학교 국제캠퍼스 축제",
+      "detail": "",
+      "type": "event",
+      "source": "mnetplus"
+    },
+    {
       "date": "2026-09-30",
       "time": "",
       "title": "한경국립대학교 축제",
+      "detail": "",
+      "type": "event",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "",
+      "title": "을지대학교 축제",
       "detail": "",
       "type": "event",
       "source": "mnetplus"
