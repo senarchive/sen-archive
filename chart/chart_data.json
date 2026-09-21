@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T06:09:48.485Z",
+  "updatedAt": "2026-09-21T13:39:03.320Z",
   "platforms": [
     "melon",
     "genie",
@@ -29,7 +29,7 @@
         },
         "bugs": {
           "rank": 3,
-          "previousRank": 3
+          "previousRank": 4
         },
         "flo": {
           "rank": 2,
@@ -51,27 +51,27 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/118/75/116/11875116_20250701165641_500.jpg?86da3088c776a346e926b1b4052f227c/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 4,
+          "rank": 3,
           "previousRank": 4
         },
         "genie": {
-          "rank": 15,
-          "previousRank": 13
+          "rank": 14,
+          "previousRank": 12
         },
         "vibe": {
           "rank": 18,
           "previousRank": 17
         },
         "bugs": {
-          "rank": 15,
-          "previousRank": 15
+          "rank": 9,
+          "previousRank": 9
         },
         "flo": {
           "rank": 7,
           "previousRank": 7
         },
         "youtube_music": {
-          "rank": 10,
+          "rank": 12,
           "previousRank": 11
         },
         "spotify": {
@@ -90,20 +90,20 @@
           "previousRank": 5
         },
         "genie": {
-          "rank": 8,
-          "previousRank": 8
+          "rank": 6,
+          "previousRank": 6
         },
         "vibe": {
           "rank": 6,
           "previousRank": 5
         },
         "bugs": {
-          "rank": 21,
-          "previousRank": 29
+          "rank": 17,
+          "previousRank": 20
         },
         "flo": {
-          "rank": 12,
-          "previousRank": 12
+          "rank": 11,
+          "previousRank": 11
         },
         "youtube_music": {
           "rank": 6,
@@ -121,16 +121,20 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/133/12/413/13312413_20260406143448_500.jpg?0d1b1aec895dbf60aa601748ddf64dd9/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 51,
-          "previousRank": 56
+          "rank": 55,
+          "previousRank": 55
         },
         "bugs": {
-          "rank": 91,
-          "previousRank": 50
+          "rank": 30,
+          "previousRank": 54
         },
         "flo": {
-          "rank": 87,
-          "previousRank": 86
+          "rank": 84,
+          "previousRank": 85
+        },
+        "youtube_music": {
+          "rank": 53,
+          "previousRank": 54
         },
         "spotify": {
           "rank": 39,
@@ -144,16 +148,64 @@
       "albumImageUrl": "https://image.bugsm.co.kr/album/images/350/41063/4106349.jpg",
       "ranks": {
         "bugs": {
-          "rank": 47,
-          "previousRank": 74
+          "rank": 55,
+          "previousRank": 30
         },
         "flo": {
-          "rank": 65,
-          "previousRank": 64
+          "rank": 51,
+          "previousRank": 53
+        },
+        "youtube_music": {
+          "rank": 28,
+          "previousRank": 28
         },
         "spotify": {
           "rank": 57,
           "previousRank": 57
+        }
+      }
+    },
+    {
+      "songName": "YoYo",
+      "artistName": "RESCENE",
+      "albumImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a7/bd/34/a7bd3420-de02-6bdc-f40f-6a75764a9a3f/cover_KM0019543_1.jpg/600x600bb.jpg",
+      "ranks": {
+        "youtube_music": {
+          "rank": 36,
+          "previousRank": null
+        }
+      }
+    },
+    {
+      "songName": "Heart Drop",
+      "artistName": "RESCENE",
+      "albumImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/fa/b3/a9fab349-c8a1-0c65-80a8-7fa84a683aff/cover_KM0023659_1.jpg/600x600bb.jpg",
+      "ranks": {
+        "youtube_music": {
+          "rank": 83,
+          "previousRank": null
+        }
+      }
+    },
+    {
+      "songName": "Bloom",
+      "artistName": "RESCENE",
+      "albumImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/66/5a/91665a02-b5c1-8336-e973-88746539ab71/8804775401787.jpg/600x600bb.jpg",
+      "ranks": {
+        "youtube_music": {
+          "rank": 86,
+          "previousRank": 68
+        }
+      }
+    },
+    {
+      "songName": "Glow Up",
+      "artistName": "RESCENE",
+      "albumImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/72/c9/b672c9d1-e8a1-4def-363e-dc0e86042761/cover_KM0020943_1.jpg/600x600bb.jpg",
+      "ranks": {
+        "youtube_music": {
+          "rank": 92,
+          "previousRank": 82
         }
       }
     }
