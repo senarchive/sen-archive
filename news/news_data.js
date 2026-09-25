@@ -1,20 +1,52 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-09-25T16:53:50.834Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-09-25T21:18:29.902Z) */
 
 const NEWS_DATA = [
     {
-        "title": "리센느, 9월 라이징 가수 브랜드평판 1위! - 아시아뉴스통신",
-        "source": "아시아뉴스통신",
+        "title": "리센느, 라이징 가수 브랜드평판 1위…2위 에이티즈 - v.daum.net",
+        "source": "v.daum.net",
         "date": "2026-09-25",
-        "url": "https://www.anewsa.com/detail.php?number=3202387",
-        "summary": "(사진제공=SPOTV) [아시아뉴스통신=이상진 기자] 라이징 가수 브랜드평판 2026년 9월 빅데이터 분석결과, 1위 리센느 2위 에이티즈 3위 성리 순으로 분석되었다.한국기업평판연구소는 2026년 8월 25일부터 2026년 9월 25일까지 측정한 라이징 가수 브랜드 빅데이터 92,86",
-        "image": "https://www.anewsa.com/news_images/2026/09/06/mark/20260906225513.jpg"
+        "url": "https://v.daum.net/v/20260925104843707",
+        "summary": "그룹 리센느가 라이징 가수 브랜드평판 9월 1위에 올랐다. 25일 한국기업평판연구소는 \"리센느 브랜드는 음원, 광고, 방송, 영상 카테고리 빅데이터 분석에서 신드롬급 점유율을 기록하면서 1위를 차지했다”고 전했따. 2위는 에이티즈, 3위는 성리로 분석됐다. 이에 대해 한국기업평판연구소는",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/25/JTBC/20260925104844059njjc.jpg"
     },
     {
-        "title": "'전현무계획4' 이선민 \"리센느 원이와 콘텐츠→동시에 잘됐다\" - 뉴스1",
+        "title": "“거제야호·신라공주 떴다”…리센느의 특별한 ‘지역사랑’, 4개 지자체 품었다 - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-25",
+        "url": "https://v.daum.net/v/20260926044120825",
+        "summary": "지난 6월 경주시 홍보대사로 위촉된 아이돌 그룹 리센느. 왼쪽부터 리브, 메이, 제나, 원이, 미나미. 유튜브 채널 ‘경주시 Gyeongjucity’ 캡처 ‘거제야호’, ‘신라공주’ 등 유독 지역과의 연관성이 돋보이는 유행어와 별명으로 눈길을 끄는 걸그룹이 있다. 그 주인공은 바로 아이",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/26/segye/20260926044120146upak.jpg"
+    },
+    {
+        "title": "'\"리센느 잘 된 건 이선민 덕?\" 이선민, 전현무 몰아가기에 '진땀' - 뉴스1",
         "source": "뉴스1",
         "date": "2026-09-25",
-        "url": "https://www.news1.kr/entertain/broadcast-tv/6301703",
+        "url": "https://www.news1.kr/entertain/broadcast-tv/6301660",
         "summary": ""
+    },
+    {
+        "title": "비서진X리센느 못 본다..줄줄이 결방 속 ‘나혼산’만 정상방송 - 조선일보",
+        "source": "조선일보",
+        "date": "2026-09-25",
+        "url": "https://www.chosun.com/entertainments/broadcast/2026/09/25/GAYDGY3EGY2TCYRRGMYTGNTFGI/",
+        "summary": "2026 나고야 아시안게임 중계 방송으로 인해 25일 주요 예능 프로그램이 대거 결방합니다. SBS 비서진, KBS 해피투게더 등은 방송을 쉬어가지만, MBC 나 혼자 산다는 계획대로 정상 방송을 진행하며 시청자들을 만날 예정입니다.",
+        "image": "https://www.chosun.com/resizer/v2/MRTDMMTDMFQTCYRXGU3GIYZTGE.jpg?auth=46dc4873d24948be91acfd06b9ffb2517e5ee0972d16dd9449edd76d27a97c27&width=550&height=288&smart=true"
+    },
+    {
+        "title": "“돈이 다야” 이서진, 리센느 원이에 현실 조언…오늘(25일) ‘비서진’ 결방 - iMBC 연예",
+        "source": "iMBC 연예",
+        "date": "2026-09-25",
+        "url": "https://enews.imbc.com/News/RetrieveNewsInfo/519255",
+        "summary": "SBS 예능 프로그램 ‘비서진’이 오늘(25일) 결방됐다. 9월 25일 SBS 편성표에 따르면 밤 10시 30분부터 ‘THE 이은결-추석특집 매직콘서트’가 방송된다. 지난 8월 세종문화회관 대극장에서 열린 이은결의 데뷔 30주년 기념 공연 ‘ONE OF ONE’의 실황과 함께, 그동안 ",
+        "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/09/25/1c2af77b-3825-443b-9cc5-1dd9d24650e8.jpg"
+    },
+    {
+        "title": "“거제야호·신라공주 떴다”…리센느의 특별한 ‘지역사랑’, 4개 지자체 품었다 - segye.com",
+        "source": "segye.com",
+        "date": "2026-09-25",
+        "url": "https://www.segye.com/newsView/20260922514723",
+        "summary": "‘거제야호’, ‘신라공주’ 등 유독 지역과의 연관성이 돋보이는 유행어와 별명으로 눈길을 끄는 걸그룹이 있다. 그 주인공은 바로 아이돌 그룹 리센느다. 케이팝이 전 세계로 영역을 확장해 나가는 상황에서 자신의 고향에 대한 애정을 숨기지 않으며 무려 4개의 지자체 홍보대사로 활약 중인 리센",
+        "image": "https://www.segye.com/content/image/2026/09/22/20260922514731.jpg"
     },
     {
         "title": "비서진X리센느 못 본다..줄줄이 결방 속 ‘나혼산’만 정상방송 - 조선비즈 - Chosunbiz",
@@ -25,36 +57,34 @@ const NEWS_DATA = [
         "image": "https://biz.chosun.com/resizer/v2/GNTDKNZWGNTDCM3DHFSTSMJSMY.jpg?auth=9fa308935aa2adfc095d0d3bca82cabd4c47c811081c9f97c3bd24b44a7320ab&width=573&height=300&smart=true"
     },
     {
-        "title": "“돈이 다야” 이서진, 리센느 원이에 현실 조언…오늘(25일) ‘비서진’ 결방 - enews.imbc.com",
-        "source": "enews.imbc.com",
-        "date": "2026-09-25",
-        "url": "https://enews.imbc.com/News/RetrieveNewsInfo/519255",
-        "summary": "SBS 예능 프로그램 ‘비서진’이 오늘(25일) 결방됐다. 9월 25일 SBS 편성표에 따르면 밤 10시 30분부터 ‘THE 이은결-추석특집 매직콘서트’가 방송된다. 지난 8월 세종문화회관 대극장에서 열린 이은결의 데뷔 30주년 기념 공연 ‘ONE OF ONE’의 실황과 함께, 그동안 ",
-        "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/09/25/1c2af77b-3825-443b-9cc5-1dd9d24650e8.jpg"
-    },
-    {
-        "title": "리센느, 한복 입고 추석 인사… \"한가위 야호~\" - edaily.co.kr",
-        "source": "edaily.co.kr",
-        "date": "2026-09-25",
-        "url": "https://www.edaily.co.kr/News/Read?newsId=01869606645583728&mediaCodeNo=257",
-        "summary": "왼쪽부터 리센느 리브, 메이, 제나, 원이, 미나미.(사진=더뮤즈엔터테인먼트) 걸그룹 리센느(리브·메이·제나·원이·미나미)가 한복을 곱게 차려입고 이데일리 독자들에게 추석 인사를 전했다. 리센느는 2년 전 발매한 ‘러브 어택’이 올해 역주행해 음원차트 1위에 오르는...",
-        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/09/PS26092500322.jpg"
-    },
-    {
-        "title": "리센느, 라이징 가수 브랜드평판 1위…2위 에이티즈 - JTBC",
-        "source": "JTBC",
-        "date": "2026-09-25",
-        "url": "https://news.jtbc.co.kr/article/NB12319989",
-        "summary": "그룹 리센느가 라이징 가수 브랜드평판 9월 1위에 올랐다. 25일 한국기업평판연구소는 \"리센느 브랜드는 음원, 광고, 방송, 영상 카테고리 빅...",
-        "image": "https://photo.jtbc.co.kr/news/jam_photo/202609/25/61178497-1aff-4040-8aa0-766ed21fcf93.jpg"
-    },
-    {
         "title": "'비서진' 결방…리센느 예고 - bntnews.co.kr",
         "source": "bntnews.co.kr",
         "date": "2026-09-25",
         "url": "https://www.bntnews.co.kr/article/view/bnt202609250164",
         "summary": "‘무엇이든 해줄지니-비서진’이 결방한다.25일 방송 예정이었던 SBS ‘무엇이든 해줄지니-비서진’(비서진)은 한 주 쉬어간다. 이날은 &lsqu",
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/25/bnt202609250373.jpg"
+    },
+    {
+        "title": "'전현무계획4' 이선민 \"리센느 원이와 콘텐츠→동시에 잘됐다\" - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-09-25",
+        "url": "https://www.news1.kr/entertain/broadcast-tv/6301703",
+        "summary": ""
+    },
+    {
+        "title": "리센느, 라이징 가수 브랜드평판 1위…2위 에이티즈 - JTBC",
+        "source": "JTBC",
+        "date": "2026-09-25",
+        "url": "https://news.jtbc.co.kr/article/NB12319989",
+        "summary": ""
+    },
+    {
+        "title": "민음사 책갈피·리센느 포카…편의점 빵, 이젠 '팬덤'을 판다 - 아이뉴스24",
+        "source": "아이뉴스24",
+        "date": "2026-09-25",
+        "url": "http://www.inews24.com/view/2008749",
+        "summary": "GS25 민음사빵, 누적판매 141만개&hellip;책갈피 수집열풍 CU 리센느빵 매출 30.9% 폭증&hellip;희귀포카 정가比 8배 출판사&middot;아이돌로 IP 확대&hellip;맛&middot;가격 넘어 콘텐츠 경쟁 편의점업계 베이커리 경쟁이 단순한 맛과 가격을 넘어 출판사",
+        "image": "https://image.inews24.com/v1/6f9ed67bff85a9.jpg"
     },
     {
         "title": "\"리센느 잘된 게 내 덕?\" 이선민, 전현무 몰아가기에 진땀 '뻘뻘'('전현무계획4') - 스포츠조선",
@@ -73,35 +103,12 @@ const NEWS_DATA = [
         "image": "https://www.breaknews.com/imgdata/breaknews_com/202608/2026081014324448.jpg"
     },
     {
-        "title": "'\"리센느 잘 된 건 이선민 덕?\" 이선민, 전현무 몰아가기에 '진땀' - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-09-25",
-        "url": "https://www.news1.kr/entertain/broadcast-tv/6301660",
-        "summary": ""
-    },
-    {
         "title": "신드롬급 파죽지세 입증한 리센느 에이티즈 성리 꺾고 라이징 가수 브랜드평판 1위 등극 - 지피코리아",
         "source": "지피코리아",
         "date": "2026-09-25",
         "url": "https://www.gpkorea.com/news/articleView.html?idxno=147029",
         "summary": "걸그룹 리센느(RESCENE)가 9월 라이징 가수 브랜드평판 정상을 차지하며 대세 존재감을 빛냈다.한국기업평판연구소는 지난 8월 25일부터 9월 25일까지 측정한 라이징 가수 브랜드 빅데이터 9286만여 개를 분석한 결과, 리센느(원이, 리브, 미나미, 메이, 제나)가 브랜드평판지수 8",
         "image": "https://cdn.gpkorea.com/news/photo/202609/147029_312519_1324.jpg"
-    },
-    {
-        "title": "전현무 “리센느가 잘 된 건, 네 탓?” 이선민 몰이(?) 몰두 (전현무계획 4) - 스포츠경향",
-        "source": "스포츠경향",
-        "date": "2026-09-25",
-        "url": "https://sports.khan.co.kr/article/202609250900013",
-        "summary": "‘전현무계획 4’에 출연한 전현무가 이선민에게 리센느의 성공과 관련한 지분을 추궁(?)한다. 25일 오후 방송되는 MBN·채널S의 예능 ‘전현무계획 4’에는 전현무가 대세 개그맨으로 등극한 이선민과 함께 경상남...",
-        "image": "https://images.khan.co.kr/article/2026/09/25/news-p.v1.20260925.bad0db008d6b455dbbd1e72481dfa3dc_P1.jpg"
-    },
-    {
-        "title": "\"리센느 잘된 건 내 덕(?)\"…이선민, 전현무 몰아가기에 급히 해명 (전현무계획4)[종합] - xportsnews.com",
-        "source": "xportsnews.com",
-        "date": "2026-09-25",
-        "url": "https://www.xportsnews.com/article/2200405",
-        "summary": "(엑스포츠뉴스 정연주 기자) 가수 이선민이 리센느 원이와 함께 주목받게 된 과정을 설명하다 뜻밖의 난처한 상황에 놓였다. 전현무가 \"이선민 덕이다\"라고 몰아가자 그는 진땀을 흘렸다. 25일 방송된 MBN·채널S '전현무계획4' 13회에서는 전현무가 '대세 개그맨' 이선민과 만났다.두 사",
-        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/0925/1790343858614830.webp"
     },
     {
         "title": "리센느 ‘공주 야호’ 72회 백제문화제 라인업 공개 - 충청일보",
@@ -112,27 +119,51 @@ const NEWS_DATA = [
         "image": "https://cdn.ccdailynews.com/news/thumbnail/202609/2442903_879659_4310_v150.jpg"
     },
     {
-        "title": "[Special MV] RESCENE(리센느) - LOVE ATTACK | LA, Deja Vu - youtu.be",
-        "source": "youtu.be",
+        "title": "\"리센느 잘된 건 내 덕(?)\"…이선민, 전현무 몰아가기에 급히 해명 (전현무계획4)[종합] - xportsnews.com",
+        "source": "xportsnews.com",
         "date": "2026-09-25",
-        "url": "https://youtu.be/mhp01rN8DpU?si=40Xyuz1msg6sj27O",
-        "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+        "url": "https://www.xportsnews.com/article/2200405",
+        "summary": "(엑스포츠뉴스 정연주 기자) 가수 이선민이 리센느 원이와 함께 주목받게 된 과정을 설명하다 뜻밖의 난처한 상황에 놓였다. 전현무가 \"이선민 덕이다\"라고 몰아가자 그는 진땀을 흘렸다. 25일 방송된 MBN·채널S '전현무계획4' 13회에서는 전현무가 '대세 개그맨' 이선민과 만났다.두 사",
+        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/0925/1790343858614830.webp"
     },
     {
-        "title": "이선민, 곽튜브 빈자리 채웠다…“리센느가 잘된 건 내 덕?” (전현무계획4) - enews.imbc.com",
-        "source": "enews.imbc.com",
+        "title": "리센느, 한복 입고 추석 인사… \"한가위 야호~\" - edaily.co.kr",
+        "source": "edaily.co.kr",
+        "date": "2026-09-25",
+        "url": "https://www.edaily.co.kr/News/Read?newsId=01869606645583728&mediaCodeNo=257",
+        "summary": "왼쪽부터 리센느 리브, 메이, 제나, 원이, 미나미.(사진=더뮤즈엔터테인먼트) 걸그룹 리센느(리브·메이·제나·원이·미나미)가 한복을 곱게 차려입고 이데일리 독자들에게 추석 인사를 전했다. 리센느는 2년 전 발매한 ‘러브 어택’이 올해 역주행해 음원차트 1위에 오르는...",
+        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/09/PS26092500322.jpg"
+    },
+    {
+        "title": "전현무 “리센느가 잘 된 건, 네 탓?” 이선민 몰이(?) 몰두 (전현무계획 4) - 스포츠경향",
+        "source": "스포츠경향",
+        "date": "2026-09-25",
+        "url": "https://sports.khan.co.kr/article/202609250900013",
+        "summary": "‘전현무계획 4’에 출연한 전현무가 이선민에게 리센느의 성공과 관련한 지분을 추궁(?)한다. 25일 오후 방송되는 MBN·채널S의 예능 ‘전현무계획 4’에는 전현무가 대세 개그맨으로 등극한 이선민과 함께 경상남...",
+        "image": "https://images.khan.co.kr/article/2026/09/25/news-p.v1.20260925.bad0db008d6b455dbbd1e72481dfa3dc_P1.jpg"
+    },
+    {
+        "title": "이선민, 곽튜브 빈자리 채웠다…“리센느가 잘된 건 내 덕?” (전현무계획4) - iMBC 연예",
+        "source": "iMBC 연예",
         "date": "2026-09-25",
         "url": "https://enews.imbc.com/News/RetrieveNewsInfo/519252",
         "summary": "코미디언 이선민이 리센느 원이의 ‘랜선 삼촌’이 된 사연을 전한다. 9월 25일 밤 방송되는 MBN·채널S ‘전현무계획4’ 13회에서는 전현무가 이선민과 함께 경상남도 국밥 대장정의 서막을 여는 현장이 펼쳐진다. 이날 전현무는 조째즈-장한별과 헤어진 뒤, 새로운 ‘먹친구’ 이선민과 만난",
         "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/09/25/9c0e08d5-461f-4a11-889a-9e7db6b1c61a.jpg"
     },
     {
-        "title": "[연예 인사이드] 리센느 '프리티 걸' 멜론 4위 대박…아이돌 기획사 너도나도 '과거 명곡' 찾는 까닭 - cbci.co.kr",
-        "source": "cbci.co.kr",
+        "title": "[연예 인사이드] 리센느 '프리티 걸' 멜론 4위 대박…아이돌 기획사 너도나도 '과거 명곡' 찾는 까닭 - CBC뉴스",
+        "source": "CBC뉴스",
         "date": "2026-09-25",
         "url": "https://www.cbci.co.kr/news/articleView.html?idxno=609949",
         "summary": "[CBC뉴스] 최근 음원 시장에서 과거 인기곡을 새롭게 해석한 리메이크곡이 잇따라 발표되며 주목받고 있다.리센느는 카라의 2008년 곡 '프리티 걸'(Pretty Girl)을 리메이크해 멜론 '톱100' 차트에서 최고 4위에 올랐다. 이들은 '러브 어택'(LOVE ATTACK)으로 차트",
         "image": "https://www.cbci.co.kr/news/thumbnail/202609/609949_418673_5345_v150.jpg"
+    },
+    {
+        "title": "[Special MV] RESCENE(리센느) - LOVE ATTACK | LA, Deja Vu - YouTube",
+        "source": "YouTube",
+        "date": "2026-09-25",
+        "url": "https://youtu.be/mhp01rN8DpU?si=40Xyuz1msg6sj27O",
+        "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
     },
     {
         "title": "\"리센느 잘된 건 이선민 덕이다?\"…원이 삼촌의 다급한 해명 (전현무계획4) · 쟁점 정리 - supple.kr",
@@ -143,16 +174,16 @@ const NEWS_DATA = [
         "image": "https://images.supple.kr/?url=https%3A%2F%2Fpickcon.co.kr%2Fsite%2Fdata%2Fimg_dir%2F2026%2F09%2F25%2F2026092580014_0.jpg"
     },
     {
-        "title": "‘전현무계획4’ 이선민, 리센느와의 인연 언급…25일 방송 - 스페셜타임스",
-        "source": "스페셜타임스",
+        "title": "\"리센느 잘된 건 이선민 덕?\"…전현무 몰이에 이선민 진땀 - mhnse.com",
+        "source": "mhnse.com",
         "date": "2026-09-25",
-        "url": "http://www.specialtimes.co.kr/news/articleView.html?idxno=467148",
-        "summary": "MBN·채널S ‘전현무계획4’ 13회가 25일 방송됩니다.이번 방송에서는 전현무가 ‘대세 개그맨’ 이선민과 함께 경상남도 국밥 대장정의 서막을 엽니다.전현무는 이선민을 보며 나이 차이를 언급했고, 이선민은 재치 있게 받아쳤습니다.이선민은 유튜브 콘텐츠를 통해 주목받게 된 과정과 함께",
-        "image": "https://cdn.specialtimes.co.kr/news/thumbnail/202609/467148_461166_5620_v150.jpg"
+        "url": "https://mhnse.com/news/articleView.html?idxno=1559705",
+        "summary": "전현무와 이선민이 MBN·채널S '전현무계획4'에서 경상남도 국밥을 찾는 대장정에 나선다. 두 사람은 서로를 놀리며 웃음을 자아내고, 이선민의 대세 비결에 대한 이야기도 담겨 방송에서 만나볼 수 있다.",
+        "image": "https://cdn.mhnse.com/mhnsports/2026/09/25160320/thumb_ccms_63162.jpg"
     },
     {
-        "title": "장원영·리센느 원이까지…'마성의 남자' 된 김성주 아들 - 머니투데이 - 머니투데이",
-        "source": "머니투데이",
+        "title": "장원영·리센느 원이까지…'마성의 남자' 된 김성주 아들 - 머니투데이 - mt.co.kr",
+        "source": "mt.co.kr",
         "date": "2026-09-24",
         "url": "https://www.mt.co.kr/entertainment/2026/09/24/2026092411004185840",
         "summary": "방송인 김성주의 아들 김민국에 대해 그룹 아이브 장원영이 \"내적 친밀감을 느낀다\"고 한 데 이어 리센느 원이가 \"결혼할 생각이었다\"고 밝히면서 그가 마성의 남자로 떠올랐다. 영상엔 리센느 멤버 원이와 미나미가 출연해 김성주, 안정환 등 MBC 해설위원들을 만나는 모습이 담겼다.",
@@ -163,8 +194,7 @@ const NEWS_DATA = [
         "source": "중앙일보",
         "date": "2026-09-24",
         "url": "https://www.joongang.co.kr/article/25464725",
-        "summary": "박찬욱 감독이 극찬한 K콘텐츠 촬영 명소",
-        "image": "https://pds.joongang.co.kr/news/FbMetaImage/202609/8055f43c-c6e4-492d-a1e9-18b7f61d19f6.jpg"
+        "summary": ""
     },
     {
         "title": "검증된 히트곡이 돌아온다…음원 시장, 리메이크 열풍 '새바람' - 연합뉴스",
@@ -183,6 +213,13 @@ const NEWS_DATA = [
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/25/bnt202609250122.jpg"
     },
     {
+        "title": "리센느, 트로트 부르자 ‘엄지척’ - 채널A",
+        "source": "채널A",
+        "date": "2026-09-24",
+        "url": "https://ichannela.com/news/detail/amp/000000552111.do",
+        "summary": ""
+    },
+    {
         "title": "전현무, 왜 이러나..\"아~ 리센느 잘된 건 이선민 덕이다?\" 몰이 시동 [전현무계획4] - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-09-24",
@@ -191,36 +228,12 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/25/starnews/20260925081009196qzbo.jpg"
     },
     {
-        "title": "리센느, 트로트 부르자 ‘엄지척’ - 채널A",
-        "source": "채널A",
-        "date": "2026-09-24",
-        "url": "https://ichannela.com/news/detail/amp/000000552111.do",
-        "summary": "2008년생 리센느 막내의 ’트로트 메들리’ 화제 ’리센느 막내’ 제나, 트로트 메들리 선보여 (18일) 제나, 용두산 엘레지 등 구성진 트로트 선보여 인터뷰 자료의 저작권은 채널A에 있습니다. 전문 게재나 인터...",
-        "image": "https://image.ichannela.com/images/channela/2026/09/24/000003142804/00000314280420260924180347166.webp"
-    },
-    {
-        "title": "리센느 잘 된 건 이선민 덕? “대표랑 통화도 했는데‥” 해명(전현무계획4) - 뉴스엔",
-        "source": "뉴스엔",
+        "title": "리센느 잘 된 건 이선민 덕? “대표랑 통화도 했는데‥” 해명(전현무계획4) - newsen.com",
+        "source": "newsen.com",
         "date": "2026-09-24",
         "url": "https://www.newsen.com/news_view.php?uid=202609250814471910&code=100100",
         "summary": "�������� �� �� �� �̼��� ���̴�? 9�� 25�� ��۵Ǵ� MBN��ä��S ����������ȹ4�� 13ȸ������ �������� �̼����� ��󳲵� ���� �������� ��������. �̳� �������� ��°��-���Ѻ��� �����",
         "image": "https://photo.newsen.com/news_photo/2026/09/25/202609250814471910_2.jpg"
-    },
-    {
-        "title": "“풍성하고 따뜻한 한가위 보내세요” 리센느→클유아 등 K팝 아이돌 추석 인사 [IS한가위] - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-09-24",
-        "url": "https://isplus.com/article/view/isp202609200172",
-        "summary": "국내외 무대를 수놓고 있는 K팝 아이돌 그룹들이 민족 대명절 한가위를 맞아 일간스포츠에 따뜻한 마음을 가득 담은 추석 인사를 보내왔다. 한글 그룹...",
-        "image": "https://isplus.com/data/isp/image/2026/09/20/isp20260920000357.800x.0.jpg"
-    },
-    {
-        "title": "[RE스타] 잔향이 더 깊은 향수처럼…볼수록 좋아지는 리센느 - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-09-24",
-        "url": "https://isplus.com/article/view/isp202609220082",
-        "summary": "“처음 스친 그때 이 향길 기억해 줘.”리센느의 노래 가사처럼, 처음에 은은하게 퍼지던 이들의 음악이 마침내 가요계에 짙은 잔향을 남기고 있...",
-        "image": "https://isplus.com/data/isp/image/2026/02/19/isp20260219000049.800x.0.jpg"
     },
     {
         "title": "\"리센느 잘된 건 네 덕분?\"…전현무, 이선민 몰이 시동('전현무계획4') - SPOTV NEWS",
@@ -231,20 +244,20 @@ const NEWS_DATA = [
         "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202609/1009508_2019591_1867.jpg"
     },
     {
+        "title": "“풍성하고 따뜻한 한가위 보내세요” 리센느→클유아 등 K팝 아이돌 추석 인사 [IS한가위] - 일간스포츠",
+        "source": "일간스포츠",
+        "date": "2026-09-24",
+        "url": "https://isplus.com/article/view/isp202609200172",
+        "summary": "국내외 무대를 수놓고 있는 K팝 아이돌 그룹들이 민족 대명절 한가위를 맞아 일간스포츠에 따뜻한 마음을 가득 담은 추석 인사를 보내왔다. 한글 그룹...",
+        "image": "https://isplus.com/data/isp/image/2026/09/20/isp20260920000357.800x.0.jpg"
+    },
+    {
         "title": "리센느 원이 결혼 언급에 ‘김성주子’ 김민국, 폭주…“식장 알아볼 것, 결혼식은 내년에” - 서울경제",
         "source": "서울경제",
         "date": "2026-09-24",
         "url": "https://www.sedaily.com/article/20094607",
         "summary": "방송인 김성주의 아들 김민국이 그룹 리센느 원이의 결혼 발언에 폭주하는 모습을 보였다. 김민국은 지난 22일 자신의 인스타그램에 “여러분은 혹 일언구정이라는 말을 들어봤나, 말 한마디가 아홉개의 솥 무게와 같다는 사자성어인데 그만큼 말 한마디 한마디가 무겁고 듣는 상대",
         "image": "https://wimg.sedaily.com/news/cms/2026/09/23/rcv.NEWS1.NEWS1.20260923.2026-09-23T091653_6299756_ENTERTAINMENTS_8122640_Z1.jpg"
-    },
-    {
-        "title": "이선민, 진땀 해명 \"어제 리센느 대표랑 통화도 했는데\"…전현무 몰아가기에 당황 (전현무계획4) - xportsnews.com",
-        "source": "xportsnews.com",
-        "date": "2026-09-24",
-        "url": "https://www.xportsnews.com/article/2200104",
-        "summary": "(엑스포츠뉴스 이예진 기자) 이선민이 그룹 리센느와의 특별한 인연을 공개한다. 리센느 원이의 '랜선 삼촌'으로 불린다는 이선민의 이야기에 전현무가 \"리센느가 잘된 건 이선민 덕이다?\"라고 몰아가며 웃음을 안긴다.25일 방송되는 MBN·채널S ‘전현무계획4’ 13회에서는 전현무가 ‘대세 ",
-        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/0925/1790294241224263.webp"
     },
     {
         "title": "2026년 38주차 써클차트, 영탁·리센느·헌트릭스·에스파 활약..뜨거운 인기 - 브레이크뉴스",
@@ -255,12 +268,12 @@ const NEWS_DATA = [
         "image": "https://www.breaknews.com/imgdata/breaknews_com/202609/2026092435451770.jpg"
     },
     {
-        "title": "[창간 19th] '존 시나 닮은꼴' 김무열부터 '야호' 리센느까지…'자고 일어나니 내가 월드스타상' (엑's 어워즈) - xportsnews.com",
-        "source": "xportsnews.com",
+        "title": "[RE스타] 잔향이 더 깊은 향수처럼…볼수록 좋아지는 리센느 - 일간스포츠",
+        "source": "일간스포츠",
         "date": "2026-09-24",
-        "url": "https://www.xportsnews.com/article/2197339",
-        "summary": "창간 19주년을 맞은 엑스포츠뉴스가 자체 시상식 [엑's 어워즈]를 통해 가요·방송·영화 등 다양한 분야에서 활약한 스타들을 조명하고, 바쁘게 돌아가는 연예계의 각종 이슈를 되짚어봅니다. [편집자주](엑스포츠뉴스 이창규 기자) 글로벌 OTT와 유튜브, SNS의 영향력이 커지면서 예상치 ",
-        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/0918/1789729304709446.webp"
+        "url": "https://isplus.com/article/view/isp202609220082",
+        "summary": "“처음 스친 그때 이 향길 기억해 줘.”리센느의 노래 가사처럼, 처음에 은은하게 퍼지던 이들의 음악이 마침내 가요계에 짙은 잔향을 남기고 있...",
+        "image": "https://isplus.com/data/isp/image/2026/02/19/isp20260219000049.800x.0.jpg"
     },
     {
         "title": "성리, 리센느·에이티즈 이어 라이징 가수 브랜드평판 3위 - 싱글리스트",
@@ -271,8 +284,8 @@ const NEWS_DATA = [
         "image": "https://cdn.slist.kr/news/thumbnail/202609/768712_1176478_3854_v150.jpg"
     },
     {
-        "title": "‘김성주 子’ 김민국, 리센느 원이 ‘결혼 고백’에 “23년 인생 드디어 꽃피나” - 세계일보",
-        "source": "세계일보",
+        "title": "‘김성주 子’ 김민국, 리센느 원이 ‘결혼 고백’에 “23년 인생 드디어 꽃피나” - segye.com",
+        "source": "segye.com",
         "date": "2026-09-23",
         "url": "https://www.segye.com/newsView/20260923504927",
         "summary": "방송인 김성주의 아들 김민국이 그룹 리센느 멤버 원이의 결혼 발언을 두고 사회관계망서비스(SNS)를 통해 너스레를 떨어 웃음을 안겼다. 원이는 지난 21일 MBC 스포츠국 유튜브 채널 ‘스탐’의 ‘일타강사 리센느’ 콘텐츠에 멤버 미나미와 함께 출연, 2026 아이치-나고야 아시안게임과 ",
@@ -430,6 +443,14 @@ const NEWS_DATA = [
         "image": "https://pimg.mk.co.kr/news/cms/202609/23/news-p.v1.20260923.d4a88f4feab64952828a0b8e3a75f401_R.png"
     },
     {
+        "title": "영탁·리센느·HUNTR/X·에스파, 38주차 써클차트 정상 장악 - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-09-23",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16210860",
+        "summary": "2026년 38주차 써클차트에서 영탁이 정규 3집 ‘GOGO’로 앨범·리테일 차트 1위를 차지하고, RESCENE(리센느)가 ‘LOVE ATTACK’으로 디지털·스트리밍 2관왕에 올랐으며, HUNTR/X ‘Golden’과 에스파 윈터 솔로 ‘Saddle Up’도 각 부문 1위를 기록했다",
+        "image": "https://cdn.topstarnews.net/news/photo/202609/16210860_2035300_4123_crop.jpg"
+    },
+    {
         "title": "‘김성주 子 김민국과 핑크빛’ 리센느 원이, 브랜드 평판 으뜸 - 스포츠경향",
         "source": "스포츠경향",
         "date": "2026-09-22",
@@ -442,16 +463,7 @@ const NEWS_DATA = [
         "source": "전자신문",
         "date": "2026-09-22",
         "url": "https://www.etnews.com/20260922000121",
-        "summary": "리센느(RESCENE)가 돌아온다. 더뮤즈엔터테인먼트에 따르면 리센드는 오는 11월 3일 네 번째 미니앨범 'PULSE'를 발매하고 팬들을 찾는다. 새 앨범 'PULSE'는 리센느가 매 앨범마다 선보여온 향기 콘셉트의 연",
-        "image": "https://img.etnews.com/news/article/2026/09/22/article_22092822491202.jpg"
-    },
-    {
-        "title": "“다른 여자 보면 눈 뽑겠다”…김성주 子 김민국, 리센느 원이 ‘결혼 발언’에 SNS 폭주 - 스포츠경향",
-        "source": "스포츠경향",
-        "date": "2026-09-22",
-        "url": "https://sports.khan.co.kr/article/202609230754003",
-        "summary": "방송인 김성주의 아들 김민국이 그룹 리센느 원이의 과거 결혼 발언에 장문의 글로 화답했다. 김민국은 22일 자신의 SNS에 “그렇게 됐습니다. 이 시대 최악의 남자 인사 올립니다”라는 글과 함께 여러 장의 사진...",
-        "image": "https://images.khan.co.kr/article/2026/09/23/news-p.v1.20260923.a64f8e3ac8e14d4588c0bfcec32e2bc7_P1.png"
+        "summary": ""
     },
     {
         "title": "리센느, 11월 3일 미니 4집 '펄스'…4개월 만에 컴백 - 연합뉴스",
@@ -460,6 +472,14 @@ const NEWS_DATA = [
         "url": "https://www.yna.co.kr/view/AKR20260922067400005",
         "summary": "(서울=연합뉴스) 김선우 기자 = 그룹 리센느가 오는 11월 3일 미니 4집 '펄스'(PULSE)를 발매한다고 소속사 더뮤즈엔터테인먼트가 22일...",
         "image": "https://img8.yna.co.kr/etc/inner/KR/2026/09/22/AKR20260922067400005_01_i_P4.jpg"
+    },
+    {
+        "title": "“다른 여자 보면 눈 뽑겠다”…김성주 子 김민국, 리센느 원이 ‘결혼 발언’에 SNS 폭주 - 스포츠경향",
+        "source": "스포츠경향",
+        "date": "2026-09-22",
+        "url": "https://sports.khan.co.kr/article/202609230754003",
+        "summary": "방송인 김성주의 아들 김민국이 그룹 리센느 원이의 과거 결혼 발언에 장문의 글로 화답했다. 김민국은 22일 자신의 SNS에 “그렇게 됐습니다. 이 시대 최악의 남자 인사 올립니다”라는 글과 함께 여러 장의 사진...",
+        "image": "https://images.khan.co.kr/article/2026/09/23/news-p.v1.20260923.a64f8e3ac8e14d4588c0bfcec32e2bc7_P1.png"
     },
     {
         "title": "1위 리센느 원이, 2위 방탄소년단 지민, 3위 빅뱅 지드래곤 - starnewskorea.com",
@@ -475,11 +495,11 @@ const NEWS_DATA = [
         "date": "2026-09-22",
         "url": "https://www.viva100.com/article/20260922500162",
         "summary": "그룹 리센느(RESCENE)가 오는 11월 새 앨범으로 컴백한다. 22일 소속사 더뮤즈엔터테인먼트에 따르면 리센느(원이, 리브, 미나미, 메이, 제나)는 오는 11월 3일 네 번째 미니앨범 ‘PULSE’(펄스)를 발매한다. 이번 신보는 지난 7월 선보인 리메이크 싱글",
-        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/09/22/.cache/512/20260922500160.jpg?v=20260926015340"
+        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/09/22/.cache/512/20260922500160.jpg?v=20260926061817"
     },
     {
-        "title": "이서진, 리센느에 “돈이 다야” 조언 하더니…촬영장서 “이게 다 돈이다, 웃어” - 서울신문",
-        "source": "서울신문",
+        "title": "이서진, 리센느에 “돈이 다야” 조언 하더니…촬영장서 “이게 다 돈이다, 웃어” - seoul.co.kr",
+        "source": "seoul.co.kr",
         "date": "2026-09-22",
         "url": "https://www.seoul.co.kr/news/entertainment/starinterN/2026/09/22/20260922500228",
         "summary": "배우 이서진이 신인 걸그룹 리센느와 예능 촬영을 하며 세대 차이를 실감하는 모습이 공개됐다. 그는 멤버들에게 “돈을 많이 벌면 행복은 오게 되어 있다”고 조언했고, “돈이 다야”라고 단호하게 말해 웃음을 자아냈다.",
@@ -502,8 +522,8 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/23/poctan/20260923082109816jlgy.jpg"
     },
     {
-        "title": "리센느, 역주행 열기 한가득 안고 11월 3일 컴백 - 머니투데이 - 머니투데이",
-        "source": "머니투데이",
+        "title": "리센느, 역주행 열기 한가득 안고 11월 3일 컴백 - 머니투데이 - mt.co.kr",
+        "source": "mt.co.kr",
         "date": "2026-09-22",
         "url": "https://www.mt.co.kr/entertainment/2026/09/22/2026092209087236282",
         "summary": "걸그룹 리센느가 11월 3일 컴백한다. 소속사 더뮤즈엔터테인먼트는 22일 \"리센느가 11월 3일 미니 4집 'PULSE'(펄스)를 발매한다\"고 밝혔다. 실물 앨범으로는 지난해 11월 발표한 미니 3집 'lip bomb'(립 밤) 이후 1년 만이다.",
@@ -574,27 +594,18 @@ const NEWS_DATA = [
         "image": "https://cdn.goodkyung.com/news/thumbnail/202609/291670_264899_328_v150.jpg"
     },
     {
-        "title": "‘김성주子’ 김민국, 리센느 원이 “결혼하고 싶었다” 한마디에 폭주 “내가 시집갈 것” - 뉴스엔",
-        "source": "뉴스엔",
+        "title": "‘김성주子’ 김민국, 리센느 원이 “결혼하고 싶었다” 한마디에 폭주 “내가 시집갈 것” - newsen.com",
+        "source": "newsen.com",
         "date": "2026-09-22",
         "url": "https://m.newsen.com/news_view.php?uid=202609230722582410",
         "summary": ""
-    },
-    {
-        "title": "리센느 미나미, 첫 예능 단독 출연에도 1위…'라스'도 올해 최고 기록 - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-09-22",
-        "url": "https://v.daum.net/v/uAD98FYCrE",
-        "summary": "[마이데일리 = 김하영 기자] 그룹 리센느(RESENE) 멤버 미나미가 첫 단독 예능 출연으로 화제성 1위에 오르며 존재감을 입증했다. 미나미는 22일 굿데이터코퍼레이션 펀덱스(FUNdex)가 발표한 9월 3주 차 TV-OTT 비드라마 출연자 화제성 조사에서 1위를 차지했다. 리센느 멤",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/22/mydaily/20260922115151710gxmz.jpg"
     },
     {
         "title": "멜론, MMA2026 2차 라인업 공개…최예나·아일릿·리센느·하츠투하츠 합류 - 메트로신문",
         "source": "메트로신문",
         "date": "2026-09-22",
         "url": "https://www.metroseoul.co.kr/article/20260922500165",
-        "summary": "올해 멜론 차트에서 두각을 나타낸 여성 아티스트들이 'MMA2026' 무대에 오른다. 카카오엔터테인먼트의 음악 플랫폼 멜론은 오는 11월14~15일 서울 고척스카이돔에서 열리는 '제18회 멜론뮤직어워드(MMA2026)'의 2차 라인업을 22일 공개했다. 2차 라인업에는",
-        "image": "https://cdn.emetro.co.kr/data2/content/image/2026/09/22/.cache/512/20260922500166.jpg"
+        "summary": ""
     },
     {
         "title": "CU, '리센느 빵' 출시 나흘 만에 10만개 판매 - 연합뉴스",
@@ -612,6 +623,14 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
+        "title": "[기업] CU '리센느 빵' 사흘 만에 10만 개 판매...22일 추가 출시 - YTN",
+        "source": "YTN",
+        "date": "2026-09-21",
+        "url": "https://www.ytn.co.kr/_ln/0102_202609211744411885",
+        "summary": "BGF리테일이 운영하는 편의점 CU가 걸그룹 리센느와 협업한 빵이 사흘 만에 10만 개 팔렸습니다. BGF리테일은 지난 17일 출시된 리센느와의 협업 옥수수크림빵이 출시 하루 만에 사실상 모두 팔렸다고 오늘(21일) 밝혔습니다. CU는 내일(22일) 딸기잼 샌드와 시나몬 롤 등 2종의 ",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/0921/202609211744411885_t.jpg"
+    },
+    {
         "title": "이서진, 리센느에 현실 조언 “돈 많이 벌면 행복은 오게 돼” - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-09-21",
@@ -620,12 +639,12 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/22/segye/20260922083241314bmmw.jpg"
     },
     {
-        "title": "리센느, 11월 3일 ‘펄스’ 컴백 - bntnews.co.kr",
-        "source": "bntnews.co.kr",
+        "title": "\"돈 많이 벌면 행복 따라온다\"…'금수저' 이서진, 리센느에 조언 - 머니투데이 - mt.co.kr",
+        "source": "mt.co.kr",
         "date": "2026-09-21",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202609220015",
-        "summary": "걸그룹 리센느가 약 4개월 만에 신곡으로 돌아온다. 오는 11월 미니 4집 ‘펄스’를 발매하고 컴백 활동에 나선다.소속사 더뮤즈엔터테인먼트에",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/22/bnt202609220040.jpg"
+        "url": "https://www.mt.co.kr/entertainment/2026/09/22/2026092208403431702",
+        "summary": "금융계 로열패밀리 출신으로 알려진 배우 이서진(55)이 그룹 리센느에게 현실적인 조언을 건넸다. 영상엔 평균 나이 56.5세의 이서진·김광규가 평균 나이 20.6세 리센느 수발에 나선 모습이 담겼다.",
+        "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/09/2026092208403431702_1.jpg"
     },
     {
         "title": "리센느, 11월 3일 미니 4집 컴백 - starnewskorea.com",
@@ -634,14 +653,6 @@ const NEWS_DATA = [
         "url": "https://www.starnewskorea.com/music/2026/09/22/2026092207003675113",
         "summary": "걸그룹 리센느(RESCENE·원이, 리브, 미나미, 메이, 제나)가 오는 11월 3일 미니 4집으로 돌아온다. 9월 22일 소속사 더뮤즈엔터테인먼트에 따르면, 리센느는 오는 11월 3일 미니 4집 'PULSE'(펄스)를 발매하고 본격적인 컴백 활동에 나선다. 이번 컴백은 지난 7월 리메",
         "image": "https://image.starnewskorea.com/21/2026/09/2026092207003675113_1.jpg"
-    },
-    {
-        "title": "\"돈 많이 벌면 행복 따라온다\"…'금수저' 이서진, 리센느에 조언 - 머니투데이 - 머니투데이",
-        "source": "머니투데이",
-        "date": "2026-09-21",
-        "url": "https://www.mt.co.kr/entertainment/2026/09/22/2026092208403431702",
-        "summary": "금융계 로열패밀리 출신으로 알려진 배우 이서진(55)이 그룹 리센느에게 현실적인 조언을 건넸다. 영상엔 평균 나이 56.5세의 이서진·김광규가 평균 나이 20.6세 리센느 수발에 나선 모습이 담겼다.",
-        "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/09/2026092208403431702_1.jpg"
     },
     {
         "title": "[가요소식] MMA 2026에 리센느·아일릿·하츠투하츠 출연 - 연합뉴스",
@@ -675,8 +686,8 @@ const NEWS_DATA = [
         "image": "https://images.khan.co.kr/article/2026/09/22/news-p.v1.20260922.4bf2191af1904930ac40eae14763c188_P1.jpg"
     },
     {
-        "title": "리센느, 맥박에 닿아 번지는 향기…1년 만의 실물 음반 '펄스' - newsis.com",
-        "source": "newsis.com",
+        "title": "리센느, 맥박에 닿아 번지는 향기…1년 만의 실물 음반 '펄스' - 뉴시스",
+        "source": "뉴시스",
         "date": "2026-09-21",
         "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260922_0003799349",
         "summary": "[서울=뉴시스]이재훈 기자 = 신흥 국민 걸그룹 '리센느(RESCENE)'가 1년 만에 실물 음반을 낸다",
@@ -722,16 +733,16 @@ const NEWS_DATA = [
         "image": "https://image.zdnet.co.kr/2026/09/15/6a881fec4c8ce17c281cb7f8f7ee67ca.jpg"
     },
     {
-        "title": "역주행 신화 리센느 소속사 74배 잭팟…중소돌 스타트업에 뭉칫돈 - 머니투데이 - 머니투데이",
-        "source": "머니투데이",
+        "title": "역주행 신화 리센느 소속사 74배 잭팟…중소돌 스타트업에 뭉칫돈 - 머니투데이 - mt.co.kr",
+        "source": "mt.co.kr",
         "date": "2026-09-14",
         "url": "https://www.mt.co.kr/future/2026/09/14/2026091017271183280",
         "summary": "[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 '데이터랩'에서 볼 수 있습니다. ] 걸그룹 '리센느(RESCENE)'의 역주행 신화가 벤처투자업계에서 주목받고 있다.",
         "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/09/2026091017271183280_1.jpg"
     },
     {
-        "title": "당신은 리센느를 좋아할 가능성이 높습니다 - 머니투데이",
-        "source": "머니투데이",
+        "title": "당신은 리센느를 좋아할 가능성이 높습니다 - mt.co.kr",
+        "source": "mt.co.kr",
         "date": "2026-09-13",
         "url": "https://www.mt.co.kr/tech/2026/09/13/2026091010433111341",
         "summary": "유튜브 홈 화면을 내리다가 우연히 리센느 영상을 발견한 당신 당신은 리센느를 좋아할 가능성이 높다. 적어도 당신이 발견한 그 영상은 마음에 들 확률이 상당하다. 리센느가 이른바 '중소돌(중소기획사에서 기획한 아이돌)의 기적'을 쓴 걸그룹이라는 사실을 모른다고 해도 그렇다.",
@@ -770,27 +781,11 @@ const NEWS_DATA = [
         "image": "https://img3.yna.co.kr/etc/inner/KR/2026/09/07/AKR20260907150600030_01_i_P4.jpg"
     },
     {
-        "title": "그레인온, 리센느 공식 모델 발탁…멤버별 매력 담은 ‘리센느 에디션’ 출시 - khan.co.kr",
-        "source": "khan.co.kr",
+        "title": "그레인온, 리센느 공식 모델 발탁…멤버별 매력 담은 ‘리센느 에디션’ 출시 - 경향신문",
+        "source": "경향신문",
         "date": "2026-09-08",
         "url": "https://www.khan.co.kr/article/202609081555018",
         "summary": "고대곡물 전문기업 그레인온(GRAINON)이 걸그룹 리센느(RESCENE)를 공식 모델로 발탁하고, 멤버별 개성과 매력을 담은 ‘RESCENE EDITION(리센느 에디션)’ 캡슐레이션 효소를 선보인다. 그레인온과 리센느는 앞서 레드와인비니거 브랜드 카사베르디를 통해 호흡을 맞춘 바 있",
         "image": "https://img.khan.co.kr/news/2026/09/08/202609081010258103443_0.jpg"
-    },
-    {
-        "title": "'역시 대세' 리센느가 먹은 '짜르르' 매출 얼마나 올랐나 - 한경매거진&북",
-        "source": "한경매거진&북",
-        "date": "2026-09-08",
-        "url": "https://magazine.hankyung.com/business/article/202609080729b",
-        "summary": "'역시 대세' 리센느가 먹은 '짜르르' 매출 얼마나 올랐나, 강홍민 기자, 이슈",
-        "image": "https://img.hankyung.com/photo/202609/AD.45602850.1.jpg"
-    },
-    {
-        "title": "1위 리센느 원이, 2위 리센느 제나, 3위 리센느 리브 - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-09-02",
-        "url": "https://v.daum.net/v/tYz0yaV7hI",
-        "summary": "[스타뉴스 | 문완식 기자] 리센느 원이, 제나, 리브(왼쪽부터) /사진=스타뉴스 DB걸그룹 리센느가 9월 신인 아이돌 개인 브랜드평판 톱5를 싹쓸이 하며 대세 중의 대세 존재감을 빛냈다. 9월 2일 한국기업평판연구소가 발표한 신인 아이돌 개인 브랜드평판 2026년 9월 빅데이터 분석결",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/02/starnews/20260902070221531oahc.jpg"
     }
 ];
