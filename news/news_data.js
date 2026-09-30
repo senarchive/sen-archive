@@ -1,14 +1,6 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-09-30T12:12:14.101Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-09-30T22:02:00.317Z) */
 
 const NEWS_DATA = [
-    {
-        "title": "대세는 대세…리센느 ‘러브어택’ 지니 월간차트 두 달 연속 1위 - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-09-30",
-        "url": "https://isplus.com/article/view/isp202609300053",
-        "summary": "그룹 리센느가 ‘러브어택’으로 2개월 연속 음악플랫폼 지니 월간차트 1위를 차지하며 역주행 최강자 면모를 과시했다.30일 음악플랫폼 지니 월...",
-        "image": "https://isplus.com/data/isp/image/2026/09/14/isp20260914000356.800x.0.jpg"
-    },
     {
         "title": "리센느, 소속사 일처리도 역주행… \"때가 어느 땐데 '조공'을?\" - v.daum.net",
         "source": "v.daum.net",
@@ -18,20 +10,76 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/30/mydaily/20260930181632955sjte.jpg"
     },
     {
-        "title": "\"광고를 그렇게 찍고…\" 리센느, '인이어'는 팬 선물로? 서포트 공지 '갑론을박' [엑's 이슈] - xportsnews.com",
-        "source": "xportsnews.com",
+        "title": "대세는 대세…리센느 ‘러브어택’ 지니 월간차트 두 달 연속 1위 - 일간스포츠",
+        "source": "일간스포츠",
         "date": "2026-09-30",
-        "url": "https://www.xportsnews.com/article/2202617",
-        "summary": "(엑스포츠뉴스 정민경 기자) 그룹 리센느의 멤버 생일 서포트 공지를 두고 팬들 사이에서 갑론을박이 이어지고 있다.지난 28일 리센느 소속사 더뮤즈엔터테인먼트는 멤버 리브의 생일을 앞두고 생일 서포트(선물)와 관련한 안내를 공지했다.해당 공지에는 생일 서포트 신청 및 발송 기간을 비롯해 ",
-        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/0930/1790763480825626.webp"
+        "url": "https://isplus.com/article/view/isp202609300053",
+        "summary": "그룹 리센느가 ‘러브어택’으로 2개월 연속 음악플랫폼 지니 월간차트 1위를 차지하며 역주행 최강자 면모를 과시했다.30일 음악플랫폼 지니 월...",
+        "image": "https://isplus.com/data/isp/image/2026/09/14/isp20260914000356.800x.0.jpg"
     },
     {
-        "title": "리센느 제나·원이, 삼성라이온즈파크 뜬다 - bntnews.co.kr",
-        "source": "bntnews.co.kr",
+        "title": "포켓몬·리센느·민음사까지… 빵에 꽂힌 ‘콜라보 굿즈’ - 국민일보",
+        "source": "국민일보",
         "date": "2026-09-30",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202609300157",
-        "summary": "리센느(RESCENE) 제나와 원이가 야구장에 뜬다.삼성 라이온즈는 오는 10월 1일 대구 삼성라이온즈파크에서 열리는 삼성 라이온즈와 한화 이글스의 홈경기",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/30/bnt202609300249.jpg"
+        "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000018814&code=11151600&sid1=eco&stg=ws_real",
+        "summary": "빵이 최근 유통가의 단기 유행을 이끄는 대세 ‘굿즈’ 품목으로 떠올랐다. 특히 편의점 업계의 활용도가 높다. 아이돌 그룹과 애니메이션 등 팬층이 두터운 콘텐츠와 빵을 결합한 ‘콜라보 굿즈＇가 봇물처럼 쏟아지고 있다. 편의점 빵 제조사가 ‘맛’을 변주하기 쉽다는",
+        "image": "https://image.kmib.co.kr/online_image/2026/1001/01100201.20260930501393.jpg"
+    },
+    {
+        "title": "[빅데이터로본다] 신인 아이돌 개인 2026년 10월 브랜드평판... 1위 리센느 제나, 2위 리센느 원이, 3위 리센느 리브 - 일간투데이",
+        "source": "일간투데이",
+        "date": "2026-09-30",
+        "url": "https://www.dtoday.co.kr/news/articleView.html?idxno=794624",
+        "summary": "[일간투데이 박선영 기자] 신인 아이돌 개인 브랜드평판 2026년 10월 빅데이터 분석결과, 1위 리센느 제나 브랜드로 분석됐다.한국기업평판연구소는 신인 아이돌 개인 브랜드평판 빅데이터 분석을 위해 2026년 9월 2일부터 2026년 10월 2일까지 신인 아이돌 개인",
+        "image": "https://cdn.dtoday.co.kr/news/thumbnail/202609/794624_666849_825_v150.jpg"
+    },
+    {
+        "title": "리센느 제나·원이, 신제품 받더니 삼성 라이온즈 시구·시타까지 - 네이트",
+        "source": "네이트",
+        "date": "2026-09-30",
+        "url": "https://news.nate.com/view/20260930n08173?mid=e1100",
+        "summary": "�Ѵ��� ���� ���� : ������ ȭ�� - ���� : ������ ����, ����./�Ｚ ���̿��� [���̵��ϸ� = �赵�� ����] ������ ���̰� �߱��忡 ���. �׷� ������ ������ ���̴� ���� 1�� �뱸 �Ｚ���̿���",
+        "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/my/2026/09/30/2026093009284090317_l.png"
+    },
+    {
+        "title": "코르티스·NCT위시·앤더블·리센느, '대한민국문화연예대상' 스포트라이트 부문 놓고 치열한 '팬덤 경쟁' - SPOTV NEWS",
+        "source": "SPOTV NEWS",
+        "date": "2026-09-30",
+        "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1010615",
+        "summary": "코르티스, NCT 위시, 앤더블, 리센느 등이 2026 대한민국문화연예대상 '스포트라이트 부문' 수상 후보에 올라 치열한 경쟁을 예고하고 있다. 11월 24일 서울 논현동 엘리에나호텔에서 열리는 제34회 2026 대한민국문화연예대상은 '글로벌 팬스 초이스'(GLOBAL FANS’ CHO",
+        "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202609/1010615_2022250_9495.jpg"
+    },
+    {
+        "title": "포켓몬·리센느·민음사까지… 빵에 꽂힌 ‘콜라보 굿즈’ - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-30",
+        "url": "https://v.daum.net/v/20261001021058491",
+        "summary": "빵이 최근 유통가의 단기 유행을 이끄는 대세 ‘굿즈’ 품목으로 떠올랐다. 특히 편의점 업계의 활용도가 높다. 아이돌 그룹과 애니메이션 등 팬층이 두터운 콘텐츠와 빵을 결합한 ‘콜라보 굿즈＇가 봇물처럼 쏟아지고 있다. 편의점 빵 제조사가 ‘맛’을 변주하기 쉽다는 점에서 품목의 형태도 다양",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/01/kukminilbo/20261001021059381nsdv.jpg"
+    },
+    {
+        "title": "리센느, 신인 아이돌 브랜드평판 1위… 코르티스·이즈나 順 - 핀포인트뉴스",
+        "source": "핀포인트뉴스",
+        "date": "2026-09-30",
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=491631",
+        "summary": "신인 아이돌그룹 브랜드평판 10월 조사에서 리센느가 1위를 차지했다. 코르티스와 이즈나가 뒤를 이었다. 특히 이즈나는 지난달과 비교해 브랜드평판지수가 크게 뛰면서 3위까지 올라 눈길을 끌었다.한국기업평판연구소는 1일 신인 아이돌그룹 브랜드평판 2026년 10월 빅데이터 분석 결과를 발표",
+        "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/491631_477415_5329_v150.jpg"
+    },
+    {
+        "title": "“조공 요구냐vs단순 안내일 뿐”…리센느 소속사 ‘생일 공지’에 갑론을박 터진 이유 - mhnse.com",
+        "source": "mhnse.com",
+        "date": "2026-09-30",
+        "url": "https://mhnse.com/news/articleView.html?idxno=1565632",
+        "summary": "걸그룹 리센느 소속사가 멤버 리브의 생일 서포트 공지로 팬들과 갑론을박을 벌였다. 고가 장비의 선물 요청이 암시돼 비판이 일고 있는 가운데, 일부 팬들은 이를 단순 안내로 해석하며 방어하고 있다.",
+        "image": "https://cdn.mhnse.com/mhnsports/2026/09/30205051/thumb_ccms_64757-1.jpg"
+    },
+    {
+        "title": "리센느, 소속사 일처리도 역주행… \"때가 어느 땐데 `조공`을?\" - 마이데일리",
+        "source": "마이데일리",
+        "date": "2026-09-30",
+        "url": "https://mydaily.co.kr/page/view/2026093018150927808",
+        "summary": "리센느 / 송일섭 기자...",
+        "image": "https://mydaily.co.kr/photos/2026/09/30/2026093018150721250_l.jpg"
     },
     {
         "title": "리센느, 아이돌차트 9월 3주차 아차랭킹 1위..2위 아이유·3위 아이들 소연 - 브레이크뉴스",
@@ -42,12 +90,28 @@ const NEWS_DATA = [
         "image": "https://www.breaknews.com/imgdata/breaknews_com/202609/2026092209463723.jpg"
     },
     {
-        "title": "Z세대 아이돌이 부른 트로트…리센느 제나 영상 1300만뷰 돌파 - 세계일보",
-        "source": "세계일보",
+        "title": "리센느 제나·원이, 삼성라이온즈파크 뜬다 - bntnews.co.kr",
+        "source": "bntnews.co.kr",
         "date": "2026-09-30",
-        "url": "https://www.segye.com/newsView/20260930505756",
-        "summary": "그룹 리센느의 멤버 제나가 부른 트로트 메들리 영상이 1300만 조회수를 넘어서며 온라인에서 화제를 이어가고 있다. 제나의 커버를 계기로 박상철의 ‘빵빵’ 등 원곡에 대한 관심도 다시 높아지는 모습이다. 지난 18일 리센느 멤버 원이의 운영하는 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립",
-        "image": "https://www.segye.com/content/image/2026/09/30/20260930508253.png"
+        "url": "https://www.bntnews.co.kr/article/view/bnt202609300157",
+        "summary": "리센느(RESCENE) 제나와 원이가 야구장에 뜬다.삼성 라이온즈는 오는 10월 1일 대구 삼성라이온즈파크에서 열리는 삼성 라이온즈와 한화 이글스의 홈경기",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/30/bnt202609300249.jpg"
+    },
+    {
+        "title": "\"광고를 그렇게 찍고…\" 리센느, '인이어'는 팬 선물로? 서포트 공지 '갑론을박' [엑's 이슈] - xportsnews.com",
+        "source": "xportsnews.com",
+        "date": "2026-09-30",
+        "url": "https://www.xportsnews.com/article/2202617",
+        "summary": "(엑스포츠뉴스 정민경 기자) 그룹 리센느의 멤버 생일 서포트 공지를 두고 팬들 사이에서 갑론을박이 이어지고 있다.지난 28일 리센느 소속사 더뮤즈엔터테인먼트는 멤버 리브의 생일을 앞두고 생일 서포트(선물)와 관련한 안내를 공지했다.해당 공지에는 생일 서포트 신청 및 발송 기간을 비롯해 ",
+        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/0930/1790763480825626.webp"
+    },
+    {
+        "title": "\"거제 야호\" 리센느, 이번엔 트로트로 1400만뷰…장윤정·박상철도 덩달아 MZ세대 곁으로 [엑's 이슈] - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-30",
+        "url": "https://v.daum.net/v/20260930182143288",
+        "summary": "(엑스포츠뉴스 장인영 기자) 그룹 리센느가 이번엔 트로트로 MZ세대를 사로잡고 있다. 최근 제나는 유튜브 채널 '안녕하세요원이입니다잘부탁드립니다'를 통해 추석 특집으로 트로트 메들리를 선보였다. 영상에서 제나는 고봉산의 '용두산 엘레지'를 비롯해 강진의 '인사', 박상철의 '빵빵', 오",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/30/xportsnews/20260930182145016rkva.jpg"
     },
     {
         "title": "193위서 시작해 1위까지…리센느 ‘러브어택’, 지니 2개월 연속 정상 - 지피코리아",
@@ -66,44 +130,12 @@ const NEWS_DATA = [
         "image": "https://images.khan.co.kr/article/2026/09/30/news-p.v1.20260930.e73d3d1f873445e493e398adbc9aba8c_P1.png"
     },
     {
-        "title": "\"거제 야호\" 리센느, 이번엔 트로트로 1400만뷰…장윤정·박상철도 덩달아 MZ세대 곁으로 [엑's 이슈] - xportsnews.com",
-        "source": "xportsnews.com",
-        "date": "2026-09-30",
-        "url": "https://www.xportsnews.com/article/2202511",
-        "summary": "(엑스포츠뉴스 장인영 기자) 그룹 리센느가 이번엔 트로트로 MZ세대를 사로잡고 있다. 최근 제나는 유튜브 채널 '안녕하세요원이입니다잘부탁드립니다'를 통해 추석 특집으로 트로트 메들리를 선보였다.영상에서 제나는 고봉산의 '용두산 엘레지'를 비롯해 강진의 '인사', 박상철의 '빵빵', 오승",
-        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/0930/1790749718716293.webp"
-    },
-    {
         "title": "리센느 제나·원이, 신제품 받더니 삼성 라이온즈 시구·시타까지 - 마이데일리",
         "source": "마이데일리",
         "date": "2026-09-30",
         "url": "https://mydaily.co.kr/page/view/2026093009325266261",
         "summary": "리센느 제나, 원이./삼성 라이온즈...",
         "image": "https://mydaily.co.kr/photos/2026/09/30/2026093009284090317_l.png"
-    },
-    {
-        "title": "코르티스·NCT위시·앤더블·리센느, '대한민국문화연예대상' 스포트라이트 부문 놓고 치열한 '팬덤 경쟁' - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-09-30",
-        "url": "https://v.daum.net/v/20260930165657209",
-        "summary": "[스포티비뉴스=김원겸 기자]코르티스, NCT 위시, 앤더블, 리센느 등이 2026 대한민국문화연예대상 '스포트라이트 부문' 수상 후보에 올라 치열한 경쟁을 예고하고 있다. 11월 24일 서울 논현동 엘리에나호텔에서 열리는 제34회 2026 대한민국문화연예대상은 '글로벌 팬스 초이스'(G",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/30/spotvnews/20260930165658395vjti.jpg"
-    },
-    {
-        "title": "도미노피자, 고객만족도 12년 연속 1위…리센느 앞세워 Z세대 공략 - 이투데이",
-        "source": "이투데이",
-        "date": "2026-09-30",
-        "url": "https://www.etoday.co.kr/news/view/2630910?trc=main_list_news",
-        "summary": "하이프로틴 ·트리플 치즈 버스트 등 메뉴 다양화…자사앱 편의성 ↑걸그룹 리센느 모델 발탁·무신사 협업 등 젊은 고객 겨냥 마케팅 확대(사진제공=도미",
-        "image": "https://img.etoday.co.kr/pto_db/2026/09/20260930141023_2395196_996_1408.jpg"
-    },
-    {
-        "title": "“조공 요구냐vs단순 안내일 뿐”…리센느 소속사 ‘생일 공지’에 갑론을박 터진 이유 - mhnse.com",
-        "source": "mhnse.com",
-        "date": "2026-09-30",
-        "url": "https://mhnse.com/news/articleView.html?idxno=1565632",
-        "summary": "걸그룹 리센느 소속사가 멤버 리브의 생일 서포트 공지로 팬들과 갑론을박을 벌였다. 고가 장비의 선물 요청이 암시돼 비판이 일고 있는 가운데, 일부 팬들은 이를 단순 안내로 해석하며 방어하고 있다.",
-        "image": "https://cdn.mhnse.com/mhnsports/2026/09/30205051/thumb_ccms_64757-1.jpg"
     },
     {
         "title": "‘리센느 삼촌’ 이선민, 월수입 0원→5500만 원?… 재산 역추적에 ‘진땀’ (‘전현무계획4’) - mhnse.com",
@@ -114,27 +146,20 @@ const NEWS_DATA = [
         "image": "https://cdn.mhnse.com/mhnsports/2026/09/30172720/thumb_ccms_64243.jpg"
     },
     {
-        "title": "리센느, ‘러브어택’ 역주행 타고 2개월 연속 지니 월간차트 1위 - 싱글리스트",
-        "source": "싱글리스트",
+        "title": "도미노피자, 고객만족도 12년 연속 1위…리센느 앞세워 Z세대 공략 - 이투데이",
+        "source": "이투데이",
         "date": "2026-09-30",
-        "url": "https://www.slist.kr/news/articleView.html?idxno=769832",
-        "summary": "그룹 리센느가 ‘러브어택’으로 지니 월간차트 정상을 두 달 연속 지켰다.KT지니뮤직이 공개한 9월 월간차트에 따르면 리센느의 ‘러브어택’은 1위를 차지했다. 전월에 이어 다시 한번 정상에 오르며 장기 흥행을 이어갔다.‘러브어택’은 이른바 ‘거제 야호’ 밈이 확산된 이후 차트에서 역주행을",
-        "image": "https://cdn.slist.kr/news/thumbnail/202609/769832_1178026_1328_v150.jpg"
+        "url": "https://www.etoday.co.kr/news/view/2630910?trc=main_list_news",
+        "summary": "하이프로틴 ·트리플 치즈 버스트 등 메뉴 다양화…자사앱 편의성 ↑걸그룹 리센느 모델 발탁·무신사 협업 등 젊은 고객 겨냥 마케팅 확대(사진제공=도미",
+        "image": "https://img.etoday.co.kr/pto_db/2026/09/20260930141023_2395196_996_1408.jpg"
     },
     {
-        "title": "임영웅·손흥민 싹 다 제쳤다…단숨에 브랜드평판 1위 차지한 '스타' - 위키트리",
-        "source": "위키트리",
-        "date": "2026-09-30",
-        "url": "https://www.wikitree.co.kr/articles/1162592",
-        "summary": "한국기업평판연구소 결과,1위 리센느, 2위 손흥민, 3위 임영웅",
-        "image": "https://cdnweb01.wikitree.co.kr/webdata/editor/202609/29/img_20260929083025_d4086584.jpg"
-    },
-    {
-        "title": "'전도사' 아이들 미연, 리센느에 한약 선물…한의원서 피로 회복 - 뉴스1",
-        "source": "뉴스1",
+        "title": "리센느, 생일 공지에 ‘인이어’ 언급 무슨 일?…“조공 요구냐” 지적도 - 매일경제",
+        "source": "매일경제",
         "date": "2026-09-29",
-        "url": "https://www.news1.kr/entertain/broadcast-tv/6305088",
-        "summary": ""
+        "url": "https://www.mk.co.kr/news/hot-issues/12165388",
+        "summary": "",
+        "image": "https://pimg.mk.co.kr/news/cms/202609/30/news-p.v1.20260930.99db671d0cfc44e7b600a069c13525b6_R.jpg"
     },
     {
         "title": "리센느 제나가 부른 ‘빵빵’ 1367만 돌파…박상철 노래 역주행 - sports.donga.com",
@@ -145,20 +170,34 @@ const NEWS_DATA = [
         "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/09/30/134757190.1.png"
     },
     {
-        "title": "\"리센느 뜨니 매출도 회원도 뛴다\" 식음료업계 '리센느 효과' 톡톡 - 뉴시스",
-        "source": "뉴시스",
+        "title": "‘리센느·박서진 뜬다’...연수 능허대 문화축제, 2천 대 드론쇼까지 역대급 - 미디어인천신문",
+        "source": "미디어인천신문",
         "date": "2026-09-29",
-        "url": "https://www.newsis.com/view/NISX20260929_0003807006",
-        "summary": "[서울=뉴시스]김상윤 기자 = 걸그룹 리센느(RESCENE)가 식음료업계의 새로운 광고모델로 떠오른 가운데 모델 발탁 이후 매출과 신규 회원, 온라인 언급량 등 관련 지표가 잇따라 상승하면서 이른바 '리센느 효과'가 나타나고 있다.29일 업계에 따르면 최근 리센느를 모델로 발탁한 식음료",
+        "url": "https://www.mediaic.co.kr/news/articleView.html?idxno=84782",
+        "summary": "[미디어인천신문 엄태규 기자] ‘대세 아이돌’ 리센느부터 박서진, 에일리, 김필 등 전 세대를 아우르는 정상급 스타들이 인천 연수구에 총출동한다. 여기에 무려 2천 대가 동원되는 밤하늘 드론쇼까지 장착한 ‘제14회 연수 능허대 문화축제’가 내달 9일 화려한 막을 올린다.인천 연수구는 오",
+        "image": "http://www.mediaic.co.kr/news/thumbnail/202609/84782_84135_4849_v150.jpg"
+    },
+    {
+        "title": "\"리센느 뜨니 매출도 회원도 뛴다\" 식음료업계 '리센느 효과' 톡톡 - newsis.com",
+        "source": "newsis.com",
+        "date": "2026-09-29",
+        "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260929_0003807006",
+        "summary": "[서울=뉴시스]김상윤 기자 = 걸그룹 리센느(RESCENE)가 식음료업계의 새로운 광고모델로 떠오른 가운데 모델 발탁 이후 매출과 신규 회원, 온라인 언급량 등 관련 지표가 잇따라 상승하면서 이른바 '리센느 효과'가 나타나고 있다",
         "image": "https://img1.newsis.com/2026/09/03/NISI20260903_0002228907_web.jpg"
     },
     {
-        "title": "빵에 리센느 이름 붙자 품절대란… CU \"공장 풀가동해도 역부족\" - 세계비즈",
-        "source": "세계비즈",
+        "title": "'전도사' 아이들 미연, 리센느에 한약 선물…한의원서 피로 회복 - 뉴스1",
+        "source": "뉴스1",
         "date": "2026-09-29",
-        "url": "http://m.segyefn.com/newsView/20260929511098",
-        "summary": "출판사, 아이돌 그룹 등 편의점과 접점이 없던 이종 산업 간의 협업 베이커리 제품이 연이어 흥행하면서 편의점 빵 품절 대란이 이어지고 있다. 29일 BGF리테일에 따르면 CU가 자체 베이커리 브랜드 ‘BAKE405’를 통해 아이돌 그룹 리센느와 협업 출시한 ‘원이의 옥수수 크...",
-        "image": "http://m.segyefn.com/content/image/2026/09/29/20260929511097.jpg"
+        "url": "https://www.news1.kr/amp/entertain/broadcast-tv/6305088",
+        "summary": ""
+    },
+    {
+        "title": "'전도사' 리센느 메이, 침 맞고 눈물…미나미·리브와 극과 극 - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-09-29",
+        "url": "https://www.news1.kr/amp/entertain/broadcast-tv/6305086",
+        "summary": ""
     },
     {
         "title": "리센느 제나, ‘빵빵’ 역주행 불렀다 - bntnews.co.kr",
@@ -169,6 +208,30 @@ const NEWS_DATA = [
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/30/bnt202609300041.jpg"
     },
     {
+        "title": "\"거제야호\" 시대는 갔다..리센느 제나 트로트, 장윤정 극찬→1350만뷰 '대박'[Oh!쎈 이슈] - 조선일보",
+        "source": "조선일보",
+        "date": "2026-09-29",
+        "url": "https://www.chosun.com/entertainments/music/2026/09/29/MQ2GCNJXGEYTQMJZHA3GENJRMY/",
+        "summary": "걸그룹 리센느 멤버 제나가 유튜브 채널을 통해 공개한 트로트 메들리 영상이 1350만 뷰를 돌파했습니다. 제나는 장윤정 등 선배 가수들로부터 가창력을 인정받았으며, 이번 성과를 통해 일회성 유행을 넘어 본업 역량을 입증했습니다. 리센느는 오는 11월 3일 미니 4집 발매를 앞두고 대세 ",
+        "image": "https://www.chosun.com/resizer/v2/GVTDQNZZGMYDSMJUMZQWCODGMU.jpg?auth=88a6a12d79c5b862d7a291d29b02a60b22875b7058ca2a27bdf8e47e32702911&width=650&height=341&smart=true"
+    },
+    {
+        "title": "드론 2000대가 그리는 백제 항해…인천 능허대축제 '리센느' 공연도 - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-29",
+        "url": "https://v.daum.net/v/20260929113904044",
+        "summary": "(인천=뉴스1) 박소영 기자 = 인천 연수 능허대 문화축제가 2000대 규모의 드론 라이트 쇼와 '리센느' 등 인기 가수 공연 등으로 꾸며진다. 인천 연수구는 다음 달 9일부터 10일까지 이틀간 연수한마음공원과 능허대공원 일원에서 '능허대, 빛의 항해(The Voyage of Light",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/29/NEWS1/20260929113905628egcp.jpg"
+    },
+    {
+        "title": "빵에 리센느 이름 붙자 품절대란… CU \"공장 풀가동해도 역부족\" - 세계비즈",
+        "source": "세계비즈",
+        "date": "2026-09-29",
+        "url": "http://m.segyefn.com/newsView/20260929511098",
+        "summary": "출판사, 아이돌 그룹 등 편의점과 접점이 없던 이종 산업 간의 협업 베이커리 제품이 연이어 흥행하면서 편의점 빵 품절 대란이 이어지고 있다. 29일 BGF리테일에 따르면 CU가 자체 베이커리 브랜드 ‘BAKE405’를 통해 아이돌 그룹 리센느와 협업 출시한 ‘원이의 옥수수 크...",
+        "image": "http://m.segyefn.com/content/image/2026/09/29/20260929511097.jpg"
+    },
+    {
         "title": "“리센느 삼촌으로 대세”…이선민, 라이징 스타 1위 - bntnews.co.kr",
         "source": "bntnews.co.kr",
         "date": "2026-09-29",
@@ -177,20 +240,28 @@ const NEWS_DATA = [
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/30/bnt202609300019.jpg"
     },
     {
+        "title": "Z세대 아이돌이 부른 트로트… 리센느 제나 '빵빵' 재해석 화제 - 한국일보",
+        "source": "한국일보",
+        "date": "2026-09-29",
+        "url": "https://www.hankookilbo.com/news/article/A2026092918490001422",
+        "summary": "① 그룹 리센느 제나가 박상철의 트로트 곡 빵빵을 새롭게 불러 화제가 됐습니다. ② 추석을 맞아 유튜브 채널에서 공개된 트로트 메들리 영상이 29일 기준 약 1365만 회를 기록했습니다. ③ 빵빵 무대가 큰 반응을 얻자 트로트 관련 채널에 연속 듣기 영상이 올라가는 등 파생 콘텐츠가 늘",
+        "image": "https://newsimg.hankookilbo.com/2026/09/29/833c9975-14fc-42e5-92d2-9822f72e4c3b.jpg"
+    },
+    {
+        "title": "1300만뷰 터진 리센느 제나 '트로트 메들리'…박상철 '빵빵', 역주행 바람 타나 - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-29",
+        "url": "https://v.daum.net/v/xWxa09sAXT",
+        "summary": "(엑스포츠뉴스 명희숙 기자) 그룹 리센느(RESCENE) 제나가 트로트 가수 박상철의 히트곡 '빵빵'을 자신만의 스타일로 재해석해 화제를 모으고 있다. 최근 리세는 리더 원이의 유튜브 채널 '안녕하세요원이입니다잘부탁드립다'에는 '[추석 특집] 제나의 트로트 메들리'라는 제목의 영상이 게",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/29/xportsnews/20260929153458418xhlf.jpg"
+    },
+    {
         "title": "리센느 제나가 부르니 ‘빵빵’ 터졌다…1367만뷰 찍은 트로트 메들리 - 지피코리아",
         "source": "지피코리아",
         "date": "2026-09-29",
         "url": "https://www.gpkorea.com/news/articleView.html?idxno=147125",
         "summary": "그룹 리센느(RESCENE) 제나가 선보인 트로트 메들리 영상이 1367만 조회수를 넘어서며 화제가 되고 있다.최근 공개된 영상에서 제나는 장윤정의 ‘어머나’, 오승근의 ‘내 나이가 어때서’, 박상철의 ‘빵빵’ 등을 메들리로 소화하며 트로트 가창력을 선보였다.특히 박상철의 ‘빵빵’이 눈",
         "image": "https://cdn.gpkorea.com/news/photo/202609/147125_312721_3143.jpg"
-    },
-    {
-        "title": "‘리센느·박서진 뜬다’...연수 능허대 문화축제, 2천 대 드론쇼까지 역대급 - 미디어인천신문",
-        "source": "미디어인천신문",
-        "date": "2026-09-29",
-        "url": "https://www.mediaic.co.kr/news/articleView.html?idxno=84782",
-        "summary": "[미디어인천신문 엄태규 기자] ‘대세 아이돌’ 리센느부터 박서진, 에일리, 김필 등 전 세대를 아우르는 정상급 스타들이 인천 연수구에 총출동한다. 여기에 무려 2천 대가 동원되는 밤하늘 드론쇼까지 장착한 ‘제14회 연수 능허대 문화축제’가 내달 9일 화려한 막을 올린다.인천 연수구는 오",
-        "image": "http://www.mediaic.co.kr/news/thumbnail/202609/84782_84135_4849_v150.jpg"
     },
     {
         "title": "리센느 제나, 트로트 불렀다가 `1389만` 대박…박상철도 극찬 \"후배들의 꿈 응원\" - 마이데일리",
@@ -207,37 +278,6 @@ const NEWS_DATA = [
         "url": "https://www.nc.press/news/articleView.html?idxno=627478",
         "summary": "[뉴스컬처 이준섭 기자] 그룹 리센느(RESCENE) 제나가 부른 트로트 메들리가 온라인에서 높은 조회 수를 기록하며 화제를 모으고 있다. 제나의 영상에서 다시",
         "image": "https://cdn.nc.press/news/photo/202609/627478_862029_4348.jpg"
-    },
-    {
-        "title": "'전도사' 리센느 메이, 침 맞고 눈물…미나미·리브와 극과 극 - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-09-29",
-        "url": "https://www.news1.kr/amp/entertain/broadcast-tv/6305086",
-        "summary": ""
-    },
-    {
-        "title": "드론 2000대가 그리는 백제 항해…인천 능허대축제 '리센느' 공연도 - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-09-29",
-        "url": "https://v.daum.net/v/20260929113904044",
-        "summary": "(인천=뉴스1) 박소영 기자 = 인천 연수 능허대 문화축제가 2000대 규모의 드론 라이트 쇼와 '리센느' 등 인기 가수 공연 등으로 꾸며진다. 인천 연수구는 다음 달 9일부터 10일까지 이틀간 연수한마음공원과 능허대공원 일원에서 '능허대, 빛의 항해(The Voyage of Light",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/29/NEWS1/20260929113905628egcp.jpg"
-    },
-    {
-        "title": "Z세대 아이돌이 부른 트로트… 리센느 제나 '빵빵' 재해석 화제 - hankookilbo.com",
-        "source": "hankookilbo.com",
-        "date": "2026-09-29",
-        "url": "https://www.hankookilbo.com/news/article/A2026092918490001422",
-        "summary": "① 그룹 리센느 제나가 박상철의 트로트 곡 빵빵을 새롭게 불러 화제가 됐습니다. ② 추석을 맞아 유튜브 채널에서 공개된 트로트 메들리 영상이 29일 기준 약 1365만 회를 기록했습니다. ③ 빵빵 무대가 큰 반응을 얻자 트로트 관련 채널에 연속 듣기 영상이 올라가는 등 파생 콘텐츠가 늘",
-        "image": "https://newsimg.hankookilbo.com/2026/09/29/833c9975-14fc-42e5-92d2-9822f72e4c3b.jpg"
-    },
-    {
-        "title": "1300만뷰 터진 리센느 제나 '트로트 메들리'…박상철 '빵빵', 역주행 바람 타나 - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-09-29",
-        "url": "https://v.daum.net/v/xWxa09sAXT",
-        "summary": "(엑스포츠뉴스 명희숙 기자) 그룹 리센느(RESCENE) 제나가 트로트 가수 박상철의 히트곡 '빵빵'을 자신만의 스타일로 재해석해 화제를 모으고 있다. 최근 리세는 리더 원이의 유튜브 채널 '안녕하세요원이입니다잘부탁드립다'에는 '[추석 특집] 제나의 트로트 메들리'라는 제목의 영상이 게",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/29/xportsnews/20260929153458418xhlf.jpg"
     },
     {
         "title": "무편집 콘텐츠로 성장한 리센느, 온라인 여론이 이미지를 만드는 방식 - CBC뉴스",
@@ -280,12 +320,12 @@ const NEWS_DATA = [
         "image": "https://pimg.mk.co.kr/news/cms/202609/29/news-p.v1.20260929.d2830751dddc4693b5aabad3c57cc789_R.png"
     },
     {
-        "title": "\"손바닥보다 작다니\"…리센느 리브, 역대급 '소두 요정' 인증 - v.daum.net",
-        "source": "v.daum.net",
+        "title": "\"손바닥보다 작다니\"…리센느 리브, 역대급 `소두 요정` 인증 - 마이데일리",
+        "source": "마이데일리",
         "date": "2026-09-28",
-        "url": "https://v.daum.net/v/20260929051257124",
-        "summary": "[마이데일리 = 서기찬 기자] 걸그룹 리센느(RESCENE) 리브가 손바닥보다 작은 비현실적인 얼굴 크기를 자랑하며 독보적인 요정 비주얼을 선보였다. 지난 26일 리센느 공식 SNS에는 \"리마인 추석 연휴 잘 보내고 있나\"라는 글과 함께 리브의 모습이 담긴 사진 여러 장이 공개됐다. 공",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/29/mydaily/20260929051258945muqn.png"
+        "url": "https://mydaily.co.kr/page/view/2026092905033643010",
+        "summary": "지난 26일 리센느 공식 SNS에는 \"리마인 추석 연휴 잘...",
+        "image": "https://mydaily.co.kr/photos/2026/09/29/2026092905024029901_l.png"
     },
     {
         "title": "리센느, 中대륙에서도 폭풍 질주…빌리빌리 10만 메달 '언박싱' - v.daum.net",
@@ -358,20 +398,20 @@ const NEWS_DATA = [
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/29/bnt202609290018.jpg"
     },
     {
-        "title": "리센느 효과 입은 동아오츠카, 배송 현장에 감사 마음 전해 - 이뉴스투데이",
-        "source": "이뉴스투데이",
-        "date": "2026-09-28",
-        "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2474463",
-        "summary": "[이뉴스투데이 한정용 기자] 동아오츠카가 나랑드사이다 매출 증가에 따른 배송 현장의 노고에 감사의 뜻을 전하고자 제품 지원에 나선다.동아오츠카는 전국 CJ대한통운 택배기사를 대상으로 나랑드사이다 3만개를 지원한다고 28일 밝혔다.동아오츠카에 따르면 걸그룹 리센느를 나랑드사이다 모델로",
-        "image": "https://cdn.enewstoday.co.kr/news/thumbnail/202609/2474463_1317732_278_v150.jpg"
-    },
-    {
         "title": "[빅데이터로본다] 스타 2026년 9월 브랜드평판... 1위 리센느, 2위 손흥민, 3위 임영웅 - 일간투데이",
         "source": "일간투데이",
         "date": "2026-09-28",
         "url": "https://www.dtoday.co.kr/news/articleView.html?idxno=793979",
         "summary": "[일간투데이 박선영 기자] 스타 브랜드평판 2026년 9월 빅데이터 분석결과, 1위 리센느 브랜드로 분석됐다.한국기업평판연구소는 2026년 8월 29일부터 2026년 9월 29일까지 측정한 스타 브랜드 빅데이터 217,250,879개를 소비자 행동분석을 통해 스타 브랜",
         "image": "https://cdn.dtoday.co.kr/news/thumbnail/202609/793979_666141_1810_v150.jpg"
+    },
+    {
+        "title": "리센느 효과 입은 동아오츠카, 배송 현장에 감사 마음 전해 - 이뉴스투데이",
+        "source": "이뉴스투데이",
+        "date": "2026-09-28",
+        "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2474463",
+        "summary": "[이뉴스투데이 한정용 기자] 동아오츠카가 나랑드사이다 매출 증가에 따른 배송 현장의 노고에 감사의 뜻을 전하고자 제품 지원에 나선다.동아오츠카는 전국 CJ대한통운 택배기사를 대상으로 나랑드사이다 3만개를 지원한다고 28일 밝혔다.동아오츠카에 따르면 걸그룹 리센느를 나랑드사이다 모델로",
+        "image": "https://cdn.enewstoday.co.kr/news/thumbnail/202609/2474463_1317732_278_v150.jpg"
     },
     {
         "title": "리센느 발탁 후 매출 껑충…동아오츠카, 배송 현장에 음료 지원 - edaily.co.kr",
@@ -398,22 +438,6 @@ const NEWS_DATA = [
         "image": "https://cdn.gpkorea.com/news/photo/202609/147083_312631_2711.jpg"
     },
     {
-        "title": "리센느만의 일이 아니다…베스티 ‘연애의 조건’ 13년 만에 역주행 - 지피코리아",
-        "source": "지피코리아",
-        "date": "2026-09-28",
-        "url": "https://www.gpkorea.com/news/articleView.html?idxno=147073",
-        "summary": "걸그룹 베스티(BESTie)의 ‘연애의 조건(Love Options)’이 발매 13년 만에 국내외 음원 차트에 다시 등장하며 역주행 흐름을 이어가고 있다.‘연애의 조건’은 28일 오전 9시 기준 멜론 TOP100 64위까지 올라섰다. 애플뮤직 한국 TOP100에서는 7위, 유튜브 뮤직 ",
-        "image": "https://cdn.gpkorea.com/news/photo/202609/147073_312619_3013.jpg"
-    },
-    {
-        "title": "[뮤직컴퍼니100] 하츠투하츠·리센느 스코어 증가…SM·더뮤즈 10일 격차 0.84%p 축소 - TopStarNews",
-        "source": "TopStarNews",
-        "date": "2026-09-28",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16221772",
-        "summary": "9월 28일 오전 7시 뮤직컴퍼니100에서 SM과 더뮤즈의 1·2위 격차가 10일 새 0.84%p 좁아졌다. 하츠투하츠·리센느 스코어 증가와 JYP·스타쉽의 4·5위 교차도 확인됐다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202609/16221772_2037929_5958_crop.jpg"
-    },
-    {
         "title": "“걸그룹 '리센느‘ 효과 매출 껑충”... 동아오츠카, CJ대한통운 택배기사에 ’나랑드사이다‘ 3만 개 전달 - 비욘드포스트",
         "source": "비욘드포스트",
         "date": "2026-09-28",
@@ -437,20 +461,20 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
-        "title": "충남 공주시, 리센느 “공주 야호” 제72회 백제문화제 라인업 공개 - 충청매일",
-        "source": "충청매일",
-        "date": "2026-09-27",
-        "url": "https://www.ccdn.co.kr/news/articleView.html?idxno=1101663",
-        "summary": "충남 공주시는 다음달 3일부터 11일까지 금강신관공원과 공산성, 왕도심 일원에서 개최되는 ‘제72회 백제문화제’의 화려한 축하 공연 및 가수 라인업을 전격 공개했다고 27일 밝혔다.이번 축제는 ‘청동거울, 1500년 백제의 빛을 비추다’라는 주제에 걸맞게 전세대가 함께 즐길 수 있는",
-        "image": "https://cdn.ccdn.co.kr/news/thumbnail/202609/1101663_613139_5503_v150.jpg"
-    },
-    {
         "title": "영탁·리센느, 써클차트 나란히 2관왕 - bntnews.co.kr",
         "source": "bntnews.co.kr",
         "date": "2026-09-27",
         "url": "https://www.bntnews.co.kr/article/view/bnt202609280099",
         "summary": "영탁과 그룹 리센느가 2026년 38주차 써클차트에서 각각 2관왕을 차지했다.써클차트가 발표한 38주차(9월 13~19일) 집계에 따르면 영탁의 정규 3집 ‘GOGO",
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/09/28/bnt202609280143.jpg"
+    },
+    {
+        "title": "충남 공주시, 리센느 “공주 야호” 제72회 백제문화제 라인업 공개 - 충청매일",
+        "source": "충청매일",
+        "date": "2026-09-27",
+        "url": "https://www.ccdn.co.kr/news/articleView.html?idxno=1101663",
+        "summary": "충남 공주시는 다음달 3일부터 11일까지 금강신관공원과 공산성, 왕도심 일원에서 개최되는 ‘제72회 백제문화제’의 화려한 축하 공연 및 가수 라인업을 전격 공개했다고 27일 밝혔다.이번 축제는 ‘청동거울, 1500년 백제의 빛을 비추다’라는 주제에 걸맞게 전세대가 함께 즐길 수 있는",
+        "image": "https://cdn.ccdn.co.kr/news/thumbnail/202609/1101663_613139_5503_v150.jpg"
     },
     {
         "title": "리센느, 임영웅 제쳤다…9월 가수 브랜드평판 1위 ‘깜짝’ - 핀포인트뉴스",
@@ -461,8 +485,8 @@ const NEWS_DATA = [
         "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202609/490551_476403_392_v150.jpg"
     },
     {
-        "title": "리센느 '공주 야호' 제72회 백제문화제 라인업 공개 -인기 아이돌 리센느 비롯해 허각, 하하&스컬·너드커넥션 등 총출동 - 대전일보",
-        "source": "대전일보",
+        "title": "리센느 '공주 야호' 제72회 백제문화제 라인업 공개 -인기 아이돌 리센느 비롯해 허각, 하하&스컬·너드커넥션 등 총출동 - daejonilbo.com",
+        "source": "daejonilbo.com",
         "date": "2026-09-27",
         "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2303455",
         "summary": "[공주]공주시는 오는 10월 3일부터 11일까지 금강신관공원과 공산성, 왕도심 일원에서 개최되는 '제72회 백제문화제'의 화려한 축하 공연 및 가수 라인업을 전격 공개했다.이번 축제는 '청동거울, 1500년 백제의 빛을 비추다'라는 주제에 걸맞게 전세대가 함께 즐길 수 있는 역대급 문화",
@@ -501,20 +525,19 @@ const NEWS_DATA = [
         "image": "https://img.seoul.co.kr/img/upload/2026/09/26/SSC_20260926091448.jpg.webp"
     },
     {
-        "title": "\"지퍼가 줄줄\" 리센느 메이, 아찔한 노출 사고 위기…대학축제 무대 중 식은땀 [MD이슈] - 네이트",
-        "source": "네이트",
-        "date": "2026-09-25",
-        "url": "https://m.news.nate.com/view/20260926n01843?sect=ent&list=rank&cate=interest",
-        "summary": "�Ѵ��� ���� ���� : ������ ȭ�� - ���� : / ��Ʃ��[���̵��ϸ� = �ڼ��� ����] �׷� ������ ���̰� ���� ���� ���� ���� �ǻ� ������ ���߻�Ȳ�� ����������, ������� �ż��� ������ �",
-        "image": "https://news.nateimg.co.kr/orgImg/my/2026/09/26/2026092417221500387_l.jpg"
+        "title": "리센느 메이 \"언니, 나 옷 뒤에!\"…축제 공연하다 돌발 상황, 팀워크로 '수습' [엑's 이슈] - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-26",
+        "url": "https://v.daum.net/v/20260926100309031",
+        "summary": "(엑스포츠뉴스 김유진 기자) 그룹 리센느의 메이가 대학교 축제 무대에서 공연을 하다 상의가 흘러내릴뻔한 돌발 상황을 맞았다. 메이와 멤버들의 발빠른 대처로 공연은 무사히 마무리됐다. 최근 각종 온라인 커뮤니티와 SNS에는 최근 명지대학교 축제 무대에 선 리센느의 공연 영상이 공개됐다. ",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/26/xportsnews/20260926100310812iiws.jpg"
     },
     {
         "title": "리센느, 라이징 가수 브랜드평판 1위…2위 에이티즈 - JTBC",
         "source": "JTBC",
         "date": "2026-09-25",
         "url": "https://news.jtbc.co.kr/article/NB12319989",
-        "summary": "그룹 리센느가 라이징 가수 브랜드평판 9월 1위에 올랐다. 25일 한국기업평판연구소는 \"리센느 브랜드는 음원, 광고, 방송, 영상 카테고리 빅...",
-        "image": "https://photo.jtbc.co.kr/news/jam_photo/202609/25/61178497-1aff-4040-8aa0-766ed21fcf93.jpg"
+        "summary": ""
     },
     {
         "title": "1위 리센느, 2위 임영웅, 3위 방탄소년단 - starnewskorea.com",
@@ -541,14 +564,6 @@ const NEWS_DATA = [
         "image": "https://image.inews24.com/v1/6f9ed67bff85a9.jpg"
     },
     {
-        "title": "\"지퍼가 줄줄\" 리센느 메이, 아찔한 노출 사고 위기…대학축제 무대 중 식은땀 [MD이슈] - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-09-25",
-        "url": "https://v.daum.net/v/20260926063127566",
-        "summary": "[마이데일리 = 박서연 기자] 그룹 리센느 메이가 대학 축제 무대 도중 의상 문제로 돌발상황을 맞이했으나, 멤버들의 신속한 기지로 무사히 상황을 넘긴 사실이 알려져 화제다. 최근 각종 온라인 커뮤니티와 SNS 등을 통해 리센느가 명지대학교 축제 무대에 오른 영상이 확산됐다. 영상에서 '",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/26/mydaily/20260926063129907rqcs.jpg"
-    },
-    {
         "title": "“거제야호·신라공주 떴다”…리센느의 특별한 ‘지역사랑’, 4개 지자체 품었다 - 세계일보",
         "source": "세계일보",
         "date": "2026-09-25",
@@ -561,16 +576,15 @@ const NEWS_DATA = [
         "source": "중앙일보",
         "date": "2026-09-24",
         "url": "https://www.joongang.co.kr/article/25464725",
-        "summary": "박찬욱 감독이 극찬한 K콘텐츠 촬영 명소",
-        "image": "https://pds.joongang.co.kr/news/FbMetaImage/202609/8055f43c-c6e4-492d-a1e9-18b7f61d19f6.jpg"
+        "summary": ""
     },
     {
-        "title": "장원영·리센느 원이까지…'마성의 남자' 된 김성주 아들 - 머니투데이 - 머니투데이",
-        "source": "머니투데이",
-        "date": "2026-09-24",
-        "url": "https://www.mt.co.kr/entertainment/2026/09/24/2026092411004185840",
-        "summary": "방송인 김성주의 아들 김민국에 대해 그룹 아이브 장원영이 \"내적 친밀감을 느낀다\"고 한 데 이어 리센느 원이가 \"결혼할 생각이었다\"고 밝히면서 그가 마성의 남자로 떠올랐다. 영상엔 리센느 멤버 원이와 미나미가 출연해 김성주, 안정환 등 MBC 해설위원들을 만나는 모습이 담겼다.",
-        "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/09/2026092411004185840_1.jpg"
+        "title": "리센느, 허간민, 이선민…이번 추석, 어깨에 힘 좀 들어갈 스타들 [MD피플] - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-09-23",
+        "url": "https://v.daum.net/v/8BOZ9S6bDn",
+        "summary": "[마이데일리 = 이승길 기자] \"밥은 먹고 다니니?\", \"취직은 언제 하니?\"라는 잔소리가 오가는 명절 밥상머리 풍경은 연예계 스타들에게도 남 일은 아니다. 겉으로는 화려해 보이지만, 대중의 눈도장을 찍지 못하면 친척들의 뼈아픈 걱정 어린 질문을 피하기 어렵다. 하지만 2026년 추석,",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/24/mydaily/20260924070201328msug.jpg"
     },
     {
         "title": "“내년 결혼합니다”…김성주 아들 민국, 리센느 원이와 깜짝 소식 - twig24.com",
@@ -644,14 +658,6 @@ const NEWS_DATA = [
         "image": "https://scs-phinf.pstatic.net/MjAyNjA5MTlfNDcg/MDAxNzg5ODE2ODk0NjQ1.ExsT2T3wD84DsECOtU_7S3hW3blpZDgLVhvqDoOnYIsg.u7fI8JHmShJkGGWWzmPyfSbo3ZJDlUn9lNAzlgNNyB8g.PNG/image%7Cpremium%7Cthumbnail%7Cfirstnews_9firstnews9%7C2026%7C09%7C19%7C1789816894540.png?type=w800"
     },
     {
-        "title": "리센느 미나미 “트와이스 되고 싶냐며 놀리던 친구들…난 새벽까지 연습했다” - donga.com",
-        "source": "donga.com",
-        "date": "2026-09-17",
-        "url": "https://www.donga.com/news/Culture/article/all/20260917/134687307/2",
-        "summary": "리센느 미나미가 초등학교 시절 K팝 아이돌을 꿈꾼다는 이유로 친구들에게 놀림을 받았던 일을 공개했다. 이후 실제 가수로 데뷔해 모교 무대에 섰으며, 갸루 콘셉트와 1300만 조회수를 기록한 ‘야호’ 유행어에 얽힌 이야기도 전했다.",
-        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/17/134687196.3.png"
-    },
-    {
         "title": "\"맛보며 만들었어요\" 리센느 빵 뭐길래…출시 전부터 '들썩' [갓신상] - 한국경제",
         "source": "한국경제",
         "date": "2026-09-15",
@@ -708,14 +714,6 @@ const NEWS_DATA = [
         "image": "https://image.starnewskorea.com/21/2026/09/2026091308431024617_1.jpg"
     },
     {
-        "title": "‘거제 야호’ 리센느, ‘2026 KGMA’ 출격…3차 라인업 공개 - YTN",
-        "source": "YTN",
-        "date": "2026-09-11",
-        "url": "https://www.ytn.co.kr/_ln/0117_202609110906371044",
-        "summary": "그룹 리센느가 대세 상승세를 이어 ‘코리아 그랜드 뮤직 어워즈’(KGMA) 무대에 선다. 멤버 원이는 시상식 첫날 MC로도 나서며 이번 KGMA에서 남다른 존재감을 예고했다. KGMA 조직위원회는 11일 오는 11월 7~8일 서울 구로구 고척스카이돔에서 열리는 ‘제3회 코리아 그랜드 뮤",
-        "image": "https://image.ytn.co.kr/general/jpg/2026/0911/202609110906371044_t.jpg"
-    },
-    {
         "title": "KBS 레이-MBC 리센느-SBS 배성재…日아시안게임, 방송3사 승부수는 [MD포커스] - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-09-10",
@@ -732,6 +730,22 @@ const NEWS_DATA = [
         "image": "https://img6.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909147900030_01_i_P4.jpg"
     },
     {
+        "title": "[단독] 리센느, 11월 컴백…‘Pretty Girl’ 흥행 잇는다 - The Korea Herald",
+        "source": "The Korea Herald",
+        "date": "2026-09-09",
+        "url": "https://www.koreaherald.com/article/10866446",
+        "summary": "걸그룹 리센느(RESCENE)가 오는 11월 컴백한다. 유튜브 콘텐츠를 타고 국내 인지도를 크게 끌어올린 데 이어 ‘Pretty Girl’로 데뷔 후 첫 음악방송 1위까지 거머쥔 만큼, 상승세를 이어갈 수 있을지 주목된다. 8일 가요계에 따르면 리센느는 오는 11월 중순 신곡 발표를 목",
+        "image": "https://wimg.heraldcorp.com/news/cms/2026/09/09/news-p.v1.20260908.5becfe12b10f4d8b9e044824bfd5cf24_P1.jpg"
+    },
+    {
+        "title": "“수학여행 맞아?”…리센느가 반한 동해시의 매력 - 강원일보",
+        "source": "강원일보",
+        "date": "2026-09-09",
+        "url": "https://www.kwnews.co.kr/article/20260908501216",
+        "summary": "걸그룹 리센느(RESCENE)가 떠난 동해시 ‘수학여행’ 영상이 유튜브에서 200만 조회수를 기록하며 화제를 모으고 있다. 아이돌 멤버들이 교과서 대신 동해바다와 산, 액티비티를 누비며 펼친 1박2일 여행기가 MZ세대와 K-POP 팬들의 눈길을 사로잡고 있다. 리센느는",
+        "image": "https://kbhvfnyo14945.edge.naverncp.com/data2/content/image/2026/09/08/.cache/512/20260908501198.jpg"
+    },
+    {
         "title": "삼양 \"리센느가 먹은 '짜르르', 유튜브 공개 후 주말 매출 두배\" - 연합뉴스",
         "source": "연합뉴스",
         "date": "2026-09-08",
@@ -740,24 +754,24 @@ const NEWS_DATA = [
         "image": "https://img3.yna.co.kr/etc/inner/KR/2026/09/07/AKR20260907150600030_01_i_P4.jpg"
     },
     {
-        "title": "그레인온, 리센느 공식 모델 발탁…멤버별 매력 담은 ‘리센느 에디션’ 출시 - 경향신문",
-        "source": "경향신문",
+        "title": "그레인온, 리센느 공식 모델 발탁…멤버별 매력 담은 ‘리센느 에디션’ 출시 - khan.co.kr",
+        "source": "khan.co.kr",
         "date": "2026-09-08",
         "url": "https://www.khan.co.kr/article/202609081555018",
         "summary": "고대곡물 전문기업 그레인온(GRAINON)이 걸그룹 리센느(RESCENE)를 공식 모델로 발탁하고, 멤버별 개성과 매력을 담은 ‘RESCENE EDITION(리센느 에디션)’ 캡슐레이션 효소를 선보인다. 그레인온과 리센느는 앞서 레드와인비니거 브랜드 카사베르디를 통해 호흡을 맞춘 바 있",
         "image": "https://img.khan.co.kr/news/2026/09/08/202609081010258103443_0.jpg"
     },
     {
-        "title": "'역시 대세' 리센느가 먹은 '짜르르' 매출 얼마나 올랐나 - 한경매거진&북",
-        "source": "한경매거진&북",
+        "title": "'역시 대세' 리센느가 먹은 '짜르르' 매출 얼마나 올랐나 - magazine.hankyung.com",
+        "source": "magazine.hankyung.com",
         "date": "2026-09-08",
         "url": "https://magazine.hankyung.com/business/article/202609080729b",
         "summary": "'역시 대세' 리센느가 먹은 '짜르르' 매출 얼마나 올랐나, 강홍민 기자, 이슈",
         "image": "https://img.hankyung.com/photo/202609/AD.45602850.1.jpg"
     },
     {
-        "title": "자고 일어나면 ‘O년 전 영상 파묘’···“뭐야? 이것도 봐줄게” 리센느가 ‘과거’로 더 뜨는 이유 - 경향신문",
-        "source": "경향신문",
+        "title": "자고 일어나면 ‘O년 전 영상 파묘’···“뭐야? 이것도 봐줄게” 리센느가 ‘과거’로 더 뜨는 이유 - khan.co.kr",
+        "source": "khan.co.kr",
         "date": "2026-08-25",
         "url": "https://www.khan.co.kr/article/202608250600071",
         "summary": "경남 거제시, 일본 치바현, 경북 경주시…. 올해 최고의 ‘라이징 스타’인 걸그룹 리센느 멤버들의 출신지이자, 리센느 역주행 인기의 일등 공신인 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’(안원잘부)의 최근 촬영지다. ‘거제 야호’ 열풍 이후 멤버 원이와 미나미는 서로의 고향인 거제",
