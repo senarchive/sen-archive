@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T21:46:41.073Z",
+  "updated": "2026-10-01T03:41:11.318Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3576,6 +3576,14 @@
       "detail": "",
       "type": "concert",
       "source": "mnetplus"
+    },
+    {
+      "date": "2026-11-07",
+      "time": "",
+      "title": "2026 KGMA (코리아 그랜드 뮤직 어워즈)",
+      "detail": "",
+      "type": "concert",
+      "source": "mnetplus"
     }
   ],
   "mnetBackfill": {
@@ -3612,6 +3620,7 @@
     "2026-07": true,
     "2026-08": true,
     "2026-09": true,
-    "2026-10": true
+    "2026-10": true,
+    "2026-11": true
   }
 }
