@@ -1027,6 +1027,14 @@
     },
     {
       "date": "2025-07-14",
+      "time": "",
+      "title": "FAN-CON [Project 326] 선예매 서베이 마감",
+      "detail": "",
+      "type": "notice",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2025-07-14",
       "time": "16:00",
       "title": "EBS FM <아이돌 한국어>",
       "detail": "",
@@ -1039,14 +1047,6 @@
       "title": "TikTok <Teach Me, Idol!>",
       "detail": "",
       "type": "broadcast",
-      "source": "mnetplus"
-    },
-    {
-      "date": "2025-07-14",
-      "time": "",
-      "title": "FAN-CON [Project 326] 선예매 서베이 마감",
-      "detail": "",
-      "type": "notice",
       "source": "mnetplus"
     },
     {
@@ -1659,18 +1659,18 @@
     },
     {
       "date": "2025-10-19",
-      "time": "18:00",
-      "title": "MBC <복면가왕>",
-      "detail": "",
-      "type": "broadcast",
-      "source": "mnetplus"
-    },
-    {
-      "date": "2025-10-19",
       "time": "",
       "title": "K-Hi MELAKA",
       "detail": "",
       "type": "concert",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2025-10-19",
+      "time": "18:00",
+      "title": "MBC <복면가왕>",
+      "detail": "",
+      "type": "broadcast",
       "source": "mnetplus"
     },
     {
@@ -1731,18 +1731,18 @@
     },
     {
       "date": "2025-11-02",
-      "time": "13:00",
-      "title": "[Dearest] 대면/영상통화 팬사인회 by fromm store",
-      "detail": "",
-      "type": "fansign",
-      "source": "mnetplus"
-    },
-    {
-      "date": "2025-11-02",
       "time": "",
       "title": "2025 서울오픈 국제남자  챌린저 테니스대회",
       "detail": "",
       "type": "event",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2025-11-02",
+      "time": "13:00",
+      "title": "[Dearest] 대면/영상통화 팬사인회 by fromm store",
+      "detail": "",
+      "type": "fansign",
       "source": "mnetplus"
     },
     {
@@ -1803,16 +1803,16 @@
     },
     {
       "date": "2025-11-12",
-      "time": "17:00",
-      "title": "MBC M <쇼! 챔피언>",
+      "time": "",
+      "title": "KBS Joy <리뷰it>",
       "detail": "",
       "type": "broadcast",
       "source": "mnetplus"
     },
     {
       "date": "2025-11-12",
-      "time": "",
-      "title": "KBS Joy <리뷰it>",
+      "time": "17:00",
+      "title": "MBC M <쇼! 챔피언>",
       "detail": "",
       "type": "broadcast",
       "source": "mnetplus"
@@ -1827,16 +1827,16 @@
     },
     {
       "date": "2025-11-19",
-      "time": "17:00",
-      "title": "MBC M <쇼! 챔피언>",
+      "time": "",
+      "title": "KBS Joy <리뷰it>",
       "detail": "",
       "type": "broadcast",
       "source": "mnetplus"
     },
     {
       "date": "2025-11-19",
-      "time": "",
-      "title": "KBS Joy <리뷰it>",
+      "time": "17:00",
+      "title": "MBC M <쇼! 챔피언>",
       "detail": "",
       "type": "broadcast",
       "source": "mnetplus"
@@ -2795,18 +2795,18 @@
     },
     {
       "date": "2026-06-20",
-      "time": "21:00",
-      "title": "JTBC <아는 형님>",
-      "detail": "",
-      "type": "broadcast",
-      "source": "mnetplus"
-    },
-    {
-      "date": "2026-06-20",
       "time": "",
       "title": "거제시X전참시 미니 팬미팅",
       "detail": "",
       "type": "event",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-06-20",
+      "time": "21:00",
+      "title": "JTBC <아는 형님>",
+      "detail": "",
+      "type": "broadcast",
       "source": "mnetplus"
     },
     {
@@ -3083,16 +3083,16 @@
     },
     {
       "date": "2026-07-21",
-      "time": "18:30",
-      "title": "KT위즈 시구&시투",
+      "time": "14:00",
+      "title": "제7회 여수 섬의 날 홍보대사 위촉식",
       "detail": "",
       "type": "event",
       "source": "mnetplus"
     },
     {
       "date": "2026-07-21",
-      "time": "14:00",
-      "title": "제7회 여수 섬의 날 홍보대사 위촉식",
+      "time": "18:30",
+      "title": "KT위즈 시구&시투",
       "detail": "",
       "type": "event",
       "source": "mnetplus"
@@ -3139,19 +3139,19 @@
     },
     {
       "date": "2026-07-25",
-      "time": "16:45",
-      "title": "보령 KBS 슈퍼라이브",
-      "detail": "",
-      "type": "broadcast",
-      "source": "manual-archive"
-    },
-    {
-      "date": "2026-07-25",
       "time": "12:45",
       "title": "ONE UNIVERSE FESTIVAL 2026 - 인천",
       "detail": "",
       "type": "concert",
       "source": "mnetplus"
+    },
+    {
+      "date": "2026-07-25",
+      "time": "16:45",
+      "title": "보령 KBS 슈퍼라이브",
+      "detail": "",
+      "type": "broadcast",
+      "source": "manual-archive"
     },
     {
       "date": "2026-07-25",
@@ -3168,6 +3168,14 @@
       "detail": "",
       "type": "event",
       "source": "manual-archive"
+    },
+    {
+      "date": "2026-07-26",
+      "time": "14:00",
+      "title": "2026 캐리비안 베이 워터 뮤직 풀파티",
+      "detail": "",
+      "type": "event",
+      "source": "mnetplus"
     },
     {
       "date": "2026-07-26",
@@ -3191,14 +3199,6 @@
       "title": "별방수면회",
       "detail": "",
       "type": "concert",
-      "source": "mnetplus"
-    },
-    {
-      "date": "2026-07-26",
-      "time": "14:00",
-      "title": "2026 캐리비안 베이 워터 뮤직 풀파티",
-      "detail": "",
-      "type": "event",
       "source": "mnetplus"
     },
     {
@@ -3251,22 +3251,6 @@
     },
     {
       "date": "2026-08-07",
-      "time": "11:00",
-      "title": "리센느 포카 이벤트 VOL.2 (카사베르디 콜라보)",
-      "detail": "",
-      "type": "event",
-      "source": "fan-schedule"
-    },
-    {
-      "date": "2026-08-07",
-      "time": "19:00",
-      "title": "안원잘부 시즌2 ep.1",
-      "detail": "",
-      "type": "event",
-      "source": "fan-schedule"
-    },
-    {
-      "date": "2026-08-07",
       "time": "",
       "title": "나랑드 사이다 TV CF 공개",
       "detail": "",
@@ -3277,6 +3261,22 @@
       "date": "2026-08-07",
       "time": "",
       "title": "에이페 광고 공개",
+      "detail": "",
+      "type": "event",
+      "source": "fan-schedule"
+    },
+    {
+      "date": "2026-08-07",
+      "time": "11:00",
+      "title": "리센느 포카 이벤트 VOL.2 (카사베르디 콜라보)",
+      "detail": "",
+      "type": "event",
+      "source": "fan-schedule"
+    },
+    {
+      "date": "2026-08-07",
+      "time": "19:00",
+      "title": "안원잘부 시즌2 ep.1",
       "detail": "",
       "type": "event",
       "source": "fan-schedule"
@@ -3315,19 +3315,19 @@
     },
     {
       "date": "2026-08-14",
-      "time": "19:00",
-      "title": "안원잘부 시즌2 ep.3",
-      "detail": "",
-      "type": "youtube",
-      "source": "fan-schedule"
-    },
-    {
-      "date": "2026-08-14",
       "time": "",
       "title": "KCON LA 2026",
       "detail": "",
       "type": "concert",
       "source": "mnetplus"
+    },
+    {
+      "date": "2026-08-14",
+      "time": "19:00",
+      "title": "안원잘부 시즌2 ep.3",
+      "detail": "",
+      "type": "youtube",
+      "source": "fan-schedule"
     },
     {
       "date": "2026-08-15",
@@ -3354,12 +3354,28 @@
       "source": "mnetplus"
     },
     {
+      "date": "2026-08-21",
+      "time": "19:00",
+      "title": "안원잘부 시즌2 ep.4",
+      "detail": "",
+      "type": "youtube",
+      "source": "fan-schedule"
+    },
+    {
       "date": "2026-08-27",
       "time": "",
       "title": "2026 K-WORLD DREAM AWARDS",
       "detail": "",
       "type": "concert",
       "source": "mnetplus"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "19:00",
+      "title": "안원잘부 시즌2 ep.5",
+      "detail": "",
+      "type": "youtube",
+      "source": "fan-schedule"
     },
     {
       "date": "2026-08-30",
@@ -3384,6 +3400,14 @@
       "detail": "",
       "type": "broadcast",
       "source": "mnetplus"
+    },
+    {
+      "date": "2026-09-04",
+      "time": "19:00",
+      "title": "안원잘부 시즌2 ep.6",
+      "detail": "",
+      "type": "youtube",
+      "source": "fan-schedule"
     },
     {
       "date": "2026-09-04",
@@ -3416,6 +3440,14 @@
       "detail": "",
       "type": "event",
       "source": "mnetplus"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "19:00",
+      "title": "안원잘부 시즌2 ep.7",
+      "detail": "",
+      "type": "youtube",
+      "source": "fan-schedule"
     },
     {
       "date": "2026-09-16",
@@ -3456,6 +3488,14 @@
       "detail": "",
       "type": "event",
       "source": "mnetplus"
+    },
+    {
+      "date": "2026-09-18",
+      "time": "19:00",
+      "title": "안원잘부 시즌2 ep.8",
+      "detail": "",
+      "type": "youtube",
+      "source": "fan-schedule"
     },
     {
       "date": "2026-09-19",
