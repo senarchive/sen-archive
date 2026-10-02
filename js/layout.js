@@ -13,7 +13,8 @@ function renderSiteNav(activeKey, root, opts) {
         { key: 'schedule', label: tr('navSchedule') || 'SCHEDULE',
           href: isHome ? 'javascript:void(0)' : root + 'index.html#todayScheduleSection',
           onclick: isHome ? "scrollToSection('todayScheduleSection')" : '' },
-        { key: 'goods', label: tr('navGoods') || 'GOODS', href: root + 'goods/goods.html' },
+        // [임시 비활성화] GOODS 탭
+        // { key: 'goods', label: tr('navGoods') || 'GOODS', href: root + 'goods/goods.html' },
         { key: 'news', label: tr('navNews') || 'NEWS', href: root + 'news/news.html' },
         { key: 'fanchant', label: tr('navFanchant') || '응원법', href: root + 'fanchant/fanchant.html' },
         { key: 'media', label: tr('navMedia') || '영상 모음', href: root + 'media/media.html' },
