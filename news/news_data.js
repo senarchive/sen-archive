@@ -1,12 +1,37 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-03T04:35:36.254Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-03T11:20:52.814Z) */
 
 const NEWS_DATA = [
+    {
+        "title": "이서진, 아직 정산 못 받은 리센느에 “돈이 다야”…현실 조언 폭발 (비서진) - sports.donga.com",
+        "source": "sports.donga.com",
+        "date": "2026-10-03",
+        "url": "https://sports.donga.com/ent/article/all/20261003/134780004/1",
+        "summary": "[동아닷컴 김승현 기자] ‘무엇이든 해줄지니 - 비서진’이 대세 걸그룹 리센느와 세대를 뛰어넘은 수발 케미로 웃음과 뭉클함을 동시에 안겼다.지난 2일 방송된 SBS ‘무엇이든 해줄지니 - 비서진’에서는 이서진과 김광규가 평균 나이 20.6세인 리센느(원이, 미나미,…",
+        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/03/134779994.1.jpg"
+    },
     {
         "title": "리센느도 당할 뻔했다…日 신종 범죄 ‘부츠카리’ 공포 - 서울경제",
         "source": "서울경제",
         "date": "2026-10-03",
         "url": "https://www.sedaily.com/article/20097904",
-        "summary": ""
+        "summary": "일상 속 신종 범죄부터 대담한 모방 범죄의 실체가 공개된다. 오는 5일 오후 8시30분 방송하는 MBC에브리원 예능물 ‘히든아이’에서는 일본 도심에서 횡행하는 이른바 ‘부츠카리(고의 충돌)’ 범죄 현장을 조명한다. 행인을 상대로 단순 실수를 위장해 의도적으로 몸을 강하",
+        "image": "https://wimg.sedaily.com/news/cms/2026/10/03/rcv.NEWSIS.NEWSIS.20261002.NISI20261002_0002253890_Z1.jpg"
+    },
+    {
+        "title": "공주 백제문화제 개막, 리센느·요요미·허각 공연·드론쇼 선보인다 - gukjenews.com",
+        "source": "gukjenews.com",
+        "date": "2026-10-03",
+        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3712575",
+        "summary": "(공주=국제뉴스) 박의규 기자 = 공주에서 '제72회 백제문화제'가 3일 개막했다. 이번 축제는 금강신관공원, 미르섬, 공산성, 왕도심 일원에서 11일까지 9일간 진행된다.올해 백제문화제는 '청동거울, 1,500년 백제의 빛을 비추다'를 주제로 삼아, 웅진백제의 대표 유물인 청동거울의 ",
+        "image": "https://cdn.gukjenews.com/news/thumbnail/202610/3712575_3887345_2156_v150.jpg"
+    },
+    {
+        "title": "이서진, 리센느 살인적 스케줄에 “성공하면 다 그래” - 동아일보",
+        "source": "동아일보",
+        "date": "2026-10-03",
+        "url": "https://www.donga.com/news/amp/all/20261003/134780441/1",
+        "summary": "배우 이서진이 살인적인 스케줄을 소화하는 그룹 리센느를 향해 “원래 다 그런 거다”고 했다. 이서진은 2일 방송한 SBS TV 예능프로그램 ‘무엇이든 해줄지니-비서진’에서 배우 김광규와 함께 그룹 리센느 매니저로 나섰다. 리센느는 최근 받은 …",
+        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/03/134780442.1.jpg"
     },
     {
         "title": "‘비서진’ 이서진, 리센느에 돈 특강 - bntnews.co.kr",
@@ -17,12 +42,12 @@ const NEWS_DATA = [
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/03/bnt202610030164.jpg"
     },
     {
-        "title": "이서진, 아직 정산 못 받은 리센느에 “돈이 다야”…현실 조언 폭발 (비서진) - 스포츠동아",
-        "source": "스포츠동아",
+        "title": "이서진, 리센느 \"정말 돈이 다일까요?\"에 1초도 안 망설였다…\"돈이 다야\" [비서진](종합) - v.daum.net",
+        "source": "v.daum.net",
         "date": "2026-10-03",
-        "url": "https://sports.donga.com/ent/article/all/20261003/134780004/1",
-        "summary": "[동아닷컴 김승현 기자] ‘무엇이든 해줄지니 - 비서진’이 대세 걸그룹 리센느와 세대를 뛰어넘은 수발 케미로 웃음과 뭉클함을 동시에 안겼다.지난 2일 방송된 SBS ‘무엇이든 해줄지니 - 비서진’에서는 이서진과 김광규가 평균 나이 20.6세인 리센느(원이, 미나미,…",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/03/134779994.1.jpg"
+        "url": "https://v.daum.net/v/20261003164830555",
+        "summary": "[마이데일리 = 강다윤 기자] SBS '무엇이든 해줄지니 - 비서진'에서 이서진과 김광규가 그룹 리센느의 일일 매니저로 나섰다. 2일 방송된 '무엇이든 해줄지니 - 비서진'(이하 '비서진')에서는 이서진과 김광규가 평균 나이 20.6세인 리센느(원이, 미나미, 리브, 메이, 제나)의 일",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/03/mydaily/20261003164832061midx.jpg"
     },
     {
         "title": "민음사·리센느…귀해진 ‘편의점 빵’, 원재료도 잡았다 [언박싱] - 헤럴드경제",
@@ -41,12 +66,36 @@ const NEWS_DATA = [
         "image": "https://photo.newsen.com/news_photo/2026/10/03/202610030920442410_2.jpg"
     },
     {
-        "title": "“떴어, 눈치보지마” 이서진, 리센느 ‘광고비’까지 올릴 기세 [핫피플] - OSEN",
-        "source": "OSEN",
+        "title": "이서진, 스태프 눈치 리센느에 \"너네 떴어, 눈치 보지마\" - 뉴시스",
+        "source": "뉴시스",
         "date": "2026-10-03",
-        "url": "https://www.osen.co.kr/article/G1112886570",
-        "summary": "‘비서진’ 이서진이 눈치보는 리센느에 떴으니까 괜찮다고 격려했다. 2일 방송된 SBS 예능 ‘무엇이든 해줄지니 -...",
-        "image": "http://file.osen.co.kr/article_thumb/2026/10/02/202610022240772454_6abfbe75e53c3_300x.jpg"
+        "url": "https://www.newsis.com/view/NISX20261003_0003813485",
+        "summary": "[서울=뉴시스] 손정빈 기자 = 배우 이서진이 촬영 중 그룹 리센느가 스태프 눈치 보는 모습을 보이자 \"떴으니까 눈치 보지 말라\"고 했다.이서진은 2일 방송한 SBS TV 예능프로그램 '무엇이든 해줄지니 - 비서진'에서 배우 김광규와 함께 리센느 매니저로 나섰다.리센느는 광고 촬영 쉬는",
+        "image": "https://img1.newsis.com/2026/10/03/NISI20261003_0002255066_web.jpg"
+    },
+    {
+        "title": "\"주식 투자 하지마\"…'비서진' 이서진, '대세' 리센느에 조언 - edaily.co.kr",
+        "source": "edaily.co.kr",
+        "date": "2026-10-03",
+        "url": "https://www.edaily.co.kr/News/Read?newsId=02397686645609312&mediaCodeNo=257",
+        "summary": "배우 이서진이 SBS ‘무엇이든 해줄지니 -비서진’에 출연한 걸그룹 리센느에게 진심 어린 조언을 했다. 지난 2일 방송된 SBS 금요 예능 ‘무엇이든 해줄지니-비서진’에서는 이서진과 김광규가 평균 나이 20.6세인 리센느(원이, 미나미, 리브, 메이, 제나)의 일일...",
+        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/10/PS26100300563.jpg"
+    },
+    {
+        "title": "이서진, ‘정산 전’ 리센느에 현실 조언 “주식 잘못하면 패가망신” (비서진) - iMBC 연예",
+        "source": "iMBC 연예",
+        "date": "2026-10-03",
+        "url": "https://enews.imbc.com/News/RetrieveNewsInfo/519991",
+        "summary": "배우 이서진이 그룹 리센느 멤버들에게 자본주의를 강조했다. 10월 2일 방송된 SBS 금요 예능 ‘무엇이든 해줄지니 - 비서진’(이하 ‘비서진’)에서는 이서진과 김광규가 평균 나이 20.6세인 리센느(원이, 미나미, 리브, 메이, 제나)의 일일 매니저로 나섰다. 이날 방송은 분당 최고 ",
+        "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/10/03/a183a59e-0ab9-44c7-9cac-4e0884110ea2.jpg"
+    },
+    {
+        "title": "데뷔했는데 음악방송도 못 갔다…리센느가 ‘하루 섭외 100통’까지 오기까지 - jnmnews.com",
+        "source": "jnmnews.com",
+        "date": "2026-10-03",
+        "url": "https://www.jnmnews.com/news/article.html?no=674939",
+        "summary": "제이앤엠뉴스 | 하루에 들어오는 섭외 전화만 100통, 일주일 스케줄은 40개. 지금의 숫자만 보면 바쁜 걸그룹의 일상처럼 보이지만 리센느에게 처음부터 이렇게 많은 무대가 주어진 것은 아니었다. 지난 2일 방송된 SBS 예능 프로그램 ‘무엇이든 해줄지니 - 비서진’에서는 이서진과 김광규",
+        "image": "https://www.jnmnews.com/data/photos/20261040/art_17910062276293_0f987a.jpg"
     },
     {
         "title": "리센느, 하루 섭외 전화 100통인데 정산 0원 - 미디어파인",
@@ -55,6 +104,22 @@ const NEWS_DATA = [
         "url": "https://www.mediafine.co.kr/news/articleView.html?idxno=91528",
         "summary": "하루 섭외 전화만 100통, 일주일 스케줄은 무려 40개. 누구보다 바쁜 시간을 보내고 있는 걸그룹 리센느가 뜻밖의 근황을 털어놨다. 이렇게 정",
         "image": "https://cdn.mediafine.co.kr/news/photo/202610/91528_130242_4158.png"
+    },
+    {
+        "title": "“떴어, 눈치보지마” 이서진, 리센느 ‘광고비’까지 올릴 기세 [핫피플] - OSEN",
+        "source": "OSEN",
+        "date": "2026-10-03",
+        "url": "https://www.osen.co.kr/article/G1112886570",
+        "summary": "‘비서진’ 이서진이 눈치보는 리센느에 떴으니까 괜찮다고 격려했다. 2일 방송된 SBS 예능 ‘무엇이든 해줄지니 -...",
+        "image": "http://file.osen.co.kr/article_thumb/2026/10/02/202610022240772454_6abfbe75e53c3_300x.jpg"
+    },
+    {
+        "title": "이서진, 리센느에 삼촌미 제대로 \"돈이 다야, 첫 정산 받으면 주식·사기부터 조심\"…최고 4.9% (비서진)[종합] - xportsnews.com",
+        "source": "xportsnews.com",
+        "date": "2026-10-03",
+        "url": "https://www.xportsnews.com/article/2203804",
+        "summary": "(엑스포츠뉴스 이예진 기자) 배우 이서진이 평균 35세 차이의 리센느를 살뜰히 챙기면서도 첫 정산을 앞둔 멤버들에게 현실적인 '자본주의 특강'을 펼쳤다. 세대를 뛰어넘은 '삼촌·조카 케미'는 웃음을 더했고, 방송은 최고 시청률 4.9%를 기록했다.지난 2일 방송된 SBS 금요 예능 ‘무",
+        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1003/1791003750276778.webp"
     },
     {
         "title": "리센느 주 40개 살인적 스케줄-이서진 “잘나가면 다 그래” - 미디어파인",
@@ -81,12 +146,12 @@ const NEWS_DATA = [
         "image": "https://cdn.slist.kr/news/thumbnail/202610/770770_1179288_2454_v150.jpg"
     },
     {
-        "title": "김광규, 리센느에 거금 쾌척..원이 “이서진이 더 부잔데” 감동 (‘비서진’) - v.daum.net",
+        "title": "'뒷주머니에 폴더블, 실수였나?'…리센느 원이·제나, 시구 속 숨겨둔 비밀 [MD이슈] - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-10-02",
-        "url": "https://v.daum.net/v/20261003072456372",
-        "summary": "[OSEN=박하영 기자] ‘비서진’ 김광규가 리센느를 위해 거금을 쾌척했다. 2일 방송된 SBS 예능 ‘무엇이든 해줄지니 - 비서진’(이하 ‘비서진’)에서는 ‘my 스타’로 걸그룹 리센느가 출연한 가운데 김광규가 플렉스를 하는 모습이 그려졌다. 이날 광고 촬영을 끝낸 원이와 메이는 비서",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/03/poctan/20261003072457487tpdi.png"
+        "url": "https://v.daum.net/v/20261003073030412",
+        "summary": "[마이데일리 = 김도형 기자] 제나, 원이가 삼성 라이온즈파크에 등장한 가운데 남다른 '포인트'가 포착됐다. 그룹 리센느 제나, 원이는 지난 1일 대구 삼성라이온즈파크에서 열린 '2026 신한 SOL KBO리그' 삼성 라이온즈와 한화 이글스의 경기에 각각 시구와 시타자로 나섰다. 이날 ",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/03/mydaily/20261003073032255uznl.jpg"
     },
     {
         "title": "리센느도 촬영 중 당할 뻔…일본 '부츠카리' 범죄, 아이도 표적 - 머니투데이 - 머니투데이",
@@ -105,14 +170,6 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/02/10asia/20261002181256545qmpp.jpg"
     },
     {
-        "title": "'뒷주머니에 폴더블, 실수였나?'…리센느 원이·제나, 시구 속 숨겨둔 비밀 [MD이슈] - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-10-02",
-        "url": "https://v.daum.net/v/20261003073030412",
-        "summary": "[마이데일리 = 김도형 기자] 제나, 원이가 삼성 라이온즈파크에 등장한 가운데 남다른 '포인트'가 포착됐다. 그룹 리센느 제나, 원이는 지난 1일 대구 삼성라이온즈파크에서 열린 '2026 신한 SOL KBO리그' 삼성 라이온즈와 한화 이글스의 경기에 각각 시구와 시타자로 나섰다. 이날 ",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/03/mydaily/20261003073032255uznl.jpg"
-    },
-    {
         "title": "’리센느 생일 선물 공지’ 어땠길래…“조공 유도“·“단순 안내“ - 연합뉴스TV",
         "source": "연합뉴스TV",
         "date": "2026-10-02",
@@ -129,51 +186,11 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202610/16235771_2043881_5826_crop.jpg"
     },
     {
-        "title": "이서진 \"돈 많으면 행복, 주식하지 마\"...리센느에 현실 조언 - 머니투데이 - 머니투데이",
-        "source": "머니투데이",
-        "date": "2026-10-02",
-        "url": "https://www.mt.co.kr/entertainment/2026/10/03/2026100307271239559",
-        "summary": "배우 이서진이 그룹 리센느 멤버들에게 자신이 생각하는 행복에 대해 밝혔다. 이를 들은 이서진은 \"정산받으면 돈을 차곡차곡 잘 모아야 한다. 혹시라도 주식 투자하고 이런 거 잘못하면 망한다\"고 조언했다.",
-        "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=673,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026100307271239559_1.jpg"
-    },
-    {
-        "title": "\"주식 하면 패가망신\"…이서진, 첫 정산 앞둔 리센느에 날린 팩폭 - 뉴시스",
-        "source": "뉴시스",
-        "date": "2026-10-02",
-        "url": "https://www.newsis.com/view/NISX20261002_0003813319",
-        "summary": "[서울=뉴시스]이재훈 기자 = 역주행으로 주가를 올리고 있는 그룹 '리센느(RESCENE)'가 아직 첫 정산을 받지 못했다고 밝혔다.2일 방송된 SBS TV 예능물 '무엇이든 해줄지니 - 비서진'에서 리센느 멤버 원이와 메이는 정산 여부를 묻는 말에 \"아직 받지 못했다\"고 답했다.일일 ",
-        "image": "https://img1.newsis.com/2026/10/03/NISI20261003_0002254976_web.jpg"
-    },
-    {
         "title": "'비서진' 이서진 \"돈이 다야!\"…리센느에 자본주의 교육 [RE:TV] - 뉴스1",
         "source": "뉴스1",
         "date": "2026-10-02",
         "url": "https://www.news1.kr/amp/entertain/broadcast-tv/6309489",
         "summary": ""
-    },
-    {
-        "title": "리센느, 하루 섭외 전화만 100통인데…\"아직 정산 못 받아\" [비서진] - 마이데일리",
-        "source": "마이데일리",
-        "date": "2026-10-02",
-        "url": "https://mydaily.co.kr/page/view/2026100303321684533",
-        "summary": "'비서진' 리센느 편./SBS...",
-        "image": "https://mydaily.co.kr/photos/2026/10/03/2026100303244268040_l.png"
-    },
-    {
-        "title": "[다시보기] 무엇이든 해줄지니 - 비서진 5회 - sbs.co.kr",
-        "source": "sbs.co.kr",
-        "date": "2026-10-02",
-        "url": "https://programs.sbs.co.kr/enter/mygeniesecretary/vod/90104/22000637418",
-        "summary": "SBS 온에어/VOD/클립영상 즐기기!",
-        "image": "https://img2.sbs.co.kr/ops_pgm_img/2026/09/23/063a9e0a-746c-4cd1-b004-eaab8772d534847w640.jpg"
-    },
-    {
-        "title": "이서진, ‘대세’ 리센느 몰라봤다..평균 20.6세에 “우리를 케어해야” (‘비서진’) - 조선일보",
-        "source": "조선일보",
-        "date": "2026-10-02",
-        "url": "https://www.chosun.com/entertainments/broadcast/2026/10/02/GZSTCNTBMU4WIMLBGVRDCNLCGE/",
-        "summary": "SBS 예능 비서진에 출연한 걸그룹 리센느와 이를 알아보지 못한 출연자 이서진, 김광규의 일화를 다룸. 바쁜 스케줄을 소화하는 신인 그룹을 대하는 이서진의 유머러스한 반응이 방송을 통해 공개됨.",
-        "image": "https://www.chosun.com/resizer/v2/GNSTONDCGNRGKODFMZRTCNZVGU.png?auth=6f396e85ff7f4ccd0c642d8e948d811bbef4f06f4c9beabf7b311a16d95bef82&width=650&height=341&smart=true"
     },
     {
         "title": "‘비서진’ 이서진, 리센느에 자본 교육 - bntnews.co.kr",
@@ -184,36 +201,28 @@ const NEWS_DATA = [
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/03/bnt202610030028.jpg"
     },
     {
+        "title": "[다시보기] 무엇이든 해줄지니 - 비서진 5회 - programs.sbs.co.kr",
+        "source": "programs.sbs.co.kr",
+        "date": "2026-10-02",
+        "url": "https://programs.sbs.co.kr/enter/mygeniesecretary/vod/90104/22000637418",
+        "summary": "SBS 온에어/VOD/클립영상 즐기기!",
+        "image": "https://img2.sbs.co.kr/ops_pgm_img/2026/09/23/063a9e0a-746c-4cd1-b004-eaab8772d534847w640.jpg"
+    },
+    {
+        "title": "리센느, 하루 섭외 전화만 100통인데…\"아직 정산 못 받아\" [비서진] - 마이데일리",
+        "source": "마이데일리",
+        "date": "2026-10-02",
+        "url": "https://mydaily.co.kr/page/view/2026100303321684533",
+        "summary": "'비서진' 리센느 편./SBS...",
+        "image": "https://mydaily.co.kr/photos/2026/10/03/2026100303244268040_l.png"
+    },
+    {
         "title": "리센느, 일주일 스케줄 40개...이서진 \"곧 명품관 다닐 듯\"(비서진)[전일야화] - v.daum.net",
         "source": "v.daum.net",
         "date": "2026-10-02",
         "url": "https://v.daum.net/v/20261003070655232",
         "summary": "(엑스포츠뉴스 오수정 기자) '무엇이든 해줄지니 - 비서진'에서 이서진이 리센느를 향한 돌직구로 웃음을 자아냈다. 지난 2일 방송된 SBS 예능 프로그램 '무엇이든 해줄지니 - 비서진'에서는 '평균 나이 56.5세' 이서진, 김광규와 '평균 나이 20.6세' 리센느(원이, 미나미, 리브",
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/03/xportsnews/20261003070656994lstc.jpg"
-    },
-    {
-        "title": "08년생 리센느 제나 \"아버지 77년생\"…이서진 깜짝 \"김광규가 10살 더 많아\" - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-10-02",
-        "url": "https://v.daum.net/v/20261003085256209",
-        "summary": "(엑스포츠뉴스 이예진 기자) 그룹 리센느 제나의 아버지 나이가 공개되자 이서진과 김광규가 세대 차이를 실감하며 웃음을 터뜨렸다. 2일 방송된 SBS '무엇이든 해줄지니 - 비서진'에는 그룹 리센느가 출연했다. 이날 멤버들은 제나와 메이가 2008년생 막내라인, 미나미와 리브가 2006년",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/03/xportsnews/20261003085258360ofyy.jpg"
-    },
-    {
-        "title": "이서진, 리센느 젓가락질 교육…“여친 때문에 고쳤다” - 동아일보",
-        "source": "동아일보",
-        "date": "2026-10-02",
-        "url": "https://www.donga.com/news/amp/all/20261002/134779621/1",
-        "summary": "‘비서진’ 이서진이 리센느 원이의 젓가락질 교정에 나섰다. 2일 오후 방송된 SBS 예능 프로그램 ‘무엇이든 해줄지니 - 비서진’에서는 그룹 리센느가 ‘my 스타’로 출격했다. 이날 리더 원이가 서툰 젓가락질로 시선을 모…",
-        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/02/134779622.1.jpg"
-    },
-    {
-        "title": "[뮤지션100] 제니 127점 증가해 20위…리센느 1위 속 하츠투하츠 159점 감소 - TopStarNews",
-        "source": "TopStarNews",
-        "date": "2026-10-02",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16235743",
-        "summary": "10월 3일 오전 8시 뮤지션100에서 블랙핑크 제니가 전일보다 스코어를 127점 늘리며 20위로 올라섰다. 리센느·임영웅·하츠투하하츠는 TOP3를 유지했지만 스코어는 나란히 감소했다. 아이들 소연은 5개 국내 플랫폼 정상을 차지했다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202610/16235743_2043849_2643_crop.jpg"
     },
     {
         "title": "이서진·김광규, 리센느에 '돈 관리' 조언 \"첫 정산 후 사기꾼 多 붙어..주식투자 잘못하면 패가망신\" [비서진][★밤TV] - starnewskorea.com",
@@ -224,12 +233,36 @@ const NEWS_DATA = [
         "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=670,fit=cover,q=high,sharpen=2/21/2026/10/2026100223271349047_1.jpg"
     },
     {
+        "title": "[피플] 리센느·아오아·코르티스 장기흥행 톱3 체제 - JTBC",
+        "source": "JTBC",
+        "date": "2026-10-02",
+        "url": "https://news.jtbc.co.kr/article/NB12321053",
+        "summary": "그룹 리센느(RESCENE), 아이오아이(I.O.I), 코르티스(CORTIS)가 9월에도 멜론 월간 차트 최상위권을 지키며 장기 흥행을 이어갔다...",
+        "image": "https://photo.jtbc.co.kr/news/jam_photo/202610/02/bd75b363-5ab2-4b77-a84f-6cc22eec8e90.jpg"
+    },
+    {
         "title": "김광규, 리센느에 거금 쾌척..원이 “이서진이 더 부잔데” 감동 (‘비서진’) - OSEN",
         "source": "OSEN",
         "date": "2026-10-02",
         "url": "https://www.osen.co.kr/article/G1112886580",
         "summary": "‘비서진’ 김광규가 리센느를 위해 거금을 쾌척했다. 2일 방송된 SBS 예능 ‘무엇이든 해줄지니 -...",
         "image": "http://file.osen.co.kr/article_thumb/2026/10/02/202610022310774599_6abfc1555d106_300x.png"
+    },
+    {
+        "title": "이서진, 리센느 젓가락질 교육…“여친 때문에 고쳤다” - 동아일보",
+        "source": "동아일보",
+        "date": "2026-10-02",
+        "url": "https://www.donga.com/news/amp/all/20261002/134779621/1",
+        "summary": "‘비서진’ 이서진이 리센느 원이의 젓가락질 교정에 나섰다. 2일 오후 방송된 SBS 예능 프로그램 ‘무엇이든 해줄지니 - 비서진’에서는 그룹 리센느가 ‘my 스타’로 출격했다. 이날 리더 원이가 서툰 젓가락질로 시선을 모…",
+        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/02/134779622.1.jpg"
+    },
+    {
+        "title": "이서진, ‘대세’ 리센느 몰라봤다..평균 20.6세에 “우리를 케어해야” (‘비서진’) - 조선일보",
+        "source": "조선일보",
+        "date": "2026-10-02",
+        "url": "https://www.chosun.com/entertainments/broadcast/2026/10/02/GZSTCNTBMU4WIMLBGVRDCNLCGE/",
+        "summary": "SBS 예능 비서진에 출연한 걸그룹 리센느와 이를 알아보지 못한 출연자 이서진, 김광규의 일화를 다룸. 바쁜 스케줄을 소화하는 신인 그룹을 대하는 이서진의 유머러스한 반응이 방송을 통해 공개됨.",
+        "image": "https://www.chosun.com/resizer/v2/GNSTONDCGNRGKODFMZRTCNZVGU.png?auth=6f396e85ff7f4ccd0c642d8e948d811bbef4f06f4c9beabf7b311a16d95bef82&width=650&height=341&smart=true"
     },
     {
         "title": "리센느 미나미, 한국서 데뷔한 이유? “빌보드 가고 싶어” 큰 그림 고백(비서진) - 스포츠경향",
@@ -240,27 +273,12 @@ const NEWS_DATA = [
         "image": "https://images.khan.co.kr/article/2026/10/02/news-p.v1.20261002.34f3d9f069e74f30b66764eee4f11c9f_P1.png"
     },
     {
-        "title": "“행복도 돈이 다야” 이서진, 리센느 흑화시킨 자본주의 교육(비서진)[어제TV] - 뉴스엔",
-        "source": "뉴스엔",
-        "date": "2026-10-02",
-        "url": "https://www.newsen.com/news_view.php?uid=202610030112192510&code=100100",
-        "summary": "�������� �̼����� �ں����� ������ ��ȭ�ߴ�. 10�� 2�� ��۵� SBS �������̵� ��������-������������ �̼���, �豤�԰� �������� ���� �Ŵ����� ������ ����� �����ƴ�. �������� ��..",
-        "image": "https://photo.newsen.com/news_photo/2026/10/03/202610030112192510_1.jpg"
-    },
-    {
         "title": "김광규 \"많이 떴네\"…리센느, 광고 100개 들어오더니 변했다? \"편집 해주세요\" ('비서진') - 텐아시아",
         "source": "텐아시아",
         "date": "2026-10-02",
         "url": "https://www.tenasia.co.kr/article/2026100212154",
         "summary": "'무엇이든 해줄지니 - 비서진' 김광규가 리센느의 변화를 보고 놀랐다. 2일 방송된 SBS '무엇이든 해줄지니 - 비서진'에서는 이서진과 김광규가 리센느의 하루 매니저로 나섰다. 이날 리센느는 역주행 이후 광고 제안이 100여 개 들어오고 하루 섭외 전화만 100통가량...",
         "image": "https://img.tenasia.co.kr/photo/202610/BF.45921083.1.jpg"
-    },
-    {
-        "title": "'비서진' 리센느 미나미 \"한국 연습생 실력·연습량에 충격\" - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-10-02",
-        "url": "https://www.news1.kr/entertain/broadcast-tv/6309485",
-        "summary": ""
     },
     {
         "title": "리센느, 광고 100개 들어왔다더니…\"정산 아직 안 받았다\" ('비서진') - 텐아시아",
@@ -279,12 +297,34 @@ const NEWS_DATA = [
         "image": "https://mydaily.co.kr/photos/2026/10/03/2026100306442419812_l.png"
     },
     {
-        "title": "[TOP이슈] 리센느, 소속 아티스트 악성 게시물 법적 대응 \"선처·합의 없다\" - TopStarNews",
-        "source": "TopStarNews",
+        "title": "'비서진' 이서진, 리센느와 첫 '왁뿌'…\"기분 썩 좋지 않아\" - 뉴스1",
+        "source": "뉴스1",
         "date": "2026-10-02",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16235393",
-        "summary": "리센느(RESCENE) 측이 아티스트의 권익 보호를 위해 악성 게시물 및 콘텐츠에 대한 법적 대응을 진행 중이라고 밝혔다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202610/16235393_2043568_2217_crop.jpg"
+        "url": "https://www.news1.kr/entertain/broadcast-tv/6309486",
+        "summary": ""
+    },
+    {
+        "title": "`뒷주머니에 폴더블, 실수였나?`…리센느 원이·제나, 시구 속 숨겨둔 비밀 [MD이슈] - 마이데일리",
+        "source": "마이데일리",
+        "date": "2026-10-02",
+        "url": "https://www.mydaily.co.kr/page/view/2026100211241797258",
+        "summary": "리센느 원이, 제나./송일섭 기자(andlyu@mydaily...",
+        "image": "https://mydaily.co.kr/photos/2026/10/02/2026100211315170672_l.jpg"
+    },
+    {
+        "title": "'비서진' 리센느 미나미 \"한국 연습생 실력·연습량에 충격\" - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-10-02",
+        "url": "https://www.news1.kr/entertain/broadcast-tv/6309485",
+        "summary": ""
+    },
+    {
+        "title": "08년생 리센느 제나 \"아버지 77년생\"…이서진 깜짝 \"김광규가 10살 더 많아\" - xportsnews.com",
+        "source": "xportsnews.com",
+        "date": "2026-10-02",
+        "url": "https://www.xportsnews.com/article/2203722",
+        "summary": "(엑스포츠뉴스 이예진 기자) 그룹 리센느 제나의 아버지 나이가 공개되자 이서진과 김광규가 세대 차이를 실감하며 웃음을 터뜨렸다.2일 방송된 SBS '무엇이든 해줄지니 - 비서진'에는 그룹 리센느가 출연했다.이날 멤버들은 제나와 메이가 2008년생 막내라인, 미나미와 리브가 2006년생,",
+        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1003/1790985022627152.webp"
     },
     {
         "title": "“아직 정산 못받아” 리센느에 이서진 “돈이 다야” 현실 100% 조언(비서진) - 스포츠경향",
@@ -295,35 +335,12 @@ const NEWS_DATA = [
         "image": "https://images.khan.co.kr/article/2026/10/03/news-p.v1.20261003.5ace6a4c22f445d496db8fc65cec0e08_P1.png"
     },
     {
-        "title": "이서진, 리센느 매니저 인수인계 중 발끈...\"떴네? 비위 다 맞춰주고?\" 돌직구 (비서진) - v.daum.net",
-        "source": "v.daum.net",
+        "title": "[TOP이슈] 리센느, 소속 아티스트 악성 게시물 법적 대응 \"선처·합의 없다\" - TopStarNews",
+        "source": "TopStarNews",
         "date": "2026-10-02",
-        "url": "https://v.daum.net/v/20261002224143564",
-        "summary": "(엑스포츠뉴스 오수정 기자) '무엇이든 해줄지니 - 비서진'에서 이서진이 리센느의 진짜 매니저에게 인수인계를 받으면서 발끈(?)했다. 2일 방송된 SBS 예능 프로그램 '무엇이든 해줄지니 - 비서진'에서는 '평균 나이 56.5세' 이서진, 김광규와 '평균 나이 20.6세' 리센느(원이,",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/02/xportsnews/20261002224144931bsqf.jpg"
-    },
-    {
-        "title": "이서진, 리센느가 준 '왁뿌볼'에 \"와꾸? 기분 썩 좋지 않아\" [비서진] - starnewskorea.com",
-        "source": "starnewskorea.com",
-        "date": "2026-10-02",
-        "url": "https://www.starnewskorea.com/broadcast-show/2026/10/02/2026100222334539788",
-        "summary": "배우 이서진이 '왁뿌볼 킬러'가 됐다. 2일 방송된 SBS 예능 프로그램 '무엇이든 해줄지니 - 비서진'(이하 '비서진')에서는 이서진과 김광규가 그룹 리센느의 매니저로 변신했다. 이날 리센느는 광고 화보를 촬영했다. 대기 시간에 메이는 \"왁뿌 아시냐\"라며 자신의 가방에서 최근 유행하는",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=1029,fit=cover,q=high,sharpen=2/21/2026/10/2026100222334539788_1.jpg"
-    },
-    {
-        "title": "이서진, '대세' 리센느 만났지만...\"잘 모르는 애들\" (비서진) - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-10-02",
-        "url": "https://v.daum.net/v/20261002222513292",
-        "summary": "(엑스포츠뉴스 오수정 기자) '무엇이든 해줄지니 - 비서진'에서 이서진이 리센느를 낯설어했다. 2일 방송된 SBS 예능 프로그램 '무엇이든 해줄지니 - 비서진'에서는 '평균 나이 56.5세' 이서진, 김광규와 '평균 나이 20.6세' 리센느(원이, 미나미, 리브, 메이, 제나)의 만남이",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/02/xportsnews/20261002222514441isuf.jpg"
-    },
-    {
-        "title": "'리센느 효과', 아티스트를 향한 진심이 만든 변화 - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-10-02",
-        "url": "https://www.news1.kr/videos/24975",
-        "summary": ""
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16235393",
+        "summary": "리센느(RESCENE) 측이 아티스트의 권익 보호를 위해 악성 게시물 및 콘텐츠에 대한 법적 대응을 진행 중이라고 밝혔다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202610/16235393_2043568_2217_crop.jpg"
     },
     {
         "title": "리센느, 초등학교 운동회 행사도...원이 \"부르면 어디든 갔다\" (비서진) - xportsnews.com",
@@ -334,6 +351,68 @@ const NEWS_DATA = [
         "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1002/1790948974259852.webp"
     },
     {
+        "title": "이서진, 리센느 매니저 인수인계 중 발끈...\"떴네? 비위 다 맞춰주고?\" 돌직구 (비서진) - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-10-02",
+        "url": "https://v.daum.net/v/20261002224143564",
+        "summary": "(엑스포츠뉴스 오수정 기자) '무엇이든 해줄지니 - 비서진'에서 이서진이 리센느의 진짜 매니저에게 인수인계를 받으면서 발끈(?)했다. 2일 방송된 SBS 예능 프로그램 '무엇이든 해줄지니 - 비서진'에서는 '평균 나이 56.5세' 이서진, 김광규와 '평균 나이 20.6세' 리센느(원이,",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/02/xportsnews/20261002224144931bsqf.jpg"
+    },
+    {
+        "title": "'리센느 효과', 아티스트를 향한 진심이 만든 변화 - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-10-02",
+        "url": "https://www.news1.kr/videos/24975",
+        "summary": ""
+    },
+    {
+        "title": "이서진, '대세' 리센느 만났지만...\"잘 모르는 애들\" (비서진) - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-10-02",
+        "url": "https://v.daum.net/v/20261002222513292",
+        "summary": "(엑스포츠뉴스 오수정 기자) '무엇이든 해줄지니 - 비서진'에서 이서진이 리센느를 낯설어했다. 2일 방송된 SBS 예능 프로그램 '무엇이든 해줄지니 - 비서진'에서는 '평균 나이 56.5세' 이서진, 김광규와 '평균 나이 20.6세' 리센느(원이, 미나미, 리브, 메이, 제나)의 만남이",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/02/xportsnews/20261002222514441isuf.jpg"
+    },
+    {
+        "title": "리센느도 당할 뻔...아이·여성 노린 일본 '어깨빵' - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "date": "2026-10-02",
+        "url": "https://www.mt.co.kr/index.php/entertainment/2026/10/02/2026100212243987528",
+        "summary": "일본 현지에서 심각한 사회 문제로 대두된 '부츠카리'(공공장소에서 타인에게 고의로 몸을 부딪치는 행위, ぶつかり) 범죄에 그룹 리센느 멤버도 노출될 뻔했던 장면이 재조명됐다. '부츠카리'는 혼잡한 거리나 지하철역 등에서 특정인을 표적으로 삼아 고의로 몸이나 어깨를 강하게 부딪치고 지나가",
+        "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=1310,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026100212243987528_1.jpg"
+    },
+    {
+        "title": "이서진, 평균 20.6세 리센느에 현실 조언 “떴잖아, 눈치 보지 마” - v.daum.net",
+        "source": "v.daum.net",
+        "date": "2026-10-02",
+        "url": "https://v.daum.net/v/z9dOURYC0w",
+        "summary": "사진제공｜SBS [스포츠동아 이수진 기자] 배우 이서진이 평균 나이 20.6세인 걸그룹 리센느에게 거침없는 ‘자본주의 철학’을 전수한다. 2일 방송되는 SBS ‘무엇이든 해줄지니 - 비서진’(이하 ‘비서진’)에서는 리센느가 ‘my 스타’로 등장해 이서진의 현실적인 조언을 듣는 모습이 공",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/02/sportsdonga/20261002124348370msea.png"
+    },
+    {
+        "title": "이서진·김광규, 리센느 향해 \"떴잖아 눈치 안 봐도 돼\"…연예인 병 관리법까지 전수 - 조선비즈 - Chosunbiz",
+        "source": "Chosunbiz",
+        "date": "2026-10-02",
+        "url": "https://biz.chosun.com/entertainment/tv/2026/10/02/GA3GKNTGMQ2GKMLEME4TMMJSMM/",
+        "summary": "이서진·김광규, 리센느 향해 떴잖아 눈치 안 봐도 돼연예인 병 관리법까지 전수",
+        "image": "https://biz.chosun.com/resizer/v2/MRSGEZJYGY3TCYJYMI3TIYJVMQ.jpg?auth=09dd3ac958d0d03745f8b0f7748f91a8ab22705333a88f587c9b237ae9edd9dc&width=900&height=472&smart=true"
+    },
+    {
+        "title": "이서진, 리센느가 준 '왁뿌볼'에 \"와꾸? 기분 썩 좋지 않아\" [비서진] - starnewskorea.com",
+        "source": "starnewskorea.com",
+        "date": "2026-10-02",
+        "url": "https://www.starnewskorea.com/broadcast-show/2026/10/02/2026100222334539788",
+        "summary": "배우 이서진이 '왁뿌볼 킬러'가 됐다. 2일 방송된 SBS 예능 프로그램 '무엇이든 해줄지니 - 비서진'(이하 '비서진')에서는 이서진과 김광규가 그룹 리센느의 매니저로 변신했다. 이날 리센느는 광고 화보를 촬영했다. 대기 시간에 메이는 \"왁뿌 아시냐\"라며 자신의 가방에서 최근 유행하는",
+        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=1029,fit=cover,q=high,sharpen=2/21/2026/10/2026100222334539788_1.jpg"
+    },
+    {
+        "title": "이서진, 리센느에 자본주의 교육…\"떴잖아, 눈치 보지마\" 연예인 특강까지 - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-10-02",
+        "url": "https://www.news1.kr/amp/entertain/broadcast-tv/6308566",
+        "summary": ""
+    },
+    {
         "title": "이서진, 리센느 극진 수발 요청에 “벌써? 떴네 이제? 서인영과 다를 바 없어”(비서진) - 뉴스엔",
         "source": "뉴스엔",
         "date": "2026-10-02",
@@ -342,20 +421,12 @@ const NEWS_DATA = [
         "image": "https://photo.newsen.com/news_photo/2026/10/02/202610022231322510_1.jpg"
     },
     {
-        "title": "리센느, 10월 신인 아이돌 개인 브랜드평판 올킬..1위 제나·2위 원이·3위 리브 - 브레이크뉴스",
-        "source": "브레이크뉴스",
+        "title": "리센느에 푹 빠졌나…‘비서진’ 김광규, 멤버들 사진까지 SNS 공개 - 스포츠서울",
+        "source": "스포츠서울",
         "date": "2026-10-02",
-        "url": "http://breaknews.com/1240799",
-        "summary": "걸그룹 리센느(RESCENE) © 브레이크뉴스 박동제 기자= 걸그룹 리센느(RESCENE)가 10월 신인 아이돌 개인 브랜드평판 상위권",
-        "image": "https://www.breaknews.com/imgdata/breaknews_com/202609/202609231003262.png"
-    },
-    {
-        "title": "리센느, 주 40개 '살인적 스케줄'…이서진 \"안쓰럽지 않냐고? 원래 다 그래\" - sportschosun.com",
-        "source": "sportschosun.com",
-        "date": "2026-10-02",
-        "url": "https://www.sportschosun.com/entertainment/2026-10-02/202610020100017860000923",
-        "summary": "배우 이서진이 일주일에 40개에 달하는 스케줄을 소화하는 걸그룹 리센느에게 단호한 반응을 보였다. 2일 방송된 SBS 금요 예능 '무엇이든 해줄지니 - 비서진'에서는 이서진과 김광규가 평균 나이 20.6세인 리센느의 비서로 나선 모습이 공개됐다.",
-        "image": "https://www.sportschosun.com/article/html/2026/10/02/2026100201000178600009231_w.jpg"
+        "url": "https://www.sportsseoul.com/news/read/1639175",
+        "summary": "[스포츠서울 | 윤동언 기자] 배우 김광규가 걸그룹 리센느와 함께한 인증샷을 공개하며 훈훈한 인연을 자랑했다. 김광규는 지난 2일 자신의 SNS에 “마이스타로 만난 리센느♡”라는 글과 함께 여러 장의 사진을 게재했다. 공개된 사진에는 SBS 예능 프로그램 ‘무엇이든 해줄지니-비서진’",
+        "image": "https://file.sportsseoul.com/news/cms/2026/10/03/news-p.v1.20261003.5306dcd5409f4535b3da142b50f220c5_T1.png"
     },
     {
         "title": "이서진, 스태프 눈치 살피는 리센느에→\"눈치 보지마\" 독려…\"너네 떴잖아\" ('비서진') - v.daum.net",
@@ -366,8 +437,16 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/02/tvreport/20261002163314707lbir.jpg"
     },
     {
-        "title": "리센느, 주 40개 스케줄에도 \"정산 아직\"…이서진 \"돈이 다다\" 현실조언 - sportschosun.com",
-        "source": "sportschosun.com",
+        "title": "리센느도 당할 뻔…일본 길거리 촬영 중 ‘신종 범죄’ 노출 - 서울신문",
+        "source": "서울신문",
+        "date": "2026-10-02",
+        "url": "https://www.seoul.co.kr/news/entertainment/starinterN/2026/10/02/20261002500078",
+        "summary": "그룹 리센느가 일본 길거리 촬영 도중 고의로 부딪치는 신종 범죄 ‘부츠카리’의 표적이 될 뻔한 장면이 공개됐다. 방송에서는 어린아이를 향한 위협적 충돌과 함께, 해외 일정 중인 멤버들을 노린 아찔한 순간도 포착돼 충격을 줬다.",
+        "image": "https://img.seoul.co.kr/img/upload/2026/10/02/SSC_20261002104921.jpg.webp"
+    },
+    {
+        "title": "리센느, 주 40개 스케줄에도 \"정산 아직\"…이서진 \"돈이 다다\" 현실조언 - 스포츠조선",
+        "source": "스포츠조선",
         "date": "2026-10-02",
         "url": "https://www.sportschosun.com/entertainment/2026-10-02/202610020100018240000946",
         "summary": "걸그룹 리센느가 아직 정산을 받지 못했다고 밝혔다. 이서진은 정산금 사용에 대한 조언에 이어 \"돈이 다다\"라는 단호한 답변으로 웃음을 안겼다. 2일 방송된 SBS 금요 예능 '무엇이든 해줄지니 - 비서진'에서는 이서진과 김광규가 평균 나이 20.",
@@ -382,20 +461,42 @@ const NEWS_DATA = [
         "image": "http://file.osen.co.kr/article_thumb/2026/10/02/202610022253771595_6abfbb216a93a_300x.png"
     },
     {
-        "title": "이서진, 리센느에 \"너네 떴잖아, 눈치 보지 마\"…광고비 걱정엔 칼답 - sportschosun.com",
-        "source": "sportschosun.com",
+        "title": "\"니네 떴잖아\" 평균 20.6세 리센느, '비서진'의 매운맛 자본주의 특강 - 저스트 이코노믹스",
+        "source": "저스트 이코노믹스",
+        "date": "2026-10-02",
+        "url": "https://www.justeconomix.com/ko-kr/articles/153538",
+        "summary": ""
+    },
+    {
+        "title": "리센느, 주 40개 '살인적 스케줄'…이서진 \"안쓰럽지 않냐고? 원래 다 그래\" - 스포츠조선",
+        "source": "스포츠조선",
+        "date": "2026-10-02",
+        "url": "https://www.sportschosun.com/entertainment/2026-10-02/202610020100017860000923",
+        "summary": "배우 이서진이 일주일에 40개에 달하는 스케줄을 소화하는 걸그룹 리센느에게 단호한 반응을 보였다. 2일 방송된 SBS 금요 예능 '무엇이든 해줄지니 - 비서진'에서는 이서진과 김광규가 평균 나이 20.6세인 리센느의 비서로 나선 모습이 공개됐다.",
+        "image": "https://www.sportschosun.com/article/html/2026/10/02/2026100201000178600009231_w.jpg"
+    },
+    {
+        "title": "이서진, 리센느에 \"너네 떴잖아, 눈치 보지 마\"…광고비 걱정엔 칼답 - 스포츠조선",
+        "source": "스포츠조선",
         "date": "2026-10-02",
         "url": "https://www.sportschosun.com/entertainment/2026-10-02/202610020100018120000940",
         "summary": "이서진이 '대세' 리센느에게 거침없는 연예계 생존 조언을 해 눈길을 끈다. 2일 방송된 SBS 금요 예능 '무엇이든 해줄지니 - 비서진'(이하 '비서진')에서는 평균 나이 20.6세 걸그룹 리센느를 자본주의로 물들이는 비서진의 모습이 공개됐다.",
         "image": "https://www.sportschosun.com/article/html/2026/10/02/2026100201000181200009401_w.jpg"
     },
     {
-        "title": "리센느에 푹 빠졌나…‘비서진’ 김광규, 멤버들 사진까지 SNS 공개 - 스포츠서울",
-        "source": "스포츠서울",
+        "title": "리센느도 당할 뻔… 日서 기승하는 고의충돌 '부츠카리' 범죄 - hankookilbo.com",
+        "source": "hankookilbo.com",
         "date": "2026-10-02",
-        "url": "https://www.sportsseoul.com/news/read/1639175",
-        "summary": "[스포츠서울 | 윤동언 기자] 배우 김광규가 걸그룹 리센느와 함께한 인증샷을 공개하며 훈훈한 인연을 자랑했다. 김광규는 지난 2일 자신의 SNS에 “마이스타로 만난 리센느♡”라는 글과 함께 여러 장의 사진을 게재했다. 공개된 사진에는 SBS 예능 프로그램 ‘무엇이든 해줄지니-비서진’",
-        "image": "https://file.sportsseoul.com/news/cms/2026/10/03/news-p.v1.20261003.5306dcd5409f4535b3da142b50f220c5_T1.png"
+        "url": "https://www.hankookilbo.com/news/article/A2026100208410002696",
+        "summary": "① 일본에서는 사람을 골라 고의로 몸을 부딪치거나 미는 부츠카리 범죄가 늘고 있습니다. ② 방송에서는 아이를 미는 장면과 그룹 리센느를 노린 시도까지 공개됐습니다. ③ 경찰 사칭 보석상 강도와 총기 위협 사건과 화재 틈 절도도 함께 다뤘습니다.",
+        "image": "https://newsimg.hankookilbo.com/2026/10/02/d369e44a-b4a7-4824-95c6-9ff9561f95c0.jpg"
+    },
+    {
+        "title": "리센느, 초등학교 운동회→주민센터서도 노래 “작은 회사라 무대 기회 없어”(비서진) - 뉴스엔",
+        "source": "뉴스엔",
+        "date": "2026-10-02",
+        "url": "https://m.newsen.com/news_view.php?uid=202610022231142510",
+        "summary": ""
     },
     {
         "title": "이서진, 리센느 개개인 수발 요청에..“벌써 맞춰주고 있네?” (‘비서진’) - OSEN",
@@ -406,129 +507,20 @@ const NEWS_DATA = [
         "image": "http://file.osen.co.kr/article_thumb/2026/10/02/202610022149770350_6abfadb67f396_300x.png"
     },
     {
-        "title": "리센느, 초등학교 운동회→주민센터서도 노래 “작은 회사라 무대 기회 없어”(비서진) - 뉴스엔",
-        "source": "뉴스엔",
+        "title": "더마비, ‘데일리 세라마이드’로 브랜드 새단장…리센느 원이 모델 발탁 - 뉴스탭",
+        "source": "뉴스탭",
         "date": "2026-10-02",
-        "url": "https://m.newsen.com/news_view.php?uid=202610022231142510",
-        "summary": ""
+        "url": "https://www.newstap.co.kr/news/articleView.html?idxno=335142",
+        "summary": "뷰티·헬스케어 기업 네오팜의 바디 더마 브랜드 더마비(Derma)가 브랜드 리뉴얼에 나선다. 첫 단계로 ‘데일리 세라마이드’ 라인을 새롭게 선보이고, 바디 보습을",
+        "image": "https://cdn.newstap.co.kr/news/photo/202610/335142_445104_522.jpg"
     },
     {
-        "title": "리센느도 당할 뻔...아이·여성 노린 일본 '어깨빵' - 머니투데이 - 머니투데이",
-        "source": "머니투데이",
-        "date": "2026-10-02",
-        "url": "https://www.mt.co.kr/index.php/entertainment/2026/10/02/2026100212243987528",
-        "summary": "일본 현지에서 심각한 사회 문제로 대두된 '부츠카리'(공공장소에서 타인에게 고의로 몸을 부딪치는 행위, ぶつかり) 범죄에 그룹 리센느 멤버도 노출될 뻔했던 장면이 재조명됐다. '부츠카리'는 혼잡한 거리나 지하철역 등에서 특정인을 표적으로 삼아 고의로 몸이나 어깨를 강하게 부딪치고 지나가",
-        "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=1310,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026100212243987528_1.jpg"
-    },
-    {
-        "title": "\"니네 떴잖아\" 평균 20.6세 리센느, '비서진'의 매운맛 자본주의 특강 - 저스트 이코노믹스",
-        "source": "저스트 이코노믹스",
-        "date": "2026-10-02",
-        "url": "https://www.justeconomix.com/ko-kr/articles/153538",
-        "summary": ""
-    },
-    {
-        "title": "'비서진' 이서진X김광규, 리센느에 연예계 생존 꿀팁 전수 - gukjenews.com",
-        "source": "gukjenews.com",
-        "date": "2026-10-02",
-        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3712161",
-        "summary": "'비서진'의 이서진과 김광규가 걸그룹 리센느에게 날것 그대로의 자본주의 매운맛을 전수한다.2일 방송되는 SBS 예능 '무엇이든 해줄지니 - 비서진'(이하 '비서진')에서는 평균 나이 20.6세 걸그룹 리센느를 한순간에 자본주의로 물들이는 비서진의 남다른 교육 현장이 전파를 탄다.이날 방",
-        "image": "https://cdn.gukjenews.com/news/thumbnail/202610/3712161_3886804_3826_v150.jpg"
-    },
-    {
-        "title": "리센느 원이·미나미, '어깨 빵' 범죄 당할 뻔했다…돌아보는 가해자 '섬뜩' - 텐아시아",
-        "source": "텐아시아",
-        "date": "2026-10-02",
-        "url": "https://www.tenasia.co.kr/article/2026100203194",
-        "summary": "그룹 리센느(RESCENE)가 일본에서 이른바 '어깨빵'으로 불리는 부츠카리 범죄 피해를 당할 뻔한 순간이 재조명되고 있다. 오는 5일 방송되는 MBC에브리원 '히든아이'에서 일본의 부츠카리 범죄를 다룰 예정인 가운데, 리센느 멤버 원이와 미나미가 일본 도쿄에서 겪은 ...",
-        "image": "https://img.tenasia.co.kr/photo/202610/BF.45915878.1.jpg"
-    },
-    {
-        "title": "[피플] 리센느·아오아·코르티스 장기흥행 톱3 체제 - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-10-02",
-        "url": "https://v.daum.net/v/20261002110325607",
-        "summary": "그룹 리센느(RESCENE), 아이오아이(I.O.I), 코르티스(CORTIS)가 9월에도 멜론 월간 차트 최상위권을 지키며 장기 흥행을 이어갔다. 세 팀이 나란히 톱3에 이름을 올리며 꾸준한 음원 파워를 입증했다. 지난 1일 국내 최대 음원 사이트 멜론이 공개한 9월 월간 차트에 따르면",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/02/JTBC/20261002110326436zzer.jpg"
-    },
-    {
-        "title": "'비서진' 리센느, 왁뿌볼 앞 나이 차이 35.9세 세대 격차 실감 - 비즈엔터",
-        "source": "비즈엔터",
-        "date": "2026-10-02",
-        "url": "https://enter.etoday.co.kr/news/view/303221",
-        "summary": "▲'비서진' 리센느 편(사진출처=SBS)그룹 리센느가 평균 나이 56.5세 '비서진'을 만나 세대 차이와 자본주의 수업을 경험한다.2일 방송되는 SBS '무엇",
-        "image": "https://img.etoday.co.kr/pto_db/2026/10/600/20261002160311_2396688_1000_2815.jpg"
-    },
-    {
-        "title": "이서진·김광규, 리센느 향해 \"떴잖아 눈치 안 봐도 돼\"…연예인 병 관리법까지 전수 - 조선비즈 - Chosunbiz",
-        "source": "Chosunbiz",
-        "date": "2026-10-02",
-        "url": "https://biz.chosun.com/entertainment/tv/2026/10/02/GA3GKNTGMQ2GKMLEME4TMMJSMM/",
-        "summary": "이서진·김광규, 리센느 향해 떴잖아 눈치 안 봐도 돼연예인 병 관리법까지 전수",
-        "image": "https://biz.chosun.com/resizer/v2/MRSGEZJYGY3TCYJYMI3TIYJVMQ.jpg?auth=09dd3ac958d0d03745f8b0f7748f91a8ab22705333a88f587c9b237ae9edd9dc&width=900&height=472&smart=true"
-    },
-    {
-        "title": "이서진, 리센느에 자본주의 교육…\"떴잖아, 눈치 보지마\" 연예인 특강까지 - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-10-02",
-        "url": "https://www.news1.kr/entertain/broadcast-tv/6308566",
-        "summary": ""
-    },
-    {
-        "title": "이서진, 평균 20.6세 리센느에 현실 조언 “떴잖아, 눈치 보지 마” - v.daum.net",
-        "source": "v.daum.net",
-        "date": "2026-10-02",
-        "url": "https://v.daum.net/v/z9dOURYC0w",
-        "summary": "사진제공｜SBS [스포츠동아 이수진 기자] 배우 이서진이 평균 나이 20.6세인 걸그룹 리센느에게 거침없는 ‘자본주의 철학’을 전수한다. 2일 방송되는 SBS ‘무엇이든 해줄지니 - 비서진’(이하 ‘비서진’)에서는 리센느가 ‘my 스타’로 등장해 이서진의 현실적인 조언을 듣는 모습이 공",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/02/sportsdonga/20261002124348370msea.png"
-    },
-    {
-        "title": "이서진, '정산 전' 리센느에 조언...\"돈이 전부, 주식 하지 마\" (비서진)[종합] - xportsnews.com",
-        "source": "xportsnews.com",
-        "date": "2026-10-02",
-        "url": "https://www.xportsnews.com/article/2203693",
-        "summary": "(엑스포츠뉴스 오수정 기자) '무엇이든 해줄지니 - 비서진'에서 이서진이 리센느 멤버들에게 현실 조언을 건넸다. 2일 방송된 SBS 예능 프로그램 '무엇이든 해줄지니 - 비서진'에서는 '평균 나이 56.5세' 이서진, 김광규와 '평균 나이 20.6세' 리센느(원이, 미나미, 리브, 메이",
-        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1002/1790950871219650.webp"
-    },
-    {
-        "title": "'비서진' 이서진, 순수 걸그룹 리센느 향해 \"눈치 보지 마 너네 떴잖아\" - TopStarNews",
+        "title": "[뮤지션100] 제니 127점 증가해 20위…리센느 1위 속 하츠투하츠 159점 감소 - TopStarNews",
         "source": "TopStarNews",
         "date": "2026-10-02",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16234729",
-        "summary": "걸그룹 리센느가 비서진의 자본주의 교육에 몰입했다. 2일 SBS '무엇이든 해줄지니 - 비서진'에서는 평균 나이 20.6세의 리센느가 이서진의 교육으로 자본주의에 물드는 모습이 공개될 예정이다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202610/16234729_2043326_451_crop.jpeg"
-    },
-    {
-        "title": "리센느도 당할 뻔…일본 길거리 촬영 중 ‘신종 범죄’ 노출 - 서울신문",
-        "source": "서울신문",
-        "date": "2026-10-02",
-        "url": "https://www.seoul.co.kr/news/entertainment/starinterN/2026/10/02/20261002500078",
-        "summary": "그룹 리센느가 일본 길거리 촬영 도중 고의로 부딪치는 신종 범죄 ‘부츠카리’의 표적이 될 뻔한 장면이 공개됐다. 방송에서는 어린아이를 향한 위협적 충돌과 함께, 해외 일정 중인 멤버들을 노린 아찔한 순간도 포착돼 충격을 줬다.",
-        "image": "https://img.seoul.co.kr/img/upload/2026/10/02/SSC_20261002104921.jpg.webp"
-    },
-    {
-        "title": "\"과거 여친 잔소리에 고쳤다\"… '비서진' 이서진, 리센느 원이 젓가락질 특훈 - 한국연예스포츠신문",
-        "source": "한국연예스포츠신문",
-        "date": "2026-10-02",
-        "url": "https://www.koreaes.com/news/articleView.html?idxno=406511",
-        "summary": "배우 이서진이 예능 프로그램에서 걸그룹 리센느 멤버 원이의 젓가락질 교정에 나서며 과거 여자친구 때문에 젓가락질을 고쳤던 일화를 공개했다.뉴스1에 따르면, 이서진",
-        "image": "https://cdn.koreaes.com/news/photo/202610/mn_406511_20261003000257_2.jpg"
-    },
-    {
-        "title": "\"군대 때 여친 잔소리로 교정\"… 이서진, '비서진'서 리센느 원이 젓가락질 특훈 - 한국연예스포츠신문",
-        "source": "한국연예스포츠신문",
-        "date": "2026-10-02",
-        "url": "https://www.koreaes.com/news/articleView.html?idxno=406518",
-        "summary": "배우 이서진이 예능 프로그램을 통해 걸그룹 리센느 원이의 젓가락질 교정 도우미로 나선 가운데 과거 자신의 교정 비화를 털어놓았다.뉴스1에 따르면, 이서진은 2일",
-        "image": "https://cdn.koreaes.com/news/photo/202610/mn_406518_20261003000801_2.jpg"
-    },
-    {
-        "title": "리센느도 당할 뻔… 日서 기승하는 고의충돌 '부츠카리' 범죄 - 한국일보",
-        "source": "한국일보",
-        "date": "2026-10-02",
-        "url": "https://www.hankookilbo.com/news/article/A2026100208410002696",
-        "summary": "① 일본에서는 사람을 골라 고의로 몸을 부딪치거나 미는 부츠카리 범죄가 늘고 있습니다. ② 방송에서는 아이를 미는 장면과 그룹 리센느를 노린 시도까지 공개됐습니다. ③ 경찰 사칭 보석상 강도와 총기 위협 사건과 화재 틈 절도도 함께 다뤘습니다.",
-        "image": "https://newsimg.hankookilbo.com/2026/10/02/d369e44a-b4a7-4824-95c6-9ff9561f95c0.jpg"
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16235743",
+        "summary": "10월 3일 오전 8시 뮤지션100에서 블랙핑크 제니가 전일보다 스코어를 127점 늘리며 20위로 올라섰다. 리센느·임영웅·하츠투하하츠는 TOP3를 유지했지만 스코어는 나란히 감소했다. 아이들 소연은 5개 국내 플랫폼 정상을 차지했다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202610/16235743_2043849_2643_crop.jpg"
     },
     {
         "title": "[스포츠 영상] '라팍 시구 나선' 리센느‥'대세 아이돌 맞네!' - MBC 뉴스",
@@ -555,20 +547,20 @@ const NEWS_DATA = [
         "image": "http://news.kbs.co.kr/data/news/2026/10/01/20261001_UcHMIp.png"
     },
     {
-        "title": "1위 리센느 제나, 2위 리센느 원이, 3위 리센느 리브 - starnewskorea.com",
-        "source": "starnewskorea.com",
-        "date": "2026-10-01",
-        "url": "https://www.starnewskorea.com/music/2026/10/02/2026100206522147244",
-        "summary": "걸그룹 리센느(RESCENE) 제나가 10월 신인 아이돌 개인 브랜드평판 1위에 오르며 인기를 빛냈다. 한국기업평판연구소는 10월 신인 아이돌 개인 브랜드평판 분석에서 리센느 제나를 1위로 분석했다고 2일 밝혔다. 리센느 원이와 리브가 각각 2위와 3위에 올랐으며, 4위는 리센느 미나미",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=858,fit=cover,q=high,sharpen=2/21/2026/10/2026100206522147244_1.jpg"
-    },
-    {
         "title": "제나→원이→리브→미나미→메이…리센느 ‘톱5 줄세우기’ 또 나왔다 - 지피코리아",
         "source": "지피코리아",
         "date": "2026-10-01",
         "url": "https://www.gpkorea.com/news/articleView.html?idxno=147214",
         "summary": "그룹 리센느가 신인 아이돌 개인 브랜드평판에서 또 한 번 1위부터 5위까지 이름을 올렸다. 지난 9월에 이어 두 달 연속 리센느 멤버 전원이 최상위권을 차지하며 눈길을 끌었다.한국기업평판연구소가 2일 발표한 신인 아이돌 개인 브랜드평판 2026년 10월 빅데이터 분석 결과에 따르면 리센",
         "image": "https://cdn.gpkorea.com/news/photo/202610/147214_312926_285.jpg"
+    },
+    {
+        "title": "1위 리센느 제나, 2위 리센느 원이, 3위 리센느 리브 - starnewskorea.com",
+        "source": "starnewskorea.com",
+        "date": "2026-10-01",
+        "url": "https://www.starnewskorea.com/music/2026/10/02/2026100206522147244",
+        "summary": "걸그룹 리센느(RESCENE) 제나가 10월 신인 아이돌 개인 브랜드평판 1위에 오르며 인기를 빛냈다. 한국기업평판연구소는 10월 신인 아이돌 개인 브랜드평판 분석에서 리센느 제나를 1위로 분석했다고 2일 밝혔다. 리센느 원이와 리브가 각각 2위와 3위에 올랐으며, 4위는 리센느 미나미",
+        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=858,fit=cover,q=high,sharpen=2/21/2026/10/2026100206522147244_1.jpg"
     },
     {
         "title": "‘비서진’ 리센느 편 방송 - bntnews.co.kr",
@@ -587,8 +579,8 @@ const NEWS_DATA = [
         "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=662,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026100208467248666_1.jpg"
     },
     {
-        "title": "무엇이든 해줄지니 - 비서진 : [선공개] ‘리센느’ 메이, 왁뿌볼 이해 못 하는 이서진×김광규에 시무룩 - sbs.co.kr",
-        "source": "sbs.co.kr",
+        "title": "무엇이든 해줄지니 - 비서진 : [선공개] ‘리센느’ 메이, 왁뿌볼 이해 못 하는 이서진×김광규에 시무룩 - programs.sbs.co.kr",
+        "source": "programs.sbs.co.kr",
         "date": "2026-10-01",
         "url": "https://programs.sbs.co.kr/enter/mygeniesecretary/clip/90105/OC481922198?div=live_end",
         "summary": "SBS 온에어/VOD/클립영상 즐기기!",
@@ -635,8 +627,8 @@ const NEWS_DATA = [
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/02/bnt202610020118.jpg"
     },
     {
-        "title": "이서진, 리센느에 거침없는 돌직구…연예인병 생존 조언 - 스포츠동아",
-        "source": "스포츠동아",
+        "title": "이서진, 리센느에 거침없는 돌직구…연예인병 생존 조언 - sports.donga.com",
+        "source": "sports.donga.com",
         "date": "2026-10-01",
         "url": "https://sports.donga.com/ent/article/all/20261002/134773198/1",
         "summary": "[동아닷컴 정희연 기자]이서진이 걸그룹 리센느에게 연예계 생활을 위한 현실적인 조언을 건넨다.2일 방송되는 SBS 금요 예능 ‘무엇이든 해줄지니 - 비서진’(이하 ‘비서진’)에는 평균 나이 20.6세인 리센느가 ‘my 스타’로 등장한다. 이날 리센느는 이서진과 함께하…",
@@ -715,13 +707,6 @@ const NEWS_DATA = [
         "image": "https://image.starnewskorea.com/21/2026/09/2026092906582642756_1.jpg"
     },
     {
-        "title": "CU ′리센느 빵′ 품귀에…＂매장 대신 앱으로 찾는다＂ - KPI뉴스",
-        "source": "KPI뉴스",
-        "date": "2026-09-28",
-        "url": "https://m.kpinews.kr/amp/1065596170734208",
-        "summary": ""
-    },
-    {
         "title": "리센느 메이, 무대 중 지퍼가 주륵...\"큰일 날 뻔\" - 머니투데이 - 머니투데이",
         "source": "머니투데이",
         "date": "2026-09-26",
@@ -750,7 +735,8 @@ const NEWS_DATA = [
         "source": "중앙일보",
         "date": "2026-09-24",
         "url": "https://www.joongang.co.kr/article/25464725",
-        "summary": ""
+        "summary": "박찬욱 감독이 극찬한 K콘텐츠 촬영 명소",
+        "image": "https://pds.joongang.co.kr/news/FbMetaImage/202609/8055f43c-c6e4-492d-a1e9-18b7f61d19f6.jpg"
     },
     {
         "title": "리센느, 11월 3일 컴백 확정…1년 만의 실물 앨범 '기세 잇나' - 조선비즈 - Chosunbiz",
