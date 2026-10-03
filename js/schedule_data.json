@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T03:25:15.883Z",
+  "updated": "2026-10-03T10:58:10.668Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3570,17 +3570,25 @@
       "source": "mnetplus"
     },
     {
-      "date": "2026-10-03",
-      "time": "",
-      "title": "2026 입크페스티벌",
+      "date": "2026-10-02",
+      "time": "23:10",
+      "title": "SBS <무엇이든 해줄지니 - 비서진>",
       "detail": "",
-      "type": "concert",
+      "type": "broadcast",
       "source": "mnetplus"
     },
     {
       "date": "2026-10-03",
-      "time": "",
-      "title": "공주 백제문화제",
+      "time": "15:50",
+      "title": "2026 입크 페스티벌",
+      "detail": "",
+      "type": "event",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-10-03",
+      "time": "20:30",
+      "title": "제72회 백제문화제",
       "detail": "",
       "type": "event",
       "source": "mnetplus"
@@ -3588,9 +3596,9 @@
     {
       "date": "2026-10-04",
       "time": "",
-      "title": "2026 의령 리치리치 페스티벌",
+      "title": "제5회 의령 리치리치 페스티벌",
       "detail": "",
-      "type": "concert",
+      "type": "event",
       "source": "mnetplus"
     },
     {
@@ -3614,7 +3622,7 @@
       "time": "",
       "title": "2026 GHOST (경기 한류 OST 뮤직페스티벌)",
       "detail": "",
-      "type": "concert",
+      "type": "event",
       "source": "mnetplus"
     },
     {
