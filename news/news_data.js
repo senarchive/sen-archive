@@ -1,14 +1,6 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-07T12:57:48.957Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-07T22:54:59.491Z) */
 
 const NEWS_DATA = [
-    {
-        "title": "[기업 인사이트] 리센느 ‘거제 야호’와 빅뱅 20주년이 증명한 ‘서사’ 자본 - 아시아투데이",
-        "source": "아시아투데이",
-        "date": "2026-10-07",
-        "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261007010002020",
-        "summary": "2026년 여름, 데뷔 3년 차 중소기획사 걸그룹 리센느는 ‘거제 야호’ 밈 하나로 차트 역주행과 음악방송 1위를 이뤘고, 데뷔 20주년을 맞은 빅뱅은 신곡 ‘BiiiG’으로 공개 한 시간 만에 차트 정상에 올랐다. 신인의 우연한 밈과 레전드의 치밀한 컴백은 하나의 원..",
-        "image": "https://img.asiatoday.co.kr/file/2026y/10m/08d/2026100801000452200022881.jpg"
-    },
     {
         "title": "최예나·리센느·알파드라이브원 뜬다…'디 어워즈' 파리 2차 라인업 공개 - YTN star",
         "source": "YTN star",
@@ -26,20 +18,20 @@ const NEWS_DATA = [
         "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/07/134799251.1.jpg"
     },
     {
-        "title": "알파드라이브원→리센느, ‘디어워즈 2027 in 파리’ 2차 라인업 합류 [공식] - 매일경제",
-        "source": "매일경제",
+        "title": "최예나부터 리센느까지…'디 어워즈 2027 인 파리', 2차 라인업 - 전자신문",
+        "source": "전자신문",
         "date": "2026-10-07",
-        "url": "https://www.mk.co.kr/news/entertain/12170167",
-        "summary": "‘디 어워즈 2027 인 파리’가 최예나, 앰퍼샌드원, 리센느, 알파드라이브원, 롱샷으로 구성된 2차 라인업을 공개했다. 유럽연합(EU)에서 처음으로 열리는 K팝 시상식 ‘디 어워즈 2027 인 파리’(D AWARDS 2027 in PARIS) 2차 라인업에 최예나(YENA), 앰퍼샌드",
-        "image": "https://pimg.mk.co.kr/news/cms/202610/07/news-p.v1.20261007.3dc8f7cf258247ca921c3db66ea7892a_R.png"
+        "url": "https://www.etnews.com/20261007000227",
+        "summary": "K-POP 시상식 '디 어워즈 2027 인 파리'(D AWARDS 2027 in PARIS)의 2차 라인업이 베일을 벗었다. 7일 새롭게 공개된 라인업에는 최예나(YENA), 앰퍼샌드원(AMPERS&ONE), 리센느(RESCENE), 알파드라이브원(ALPHA",
+        "image": "https://img.etnews.com/news/article/2026/10/07/article_07130739955254.jpg"
     },
     {
-        "title": "메가스터디교육, ‘2028 메가패스’ 출시…리센느와 캠페인 진행 - 서울신문",
-        "source": "서울신문",
+        "title": "[기업 인사이트] 리센느 ‘거제 야호’와 빅뱅 20주년이 증명한 ‘서사’ 자본 - 아시아투데이",
+        "source": "아시아투데이",
         "date": "2026-10-07",
-        "url": "https://www.seoul.co.kr/news/economy/2026/10/07/20261007500154",
-        "summary": "메가스터디교육이 2028학년도 수능 변화에 맞춘 무제한 수강 상품 ‘2028 메가패스’를 출시했다. 구매자 전원에게 교재 지원금 10만원을 제공하고, 환급 대상과 적용 범위를 넓혀 학습 부담을 낮췄다. 국어·수학·영어와 통합사회·통합과학 강좌를 갖췄고, 리센느와 캠페인도 진행했다.",
-        "image": "https://img.seoul.co.kr//img/upload/2026/10/07/SSC_20261007142409_O2.jpg.webp"
+        "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261007010002020",
+        "summary": "2026년 여름, 데뷔 3년 차 중소기획사 걸그룹 리센느는 ‘거제 야호’ 밈 하나로 차트 역주행과 음악방송 1위를 이뤘고, 데뷔 20주년을 맞은 빅뱅은 신곡 ‘BiiiG’으로 공개 한 시간 만에 차트 정상에 올랐다. 신인의 우연한 밈과 레전드의 치밀한 컴백은 하나의 원..",
+        "image": "https://img.asiatoday.co.kr/file/2026y/10m/08d/2026100801000452200022881.jpg"
     },
     {
         "title": "리센느, 데뷔 후 주목받기까지 걸린 680일…\"조금이라도 알리려 '1분만' 외쳤다\" - 뉴스1",
@@ -57,12 +49,20 @@ const NEWS_DATA = [
         "image": "https://cdnimage.dailian.co.kr/news/202610/news_1791333162969_1698649_m_1.jpg"
     },
     {
-        "title": "최예나부터 리센느까지…'디 어워즈 2027 인 파리', 2차 라인업 - 전자신문",
-        "source": "전자신문",
+        "title": "김민·리센느·기안84·이서진·카즈하, 40주차 비드라마 출연자 화제성 TOP5(굿데이터 펀덱스) - TopStarNews",
+        "source": "TopStarNews",
         "date": "2026-10-07",
-        "url": "https://www.etnews.com/20261007000227",
-        "summary": "K-POP 시상식 '디 어워즈 2027 인 파리'(D AWARDS 2027 in PARIS)의 2차 라인업이 베일을 벗었다. 7일 새롭게 공개된 라인업에는 최예나(YENA), 앰퍼샌드원(AMPERS&ONE), 리센느(RESCENE), 알파드라이브원(ALPHA",
-        "image": "https://img.etnews.com/news/article/2026/10/07/article_07130739955254.jpg"
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16240459",
+        "summary": "김민이 ‘나 혼자 산다’로 출연자 화제성 1위에 오른 가운데 ‘더 커뮤니티2’가 프로그램 1위, 신규 진입한 ‘비서진’이 2위를 차지하며 상위권 경쟁 구도가 크게 바뀌었다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202610/16240459_2047619_259_crop.jpg"
+    },
+    {
+        "title": "메가스터디교육, ‘2028 메가패스’ 출시…리센느와 캠페인 진행 - 서울신문",
+        "source": "서울신문",
+        "date": "2026-10-07",
+        "url": "https://www.seoul.co.kr/news/economy/2026/10/07/20261007500154",
+        "summary": "메가스터디교육이 2028학년도 수능 변화에 맞춘 무제한 수강 상품 ‘2028 메가패스’를 출시했다. 구매자 전원에게 교재 지원금 10만원을 제공하고, 환급 대상과 적용 범위를 넓혀 학습 부담을 낮췄다. 국어·수학·영어와 통합사회·통합과학 강좌를 갖췄고, 리센느와 캠페인도 진행했다.",
+        "image": "https://img.seoul.co.kr//img/upload/2026/10/07/SSC_20261007142409_O2.jpg.webp"
     },
     {
         "title": "리센느, '리트와 메트' 팝업 연다 - 한스경제",
@@ -81,6 +81,14 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202610/16240767_2047911_1332_crop.jpg"
     },
     {
+        "title": "'NCT 위시부터 라이즈·리센느까지'…웨이브, MMA 2026 OTT 독점 생중계 - 굿모닝경제",
+        "source": "굿모닝경제",
+        "date": "2026-10-07",
+        "url": "https://www.goodkyung.com/news/articleView.html?idxno=292128",
+        "summary": "웨이브가 멜론뮤직어워드(이하 MMA2026)의 OTT 독점 중계권을 확보해 생중계한다. 7일 웨이브는 오는 11월 14일과 15일 이틀간 서울 고척스카이돔에서 열",
+        "image": "https://cdn.goodkyung.com/news/thumbnail/202610/292128_265681_2751_v150.jpg"
+    },
+    {
         "title": "‘디 어워즈 2027 인 파리’ 최예나·리센느 등 2차 라인업 공개 - BNT뉴스",
         "source": "BNT뉴스",
         "date": "2026-10-07",
@@ -97,22 +105,6 @@ const NEWS_DATA = [
         "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=720,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026100714347220544_1.jpg"
     },
     {
-        "title": "'NCT 위시부터 라이즈·리센느까지'…웨이브, MMA 2026 OTT 독점 생중계 - 굿모닝경제",
-        "source": "굿모닝경제",
-        "date": "2026-10-07",
-        "url": "https://www.goodkyung.com/news/articleView.html?idxno=292128",
-        "summary": "웨이브가 멜론뮤직어워드(이하 MMA2026)의 OTT 독점 중계권을 확보해 생중계한다. 7일 웨이브는 오는 11월 14일과 15일 이틀간 서울 고척스카이돔에서 열",
-        "image": "https://cdn.goodkyung.com/news/thumbnail/202610/292128_265681_2751_v150.jpg"
-    },
-    {
-        "title": "김민·리센느·기안84·이서진·카즈하, 40주차 비드라마 출연자 화제성 TOP5(굿데이터 펀덱스) - TopStarNews",
-        "source": "TopStarNews",
-        "date": "2026-10-07",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16240459",
-        "summary": "김민이 ‘나 혼자 산다’로 출연자 화제성 1위에 오른 가운데 ‘더 커뮤니티2’가 프로그램 1위, 신규 진입한 ‘비서진’이 2위를 차지하며 상위권 경쟁 구도가 크게 바뀌었다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202610/16240459_2047619_259_crop.jpg"
-    },
-    {
         "title": "최예나·앰퍼샌드원·리센느·알파드라이브원·롱샷 ‘디 어워즈 2차 라인업’ - 스포츠동아",
         "source": "스포츠동아",
         "date": "2026-10-07",
@@ -121,20 +113,20 @@ const NEWS_DATA = [
         "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/07/134794882.1.png"
     },
     {
-        "title": "웨이브, 리센느·NCT 127·에이티즈·플레이브 출연 'MMA2026' 독점 생중계 - 콕스뉴스",
-        "source": "콕스뉴스",
-        "date": "2026-10-07",
-        "url": "https://www.coxnews.co.kr/news/articleView.html?idxno=6375",
-        "summary": "리센트, NCT 127·NCT DREAM, 에이티즈, 플레이브, 라이즈, 아일릿 등 K팝 대표 그룹이 대거 출연하는 '멜론뮤직어워드 2026(MMA2026)'을",
-        "image": "https://cdn.coxnews.co.kr/news/photo/202610/6375_9190_113.jpg"
-    },
-    {
         "title": "'디 어워즈 2027 인 파리', 2차 라인업 공개 … 최예나부터 리센느까지 - 뉴데일리",
         "source": "뉴데일리",
         "date": "2026-10-07",
         "url": "https://www.newdaily.co.kr/site/data/html/2026/10/07/2026100700247.html",
         "summary": "유럽에서 처음 열리는 K팝 시상식 '디 어워즈 2027 인 파리(D AWARDS 2027 in PARIS)'가 추가 라인업을 공개하며 파리 무대의 윤곽을 한층 선명하게 했다.이번에 이름을 올린 아티스트는 최예나(YENA), 앰퍼샌드원(AMPERS&ONE), 리센느(RESCENE), 알파",
         "image": "https://image.newdaily.co.kr/site/data/img/2026/10/07/2026100700247_thumb.jpg"
+    },
+    {
+        "title": "웨이브, 리센느·NCT 127·에이티즈·플레이브 출연 'MMA2026' 독점 생중계 - 콕스뉴스",
+        "source": "콕스뉴스",
+        "date": "2026-10-07",
+        "url": "https://www.coxnews.co.kr/news/articleView.html?idxno=6375",
+        "summary": "리센트, NCT 127·NCT DREAM, 에이티즈, 플레이브, 라이즈, 아일릿 등 K팝 대표 그룹이 대거 출연하는 '멜론뮤직어워드 2026(MMA2026)'을",
+        "image": "https://cdn.coxnews.co.kr/news/photo/202610/6375_9190_113.jpg"
     },
     {
         "title": "리센느 성장 서사 '야호'…무대의 크기가 바뀐 자리에서 다시 묻는 관계의 가치에 대한 성찰 - CBC뉴스",
@@ -169,12 +161,12 @@ const NEWS_DATA = [
         "image": "https://cdn.slist.kr/news/thumbnail/202610/771738_1180649_1321_v150.jpg"
     },
     {
-        "title": "리센느→알파드라이브원 '디 어워즈 2027' 2차 라인업 합류 - 비즈엔터",
-        "source": "비즈엔터",
+        "title": "알파드라이브원→리센느, ‘디어워즈 2027 in 파리’ 2차 라인업 합류 [공식] - 매일경제",
+        "source": "매일경제",
         "date": "2026-10-07",
-        "url": "https://enter.etoday.co.kr/news/view/303377",
-        "summary": "▲'디 어워즈 2027 인 파리' 2차 라인업(사진출처='디 어워즈' )최예나(YENA), 앰퍼샌드원(AMPERS&ONE), 리센느(RESCENE), 알파드라이브원(ALPHA DRIVE",
-        "image": "https://img.etoday.co.kr/pto_db/2026/10/600/20261007091503_2398057_1200_675.jpg"
+        "url": "https://www.mk.co.kr/news/entertain/12170167",
+        "summary": "‘디 어워즈 2027 인 파리’가 최예나, 앰퍼샌드원, 리센느, 알파드라이브원, 롱샷으로 구성된 2차 라인업을 공개했다. 유럽연합(EU)에서 처음으로 열리는 K팝 시상식 ‘디 어워즈 2027 인 파리’(D AWARDS 2027 in PARIS) 2차 라인업에 최예나(YENA), 앰퍼샌드",
+        "image": "https://pimg.mk.co.kr/news/cms/202610/07/news-p.v1.20261007.3dc8f7cf258247ca921c3db66ea7892a_R.png"
     },
     {
         "title": "'디 어워즈 2027 인 파리' 2차 라인업 베일 벗었다...최예나·리센느 등 5팀 합류 - 국제뉴스",
@@ -185,20 +177,20 @@ const NEWS_DATA = [
         "image": "https://cdn.gukjenews.com/news/thumbnail/202610/3715181_3890502_3130_v150.jpg"
     },
     {
+        "title": "리센느→알파드라이브원 '디 어워즈 2027' 2차 라인업 합류 - 비즈엔터",
+        "source": "비즈엔터",
+        "date": "2026-10-07",
+        "url": "https://enter.etoday.co.kr/news/view/303377",
+        "summary": "▲'디 어워즈 2027 인 파리' 2차 라인업(사진출처='디 어워즈' )최예나(YENA), 앰퍼샌드원(AMPERS&ONE), 리센느(RESCENE), 알파드라이브원(ALPHA DRIVE",
+        "image": "https://img.etoday.co.kr/pto_db/2026/10/600/20261007091503_2398057_1200_675.jpg"
+    },
+    {
         "title": "메가스터디교육, '2028 메가패스' 출시…리센느와 수험생 응원 캠페인 - 전자신문",
         "source": "전자신문",
         "date": "2026-10-07",
         "url": "https://www.etnews.com/20261007000147",
         "summary": "메가스터디교육이 2028학년도 대학수학능력시험을 준비하는 수험생을 위한 무제한 수강 상품 '2028 메가패스'를 출시했다고 7일 밝혔다. 2028 메가패스는 달라지는 2028학년도 수능 체제에 맞춰 강사진과 콘텐츠를 구성하고, 교재 지원과 환급 혜택을 확대해 수험생의 학습을 지원하는 데",
         "image": "https://img.etnews.com/news/article/2026/10/07/news-p.v1.20261007.113d82bdf84c43d59abc7b45359a81ab_P1.jpg"
-    },
-    {
-        "title": "최예나·앰퍼샌드원·리센느·알디원·롱샷...‘디 어워즈 2027’ 2차 라인업 공개 - 싱글리스트",
-        "source": "싱글리스트",
-        "date": "2026-10-07",
-        "url": "https://www.slist.kr/news/articleView.html?idxno=771592",
-        "summary": "‘디 어워즈 2027 인 파리’가 2차 출연진을 공개했다.‘디 어워즈 2027 인 파리’ 2차 라인업에는 최예나(YENA), 앰퍼샌드원(AMPERS&ONE), 리센느(RESCENE), 알파드라이브원(ALPHA DRIVE ONE), 롱샷(LNGSHOT)이 이름을 올렸다.최예나는 ‘캐치 캐",
-        "image": "https://cdn.slist.kr/news/thumbnail/202610/771592_1180466_616_v150.jpg"
     },
     {
         "title": "리센느, ‘데자뷰’도 역주행…‘러브 어택’ 기세 데자뷰인 듯 [줌인] - 일간스포츠",
@@ -209,12 +201,12 @@ const NEWS_DATA = [
         "image": "https://isplus.com/data/isp/image/2026/10/05/isp20261005000101.800x.0.jpeg"
     },
     {
-        "title": "[창간 80주년] 조수미부터 리센느까지…“희망을 전하는 깨어 있는 언론 되길” - 경향신문",
+        "title": "이해인 수녀·선재 스님·리센느까지 “희망 주는 언론 되길”[창간 80주년 비전 선포식] - 경향신문",
         "source": "경향신문",
         "date": "2026-10-06",
-        "url": "https://www.khan.co.kr/article/202610061808001",
-        "summary": "경향신문 창간 80주년을 맞은 6일 각계 인사들이 축하와 응원의 메시지를 보내왔다. 포르투갈에서 영상으로 축하 메시지를 보내온 성악가 조수미씨는 “80년이라는 긴 세월 동안 독자들과 함께해온 것은 대단한 일”이라며 “앞으로도 유익하고 필요한 기사로 함께해 달라”고 말했다. 아이돌그룹 리",
-        "image": "https://img.khan.co.kr/news/2026/10/06/news-p.v1.20261006.b698999e38e443e7bf6a0a2447066028_P1.jpg"
+        "url": "https://www.khan.co.kr/article/202610062223005",
+        "summary": "경향신문 창간 80주년을 맞은 6일 각계 인사들이 축하와 응원의 메시지를 보내왔다. 포르투갈에서 영상으로 축하 메시지를 보내온 성악가 조수미씨는 “80년이라는 긴 세월 동안 독자들과 함께해온 것은 대단한 일”이라며 “앞으로도 유익하고 필요한 기사로 함께해달라”고 말했다. 아이돌그룹 리센",
+        "image": "https://img.khan.co.kr/news/2026/10/06/l_2026100701000172400016481.jpg"
     },
     {
         "title": "리센느 ‘리트와 메트’, 팬들 애칭이 공식 팝업으로 ‘화제’…리브·메이 아이디어 구현 - Daum",
@@ -225,12 +217,12 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/06/HockeyNewsKorea/20261006101637021imrm.jpg"
     },
     {
-        "title": "리센느 '빵빵 역주행' 박상철 \"성인가요 대신 대중가요로…아이돌도 함께\" [단독 인터뷰②] - 조선일보",
-        "source": "조선일보",
+        "title": "'거제 야호'거제 야호' 위협하는 '빵빵' 박상철, \"제나 덕에 리센느 입덕 완료!\" [단독 인터뷰①] - OSEN",
+        "source": "OSEN",
         "date": "2026-10-06",
-        "url": "https://www.chosun.com/entertainments/broadcast/2026/10/06/GU4TGMJYHBRTIMBUMJRTSMJZGY/",
-        "summary": "대한가수협회 박상철 회장이 성인가요 명칭을 대중가요로 변경하고, 현역 아이돌 이사 영입과 원로 가수 처우 개선을 통해 세대 간 화합을 이루는 가요계 조성을 추진하고 있음.",
-        "image": "https://www.chosun.com/resizer/v2/GNQWMZDDGI3TKOLEMNSTQOJXMQ.jpg?auth=d7d2e8c805c67b158093b6f3888572a56ff4fe7c7e3b6bdb5c153eba3c9c9748&width=650&height=341&smart=true"
+        "url": "https://www.osen.co.kr/article/G1112886123",
+        "summary": "‘거제 야호’ 다음은 ‘빵빵’이다. 리센느 제나의 트로트 메들리가 그룹을 널리 알린 ‘거제 야호’...",
+        "image": "http://file.osen.co.kr/article_thumb/2026/10/02/202610020821775046_6ac455c2e881f_300x.jpg"
     },
     {
         "title": "의령은 얼마나 부자길래 리센느도 섭외할까? - 경남신문",
@@ -239,30 +231,6 @@ const NEWS_DATA = [
         "url": "https://www.knnews.co.kr/news/articleView.php?idxno=1552267",
         "summary": "전국 최고 주가를 달리고 있는 리센느. 매년 리치리치페스티벌을 개최하고 있는 의령군이 ‘부자 1번지’라는 별명에 어울리게 올해 리센느를 섭외...",
         "image": "https://cdn.knnews.co.krhttps://www.youtube.com/embed/v--hmC6HP3g"
-    },
-    {
-        "title": "[뮤직100] 리센느 ‘Pinball’ 332점 증가 42위…최예나 224계단 급등 - TopStarNews",
-        "source": "TopStarNews",
-        "date": "2026-10-06",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16240152",
-        "summary": "리센느 ‘Pinball’이 하루 새 스코어 331.9점 증가와 함께 99위에서 42위로 뛰어 TOP50에 진입했다. 최예나의 신곡 ‘보기 드문 여자’는 224계단 급등했고, 올데이 프로젝트 ‘CRASH’는 25위까지 올라 중상위권 경쟁에 변화를 만들었다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202610/16240152_2047150_1856_crop.jpg"
-    },
-    {
-        "title": "[뮤지션100] 리센느 331점 급증 1위…임영웅 380점 감소, 최예나 144점 증가 - TopStarNews",
-        "source": "TopStarNews",
-        "date": "2026-10-06",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16240150",
-        "summary": "리센느가 뮤지션100에서 스코어를 331점 늘리며 1위를 지켰고 임영웅은 380점 감소했다. 최예나와 이창섭도 각각 144점, 98점 증가해 순위 상승을 동반했다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202610/16240150_2047146_1526_crop.jpg"
-    },
-    {
-        "title": "[뮤직컴퍼니100] 리센느 더뮤즈 0.35%p 확대…임영웅 물고기뮤직 JYP·스타쉽 아래로 - TopStarNews",
-        "source": "TopStarNews",
-        "date": "2026-10-06",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16240154",
-        "summary": "10월 7일 오전 7시 기준 뮤직컴퍼니100에서 더뮤즈엔터테인먼트가 6.47%로 하루 0.35%p 확대된 반면 물고기뮤직은 0.40%p 축소된 4.10%를 기록했다. 더블랙레이블은 최근 10일간 0.73%에서 2.04%로 확대됐다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202610/16240154_2047158_2023_crop.jpg"
     },
     {
         "title": "리센느 리브X메이 ‘리트와 메트’ 용산 팝업 일정 - BNT뉴스",
@@ -281,19 +249,20 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/06/khan/20261006224032421kufe.jpg"
     },
     {
-        "title": "29화 공주시에서 리센느를 보다니.... - 브런치",
-        "source": "브런치",
+        "title": "[뮤직100] 리센느 ‘Pinball’ 332점 증가 42위…최예나 224계단 급등 - TopStarNews",
+        "source": "TopStarNews",
         "date": "2026-10-06",
-        "url": "https://brunch.co.kr/@jjteacher/380",
-        "summary": ""
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16240152",
+        "summary": "리센느 ‘Pinball’이 하루 새 스코어 331.9점 증가와 함께 99위에서 42위로 뛰어 TOP50에 진입했다. 최예나의 신곡 ‘보기 드문 여자’는 224계단 급등했고, 올데이 프로젝트 ‘CRASH’는 25위까지 올라 중상위권 경쟁에 변화를 만들었다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202610/16240152_2047150_1856_crop.jpg"
     },
     {
-        "title": "“청바지 핏 괜히 나온 게 아니네”⋯ 리센느 원이 운동 루틴 - 코메디닷컴",
-        "source": "코메디닷컴",
+        "title": "[뮤지션100] 리센느 331점 급증 1위…임영웅 380점 감소, 최예나 144점 증가 - TopStarNews",
+        "source": "TopStarNews",
         "date": "2026-10-06",
-        "url": "https://kormedi.com/2878307/",
-        "summary": "리센느 원이가 과거 유튜브 채널 ‘RISWELL (알이즈웰)’에서 공개한 운동 루틴이 다시 주목받고 있다. 스트레칭으로 몸을 풀고, 15분 러닝과 천국의 계단으로 불리는 스텝밀 운동, 다시 30분 러닝을 이어간 뒤 근력운동으로 마무리한다.",
-        "image": "https://kormedi.com/wp-content/uploads/2026/10/2026-10-02-162413-edited.png"
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16240150",
+        "summary": "리센느가 뮤지션100에서 스코어를 331점 늘리며 1위를 지켰고 임영웅은 380점 감소했다. 최예나와 이창섭도 각각 144점, 98점 증가해 순위 상승을 동반했다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202610/16240150_2047146_1526_crop.jpg"
     },
     {
         "title": "리센느 '빵빵 역주행' 박상철 “성인가요 대신 대중가요로…아이돌도 함께” [단독 인터뷰②] - OSEN",
@@ -302,6 +271,14 @@ const NEWS_DATA = [
         "url": "https://www.osen.co.kr/article/G1112886125",
         "summary": "리센느 제나가 부른 ‘빵빵’을 10대와 20대가 즐긴다. 원곡자 박상철에게는 반가운 역주행이면서, 노래를 듣는 사람의 나이로 음악을 구분할 필요가...",
         "image": "http://file.osen.co.kr/article_thumb/2026/10/02/202610020840770224_6ac456ec9fdf2_300x.jpeg"
+    },
+    {
+        "title": "[뮤직컴퍼니100] 리센느 더뮤즈 0.35%p 확대…임영웅 물고기뮤직 JYP·스타쉽 아래로 - TopStarNews",
+        "source": "TopStarNews",
+        "date": "2026-10-06",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16240154",
+        "summary": "10월 7일 오전 7시 기준 뮤직컴퍼니100에서 더뮤즈엔터테인먼트가 6.47%로 하루 0.35%p 확대된 반면 물고기뮤직은 0.40%p 축소된 4.10%를 기록했다. 더블랙레이블은 최근 10일간 0.73%에서 2.04%로 확대됐다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202610/16240154_2047158_2023_crop.jpg"
     },
     {
         "title": "“기회는 그립감이 좋다”…리센느 리브·메이 ‘리트와 메트’ 팝업 열린다 - 일간스포츠",
@@ -318,6 +295,13 @@ const NEWS_DATA = [
         "url": "https://v.daum.net/v/20261006111745787",
         "summary": "[OSEN=이인환 기자] ‘거제 야호’ 다음은 ‘빵빵’이다. 리센느 제나의 트로트 메들리가 그룹을 널리 알린 ‘거제 야호’ 영상의 조회수마저 넘볼 기세다. 지난 9월 18일 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’에 공개된 영상은 10월 2일 오전 약 1,467만 회를 기록했다.",
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/06/poctan/20261006111746374pfto.jpg"
+    },
+    {
+        "title": "29화 공주시에서 리센느를 보다니.... - 브런치",
+        "source": "브런치",
+        "date": "2026-10-06",
+        "url": "https://brunch.co.kr/@jjteacher/380",
+        "summary": ""
     },
     {
         "title": "리센느 리브·메이, 진짜 '리트와 메트' 됐다…공식 팝업 전개 - 네이트",
@@ -344,14 +328,6 @@ const NEWS_DATA = [
         "image": "https://pimg.mk.co.kr/news/cms/202610/06/news-p.v1.20261006.75da3848af894453b743bd49330748cd_R.png"
     },
     {
-        "title": "리센느 '리트와 메트', 콘텐츠 넘어 팝업으로 - 엑스포츠뉴스",
-        "source": "엑스포츠뉴스",
-        "date": "2026-10-06",
-        "url": "https://www.xportsnews.com/article/2204489",
-        "summary": "(엑스포츠뉴스 김예은 기자) 그룹 리센느 리브와 메이를 '패트와 매트'에 빗댄 애칭 '리트와 메트'가 실제 팝업으로 이어진다.‘리트와 메트’는 평소 유쾌한 케미를 보여온 리브와 메이의 모습을 본 팬들이 두 사람을 ‘패트와 매트’에 빗대 부르면서 자연스럽게 만들어진 애칭이다. 팬덤에서 시",
-        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1006/1791271900325930.webp"
-    },
-    {
         "title": "\"마이스타, 리센느\"…김광규, \"비서진\" 촬영 인증샷 - 스포츠월드",
         "source": "스포츠월드",
         "date": "2026-10-06",
@@ -360,20 +336,28 @@ const NEWS_DATA = [
         "image": "https://www.sportsworldi.com/content/image/2026/10/06/20261006506601.jpg"
     },
     {
+        "title": "리센느 '리트와 메트', 콘텐츠 넘어 팝업으로 - 엑스포츠뉴스",
+        "source": "엑스포츠뉴스",
+        "date": "2026-10-06",
+        "url": "https://www.xportsnews.com/article/2204489",
+        "summary": "(엑스포츠뉴스 김예은 기자) 그룹 리센느 리브와 메이를 '패트와 매트'에 빗댄 애칭 '리트와 메트'가 실제 팝업으로 이어진다.‘리트와 메트’는 평소 유쾌한 케미를 보여온 리브와 메이의 모습을 본 팬들이 두 사람을 ‘패트와 매트’에 빗대 부르면서 자연스럽게 만들어진 애칭이다. 팬덤에서 시",
+        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1006/1791271900325930.webp"
+    },
+    {
+        "title": "“얘들아, 삼촌이 다 사줄게”…‘리센느 빵’ 60만개 쓸어간 30대 남성들 - 서울신문",
+        "source": "서울신문",
+        "date": "2026-10-05",
+        "url": "https://www.seoul.co.kr/news/world/2026/10/05/20261005500033",
+        "summary": "CU가 선보인 리센느 협업 빵 5종이 출시 한 달여 만에 누적 60만개를 넘겼다. 구매자 중 남성이 69.1%로 여성보다 훨씬 많았고, 30대 남성이 22.7%로 가장 큰 비중을 차지했다. 포토카드 수집 수요도 판매를 끌어올렸다.",
+        "image": "https://img.seoul.co.kr//img/upload/2026/10/05/SSC_20261005105115_O2.png.webp"
+    },
+    {
         "title": "글로벌 파급력 입증한 BTS, 리센느 임영웅 꺾고 10월 광고모델 브랜드평판 1위 - 지피코리아",
         "source": "지피코리아",
         "date": "2026-10-05",
         "url": "https://www.gpkorea.com/news/articleView.html?idxno=147285",
         "summary": "그룹 방탄소년단(BTS)이 10월 광고모델 브랜드평판 1위에 오르며 압도적인 브랜드 파워를 다시 한번 입증했다.한국기업평판연구소는 지난 9월 5일부터 10월 5일까지 측정한 광고모델 브랜드 빅데이터 3641만여 개를 분석한 결과, 방탄소년단(RM, 진, 슈가, 제이홉, 지민, 뷔, 정국",
         "image": "https://cdn.gpkorea.com/news/photo/202610/147285_313119_3924.jpg"
-    },
-    {
-        "title": "“얘들아, 삼촌이 다 사줄게”…‘리센느 빵’ 60만개 쓸어간 30대 남성들 - 서울신문",
-        "source": "서울신문",
-        "date": "2026-10-05",
-        "url": "https://seoul.co.kr/news/world/2026/10/05/20261005500033",
-        "summary": "CU가 선보인 리센느 협업 빵 5종이 출시 한 달여 만에 누적 60만개를 넘겼다. 구매자 중 남성이 69.1%로 여성보다 훨씬 많았고, 30대 남성이 22.7%로 가장 큰 비중을 차지했다. 포토카드 수집 수요도 판매를 끌어올렸다.",
-        "image": "https://img.seoul.co.kr//img/upload/2026/10/05/SSC_20261005105115_O2.png.webp"
     },
     {
         "title": "1위 방탄소년단, 2위 리센느, 3위 임영웅 - 스타뉴스",
@@ -424,14 +408,6 @@ const NEWS_DATA = [
         "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/492741_478447_4749_v150.jpg"
     },
     {
-        "title": "강다니엘 리센느 원이 베스트아이돌 9월 4주차 남녀 1위 등극 - 지피코리아",
-        "source": "지피코리아",
-        "date": "2026-10-05",
-        "url": "https://www.gpkorea.com/news/articleView.html?idxno=147290",
-        "summary": "가수 강다니엘과 걸그룹 리센느의 원이가 글로벌 K팝 팬덤 플랫폼 '베스트아이돌' 주간 투표에서 각각 남녀 정상에 올랐다.5일 베스트아이돌에 따르면 지난 9월 28일부터 10월 4일까지 진행된 2026년 9월 4주차(W40) 투표 결과, 강다니엘이 총 11만 3447표를 얻어 남자 부문 ",
-        "image": "https://cdn.gpkorea.com/news/photo/202610/147290_313125_3623.png"
-    },
-    {
         "title": "김광규, ‘비서진’ 리센느 만남 이후 사진 공개…팬들 “조카들 사진 올린 느낌” - CBC뉴스",
         "source": "CBC뉴스",
         "date": "2026-10-05",
@@ -440,12 +416,12 @@ const NEWS_DATA = [
         "image": "https://www.cbci.co.kr/news/thumbnail/202610/612529_420663_520_v150.jpg"
     },
     {
-        "title": "\"원이야, 삼촌이 다 사줄게\"…60만개 '리센느 빵' 쓸어간 30대 男 - 아시아경제",
-        "source": "아시아경제",
-        "date": "2026-10-04",
-        "url": "https://www.asiae.co.kr/article/2026100413242033151",
-        "summary": "최고의 주가를 달리고 있는 그룹 리센느와 협업한 '리센느 빵' 5종의 판매량이 60만개를 달성했다.",
-        "image": "https://cphoto.asiae.co.kr/listimglink/1/2026100420425350308_1791114173.png"
+        "title": "강다니엘 리센느 원이 베스트아이돌 9월 4주차 남녀 1위 등극 - 지피코리아",
+        "source": "지피코리아",
+        "date": "2026-10-05",
+        "url": "https://www.gpkorea.com/news/articleView.html?idxno=147290",
+        "summary": "가수 강다니엘과 걸그룹 리센느의 원이가 글로벌 K팝 팬덤 플랫폼 '베스트아이돌' 주간 투표에서 각각 남녀 정상에 올랐다.5일 베스트아이돌에 따르면 지난 9월 28일부터 10월 4일까지 진행된 2026년 9월 4주차(W40) 투표 결과, 강다니엘이 총 11만 3447표를 얻어 남자 부문 ",
+        "image": "https://cdn.gpkorea.com/news/photo/202610/147290_313125_3623.png"
     },
     {
         "title": "\"혹시 '그 빵' 들어왔어요?\"…3040男 편의점에 몰린 까닭 - 한국경제",
@@ -464,12 +440,20 @@ const NEWS_DATA = [
         "image": "https://wimg.munhwa.com/news/cms/2026/10/04/news-p.v1.20261004.6c5c9303938446c6aa3ac49c3a7b8ff7_R.jpg"
     },
     {
+        "title": "\"원이야, 삼촌이 다 사줄게\"…60만개 '리센느 빵' 쓸어간 30대 男 - 아시아경제",
+        "source": "아시아경제",
+        "date": "2026-10-04",
+        "url": "https://www.asiae.co.kr/article/2026100413242033151",
+        "summary": "최고의 주가를 달리고 있는 그룹 리센느와 협업한 '리센느 빵' 5종의 판매량이 60만개를 달성했다.",
+        "image": "https://cphoto.asiae.co.kr/listimglink/1/2026100420425350308_1791114173.png"
+    },
+    {
         "title": "CU ‘리센느 빵’ 보름만에 60만 개 판매 - 국제신문",
         "source": "국제신문",
         "date": "2026-10-04",
         "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261005.22012000897",
         "summary": "������ CU�� �������� ���� 5��(����)�� ���� 1�� �Ǹŷ� �� 60�� ���� ����ߴٰ� 4�� ������. CU�� ������ 17�� �������� ������ ũ�������� ������..",
-        "image": "https://db.kookje.co.kr/news2000/photo/2026/1005/L20261005.22012000897i1.jpg?31"
+        "image": "https://db.kookje.co.kr/news2000/photo/2026/1005/L20261005.22012000897i1.jpg?43"
     },
     {
         "title": "리센느, 광고모델 2위까지…대세 굳히기 - BNT뉴스",
@@ -488,6 +472,14 @@ const NEWS_DATA = [
         "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/10/04/2026100416415405315_l.jpg"
     },
     {
+        "title": "CU ‘리센느 빵’ 구매자 70% 남성…30대男 ‘큰손’ - 매일경제",
+        "source": "매일경제",
+        "date": "2026-10-04",
+        "url": "https://www.mk.co.kr/news/business/12167978",
+        "summary": "포토카드 수집 열기...60만개 판매 GS25 ‘한정선 찹쌀떡’도 흥행",
+        "image": "https://pimg.mk.co.kr/news/cms/202610/04/news-p.v1.20261004.43bfbfc0c6634343a54d775fde88eb57_R.jpg"
+    },
+    {
         "title": "\"돈이 다야\" 낭만 그룹 리센느를 향한 이서진의 현실 조언이 불편한 이유 - Daum",
         "source": "Daum",
         "date": "2026-10-04",
@@ -496,12 +488,20 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S800x400/?fname=https://t1.daumcdn.net/news/202610/04/550820-e4IqA4m/20261004121003351lhps.png"
     },
     {
-        "title": "“나의 젓가락 연수 아저씨”…이서진, 리센느 원이에 ‘정석 젓가락질’ 코칭 - CBC뉴스",
-        "source": "CBC뉴스",
+        "title": "“기분 좋지 않아” 이서진, 리센느 필수템 왁뿌볼에 정색하더니 푹 빠졌네(비서진)[결정적장면] - 뉴스엔",
+        "source": "뉴스엔",
         "date": "2026-10-04",
-        "url": "https://www.cbci.co.kr/news/articleView.html?idxno=612278",
-        "summary": "[CBC뉴스] SBS 예능 ‘무엇이든 해줄지니 - 비서진’에서 배우 이서진이 그룹 리센느(RESCENE) 원이의 젓가락질을 바로잡아주는 장면이 화제를 모으고 있다. 방송 이후 온라인에서는 이서진의 단호한 코칭을 두고 “아빠 모드”, “젓가락 연수”라는 반응이 이어졌다.‘비서진’은 이서진",
-        "image": "https://www.cbci.co.kr/news/thumbnail/202610/612278_420415_5255_v150.jpg"
+        "url": "https://www.newsen.com/news_view.php?uid=202610041044322310&code=100100",
+        "summary": "��� �̼����� �׷� ������ ��� ���̰� �׻� ��� �ٴϴ� �λѺ��� ���� ����� �� ���� �ʴٰ� ������ �ŷ¿� ǫ ������. 10�� 2�� ��۵� SBS ���� '�����̵� �������� - ����&#03...",
+        "image": "https://photo.newsen.com/news_photo/2026/10/04/202610041044322310_1.jpg"
+    },
+    {
+        "title": "이서진, '대세' 리센느에 주식 관련 현실적 조언 '하지 마' - 미디어파인",
+        "source": "미디어파인",
+        "date": "2026-10-04",
+        "url": "https://www.mediafine.co.kr/news/articleView.html?idxno=91616",
+        "summary": "배우 이서진이 역주행으로 주목받고 있는 걸그룹 리센느에게 연예계 선배다운 현실적인 조언을 건넸다. 어렵게 얻은 인기만큼이나 첫 정산 이후의 돈",
+        "image": "https://cdn.mediafine.co.kr/news/photo/202610/91616_130352_489.jpg"
     },
     {
         "title": "‘리센느 빵’ 누가 쓸어가나 봤더니…10명 중 7명 男, 30대 최다 - 경기일보",
@@ -509,7 +509,7 @@ const NEWS_DATA = [
         "date": "2026-10-03",
         "url": "https://www.kyeonggi.com/article/20261004580029",
         "summary": "편의점에서 아이돌 포토카드와 유명 디저트를 앞세운 협업 상품이 잇따라 흥행하고 있다. 4일 유통업계에 따르면 BGF리테일이 운영하는 CU의 ‘리센느 빵’ 5종은 1일 기준 약 60만개가 판매됐다. CU는 지난달 17일 ‘원이의 옥수수 크림빵’을 시작으로 같은 달 30일",
-        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/04/.cache/512/20261004580030.jpg?v=20261007215739"
+        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/04/.cache/512/20261004580030.jpg?v=20261008075452"
     },
     {
         "title": "“기분이 썩 좋진 않다” 이서진, 리센느 메이와 상반된 ‘왁뿌볼’ 체험 - Daum",
@@ -552,6 +552,14 @@ const NEWS_DATA = [
         "image": "https://wimg.sedaily.com/news/cms/2026/10/03/rcv.NEWSIS.NEWSIS.20261002.NISI20261002_0002253890_Z1.jpg"
     },
     {
+        "title": "'뒷주머니에 폴더블, 실수였나?'…리센느 원이·제나, 시구 속 숨겨둔 비밀 [MD이슈] - Daum",
+        "source": "Daum",
+        "date": "2026-10-02",
+        "url": "https://v.daum.net/v/20261003073030412",
+        "summary": "[마이데일리 = 김도형 기자] 제나, 원이가 삼성 라이온즈파크에 등장한 가운데 남다른 '포인트'가 포착됐다. 그룹 리센느 제나, 원이는 지난 1일 대구 삼성라이온즈파크에서 열린 '2026 신한 SOL KBO리그' 삼성 라이온즈와 한화 이글스의 경기에 각각 시구와 시타자로 나섰다. 이날 ",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/03/mydaily/20261003073032255uznl.jpg"
+    },
+    {
         "title": "’리센느 생일 선물 공지’ 어땠길래…“조공 유도“·“단순 안내“ - 연합뉴스TV",
         "source": "연합뉴스TV",
         "date": "2026-10-02",
@@ -566,6 +574,14 @@ const NEWS_DATA = [
         "url": "https://www.yna.co.kr/view/AKR20261002170600030",
         "summary": "(서울=연합뉴스) 정수연 기자 = 리센느 빵, 한정선 요거트 찹살떡 등 편의점 업계가 인기 협업 제품을 경쟁적으로 출시하고 있다.",
         "image": "https://img3.yna.co.kr/etc/inner/KR/2026/10/02/AKR20261002170600030_01_i_P4.jpg"
+    },
+    {
+        "title": "이서진 \"돈 많으면 행복, 주식하지 마\"...리센느에 현실 조언 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "date": "2026-10-02",
+        "url": "https://www.mt.co.kr/entertainment/2026/10/03/2026100307271239559",
+        "summary": "배우 이서진이 그룹 리센느 멤버들에게 자신이 생각하는 행복에 대해 밝혔다. 이를 들은 이서진은 \"정산받으면 돈을 차곡차곡 잘 모아야 한다. 혹시라도 주식 투자하고 이런 거 잘못하면 망한다\"고 조언했다.",
+        "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=673,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026100307271239559_1.jpg"
     },
     {
         "title": "\"주식 하면 패가망신\"…이서진, 첫 정산 앞둔 리센느에 날린 팩폭 - 뉴시스",
@@ -600,6 +616,14 @@ const NEWS_DATA = [
         "image": "https://img2.sbs.co.kr/ops_clip_img/2026/10/02/3048411c-76cf-4c18-ab2f-ba4b5d82dee4229w640.jpg"
     },
     {
+        "title": "김광규, 리센느에 거금 쾌척..원이 “이서진이 더 부잔데” 감동 (‘비서진’) - Daum",
+        "source": "Daum",
+        "date": "2026-10-02",
+        "url": "https://v.daum.net/v/20261003072456372",
+        "summary": "[OSEN=박하영 기자] ‘비서진’ 김광규가 리센느를 위해 거금을 쾌척했다. 2일 방송된 SBS 예능 ‘무엇이든 해줄지니 - 비서진’(이하 ‘비서진’)에서는 ‘my 스타’로 걸그룹 리센느가 출연한 가운데 김광규가 플렉스를 하는 모습이 그려졌다. 이날 광고 촬영을 끝낸 원이와 메이는 비서",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/03/poctan/20261003072457487tpdi.png"
+    },
+    {
         "title": "이서진, 리센느에 현실 조언..“정산하면 돈 모아야, 주식=패가망신” [순간포착] - Daum",
         "source": "Daum",
         "date": "2026-10-02",
@@ -608,12 +632,12 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/02/poctan/20261002231055218bnxb.png"
     },
     {
-        "title": "이서진 \"돈 많으면 행복, 주식하지 마\"...리센느에 현실 조언 - 머니투데이 - 머니투데이",
-        "source": "머니투데이",
+        "title": "08년생 리센느 제나 \"아버지 77년생\"…이서진 깜짝 \"김광규가 10살 더 많아\" - Daum",
+        "source": "Daum",
         "date": "2026-10-02",
-        "url": "https://www.mt.co.kr/entertainment/2026/10/03/2026100307271239559",
-        "summary": "배우 이서진이 그룹 리센느 멤버들에게 자신이 생각하는 행복에 대해 밝혔다. 이를 들은 이서진은 \"정산받으면 돈을 차곡차곡 잘 모아야 한다. 혹시라도 주식 투자하고 이런 거 잘못하면 망한다\"고 조언했다.",
-        "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=673,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026100307271239559_1.jpg"
+        "url": "https://v.daum.net/v/20261003085256209",
+        "summary": "(엑스포츠뉴스 이예진 기자) 그룹 리센느 제나의 아버지 나이가 공개되자 이서진과 김광규가 세대 차이를 실감하며 웃음을 터뜨렸다. 2일 방송된 SBS '무엇이든 해줄지니 - 비서진'에는 그룹 리센느가 출연했다. 이날 멤버들은 제나와 메이가 2008년생 막내라인, 미나미와 리브가 2006년",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/03/xportsnews/20261003085258360ofyy.jpg"
     },
     {
         "title": "리센느, 하루 섭외 전화만 100통인데…\"아직 정산 못 받아\" [비서진] - 마이데일리",
@@ -640,14 +664,6 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202610/02/sportsdonga/20261002124348370msea.png"
     },
     {
-        "title": "리센느에 자본주의 교육한 이서진 “떴잖아, 눈치 보지마”…연예인병 관리법도 전수 - 서울경제",
-        "source": "서울경제",
-        "date": "2026-10-02",
-        "url": "https://www.sedaily.com/article/20097474",
-        "summary": "‘비서진’ 이서진이 평균 나이 20.6세인 그룹 리센느에게 자본주의 특강을 펼친다. 또한 연예인병 관리법까지 전수한다. 2일 방송되는 SBS ‘무엇이든 해줄지니 - 비서진’(이하 ‘비서진’)에는 리센느가 ‘마이(my) 스타’로 출연해 ‘비서진’ 이서진 김광규와 만난다.",
-        "image": "https://wimg.sedaily.com/news/cms/2026/10/02/rcv.NEWS1.NEWS1.20261002.2026-10-02T095643_6308566_ENTERTAINMENTS_8138840_Z1.jpg"
-    },
-    {
         "title": "1위 리센느 제나, 2위 리센느 원이, 3위 리센느 리브 - 스타뉴스",
         "source": "스타뉴스",
         "date": "2026-10-01",
@@ -662,14 +678,6 @@ const NEWS_DATA = [
         "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6855277_37004.html",
         "summary": "MBC 아시안게임 홍보대사인 아이돌 그룹 리센느가 삼성 홈 경기에서 시구자로 나섰습니다. 요즘 대세를 달리고 있는 만큼 시구 하나에도 커다란 관심을 받았네요. 목요일 밤 스포츠뉴스...",
         "image": "https://image.imnews.imbc.com/replay/2026/nwdesk/article/__icsFiles/afieldfile/2026/10/01/desk_20261001_205041_1_32_Large.jpg"
-    },
-    {
-        "title": "무엇이든 해줄지니 - 비서진 : [선공개] ‘리센느’ 메이, 왁뿌볼 이해 못 하는 이서진×김광규에 시무룩 - programs.sbs.co.kr",
-        "source": "programs.sbs.co.kr",
-        "date": "2026-10-01",
-        "url": "https://programs.sbs.co.kr/enter/mygeniesecretary/clip/90105/OC481922198?cliptyp=01&div=hotissue",
-        "summary": "SBS 온에어/VOD/클립영상 즐기기!",
-        "image": "https://img2.sbs.co.kr/ops_clip_img/2026/10/01/e8d24c39-8f64-4aa8-9f68-69f7d50429d5436w640.jpg"
     },
     {
         "title": "[오늘의 영상] 통편집?…오늘은 리센느 데이 - KBS 뉴스",
@@ -728,6 +736,14 @@ const NEWS_DATA = [
         "image": "https://img.seoul.co.kr//img/upload/2026/09/23/SSC_20260923135012.jpg.webp"
     },
     {
+        "title": "리센느, 11월 3일 컴백 확정…1년 만의 실물 앨범 '기세 잇나' - 조선비즈 - Chosunbiz",
+        "source": "Chosunbiz",
+        "date": "2026-09-22",
+        "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/22/MJTDIMLBMU4WEZJTMJRDKOBXGA/",
+        "summary": "리센느, 11월 3일 컴백 확정1년 만의 실물 앨범 기세 잇나",
+        "image": "https://biz.chosun.com/resizer/v2/MZRDAOBSMU3WCNBRGMZDOZRRG4.jpg?auth=a87608f428565ca79419fb4ec35e68d92b4238c25a8b118b4175f52e5d0d74a4&width=650&height=341&smart=true"
+    },
+    {
         "title": "리센느 미나미, 첫 예능 단독 출연에도 1위…'라스'도 올해 최고 기록 - Daum",
         "source": "Daum",
         "date": "2026-09-22",
@@ -760,14 +776,6 @@ const NEWS_DATA = [
         "image": "https://img.hankyung.com/photo/202609/01.45693017.1.jpg"
     },
     {
-        "title": "\"원이가 좋아하는 맛 그대로\"…CU, 리센느 빵 5종 출시 - 지디넷코리아",
-        "source": "지디넷코리아",
-        "date": "2026-09-15",
-        "url": "https://zdnet.co.kr/view/?no=20260915091011",
-        "summary": "CU가 걸그룹 리센느 멤버들의 입맛을 반영한 빵을 출시한다. 제품마다 한정판 포토카드를 넣어 팬덤의 수집 수요도 공략한다.CU는 브랜드 모델 리센느와 협업한 ‘BAKE405’ 베이커리 5종을 오는 17일부터 순차 판매한다고 15일 밝혔다. 상품 개발 과정에는 리센느 멤버들이 직접 참여해",
-        "image": "https://image.zdnet.co.kr/2026/09/15/6a881fec4c8ce17c281cb7f8f7ee67ca.jpg"
-    },
-    {
         "title": "역주행 신화 리센느 소속사 74배 잭팟…중소돌 스타트업에 뭉칫돈 - 머니투데이 - 머니투데이",
         "source": "머니투데이",
         "date": "2026-09-14",
@@ -782,21 +790,5 @@ const NEWS_DATA = [
         "url": "https://www.mt.co.kr/tech/2026/09/13/2026091010433111341",
         "summary": "유튜브 홈 화면을 내리다가 우연히 리센느 영상을 발견한 당신 당신은 리센느를 좋아할 가능성이 높다. 적어도 당신이 발견한 그 영상은 마음에 들 확률이 상당하다. 리센느가 이른바 '중소돌(중소기획사에서 기획한 아이돌)의 기적'을 쓴 걸그룹이라는 사실을 모른다고 해도 그렇다.",
         "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/09/2026091010433111341_1.jpg"
-    },
-    {
-        "title": "KBS 레이-MBC 리센느-SBS 배성재…日아시안게임, 방송3사 승부수는 [MD포커스] - Daum",
-        "source": "Daum",
-        "date": "2026-09-10",
-        "url": "https://v.daum.net/v/Bk9B3zTsw9",
-        "summary": "[마이데일리 = 이승길 기자] 오는 19일 개막하는 '2026 아이치·나고야 아시안게임'을 앞두고 지상파 방송 3사의 시청자 쟁탈전이 벌써 뜨겁게 달아오르고 있다. 지난 월드컵이 JTBC와 KBS 간의 양자 대결로 펼쳐졌다면, 이번 아시안게임은 다시 한번 지상파 방송사 전체가 사활을 걸",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/10/mydaily/20260910154654394dwyv.png"
-    },
-    {
-        "title": "자고 일어나면 ‘O년 전 영상 파묘’···“뭐야? 이것도 봐줄게” 리센느가 ‘과거’로 더 뜨는 이유 - 경향신문",
-        "source": "경향신문",
-        "date": "2026-08-25",
-        "url": "https://www.khan.co.kr/article/202608250600071",
-        "summary": "경남 거제시, 일본 치바현, 경북 경주시…. 올해 최고의 ‘라이징 스타’인 걸그룹 리센느 멤버들의 출신지이자, 리센느 역주행 인기의 일등 공신인 유튜브 채널 ‘안녕하세요원이입니다잘부탁드립니다’(안원잘부)의 최근 촬영지다. ‘거제 야호’ 열풍 이후 멤버 원이와 미나미는 서로의 고향인 거제",
-        "image": "https://img.khan.co.kr/news/2026/08/25/news-p.v1.20260824.004fd74e1dfd4ee2ae719896bbdac37f_P1.png"
     }
 ];
