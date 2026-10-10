@@ -1,4 +1,4 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-10T12:10:36.104Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-10T21:22:18.014Z) */
 
 const NEWS_DATA = [
     {
@@ -10,6 +10,14 @@ const NEWS_DATA = [
         "image": "https://cdn.gukjenews.com/news/thumbnail/202610/3717450_3893188_024_v150.jpg"
     },
     {
+        "title": "장항준→리센느 울린 최고령 합창단 무대…‘해투’ 다음 주 최종회 방송 - iMBC 연예",
+        "source": "iMBC 연예",
+        "date": "2026-10-10",
+        "url": "https://enews.imbc.com/News/RetrieveNewsInfo/520825",
+        "summary": "‘꽃메청춘합창단’의 무대에 장항준 감독, 리센느 원이가 감동의 눈물을 보였다. KBS2 ‘해피투게더’가 ‘파이널 스테이지 in 한강’을 선보인 가운데 1,600만 감독 장항준이 폭풍 오열해 시선을 사로잡았다. 10월 9일 방송된 KBS ‘해피투게더-혼자가 아니어서 좋아’(기획 박민정/연",
+        "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/10/10/f7b8f7d7-9f84-4128-a94d-6a0cb49203e3.jpg"
+    },
+    {
         "title": "이소라→리센느 미나미가 ‘놀뭐’ 가요제 참가자로? 목소리 추리 불붙었다 - 뉴스엔",
         "source": "뉴스엔",
         "date": "2026-10-10",
@@ -18,20 +26,35 @@ const NEWS_DATA = [
         "image": "https://photo.newsen.com/news_photo/2026/10/10/202610101420526310_1.jpg"
     },
     {
+        "title": "대전시 동구동락 축제 달군 '리센느'…팬심 사로잡은 강렬한 '퍼포먼스' [TF사진관] - 더팩트",
+        "source": "더팩트",
+        "date": "2026-10-10",
+        "url": "https://news.tf.co.kr/read/national/2374750.htm",
+        "summary": "걸그룹 리센느(RESCENE)가 10일 2026 대전시 동구동락축제 2일차 무대에 올라 팬들과 인사를 나누고 있다. /정예준 기자[더팩트ㅣ대전=정예준 기자] 걸그룹 리센느(RESCENE)가 10일 ..",
+        "image": "https://img.tf.co.kr/article/home/2026/10/10/202655741791638150.jpg"
+    },
+    {
+        "title": "리센느, 대전 동구동락 축제 둘째 날 공연 출연 - 제주교통복지신문",
+        "source": "제주교통복지신문",
+        "date": "2026-10-10",
+        "url": "https://www.jejutwn.com/news/article.html?no=463255",
+        "summary": "그룹 리센느가 2026 대전 동구동락 축제 둘째 날 콘서트 출연진에 포함됐다. 대전 동구청 통합예약의 축제 안내에는 10일 공연자로 리센느와 유성은이 명시됐다. 축제 운영 기간은 9일부터 11일까지이며, 장소는 대전 동구 소제동 동광장로와 대동천 일원이다. 일정표에는 9일 존박, HYN",
+        "image": "https://www.jejutwn.com/data/photos/20261041/art_17916349206747.jpg"
+    },
+    {
+        "title": "리센느, 지상파 메인뉴스 출격...11일 'SBS 8뉴스' 챙기세요 - 국제뉴스",
+        "source": "국제뉴스",
+        "date": "2026-10-10",
+        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3717629",
+        "summary": "SBS에 따르면 리센느(원이, 리브, 미나미, 메이, 제나)는 ‘SBS 8뉴스’에 출연한다. 리센느가 지상파 메인 뉴스에 출연하는 것은 이번이 처음이다.이날 리센느는 2024년 데뷔 이후의 활동을 돌아보고, 대표곡 ‘러브 어택(LOVE ATTACK)’이 역주행을 거쳐 꾸준히 사랑받고 있",
+        "image": "https://cdn.gukjenews.com/news/thumbnail/202610/3717629_3893408_3330_v150.jpg"
+    },
+    {
         "title": "“살 날 얼마 안 남아” 리센느 원이, 할머니들 무대에 결국 눈물(해투)[결정적장면] - 뉴스엔",
         "source": "뉴스엔",
         "date": "2026-10-10",
-        "url": "https://www.newsen.com/news_view.php?uid=202610101454542510&code=100100",
-        "summary": "������ ���̰� ���������Դ������� ������ ������. ���� 10�� 9�� ��۵� KBS 2TV ���������Դ� - ȥ�ڰ� �ƴϾ ���ơ������� ���̳� �濬 ���밡 ����ƴ�. �̳� ������ ����, �̳���...",
-        "image": "https://photo.newsen.com/news_photo/2026/10/10/202610101454542510_1.jpg"
-    },
-    {
-        "title": "\"리센느, 축제 섭외 1순위 이유 있었네\" 2026동구동락축제 현장 - 국제뉴스",
-        "source": "국제뉴스",
-        "date": "2026-10-10",
-        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3717633",
-        "summary": "2026 동구동락축제에서 리센느가 출연해 열창하고 있다..",
-        "image": "https://cdn.gukjenews.com/news/thumbnail/202610/3717633_3893413_4410_v150.jpg"
+        "url": "https://m.newsen.com/news_view.php?uid=202610101454542510",
+        "summary": ""
     },
     {
         "title": "[포토화보] 리센느, 동구동락축제 빛낸 역대급 미모 - 국제뉴스",
@@ -40,6 +63,14 @@ const NEWS_DATA = [
         "url": "https://www.gukjenews.com/news/articleView.html?idxno=3717639",
         "summary": "10일 대전 동구 소제동일원에서 열린 2026 동구동락축제에서 리센느가 출연해 열창하고 있다..",
         "image": "https://cdn.gukjenews.com/news/thumbnail/202610/3717639_3893424_213_v150.jpg"
+    },
+    {
+        "title": "\"리센느, 축제 섭외 1순위 이유 있었네\" 2026동구동락축제 현장 - 국제뉴스",
+        "source": "국제뉴스",
+        "date": "2026-10-10",
+        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3717633",
+        "summary": "2026 동구동락축제에서 리센느가 출연해 열창하고 있다..",
+        "image": "https://cdn.gukjenews.com/news/thumbnail/202610/3717633_3893413_4410_v150.jpg"
     },
     {
         "title": "\"대전에 리센느 뜬다\" 동구동락 축제장 진입금지...이동 당부 - 국제뉴스",
@@ -66,20 +97,12 @@ const NEWS_DATA = [
         "image": "https://images.jkn.co.kr/data/images/full/107/24/1072464.jpg?width=1200&height=630"
     },
     {
-        "title": "리센느에게 이선민 있다면…유스피어에 기안84 있다 - 뉴시스",
-        "source": "뉴시스",
-        "date": "2026-10-09",
-        "url": "https://www.newsis.com/view/NISX20261009_0003820319",
-        "summary": "[서울=뉴시스] 남정현 기자 = 기안84가 그룹 유스피어의 '키다리 아저씨'로 발벗고 나섰다.9일 유튜브 채널 '인생84'에는 '소연과 함께'라는 제목의 영상이 공개됐다.기안84는 \"우리의 소리를 찾아서처럼 우리의 아이돌을 찾아서, 대중이 많이 인지하지 못 하는 아이돌을 찾아다니며 만나",
-        "image": "https://img1.newsis.com/2026/10/09/NISI20261009_0002259545_web.jpg"
-    },
-    {
-        "title": "[단독] ‘거제 야호’ 리센느 미나미, 로꼬 만난다…신곡 ‘TATA’ 피처링 합류 - 스포츠경향",
-        "source": "스포츠경향",
-        "date": "2026-10-09",
-        "url": "https://sports.khan.co.kr/article/202610091308003/?utm_source=khan_rss&utm_medium=rss&utm_campaign=news",
-        "summary": "걸그룹 리센느(RESCENE) 멤버 미나미가 래퍼 로꼬의 신곡에 피처링으로 참여한다. 9일 스포츠경향 취재 결과 미나미는 오는 15일 발매되는 로꼬의 신곡 ‘타타(TATA)’ 피처링에 이름을 올렸다. 미나미는 ...",
-        "image": "https://images.khan.co.kr/article/2026/10/09/news-p.v1.20261009.696fe7377fe04698bdf55063bf437a95_P1.png"
+        "title": "리센느, 11일 SBS 8뉴스 출연…데뷔 후 첫 메인뉴스 인터뷰 - 제주교통복지신문",
+        "source": "제주교통복지신문",
+        "date": "2026-10-10",
+        "url": "https://www.jejutwn.com/news/article.html?no=463263",
+        "summary": "그룹 리센느(RESCENE)가 오는 11일 오후 8시 방송되는 SBS 8뉴스에 출연해 이현영 앵커와 인터뷰한다. 2024년 데뷔 이후 지상파 메인 뉴스 출연은 이번이 처음이다. 인터뷰에서는 데뷔 이후 활동과 대표곡 ‘러브 어택(LOVE ATTACK)’의 역주행에 대한 멤버들의 소회가 다",
+        "image": "https://www.jejutwn.com/data/photos/20261041/art_17916463606622.jpg"
     },
     {
         "title": "리센느, 부캉이, 김민의 공통점 - Vogue korea",
@@ -88,6 +111,14 @@ const NEWS_DATA = [
         "url": "https://www.vogue.co.kr/2026/10/09/%EB%A6%AC%EC%84%BC%EB%8A%90-%EB%B6%80%EC%BA%89%EC%9D%B4-%EA%B9%80%EB%AF%BC%EC%9D%98-%EA%B3%B5%ED%86%B5%EC%A0%90/",
         "summary": "(MBC)가 부활했다. 배우 김민 덕분이다. 90년 된 외딴 구옥에서 생활하는 그의 모습은 시청자에게 충격과 해방감을 안겨주었다. 얼핏 (MBN) 같지만 자연인에게서 보기 힘든 세련된 감각이 곳곳에 배어 있었다. 고풍스러운 병풍과 심",
         "image": "https://www.vogue.co.kr/wp_data/vogue/2026/10/style_6ac89995a81a0-scaled-1920x1080.jpg?x=2223&y=1092&ver=1.1.60"
+    },
+    {
+        "title": "[단독] ‘거제 야호’ 리센느 미나미, 로꼬 만난다…신곡 ‘TATA’ 피처링 합류 - 스포츠경향",
+        "source": "스포츠경향",
+        "date": "2026-10-09",
+        "url": "https://sports.khan.co.kr/article/202610091308003/?utm_source=khan_rss&utm_medium=rss&utm_campaign=news",
+        "summary": "걸그룹 리센느(RESCENE) 멤버 미나미가 래퍼 로꼬의 신곡에 피처링으로 참여한다. 9일 스포츠경향 취재 결과 미나미는 오는 15일 발매되는 로꼬의 신곡 ‘타타(TATA)’ 피처링에 이름을 올렸다. 미나미는 ...",
+        "image": "https://images.khan.co.kr/article/2026/10/09/news-p.v1.20261009.696fe7377fe04698bdf55063bf437a95_P1.png"
     },
     {
         "title": "'해피투게더' 리센느 원이·미나미, 심사 중 눈물쏟은 사연 - 국제뉴스",
@@ -122,14 +153,6 @@ const NEWS_DATA = [
         "image": "https://www.sportschosun.com/article/html/2026/10/09/2026100901000621500039901.jpg"
     },
     {
-        "title": "[뮤지션100] 플레이브 68점 급증·리센느 1위…하츠투하츠 소연 1점 차 역전 - TopStarNews",
-        "source": "TopStarNews",
-        "date": "2026-10-09",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16242311",
-        "summary": "10월 9일 오전 8시 기준 뮤지션100에서 플레이브가 스코어를 68점 늘리며 국내 아티스트 가운데 가장 큰 증가폭을 기록했다. 리센느는 6079점으로 1위를 유지했고, 하츠투하츠는 아이들 소연을 1점 차로 제치고 5위에 올랐다. 최예나와 임영웅은 각각 138점, 136점 감소했다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202610/16242311_2049828_43_crop.jpg"
-    },
-    {
         "title": "‘해피투게더’ 리센느, 한강 편 출연 - BNT뉴스",
         "source": "BNT뉴스",
         "date": "2026-10-09",
@@ -154,12 +177,12 @@ const NEWS_DATA = [
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/09/bnt202610090297.jpg"
     },
     {
-        "title": "아이브·아일릿·엔믹스 줄컴백…리센느 독주 깰까? - 앳스타일",
-        "source": "앳스타일",
+        "title": "리센느에 펜타곤 우석까지..지하주차장, 특혜 아냐? ★들 응원 봇물[별별TV][해투] - 스타뉴스",
+        "source": "스타뉴스",
         "date": "2026-10-09",
-        "url": "https://www.atstar1.com/news/articleView.html?idxno=6039400",
-        "summary": "[앳스타일 황연도 기자] 올가을 가요계에 걸그룹 대격돌이 펼쳐진다. 리센느가 역주행으로 음원차트 상위권을 독주하고 있는 가운데, 미야오를 비롯해 엔믹스, 아이브, 아일릿이 잇따라 컴백한다. 각기 다른 콘셉트와 음악색을 앞세운 이들 가운데 누가 가을 차트의 주도권을 잡을지 주목된다.#미야",
-        "image": "https://cdn.atstar1.com/news/thumbnail/202610/6039400_118896_3129_v150.jpg"
+        "url": "https://www.starnewskorea.com/broadcast-show/2026/10/09/2026100921033776329",
+        "summary": "'해피투게더' 지하주차장 팀이 스타들의 응원을 받았다. 9일 방송된 KBS 2TV '해피투게더-혼자가 아니야' 마지막 회에서 지하주차장 멤버들이 환상의 짝꿍에 이어 파이널 스테이지에 올랐다. 앞서 이들은 리센느의 '러브 어택' 무대로 파이널에 진출했던 바. 특별 심사위원으로 자리한 리센",
+        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=2671,fit=cover,q=high,sharpen=2/21/2026/10/2026100921033776329_1.jpg"
     },
     {
         "title": "리센느 미나미도 울컥..나띠, 父 영상편지에 이해인과 '눈물'[해투][★밤TView] - 스타뉴스",
@@ -170,20 +193,20 @@ const NEWS_DATA = [
         "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=1937,fit=cover,q=high,sharpen=2/21/2026/10/2026100921312615598_1.jpg"
     },
     {
-        "title": "리센느에 펜타곤 우석까지..지하주차장, 특혜 아냐? ★들 응원 봇물[별별TV][해투] - 스타뉴스",
-        "source": "스타뉴스",
+        "title": "'놀면 뭐하니'의 ’95 서울가요제’ 누가 참가했나?...이소라→리센느 미나미 소환 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
         "date": "2026-10-09",
-        "url": "https://www.starnewskorea.com/broadcast-show/2026/10/09/2026100921033776329",
-        "summary": "'해피투게더' 지하주차장 팀이 스타들의 응원을 받았다. 9일 방송된 KBS 2TV '해피투게더-혼자가 아니야' 마지막 회에서 지하주차장 멤버들이 환상의 짝꿍에 이어 파이널 스테이지에 올랐다. 앞서 이들은 리센느의 '러브 어택' 무대로 파이널에 진출했던 바. 특별 심사위원으로 자리한 리센",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=2671,fit=cover,q=high,sharpen=2/21/2026/10/2026100921033776329_1.jpg"
+        "url": "https://www.mt.co.kr/entertainment/2026/10/09/2026100915427287787",
+        "summary": "예고 영상부터 뜨거운 반응을 얻는 중인 '놀면 뭐하니?’의 ‘’95 서울가요제’가 또다른 레전드 무대를 탄생시킬지 기대를 모으고 있다. ‘놀면 뭐하니?’ 공식 유튜브 채널에 업로드 된 예고 영상과 온라인 커뮤니티에는 벌써부터 가요제 참가자를 추리하는 댓글이 이어지고 있다.",
+        "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=642,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026100915427287787_1.jpg"
     },
     {
-        "title": "‘해피투게더’ 리센느·고우림 함께한 한강 파이널…장항준 오열 사태까지 - 싱글리스트",
-        "source": "싱글리스트",
+        "title": "리센느에게 이선민 있다면…유스피어에 기안84 있다 - 뉴시스",
+        "source": "뉴시스",
         "date": "2026-10-09",
-        "url": "https://www.slist.kr/news/articleView.html?idxno=772300",
-        "summary": "KBS2 ‘해피투게더-혼자가 아니어서 좋아’가 한강에서 펼쳐진 파이널 무대로 자체 최고 시청률 타이를 기록했다. 장항준은 평균 나이 80세 합창단의 무대를 지켜보다 눈물을 쏟았다.지난 9일 방송된 KBS2 ‘해피투게더-혼자가 아니어서 좋아’(기획 박민정/연출 권재오/작가 이민정, 이하 ",
-        "image": "https://cdn.slist.kr/news/thumbnail/202610/772300_1181433_1310_v150.jpg"
+        "url": "https://www.newsis.com/view/NISX20261009_0003820319",
+        "summary": "[서울=뉴시스] 남정현 기자 = 기안84가 그룹 유스피어의 '키다리 아저씨'로 발벗고 나섰다.9일 유튜브 채널 '인생84'에는 '소연과 함께'라는 제목의 영상이 공개됐다.기안84는 \"우리의 소리를 찾아서처럼 우리의 아이돌을 찾아서, 대중이 많이 인지하지 못 하는 아이돌을 찾아다니며 만나",
+        "image": "https://img1.newsis.com/2026/10/09/NISI20261009_0002259545_web.jpg"
     },
     {
         "title": "대전 동구동락 축제서 리센느 공연 무료 관람 - 제주교통복지신문",
@@ -194,12 +217,12 @@ const NEWS_DATA = [
         "image": "https://www.jejutwn.com/data/photos/20261041/art_17915288877296.jpg"
     },
     {
-        "title": "'놀면 뭐하니'의 ’95 서울가요제’ 누가 참가했나?...이소라→리센느 미나미 소환 - 머니투데이 - 머니투데이",
-        "source": "머니투데이",
+        "title": "[뮤지션100] 플레이브 68점 급증·리센느 1위…하츠투하츠 소연 1점 차 역전 - TopStarNews",
+        "source": "TopStarNews",
         "date": "2026-10-09",
-        "url": "https://www.mt.co.kr/entertainment/2026/10/09/2026100915427287787",
-        "summary": "예고 영상부터 뜨거운 반응을 얻는 중인 '놀면 뭐하니?’의 ‘’95 서울가요제’가 또다른 레전드 무대를 탄생시킬지 기대를 모으고 있다. ‘놀면 뭐하니?’ 공식 유튜브 채널에 업로드 된 예고 영상과 온라인 커뮤니티에는 벌써부터 가요제 참가자를 추리하는 댓글이 이어지고 있다.",
-        "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=642,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026100915427287787_1.jpg"
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16242311",
+        "summary": "10월 9일 오전 8시 기준 뮤지션100에서 플레이브가 스코어를 68점 늘리며 국내 아티스트 가운데 가장 큰 증가폭을 기록했다. 리센느는 6079점으로 1위를 유지했고, 하츠투하츠는 아이들 소연을 1점 차로 제치고 5위에 올랐다. 최예나와 임영웅은 각각 138점, 136점 감소했다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202610/16242311_2049828_43_crop.jpg"
     },
     {
         "title": "리센느 원이, 촬영중 눈물 펑펑 쏟았다 “할머니 인생 지금부터”(해투) - 뉴스엔",
@@ -215,6 +238,14 @@ const NEWS_DATA = [
         "url": "https://www.topstarnews.net/news/articleView.html?idxno=16242454",
         "summary": "MBC 예능 ‘놀면 뭐하니’가 ‘95 서울가요제’ 시작을 앞두고 공식 유튜브에 예고 영상을 올리자, 이소라·리센느 미나미·존박 등 실명까지 등장한 참가자 추리 댓글이 이어지며 90년대 가요 ‘황금기’를 떠올리게 하는 기대가 커지고 있다.",
         "image": "https://cdn.topstarnews.net/news/photo/202610/16242454_2050021_952_crop.jpg"
+    },
+    {
+        "title": "아이브·아일릿·엔믹스 줄컴백…리센느 독주 깰까? - 앳스타일",
+        "source": "앳스타일",
+        "date": "2026-10-09",
+        "url": "https://www.atstar1.com/news/articleView.html?idxno=6039400",
+        "summary": "[앳스타일 황연도 기자] 올가을 가요계에 걸그룹 대격돌이 펼쳐진다. 리센느가 역주행으로 음원차트 상위권을 독주하고 있는 가운데, 미야오를 비롯해 엔믹스, 아이브, 아일릿이 잇따라 컴백한다. 각기 다른 콘셉트와 음악색을 앞세운 이들 가운데 누가 가을 차트의 주도권을 잡을지 주목된다.#미야",
+        "image": "https://cdn.atstar1.com/news/thumbnail/202610/6039400_118896_3129_v150.jpg"
     },
     {
         "title": "한글날에 뜬 ‘거제 야호’…우리말과 K-컬처 잇는 새 유행어 - 거제신문",
@@ -241,14 +272,6 @@ const NEWS_DATA = [
         "image": "https://img.sbs.co.kr/newimg/news/20261009/202229942_1280.jpg"
     },
     {
-        "title": "리센느 원이X미나미 “해투 야호～” 스페셜 MC - 스포츠경향",
-        "source": "스포츠경향",
-        "date": "2026-10-08",
-        "url": "https://sports.khan.co.kr/article/202610080958003",
-        "summary": "“좋은 에너지 나눠드리고 싶어 왔다. 해투 야호~” KBS ‘해피투게더-혼자가 아니어서 좋아’에서 가을밤을 뜨겁게 달굴 최종 12팀의 피날레 대결이 펼쳐진다. 특히 리센느 원이, 미나미가 데뷔 첫 공중파 예능 ...",
-        "image": "https://images.khan.co.kr/article/2026/10/08/news-p.v1.20261008.b7de002497cd4bebbe3634806abb1655_P1.png"
-    },
-    {
         "title": "요즘 대세 아이돌 ‘리센느’, 오는 24일 거제 옥포에 뜬다 - 거제타임즈",
         "source": "거제타임즈",
         "date": "2026-10-08",
@@ -263,14 +286,6 @@ const NEWS_DATA = [
         "url": "https://www.newspim.com/news/view/20261008001164",
         "summary": "[서울=뉴스핌] 최문선 기자 = 그룹 리센느가 지상파 메인 뉴스에 처음 출연한다.리센느는 오는 11일 방송되는 SBS '8뉴스'에 출연해 2024년 데뷔 이후 활동을 돌아보고 최근 이어지고 있는 뜨거운 인기에 대한 솔직한 이야기를 전한다.[서울=뉴스핌] 최문선 기자 =",
         "image": "https://img.newspim.com/news/2026/10/08/2610081601450760_t1.jpg"
-    },
-    {
-        "title": "리센느, 지상파 메인 뉴스 출격...'SBS 8뉴스' 뜬다 - 머니투데이 - 머니투데이",
-        "source": "머니투데이",
-        "date": "2026-10-08",
-        "url": "https://www.mt.co.kr/amp/entertainment/2026/10/08/2026100814457293625",
-        "summary": "8일 SBS에 따르면 '2026 대세 아이돌'로 꼽히는 리센느가 오는 11일 오후 SBS의 메인 뉴스인 'SBS 8뉴스'에 출연한다. 리센느가 지상파 메인 뉴스에 출연하는 것은 이번이 처음이다.",
-        "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=1500,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026100814457293625_1.jpg"
     },
     {
         "title": "리센느 원이X미나미, '해투' 스페셜 MC 출격...\"미래의 슈퍼스타 만난 것 같다\" - 머니투데이 - 머니투데이",
@@ -292,8 +307,7 @@ const NEWS_DATA = [
         "source": "디스패치",
         "date": "2026-10-08",
         "url": "https://www.dispatch.co.kr/2349013",
-        "summary": "[Dispatch=이명주기자] 리센느가 지상파 메인 뉴스에 출연한다. 리센느는 오는 11일 오후 8시 방송되... [더보기]",
-        "image": "https://dispatch.cdnser.be/cms-content/uploads/2026/10/08/0a848de5-b491-4999-a51a-5b246c5cf46b.jpg"
+        "summary": ""
     },
     {
         "title": "리센느, 'SBS 8뉴스'까지 어택 - 뉴시스",
@@ -327,20 +341,12 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
-        "title": "[공식] ‘대세’ 리센느, 지상파 메인 뉴스 나온다…SBS 8시 뉴스 출격 - 스포츠경향",
-        "source": "스포츠경향",
+        "title": "리센느, 지상파 메인 뉴스 첫 출격 - BNT뉴스",
+        "source": "BNT뉴스",
         "date": "2026-10-08",
-        "url": "https://sports.khan.co.kr/article/202610081409003",
-        "summary": "걸그룹 리센느(RESCENE)가 발매 예정 신곡 준비 상황을 밝힌다. SBS에 따르면 리센느(원이, 리브, 미나미, 메이, 제나)는 오는 11일 ‘SBS 8뉴스’에 출연한다. 리센느가 지상파 메인 뉴스에 출연하...",
-        "image": "https://images.khan.co.kr/article/2026/10/08/rcv.YNA.20260906.PYH2026090606890001300_P1.jpg"
-    },
-    {
-        "title": "[공식] '역주행 신화' 리센느, 지상파 메인 뉴스 진출..'8뉴스' 출연 - 스타뉴스",
-        "source": "스타뉴스",
-        "date": "2026-10-08",
-        "url": "https://www.starnewskorea.com/music/2026/10/08/2026100814160818700",
-        "summary": "그룹 리센느(원이 리브 미나미 메이 제나, RESCENE)가 'SBS 8뉴스'에 출연한다. 8일 SBS에 따르면 리센느는 오는 11일 오후 8시 방송되는 'SBS 8뉴스'에 출연한다. 리센느가 지상파 메인 뉴스에 출연하는 것은 이번이 처음이다. 리센느 멤버들은 이현영 앵커와 함께 202",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=782,fit=cover,q=high,sharpen=2/21/2026/10/2026100814160818700_1.jpg"
+        "url": "https://www.bntnews.co.kr/article/view/bnt202610080212",
+        "summary": "리센느가 데뷔 후 처음으로 지상파 메인 뉴스에 출연한다.리센느는 오는 11일 방송되는 ‘SBS 8뉴스’에 출연해 데뷔 이후 활동과 최근의 인기, 새",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/08/bnt202610080424.jpg"
     },
     {
         "title": "리센느, 'SBS 8뉴스' 출격⋯역주행 성공 비결 밝힌다 - 이투데이",
@@ -349,6 +355,14 @@ const NEWS_DATA = [
         "url": "https://www.etoday.co.kr/news/view/2633899",
         "summary": "▲그룹 리센느. (사진제공=SBS)그룹 리센느(RESCENE)가 데뷔 후 처음으로 지상파 메인 뉴스에 출연한다.8일 소속사에 따르면 리센느는 11일 방송되는 '",
         "image": "https://img.etoday.co.kr/pto_db/2026/10/20261008140437_2398951_740_482.jpg"
+    },
+    {
+        "title": "리센느, 지상파 메인 뉴스 출격...'SBS 8뉴스' 뜬다 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "date": "2026-10-08",
+        "url": "https://www.mt.co.kr/entertainment/2026/10/08/2026100814457293625",
+        "summary": "8일 SBS에 따르면 '2026 대세 아이돌'로 꼽히는 리센느가 오는 11일 오후 SBS의 메인 뉴스인 'SBS 8뉴스'에 출연한다. 리센느가 지상파 메인 뉴스에 출연하는 것은 이번이 처음이다.",
+        "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=1500,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026100814457293625_1.jpg"
     },
     {
         "title": "리센느, 'SBS 8시 뉴스' 뜬다…데뷔 후 지상파 메인 뉴스 첫 출격 - SPOTV NEWS",
@@ -366,20 +380,20 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
+        "title": "리센느 원이X미나미 “해투 야호～” 스페셜 MC - 스포츠경향",
+        "source": "스포츠경향",
+        "date": "2026-10-08",
+        "url": "https://sports.khan.co.kr/article/202610080958003",
+        "summary": "“좋은 에너지 나눠드리고 싶어 왔다. 해투 야호~” KBS ‘해피투게더-혼자가 아니어서 좋아’에서 가을밤을 뜨겁게 달굴 최종 12팀의 피날레 대결이 펼쳐진다. 특히 리센느 원이, 미나미가 데뷔 첫 공중파 예능 ...",
+        "image": "https://images.khan.co.kr/article/2026/10/08/news-p.v1.20261008.b7de002497cd4bebbe3634806abb1655_P1.png"
+    },
+    {
         "title": "'대세' 리센느, 'SBS 8뉴스' 출연 확정…데뷔 후 첫 지상파 메인 뉴스 등판 - news.sbs.co.kr",
         "source": "news.sbs.co.kr",
         "date": "2026-10-08",
         "url": "https://news.sbs.co.kr/amp/news.amp?news_id=N1008789154",
         "summary": "2026년 대세 걸그룹으로 자리매김한 그룹 리센느가 지상파 메인 뉴스에 첫 출연한다. 리센느는 오는 11일 일요일 저녁 8시 방송되는 'SBS 8뉴스'에 출연해 이현영 앵커와 인터뷰를 진행한다.",
         "image": "https://img.sbs.co.kr/newsnet/etv/upload/2026/09/22/30001089370_1280.jpg"
-    },
-    {
-        "title": "‘대세’ 리센느, ‘SBS 8뉴스’ 뜬다…지상파 메인 뉴스까지 진출 - 매일경제",
-        "source": "매일경제",
-        "date": "2026-10-08",
-        "url": "https://www.mk.co.kr/news/broadcasting-service/12171457",
-        "summary": "",
-        "image": "https://pimg.mk.co.kr/news/cms/202610/08/news-p.v1.20261008.6c81809d06084b3abe46ae34fae6df15_R.jpeg"
     },
     {
         "title": "[공식] '대세' 리센느 원이·미나미 '해투' 피날레 장식..스페셜 MC 출격 - 스타뉴스",
@@ -390,20 +404,20 @@ const NEWS_DATA = [
         "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=664,fit=cover,q=high,sharpen=2/21/2026/10/2026100809071352043_1.jpg"
     },
     {
+        "title": "‘대세’ 리센느, ‘SBS 8뉴스’ 뜬다…지상파 메인 뉴스까지 진출 - 매일경제",
+        "source": "매일경제",
+        "date": "2026-10-08",
+        "url": "https://www.mk.co.kr/news/broadcasting-service/12171457",
+        "summary": "",
+        "image": "https://pimg.mk.co.kr/news/cms/202610/08/news-p.v1.20261008.6c81809d06084b3abe46ae34fae6df15_R.jpeg"
+    },
+    {
         "title": "리센느, 'SBS 8뉴스' 출연으로 대세 걸그룹 입증 - TopStarNews",
         "source": "TopStarNews",
         "date": "2026-10-08",
         "url": "https://www.topstarnews.net/news/articleView.html?idxno=16241910",
         "summary": "걸그룹 리센느가 지상파 메인 뉴스인 'SBS 8뉴스'에 처음 출연한다. SBS 측은 8일 리센느의 'SBS 8뉴스' 출연 소식을 밝혔다.",
         "image": "https://cdn.topstarnews.net/news/photo/202610/16241910_2049282_5640_crop.jpg"
-    },
-    {
-        "title": "리센느, 지상파 메인 뉴스 첫 출격 - BNT뉴스",
-        "source": "BNT뉴스",
-        "date": "2026-10-08",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202610080212",
-        "summary": "리센느가 데뷔 후 처음으로 지상파 메인 뉴스에 출연한다.리센느는 오는 11일 방송되는 ‘SBS 8뉴스’에 출연해 데뷔 이후 활동과 최근의 인기, 새",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/08/bnt202610080424.jpg"
     },
     {
         "title": "리센느, 지상파 메인 뉴스도 접수…'SBS 8뉴스' 출연 - 이데일리",
@@ -438,12 +452,12 @@ const NEWS_DATA = [
         "image": "https://img.tenasia.co.kr/photo/202610/BF.45985413.1.jpg"
     },
     {
-        "title": "리센느, 스타트렌드 K-POP 걸그룹 1위…원이·미나미 예능 MC 활약 기대 - 더퍼블릭",
-        "source": "더퍼블릭",
+        "title": "리센느, 지상파 메인 뉴스 출격...'SBS 8뉴스' 뜬다 - 아이즈(ize)",
+        "source": "아이즈(ize)",
         "date": "2026-10-08",
-        "url": "https://www.thepublic.kr/news/articleView.html?idxno=321532",
-        "summary": "[더퍼블릭=장경욱 기자] 지난 7일, 그룹 리센느(RESCENE)가 스타트렌드 K-POP 여자 그룹 부문 일간 투표에서 506,208표를 획득하며 1위에 올랐다. 50만 표를 넘어선 득표 기록으로 팬들의 뜨거운 지지를 확인한 리센느는 지상파 예능프로그램 스페셜 MC 도전 소식까지 전하",
-        "image": "https://cdn.thepublic.kr/news/photo/202610/321532_325080_88.png"
+        "url": "https://www.ize.co.kr/news/articleView.html?idxno=81475",
+        "summary": "그룹 리센느(RESCENE. 원이, 리브, 미나미, 메이, 제나)가 지상파 메인 뉴스에 출연한다.8일 SBS에 따르면 '2026 대세 아이돌'로 꼽히는 리센느가 오는 11일 오후 SBS의 메인 뉴스인 'SBS 8뉴스'에 출연한다. 리센느가 지상파 메인 뉴스에 출연하는 것은 이번이 처음이",
+        "image": "https://cdn.ize.co.kr/news/thumbnail/202610/81475_126108_443_v150.jpg"
     },
     {
         "title": "리센느, 'SBS 8뉴스' 출격…데뷔 후 첫 지상파 메인 뉴스 - 더팩트",
@@ -454,12 +468,20 @@ const NEWS_DATA = [
         "image": "https://img.tf.co.kr/article/home/2026/10/08/202660691791447114.jpg"
     },
     {
-        "title": "최예나·리센느·알파드라이브원 뜬다…'디 어워즈' 파리 2차 라인업 공개 - YTN star",
-        "source": "YTN star",
+        "title": "리센느, 스타트렌드 K-POP 걸그룹 1위…원이·미나미 예능 MC 활약 기대 - 더퍼블릭",
+        "source": "더퍼블릭",
+        "date": "2026-10-08",
+        "url": "https://www.thepublic.kr/news/articleView.html?idxno=321532",
+        "summary": "[더퍼블릭=장경욱 기자] 지난 7일, 그룹 리센느(RESCENE)가 스타트렌드 K-POP 여자 그룹 부문 일간 투표에서 506,208표를 획득하며 1위에 올랐다. 50만 표를 넘어선 득표 기록으로 팬들의 뜨거운 지지를 확인한 리센느는 지상파 예능프로그램 스페셜 MC 도전 소식까지 전하",
+        "image": "https://cdn.thepublic.kr/news/photo/202610/321532_325080_88.png"
+    },
+    {
+        "title": "영케이 컬래버부터 리센느 무대까지, ‘2026 KGMA’ 첫날 고척돔 달군다 - TopStarNews",
+        "source": "TopStarNews",
         "date": "2026-10-07",
-        "url": "https://star.ytn.co.kr/_sn/0117_202610071011307449",
-        "summary": "'디 어워즈 2027 인 파리'(D AWARDS 2027 in PARIS)가 2차 라인업을 공개했다. 이번 2차 라인업에는 최예나(YENA), 앰퍼샌드원(AMPERS&ONE), 리센느(RESCENE), 알파드라이브원(ALPHA DRIVE ONE), 롱샷(LNGSHOT)이 데뷔 순으로 이",
-        "image": "https://image.ytn.co.kr/general/jpg/2026/1007/202610071011307449_t.jpg"
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16241320",
+        "summary": "제3회 코리아 그랜드 뮤직 어워즈 ‘2026 KGMA’가 11월 7일 서울 고척스카이돔에서 열리는 ‘아티스트 데이’를 통해 영케이, 리센느, 트레저, 앤더블, 피원하모니, 피프티피프티, 크래비티, 싸이커스, 루시, 노벨브라이트 등 출연진의 KGMA 전용 무대를 선보인다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202610/16241320_2048692_3651_crop.jpg"
     },
     {
         "title": "메가스터디교육, ‘2028 메가패스’ 출시…리센느와 캠페인 진행 - 서울신문",
@@ -468,6 +490,14 @@ const NEWS_DATA = [
         "url": "https://www.seoul.co.kr/news/economy/2026/10/07/20261007500154",
         "summary": "메가스터디교육이 2028학년도 수능 변화에 맞춘 무제한 수강 상품 ‘2028 메가패스’를 출시했다. 구매자 전원에게 교재 지원금 10만원을 제공하고, 환급 대상과 적용 범위를 넓혀 학습 부담을 낮췄다. 국어·수학·영어와 통합사회·통합과학 강좌를 갖췄고, 리센느와 캠페인도 진행했다.",
         "image": "https://img.seoul.co.kr//img/upload/2026/10/07/SSC_20261007142409_O2.jpg.webp"
+    },
+    {
+        "title": "최예나·리센느·알파드라이브원 뜬다…'디 어워즈' 파리 2차 라인업 공개 - YTN star",
+        "source": "YTN star",
+        "date": "2026-10-07",
+        "url": "https://star.ytn.co.kr/_sn/0117_202610071011307449",
+        "summary": "'디 어워즈 2027 인 파리'(D AWARDS 2027 in PARIS)가 2차 라인업을 공개했다. 이번 2차 라인업에는 최예나(YENA), 앰퍼샌드원(AMPERS&ONE), 리센느(RESCENE), 알파드라이브원(ALPHA DRIVE ONE), 롱샷(LNGSHOT)이 데뷔 순으로 이",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1007/202610071011307449_t.jpg"
     },
     {
         "title": "최예나부터 리센느까지…'디 어워즈 2027 인 파리', 2차 라인업 - 전자신문",
@@ -502,14 +532,6 @@ const NEWS_DATA = [
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/08/bnt202610080077.jpg"
     },
     {
-        "title": "최예나·리센느→알파드라이브원…파리行…‘디 어워즈’ 2차 라인업도 화려 - 스포츠동아",
-        "source": "스포츠동아",
-        "date": "2026-10-07",
-        "url": "https://sports.donga.com/ent/article/all/20261007/134799279/1",
-        "summary": "[동아닷컴 이슬비 기자] ‘디 어워즈 2027 인 파리’로 향하는 K팝 아티스트들의 라인업이 한층 풍성해졌다.트와이스 지효를 비롯해 디피알 이안(DPR IAN), 피원하모니(P1Harmony), 키스오브라이프(KISS OF LIFE), 앤더블(AND2BLE)에 이어…",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/07/134799251.1.jpg"
-    },
-    {
         "title": "리센느, 데뷔 후 주목받기까지 걸린 680일…\"조금이라도 알리려 '1분만' 외쳤다\" - 뉴스1",
         "source": "뉴스1",
         "date": "2026-10-07",
@@ -525,20 +547,20 @@ const NEWS_DATA = [
         "image": "https://cdn.goodkyung.com/news/thumbnail/202610/292128_265681_2751_v150.jpg"
     },
     {
+        "title": "최예나·리센느→알파드라이브원…파리行…‘디 어워즈’ 2차 라인업도 화려 - 스포츠동아",
+        "source": "스포츠동아",
+        "date": "2026-10-07",
+        "url": "https://sports.donga.com/ent/article/all/20261007/134799279/1",
+        "summary": "[동아닷컴 이슬비 기자] ‘디 어워즈 2027 인 파리’로 향하는 K팝 아티스트들의 라인업이 한층 풍성해졌다.트와이스 지효를 비롯해 디피알 이안(DPR IAN), 피원하모니(P1Harmony), 키스오브라이프(KISS OF LIFE), 앤더블(AND2BLE)에 이어…",
+        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/07/134799251.1.jpg"
+    },
+    {
         "title": "리센느, 아이돌차트 9월 4주차 아차랭킹 또 정상 - TopStarNews",
         "source": "TopStarNews",
         "date": "2026-10-07",
         "url": "https://www.topstarnews.net/news/articleView.html?idxno=16240767",
         "summary": "리센느가 9월 28일부터 10월 4일까지 집계된 아이돌차트 9월 4주차 아차랭킹에서 음원 점수 1042점, 유튜브 점수 1만810점, 소셜 점수 7870점 등 총점 1만9722점으로 1위를 차지했고, 소연과 올데이프로젝트, 아이유, 임영웅 등이 뒤를 이었다.",
         "image": "https://cdn.topstarnews.net/news/photo/202610/16240767_2047911_1332_crop.jpg"
-    },
-    {
-        "title": "영케이 컬래버부터 리센느 무대까지, ‘2026 KGMA’ 첫날 고척돔 달군다 - TopStarNews",
-        "source": "TopStarNews",
-        "date": "2026-10-07",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16241320",
-        "summary": "제3회 코리아 그랜드 뮤직 어워즈 ‘2026 KGMA’가 11월 7일 서울 고척스카이돔에서 열리는 ‘아티스트 데이’를 통해 영케이, 리센느, 트레저, 앤더블, 피원하모니, 피프티피프티, 크래비티, 싸이커스, 루시, 노벨브라이트 등 출연진의 KGMA 전용 무대를 선보인다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202610/16241320_2048692_3651_crop.jpg"
     },
     {
         "title": "김민, '나혼산' 출연 후 뜨거운 관심...리센느·기안84 따돌리고 화제성 1위 등극 [iZE 포커스] - 머니투데이 - 머니투데이",
@@ -573,6 +595,14 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202610/16241278_2048607_114_crop.jpg"
     },
     {
+        "title": "리센느 원이X미나미, 유재석과 `해투` MC라니…대세는 대세 - 마이데일리",
+        "source": "마이데일리",
+        "date": "2026-10-07",
+        "url": "https://mydaily.co.kr/page/view/2026100808224954086",
+        "summary": "/ KBS 2TV ‘해피투게더-혼자가 아니어서 좋아’...",
+        "image": "https://mydaily.co.kr/photos/2026/10/08/2026100808291561258_l.jpg"
+    },
+    {
         "title": "[창간 80주년] 조수미부터 리센느까지…“희망을 전하는 깨어 있는 언론 되길” - 경향신문",
         "source": "경향신문",
         "date": "2026-10-06",
@@ -581,44 +611,12 @@ const NEWS_DATA = [
         "image": "https://img.khan.co.kr/news/2026/10/06/news-p.v1.20261006.b698999e38e443e7bf6a0a2447066028_P1.jpg"
     },
     {
-        "title": "'2026 동구동락 축제' 라인업·일정은?... 리센느 출격! - 금강일보",
-        "source": "금강일보",
-        "date": "2026-10-06",
-        "url": "https://www.ggilbo.com/news/articleView.html?idxno=1185423",
-        "summary": "대전 동구의 대표 축제인 ‘2026 대전 동구동락 축제’가 오는 9일부터 사흘간 열린다.‘2026 대전 동구동락 축제’는 오는 9일부터 11일까지 소제동 동광장로와 대동천 일원에서 개최된다. 공식행사를 비롯해 먹거리, 공연과 경연, 체험 및 마켓, 지역 상권과 대학 연계 프로그램 등이 ",
-        "image": "https://cdn.ggilbo.com/news/photo/202610/1185423_1038008_4859.png"
-    },
-    {
-        "title": "의령은 얼마나 부자길래 리센느도 섭외할까? - 경남신문",
-        "source": "경남신문",
-        "date": "2026-10-06",
-        "url": "https://m.knnews.co.kr/mView.php?idxno=1552267",
-        "summary": "전국 최고 주가를 달리고 있는 리센느. 매년 리치리치페스티벌을 개최하고 있는 의령군이 ‘부자 1번지’라는 별명에 어울리게 올해 리센느를 섭외했습니다. 그렇다면 의령은 얼마나 부자인걸까요?이하림 PD",
-        "image": "https://cdn.knnews.co.kr/edbthumbnail/2026/10/1552267_520_images.jpg"
-    },
-    {
         "title": "[뮤직100] 리센느 ‘Pinball’ 332점 증가 42위…최예나 224계단 급등 - TopStarNews",
         "source": "TopStarNews",
         "date": "2026-10-06",
         "url": "https://www.topstarnews.net/news/articleView.html?idxno=16240152",
         "summary": "리센느 ‘Pinball’이 하루 새 스코어 331.9점 증가와 함께 99위에서 42위로 뛰어 TOP50에 진입했다. 최예나의 신곡 ‘보기 드문 여자’는 224계단 급등했고, 올데이 프로젝트 ‘CRASH’는 25위까지 올라 중상위권 경쟁에 변화를 만들었다.",
         "image": "https://cdn.topstarnews.net/news/photo/202610/16240152_2047150_1856_crop.jpg"
-    },
-    {
-        "title": "[뮤지션100] 리센느 331점 급증 1위…임영웅 380점 감소, 최예나 144점 증가 - TopStarNews",
-        "source": "TopStarNews",
-        "date": "2026-10-06",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16240150",
-        "summary": "리센느가 뮤지션100에서 스코어를 331점 늘리며 1위를 지켰고 임영웅은 380점 감소했다. 최예나와 이창섭도 각각 144점, 98점 증가해 순위 상승을 동반했다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202610/16240150_2047146_1526_crop.jpg"
-    },
-    {
-        "title": "리센느, ‘데자뷰’도 역주행…‘러브 어택’ 기세 데자뷰인 듯 [줌인] - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-10-06",
-        "url": "https://isplus.com/article/view/isp202610050116",
-        "summary": "이 기세, 완전 데자 뷰다. 그룹 리센느의 곡 ‘데자뷰’(Deja Vu·데자부)의 역주행 행보 말이다. 역주행으로 발매 2년 만에 음원차트 최정상...",
-        "image": "https://isplus.com/data/isp/image/2026/10/05/isp20261005000101.800x.0.jpeg"
     },
     {
         "title": "“얘들아, 삼촌이 다 사줄게”…‘리센느 빵’ 60만개 쓸어간 30대 남성들 - 서울신문",
@@ -645,6 +643,14 @@ const NEWS_DATA = [
         "image": "https://img.seoul.co.kr//img/upload/2026/10/05/SSC_20261005105115.png"
     },
     {
+        "title": "CU ‘리센느 빵’ 보름만에 60만 개 판매 - 국제신문",
+        "source": "국제신문",
+        "date": "2026-10-04",
+        "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261005.22012000897",
+        "summary": "������ CU�� �������� ���� 5��(����)�� ���� 1�� �Ǹŷ� �� 60�� ���� ����ߴٰ� 4�� ������. CU�� ������ 17�� �������� ������ ũ�������� ������..",
+        "image": "https://db.kookje.co.kr/news2000/photo/2026/1005/L20261005.22012000897i1.jpg?4"
+    },
+    {
         "title": "삼촌들이 움직였다…‘리센느 빵’ 최대 구매자 30대 남성 - 문화일보",
         "source": "문화일보",
         "date": "2026-10-04",
@@ -653,28 +659,12 @@ const NEWS_DATA = [
         "image": "https://wimg.munhwa.com/news/cms/2026/10/04/news-p.v1.20261004.6c5c9303938446c6aa3ac49c3a7b8ff7_R.jpg"
     },
     {
-        "title": "\"원이야, 삼촌이 다 사줄게\"…60만개 '리센느 빵' 쓸어간 30대 男 - 아시아경제",
-        "source": "아시아경제",
-        "date": "2026-10-04",
-        "url": "https://www.asiae.co.kr/article/2026100413242033151",
-        "summary": "최고의 주가를 달리고 있는 그룹 리센느와 협업한 '리센느 빵' 5종의 판매량이 60만개를 달성했다.",
-        "image": "https://cphoto.asiae.co.kr/listimglink/1/2026100420425350308_1791114173.png"
-    },
-    {
-        "title": "CU ‘리센느 빵’ 보름만에 60만 개 판매 - 국제신문",
-        "source": "국제신문",
-        "date": "2026-10-04",
-        "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261005.22012000897",
-        "summary": "������ CU�� �������� ���� 5��(����)�� ���� 1�� �Ǹŷ� �� 60�� ���� ����ߴٰ� 4�� ������. CU�� ������ 17�� �������� ������ ũ�������� ������..",
-        "image": "https://db.kookje.co.kr/news2000/photo/2026/1005/L20261005.22012000897i1.jpg?22"
-    },
-    {
         "title": "‘리센느 빵’ 누가 쓸어가나 봤더니…10명 중 7명 男, 30대 최다 - 경기일보",
         "source": "경기일보",
         "date": "2026-10-03",
         "url": "https://www.kyeonggi.com/article/20261004580029",
         "summary": "편의점에서 아이돌 포토카드와 유명 디저트를 앞세운 협업 상품이 잇따라 흥행하고 있다. 4일 유통업계에 따르면 BGF리테일이 운영하는 CU의 ‘리센느 빵’ 5종은 1일 기준 약 60만개가 판매됐다. CU는 지난달 17일 ‘원이의 옥수수 크림빵’을 시작으로 같은 달 30일",
-        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/04/.cache/512/20261004580030.jpg?v=20261010211031"
+        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/04/.cache/512/20261004580030.jpg?v=20261011062213"
     },
     {
         "title": "’리센느 생일 선물 공지’ 어땠길래…“조공 유도“·“단순 안내“ - 연합뉴스TV",
@@ -685,12 +675,12 @@ const NEWS_DATA = [
         "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261002/AKR20261002121344I3Q_01_i.jpg"
     },
     {
-        "title": "1위 리센느 제나, 2위 리센느 원이, 3위 리센느 리브 - 스타뉴스",
-        "source": "스타뉴스",
-        "date": "2026-10-01",
-        "url": "https://www.starnewskorea.com/music/2026/10/02/2026100206522147244",
-        "summary": "걸그룹 리센느(RESCENE) 제나가 10월 신인 아이돌 개인 브랜드평판 1위에 오르며 인기를 빛냈다. 한국기업평판연구소는 10월 신인 아이돌 개인 브랜드평판 분석에서 리센느 제나를 1위로 분석했다고 2일 밝혔다. 리센느 원이와 리브가 각각 2위와 3위에 올랐으며, 4위는 리센느 미나미",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=858,fit=cover,q=high,sharpen=2/21/2026/10/2026100206522147244_1.jpg"
+        "title": "[다시보기] 무엇이든 해줄지니 - 비서진 5회 - programs.sbs.co.kr",
+        "source": "programs.sbs.co.kr",
+        "date": "2026-10-02",
+        "url": "https://programs.sbs.co.kr/enter/mygeniesecretary/vod/90104/22000637418",
+        "summary": "SBS 온에어/VOD/클립영상 즐기기!",
+        "image": "https://img2.sbs.co.kr/img/sbs_cms/WE/2026/10/06/rqa1791249180086-640-360.jpg"
     },
     {
         "title": "리센느 메이, 무대 중 지퍼가 주륵...\"큰일 날 뻔\" - 머니투데이 - 머니투데이",
@@ -733,20 +723,20 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/24/spotvnews/20260924063653517yepb.png"
     },
     {
-        "title": "리센느 미나미, 첫 예능 단독 출연에도 1위…'라스'도 올해 최고 기록 - Daum",
-        "source": "Daum",
-        "date": "2026-09-22",
-        "url": "https://v.daum.net/v/uAD98FYCrE",
-        "summary": "[마이데일리 = 김하영 기자] 그룹 리센느(RESENE) 멤버 미나미가 첫 단독 예능 출연으로 화제성 1위에 오르며 존재감을 입증했다. 미나미는 22일 굿데이터코퍼레이션 펀덱스(FUNdex)가 발표한 9월 3주 차 TV-OTT 비드라마 출연자 화제성 조사에서 1위를 차지했다. 리센느 멤",
-        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/22/mydaily/20260922115151710gxmz.jpg"
-    },
-    {
         "title": "리센느, 11월 3일 컴백 확정…1년 만의 실물 앨범 '기세 잇나' - 조선비즈 - Chosunbiz",
         "source": "Chosunbiz",
         "date": "2026-09-22",
         "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/22/MJTDIMLBMU4WEZJTMJRDKOBXGA/",
         "summary": "리센느, 11월 3일 컴백 확정1년 만의 실물 앨범 기세 잇나",
         "image": "https://biz.chosun.com/resizer/v2/MZRDAOBSMU3WCNBRGMZDOZRRG4.jpg?auth=a87608f428565ca79419fb4ec35e68d92b4238c25a8b118b4175f52e5d0d74a4&width=650&height=341&smart=true"
+    },
+    {
+        "title": "리센느 미나미, 첫 예능 단독 출연에도 1위…'라스'도 올해 최고 기록 - Daum",
+        "source": "Daum",
+        "date": "2026-09-22",
+        "url": "https://v.daum.net/v/uAD98FYCrE",
+        "summary": "[마이데일리 = 김하영 기자] 그룹 리센느(RESENE) 멤버 미나미가 첫 단독 예능 출연으로 화제성 1위에 오르며 존재감을 입증했다. 미나미는 22일 굿데이터코퍼레이션 펀덱스(FUNdex)가 발표한 9월 3주 차 TV-OTT 비드라마 출연자 화제성 조사에서 1위를 차지했다. 리센느 멤",
+        "image": "https://img1.daumcdn.net/thumb/S1200x630/?fname=https://t1.daumcdn.net/news/202609/22/mydaily/20260922115151710gxmz.jpg"
     },
     {
         "title": "제대로 터진 리센느, 이젠 진짜 '신곡'으로 평가받을 때 [엑's 이슈] - Daum",
