@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T11:58:07.580Z",
+  "updated": "2026-10-11T17:29:23.679Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3631,6 +3631,14 @@
       "title": "2026 GHOST (경기 한류 OST 뮤직페스티벌)",
       "detail": "",
       "type": "event",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-10-11",
+      "time": "20:00",
+      "title": "SBS 8 뉴스",
+      "detail": "",
+      "type": "broadcast",
       "source": "mnetplus"
     },
     {
