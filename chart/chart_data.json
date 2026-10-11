@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T11:13:48.881Z",
+  "updatedAt": "2026-10-11T17:22:38.721Z",
   "platforms": [
     "melon",
     "genie",
@@ -20,20 +20,20 @@
           "previousRank": 2
         },
         "genie": {
-          "rank": 2,
-          "previousRank": 2
+          "rank": 27,
+          "previousRank": 27
         },
         "vibe": {
           "rank": 2,
           "previousRank": 2
         },
         "bugs": {
-          "rank": 9,
-          "previousRank": 9
+          "rank": 15,
+          "previousRank": 16
         },
         "flo": {
-          "rank": 2,
-          "previousRank": 2
+          "rank": 5,
+          "previousRank": 3
         },
         "youtube_music": {
           "rank": 4,
@@ -55,20 +55,20 @@
           "previousRank": 3
         },
         "genie": {
-          "rank": 8,
-          "previousRank": 8
+          "rank": 30,
+          "previousRank": 31
         },
         "vibe": {
           "rank": 11,
           "previousRank": 11
         },
         "bugs": {
-          "rank": 15,
-          "previousRank": 15
+          "rank": 16,
+          "previousRank": 20
         },
         "flo": {
-          "rank": 14,
-          "previousRank": 14
+          "rank": 17,
+          "previousRank": 17
         },
         "youtube_music": {
           "rank": 9,
@@ -86,24 +86,24 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/137/88/545/13788545_20260707111659_500.jpg?3ef0f9e6af1ea09e3f919c7cb69065ed/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 4,
+          "rank": 5,
           "previousRank": 5
         },
         "genie": {
-          "rank": 5,
-          "previousRank": 5
+          "rank": 28,
+          "previousRank": 28
         },
         "vibe": {
           "rank": 6,
           "previousRank": 6
         },
         "bugs": {
-          "rank": 23,
-          "previousRank": 19
+          "rank": 35,
+          "previousRank": 30
         },
         "flo": {
-          "rank": 15,
-          "previousRank": 15
+          "rank": 19,
+          "previousRank": 18
         },
         "youtube_music": {
           "rank": 6,
@@ -116,48 +116,25 @@
       }
     },
     {
-      "songName": "Runaway",
-      "artistName": "RESCENE (리센느)",
-      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/133/12/413/13312413_20260406143448_500.jpg?0d1b1aec895dbf60aa601748ddf64dd9/melon/resize/144/optimize/90",
-      "ranks": {
-        "melon": {
-          "rank": 22,
-          "previousRank": 43
-        },
-        "bugs": {
-          "rank": 39,
-          "previousRank": 47
-        },
-        "flo": {
-          "rank": 79,
-          "previousRank": 79
-        },
-        "youtube_music": {
-          "rank": 46,
-          "previousRank": 46
-        },
-        "spotify": {
-          "rank": 32,
-          "previousRank": 30
-        }
-      }
-    },
-    {
       "songName": "Pinball",
       "artistName": "RESCENE (리센느)",
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/115/75/849/11575849_20240826152240_500.jpg?da43be78cb2cc67e9ee423c739bc09b6/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 58,
-          "previousRank": 84
+          "rank": 83,
+          "previousRank": 83
+        },
+        "genie": {
+          "rank": 97,
+          "previousRank": 89
         },
         "bugs": {
-          "rank": 32,
-          "previousRank": 29
+          "rank": 33,
+          "previousRank": 36
         },
         "flo": {
-          "rank": 53,
-          "previousRank": 52
+          "rank": 56,
+          "previousRank": 57
         },
         "youtube_music": {
           "rank": 30,
@@ -166,6 +143,33 @@
         "spotify": {
           "rank": 27,
           "previousRank": 26
+        }
+      }
+    },
+    {
+      "songName": "Runaway",
+      "artistName": "RESCENE (리센느)",
+      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/133/12/413/13312413_20260406143448_500.jpg?0d1b1aec895dbf60aa601748ddf64dd9/melon/resize/144/optimize/90",
+      "ranks": {
+        "melon": {
+          "rank": 50,
+          "previousRank": 50
+        },
+        "bugs": {
+          "rank": 36,
+          "previousRank": 34
+        },
+        "flo": {
+          "rank": 77,
+          "previousRank": 77
+        },
+        "youtube_music": {
+          "rank": 46,
+          "previousRank": 46
+        },
+        "spotify": {
+          "rank": 32,
+          "previousRank": 30
         }
       }
     },
