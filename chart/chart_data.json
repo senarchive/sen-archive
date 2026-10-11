@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T04:12:34.811Z",
+  "updatedAt": "2026-10-11T11:13:48.881Z",
   "platforms": [
     "melon",
     "genie",
@@ -28,12 +28,12 @@
           "previousRank": 2
         },
         "bugs": {
-          "rank": 4,
-          "previousRank": 4
+          "rank": 9,
+          "previousRank": 9
         },
         "flo": {
-          "rank": 3,
-          "previousRank": 4
+          "rank": 2,
+          "previousRank": 2
         },
         "youtube_music": {
           "rank": 4,
@@ -56,19 +56,19 @@
         },
         "genie": {
           "rank": 8,
-          "previousRank": 9
+          "previousRank": 8
         },
         "vibe": {
           "rank": 11,
           "previousRank": 11
         },
         "bugs": {
-          "rank": 8,
-          "previousRank": 8
+          "rank": 15,
+          "previousRank": 15
         },
         "flo": {
-          "rank": 18,
-          "previousRank": 30
+          "rank": 14,
+          "previousRank": 14
         },
         "youtube_music": {
           "rank": 9,
@@ -86,24 +86,24 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/137/88/545/13788545_20260707111659_500.jpg?3ef0f9e6af1ea09e3f919c7cb69065ed/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 5,
+          "rank": 4,
           "previousRank": 5
         },
         "genie": {
-          "rank": 4,
-          "previousRank": 4
+          "rank": 5,
+          "previousRank": 5
         },
         "vibe": {
           "rank": 6,
           "previousRank": 6
         },
         "bugs": {
-          "rank": 18,
-          "previousRank": 15
+          "rank": 23,
+          "previousRank": 19
         },
         "flo": {
-          "rank": 21,
-          "previousRank": 32
+          "rank": 15,
+          "previousRank": 15
         },
         "youtube_music": {
           "rank": 6,
@@ -116,48 +116,21 @@
       }
     },
     {
-      "songName": "Pinball",
-      "artistName": "RESCENE (리센느)",
-      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/115/75/849/11575849_20240826152240_500.jpg?da43be78cb2cc67e9ee423c739bc09b6/melon/resize/144/optimize/90",
-      "ranks": {
-        "melon": {
-          "rank": 88,
-          "previousRank": 89
-        },
-        "bugs": {
-          "rank": 25,
-          "previousRank": 28
-        },
-        "flo": {
-          "rank": 64,
-          "previousRank": 65
-        },
-        "youtube_music": {
-          "rank": 30,
-          "previousRank": 30
-        },
-        "spotify": {
-          "rank": 27,
-          "previousRank": 26
-        }
-      }
-    },
-    {
       "songName": "Runaway",
       "artistName": "RESCENE (리센느)",
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/133/12/413/13312413_20260406143448_500.jpg?0d1b1aec895dbf60aa601748ddf64dd9/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 45,
-          "previousRank": 44
+          "rank": 22,
+          "previousRank": 43
         },
         "bugs": {
-          "rank": 44,
-          "previousRank": 36
+          "rank": 39,
+          "previousRank": 47
         },
         "flo": {
-          "rank": 84,
-          "previousRank": 85
+          "rank": 79,
+          "previousRank": 79
         },
         "youtube_music": {
           "rank": 46,
@@ -166,6 +139,33 @@
         "spotify": {
           "rank": 32,
           "previousRank": 30
+        }
+      }
+    },
+    {
+      "songName": "Pinball",
+      "artistName": "RESCENE (리센느)",
+      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/115/75/849/11575849_20240826152240_500.jpg?da43be78cb2cc67e9ee423c739bc09b6/melon/resize/144/optimize/90",
+      "ranks": {
+        "melon": {
+          "rank": 58,
+          "previousRank": 84
+        },
+        "bugs": {
+          "rank": 32,
+          "previousRank": 29
+        },
+        "flo": {
+          "rank": 53,
+          "previousRank": 52
+        },
+        "youtube_music": {
+          "rank": 30,
+          "previousRank": 30
+        },
+        "spotify": {
+          "rank": 27,
+          "previousRank": 26
         }
       }
     },
