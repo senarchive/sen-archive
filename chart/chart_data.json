@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T15:13:33.366Z",
+  "updatedAt": "2026-10-16T19:19:49.909Z",
   "platforms": [
     "melon",
     "genie",
@@ -16,20 +16,20 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/115/75/849/11575849_20240826152240_500.jpg?da43be78cb2cc67e9ee423c739bc09b6/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 5,
-          "previousRank": 4
+          "rank": 3,
+          "previousRank": 3
         },
         "genie": {
-          "rank": 11,
-          "previousRank": 5
+          "rank": 25,
+          "previousRank": 11
         },
         "vibe": {
           "rank": 2,
           "previousRank": 2
         },
         "bugs": {
-          "rank": 10,
-          "previousRank": 7
+          "rank": 6,
+          "previousRank": 10
         },
         "flo": {
           "rank": 10,
@@ -41,42 +41,7 @@
         },
         "spotify": {
           "rank": 2,
-          "previousRank": 1
-        }
-      }
-    },
-    {
-      "songName": "Pretty Girl",
-      "artistName": "RESCENE (리센느)",
-      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/137/88/545/13788545_20260707111659_500.jpg?3ef0f9e6af1ea09e3f919c7cb69065ed/melon/resize/144/optimize/90",
-      "ranks": {
-        "melon": {
-          "rank": 16,
-          "previousRank": 9
-        },
-        "genie": {
-          "rank": 32,
-          "previousRank": 15
-        },
-        "vibe": {
-          "rank": 10,
-          "previousRank": 11
-        },
-        "bugs": {
-          "rank": 21,
-          "previousRank": 28
-        },
-        "flo": {
-          "rank": 18,
-          "previousRank": 18
-        },
-        "youtube_music": {
-          "rank": 6,
-          "previousRank": 6
-        },
-        "spotify": {
-          "rank": 13,
-          "previousRank": 11
+          "previousRank": 2
         }
       }
     },
@@ -86,12 +51,12 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/118/75/116/11875116_20250701165641_500.jpg?86da3088c776a346e926b1b4052f227c/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 10,
+          "rank": 6,
           "previousRank": 6
         },
         "genie": {
-          "rank": 30,
-          "previousRank": 18
+          "rank": 31,
+          "previousRank": 30
         },
         "vibe": {
           "rank": 13,
@@ -99,11 +64,11 @@
         },
         "bugs": {
           "rank": 11,
-          "previousRank": 12
+          "previousRank": 11
         },
         "flo": {
-          "rank": 14,
-          "previousRank": 14
+          "rank": 15,
+          "previousRank": 15
         },
         "youtube_music": {
           "rank": 8,
@@ -111,7 +76,42 @@
         },
         "spotify": {
           "rank": 9,
+          "previousRank": 9
+        }
+      }
+    },
+    {
+      "songName": "Pretty Girl",
+      "artistName": "RESCENE (리센느)",
+      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/137/88/545/13788545_20260707111659_500.jpg?3ef0f9e6af1ea09e3f919c7cb69065ed/melon/resize/144/optimize/90",
+      "ranks": {
+        "melon": {
+          "rank": 7,
           "previousRank": 7
+        },
+        "genie": {
+          "rank": 35,
+          "previousRank": 32
+        },
+        "vibe": {
+          "rank": 10,
+          "previousRank": 11
+        },
+        "bugs": {
+          "rank": 25,
+          "previousRank": 21
+        },
+        "flo": {
+          "rank": 32,
+          "previousRank": 23
+        },
+        "youtube_music": {
+          "rank": 6,
+          "previousRank": 6
+        },
+        "spotify": {
+          "rank": 10,
+          "previousRank": 13
         }
       }
     },
@@ -121,28 +121,24 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/115/75/849/11575849_20240826152240_500.jpg?da43be78cb2cc67e9ee423c739bc09b6/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 66,
-          "previousRank": 64
-        },
-        "genie": {
-          "rank": 94,
-          "previousRank": 88
+          "rank": 83,
+          "previousRank": 83
         },
         "bugs": {
-          "rank": 23,
-          "previousRank": 37
+          "rank": 26,
+          "previousRank": 23
         },
         "flo": {
-          "rank": 53,
-          "previousRank": 54
+          "rank": 61,
+          "previousRank": 60
         },
         "youtube_music": {
           "rank": 23,
           "previousRank": 30
         },
         "spotify": {
-          "rank": 32,
-          "previousRank": 28
+          "rank": 33,
+          "previousRank": 32
         }
       }
     },
@@ -152,12 +148,12 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/133/12/413/13312413_20260406143448_500.jpg?0d1b1aec895dbf60aa601748ddf64dd9/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 46,
-          "previousRank": 47
+          "rank": 59,
+          "previousRank": 59
         },
         "bugs": {
           "rank": 53,
-          "previousRank": 65
+          "previousRank": 53
         },
         "flo": {
           "rank": 90,
@@ -168,8 +164,8 @@
           "previousRank": 46
         },
         "spotify": {
-          "rank": 41,
-          "previousRank": 38
+          "rank": 40,
+          "previousRank": 41
         }
       }
     },
