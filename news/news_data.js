@@ -1,4 +1,4 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-18T15:37:34.054Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-18T20:20:38.108Z) */
 
 const NEWS_DATA = [
     {
@@ -22,7 +22,8 @@ const NEWS_DATA = [
         "source": "아시아경제",
         "date": "2026-10-18",
         "url": "https://www.asiae.co.kr/article/2026101811583686849",
-        "summary": ""
+        "summary": "롯데칠성음료가 11년 만에 재출시한 양주 '캪틴큐'의 복고풍 광고가 화제가 되고 있다.",
+        "image": "https://cphoto.asiae.co.kr/listimglink/1/2026101812071064565_1792292830.png"
     },
     {
         "title": "리센느, 역주행 덫 피했다..'PLUSE'로 열게 될 메인스트림 롱런 [Oh!쎈 레터②] - OSEN",
@@ -68,8 +69,7 @@ const NEWS_DATA = [
         "source": "아시아뉴스통신",
         "date": "2026-10-18",
         "url": "https://www.anewsa.com/detail.php?number=3208722",
-        "summary": "(사진출처=리센느 공식 인스타그램) [아시아뉴스통신=이상진 기자] 걸그룹 개인 브랜드평판 2026년 10월 빅데이터 분석결과, 1위 리센느 원이 2위 리센느 제나 3위 아이브 장원영 순으로 분석되었다.​한국기업평판연구소는 걸그룹 개인 브랜드평판 2026년 10월 빅데이터 분석을 위해 2",
-        "image": "https://www.anewsa.com/news_images/2026/08/21/mark/20260821114130.jpg"
+        "summary": ""
     },
     {
         "title": "리센느 만나고 10㎞ 38분 찍었다…'카카오프렌즈런' 직접 뛰어보니[페이스메이커] - 노컷뉴스",
@@ -127,14 +127,6 @@ const NEWS_DATA = [
         "image": "https://cdn.gukjenews.com/news/thumbnail/202610/3724485_3901428_2915_v150.jpg"
     },
     {
-        "title": "에이댑, 세븐틴 프로듀서·리센느 안무가와 협업 - BNT뉴스",
-        "source": "BNT뉴스",
-        "date": "2026-10-17",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202610170083",
-        "summary": "6인조 보이그룹 에이댑(ADAP)이 국내외 K-POP 아티스트들과 호흡을 맞춰온 프로듀서 및 퍼포먼스 제작진과 협업하며 11월 데뷔를 향한 기대감을 높이고 있",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/17/bnt202610170139.jpg"
-    },
-    {
         "title": "빅뱅부터 리센느까지? '2026 MAMA 어워즈'에는 누가 나올까 - 에스콰이어 코리아",
         "source": "에스콰이어 코리아",
         "date": "2026-10-17",
@@ -143,12 +135,12 @@ const NEWS_DATA = [
         "image": "https://www.esquirekorea.co.kr/resources/online/thumbnail/hf/2026/10/16/7d1b3e56-93b8-4553-aa7d-7c4c7b459d9f.jpg"
     },
     {
-        "title": "리센느 원이·제나, 걸그룹 개인 브랜드평판 '톱2'...장원영 3위 - 싱글리스트",
-        "source": "싱글리스트",
+        "title": "에이댑, 세븐틴 프로듀서·리센느 안무가와 협업 - BNT뉴스",
+        "source": "BNT뉴스",
         "date": "2026-10-17",
-        "url": "https://www.slist.kr/news/articleView.html?idxno=774264",
-        "summary": "리센느 원이와 제나가 걸그룹 개인 브랜드평판 10월 빅데이터 분석 결과, 나란히 1~2위를 차지했다. 아이브 장원영이 뒤를 이었다.​한국기업평판연구소는 걸그룹 개인 브랜드평판 10월 빅데이터 분석을 위해 9월 18일부터 10월 18일까지 걸그룹 개인 740명의 브랜드 빅데이터 131,3",
-        "image": "https://cdn.slist.kr/news/thumbnail/202610/774264_1184027_4441_v150.jpg"
+        "url": "https://www.bntnews.co.kr/article/view/bnt202610170083",
+        "summary": "6인조 보이그룹 에이댑(ADAP)이 국내외 K-POP 아티스트들과 호흡을 맞춰온 프로듀서 및 퍼포먼스 제작진과 협업하며 11월 데뷔를 향한 기대감을 높이고 있",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/17/bnt202610170139.jpg"
     },
     {
         "title": "리센느 원이, '100위 차트인' 바라던 때 지나…\"이젠 1등 하고 싶다\" - 스포츠조선",
@@ -157,6 +149,14 @@ const NEWS_DATA = [
         "url": "https://www.sportschosun.com/entertainment/2026-10-17/202610170100109510007112",
         "summary": "그룹 리센느 원이가 새 앨범을 앞두고 1위를 향한 포부를 밝혔다. 과거에는 자신들의 노래가 카페에서 흘러나오길 바랐다면, 이제는 \"1등 하고 싶다\"며 달라진 목표를 전했다.",
         "image": "https://www.sportschosun.com/article/html/2026/10/17/2026101701001095100071121_w.jpg"
+    },
+    {
+        "title": "리센느 원이·제나, 걸그룹 개인 브랜드평판 '톱2'...장원영 3위 - 싱글리스트",
+        "source": "싱글리스트",
+        "date": "2026-10-17",
+        "url": "https://www.slist.kr/news/articleView.html?idxno=774264",
+        "summary": "리센느 원이와 제나가 걸그룹 개인 브랜드평판 10월 빅데이터 분석 결과, 나란히 1~2위를 차지했다. 아이브 장원영이 뒤를 이었다.​한국기업평판연구소는 걸그룹 개인 브랜드평판 10월 빅데이터 분석을 위해 9월 18일부터 10월 18일까지 걸그룹 개인 740명의 브랜드 빅데이터 131,3",
+        "image": "https://cdn.slist.kr/news/thumbnail/202610/774264_1184027_4441_v150.jpg"
     },
     {
         "title": "역주행으로 뜬 리센느(RESCENE)에게 이번 컴백이 중요한 이유 - 뉴스1",
@@ -229,14 +229,6 @@ const NEWS_DATA = [
         "image": "https://cdn.hansannews.com/news/thumbnail/202610/107440_412665_1316_v150.jpg"
     },
     {
-        "title": "동아오츠카, '나랑드사이다 리센느 에디션' 3종 출시··· 리센느 이미지 패키지에 적용 - 한국NGO신문",
-        "source": "한국NGO신문",
-        "date": "2026-10-15",
-        "url": "https://www.ngonews.kr/news/articleView.html?idxno=240606",
-        "summary": "동아오츠카(대표이사 사장 박철호)와 걸그룹 리센느(RESCENE)가 만났다. 리센느는 2024년 3월에 데뷔한 더뮤즈엔터테인먼트 소속의 5인조 다국적 걸그룹으로",
-        "image": "https://cdn.ngonews.kr/news/photo/202610/240606_245511_2419.jpg"
-    },
-    {
         "title": "동아오츠카, ‘나랑드사이다 리센느 에디션’ 3종 선보여 - 인더스트리뉴스",
         "source": "인더스트리뉴스",
         "date": "2026-10-15",
@@ -245,19 +237,20 @@ const NEWS_DATA = [
         "image": "https://cdn.industrynews.co.kr/news/photo/202610/87602_108667_4455.jpg"
     },
     {
+        "title": "[오늘의신상]\"리센느가 사이다에\"… 동아오츠카, '나랑드사이다 리센느 에디션' - 아시아경제",
+        "source": "아시아경제",
+        "date": "2026-10-15",
+        "url": "https://www.asiae.co.kr/article/2026101508522014363",
+        "summary": "동아오츠카가 걸그룹 리센느(RESCENE)의 이미지를 패키지에 적용한 나랑드사이다 에디션을 선보인다.",
+        "image": "https://cphoto.asiae.co.kr/listimglink/1/2026101508520061392_1792021919.jpg"
+    },
+    {
         "title": "리센느 \"거제 야호\"…거제시 방문객·관광소비 '급증' - LG헬로비전",
         "source": "LG헬로비전",
         "date": "2026-10-15",
         "url": "http://news.lghellovision.net/news/articleView.html?idxno=558412",
         "summary": "그룹 리센느의 '거제야호' 밈이 거제시 관광객과 관광 소비 증가에 긍정적인 영향을 미친 것으로 나타났습니다.경남연구원 내 경남빅데이터가 유동인구와 카드 매출 자료 등을 분석한 결과, 올해 7월 말부터 8월 초까지 거제를 찾은 타지역의 10대와 20대 방문객은 지난해보다 6.6% 증가했습",
         "image": "https://cdn.news.lghellovision.net/news/thumbnail/202610/558412_198828_101_v150.jpg"
-    },
-    {
-        "title": "[오늘의신상]\"리센느가 사이다에\"… 동아오츠카, '나랑드사이다 리센느 에디션' - 아시아경제",
-        "source": "아시아경제",
-        "date": "2026-10-15",
-        "url": "https://www.asiae.co.kr/article/2026101508522014363",
-        "summary": ""
     },
     {
         "title": "리센느 무심코 쏘아 올린 한 마디에… 관광객 몰린 거제시 \"야호!\" - 조선일보",
@@ -284,36 +277,12 @@ const NEWS_DATA = [
         "image": "https://cdn.knnews.co.kr/edbthumbnail/2026/10/1552911_520_images.jpg"
     },
     {
-        "title": "동아오츠카, 리센느 이미지 담은 나랑드사이다 특별 에디션 출시 - 레디앙",
-        "source": "레디앙",
-        "date": "2026-10-15",
-        "url": "https://www.redian.org/news/articleView.html?idxno=257471",
-        "summary": "동아오츠카는 나랑드사이다의 브랜드 모델인 리센느의 이미지를 담은 ‘나랑드사이다 리센느 에디션’ 3종을 출시했다고 15일 밝혔다.지난 7월 리센느를 나랑드사이다의 새로운 브랜드 모델로 발탁한 동아오츠카는 8월 신규 광고를 공개한 이후 브랜드 인지도 제고를 위해 다양한 마케팅 활동을 전개",
-        "image": "https://cdn.redian.org/news/thumbnail/202610/257471_64185_5937_v150.jpg"
-    },
-    {
-        "title": "대세 '리센느' 앞세운 동아오츠카, 나랑드사이다 한정판 선봬 - ER 이코노믹리뷰",
-        "source": "ER 이코노믹리뷰",
-        "date": "2026-10-15",
-        "url": "https://www.econovill.com/news/articleView.html?idxno=753677",
-        "summary": "동아오츠카가 나랑드사이다 브랜드 모델이자 대세 걸그룹으로 각광 받는 리센느(RESCENE)와의 협업을 광고에서 제품 패키지로 확대하며 소비자 접점을 넓힌다.동아오츠카는 ‘나랑드사이다 리센느 에디션’ 3종을 출시했다고 15일 밝혔다.이번 에디션은 나랑드사이다 플레인, 파인애플, 그린애플 ",
-        "image": "https://cdn.econovill.com/news/thumbnail/202610/753677_730281_755_v150.jpg"
-    },
-    {
         "title": "로꼬, 리센느 미나미와 달콤한 사랑의 감정..오늘(15일) '타타' 발매 - 스타뉴스",
         "source": "스타뉴스",
         "date": "2026-10-15",
         "url": "https://www.starnewskorea.com/music/2026/10/15/2026101511495454618",
         "summary": "래퍼 로꼬(Loco)가 걸 그룹 리센느(RESCENE) 멤버 미나미와 입을 맞췄다. 로꼬는 15일 오후 6시 각종 온라인 음원 사이트를 통해 새 디지털 싱글 '타타 (Feat. 미나미 of RESCENE)'를 발매한다. '타타'는 사랑하는 사람이 아무리 멀리 있어도 언제든 날아갈 수 있",
         "image": "https://image.starnewskorea.com/21/2026/10/2026101511495454618_1.jpg"
-    },
-    {
-        "title": "동아오츠카, 리센느 협업 패키지 출시…나랑드사이다 매출 48% 증가 - S저널",
-        "source": "S저널",
-        "date": "2026-10-15",
-        "url": "https://www.s-journal.co.kr/news/articleView.html?idxno=44480",
-        "summary": "동아오츠카가 걸그룹 리센느(RESCENE)와의 협업을 확대하기 위해 리센느의 이미지를 제품 패키지에 적용한 ‘나랑드사이다 리센느 에디션’ 3종을 출시했다. 이번",
-        "image": "https://cdn.s-journal.co.kr/news/photo/202610/44480_55703_510.png"
     },
     {
         "title": "‘리센느 미나미 피처링’ 로꼬, 오늘 신곡 ‘타타’ 발매 - BNT뉴스",
@@ -324,13 +293,6 @@ const NEWS_DATA = [
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/15/bnt202610150197.jpg"
     },
     {
-        "title": "로꼬, 15일 신곡 '타타' 발매…리센느 미나미 피처링 - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-10-15",
-        "url": "https://www.news1.kr/entertain/music/6320768",
-        "summary": ""
-    },
-    {
         "title": "'거제야호' 리센느 \"24일 거제에서 만나요\" - 동행미디어 시대",
         "source": "동행미디어 시대",
         "date": "2026-10-15",
@@ -339,12 +301,11 @@ const NEWS_DATA = [
         "image": "https://menu.sidae.com/moneyweek/thumb/2026/10/15/00/2026101509525695635_1.jpg"
     },
     {
-        "title": "동아오츠카, 나랑드사이다 ‘리센느 에디션’ 3종 출시 - 업코리아",
-        "source": "업코리아",
+        "title": "로꼬, 15일 신곡 '타타' 발매…리센느 미나미 피처링 - 뉴스1",
+        "source": "뉴스1",
         "date": "2026-10-15",
-        "url": "https://www.upkoreanews.kr/news/articleView.html?idxno=100674",
-        "summary": "동아오츠카(대표이사 사장 박철호)는 걸그룹 리센느(RESCENE)의 이미지를 패키지에 적용한 ‘나랑드사이다 리센느 에디션’ 3종을 출시했다고 밝혔다.이번 에디션은",
-        "image": "https://cdn.upkoreanews.kr/news/photo/202610/100674_95176_1447.jpg"
+        "url": "https://www.news1.kr/entertain/music/6320768",
+        "summary": ""
     },
     {
         "title": "\"리센느 옷 입은 나랑드사이다\" 동아오츠카, 리센느 에디션 3종 출시 - 뉴시스",
@@ -353,22 +314,6 @@ const NEWS_DATA = [
         "url": "https://www.newsis.com/view/NISX20261015_0003826770",
         "summary": "[서울=뉴시스]김상윤 기자 = 동아오츠카가 걸그룹 리센느(RESCENE)와의 협업을 나랑드사이다 제품 패키지까지 확대한다고 15일 밝혔다.동아오츠카는 나랑드사이다 플레인과 파인애플, 그린애플 3종의 500㎖ 페트 제품에 리센느 이미지를 적용한 '나랑드사이다 리센느 에디션'을 출시했다.동",
         "image": "https://img1.newsis.com/2026/10/15/NISI20261015_0002263877_web.jpg"
-    },
-    {
-        "title": "동아오츠카 ‘나랑드사이다 리센느 에디션’ 3종 출시 - 비욘드포스트",
-        "source": "비욘드포스트",
-        "date": "2026-10-15",
-        "url": "https://www.beyondpost.co.kr/view.php?ud=20261015135047962018ef25b590_30",
-        "summary": "동아오츠카는 전속 모델인 걸그룹 리센느의 이미지를 라벨에 적용한 ‘나랑드사이다 리센느 에디션’ 3종을 출시했다고 15일 밝혔다.나랑드사이다의 플레인을 비롯해 과일 맛 라인업인 파인애플, 그린애플 등 3종의 500mL 페트병 전면에 리센느 멤버들의 모습을 담았다.지난 7월 신인 걸그룹 리",
-        "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=2026101513512905342018ef25b59022115510874.jpg&nmt=30"
-    },
-    {
-        "title": "나랑드사이다, 요즘 대세 '리센느 에디션' 선보여 - 노컷뉴스",
-        "source": "노컷뉴스",
-        "date": "2026-10-15",
-        "url": "https://www.nocutnews.co.kr/news/6591773",
-        "summary": "동아오츠카가 걸그룹 리센느(RESCENE)의 이미지를 패키지에 적용한 '나랑드사이다 리센느 에디션' 3종을 출시했다.",
-        "image": "https://file2.nocutnews.co.kr/newsroom/image/2026/10/15/202610150951298263_0.jpg"
     },
     {
         "title": "리센느 제쳤다…멜론 ‘3위’까지 찍은 노래, 뒤늦게 알려진 ‘가수 정체’에 술렁 - 위키트리",
@@ -387,36 +332,12 @@ const NEWS_DATA = [
         "image": "https://images.khan.co.kr/article/2026/10/15/news-p.v1.20261015.6313168e7cc144dba2800458bc0bc4d2_P1.jpg"
     },
     {
-        "title": "동아오츠카, '나랑드사이다 리센느 에디션' 선봬 - 아이뉴스24",
-        "source": "아이뉴스24",
-        "date": "2026-10-15",
-        "url": "http://www.inews24.com/view/2015181",
-        "summary": "500㎖ 페트 3종에 멤버 이미지 적용 동아오츠카는 걸그룹 리센느의 이미지를 제품 포장에 적용한 '나랑드사이다 리센느 에디션' 3종을 선보인다고 15일 밝혔다. 이번 제품은 나랑드사이다 플레인, 파인애플, 그린애플 등 500㎖ 페트 제품 3종에 리센느의 이미지를 적용한 특별판이다. 동네",
-        "image": "https://image.inews24.com/v1/d9a4c9eab354f4.jpg"
-    },
-    {
-        "title": "동아오츠카, '나랑드사이다 리센느 에디션' 3종 선봬…'리센느' 이미지 패키지에 적용 - 핀포인트뉴스",
-        "source": "핀포인트뉴스",
-        "date": "2026-10-15",
-        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=495703",
-        "summary": "음료 브랜드와 아티스트의 협업이 광고를 넘어 제품 패키지로 이어지고 있다.동아오츠카는 걸그룹 리센느(RESCENE)의 이미지를 적용한 ‘나랑드사이다 리센느 에디션’ 3종을 출시했다고 15일 밝혔다.사측에 따르면 이번 에디션은 나랑드사이다 플레인과 파인애플, 그린애플 등 3가지 맛의 50",
-        "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/495703_481236_1222_v150.jpg"
-    },
-    {
         "title": "로꼬, 리센느 미나미와 신곡 발표…사랑 감정 그렸다 - 매일경제",
         "source": "매일경제",
         "date": "2026-10-15",
         "url": "https://www.mk.co.kr/news/musics/12176458",
         "summary": "",
         "image": "https://pimg.mk.co.kr/news/cms/202610/15/news-p.v1.20261015.e6bb0e14b3044bf5a3c7e4456c8046fd_R.jpg"
-    },
-    {
-        "title": "동아오츠카, 리센느 이미지 입힌 나랑드사이다 3종 패키지 운영 - 로이슈",
-        "source": "로이슈",
-        "date": "2026-10-15",
-        "url": "https://www.lawissue.co.kr/view.php?ud=202610151457309547204ead0791_12",
-        "summary": "동아오츠카가 걸그룹 리센느를 앞세운 나랑드사이다 패키지 3종을 운영한다고 밝혔다.이번 패키지는 500mL 페트 제품을 기준으로 플레인과 파인애플, 그린애플 세 가지 맛에 리센느 이미지를 적용한 구성이다. 동아오츠카는 지난 7월 리센느를 브랜드 모델로 발탁한 뒤 광고 활동을 벌여왔고, 이",
-        "image": "https://cliimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20261015145752089260204ead079118023320059.jpg&nmt=12"
     },
     {
         "title": "[N포커스] '역주행 신화' 리센느, 새 미니 'PULSE'로 밀리언셀러 고지 밟을까 - 뉴스컬처",
@@ -443,14 +364,6 @@ const NEWS_DATA = [
         "image": "https://file.nspna.com/news/2026/10/15/20261015090734_831712_2.jpg"
     },
     {
-        "title": "러닝족 잡고 리센느 효과까지 누렸다···동아오츠카 '포카리·나랑드' 질주 - 뉴스웨이",
-        "source": "뉴스웨이",
-        "date": "2026-10-15",
-        "url": "https://www.newsway.co.kr/news/view?ud=2026101511560496716",
-        "summary": "동아오츠카의 포카리스웨트가 러닝 열풍과 스포츠 마케팅의 힘을 받으며 매출이 2021년 대비 66.6% 증가하며 회사 전체 매출의 약 60%를 차지하게 되었다. 나랑드사이다는 걸그룹 리센느를 모델로 발탁 후 매출이 48% 증가해 새로운 성장 동력으로 부상하고 있다. 동아오츠카는 늘어나는 ",
-        "image": "https://nimage.newsway.co.kr/photo/2026/10/15/20261015004205_1200.png"
-    },
-    {
         "title": "KBS2 ‘해피투게더’ 리센느 미나미, 최애팀 ‘거북이처럼’ 등장에 환호성! 찐팬 모드 ON! - 뉴스인스타",
         "source": "뉴스인스타",
         "date": "2026-10-15",
@@ -467,6 +380,14 @@ const NEWS_DATA = [
         "image": "https://cdn.ggilbo.com/news/photo/202610/1186268_1038937_2029.jpg"
     },
     {
+        "title": "로꼬, 오늘 신곡 ‘타타’ 발매…리센느 미나미 피처링 지원사격 - 뉴스파이어",
+        "source": "뉴스파이어",
+        "date": "2026-10-15",
+        "url": "https://www.newsfire.co.kr/news/articleView.html?idxno=1497767",
+        "summary": "[뉴스파이어] 래퍼 로꼬가 로꼬표 사랑 노래로 돌아온다.로꼬는 15일 오후 6시 각종 온라인 음원 사이트를 통해 새 디지털 싱글 ‘타타’를 발매한다.‘타타’는 사랑하는 사람이 아무리 멀리 있어도 언제든 날아갈 수 있다는 마음을 담은 곡이다.로꼬는 특유의 솔직하고 담백한 표현으로 사랑의 ",
+        "image": "https://cdn.newsfire.co.kr/news/thumbnail/202610/1497767_1575698_1040_v150.jpg"
+    },
+    {
         "title": "동아오츠카, ‘나랑드사이다 리센느 에디션’ 3종 출시 - 조선비즈 - Chosunbiz",
         "source": "Chosunbiz",
         "date": "2026-10-14",
@@ -475,12 +396,35 @@ const NEWS_DATA = [
         "image": "https://biz.chosun.com/resizer/v2/6D5SPPJDJZAN7JNSWM3IN7TIG4.jpg?auth=5cb5c2683df53c7c2e0d9e716d1cef778badab22aefa3ebfbb24b95357e6450b&width=1200&height=630&smart=true"
     },
     {
+        "title": "한화오션 10월 오션하모니에 리센느 출연 - 거제신문",
+        "source": "거제신문",
+        "date": "2026-10-14",
+        "url": "https://www.geojenews.co.kr/news/articleView.html?idxno=97144",
+        "summary": "거제시 홍보대사이자 연예인 첫 거제 명예시민인 걸그룹 리센느(RESCENE)가 오는 24일 거제에서 무료 공연을 한다.한화오션은 24일(토) 오후 7시 한화오션 오션플라자 사외주차장에서 '거제 야호-! 리센느와 함께하는 오션하모니'를 연다고 밝혔다. 오션하모니는 한화오션이 지난해 5월부",
+        "image": "https://cdn.geojenews.co.kr/news/thumbnail/202610/97144_93292_3214_v150.jpg"
+    },
+    {
         "title": "'거제야호' 리센느 효과로 거제시 방문객·관광 소비 증가 - 연합뉴스",
         "source": "연합뉴스",
         "date": "2026-10-14",
         "url": "https://www.yna.co.kr/view/AKR20261014164000052",
         "summary": "(거제=연합뉴스) 정종호 기자 = 경남 거제시는 그룹 리센느와 '거제야호' 밈(Meme·온라인 유행 콘텐츠)이 지역 방문객과 관광 소비 증가, ...",
         "image": "https://img8.yna.co.kr/etc/inner/KR/2026/10/14/AKR20261014164000052_01_i_P4.jpg"
+    },
+    {
+        "title": "동아오츠카, 나랑드사이다 ‘리센느 에디션’ 3종 출시 - 대한경제",
+        "source": "대한경제",
+        "date": "2026-10-14",
+        "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610150855337420648",
+        "summary": "",
+        "image": "https://image.dnews.co.kr/photo/photo/2026/10/15/202610150855337420648-2-697556.jpg"
+    },
+    {
+        "title": "g studio·플로르키즈, 리센느와 KiiiKiii 음악 담은 키즈 댄스필름 공개 - 에너지경제신문",
+        "source": "에너지경제신문",
+        "date": "2026-10-14",
+        "url": "https://m.ekn.kr/view.php?key=20261014020106262",
+        "summary": ""
     },
     {
         "title": "한화오션-거제 야호, '리센느' 24일 거제 공연 - 거제통영오늘신문",
@@ -498,6 +442,14 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
+        "title": "[인물파일] 윤성원 솔파스튜디오 대표, 리센느를 1위로 올린 유튜브 PD - 수원일보",
+        "source": "수원일보",
+        "date": "2026-10-14",
+        "url": "https://www.suwonilbo.kr/view.html?id=L26101311082821b8",
+        "summary": "\"구독자 0명이라고 생각하면 돼요\"…떨어진 기획안으로 230만 채널과 멜론 1위를 만든 사람",
+        "image": "https://www.suwonilbo.kr/img/write/p834b54d03022a93920e2b664e3522c3eac900ff9.jpg"
+    },
+    {
         "title": "리센느 ‘거제야호’, 관광 관심으로…여름철 외지 10·20대 방문객 6.6% 증가 - 거제타임즈",
         "source": "거제타임즈",
         "date": "2026-10-14",
@@ -513,12 +465,44 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
+        "title": "리센느 '거제야호' 확산에 거제 10·20대 방문·소비 증가 - 새거제신문",
+        "source": "새거제신문",
+        "date": "2026-10-14",
+        "url": "https://www.saegeoje.com/news/articleView.html?idxno=309645",
+        "summary": "걸그룹 리센느(RESCENE)의 거제 배경 콘텐츠에서 나온 '거제야호'가 온라인 관심을 지역 관광 현장의 변화로 연결하며 거제 도시브랜드에 영향을 미친 것으로 나",
+        "image": "https://cdn.saegeoje.com/news/photo/202610/309645_71685_3435.jpg"
+    },
+    {
+        "title": "거제시, '리센느 효과' 지역 방문객 급증 - 경남매일",
+        "source": "경남매일",
+        "date": "2026-10-14",
+        "url": "https://www.gnmaeil.com/news/articleView.html?idxno=596551",
+        "summary": "그룹 리센느와 '거제야호' 밈(Meme·온라인 유행 콘텐츠)이 거제시 지역 방문객과 관광 소비를 증가시키고 있다.거제시에 따르면 경남연구원 내 경남빅데이터가 SKT 유동 유입인구 자료와 NH농협카드 매출 데이터 등을 분석한 결과 '거제야호' 밈이 화제가 되던 시점과 리센느가 시 홍보대사",
+        "image": "http://www.gnmaeil.com/news/thumbnail/202610/596551_598391_4631_v150.jpg"
+    },
+    {
         "title": "리센느 미나미, ‘해투’ 최애 팀 무대에 환호…눈물 부른 순간도 있었다 - 톱스타뉴스",
         "source": "톱스타뉴스",
         "date": "2026-10-14",
         "url": "https://www.topstarnews.net/news/articleView.html?idxno=16247566",
         "summary": "KBS 예능 ‘해피투게더 - 혼자가 아니어서 좋아’가 16일 최종회를 맞아 한강 파이널 2부를 공개한다. 리센느 미나미는 최애 팀 ‘거북이처럼’ 무대에 환호하며 찐팬 모습을 보여주고, 포레스텔라 강형호는 이 팀의 무대 후 눈물을 흘렸다고 전해졌다. 도레미·썸데이 등 최종 6팀이 치열한 ",
         "image": "https://cdn.topstarnews.net/news/photo/202610/16247566_2055563_2314_crop.jpg"
+    },
+    {
+        "title": "리센느(RESCENE) 'PULSE' 스케줄 공개…심장박동 소리에 팬들 '두근두근' - CBC뉴스",
+        "source": "CBC뉴스",
+        "date": "2026-10-14",
+        "url": "https://www.cbci.co.kr/news/articleView.html?idxno=615485",
+        "summary": "[CBC뉴스] 걸그룹 리센느(RESCENE)의 컴백을 향한 팬들의 기대감이 높아지고 있다. 새 앨범 'PULSE'(펄스)의 스케줄러가 공개되면서 팬들 사이에서는 설렘과 응원의 목소리가 이어지고 있다. 특히 심장박동 소리를 활용한 콘텐츠가 팬들의 감성을 자극하며 컴백 분위기를 끌어올리고 ",
+        "image": "https://www.cbci.co.kr/news/thumbnail/202610/615485_422850_294_v150.jpg"
+    },
+    {
+        "title": "리센느 '거제 야호'에…거제시 방문객·관광소비↑ - 이데일리",
+        "source": "이데일리",
+        "date": "2026-10-14",
+        "url": "https://www.edaily.co.kr/News/Read?newsId=05005286645612920&mediaCodeNo=257",
+        "summary": "그룹 리센느와 ‘거제야호’ 밈(Meme)이 거제 방문객과 관광 소비에 긍정적인 영향을 끼친 것으로 나타났다. 거제시 홍보대사로 위촉된 그룹 리센느. (사진=연합뉴스)거제시 등에 따르면 경남연구원 내 경남빅데이터가 SKT 유동 유입인구 자료와 NH농협카드 매출 데이...",
+        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/10/PS26101401369.jpg"
     },
     {
         "title": "“좋아하면 그냥 해!”…도미노피자, ‘리센느’와 신규 브랜드 캠페인 - 문화일보",
@@ -545,14 +529,6 @@ const NEWS_DATA = [
         "image": "https://img6.yna.co.kr/mpic/YH/2026/10/14/MYH20261014002800038_P1.jpg"
     },
     {
-        "title": "\"사탕에서 리센느 노래 나온다\"…K팝 무대 된 CU - 머니투데이 - 머니투데이",
-        "source": "머니투데이",
-        "date": "2026-10-13",
-        "url": "https://www.mt.co.kr/living/2026/10/13/2026101310034597526",
-        "summary": "CU가 음악을 들을 수 있는 이색 사탕 등 K팝을 활용한 차별화 상품을 확대한다. CU는 사탕을 입에 물면 음악이 들리는 이색 상품 '노래캔디' 3탄을 14일 출시한다. 이번 상품에는 리센느의 'Runaway', 츄의 'XO, My Cyberlove', 이븐의 '뱉어' 등 K팝 아이돌의",
-        "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=986,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026101310034597526_1.jpg"
-    },
-    {
         "title": "[단독] 리센느, 신곡 뮤직비디오 촬영 완료…컴백 초읽기 - 한국경제",
         "source": "한국경제",
         "date": "2026-10-13",
@@ -569,20 +545,20 @@ const NEWS_DATA = [
         "image": "https://image.starnewskorea.com/21/2026/10/2026101406544926306_1.jpg"
     },
     {
+        "title": "\"사탕에서 리센느 노래 나온다\"…K팝 무대 된 CU - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "date": "2026-10-13",
+        "url": "https://www.mt.co.kr/living/2026/10/13/2026101310034597526",
+        "summary": "CU가 음악을 들을 수 있는 이색 사탕 등 K팝을 활용한 차별화 상품을 확대한다. CU는 사탕을 입에 물면 음악이 들리는 이색 상품 '노래캔디' 3탄을 14일 출시한다. 이번 상품에는 리센느의 'Runaway', 츄의 'XO, My Cyberlove', 이븐의 '뱉어' 등 K팝 아이돌의",
+        "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=986,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026101310034597526_1.jpg"
+    },
+    {
         "title": "‘안원잘부’가 쏘아 올린 공…리센느, 미니 4집 ‘펄스’ 카운트다운 - 스포츠동아",
         "source": "스포츠동아",
         "date": "2026-10-13",
         "url": "https://sports.donga.com/ent/article/all/20261013/134830629/1",
         "summary": "[스포츠동아 곽현수 기자] 웃음에 이끌려 들어왔다가 매력에 빠졌고, 이내 음악에 눌러앉았다. 걸그룹 리센느가 올해 이뤄낸 가파른 성장의 비결이다. 무대 밖 멤버들의 무해하고 솔직한 모습에 미소 짓던 대중은 대표곡 ‘러브어택’을 음원 차트 정상에 올려놓았고, 이들의 다…",
         "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/13/134793173.1.jpg"
-    },
-    {
-        "title": "동아오츠카, 걸그룹 리센느 패키지 ‘나랑드사이다’ 선봬 - 열린뉴스통신",
-        "source": "열린뉴스통신",
-        "date": "2026-10-13",
-        "url": "https://www.onews.tv/news/articleView.html?idxno=289199",
-        "summary": "(서울=열린뉴스통신) 박소연 기자 = 나랑드사이다가 대세 걸그룹 리센느(RESCENE)의 상큼한 매력을 새로 입었다. 동아오츠카(대표이사 사장 박철호)는 걸그룹 리센느의 비주얼을 제품 패키지에 담아낸 ‘나랑드사이다 리센느 에디션’ 3종을 새로 선보였다고 15일 밝혔다.이번 에디션은 나랑",
-        "image": "https://cdn.onews.tv/news/thumbnail/202610/289199_350248_1516_v150.jpg"
     },
     {
         "title": "리센느, 신보 ‘펄스’ 스케줄러 공개…컴백 카운트다운 - JTBC",
@@ -641,12 +617,20 @@ const NEWS_DATA = [
         "image": "https://img.etnews.com/news/article/2026/10/12/news-p.v1.20261012.22468ea0964942c180909cb6c54442e1_P2.jpg"
     },
     {
-        "title": "도미노피자, 걸그룹 리센느와 “하고 싶은 거 다 하자”… 브랜드 캠페인 전개 - 브릿지경제",
-        "source": "브릿지경제",
+        "title": "\"카카오 야호~\"…리센느도 함께한 '카카오프렌즈 런 2026' 성료 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
         "date": "2026-10-12",
-        "url": "https://www.viva100.com/article/20261012500204",
-        "summary": "도미노피자가 걸그룹 리센느(RESCENE)와 손잡고 젊은 소비자층을 겨냥한 신규 브랜드 캠페인을 선보인다. 도미노피자는 전속 모델인 리센느와 함께 ‘우리, 하고 싶은 거 다 하고 살자!’를 주제로 한 신규 브랜드 캠페인을 공개했다고 밝혔다. 지난 7월 ‘무진장 슈림프",
-        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/12/.cache/512/20261012500195.jpg?v=20261019003728"
+        "url": "https://www.mt.co.kr/tech/2026/10/12/2026101215230730212",
+        "summary": "카카오프렌즈와 함께 달리는 도심 속 러닝 축제 '카카오프렌즈 런'이 성황리에 종료됐다. 이번 행사는 기록 경쟁보다는 카카오프렌즈 캐릭터들과 함께 달리는 '펀런(Fun-Run)'을 모토로 기획됐다.",
+        "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/10/2026101215230730212_1.jpg"
+    },
+    {
+        "title": "\"하고 싶은 거 다 하고 살자\"…도미노피자, '리센느'와 신규 광고 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "date": "2026-10-12",
+        "url": "https://www.mt.co.kr/living/2026/10/12/2026101208525329438",
+        "summary": "도미노피자가 브랜드 전속 모델 걸그룹 리센느와 함께한 신규 브랜드 캠페인을 공개했다고 12일 밝혔다. 도미노(DOMINO)의 앞글자 'DO'를 활용해 '하고 싶은 거 다 하고 살자'라는 메시지를 담아 Z세대 공략에 나선다.",
+        "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=1800,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026101208525329438_1.jpg"
     },
     {
         "title": "“러브 어택” 리센느 등장에 ‘2026 고스트 페스티벌’ 무대 열광 - 경기일보",
@@ -654,7 +638,7 @@ const NEWS_DATA = [
         "date": "2026-10-11",
         "url": "https://www.kyeonggi.com/article/20261011580297",
         "summary": "‘중소돌의 기적’ 대세 걸그룹 리센느(원이, 미나미, 리브, 메이, 제나)가 파주 임진각 평화누리공원에서 펼쳐진 ‘2026 고스트(GHOST·경기 한류 OST) 페스티벌’ 마지막날인 11일 평화로운 가을날에 화려한 무대로 관객을 열광시켰다. 경기관광공사가 주최하고 경기",
-        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/11/.cache/512/20261011580299.jpg?v=20261019003728"
+        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/11/.cache/512/20261011580299.jpg?v=20261019052033"
     },
     {
         "title": "‘대세’ 리센느, 지상파 뉴스 진출 \"음악의 힘 컸다\" - JTBC",
@@ -671,6 +655,14 @@ const NEWS_DATA = [
         "url": "https://news.jtbc.co.kr/article/NB12322425",
         "summary": "‘대세’로 떠오른 그룹 리센느가 뉴스에 진출했다. 11일 SBS ‘8 뉴스’에는 그룹 리센느가 스튜디오에 초대돼 다양한 이야기를 나누는 모습이...",
         "image": "https://photo.jtbc.co.kr/news/jam_photo/202610/11/a0e408dd-7e69-444c-848a-1f67d0414e83.jpg"
+    },
+    {
+        "title": "리센느 보려고 300명 넘게 밤샘?…대전 동구동락축제 현장 보니 - 국제뉴스",
+        "source": "국제뉴스",
+        "date": "2026-10-10",
+        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3717450",
+        "summary": "대전 원도심 축제장에 때아닌 긴 줄이 늘어섰다. 그룹 리센느를 보기 위해 350명이 넘는 시민이 현장에서 대기하는 진풍경이 벌어졌다.대전 동구가 9일부터 11일까지 사흘간 소제동 동광장로와 대동천 일원에서 여는 ‘2026 대전 동구동락축제'에는 첫날 존박과 HYNN, 싸이버거가 무대에 ",
+        "image": "https://cdn.gukjenews.com/news/thumbnail/202610/3717450_3893188_024_v150.jpg"
     },
     {
         "title": "리센느, 부캉이, 김민의 공통점 - Vogue korea",
@@ -718,7 +710,7 @@ const NEWS_DATA = [
         "date": "2026-10-04",
         "url": "https://www.kyeonggi.com/article/20261004580029",
         "summary": "편의점에서 아이돌 포토카드와 유명 디저트를 앞세운 협업 상품이 잇따라 흥행하고 있다. 4일 유통업계에 따르면 BGF리테일이 운영하는 CU의 ‘리센느 빵’ 5종은 1일 기준 약 60만개가 판매됐다. CU는 지난달 17일 ‘원이의 옥수수 크림빵’을 시작으로 같은 달 30일",
-        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/04/.cache/512/20261004580030.jpg?v=20261019003730"
+        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/04/.cache/512/20261004580030.jpg?v=20261019052034"
     },
     {
         "title": "’리센느 생일 선물 공지’ 어땠길래…“조공 유도“·“단순 안내“ - 연합뉴스TV",
@@ -751,6 +743,14 @@ const NEWS_DATA = [
         "url": "https://www.mt.co.kr/entertainment/2026/09/26/2026092609255850870",
         "summary": "그룹 리센느 메이가 대학 축제 무대 도중 의상 사고를 겪었으나 의연하게 대처했다. 최근 각종 온라인 커뮤니티와 인스타그램 등 SNS(소셜미디어)에서는 리센느의 대학 축제 영상이 확산했다.",
         "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=1259,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/09/2026092609255850870_1.jpg"
+    },
+    {
+        "title": "“거제야호·신라공주 떴다”…리센느의 특별한 ‘지역사랑’, 4개 지자체 품었다 - 세계일보",
+        "source": "세계일보",
+        "date": "2026-09-26",
+        "url": "https://www.segye.com/newsView/20260922514723",
+        "summary": "‘거제야호’, ‘신라공주’ 등 유독 지역과의 연관성이 돋보이는 유행어와 별명으로 눈길을 끄는 걸그룹이 있다. 그 주인공은 바로 아이돌 그룹 리센느다. 케이팝이 전 세계로 영역을 확장해 나가는 상황에서 자신의 고향에 대한 애정을 숨기지 않으며 무려 4개의 지자체 홍보대사로 활약 중인 리센",
+        "image": "https://www.segye.com/content/image/2026/09/22/20260922514731.jpg"
     },
     {
         "title": "박찬욱 “한 폭의 그림” 극찬…리센느도 콕 집은 이 대학 - 중앙일보",
