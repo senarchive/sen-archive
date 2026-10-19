@@ -304,3 +304,38 @@ html[data-theme="light"] .landing-logo { filter: brightness(0); opacity: 0.85; }
 .sh-card-sub { font-family: var(--font-num); font-size: 11px; color: var(--text-muted); margin-top: 5px; }
 
 .sh-empty { width: 100%; padding: 40px 0; text-align: center; color: var(--text-muted); font-family: var(--font-body); font-size: 13px; line-height: 1.7; }
+
+
+/* ── 왼쪽 접이식 사이드 헤더 (데스크톱) ── */
+.sn-toggle { display: none; }
+.sn-ic { display: none; }
+@media (min-width: 769px) {
+    body { --sn-w: 232px; }
+    body.sn-collapsed { --sn-w: 64px; }
+    body.has-sn { padding-left: var(--sn-w); transition: padding-left 0.28s ease; }
+    .top-nav {
+        top: 0; left: 0; bottom: 0; width: var(--sn-w); height: 100vh; height: 100dvh;
+        display: flex; flex-direction: column; align-items: stretch; gap: 8px;
+        padding: 8px 10px 14px; border-bottom: 0; border-right: 1px solid var(--text-primary);
+        overflow-x: hidden; overflow-y: auto; transition: width 0.28s ease, background 0.4s ease;
+    }
+    .nav-left { grid-column: auto; flex-wrap: wrap; gap: 6px; }
+    .sn-toggle { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; flex: 0 0 44px; background: transparent; border: 0; border-radius: 6px; color: var(--text-primary); cursor: pointer; }
+    .sn-toggle:hover { background: var(--bg-surface-hover); color: var(--c-accent); }
+    .sn-toggle:focus-visible { outline: 2px solid var(--c-accent); outline-offset: -2px; }
+    .nav-home-btn { display: none !important; }
+    .nav-vol { order: 5; flex: 1 0 100%; margin: 6px 0 0 6px; }
+    .desktop-menu { grid-column: auto; flex-direction: column; align-items: stretch; gap: 4px; margin: 10px 0 0; }
+    .desktop-menu a { display: flex; align-items: center; gap: 14px; min-height: 44px; padding: 0 12px; border-radius: 8px; font-size: 13px; }
+    .desktop-menu a::after { display: none; }
+    .desktop-menu a:hover { background: var(--bg-surface-hover); }
+    .desktop-menu a.active-nav { background: var(--c-accent); color: #fff; }
+    .sn-ic { display: block; flex: 0 0 20px; }
+    .nav-right { grid-column: auto; flex-direction: column; align-items: stretch; justify-content: flex-start; gap: 6px; margin-top: auto; padding-top: 14px; }
+    .nav-right .nav-divider { display: none; }
+    .nav-right .theme-toggle-btn, .nav-right .cal-icon-btn, .nav-left .cal-icon-btn { width: 44px; height: 44px; }
+    .lang-globe-wrap { position: relative; }
+    .lang-accordion { top: auto !important; bottom: 100%; left: 0; right: auto; }
+    body.sn-collapsed .sn-lb, body.sn-collapsed .nav-vol { display: none; }
+    body.sn-collapsed .desktop-menu a { justify-content: center; padding: 0; }
+}

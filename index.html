@@ -44,24 +44,32 @@
     <script>renderSiteNav('home', '', { calendar: true, lang: true });</script>
 
     <div id="mainWrapper">
-        <div class="video-container duo-hero" id="homeHero">
-            <video id="bgVideo" src="video/member.mp4" autoplay loop muted playsinline class="bg-video"></video>
-            <img id="bgImage" src="" class="bg-video" style="display:none; opacity:0;" alt="background">
-            <div class="duo-shade"></div>
-            <div class="duo-inner">
-                <img src="images/logo.png" alt="RESCENE" class="duo-logo" onerror="this.style.display='none'">
-                <div class="duo-dday d-day" id="dDayText">D+000</div>
-                <div class="duo-meta">
-                    <div class="duo-time time-flow" id="timeFlowText">00:00:00</div>
-                    <span class="duo-debut">DEBUT 2024.03.26</span>
-                    <div class="duo-links">
-                        <a href="member/member.html" class="duo-btn duo-btn-primary" data-i18n="navMembers">MEMBERS</a>
-                        <a href="media/media.html" class="duo-btn" data-i18n="navMedia">영상 모음</a>
+        <section class="ph-hero" id="homeHero">
+            <div class="ph-phone">
+                <div class="ph-screen">
+                    <video id="bgVideo" src="video/member.mp4" autoplay loop muted playsinline class="bg-video"></video>
+                    <img id="bgImage" src="" class="bg-video" style="display:none; opacity:0;" alt="background">
+                    <div class="ph-notch" aria-hidden="true"></div>
+                    <div class="ph-overlay">
+                        <img src="images/logo.png" alt="RESCENE" class="ph-logo" onerror="this.style.display='none'">
+                        <div class="ph-dday d-day" id="dDayText">D+000</div>
+                        <div class="ph-time time-flow" id="timeFlowText">00:00:00</div>
+                        <span class="ph-debut">DEBUT 2024.03.26</span>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="slice-row duo-members" id="heroSlices" role="list" aria-label="MEMBERS"></div>
+            <div class="ph-side">
+                <p class="ph-kicker">RESCENE ARCHIVE</p>
+                <h1 class="ph-title">오늘의 리센느</h1>
+                <div class="ph-members" id="heroSlices" role="list" aria-label="MEMBERS"></div>
+                <h2 class="ph-sub">다가오는 일정</h2>
+                <ul class="ph-next" id="heroNext"></ul>
+                <div class="ph-links">
+                    <a href="member/member.html" class="ph-btn ph-btn-primary" data-i18n="navMembers">MEMBERS</a>
+                    <a href="media/media.html" class="ph-btn" data-i18n="navMedia">영상 모음</a>
+                </div>
+            </div>
+        </section>
 
         <!-- [임시 비활성화] WITH RESCENE
         <div id="historySection" class="slow-reveal history-link" role="button" tabindex="0" onclick="playWithRescene()" onkeydown="if(event.key==='Enter')playWithRescene()" aria-label="위드 리센스 — 함께 걸어온 길 보기">
