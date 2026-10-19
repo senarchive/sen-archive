@@ -141,11 +141,14 @@ async function fetchMnetMonth(year, month) {
 function monthKey(y, m) { return `${y}-${String(m).padStart(2, '0')}`; }
 function nextMonth(y, m) { return m === 12 ? [y + 1, 1] : [y, m + 1]; }
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+// 러너(UTC)에 상관없이 한국 시간(KST) 기준 "지금"을 돌려준다 (getUTC* / toISOString 으로 읽을 것)
+function kstNow() { return new Date(Date.now() + 9 * 60 * 60 * 1000); }
 
 // mnetBackfill: { "2024-01": true, "2024-02": true, ... } 이미 채운 달 기록
+// 반환: { events, failedMonths } — failedMonths 는 조회에 실패한 달("YYYY-MM") 집합
 async function fetchMnetEvents(mnetBackfill) {
-    const today = new Date();
-    const curY = today.getFullYear(), curM = today.getMonth() + 1;
+    const today = kstNow();
+    const curY = today.getUTCFullYear(), curM = today.getUTCMonth() + 1;
     const [nextY, nextM] = nextMonth(curY, curM);
 
     // 이번 달 · 다음 달은 항상 다시 가져와 최신 정보로 갱신
@@ -165,15 +168,17 @@ async function fetchMnetEvents(mnetBackfill) {
     });
 
     let allEvents = [];
+    const failedMonths = new Set();
     for (const [yy, mm] of monthsToFetch) {
         const key = monthKey(yy, mm);
         const { ok, events } = await fetchMnetMonth(yy, mm);
         allEvents = allEvents.concat(events);
         // 성공한 달만 "완료"로 표시 (실패한 달은 다음 실행에서 재시도)
         if (ok) mnetBackfill[key] = true;
+        else failedMonths.add(key);
         await sleep(250); // API 과호출 방지
     }
-    return allEvents;
+    return { events: allEvents, failedMonths };
 }
 async function main() {
     let existingEvents = [];
@@ -186,18 +191,30 @@ async function main() {
             mnetBackfill = existingJson.mnetBackfill;
         }
     } catch (e) {
+        // 파일이 아직 없는 경우(첫 실행)만 빈 상태로 시작한다.
+        // 파일이 깨졌거나 읽기 실패라면 빈 데이터로 덮어쓰지 않도록 여기서 중단한다.
+        if (e.code !== 'ENOENT') {
+            throw new Error(`기존 ${FILE_PATH} 를 읽지 못해 중단합니다 (덮어쓰기 방지): ${e.message}`);
+        }
     }
 
     const secretEvents = await fetchSecretSourceEvents();
-    const mnetEvents = await fetchMnetEvents(mnetBackfill);
+    const { events: mnetEvents, failedMonths } = await fetchMnetEvents(mnetBackfill);
     const fetchedEvents = secretEvents.concat(mnetEvents);
 
-    const todayKey = new Date().toISOString().slice(0, 10); 
+    const todayKey = kstNow().toISOString().slice(0, 10); // KST 기준 오늘
     const SCRAPER_OWNED_SOURCE = 'mnetplus';
     const pastEvents = existingEvents.filter(ev => {
         if (ev.source !== SCRAPER_OWNED_SOURCE) return true;
-        return ev.date && ev.date < todayKey; 
+        if (!ev.date) return false;
+        if (ev.date < todayKey) return true;
+        // 오늘 이후 일정은 이번에 새로 가져온 값으로 교체하는 게 원칙이지만,
+        // 해당 달 조회가 실패했다면 기존 일정을 그대로 유지한다 (일시적 API 오류로 일정이 사라지는 것 방지)
+        return failedMonths.has(ev.date.slice(0, 7));
     });
+    if (failedMonths.size) {
+        console.warn(`⚠️ 조회 실패한 달: ${[...failedMonths].join(', ')} — 기존 예정 일정을 유지했습니다.`);
+    }
 
     const seen = new Set(pastEvents.map(ev => `${ev.date}__${ev.title}`));
     const mergedNew = [];
