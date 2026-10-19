@@ -20,14 +20,29 @@ function renderSiteNav(activeKey, root, opts) {
         { key: 'media', label: tr('navMedia') || '영상 모음', href: root + 'media/media.html' },
     ];
 
-    function linkHtml(link, extraClass) {
+    const NAV_ICONS = {
+        home: 'M3 11l9-8 9 8M5 10v10h14V10',
+        members: 'M16 8a4 4 0 1 0-8 0 4 4 0 0 0 8 0M4 21a8 8 0 0 1 16 0',
+        charts: 'M4 20V10M10 20V4M16 20v-8M22 20H2',
+        schedule: 'M4 6h16v14H4zM4 10h16M8 3v4M16 3v4',
+        news: 'M5 4h14v16H5zM9 8h6M9 12h6M9 16h4',
+        fanchant: 'M4 14v-4l10-5v14zM14 9c3 1 3 5 0 6',
+        media: 'M5 4l14 8-14 8z'
+    };
+    function sideIcon(key) {
+        return `<svg class="sn-ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${NAV_ICONS[key] || NAV_ICONS.home}"/></svg>`;
+    }
+
+    function linkHtml(link, extraClass, withIcon) {
         const cls = link.key === activeKey ? (extraClass ? extraClass + ' active-nav' : 'active-nav') : (extraClass || '');
         const clsAttr = cls ? ` class="${cls}"` : '';
         const onclickAttr = link.onclick ? ` onclick="${link.onclick}"` : '';
-        return `<li><a href="${link.href}"${clsAttr}${onclickAttr}>${link.label}</a></li>`;
+        const inner = withIcon ? `${sideIcon(link.key)}<span class="sn-lb">${link.label}</span>` : link.label;
+        const titleAttr = withIcon ? ` title="${link.label}"` : '';
+        return `<li><a href="${link.href}"${clsAttr}${onclickAttr}${titleAttr}>${inner}</a></li>`;
     }
 
-    const desktopLinks = NAV_LINKS.map(l => linkHtml(l)).join('');
+    const desktopLinks = NAV_LINKS.map(l => linkHtml(l, '', true)).join('');
     const mobileLinks = NAV_LINKS.map(l => linkHtml(l)).join('');
 
     const LANG_OPTIONS = [
@@ -70,6 +85,7 @@ function renderSiteNav(activeKey, root, opts) {
     const navHtml = `
     <nav class="top-nav">
         <div class="nav-left">
+            <button type="button" class="sn-toggle" onclick="toggleSideNav()" aria-label="사이드바 접기/펼치기" aria-expanded="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
             <a href="${SITE_HOME_URL}" class="nav-home-btn" title="홈" aria-label="홈"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.5 12 4l9 7.5"/><path d="M5 10v9a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1v-9"/></svg></a>
             <span class="nav-vol desktop-only-utils">VOL. <b>${volDays}</b> · ${volDate}</span>
             ${isHome ? `<button class="cal-icon-btn desktop-only-utils" onclick="openBgSettings(this)" title="배경 설정" aria-label="배경 설정">
@@ -107,6 +123,10 @@ function renderSiteNav(activeKey, root, opts) {
     //    document.getElementById('siteNavSlot')를 못 찾아 조용히 실패하는 버그가 있었음.
     //    innerHTML로 바꿔서 #siteNavSlot 껍데기는 항상 유지되게 함.
     if (slot) slot.innerHTML = navHtml;
+    document.body.classList.add('has-sn');
+    try { document.body.classList.toggle('sn-collapsed', localStorage.getItem('rescene-sn') === '1'); } catch (e) {}
+    const snBtn = document.querySelector('.sn-toggle');
+    if (snBtn) snBtn.setAttribute('aria-expanded', document.body.classList.contains('sn-collapsed') ? 'false' : 'true');
     if (typeof updateThemeIcon === 'function') updateThemeIcon(document.documentElement.getAttribute('data-theme') || 'dark');
     if (typeof window.setLang === 'function' || true) window.__lastNavArgs = [activeKey, root, opts];
     if (typeof updateButtonsAfterNavRender === 'function') updateButtonsAfterNavRender();
@@ -114,6 +134,13 @@ function renderSiteNav(activeKey, root, opts) {
         var cur = localStorage.getItem('rescene-lang') || 'ko';
         b.classList.toggle('active', b.getAttribute('data-lang') === cur);
     });
+}
+
+function toggleSideNav() {
+    const collapsed = document.body.classList.toggle('sn-collapsed');
+    try { localStorage.setItem('rescene-sn', collapsed ? '1' : '0'); } catch (e) {}
+    const btn = document.querySelector('.sn-toggle');
+    if (btn) btn.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
 }
 
 function renderSiteFooter(root, slotId) {
