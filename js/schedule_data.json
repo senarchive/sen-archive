@@ -3756,7 +3756,7 @@
     {
       "date": "2026-10-23",
       "time": "18:00",
-      "title": "동아대학교 축제",
+      "title": "동아대학교 개교 80주년 기념 축하공연",
       "detail": "",
       "type": "event",
       "source": "fan-schedule"
@@ -3786,6 +3786,38 @@
       "source": "fan-schedule"
     },
     {
+      "date": "2026-10-26",
+      "time": "18:00",
+      "title": "[PULSE] HIGHLIGHT MEDLEY",
+      "detail": "",
+      "type": "notice",
+      "source": "fan-schedule"
+    },
+    {
+      "date": "2026-10-27",
+      "time": "18:00",
+      "title": "[PULSE] TITLE PREVIEW RELEASE",
+      "detail": "",
+      "type": "notice",
+      "source": "fan-schedule"
+    },
+    {
+      "date": "2026-10-27",
+      "time": "22:00",
+      "title": "[PULSE] ♡♡♡♡♡",
+      "detail": "",
+      "type": "notice",
+      "source": "fan-schedule"
+    },
+    {
+      "date": "2026-10-30",
+      "time": "18:00",
+      "title": "[PULSE] TITLE MV TEASER",
+      "detail": "",
+      "type": "notice",
+      "source": "fan-schedule"
+    },
+    {
       "date": "2026-10-31",
       "time": "",
       "title": "경주 APEC 정상회의장 기념관 개관식",
@@ -3794,12 +3826,116 @@
       "source": "mnetplus"
     },
     {
+      "date": "2026-11-03",
+      "time": "18:00",
+      "title": "ALBUM RELEASE & MV DROP",
+      "detail": "",
+      "type": "notice",
+      "source": "fan-schedule"
+    },
+    {
+      "date": "2026-11-03",
+      "time": "20:00",
+      "title": "[PULSE] SHOWCASE (블루스퀘어 우리WON뱅킹홀)",
+      "detail": "",
+      "type": "event",
+      "source": "fan-schedule"
+    },
+    {
       "date": "2026-11-07",
       "time": "",
       "title": "2026 KGMA (코리아 그랜드 뮤직 어워즈)",
       "detail": "",
       "type": "concert",
       "source": "mnetplus"
+    },
+    {
+      "date": "2026-11-07",
+      "time": "17:00",
+      "title": "KGMA 코리아 그랜드 뮤직 어워즈 - MC 원이 (서울 고척스카이돔)",
+      "detail": "",
+      "type": "event",
+      "source": "fan-schedule"
+    },
+    {
+      "date": "2026-11-14",
+      "time": "18:00",
+      "title": "MMA 2026 (멜론 뮤직 어워즈) (서울 고척스카이돔)",
+      "detail": "",
+      "type": "event",
+      "source": "fan-schedule"
+    },
+    {
+      "date": "2026-11-20",
+      "time": "",
+      "title": "2026 MAMA AWARDS (OSAKA KYOCERA DOME)",
+      "detail": "",
+      "type": "event",
+      "source": "fan-schedule"
+    },
+    {
+      "date": "2026-11-21",
+      "time": "",
+      "title": "2026 MAMA AWARDS (OSAKA KYOCERA DOME)",
+      "detail": "",
+      "type": "event",
+      "source": "fan-schedule"
+    },
+    {
+      "date": "2026-12-05",
+      "time": "16:00",
+      "title": "AAA 아시아 아티스트 어워즈 - 레드카펫 (대만 가오슝 내셔널 스타디움)",
+      "detail": "",
+      "type": "event",
+      "source": "fan-schedule"
+    },
+    {
+      "date": "2026-12-05",
+      "time": "18:00",
+      "title": "AAA 아시아 아티스트 어워즈 (대만 가오슝 내셔널 스타디움)",
+      "detail": "",
+      "type": "event",
+      "source": "fan-schedule"
+    },
+    {
+      "date": "2026-12-06",
+      "time": "18:00",
+      "title": "AAA 아시아 아티스트 어워즈 (대만 가오슝 내셔널 스타디움)",
+      "detail": "",
+      "type": "event",
+      "source": "fan-schedule"
+    },
+    {
+      "date": "2026-12-13",
+      "time": "17:00",
+      "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPAN (일본 MUFG 스타디움)",
+      "detail": "",
+      "type": "broadcast",
+      "source": "fan-schedule"
+    },
+    {
+      "date": "2026-12-20",
+      "time": "",
+      "title": "리센느 데뷔 1000일",
+      "detail": "",
+      "type": "notice",
+      "source": "fan-schedule"
+    },
+    {
+      "date": "2027-01-16",
+      "time": "02:00",
+      "title": "D AWARDS 2027 in PARIS (PARIS PLENITUDE ARENA)",
+      "detail": "",
+      "type": "event",
+      "source": "fan-schedule"
+    },
+    {
+      "date": "2027-01-17",
+      "time": "01:00",
+      "title": "D AWARDS 2027 in PARIS (PARIS PLENITUDE ARENA)",
+      "detail": "",
+      "type": "event",
+      "source": "fan-schedule"
     }
   ],
   "mnetBackfill": {
