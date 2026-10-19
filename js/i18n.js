@@ -30,7 +30,6 @@
 
             heroWelcome: "리센느 비공식 팬 아카이브에 오신 것을 환영합니다.",
             heroEnter: "바로가기 →",
-            coverSchedule: "오늘 · 다가오는 일정 →", coverMedia: "무대 · 직캠 · 콘텐츠 →", coverNews: "최신 기사 모아보기 →", coverMembers: "멤버 프로필 →",
 
             sectionWith: "WITH <span>RESCENE</span>",
             historySubtitle: "지금까지 걸어 온 길을 같이 걸어 볼까요?",
@@ -94,7 +93,6 @@
 
             heroWelcome: "Welcome to the unofficial RESCENE fan archive.",
             heroEnter: "Enter →",
-            coverSchedule: "Today & upcoming →", coverMedia: "Stages, fancams & more →", coverNews: "Latest articles →", coverMembers: "Member profiles →",
 
             sectionWith: "WITH <span>RESCENE</span>",
             historySubtitle: "Shall we walk through the journey together?",
@@ -158,7 +156,6 @@
 
             heroWelcome: "RESCENE非公式ファンアーカイブへようこそ。",
             heroEnter: "入る →",
-            coverSchedule: "今日・今後の予定 →", coverMedia: "ステージ・ファンカム →", coverNews: "最新ニュース →", coverMembers: "メンバープロフィール →",
 
             sectionWith: "WITH <span>RESCENE</span>",
             historySubtitle: "これまで歩んできた道を一緒に振り返ってみましょうか？",
@@ -222,7 +219,6 @@
 
             heroWelcome: "欢迎来到RESCENE非官方粉丝档案站。",
             heroEnter: "进入 →",
-            coverSchedule: "今日·近期日程 →", coverMedia: "舞台·直拍·内容 →", coverNews: "最新报道 →", coverMembers: "成员资料 →",
 
             sectionWith: "WITH <span>RESCENE</span>",
             historySubtitle: "要不要一起回顾走过的这段旅程？",
