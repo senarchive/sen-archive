@@ -7,6 +7,21 @@ setInterval(() => {
     if (timeFlowText) timeFlowText.innerText = `${String(Math.floor((diff / (1000 * 60 * 60)) % 24)).padStart(2, '0')}:${String(Math.floor((diff / 1000 / 60) % 60)).padStart(2, '0')}:${String(Math.floor((diff / 1000) % 60)).padStart(2, '0')}`;
 }, 1000);
 
+function renderHeroSlices() {
+    const row = document.getElementById('heroSlices');
+    if (!row || typeof MEMBER_DATA === 'undefined') return;
+    row.innerHTML = MEMBER_DATA.map(m => {
+        const bday = m.birthday ? m.birthday.split('.').slice(1).join('.') : '';
+        return `<a class="slice-item" role="listitem" href="member/member.html?m=${encodeURIComponent(m.key)}" style="--mem-color:${m.color};" aria-label="${escapeHtml(m.nameKo)}">
+            <img src="images/profile/${m.key}/prettygirl.webp" alt="" onerror="this.onerror=null;this.src='images/profile/${m.key}/debut.webp'">
+            <span class="slice-role">${escapeHtml(m.position || '')}</span>
+            <span class="slice-name">${escapeHtml(m.nameKo)}</span>
+            <span class="slice-bday">BIRTHDAY ${bday}</span>
+        </a>`;
+    }).join('');
+}
+renderHeroSlices();
+
 let currentProfileIdx = 1;
 const PROFILE_TOTAL = 10;
 function openImageModal(src, idx) {
