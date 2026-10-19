@@ -44,15 +44,37 @@
     <script>renderSiteNav('home', '', { calendar: true, lang: true });</script>
 
     <div id="mainWrapper">
-        <div class="video-container" id="homeHero">
-            <video id="bgVideo" src="video/member.mp4" autoplay loop muted playsinline class="bg-video"></video>
-            <img id="bgImage" src="" class="bg-video" style="display:none; opacity:0;" alt="background">
-            <div class="video-overlay"></div>
-            <div class="hero-content">
-                <img src="images/logo.png" alt="RESCENE Logo" class="hero-logo" onerror="this.style.display='none'">
-                <div class="debut-timer">
-                    <div class="d-day" id="dDayText">D+000</div>
-                    <div class="time-flow" id="timeFlowText">00:00:00</div>
+        <div class="video-container cover-hero" id="homeHero">
+            <h1 class="cover-wordmark" aria-label="RESCENE">RESCENE</h1>
+            <div class="cover-grid">
+                <div class="cover-col cover-col-left">
+                    <div class="cover-dday-block">
+                        <div class="cover-dday d-day" id="dDayText">D+000</div>
+                        <div class="cover-dday-sub">DEBUT 2024.03.26</div>
+                        <div class="cover-time time-flow" id="timeFlowText">00:00:00</div>
+                    </div>
+                    <a class="cover-line" href="javascript:void(0)" onclick="scrollToSection('todayScheduleSection')">
+                        <span class="cover-line-tag" data-i18n="navSchedule">SCHEDULE</span>
+                        <span class="cover-line-text" data-i18n="coverSchedule">오늘 · 다가오는 일정 →</span>
+                    </a>
+                </div>
+                <div class="cover-photo">
+                    <video id="bgVideo" src="video/member.mp4" autoplay loop muted playsinline class="bg-video"></video>
+                    <img id="bgImage" src="" class="bg-video" style="display:none; opacity:0;" alt="background">
+                </div>
+                <div class="cover-col cover-col-right">
+                    <a class="cover-line" href="media/media.html">
+                        <span class="cover-line-tag" data-i18n="navMedia">영상 모음</span>
+                        <span class="cover-line-text" data-i18n="coverMedia">무대 · 직캠 · 콘텐츠 →</span>
+                    </a>
+                    <a class="cover-line" href="news/news.html">
+                        <span class="cover-line-tag" data-i18n="navNews">NEWS</span>
+                        <span class="cover-line-text" data-i18n="coverNews">최신 기사 모아보기 →</span>
+                    </a>
+                    <a class="cover-line" href="member/member.html">
+                        <span class="cover-line-tag" data-i18n="navMembers">MEMBERS</span>
+                        <span class="cover-line-text" data-i18n="coverMembers">멤버 프로필 →</span>
+                    </a>
                 </div>
             </div>
         </div>
