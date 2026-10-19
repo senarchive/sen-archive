@@ -7,31 +7,6 @@ setInterval(() => {
     if (timeFlowText) timeFlowText.innerText = `${String(Math.floor((diff / (1000 * 60 * 60)) % 24)).padStart(2, '0')}:${String(Math.floor((diff / 1000 / 60) % 60)).padStart(2, '0')}:${String(Math.floor((diff / 1000) % 60)).padStart(2, '0')}`;
 }, 1000);
 
-function renderHeroSlices() {
-    const row = document.getElementById('heroSlices');
-    if (!row || typeof MEMBER_DATA === 'undefined') return;
-    row.innerHTML = MEMBER_DATA.map(m => {
-        return `<a class="ph-mem" role="listitem" href="member/member.html?m=${encodeURIComponent(m.key)}" style="--mem-color:${m.color};" aria-label="${escapeHtml(m.nameKo)}">
-            <img src="images/profile/${m.key}/prettygirl.webp" alt="" onerror="this.onerror=null;this.src='images/profile/${m.key}/debut.webp'">
-            <span>${escapeHtml(m.nameKo)}</span>
-        </a>`;
-    }).join('');
-}
-renderHeroSlices();
-
-function renderHeroNext() {
-    const el = document.getElementById('heroNext');
-    if (!el || typeof scheduleDB === 'undefined') return;
-    const today = getTodayKey();
-    const rows = [];
-    Object.keys(scheduleDB).filter(k => k >= today).sort().forEach(k => {
-        (scheduleDB[k].items || []).forEach(it => { if (rows.length < 4) rows.push({ k, title: it.title }); });
-    });
-    el.innerHTML = rows.length
-        ? rows.map(r => `<li><b>${r.k.slice(5).replace('-', '.')}</b><span>${escapeHtml(r.title)}</span></li>`).join('')
-        : `<li class="ph-empty">등록된 일정이 없습니다.</li>`;
-}
-
 let currentProfileIdx = 1;
 const PROFILE_TOTAL = 10;
 function openImageModal(src, idx) {

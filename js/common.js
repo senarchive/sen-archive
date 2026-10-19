@@ -85,7 +85,6 @@ async function fetchScheduleData() {
     } catch (error) { console.warn("스케줄 데이터 로드 실패", error); }
     renderCalendar();
 
-    if (typeof renderHeroNext === 'function') renderHeroNext();
     if (typeof renderTodaySchedule === 'function') renderTodaySchedule();
     if (typeof renderTodayMonthSchedule === 'function') renderTodayMonthSchedule();
     if (typeof renderAgendaList === 'function') renderAgendaList();
