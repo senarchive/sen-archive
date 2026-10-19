@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T02:53:09.390Z",
+  "updated": "2026-10-19T11:52:21.405Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3731,14 +3731,6 @@
     },
     {
       "date": "2026-10-23",
-      "time": "",
-      "title": "마산대학교 축제",
-      "detail": "",
-      "type": "event",
-      "source": "mnetplus"
-    },
-    {
-      "date": "2026-10-23",
       "time": "15:00",
       "title": "[PULSE] ALBUM DETAIL",
       "detail": "",
@@ -3770,11 +3762,11 @@
       "source": "fan-schedule"
     },
     {
-      "date": "2026-10-24",
+      "date": "2026-10-23",
       "time": "",
-      "title": "여기어때 콘서트팩 거제",
+      "title": "마산대학교 축제",
       "detail": "",
-      "type": "concert",
+      "type": "event",
       "source": "mnetplus"
     },
     {
@@ -3784,6 +3776,14 @@
       "detail": "",
       "type": "event",
       "source": "fan-schedule"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "",
+      "title": "여기어때 콘서트팩 거제",
+      "detail": "",
+      "type": "concert",
+      "source": "mnetplus"
     },
     {
       "date": "2026-10-26",
@@ -3843,19 +3843,19 @@
     },
     {
       "date": "2026-11-07",
-      "time": "",
-      "title": "2026 KGMA (코리아 그랜드 뮤직 어워즈)",
-      "detail": "",
-      "type": "concert",
-      "source": "mnetplus"
-    },
-    {
-      "date": "2026-11-07",
       "time": "17:00",
       "title": "KGMA 코리아 그랜드 뮤직 어워즈 - MC 원이 (서울 고척스카이돔)",
       "detail": "",
       "type": "event",
       "source": "fan-schedule"
+    },
+    {
+      "date": "2026-11-07",
+      "time": "",
+      "title": "2026 KGMA (코리아 그랜드 뮤직 어워즈)",
+      "detail": "",
+      "type": "concert",
+      "source": "mnetplus"
     },
     {
       "date": "2026-11-14",
