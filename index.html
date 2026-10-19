@@ -44,24 +44,24 @@
     <script>renderSiteNav('home', '', { calendar: true, lang: true });</script>
 
     <div id="mainWrapper">
-        <div class="video-container slice-hero" id="homeHero">
-            <div class="slice-row" id="heroSlices" role="list" aria-label="MEMBERS"></div>
-            <div class="slice-bar">
-                <video id="bgVideo" src="video/member.mp4" autoplay loop muted playsinline class="bg-video"></video>
-                <img id="bgImage" src="" class="bg-video" style="display:none; opacity:0;" alt="background">
-                <div class="slice-bar-shade"></div>
-                <div class="slice-bar-inner">
-                    <img src="images/logo.png" alt="RESCENE" class="slice-bar-logo" onerror="this.style.display='none'">
-                    <div class="slice-dday d-day" id="dDayText">D+000</div>
-                    <div class="slice-time time-flow" id="timeFlowText">00:00:00</div>
-                    <span class="slice-debut">DEBUT 2024.03.26</span>
-                    <div class="slice-bar-links">
-                        <a href="member/member.html" class="slice-btn slice-btn-primary" data-i18n="navMembers">MEMBERS</a>
-                        <a href="media/media.html" class="slice-btn" data-i18n="navMedia">영상 모음</a>
+        <div class="video-container duo-hero" id="homeHero">
+            <video id="bgVideo" src="video/member.mp4" autoplay loop muted playsinline class="bg-video"></video>
+            <img id="bgImage" src="" class="bg-video" style="display:none; opacity:0;" alt="background">
+            <div class="duo-shade"></div>
+            <div class="duo-inner">
+                <img src="images/logo.png" alt="RESCENE" class="duo-logo" onerror="this.style.display='none'">
+                <div class="duo-dday d-day" id="dDayText">D+000</div>
+                <div class="duo-meta">
+                    <div class="duo-time time-flow" id="timeFlowText">00:00:00</div>
+                    <span class="duo-debut">DEBUT 2024.03.26</span>
+                    <div class="duo-links">
+                        <a href="member/member.html" class="duo-btn duo-btn-primary" data-i18n="navMembers">MEMBERS</a>
+                        <a href="media/media.html" class="duo-btn" data-i18n="navMedia">영상 모음</a>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="slice-row duo-members" id="heroSlices" role="list" aria-label="MEMBERS"></div>
 
         <!-- [임시 비활성화] WITH RESCENE
         <div id="historySection" class="slow-reveal history-link" role="button" tabindex="0" onclick="playWithRescene()" onkeydown="if(event.key==='Enter')playWithRescene()" aria-label="위드 리센스 — 함께 걸어온 길 보기">
