@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-#const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
+const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
 const OUTPUT_PATH = 'js/shorts_data.js';
 const TAGS = [
     { key: 'rescene', label: '리센느', query: '리센느 RESCENE shorts' },
