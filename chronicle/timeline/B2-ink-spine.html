@@ -1,0 +1,544 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>리센느 향기 연대기 · Ink Timeline</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Gaegu:wght@300;400;700&family=Nanum+Pen+Script&family=Pinyon+Script&display=swap">
+<style>html{overflow-x:hidden}/* Layout: one hand-inked thread runs down the left edge and lights a node at each scent chapter;
+   each chapter pairs a drawn emblem with the dated notes, alternating sides. Mist behind it takes the current scent's colours. */
+:root{
+  color-scheme: dark;
+  --bg:#0e0b14;
+  --ink:#f4effa;
+  --muted:#b6abcc;
+  --pencil:#5d5574;
+  --line:rgba(244,239,250,.17);
+  --c1:#ffc2dd;
+  --c2:#b9a4ff;
+  --f-script:'Pinyon Script','Great Vibes',cursive;
+  --f-pen:'Nanum Pen Script','Gaegu',cursive;
+  --f-body:'Gaegu','Nanum Pen Script',cursive;
+  --f-note:'Caveat','Gaegu',cursive;
+}
+*{box-sizing:border-box}
+body{
+  background:var(--bg);color:var(--ink);
+  font-family:var(--f-body);font-size:22px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-block:0;
+}
+a{color:var(--ink);text-underline-offset:4px}
+a:focus-visible{outline:2px solid var(--c1);outline-offset:3px;border-radius:2px}
+
+#mist{position:fixed;inset:0;width:100%;height:100%;display:block;z-index:0}
+.veil{position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:radial-gradient(ellipse at 50% 35%,transparent 35%,rgba(8,6,12,.6) 100%)}
+.page{position:relative;z-index:1;max-width:1120px;margin:0 auto}
+
+.hud{position:fixed;top:calc(env(safe-area-inset-top,0px) + 12px);right:max(14px,env(safe-area-inset-right,0px));z-index:6;
+  display:flex;align-items:baseline;gap:10px;padding:2px 16px 5px;border-radius:999px;
+  background:color-mix(in srgb,var(--bg) 62%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  font:500 20px var(--f-note);letter-spacing:.04em;pointer-events:none}
+.hud b{color:var(--c1);font-weight:700}
+
+/* ink: pencil draft underneath, inked gradient wipes in over it */
+.ink{position:relative;display:block;width:fit-content;max-width:100%;color:var(--pencil)}
+.ink::after{content:attr(data-t);position:absolute;inset:0;
+  background:linear-gradient(95deg,var(--c1),var(--c2));-webkit-background-clip:text;background-clip:text;
+  color:transparent;-webkit-text-fill-color:transparent;
+  clip-path:inset(-25% 102% -25% -12%);
+  transition:clip-path 1.9s cubic-bezier(.55,.1,.25,1);transition-delay:var(--delay,0s)}
+.ink.in::after{clip-path:inset(-25% -12% -25% -12%)}
+.fade{transition:opacity .9s ease,transform .9s ease;transition-delay:var(--d,0ms)}
+.fade.w{opacity:.28;transform:translateY(10px)}
+
+/* hero */
+.hero{padding-block:clamp(52px,9vw,112px) clamp(20px,4vw,48px)}
+.eyebrow{font:500 21px var(--f-note);letter-spacing:.14em;color:var(--muted);margin:0}
+.hero-title{font-family:var(--f-script);font-size:clamp(78px,19vw,212px);line-height:1.04;margin:.02em 0 0;font-weight:400}
+.hero-sub{font:400 clamp(34px,5.4vw,58px)/1.2 var(--f-pen);margin:6px 0 0}
+.stats{display:flex;flex-wrap:wrap;gap:16px clamp(24px,5vw,56px);list-style:none;margin:clamp(28px,4vw,44px) 0 0;padding:0}
+.stats li{display:flex;flex-direction:column;min-width:0}
+.stats b,.rec b,.cd{font-weight:400;background:linear-gradient(95deg,var(--c1),var(--c2));-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;font-variant-numeric:tabular-nums}
+.stats b{font:400 clamp(44px,7vw,68px)/1 var(--f-pen)}
+.stats span{font:500 20px var(--f-note);color:var(--muted);letter-spacing:.03em}
+
+/* thread */
+.wrap{position:relative;padding-left:clamp(34px,5.5vw,76px);overflow-x:clip}
+#thread{position:absolute;left:0;top:0;pointer-events:none;z-index:0;overflow:visible}
+.track{fill:none;stroke:rgba(255,255,255,.16);stroke-width:1.6;stroke-linecap:round;stroke-dasharray:1 8}
+.inkline{fill:none;stroke-width:2.6;stroke-linecap:round}
+.bead-glow{fill:var(--c1);filter:blur(6px);opacity:.85}
+.bead-core{fill:#fff}
+.node-ring{fill:var(--bg);stroke:rgba(255,255,255,.24);stroke-width:1.5;transition:stroke .6s}
+.node-dot{fill:rgba(255,255,255,.22);transition:fill .6s}
+.node.lit .node-ring{stroke:var(--nc)}
+.node.lit .node-dot{fill:var(--nc)}
+
+/* chapters */
+#chapters{position:relative;z-index:1}
+.chapter{display:grid;column-gap:clamp(28px,6vw,88px);grid-template-columns:minmax(0,1fr);
+  grid-template-areas:"head" "emblem" "mvs" "events" "extra";padding-block:clamp(56px,9vw,110px)}
+.head{grid-area:head;min-width:0}
+.emblem{grid-area:emblem;position:relative;width:200px;aspect-ratio:1;margin:12px 0 26px}
+.mvs{grid-area:mvs;min-width:0}
+.events{grid-area:events;min-width:0}
+.extra{grid-area:extra;min-width:0}
+@media (min-width:860px){
+  .chapter{grid-template-columns:minmax(0,5fr) minmax(0,7fr);grid-template-areas:"emblem head" "mvs events" "extra extra"}
+  .chapter.flip{grid-template-columns:minmax(0,7fr) minmax(0,5fr);grid-template-areas:"head emblem" "events mvs" "extra extra"}
+  .emblem{width:min(100%,330px);justify-self:center;margin:0 0 24px}
+}
+.emblem::before{content:"";position:absolute;inset:6%;border-radius:50%;
+  background:radial-gradient(closest-side,color-mix(in srgb,var(--c1) 34%,transparent),transparent);filter:blur(8px)}
+.emb{position:relative;width:100%;height:100%;overflow:visible;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.sa{stroke:var(--c1)}.sb{stroke:var(--c2)}
+.fa{fill:var(--c1)}.fb{fill:var(--c2)}
+.lite{fill-opacity:.17}
+.dot{stroke:none}
+.svt{font:400 22px var(--f-script);fill:var(--ink);stroke:none}
+.svt.big{font-size:30px}
+
+.no{font:700 21px var(--f-note);letter-spacing:.08em;color:var(--c1);margin:0 0 4px}
+.title{font-family:var(--f-script);font-weight:400;font-size:clamp(56px,9.4vw,104px);line-height:1.08;margin:0 0 8px;text-wrap:balance}
+.scentline{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 16px;margin:0 0 14px}
+.scent-kr{font:400 clamp(36px,5vw,50px)/1.15 var(--f-pen)}
+.scent-en{font:400 28px var(--f-script);color:var(--muted)}
+.caption{font:400 clamp(27px,3.3vw,33px)/1.35 var(--f-pen);margin:0 0 10px;max-width:27em}
+.body{margin:0 0 8px;color:var(--muted);max-width:30em}
+
+.events,.facts{list-style:none;margin:0;padding:0}
+.events li{display:grid;grid-template-columns:6.4em minmax(0,1fr);column-gap:14px;padding:9px 0;border-bottom:1px dashed var(--line)}
+.events .d{font:500 21px var(--f-note);color:var(--muted);letter-spacing:.03em;font-variant-numeric:tabular-nums}
+.events .t{min-width:0}
+.events .star .t{text-decoration:underline wavy var(--c1) 1px;text-underline-offset:7px;text-decoration-skip-ink:none}
+@media (max-width:520px){.events li{grid-template-columns:minmax(0,1fr)}}
+
+.mvs{margin:4px 0 30px}
+.mvs-h{font:700 20px var(--f-note);letter-spacing:.1em;color:var(--muted);margin:0 0 12px}
+.mvs-h small{font:500 18px var(--f-note);letter-spacing:.04em;opacity:.8}
+.mv{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:12px;margin-bottom:12px;align-items:baseline}
+.mv-n{font-size:23px;min-width:0}
+.mv-n small{font:500 18px var(--f-note);color:var(--muted);margin-left:8px}
+.mv b{font:400 24px var(--f-pen);font-variant-numeric:tabular-nums}
+.bar{grid-column:1/-1;height:6px;border-radius:3px;background:rgba(255,255,255,.09);overflow:hidden;margin-top:3px}
+.bar i{display:block;height:100%;width:100%;background:linear-gradient(90deg,var(--c1),var(--c2));
+  transform-origin:left;transform:scaleX(var(--w));transition:transform 1.7s cubic-bezier(.2,.7,.2,1)}
+.mvs.w .bar i{transform:scaleX(0)}
+
+.members{display:flex;flex-wrap:wrap;gap:6px clamp(20px,4vw,46px);list-style:none;margin:26px 0 0;padding:0}
+.members li{font:400 clamp(42px,6.4vw,64px)/1.1 var(--f-pen);display:flex;flex-direction:column}
+.members small{font:500 19px var(--f-note);color:var(--muted);letter-spacing:.05em}
+
+/* wins */
+.wins{margin-top:clamp(36px,6vw,70px)}
+.wins-t{font-family:var(--f-script);font-weight:400;font-size:clamp(40px,6vw,62px);line-height:1.1;margin:0 0 8px}
+.wins-note{font-size:20px;color:var(--muted);margin:0 0 14px}
+.show-row{display:grid;grid-template-columns:minmax(0,9.5em) minmax(0,1fr) auto;align-items:center;gap:4px 20px;padding:12px 0;border-bottom:1px dashed var(--line)}
+.show-name{font:400 34px/1.1 var(--f-pen)}
+.show-name small{display:block;font:500 19px var(--f-note);color:var(--muted);letter-spacing:.03em}
+.show-dates{font:500 21px var(--f-note);color:var(--muted);letter-spacing:.03em}
+.stamps{display:flex;gap:6px}
+.stamp{width:36px;height:36px;color:var(--c1);transition:transform .55s cubic-bezier(.3,1.7,.5,1),opacity .4s;transition-delay:calc(var(--k) * 150ms)}
+.wins.w .stamp{transform:scale(2) rotate(-24deg);opacity:0}
+@media (max-width:560px){.show-row{grid-template-columns:minmax(0,1fr)}}
+.recs{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:26px 30px;margin-top:36px}
+.rec b{display:block;font:400 clamp(54px,7.4vw,76px)/1 var(--f-pen)}
+.rec b small{font-size:.46em}
+.rec span{display:block;font-size:21px;line-height:1.35;color:var(--muted);margin-top:4px}
+.recs-note{font-size:18px;color:var(--muted);margin:22px 0 0;opacity:.85}
+
+/* tags */
+.tags h4{font:700 20px var(--f-note);letter-spacing:.12em;color:var(--c1);margin:28px 0 10px}
+.tag-list{display:flex;flex-wrap:wrap;gap:10px 12px;list-style:none;margin:0;padding:0}
+.tag{padding:1px 15px 4px;border:1px dashed color-mix(in srgb,var(--c1) 62%,transparent);border-radius:999px;font-size:21px;transform:rotate(var(--r,0deg))}
+.tag:nth-child(3n+1){--r:-1.3deg}.tag:nth-child(3n+2){--r:.9deg}.tag:nth-child(3n){--r:-.4deg}
+.tag.star{background:color-mix(in srgb,var(--c1) 17%,transparent)}
+.tags p{margin:18px 0 0;color:var(--muted);font-size:20px;max-width:34em}
+
+.cd{font:400 clamp(84px,18vw,168px)/1 var(--f-pen);margin:8px 0 0}
+.cd-l{font:500 21px var(--f-note);color:var(--muted);letter-spacing:.05em}
+
+
+.foot{padding:48px 0 calc(88px + env(safe-area-inset-bottom,0px));margin-top:24px;border-top:1px dashed var(--line);color:var(--muted);font-size:19px;max-width:44em}
+.foot p{margin:0 0 12px}
+
+/* emblem motion */
+.o{transform-origin:100px 100px}
+.spin{animation:spin 40s linear infinite}
+.rev{animation-direction:reverse}
+.s18{animation-duration:18s}.s24{animation-duration:24s}.s34{animation-duration:34s}.s46{animation-duration:46s}.s60{animation-duration:60s}.s70{animation-duration:70s}
+.breathe{transform-box:fill-box;transform-origin:center;animation:breathe 3.6s ease-in-out infinite}
+.rise{animation:rise 9s ease-in-out infinite}
+.fall{animation:fall 3.2s cubic-bezier(.5,0,.9,.6) infinite}
+.ripple{transform-box:fill-box;transform-origin:center;animation:ripple 3.2s ease-out infinite}
+.ring{transform-box:fill-box;transform-origin:center;vector-effect:non-scaling-stroke;animation:ring 2.8s ease-out infinite}
+.smoke{stroke-dasharray:34 66;animation:smoke 7s linear infinite}
+.beat{stroke-dasharray:22 78;stroke-width:2.8;animation:smoke 2.6s linear infinite}
+.drift{animation:drift 7s ease-in-out infinite alternate}
+.drift.rev{animation-direction:alternate-reverse}
+.sway{transform-origin:100px 40px;animation:sway 6s ease-in-out infinite alternate}
+.sway.rev{animation-direction:alternate-reverse}
+.twinkle{animation:twinkle 3s ease-in-out infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.16)}}
+@keyframes rise{0%{transform:translateY(26px);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translateY(-74px);opacity:0}}
+@keyframes fall{0%{transform:translateY(0);opacity:0}8%{opacity:1}68%{transform:translateY(150px);opacity:1}69%,100%{transform:translateY(150px);opacity:0}}
+@keyframes ripple{0%,66%{transform:scale(.1);opacity:0}68%{transform:scale(.2);opacity:.9}100%{transform:scale(1.5);opacity:0}}
+@keyframes ring{0%{transform:scale(.6);opacity:.85}100%{transform:scale(3.4);opacity:0}}
+@keyframes smoke{from{stroke-dashoffset:0}to{stroke-dashoffset:-100}}
+@keyframes drift{from{transform:translateX(-7px)}to{transform:translateX(7px)}}
+@keyframes sway{from{transform:rotate(-3deg)}to{transform:rotate(3deg)}}
+@keyframes twinkle{0%,100%{opacity:.2}50%{opacity:1}}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .ink::after{clip-path:none}
+  .fade.w{opacity:1;transform:none}
+}
+
+/* ===== timeline additions ===== */
+.hud i{font-style:normal;color:var(--muted);margin-left:2px}
+.month{display:flex;align-items:center;gap:14px;margin:clamp(34px,5vw,56px) 0 4px;font:500 21px var(--f-note);letter-spacing:.2em;color:var(--muted)}
+.month b{font:400 clamp(40px,6vw,58px)/1 var(--f-pen);color:var(--ink);letter-spacing:0}.month::after{content:"";flex:1;border-top:1px dashed var(--line)}
+.stream{max-width:860px}
+.stream .events{margin-bottom:6px}
+.events li.fut .t{color:var(--muted)}.events li.fut .d::after{content:" · 예정";color:var(--c1)}
+.shot{display:block;position:relative;margin:30px 0 34px;text-decoration:none;color:inherit}
+.shot .rc-th{aspect-ratio:16/10;border-radius:18px;outline:1px solid rgba(255,255,255,.14);box-shadow:0 24px 50px -24px rgba(0,0,0,.9),0 0 60px -20px color-mix(in srgb,var(--c1) 40%,transparent);transition:transform .8s cubic-bezier(.2,.8,.2,1)}
+.shot:hover .rc-th{transform:translateY(-4px) scale(1.01)}
+.shot .rc-th::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(8,6,12,.55));pointer-events:none}
+.shot .meta{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:14px;align-items:baseline;padding-top:10px}
+.shot .d{font:500 22px var(--f-note);color:var(--c1);letter-spacing:.04em}
+.shot .t{font:400 clamp(30px,4.2vw,40px)/1.1 var(--f-pen)}
+.shot .kind{grid-column:2;font:500 19px var(--f-note);color:var(--muted);letter-spacing:.06em}
+.shot .p{grid-column:2;font-size:20px;color:var(--muted);margin:2px 0 0;max-width:32em}
+.shot .st{grid-column:2;font:400 28px var(--f-pen);background:linear-gradient(95deg,var(--c1),var(--c2));-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
+.shot.w-in .rc-th{clip-path:inset(0 0 0 0)}
+.fade.w.shotw{transform:translateY(24px)}
+.eraphoto{grid-area:photo;position:relative;margin:30px 0 4px;border-radius:20px;overflow:hidden;aspect-ratio:16/9;outline:1px solid rgba(255,255,255,.14)}
+.eraphoto img{position:absolute;inset:-8% 0;width:100%;height:116%;object-fit:cover;object-position:center 22%;transform:translateY(calc((var(--ep,.5) - .5)*-6%))}
+.eraphoto::after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,color-mix(in srgb,var(--c1) 18%,transparent),transparent 50%,color-mix(in srgb,var(--c2) 22%,transparent));mix-blend-mode:soft-light}
+.rec b .count{display:inline}.chapter.simple{padding-block:clamp(40px,6vw,76px)}
+@media (min-width:860px){.chapter{grid-template-areas:"emblem head" "mvs events" "photo photo" "extra extra"}.chapter.flip{grid-template-areas:"head emblem" "events mvs" "photo photo" "extra extra"}}
+.chapter{grid-template-areas:"head" "emblem" "mvs" "events" "photo" "extra"}
+.faces{display:flex;gap:clamp(14px,3vw,34px);flex-wrap:wrap;list-style:none;margin:22px 0 0;padding:0}
+.faces li{display:flex;flex-direction:column;align-items:center;gap:4px;transform:scale(.6);opacity:0;transition:.8s cubic-bezier(.3,1.5,.5,1);transition-delay:calc(var(--k)*90ms)}.faces.in li{transform:none;opacity:1}
+.faces img{width:clamp(58px,13vw,92px);aspect-ratio:1;border-radius:50%;object-fit:cover;outline:1px solid color-mix(in srgb,var(--c1) 70%,transparent);outline-offset:3px}
+.faces span{font:400 30px var(--f-pen)}.faces small{font:500 17px var(--f-note);color:var(--muted);letter-spacing:.08em;margin-top:-6px}
+.rank{margin:34px 0}.rank .big{font:400 clamp(90px,24vw,190px)/.9 var(--f-pen);background:linear-gradient(95deg,var(--c1),var(--c2));-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;font-variant-numeric:tabular-nums}
+.rank .rt{font:700 20px var(--f-note);letter-spacing:.1em;color:var(--muted)}.rank svg{width:100%;max-width:560px;overflow:visible;display:block}
+.rank .ln{fill:none;stroke:url(#rg);stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}.rank text{font:500 17px var(--f-note);fill:var(--muted)}
+.cp-strip{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:14px 0 10px}@media(min-width:700px){.cp-strip{grid-template-columns:repeat(4,minmax(0,1fr))}}.events .t{display:block}
+.cp-strip figure{margin:0;position:relative;border-radius:14px;overflow:hidden;aspect-ratio:2/3;outline:1px solid rgba(255,255,255,.14);transform:translateY(34px) scale(.96);opacity:0;transition:transform 1s cubic-bezier(.2,.8,.2,1),opacity .9s;transition-delay:calc(var(--k)*120ms);box-shadow:0 0 50px -16px var(--c2)}
+.cp-strip.in figure{transform:none;opacity:1}.cp-strip img{width:100%;height:100%;object-fit:cover;display:block}.cp-strip figcaption{position:absolute;left:10px;bottom:6px;font:500 20px var(--f-note);color:#fff;text-shadow:0 1px 8px #000}
+.cp-h{font:700 20px var(--f-note);letter-spacing:.12em;color:var(--c1);margin:16px 0 0}
+.chapter.pulse-ch .emblem{filter:drop-shadow(0 0 22px color-mix(in srgb,var(--c2) 60%,transparent))}
+.hero .stats li{min-width:0}
+</style></head><body>
+<canvas id="mist" aria-hidden="true"></canvas><div class="veil" aria-hidden="true"></div>
+<div class="hud" id="hud" aria-hidden="true"></div>
+<main class="page"><header class="hero"><p class="eyebrow">since 2024.03.26 · The Muze Entertainment</p>
+<h1 class="hero-title ink reveal" data-t="Rescéne" style="--delay:.2s">Rescéne</h1>
+<p class="hero-sub ink reveal" data-t="향기로 다시 떠올리는 장면들" style="--delay:1.3s">향기로 다시 떠올리는 장면들</p><ul class="stats reveal" id="stats"></ul></header>
+<div class="wrap" id="wrap"><svg id="thread" aria-hidden="true"></svg><div id="chapters"></div></div>
+<footer class="foot"><p>리센느(RESCENE)를 좋아하는 팬이 만든 비공식 연대기예요. 조회수는 2026년 10월 14일 기준이에요.</p></footer></main>
+<script src="rc.js"></script><script src="tl.js"></script>
+<script>const _s=document.createElement('style');_s.textContent=window.RC.thumbCSS;document.head.appendChild(_s);</script>
+<script>
+(() => {
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const fmt = n => n.toLocaleString('en-US');
+  const R = n => [...Array(n).keys()];
+  const RC = window.RC, TL = window.TL;
+  const toPulse = Math.round((Date.parse('2026-11-03') - Date.parse(RC.todayISO)) / 864e5);
+  const HI = { prologue: 'h_prologue', 're-scene': 'h_rescene' };
+  const EMB = {
+    venn: `
+      <g class="drift"><circle cx="70" cy="100" r="52" class="fa lite sa"/></g>
+      <g class="drift rev"><circle cx="130" cy="100" r="52" class="fb lite sb"/></g>
+      <text x="44" y="108" text-anchor="middle" class="svt">Scene</text>
+      <text x="156" y="108" text-anchor="middle" class="svt">Scent</text>
+      <text x="100" y="111" text-anchor="middle" class="svt big">re</text>`,
+    floral: `
+      <g class="o spin s46">${R(8).map(i => `<ellipse cx="100" cy="58" rx="15" ry="38" transform="rotate(${i * 45} 100 100)" class="sa"/>`).join('')}</g>
+      <g class="o spin rev s34">${R(8).map(i => `<ellipse cx="100" cy="76" rx="8" ry="21" transform="rotate(${i * 45 + 22.5} 100 100)" class="sb"/>`).join('')}</g>
+      <circle cx="100" cy="100" r="7" class="fa dot breathe"/>`,
+    amber: `
+      <g class="o spin s60"><circle cx="100" cy="100" r="78" class="sa" stroke-dasharray="2 9"/></g>
+      <g class="o spin rev s34"><circle cx="100" cy="100" r="62" class="sb" stroke-dasharray="60 12 8 12"/></g>
+      <g class="o spin s46"><circle cx="100" cy="100" r="46" class="sa" stroke-dasharray="1 6"/></g>
+      <circle cx="100" cy="100" r="28" class="sb"/>
+      <circle cx="100" cy="100" r="14" class="fa dot breathe" opacity=".85"/>
+      <g class="o spin s18"><circle cx="100" cy="22" r="4" class="fa dot"/></g>
+      <g class="o spin rev s24"><circle cx="100" cy="38" r="3" class="fb dot"/></g>`,
+    soap: `
+      <path d="M24 176 q19-10 38 0 t38 0 t38 0 t38 0" class="sb" opacity=".5"/>
+      ${[[62,150,22,0,9],[118,156,16,-3,7],[98,124,32,-5,11],[142,108,12,-7,8],[70,92,10,-2,10],[124,70,18,-9,12]].map(([x, y, r, dl, du]) =>
+        `<g class="rise" style="animation-delay:${dl}s;animation-duration:${du}s"><circle cx="${x}" cy="${y}" r="${r}" class="sa"/><path d="M${x - r * .58} ${y - r * .12} A${r * .6} ${r * .6} 0 0 1 ${x - r * .12} ${y - r * .58}" class="sb" style="stroke-width:2.2"/></g>`).join('')}`,
+    grass: `
+      ${[[60,0],[96,.9],[134,1.8],[80,2.3],[116,.3]].map(([x, dl]) =>
+        `<g transform="translate(${x} 18)"><g class="fall" style="animation-delay:${dl}s"><path d="M0 -8 C6 0 6 6 0 7 C-6 6 -6 0 0 -8Z" class="fb dot"/></g></g><ellipse cx="${x}" cy="172" rx="14" ry="4" class="sb ripple" style="animation-delay:${dl}s"/>`).join('')}
+      <g class="sa" style="stroke-width:2">
+        <path d="M60 172 C58 142 66 122 60 98"/><path d="M80 172 C80 137 92 114 92 80"/><path d="M100 172 C102 132 96 110 108 72"/>
+        <path d="M120 172 C122 142 132 126 130 94"/><path d="M140 172 C140 152 146 140 150 118"/>
+      </g>
+      <path d="M26 172 H174" class="sb" opacity=".5"/>`,
+    berry: `
+      <path d="M100 78 C100 64 106 54 118 48" class="sb" style="stroke-width:2.2"/>
+      <path d="M118 48 C136 36 154 44 156 46 C146 62 128 62 118 48Z" class="fb lite sb"/>
+      ${[[74,96],[100,92],[126,96],[87,120],[113,120],[100,144]].map(([x, y], i) =>
+        `<circle cx="${x}" cy="${y}" r="13" class="fa lite sa breathe" style="animation-delay:${i * .35}s"/><path d="M${x - 6} ${y - 3} q2-5 6-6" class="sb" style="stroke-width:1.4"/>`).join('')}
+      <circle cx="100" cy="120" r="16" class="sb ring"/>
+      <circle cx="100" cy="120" r="16" class="sa ring" style="animation-delay:1.4s"/>`,
+    incense: `
+      <path d="M60 178 H140" class="sb" opacity=".6"/>
+      <path d="M92 178 L108 114" class="sa" style="stroke-width:2.6"/>
+      <circle cx="108" cy="112" r="3.6" class="fa dot breathe"/>
+      <path d="M108 108 C96 92 120 82 106 64 C92 46 120 38 108 18" class="sb smoke" pathLength="100"/>
+      <path d="M108 108 C122 94 98 80 112 62 C126 44 100 34 112 14" class="sa smoke" pathLength="100" style="animation-delay:-3s;animation-duration:9s;opacity:.6"/>
+      <path d="M107 108 C100 96 114 88 104 72" class="sb smoke" pathLength="100" style="animation-delay:-1.5s;animation-duration:5.5s;opacity:.5"/>`,
+    citrus: `
+      <circle cx="100" cy="100" r="74" class="sa" style="stroke-width:2.4"/>
+      <circle cx="100" cy="100" r="66" class="sb" opacity=".6" stroke-dasharray="3 5"/>
+      <g class="o spin s70">${R(10).map(i => `<ellipse cx="100" cy="66" rx="10" ry="27" transform="rotate(${i * 36} 100 100)" class="fa lite sb"/>`).join('')}</g>
+      <circle cx="100" cy="100" r="6" class="fa dot"/>
+      <circle cx="170" cy="42" r="3" class="fa dot twinkle"/>
+      <circle cx="184" cy="64" r="2" class="fb dot twinkle" style="animation-delay:-1s"/>
+      <circle cx="26" cy="152" r="3" class="fb dot twinkle" style="animation-delay:-2s"/>`,
+    tags: `
+      <g class="sway"><g transform="rotate(-14 100 100)"><rect x="64" y="48" width="64" height="100" rx="8" class="sb"/><circle cx="96" cy="62" r="4" class="sb"/></g></g>
+      <g class="sway rev"><g transform="rotate(9 100 100)"><rect x="76" y="40" width="64" height="100" rx="8" class="sa fa lite"/><circle cx="108" cy="54" r="4" class="sa"/><path d="M90 84 H126 M90 98 H118 M90 112 H122" class="sa" opacity=".7"/></g></g>
+      <path d="M108 54 C112 28 140 20 150 34" class="sa"/>`,
+    pulse: `
+      <circle cx="100" cy="100" r="22" class="sb ring"/>
+      <circle cx="100" cy="100" r="22" class="sa ring" style="animation-delay:1.3s"/>
+      <path d="M8 100 H56 L70 100 L82 56 L96 148 L108 82 L118 100 H192" class="sb" opacity=".35"/>
+      <path d="M8 100 H56 L70 100 L82 56 L96 148 L108 82 L118 100 H192" class="sa beat" pathLength="100"/>`
+  };
+
+
+  const EMBID = { prologue:'venn','re-scene':'floral',scenedrome:'amber',glowup:'soap',dearest:'grass',lipbomb:'berry',runaway:'incense',prettygirl:'citrus',margins:'tags',pulse:'pulse' };
+  const HUD = { prologue:['Prologue','이름에 담긴 향'],margins:['여백','광고 · 화보'] };
+  const hudOf = c => HUD[c.id] || ['N°' + (+c.n), c.scent ? c.scent[0] : c.title];
+
+  /* ---------- timeline model tweaks ---------- */
+  const items = TL.items.filter(i => i.type !== 'x').map(i => i);
+  const pulseEra = items.find(i => i.type === 'era' && i.ch.id === 'pulse');
+  pulseEra.iso = '2026-10-13';
+  const marg = RC.chapters.find(c => c.id === 'margins') || { id: 'margins', n: '09', c: ['#e9d7ff', '#ffd1b8'], title: 'In the Margins', meta: '여백 · 광고 · 화보 · 홍보대사', caption: '연표에 다 못 적은 것들을 여백에 모아 뒀어요.' };
+  items.push({ type: 'margins', iso: '2026-10-12', ord: 3, ch: { ...marg, id: 'margins', n: '09', c: ['#e9d7ff', '#ffd1b8'], title: 'In the Margins', meta: '여백 · 광고 · 화보 · 홍보대사', caption: '연표에 다 못 적은 것들을 여백에 모아 뒀어요.' } });
+  items.sort((a, b) => a.iso < b.iso ? -1 : a.iso > b.iso ? 1 : a.ord - b.ord);
+  const eraAt = iso => { let cur = TL.R.chapters[0]; TL.R.chapters.forEach(c => { const d = c.id === 'pulse' ? '2026-10-13' : /(\d{4})\.(\d{2})\.(\d{2})/.test(c.meta) ? c.meta.match(/(\d{4})\.(\d{2})\.(\d{2})/).slice(1).join('-') : '2024-03-26'; if (d <= iso) cur = c; }); return cur; };
+  const MCH = { id: 'margins', n: '09', c: ['#e9d7ff', '#ffd1b8'], title: 'In the Margins' };
+  const chOf = iso => iso >= '2026-10-12' && iso < '2026-10-13' ? MCH : eraAt(iso);
+
+  /* ---------- content pieces from the original ---------- */
+  const star = `<svg class="stamp" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10.5" fill="none" stroke="currentColor" stroke-dasharray="2 2.4"/><path d="M12 5.6l1.9 3.9 4.3.6-3.1 3 .7 4.3L12 15.4l-3.8 2 .7-4.3-3.1-3 4.3-.6z" fill="currentColor" stroke="none"/></svg>`;
+  const stampRow = (name, sub, dates, n, offset = 0) => `<div class="show-row"><div class="show-name">${name}<small>${sub}</small></div><div class="show-dates">${dates}</div><div class="stamps">${R(n).map(i => star.replace('class="stamp"', `class="stamp" style="--k:${i + offset}"`)).join('')}</div></div>`;
+  const rec = (v, unit, label) => `<div class="rec"><b><span class="count" data-v="${v}">${fmt(v)}</span><small>${unit}</small></b><span>${label}</span></div>`;
+  const tags = items => `<ul class="tag-list">${items.map(t => typeof t === 'string' ? `<li class="tag">${t}</li>` : `<li class="tag star">${t.t}</li>`).join('')}</ul>`;
+  const winsHTML = () => `<div class="wins reveal"><h3 class="wins-t ink reveal" data-t="여름의 기록">여름의 기록</h3><p class="wins-note">음악방송 1위, 2026년 7월 14일부터 8월 16일까지</p>
+    ${stampRow('더 쇼', 'Pretty Girl', '07.14', 1, 0)}${stampRow('쇼! 음악중심', 'Pretty Girl · 트리플 크라운', '07.25 · 08.08 · 08.15', 3, 1)}${stampRow('인기가요', 'LOVE ATTACK', '07.26 · 08.16', 2, 4)}
+    <div class="recs">${rec(6, '회', '음악방송 1위 합계, 트리플 크라운 1회 포함')}${rec(10, '주', '멜론 주간 차트 1위 연속 (LOVE ATTACK, 29~38주차)')}${rec(63, '일', '멜론 일간 차트 1위 누적 (LOVE ATTACK)')}${rec(9, '주', '써클 스트리밍 차트 주간 1위 연속 (LOVE ATTACK)')}${rec(7, '주', '써클 디지털 차트 주간 1위 (LOVE ATTACK)')}</div>
+    <p class="recs-note">멜론 월간 차트도 8월, 9월 연속 1위예요. 차트 기록은 2026년 10월 초 문서 기준이에요.</p></div>`;
+  const marginsHTML = () => `<div class="tags reveal fade">
+    <h4>광고 2025</h4>${tags(['프리티스킨', '엘리트 교복'])}
+    <h4>광고 2026</h4>${tags(['I-SHA Wish I-GIRL', 'WIND AND SEA', '넥슨 FC 모바일', '카사베르디 (그레인온 공식 모델)', '엘리트 교복 (2년 연속)', { t: 'CU (업계 처음 전속 모델 제안)' }, '도미노피자', '티오더', '나랑드 사이다', 'Epais', '한스킨', { t: '할리스 (1998년 창사 이래 첫 광고 모델)' }, 'MLB', '카카오톡', '메가스터디'])}
+    <h4>협업</h4>${tags(['GS25 가이드북 YAHO (2025.08)', '서든어택', '김씨네과일', 'KREAM 굿즈', '가우디 특별전', '패트와 매트'])}
+    <h4>화보</h4>${tags(['코스모폴리탄 코리아 2024.5', 'BEAUTY+ 2025.5', '앳스타일 2026.6', 'MIIM 디지털 (원이, 미나미)', '하퍼스 바자 코리아 2026.8'])}
+    <h4>홍보대사 · 위촉</h4>${tags(['한국청소년연맹 2025', '캐릭터·라이선싱 페어 (2년 연속)', '거제시 (원이)', '수원시 (리브)', '경주시 (제나)', '고양시 (메이)', '저스트 메이크업 IN TOKYO 2027', '섬의 날', 'MBC 아시안게임 중계방송', '한국벤처투자', { t: '거제시 명예시민 (연예인 최초 멤버 전원)' }])}
+    <p>밑줄 친 항목은 문서에서 처음이라고 적어 둔 것들이에요.</p></div>`;
+  const pulseExtra = () => { const pre = toPulse > 0 ? 'D-' : 'D+';
+    return toPulse === 0 ? `<div class="reveal"><div class="cd">D-Day</div><div class="cd-l">미니 4집 PULSE 발매일</div></div>`
+      : `<div class="reveal"><div class="cd"><span class="count" data-v="${Math.abs(toPulse)}" data-pre="${pre}">${pre}${fmt(Math.abs(toPulse))}</span></div><div class="cd-l">미니 4집 PULSE ${toPulse > 0 ? '발매까지' : '발매 후'}</div></div>`; };
+  const faces = c => c.mem ? `<ul class="faces reveal">${c.mem.map((m, k) => `<li style="--k:${k}"><img src="${RC.img(m.img)}" alt="" decoding="async"><span>${m.n}</span><small>${m.en}</small></li>`).join('')}</ul>` : '';
+
+  /* ---------- render ---------- */
+  const MV_MAX = RC.mvMax * 1.04;
+  $('#stats').innerHTML = RC.stats.map(s => `<li><b class="count" data-v="${s.v}" data-suf="${s.suf}">${fmt(s.v)}${s.suf}</b><span>${s.l}</span></li>`).join('');
+
+  const eraHTML = (it, idx) => {
+    const c = it.ch, E = EMBID[c.id];
+    const mvs = (c.mvs && c.mvs.length) ? `<div class="mvs reveal"><p class="mvs-h">MV 조회수 <small>2026.10.14 기준</small></p>${c.mvs.map(m => `<div class="mv"><span class="mv-n">${m.n}<small>${m.d}</small></span><b class="count" data-v="${m.v}">${fmt(m.v)}</b><span class="bar"><i style="--w:${(m.v / MV_MAX).toFixed(3)}"></i></span></div>`).join('')}</div>` : '';
+    const facts = c.id === 'prologue' ? `<ul class="events">${c.events.filter(e => !/^\d/.test(e.d)).concat(c.events.filter(e => e.s)).map((e, k) => `<li class="reveal fade${e.s ? ' star' : ''}" style="--d:${k * 60}ms"><span class="d">${e.d}</span><span class="t">${e.t}</span></li>`).join('')}</ul>` : '';
+    const photo = (c.id === 'pulse') ? '' : `<figure class="eraphoto reveal fade"><img src="${RC.img(HI[c.id] || c.group)}" alt="" decoding="async"></figure>`;
+    const extra = (c.id === 'prettygirl' ? winsHTML() : '') + (c.id === 'pulse' ? pulseExtra() : '') + (c.id === 'pulse' ? '' : faces(c));
+    return `<section class="chapter${idx % 2 ? ' flip' : ''}${c.id === 'pulse' ? ' pulse-ch' : ''}" id="${c.id}" data-iso="${it.iso}" data-i="${c.id}" style="--c1:${c.c[0]};--c2:${c.c[1]}">
+      <div class="head"><p class="no reveal fade">${c.meta}</p><h2 class="title ink reveal" data-t="${c.title}">${c.title}</h2>
+      ${c.scent ? `<p class="scentline reveal fade"><span class="scent-kr ink" data-t="${c.scent[0]}">${c.scent[0]}</span><span class="scent-en">${c.scent[1]}</span></p>` : ''}
+      <p class="caption reveal fade">${c.caption}</p>${(c.body || []).map(p => `<p class="body reveal fade">${p}</p>`).join('')}</div>
+      <div class="emblem reveal fade"><svg class="emb" viewBox="0 0 200 200" aria-hidden="true">${EMB[E]}</svg></div>${mvs}${facts}${photo}
+      ${extra ? `<div class="extra">${extra}</div>` : ''}</section>`;
+  };
+  const marginsSection = it => `<section class="chapter simple" id="margins" data-iso="${it.iso}" data-i="margins" style="--c1:${it.ch.c[0]};--c2:${it.ch.c[1]}"><div class="head"><p class="no reveal fade">${it.ch.meta}</p><h2 class="title ink reveal" data-t="In the Margins">In the Margins</h2><p class="caption reveal fade">${it.ch.caption}</p></div><div class="emblem reveal fade"><svg class="emb" viewBox="0 0 200 200" aria-hidden="true">${EMB.tags}</svg></div><div class="extra">${marginsHTML()}</div></section>`;
+
+  const cpGroups = { '2026-10-19': ['콘셉트 포토 A', [1, 2, 3, 4]], '2026-10-20': ['콘셉트 포토 B', [5, 6, 7]] };
+  const cpHTML = iso => { const g = cpGroups[iso]; if (!g) return ''; return `<div class="cp-strip reveal">${g[1].map((n, k) => `<figure style="--k:${k}"><img src="${RC.img('pulse_' + n)}" alt="" decoding="async"><figcaption>${String(n).padStart(2, '0')}</figcaption></figure>`).join('')}</div>`; };
+  const shotHTML = i => {
+    const d = i.iso.endsWith('-00') ? i.iso.slice(5, 7) : RC.md(i.iso);
+    const inner = `${RC.thumb(i)}<div class="meta"><span class="d">${d}</span><span class="t">${i.title}</span><span class="kind">${i.secKr}${i.tag && i.tag !== i.secKr ? ' · ' + i.tag : ''}</span>${i.p ? `<p class="p">${i.p}</p>` : ''}${i.stat ? `<span class="st">${i.stat}</span>` : ''}</div>`;
+    return RC.wrapLink(i, 'shot reveal fade', inner).replace('class="shot', `data-iso="${i.iso}" class="shot`);
+  };
+  const rankHTML = () => { const w = 520, h = 160, { pts } = RC.chartPath(w, h, 26); const d = pts.map((p, k) => (k ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join(' ');
+    return `<div class="rank reveal fade" id="rank" data-iso="2026-06-01"><p class="rt">멜론 TOP100 · LOVE ATTACK</p><div class="big" id="rn">28</div><svg viewBox="0 0 ${w} ${h}"><defs><linearGradient id="rg" x1="0" x2="1"><stop offset="0" stop-color="var(--c1)"/><stop offset="1" stop-color="var(--c2)"/></linearGradient></defs><path id="rp" class="ln" d="${d}" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>${RC.chart.map((c, k) => `<circle cx="${pts[k][0]}" cy="${pts[k][1]}" r="4.5" fill="#fff"/><text x="${pts[k][0]}" y="${pts[k][1] + (c.r < 3 ? -12 : 22)}" text-anchor="middle">${RC.md(c.d)} ${c.l}</text>`).join('')}</svg></div>`; };
+
+  let out = '', eraIdx = 0, lastMonth = '', ul = false;
+  const closeUl = () => { if (ul) { out += '</ul>'; ul = false; } };
+  items.forEach(it => {
+    const mk = it.iso.slice(0, 7);
+    if (mk !== lastMonth && it.type !== 'era' && it.type !== 'margins') { closeUl(); lastMonth = mk; out += `<div class="month reveal fade" data-iso="${it.iso}"><b>${mk.slice(5)}</b><span>${mk.slice(0, 4)} · ${TL.MON[+mk.slice(5)]}</span></div>`; if (mk === '2026-06') out += `<div class="stream">${rankHTML()}</div>`; }
+    else if (mk !== lastMonth) lastMonth = mk;
+    if (it.type === 'era') { closeUl(); out += eraHTML(it, eraIdx++); lastMonth = ''; return; }
+    if (it.type === 'margins') { closeUl(); out += marginsSection(it); lastMonth = ''; return; }
+    if (it.type === 'card') { closeUl(); out += `<div class="stream">${shotHTML(it)}</div>`; return; }
+    if (it.type === 'tick' || it.type === 'ms') {
+      if (!ul) { out += '<div class="stream"><ul class="events">'; ul = true; }
+      const hot = it.hot || it.type === 'ms';
+      out += `<li class="reveal fade${hot ? ' star' : ''}${it.future ? ' fut' : ''}" data-iso="${it.iso}"><span class="d">${RC.md(it.iso).replace('.00', '')}</span><span class="t">${it.title}${cpGroups[it.iso] ? cpHTML(it.iso) : ''}</span></li>`;
+      return;
+    }
+  });
+  closeUl();
+  // streams: ul wrappers were opened without closing div; fix by DOM parse below
+  out = out.replace(/<div class="stream"><ul class="events">([\s\S]*?)<\/ul>/g, '<div class="stream"><ul class="events">$1</ul></div>');
+  $('#chapters').innerHTML = out;
+  document.documentElement.style.setProperty('--c1', RC.chapters[0].c[0]);
+
+  /* ---------- reveal & counters ---------- */
+  function runCount(el) {
+    const to = +el.dataset.v, pre = el.dataset.pre || '', suf = el.dataset.suf || '';
+    const set = n => { el.textContent = pre + fmt(n) + suf; };
+    if (RM) { set(to); return; }
+    const t0 = performance.now(), dur = 1600;
+    const step = t => { const k = Math.min(1, (t - t0) / dur); set(Math.round(to * (1 - Math.pow(1 - k, 3)))); if (k < 1) requestAnimationFrame(step); };
+    requestAnimationFrame(step);
+  }
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return;
+    const el = e.target;
+    el.classList.remove('w'); el.classList.add('in');
+    $$('.count', el).forEach(runCount);
+    if (el.classList.contains('count')) runCount(el);
+    io.unobserve(el);
+  }), { threshold: 0 });
+  const fontsReady = Promise.race([document.fonts ? document.fonts.ready : Promise.resolve(), new Promise(r => setTimeout(r, 1500))]);
+  fontsReady.then(() => {
+    const vh = innerHeight;
+    $$('.reveal').forEach(el => {
+      const below = el.getBoundingClientRect().top > vh * 0.98;
+      if (below && !RM && (el.classList.contains('fade') || el.classList.contains('mvs') || el.classList.contains('wins'))) el.classList.add('w');
+      io.observe(el);
+    });
+  });
+
+  /* ---------- mist ---------- */
+  const hex = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+  const BG = [14, 11, 20];
+  let cur = [hex(RC.chapters[0].c[0]), hex(RC.chapters[0].c[1])];
+  let tgt = cur.map(a => a.slice());
+  const cv = $('#mist'), cx = cv.getContext('2d');
+  let W = 0, H = 0;
+  const size = () => { W = Math.max(60, Math.round(innerWidth / 9)); H = Math.max(60, Math.round(innerHeight / 9)); cv.width = W; cv.height = H; };
+  size();
+  const blobs = [
+    { x: .2, y: .25, r: .55, s: .11, p: 0, k: 0, a: .30 }, { x: .8, y: .2, r: .5, s: .09, p: 2, k: 1, a: .26 },
+    { x: .5, y: .6, r: .6, s: .07, p: 4, k: 2, a: .17 }, { x: .15, y: .85, r: .5, s: .1, p: 1, k: 1, a: .22 },
+    { x: .85, y: .8, r: .55, s: .08, p: 5, k: 0, a: .22 }
+  ];
+  function draw(t) {
+    cx.globalCompositeOperation = 'source-over';
+    cx.fillStyle = `rgb(${BG})`; cx.fillRect(0, 0, W, H);
+    cx.globalCompositeOperation = 'lighter';
+    const mix = cur[0].map((v, i) => Math.round((v + cur[1][i]) / 2));
+    blobs.forEach(b => {
+      const x = (b.x + Math.sin(t * b.s + b.p) * .18) * W, y = (b.y + Math.cos(t * b.s * .8 + b.p * 1.3) * .16) * H;
+      const r = b.r * Math.max(W, H), col = b.k === 0 ? cur[0] : b.k === 1 ? cur[1] : mix;
+      const g = cx.createRadialGradient(x, y, 0, x, y, r);
+      g.addColorStop(0, `rgba(${col.map(Math.round)},${b.a})`); g.addColorStop(1, `rgba(${col.map(Math.round)},0)`);
+      cx.fillStyle = g; cx.fillRect(0, 0, W, H);
+    });
+  }
+  function loop(ts) { cur = cur.map((c, i) => c.map((v, j) => v + (tgt[i][j] - v) * .025)); draw(ts / 1000); requestAnimationFrame(loop); }
+  if (RM) draw(0); else requestAnimationFrame(loop);
+  addEventListener('resize', () => { size(); if (RM) draw(0); });
+
+  /* ---------- active era / D+ / hud ---------- */
+  const hud = $('#hud'), rootStyle = document.documentElement.style;
+  let shown = 1, target = 1, lastEra = '';
+  (function t() { shown += (target - shown) * .14; if (Math.abs(target - shown) < .5) shown = target; const e = $('#hd'); if (e) e.textContent = 'D+' + Math.round(shown); requestAnimationFrame(t); })();
+  const marks = $$('[data-iso]'); const eraEls = $$('.chapter');
+  const rank = $('#rank'), rp = $('#rp'), rn = $('#rn');
+  function setActive(iso) {
+    const c = chOf(iso);
+    if (c.id === lastEra) return; lastEra = c.id;
+    rootStyle.setProperty('--c1', c.c[0]); rootStyle.setProperty('--c2', c.c[1]);
+    tgt = [hex(c.c[0]), hex(c.c[1])];
+    if (RM) { cur = tgt.map(a => a.slice()); draw(0); }
+    const h = hudOf(c); hud.innerHTML = `<b>${h[0]}</b><span>${h[1]}</span><i id="hd">D+1</i>`;
+  }
+  hud.innerHTML = `<b>Prologue</b><span>이름에 담긴 향</span><i id="hd">D+1</i>`;
+  function onScroll() {
+    let curm = null; for (const m of marks) { if (m.getBoundingClientRect().top < innerHeight * .5) curm = m; else break; }
+    if (curm) { const iso = curm.dataset.iso; target = TL.dplus(iso); setActive(iso); }
+    eraEls.forEach(e => e.style.setProperty('--ep', RC.prog(e).toFixed(3)));
+    if (rank) { const k = Math.min(1, Math.max(0, (innerHeight * .9 - rank.getBoundingClientRect().top) / (innerHeight * .6))); rp.style.strokeDashoffset = 1 - k; rn.textContent = Math.max(1, Math.round(28 - k * 27)); }
+  }
+
+  /* ---------- thread ---------- */
+  const wrap = $('#wrap'), svg = $('#thread');
+  let pathEl, beadEl, nodes = [], L = 0, Hh = 0;
+  function build() {
+    const wr = wrap.getBoundingClientRect();
+    Hh = Math.round(wr.height); const Wd = Math.round(wr.width);
+    svg.setAttribute('width', Wd); svg.setAttribute('height', Hh); svg.setAttribute('viewBox', `0 0 ${Wd} ${Hh}`);
+    const sx = parseFloat(getComputedStyle(wrap).paddingLeft) * .4;
+    let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+    const pts = [];
+    for (let y = 0; y <= Hh; y += 110) pts.push([sx + (rnd() - .5) * 9, y]);
+    pts.push([sx, Hh]);
+    let d = `M${pts[0][0]} ${pts[0][1]}`;
+    for (let i = 0; i < pts.length - 1; i++) {
+      const p0 = pts[i - 1] || pts[i], p1 = pts[i], p2 = pts[i + 1], p3 = pts[i + 2] || p2;
+      d += ` C${p1[0] + (p2[0] - p0[0]) / 6} ${p1[1] + (p2[1] - p0[1]) / 6} ${p2[0] - (p3[0] - p1[0]) / 6} ${p2[1] - (p3[1] - p1[1]) / 6} ${p2[0]} ${p2[1]}`;
+    }
+    const secs = $$('.chapter');
+    const ys = secs.map(s => $('.no', s).getBoundingClientRect().top - wr.top + 14);
+    const cols = secs.map(s => s.style.getPropertyValue('--c1'));
+    const stops = secs.map((s, i) => `<stop offset="${Math.min(1, Math.max(0, ys[i] / Hh)).toFixed(4)}" stop-color="${cols[i]}"/>`).join('');
+    svg.innerHTML = `<defs><linearGradient id="tg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="${Hh}"><stop offset="0" stop-color="${RC.chapters[0].c[0]}"/>${stops}<stop offset="1" stop-color="#7a86ff"/></linearGradient></defs>
+      <path class="track" d="${d}"/><path class="inkline" id="inkline" d="${d}" stroke="url(#tg)"/><g id="nodes"></g><g id="bead"><circle class="bead-glow" r="12"/><circle class="bead-core" r="4.5"/></g>`;
+    pathEl = $('#inkline'); L = pathEl.getTotalLength();
+    pathEl.style.strokeDasharray = `${L} ${L}`;
+    const pointAtY = y => { let lo = 0, hi = L; for (let k = 0; k < 20; k++) { const m = (lo + hi) / 2; if (pathEl.getPointAtLength(m).y < y) lo = m; else hi = m; } return pathEl.getPointAtLength(lo); };
+    const g = $('#nodes');
+    nodes = ys.map((y, i) => {
+      const p = pointAtY(y);
+      const el = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+      el.setAttribute('class', 'node'); el.setAttribute('transform', `translate(${p.x} ${y})`); el.style.setProperty('--nc', cols[i]);
+      el.innerHTML = '<circle class="node-ring" r="9"/><circle class="node-dot" r="4"/>';
+      g.appendChild(el); return { el, y };
+    });
+    beadEl = $('#bead');
+    update();
+  }
+  function update() {
+    if (!pathEl) return;
+    const r = wrap.getBoundingClientRect();
+    const y = RM ? Hh : Math.min(Hh, Math.max(0, innerHeight * .55 - r.top));
+    const p = Hh ? y / Hh : 0;
+    pathEl.style.strokeDashoffset = L * (1 - p);
+    const pt = pathEl.getPointAtLength(L * p);
+    beadEl.setAttribute('transform', `translate(${pt.x} ${pt.y})`);
+    nodes.forEach(n => n.el.classList.toggle('lit', n.y <= y + 8));
+  }
+  let raf = 0;
+  addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(() => { raf = 0; update(); onScroll(); }); }, { passive: true });
+  let rebuildT = 0;
+  const rebuildSoon = () => { clearTimeout(rebuildT); rebuildT = setTimeout(build, 120); };
+  new ResizeObserver(rebuildSoon).observe(wrap);
+  $$('img').forEach(i => { if (!i.complete) i.addEventListener('load', rebuildSoon, { once: true }); });
+  build(); onScroll();
+  fontsReady.then(rebuildSoon);
+})();
+</script></body></html>
