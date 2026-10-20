@@ -1,0 +1,93 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>리센느 연대기 · Spine Timeline</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Pinyon+Script&family=JetBrains+Mono:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}html{overflow-x:hidden;-webkit-text-size-adjust:100%}
+:root{--tint:#ffc2dd;--c1:#ffc2dd;--c2:#b9a4ff;--ink:#2b2133}
+body{overflow-x:clip;background-color:color-mix(in srgb,var(--tint) 24%,#fffaf6);color:var(--ink);font-family:"Noto Sans KR",sans-serif;word-break:keep-all;overflow-wrap:anywhere;transition:background-color 1.4s}
+img{max-width:100%}a{color:inherit}
+.stamp{position:fixed;right:10px;top:10px;z-index:60;background:var(--ink);color:#fff;border-radius:99px;padding:6px 14px;font:700 12px "JetBrains Mono",monospace;letter-spacing:.06em;box-shadow:0 8px 24px #0003}.stamp b{color:var(--tint);font-size:15px}
+/* hero */
+.hero{min-height:100svh;position:relative;display:grid;place-items:center;text-align:center;padding:60px 14px 40px;overflow:hidden}
+.blob{position:absolute;border-radius:50%;filter:blur(50px);opacity:.75;animation:fl 14s ease-in-out infinite alternate}.bl1{width:70vmin;height:70vmin;background:#ffc2dd;left:-15vmin;top:5vh}.bl2{width:60vmin;height:60vmin;background:#b9a4ff;right:-10vmin;top:25vh;animation-delay:-5s}.bl3{width:50vmin;height:50vmin;background:#ffd8a8;left:25vw;bottom:-14vmin;animation-delay:-9s}@keyframes fl{to{transform:translate(6vw,-4vh) scale(1.18)}}
+.mg{position:absolute;width:min(86vw,520px);aspect-ratio:1;left:50%;top:50%;margin:calc(min(86vw,520px)/-2) 0 0 calc(min(86vw,520px)/-2);opacity:.9}.mg g{transform-origin:50% 50%}.mg .p1{animation:spin 30s linear infinite}.mg .p2{animation:spin 20s linear infinite reverse}.mg .p3{animation:spin 50s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+.mg ellipse{fill:none;stroke:var(--ink);stroke-width:.5;opacity:.5}.mg circle{fill:var(--ink)}
+.hero h1{position:relative;font:900 clamp(60px,20vw,260px)/.85 "Noto Sans KR",sans-serif;letter-spacing:-.07em;color:var(--ink)}.hero h1 .ch{display:inline-block;transform:translateY(120%) rotate(-10deg);opacity:0;animation:pop .9s cubic-bezier(.2,1.2,.3,1) forwards;animation-delay:calc(var(--i)*80ms + .2s)}@keyframes pop{to{transform:none;opacity:1}}
+.hero h1 .wrap{display:block;overflow:hidden;padding:.08em .04em .14em}
+.hero .sc{position:relative;font:400 clamp(36px,10vw,110px)/1 "Pinyon Script",cursive;color:#e0457b;margin-top:-.2em;opacity:0;animation:fd 1.2s 1.3s forwards}@keyframes fd{to{opacity:1}}
+.hero .sub{position:relative;font:400 clamp(26px,6vw,40px)/1.2 "Nanum Pen Script",cursive;margin-top:10px}
+.cnt{position:relative;margin-top:22px;display:flex;gap:10px 22px;flex-wrap:wrap;justify-content:center}.cnt div{background:#fff9;backdrop-filter:blur(8px);border:2px solid var(--ink);border-radius:18px;padding:8px 14px;box-shadow:4px 4px 0 var(--ink)}.cnt b{display:block;font:900 clamp(22px,5vw,34px)/1 "Noto Sans KR";letter-spacing:-.04em}.cnt span{font-size:11px}
+.mq{background:var(--ink);color:#fff;overflow:hidden;white-space:nowrap;padding:10px 0;font:900 clamp(18px,4vw,28px)/1 "Noto Sans KR",sans-serif;letter-spacing:-.02em}.mq div{display:inline-block;animation:mq 28s linear infinite}@keyframes mq{to{transform:translateX(-50%)}}.mq i{color:var(--tint);font-style:normal;margin:0 .6em}
+/* spine */
+.spine{position:relative;max-width:1040px;margin:0 auto;padding:30px 14px 60px 56px}
+.spine .rail{position:absolute;left:24px;top:0;bottom:0;width:4px;background:#2b213322;border-radius:4px}.spine .fill{position:absolute;left:24px;top:0;width:4px;border-radius:4px;background:linear-gradient(var(--c1),var(--c2),var(--c1));height:calc(var(--sp,0)*100%)}
+.spine .bead{position:absolute;left:17px;top:calc(var(--sp,0)*100%);width:18px;height:18px;border-radius:50%;background:#fff;border:4px solid var(--ink);box-shadow:0 0 0 6px color-mix(in srgb,var(--tint) 60%,transparent);transform:translateY(-9px);z-index:6}
+@media(min-width:900px){.spine{padding:30px 14px 60px}.spine .rail,.spine .fill{left:calc(50% - 2px)}.spine .bead{left:calc(50% - 9px)}}
+/* month pill */
+.mon{position:relative;margin-top:36px}.pill{position:sticky;top:50px;z-index:7;display:inline-flex;align-items:baseline;gap:8px;background:var(--ink);color:#fff;border-radius:99px;padding:6px 16px 6px 14px;box-shadow:0 8px 20px #0003;transform:scale(.6);opacity:0;transition:.7s cubic-bezier(.2,1.4,.3,1);transform-origin:left center}.mon.in .pill{transform:none;opacity:1}
+.pill b{font:900 clamp(26px,6vw,40px)/1 "Noto Sans KR",sans-serif;letter-spacing:-.05em;color:var(--tint)}.pill i{font:700 12px "JetBrains Mono",monospace;font-style:normal;letter-spacing:.2em}
+@media(min-width:900px){.pill{display:flex;width:max-content;margin:0 auto;transform-origin:center}}
+.rows{display:grid;gap:26px;margin-top:20px}
+.dot{position:absolute;left:-40px;top:14px;width:16px;height:16px;border-radius:50%;background:var(--tint);border:3px solid var(--ink);z-index:5;transform:scale(0);transition:.5s cubic-bezier(.2,1.6,.3,1)}.in>.dot,.in .dot{transform:none}
+@media(min-width:900px){.dot{left:calc(50% - 8px - 14px);top:14px}}
+.row{position:relative}
+@media(min-width:900px){.row{width:50%}.row.r{margin-left:50%;padding-left:34px}.row.l{padding-right:34px}.row.l .dot{left:auto;right:-8px}.row.r .dot{left:-8px}}
+/* tick */
+.tick{position:relative;display:inline-flex;gap:10px;align-items:baseline;background:#fff;border:2px solid var(--ink);border-radius:16px 16px 16px 4px;padding:8px 14px;box-shadow:3px 3px 0 var(--ink);max-width:100%;opacity:0;transform:translateX(-30px) rotate(-1deg);transition:.7s cubic-bezier(.2,1.2,.3,1)}.tick.in{opacity:1;transform:none}.tick b{font:700 12px "JetBrains Mono",monospace;color:#e0457b;white-space:nowrap}.tick span{font-weight:500;font-size:15px}.tick.hot{background:var(--tint);font-weight:900}.tick.future{border-style:dashed;box-shadow:none;background:#fff7}
+@media(min-width:900px){.row.l .tick{float:right}}
+/* card polaroid */
+.card{display:block;text-decoration:none;position:relative;background:#fff;padding:10px 10px 14px;border:2px solid var(--ink);box-shadow:6px 6px 0 var(--ink);max-width:420px;transform:translateY(60px) rotate(calc(var(--r,2deg)*3));opacity:0;transition:transform .9s cubic-bezier(.2,1.1,.3,1),opacity .6s}.card.in{transform:rotate(var(--r,-1.5deg));opacity:1}.card:hover{transform:rotate(0) scale(1.03)}
+.row.l .card{margin-left:auto}
+.card::before{content:"";position:absolute;left:50%;top:-12px;width:80px;height:22px;margin-left:-40px;background:color-mix(in srgb,var(--tint) 70%,#fff);opacity:.9;transform:rotate(-3deg);z-index:3}
+.card .rc-th{aspect-ratio:4/3}.card .chip{position:absolute;right:-8px;top:18px;z-index:4;background:#e0457b;color:#fff;font:700 11px "JetBrains Mono",monospace;padding:3px 10px;transform:rotate(4deg);box-shadow:2px 2px 0 var(--ink)}
+.card .dt{display:flex;gap:10px;align-items:baseline;margin-top:10px}.card .dd{font:900 34px/1 "Noto Sans KR",sans-serif;letter-spacing:-.05em;color:#e0457b}.card h3{font:900 18px/1.2 "Noto Sans KR",sans-serif;letter-spacing:-.02em}.card p{font:400 22px/1.15 "Nanum Pen Script",cursive;margin-top:6px}.card .stat{display:inline-block;margin-top:6px;background:var(--ink);color:#fff;font:700 11px "JetBrains Mono",monospace;padding:2px 8px;letter-spacing:.1em}
+/* era */
+.era{position:relative;margin:70px 0 30px;border:3px solid var(--ink);border-radius:34px;background:linear-gradient(150deg,var(--c1),var(--c2));padding:22px 18px 26px;box-shadow:10px 10px 0 var(--ink);overflow:hidden;opacity:0;transform:translateY(60px) scale(.96);transition:.9s cubic-bezier(.2,1,.3,1)}.era.in{opacity:1;transform:none}
+.era .no{position:absolute;right:-6px;top:-18px;font:900 clamp(120px,36vw,300px)/1 "Noto Sans KR",sans-serif;letter-spacing:-.08em;color:transparent;-webkit-text-stroke:2px #ffffffaa;pointer-events:none;transform:translateX(calc((var(--ep,.5) - .5)*-12vw))}
+.era .ph{position:relative;width:min(78%,360px);margin:6px 0 4px;background:#fff;padding:8px 8px 34px;border:2px solid var(--ink);box-shadow:6px 6px 0 var(--ink);transform:rotate(calc(8deg - var(--ep,0)*16deg))}.era .ph img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover}.era .ph span{position:absolute;left:0;right:0;bottom:4px;text-align:center;font:400 24px "Nanum Pen Script",cursive}
+.era h2{position:relative;font:900 clamp(46px,14vw,150px)/.9 "Noto Sans KR",sans-serif;letter-spacing:-.07em;margin-top:6px}.era h2 .ch{display:inline-block;transform:translateY(100%);opacity:0;transition:.8s cubic-bezier(.2,1.2,.3,1);transition-delay:calc(var(--i)*55ms)}.era.in h2 .ch{transform:none;opacity:1}.era h2 .w{display:inline-block;overflow:hidden;padding-bottom:.12em}
+.era .sc{font:400 clamp(30px,8vw,64px)/1 "Pinyon Script",cursive;color:#fff;margin:-.1em 0 4px;text-shadow:2px 2px 0 var(--ink)}
+.era .meta{font:700 12px "JetBrains Mono",monospace;letter-spacing:.1em}.era .cap{font:400 clamp(28px,5.5vw,42px)/1.1 "Nanum Pen Script",cursive;margin:8px 0}.era p.b{line-height:1.75;max-width:56ch;margin:6px 0;font-size:15px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}.chips span{background:#fff;border:2px solid var(--ink);border-radius:99px;padding:2px 12px;font:700 12px "JetBrains Mono",monospace}
+.mv{display:grid;grid-template-columns:90px 1fr 96px;gap:10px;align-items:center;font:700 12px "JetBrains Mono",monospace;margin:8px 0}.mv em{height:12px;background:#fff8;border:2px solid var(--ink);border-radius:99px;display:block;overflow:hidden}.mv u{display:block;height:100%;width:var(--w);background:var(--ink);transform-origin:left;transform:scaleX(0);transition:transform 1.6s cubic-bezier(.2,.9,.2,1)}.era.in .mv u{transform:none}.mv b{text-align:right}
+.mem{display:flex;gap:12px;overflow-x:auto;padding:14px 4px 8px;scrollbar-width:none}.mem figure{flex:0 0 auto;width:min(26vw,104px);text-align:center;transform:scale(0);transition:.7s cubic-bezier(.2,1.6,.3,1);transition-delay:calc(var(--i)*90ms)}.era.in .mem figure{transform:none}.mem img{display:block;width:100%;aspect-ratio:1;object-fit:cover;border-radius:50%;border:3px solid var(--ink)}.mem figcaption{font:700 11px "JetBrains Mono",monospace;padding-top:4px}
+/* rank */
+.rank{background:#fff;border:2px solid var(--ink);box-shadow:6px 6px 0 var(--ink);padding:14px 16px;border-radius:20px;max-width:560px}.rank .t{font:700 11px "JetBrains Mono",monospace;letter-spacing:.2em}.rank .n{font:900 clamp(70px,22vw,150px)/.9 "Noto Sans KR",sans-serif;letter-spacing:-.08em;color:#e0457b}.rk{width:100%;overflow:visible;color:var(--ink)}
+.end{text-align:center;padding:60px 14px 100px}.end h2{font:400 clamp(48px,15vw,150px)/1 "Pinyon Script",cursive;color:#e0457b}.end p{font:700 11px "JetBrains Mono",monospace;letter-spacing:.2em;margin-top:10px}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.hero h1 .ch,.hero .sc{opacity:1;transform:none}.card,.tick,.era,.era h2 .ch,.mem figure,.pill{opacity:1;transform:none}.dot{transform:none}.mv u{transform:none}}
+</style></head><body>
+<div class="stamp">D+<b id="sd">1</b></div><div id="app"></div>
+<script src="rc.js"></script><script src="tl.js"></script>
+<script>
+const HI={prologue:'h_prologue','re-scene':'h_rescene'};
+const {R,months}=TL;TL.boot();
+const split=t=>t.split(' ').map((w,wi)=>`<span class="w">${[...w].map((c,i)=>`<span class="ch" style="--i:${i+wi*3}">${c}</span>`).join('')}</span>`).join(' ');
+const mvs=c=>(c.mvs||[]).map(m=>`<div class="mv"><span>${m.n}</span><em><u style="--w:${(m.v/R.mvMax*100).toFixed(1)}%"></u></em><b data-count="${m.v}">0</b></div>`).join('');
+const eraHTML=i=>{const c=i.ch;return `<section class="era" data-iso="${i.iso}" style="--c1:${c.c[0]};--c2:${c.c[1]}"><div class="no">${c.n}</div><div class="ph"><img src="${R.img(HI[c.id]||(c.cover.includes('.')?c.group:c.cover))}" alt=""><span>${c.title}</span></div><div class="meta">${c.meta}</div><h2>${split(c.title)}</h2>${c.scent?`<div class="sc">${c.scent[1]}</div>`:''}<p class="cap">${c.caption}</p>${c.scent?`<div class="chips">${c.scent.map(s=>`<span>${s}</span>`).join('')}</div>`:''}${(c.body||[]).map(p=>`<p class="b">${p}</p>`).join('')}${mvs(c)}<div class="mem">${(c.mem||[]).map((m,k)=>`<figure style="--i:${k}"><img src="${R.img(m.img)}" alt="" decoding="async"><figcaption>${m.en}</figcaption></figure>`).join('')}</div></section>`};
+let n=0;
+const side=()=>(n++%2?'r':'l');
+const cardHTML=i=>{const d=i.iso.endsWith('-00')?'':i.iso.slice(8);const h=R.wrapLink(i,'card',`<span class="chip">${i.secKr}</span>${R.thumb(i)}<div class="dt"><span class="dd">${d}</span><h3>${i.title}</h3></div><p>${i.p||''}</p>${i.stat?`<span class="stat">${i.stat}</span>`:''}`);return h.replace('class="card"',`class="card" data-iso="${i.iso}" style="--r:${(n%2?1:-1)*1.6}deg"`)};
+const tickHTML=i=>`<div class="tick ${i.hot?'hot':''} ${i.future?'future':''}" data-iso="${i.iso}"><b>${R.md(i.iso).replace('.00','')}</b><span>${i.title}</span></div>`;
+const rankHTML=()=>{const w=520,h=170,{pts}=R.chartPath(w,h,26);const d=pts.map((p,k)=>(k?'L':'M')+p[0].toFixed(1)+' '+p[1].toFixed(1)).join(' ');return `<div class="rank" id="rank"><div class="t">MELON TOP100 · LOVE ATTACK</div><div class="n" id="rn">28</div><svg class="rk" viewBox="0 0 ${w} ${h}"><path id="rp" d="${d}" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>${R.chart.map((c,k)=>`<circle cx="${pts[k][0]}" cy="${pts[k][1]}" r="5" fill="#e0457b" stroke="currentColor" stroke-width="2"/><text x="${pts[k][0]}" y="${pts[k][1]+(c.r<3?-12:22)}" text-anchor="middle" fill="currentColor" font-size="12" font-family="JetBrains Mono">${R.md(c.d)} ${c.l}</text>`).join('')}</svg></div>`};
+const rings=`<svg class="mg" viewBox="0 0 200 200"><g class="p1">${[0,30,60,90,120,150].map(a=>`<ellipse cx="100" cy="100" rx="86" ry="30" transform="rotate(${a} 100 100)"/>`).join('')}</g><g class="p2">${[0,1,2,3,4].map(k=>`<circle cx="${100+78*Math.cos(k*1.2566)}" cy="${100+78*Math.sin(k*1.2566)}" r="4.5"/>`).join('')}</g><g class="p3"><circle cx="100" cy="14" r="2.5"/><circle cx="186" cy="100" r="2.5"/><circle cx="100" cy="186" r="2.5"/><circle cx="14" cy="100" r="2.5"/></g></svg>`;
+const band=`${R.members.map(m=>m.en).join('<i>✱</i>')}<i>✱</i>`.repeat(6);
+let html=`<header class="hero"><i class="blob bl1"></i><i class="blob bl2"></i><i class="blob bl3"></i>${rings}<div style="position:relative"><h1><span class="wrap">${[...'Re:Scene'].map((c,i)=>`<span class="ch" style="--i:${i}">${c}</span>`).join('')}</span></h1><div class="sc">a chronicle of scents</div><p class="sub">향기로 다시, 장면을 떠올리는 다섯 명</p><div class="cnt"><div><b data-count="${R.sinceDebut}" data-dur="2400">0</b><span>일째 · 2024.03.26 데뷔</span></div>${R.stats.slice(1).map(s=>`<div><b data-count="${s.v}" data-suf="${s.suf}">0</b><span>${s.l}</span></div>`).join('')}</div></div></header>
+<div class="mq"><div>${band}</div></div><main class="spine" id="spine"><div class="rail"></div><div class="fill"></div><div class="bead"></div>`;
+months.forEach(m=>{const eras=m.items.filter(i=>i.type==='era');const rest=m.items.filter(i=>i.type==='card'||i.type==='tick');
+ if(!eras.length&&!rest.length)return;
+ html+=`<section class="mon" data-m="${m.key}"><div class="pill"><b>${String(m.mo).padStart(2,'0')}</b><i>${m.y} · ${TL.MON[m.mo]}</i></div>`;
+ html+=eras.map(eraHTML).join('');
+ html+=`<div class="rows">${m.key==='2026-06'?`<div class="row ${side()}"><span class="dot"></span>${rankHTML()}</div>`:''}${rest.map(i=>`<div class="row ${side()}"><span class="dot"></span>${i.type==='card'?cardHTML(i):tickHTML(i)}</div>`).join('')}</div></section>`});
+html+=`</main><footer class="end"><h2>to be continued…</h2><p>NEXT SCENE · PULSE · 2026.11.03</p></footer>`;
+app.innerHTML=html;
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -6% 0px'});
+document.querySelectorAll('.tick,.card,.era,.mon,.row').forEach(e=>io.observe(e));R.counts();
+if(R.reduce)document.querySelectorAll('.tick,.card,.era,.mon,.row').forEach(e=>e.classList.add('in'));
+const sd=document.getElementById('sd'),spine=document.getElementById('spine'),marks=[...document.querySelectorAll('[data-iso]')],eras=[...document.querySelectorAll('.era')];
+const rp=document.getElementById('rp'),rn=document.getElementById('rn'),rank=document.getElementById('rank');
+let shown=1,target=1;(function t(){shown+=(target-shown)*.14;if(Math.abs(target-shown)<.5)shown=target;sd.textContent=Math.round(shown);requestAnimationFrame(t)})();
+R.onScroll(()=>{const r=spine.getBoundingClientRect();spine.style.setProperty('--sp',Math.min(1,Math.max(0,(innerHeight*.5-r.top)/r.height)).toFixed(4));
+ let cur=null;for(const m of marks){if(m.getBoundingClientRect().top<innerHeight*.5)cur=m;else break}
+ if(cur){const iso=cur.dataset.iso;target=TL.dplus(iso);const ch=TL.eraAt(iso),s=document.documentElement.style;s.setProperty('--tint',ch.c[0]);s.setProperty('--c1',ch.c[0]);s.setProperty('--c2',ch.c[1])}
+ eras.forEach(e=>e.style.setProperty('--ep',R.prog(e).toFixed(3)));
+ if(rank){const k=Math.min(1,Math.max(0,(innerHeight*.9-rank.getBoundingClientRect().top)/(innerHeight*.6)));rp.style.strokeDashoffset=1-k;rn.textContent=Math.max(1,Math.round(28-k*27))}});
+</script></body></html>
