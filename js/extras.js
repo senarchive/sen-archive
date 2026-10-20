@@ -6,7 +6,7 @@ function renderLiveRelease() {
     }
     const con = document.getElementById('lrConcerts');
     if (con && typeof CONCERT_DATA !== 'undefined') {
-        con.innerHTML = CONCERT_DATA.map(c => `<li><span class="lr-date">${fmt(c.date)}</span><span class="lr-title">${c.title}</span>${c.note ? `<span class="lr-note">${c.note}</span>` : ''}</li>`).join('');
+        con.innerHTML = CONCERT_DATA.map(c => `<li class="${c.upcoming ? 'lr-up' : ''}"><span class="lr-date">${fmt(c.date)}</span><span class="lr-title">${c.title}</span>${c.note ? `<span class="lr-note">${c.note}</span>` : ''}</li>`).join('');
     }
     const rel = document.getElementById('lrReleases');
     if (rel && typeof RELEASE_DATA !== 'undefined') {

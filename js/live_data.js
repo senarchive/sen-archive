@@ -1,4 +1,7 @@
 const LIVE_DATA = [
+    {"date": "2026-10-11", "title": "리뿌 생일 라이브에 오신 걸 환영합니다💝", "cast": "리브", "vid": "fCrQXP_2u3U"},
+    {"date": "2026-10-05", "title": "까엉TV 🤍🩷📺", "cast": "제나", "vid": "mt1YOrDqKHw"},
+    {"date": "2026-10-01", "title": "메이의 심야 라이브😚", "cast": "메이", "vid": "lkHYRzXyGnk"},
     {"date": "2026-09-17", "title": "드로와 드로와 나랑드로와~😙", "cast": "원이, 리브, 메이", "vid": "uvnpuCAz-FE"},
     {"date": "2026-09-04", "title": "오랜만에 와쪄..다 드루왕🩶", "cast": "미나미", "vid": "10xhraj4ex0"},
     {"date": "2026-09-03", "title": "숨은 그림 찾기", "cast": "원이", "vid": "4Xn-oG52pYM"},
@@ -12,6 +15,7 @@ const LIVE_DATA = [
     {"date": "2026-07-22", "title": "리브지롱 ~~", "cast": "리브", "vid": "NUInBr_Lfq4"},
     {"date": "2026-07-21", "title": "까엉TV 왔다잉🤍", "cast": "제나", "vid": "UEo2q8k1TNw"},
     {"date": "2026-07-17", "title": "메라디오는 그립감이 좋다~!😚", "cast": "메이", "vid": "hcCz-RVTC58"},
+    {"date": "2026-07-12", "title": "SBSKPOP X INKIGAYO 매점가요 26/07/12 LIVE STREAM with RESCENE (회원공개)", "cast": "전원", "vid": "8EZHf4m95uI"},
     {"date": "2026-07-08", "title": "이게 다 리마인 덕분이야 🩷", "cast": "전원", "vid": "v6n4XQdX6_8"},
     {"date": "2026-07-02", "title": "🎀", "cast": "원이", "vid": "bkxvR913h-g"},
     {"date": "2026-06-29", "title": "⭐️막내들이 왔따😎", "cast": "메이, 제나", "vid": "vRnXOGS8ne8"},
