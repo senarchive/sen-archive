@@ -407,20 +407,41 @@ function playAlbumTrack(trackIdx) {
     }
 }
 
-let wrPlayed = false;
 function playWithRescene() {
-    if (wrPlayed) return;
-    wrPlayed = true;
-
     const section = document.getElementById('historySection');
     const text = document.getElementById('wrText');
-    const next = document.getElementById('wrNext');
-    if (!section || !text || !next) return;
+    const overlay = document.getElementById('chronicleOverlay');
+    const frame = document.getElementById('chronicleFrame');
+    if (!section || !text || !overlay || !frame) return;
+    if (section.classList.contains('wr-playing')) return;
 
     section.classList.add('wr-playing');
     text.classList.add('wr-hide');
-    setTimeout(() => { next.classList.add('show'); }, 2200);
+    if (!frame.getAttribute('src')) frame.setAttribute('src', frame.dataset.src);
+
+    setTimeout(() => {
+        overlay.classList.add('active');
+        overlay.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+        const btn = overlay.querySelector('.chronicle-close');
+        if (btn) btn.focus({ preventScroll: true });
+    }, 900);
 }
+
+function closeChronicle() {
+    const section = document.getElementById('historySection');
+    const text = document.getElementById('wrText');
+    const overlay = document.getElementById('chronicleOverlay');
+    if (!overlay || !overlay.classList.contains('active')) return;
+    overlay.classList.remove('active');
+    overlay.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    setTimeout(() => {
+        if (text) text.classList.remove('wr-hide');
+        if (section) { section.classList.remove('wr-playing'); section.focus({ preventScroll: true }); }
+    }, 500);
+}
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeChronicle(); });
 
 function openBgSettings(triggerEl) {
     const sheet = document.getElementById('bgSettingsSheet');

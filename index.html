@@ -65,9 +65,6 @@
                     <p class="history-subtitle" data-i18n="historySubtitle">지금까지 걸어 온 길을 같이 걸어 볼까요?</p>
                 </div>
 
-                <div class="wr-next" id="wrNext">
-                    <p class="wr-next-text">발자취를 하나씩 채워가는 중이에요.<br>곧 이 자리에서 리센느와 함께 걸어온 순간들을 만나요.</p>
-                </div>
             </div>
         </div>
 
@@ -317,6 +314,12 @@
     <script src="js/contents.js"></script>
     <script src="js/shorts_data.js"></script>
     <script src="js/shorts.js"></script>
+
+    <!-- 리센느 연대기 (WITH RESCENE 클릭 시 열림) -->
+    <div id="chronicleOverlay" class="chronicle-overlay" role="dialog" aria-modal="true" aria-label="리센느 연대기" aria-hidden="true">
+        <button type="button" class="chronicle-close" onclick="closeChronicle()" aria-label="연대기 닫기">← <span>ARCHIVE</span></button>
+        <iframe id="chronicleFrame" title="리센느 연대기" data-src="chronicle/index.html"></iframe>
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>
