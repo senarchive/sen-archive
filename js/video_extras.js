@@ -11,14 +11,20 @@ function veWatchUrl(vid) {
     return `https://www.youtube.com/watch?v=${encodeURIComponent(vid)}`;
 }
 
-let veDataPromise = null;
-function veLoadData() {
-    if (veDataPromise) return veDataPromise;
+// 영상별 데이터는 vid 첫 글자 기준 조각 파일(js/video_extras/<첫글자>.json)로 나눠서 필요한 것만 불러온다.
+const veShardPromises = {};
+function veShardKey(vid) {
+    // 파일명으로 안전한 문자만 사용 (영문/숫자/_/-)
+    return String(vid || '').charAt(0).replace(/[^A-Za-z0-9_-]/g, '_');
+}
+function veLoadData(vid) {
+    const key = veShardKey(vid);
+    if (veShardPromises[key]) return veShardPromises[key];
     const root = (typeof SITE_ROOT !== 'undefined' ? SITE_ROOT : '');
-    veDataPromise = fetch(`${root}js/video_extras_data.json?t=` + Math.floor(Date.now() / 3600000))
+    veShardPromises[key] = fetch(`${root}js/video_extras/${encodeURIComponent(key)}.json?t=` + Math.floor(Date.now() / 3600000))
         .then(res => res.ok ? res.json() : {})
         .catch(() => ({}));
-    return veDataPromise;
+    return veShardPromises[key];
 }
 
 const veCommentState = {};
@@ -32,7 +38,7 @@ function veResetComments(panelId) {
 }
 
 async function veGetCommentTotal(vid) {
-    const data = await veLoadData();
+    const data = await veLoadData(vid);
     const entry = data[vid];
     return entry ? entry.commentCount : null;
 }
@@ -125,7 +131,7 @@ async function veLoadComments(opts) {
     listEl.innerHTML = `<div class="sh-comment-loading">댓글 불러오는 중...</div>`;
     setCount('');
 
-    const data = await veLoadData();
+    const data = await veLoadData(vid);
     const entry = data[vid];
 
     if (!entry) {
@@ -159,7 +165,7 @@ async function veLoadComments(opts) {
 }
 
 async function veFetchTopComments(vid, count = 5) {
-    const data = await veLoadData();
+    const data = await veLoadData(vid);
     const entry = data[vid];
     if (!entry || entry.commentsDisabled) return [];
     const items = (entry.comments && entry.comments.relevance) || [];
@@ -281,7 +287,7 @@ function veLiveChatUrl(vid) {
 }
 
 async function veGetLiveStatus(vid) {
-    const data = await veLoadData();
+    const data = await veLoadData(vid);
     const entry = data[vid];
     return entry ? entry.liveStatus : 'none';
 }
