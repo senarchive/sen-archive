@@ -534,7 +534,7 @@ RC.sections.forEach(s=>s.items.forEach(i=>{const d=nd(i.d);secIso.add(d)}));
 RC.sec('run').items.forEach(i=>{if(!YAV.has(i.vid))add(i.d,5,'card',{d:i.d,t:i.t,p:i.p,img:i.img,v:i.vid,chip:'역주행'})});
 wins.forEach(i=>{if(i.d==='2026-07-14')add(i.d,3,'w1',i);else if(TX[i.d])add(i.d,5,'tx',i);else add(i.d,5,'card',{d:i.d,t:i.t,p:i.p,img:i.img,v:i.vid,chip:i.tag})});
 ['aw','ad','amb','pic'].forEach(k=>RC.sec(k).items.forEach(i=>add(i.d,5,'card',{d:i.d,t:i.t,p:i.p,img:i.img,v:i.vid,chip:i.tag,stat:null})));
-add('2026-09-02',5,'card',{d:'2026-09-02',t:'카카오톡',p:'‘대화를 하자’ 캠페인. 카카오톡 AI 기능으로 일상 대화가 쉬워지는 모습을 보여주는 영상으로, 9월 한 달 동안 에피소드가 순서대로 공개됐다.',chip:'AD'});
+add('2026-09-02',5,'card',{d:'2026-09-02',t:'카카오톡',p:'‘대화를 하자’ 캠페인. 카카오톡 AI 기능으로 일상 대화가 쉬워지는 모습을 보여주는 영상으로, 9월 한 달 동안 에피소드가 순서대로 공개됐다.',chip:'AD',img:'ad_kakao'});
 const MORE=[
  ['2026-07-07','티오더','테이블오더 플랫폼 티오더와 브랜드 파트너십. 약 35만 대 태블릿을 통해 광고·콘텐츠·프로모션을 함께 진행한다.','ad_torder','AD'],
  ['2026-07-09','리센느 × 김씨네과일','멤버 다섯 명의 고향(거제·고양·경주·수원·치바)을 손그림으로 담은 ‘야호 티셔츠’. KREAM 단독, 7월 31일까지 선착순 발매.','ad_kim','COLLAB'],
@@ -542,11 +542,11 @@ const MORE=[
  ['2026-07-16','레미니 키링 · KREAM','공식 캐릭터 레미니 키링 5종을 KREAM에서 단독 사전 예약으로 발매.','ad_kream','GOODS'],
  ['2026-07-24','저스트 메이크업 홍보대사','‘저스트 메이크업 IN TOKYO 2027’ 홍보대사 위촉식과 서밋 초청 이벤트(메가박스 코엑스).','ad_justmakeup','AMBASSADOR'],
  ['2026-07-30','서든어택 리센느 캐릭터','‘거제 야호’가 게임으로. 넥슨 서든어택에 리센느 캐릭터가 출시됐다.','ad_suddenattack','COLLAB'],
- ['2026-08-03','한국벤처투자 명예홍보대사','한국벤처투자가 더뮤즈엔터테인먼트 사옥에서 위촉식을 열고 리센느를 명예홍보대사로 위촉했다.',null,'AMBASSADOR'],
- ['2026-08-13','에이페(Epais)','헤어 솔루션 브랜드 에이페의 새 브랜드 모델로 발탁.',null,'AD'],
- ['2026-08-15','바이오던스 · 원이','원이가 바이오던스 개인 앰버서더로 발탁.',null,'AD'],
- ['2026-08-26','와키윌리 · 원이','원이가 와키윌리 26FW 단독 모델로 발탁.',null,'AD'],
- ['2026-09-03','리브·메이 × 패트와 매트','CU 패트와 매트 아이스크림 패키지에 리브와 메이가 ‘리트와 메트’로 등장했다.',null,'COLLAB'],
+ ['2026-08-03','한국벤처투자 명예홍보대사','한국벤처투자가 더뮤즈엔터테인먼트 사옥에서 위촉식을 열고 리센느를 명예홍보대사로 위촉했다.','ad_kvic','AMBASSADOR'],
+ ['2026-08-13','에이페(Epais)','헤어 솔루션 브랜드 에이페의 새 브랜드 모델로 발탁.','ad_epais','AD'],
+ ['2026-08-15','바이오던스 · 원이','원이가 바이오던스 개인 앰버서더로 발탁.','ad_biodance','AD'],
+ ['2026-08-26','와키윌리 · 원이','원이가 와키윌리 26FW 단독 모델로 발탁.','ad_wacky','AD'],
+ ['2026-09-03','리브·메이 × 패트와 매트','CU 패트와 매트 아이스크림 패키지에 리브와 메이가 ‘리트와 메트’로 등장했다.','ad_patmat','COLLAB'],
  ['2026-09-04','MLB 브랜드 모델','MLB가 리브·미나미·메이·제나를 새 브랜드 모델로 발탁. 26FW 캠페인 ‘SLEEK, THE RESCENE WAY’ 공개.',null,'AD']
 ];
 MORE.forEach(m=>add(m[0],5,'card',{d:m[0],t:m[1],p:m[2],img:m[3],chip:m[4]}));
@@ -583,7 +583,7 @@ const NARR=[
 const narHTML=`<div class="pad pp"><div class="phd" data-d="2026-05-30"><div class="mono part">Part 3 · 역주행, 순서대로</div><h2 class="kr-big m"><span class="mask"><span data-chars>699일의</span></span><span class="mask"><span data-chars style="color:var(--pink)">기록</span></span></h2><p class="sc" data-wipe>the long way up</p><div class="nar">${NARR.map(n=>`<div class="st" data-up><div class="nm">${String(NARR.indexOf(n)+1).padStart(2,'0')}<small>${n[0]}<br>${n[1]}</small></div><div><h3>${n[2]}</h3><p>${n[3]}</p></div></div>`).join('')}</div></div></div>`;
 const w1HTML=i=>`<div class="w1" id="w1" data-d="2026-07-14" style="padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))"><svg class="burst" id="burst" viewBox="-100 -100 200 200" aria-hidden="true"><circle r="34"/><circle r="34"/><circle r="34"/><circle r="34"/></svg><div class="w1-n" id="w1n">1</div><div class="w1-t"><div class="mono" style="color:var(--pink)">2026.07.14 · D+${dp('2026-07-14')}</div><p class="sc" data-wipe>The First Win</p><p class="pen" data-up>데뷔 첫 음악방송 1위</p><p data-up>더 쇼 · Pretty Girl · 데뷔 2년 3개월 19일 만. 역주행이 시작되고 43일째 되는 날이다.</p><span class="stamp" id="stamp">First win</span></div><div class="w1-i" id="w1i"><i class="tape"></i><img class="ph" src="img/g_prettygirl.webp" alt="Pretty Girl 활동 단체 사진"></div></div>`;
 const winKpi=`<div class="pad pp"><div class="phd"><div class="mono part">Part 4 · 음악방송 1위의 서사</div>${kpiHTML([['6','','두 곡이 쌓은 음악방송 1위'],['3','','쇼! 음악중심 · Pretty Girl'],['2','주','SBS 인기가요 · LOVE ATTACK']])}</div></div>`;
-const MGI={'I-SHA Wish I-GIRL':'ad_isha','WIND AND SEA':'ad_windandsea','티오더':'ad_torder','서든어택':'ad_suddenattack','김씨네과일':'ad_kim','KREAM 굿즈':'ad_kream','저스트 메이크업 IN TOKYO 2027':'ad_justmakeup'};
+const MGI={'I-SHA Wish I-GIRL':'ad_isha','WIND AND SEA':'ad_windandsea','티오더':'ad_torder','서든어택':'ad_suddenattack','김씨네과일':'ad_kim','KREAM 굿즈':'ad_kream','저스트 메이크업 IN TOKYO 2027':'ad_justmakeup','메가스터디':'ad_megastudy'};
 const MGX=new Set(['티오더','Epais','MLB','카카오톡','서든어택','김씨네과일','KREAM 굿즈','저스트 메이크업 IN TOKYO 2027','한국벤처투자','패트와 매트']);
 const marginsHTML=`<div class="pad pp"><div class="phd" data-d="2026-10-12"><div class="mono part">Part 9 · 여백</div><p class="lede" data-up>연표에 다 못 적은 광고·협업·화보·홍보대사를 여백에 모아 뒀어요.</p>${RC.margins.map(([h,l0])=>{const l=l0.filter(x=>!MGX.has(x));return `<div class="mgh">${h}</div>${l.some(x=>MGI[x])?`<div class="mg">${l.filter(x=>MGI[x]).map(x=>`<figure><img src="${I(MGI[x])}" alt="${x}" loading="lazy"><figcaption>${x}</figcaption></figure>`).join('')}</div>`:''}<div class="chipl">${l.filter(x=>!MGI[x]).map(x=>`<span>${x}</span>`).join('')}</div>`}).join('')}</div></div>`;
 const PS=RC.pulse.sched;
