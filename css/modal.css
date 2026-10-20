@@ -655,7 +655,8 @@ html[data-theme="light"] .sh-modal-wrapper { background: #FFFFFF; }
     .sh-sheet-drag-handle { display: flex; }
 }
 
-.sh-modal-playlist { position: relative; }
+/* 모바일(≤700px)에서는 바텀시트라 position: fixed 를 유지해야 함 (여기서 relative 로 덮으면 영상 칸이 62px로 찌그러져 안 보임) */
+@media (min-width: 701px) { .sh-modal-playlist { position: relative; } }
 
 /* ⭐️ 바텀시트 상단 드래그 손잡이 — 위로 끌면 확장, 아래로 끌면 닫힘 */
 .sh-sheet-drag-handle {
