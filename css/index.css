@@ -183,7 +183,7 @@ html[data-theme="light"] .today-empty-card{ background:transparent; border:none;
 .tm-group-items { display: flex; flex-direction: column; gap: 4px; }
 .tm-item { display: flex; align-items: center; gap: 10px; padding: 10px; border-radius: 4px; cursor: pointer; transition: background 0.25s ease, padding-left 0.25s ease; }
 .tm-item:hover { background: var(--bg-surface-hover); padding-left: 14px; }
-.tm-item-tag { flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; padding: 3px 9px; border-radius: 3px; color: #fff; font-family: var(--font-head); font-size: 10px; font-weight: 800; letter-spacing: 0.02em; white-space: nowrap; }
+.tm-item-tag { flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box; width: 56px; height: 22px; padding: 0 4px; border-radius: 3px; color: #fff; font-family: var(--font-head); font-size: 10px; font-weight: 800; letter-spacing: 0.02em; white-space: nowrap; }
 .tm-item-time { flex-shrink: 0; font-family: var(--font-num); font-size: 12px; font-weight: 600; color: var(--text-muted); min-width: 38px; }
 .tm-item-title { font-family: var(--font-body); font-size: 13.5px; font-weight: 500; color: var(--text-primary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
@@ -314,3 +314,18 @@ html[data-theme="light"] .today-empty-card{ background:transparent; border:none;
 .d8-album-more { border: 1px solid var(--border-light); box-shadow: none; color: var(--text-secondary); }
 .d8-album-more:hover { color: var(--c-accent); border-color: var(--c-accent); }
 @media (max-width: 800px) { .d8-album-row { gap: 12px; justify-content: center; } .d8-album { width: 72px; height: 72px; } }
+
+/* ── FAN SITES: 동글 아이콘 1렬 ── */
+#fanSitesSection { max-width: 986px; width: 100%; box-sizing: border-box; }
+.fs-row { display: flex; flex-wrap: nowrap; justify-content: center; gap: 18px; width: 100%; padding: 8px 4px 14px; overflow-x: auto; scrollbar-width: none; }
+.fs-row::-webkit-scrollbar { display: none; }
+.fs-item { flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; gap: 12px; width: 88px; text-decoration: none; color: var(--text-primary); }
+.fs-circle { position: relative; display: flex; align-items: center; justify-content: center; width: 88px; height: 88px; border-radius: 50%; overflow: hidden; background: linear-gradient(145deg, var(--fs-c), color-mix(in srgb, var(--fs-c) 55%, #000)); box-shadow: 0 8px 22px rgba(0,0,0,0.3); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.fs-glyph { font-family: var(--font-head); font-size: 30px; font-weight: 800; color: #fff; }
+.fs-circle img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; background: #fff; padding: 22px; box-sizing: border-box; opacity: 0; transition: opacity 0.3s ease; }
+.fs-circle img.ok { opacity: 1; }
+.fs-item:hover .fs-circle { transform: translateY(-4px) scale(1.05); box-shadow: 0 14px 30px rgba(0,0,0,0.4); }
+.fs-name { font-family: var(--font-body); font-size: 12.5px; font-weight: 600; text-align: center; line-height: 1.35; color: var(--text-secondary); }
+.fs-item:hover .fs-name { color: var(--c-accent); }
+.fs-hint { margin: 22px 0 0; font-family: var(--font-body); font-size: 12px; color: var(--text-muted); text-align: center; }
+@media (max-width: 800px) { .fs-row { justify-content: flex-start; gap: 14px; } .fs-item, .fs-circle { width: 72px; } .fs-circle { height: 72px; } .fs-glyph { font-size: 24px; } .fs-circle img { padding: 18px; } }
