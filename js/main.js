@@ -232,12 +232,12 @@ function renderProfileArchive() {
     const profileWrap = document.getElementById('profileScroll'); 
     if (profileWrap) {
         let phtml = '';
-        const PREVIEW_COUNT = 7;
+        const PREVIEW_COUNT = 10;
         for (let i = 1; i <= PREVIEW_COUNT; i++) {
-            phtml += `<div class="profile-item" onclick="openImageModal('images/profile/${i}.jpg', ${i})"><img src="images/profile/${i}.jpg" alt="RESCENE profile ${i}" loading="lazy" onerror="this.closest('.profile-item').style.display='none'"><span class="pf-index">NO. ${String(i).padStart(2, '0')}</span></div>`;
+            phtml += `<div class="d8-photo" onclick="openImageModal('images/profile/${i}.jpg', ${i})"><img src="images/profile/${i}.jpg" alt="RESCENE profile ${i}" loading="lazy" onerror="this.closest('.d8-photo').style.display='none'"></div>`;
         }
-        phtml += `<a class="profile-item archive-more-tile" href="archive.html#profile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg><span>전체보기</span></a>`;
-        profileWrap.innerHTML = `<div class="profile-track">${phtml}</div>`;
+        phtml += `<a class="d8-photo d8-more" href="archive.html#profile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg><span>전체보기</span></a>`;
+        profileWrap.innerHTML = `<div class="d8-photo-grid">${phtml}</div>`;
     }
 
     const fullProfileGrid = document.getElementById('fullProfileGrid');
@@ -316,12 +316,12 @@ function renderAlbumGrid() {
     const albumWrap = document.getElementById('albumScroll');
     if (albumWrap) {
         let ahtml = '';
-        const PREVIEW_COUNT = 7;
+        const PREVIEW_COUNT = 8;
         ALBUMS.slice(0, PREVIEW_COUNT).forEach(function (album, idx) {
-            ahtml += `<div class="profile-item album-cover-item" onclick="openAlbumModal(${idx})"><img src="images/${album.image}" alt="${album.title}" loading="lazy" onerror="console.error('앨범 이미지 로드 실패:', this.src); this.closest('.profile-item').classList.add('img-broken'); this.style.display='none';"><span class="album-broken-label">이미지 없음<br>${album.image}</span></div>`;
+            ahtml += `<a href="javascript:void(0)" class="d8-album" onclick="openAlbumModal(${idx})"><span class="d8-album-cover"><img src="images/${album.image}" alt="${album.title}" loading="lazy" onerror="this.closest('.d8-album').style.display='none'"></span><span class="d8-album-title">${album.title}</span></a>`;
         });
-        ahtml += `<a class="profile-item archive-more-tile" href="archive.html#album"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg><span>전체보기</span></a>`;
-        albumWrap.innerHTML = `<div class="profile-track album-track">${ahtml}</div>`;
+        ahtml += `<a class="d8-album d8-album-more" href="archive.html#album"><span class="d8-album-cover"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg></span><span class="d8-album-title">전체보기</span></a>`;
+        albumWrap.innerHTML = `<div class="d8-album-row">${ahtml}</div>`;
     }
 
     const fullAlbumGrid = document.getElementById('fullAlbumGrid');
