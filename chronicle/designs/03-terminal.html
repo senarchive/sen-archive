@@ -1,0 +1,41 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>리센느 연대기 03 · Terminal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Pinyon+Script&family=JetBrains+Mono:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap">
+<style>*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%;overflow-x:hidden}body{overflow-x:clip;font-family:"Noto Sans KR",system-ui,sans-serif;word-break:keep-all;overflow-wrap:anywhere}img{max-width:100%}a{color:inherit}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+:root{--g:#7dffa8;--d:#58b97b;--b:#050a07;--a:#ffd166}
+body{background:var(--b);color:var(--g);font-family:"JetBrains Mono",monospace;font-size:14px;line-height:1.65}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,#0000 0 2px,#0003 2px 3px);z-index:9}
+.wrap{max-width:980px;margin:0 auto;padding:18px 14px 80px}
+.bar{position:sticky;top:0;background:#0b140e;border:1px solid var(--d);padding:6px 10px;display:flex;gap:8px;align-items:center;z-index:5;font-size:12px}.bar i{width:10px;height:10px;border-radius:50%;background:var(--d);display:inline-block}.bar span{margin-left:auto;color:var(--a)}
+.prompt{color:var(--a)}.prompt::before{content:"rescene@archive:~$ ";color:var(--g)}
+.cur::after{content:"█";animation:bl 1s steps(2) infinite}@keyframes bl{50%{opacity:0}}
+pre.logo{font-size:clamp(7px,2.2vw,15px);line-height:1.1;color:var(--g);margin:18px 0;text-shadow:0 0 10px #7dffa866;overflow:hidden}
+.sts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:16px 0}.st{border:1px dashed var(--d);padding:10px}.st b{display:block;font-size:24px;color:var(--a)}.st span{font-size:11px;color:var(--d)}
+.ch{margin-top:44px;border-left:2px solid var(--d);padding-left:14px}
+.ch h2{font-size:clamp(22px,5vw,40px);color:#fff;text-shadow:0 0 14px #7dffa8}.ch h2::before{content:"## ";color:var(--d)}
+.meta,.cap2{color:var(--d)}
+.ch p{margin:8px 0;max-width:72ch}.cp{color:var(--a)}
+.ev{list-style:none;margin:10px 0}.ev li{display:grid;grid-template-columns:96px 1fr;gap:8px}.ev b{color:var(--d)}.ev .s span{color:#fff;background:#1c5a34;padding:0 4px}
+.mv{display:grid;grid-template-columns:96px 1fr 98px;gap:8px;margin:5px 0}.mv em{display:block;height:12px;border:1px solid var(--d);align-self:center}.mv u{display:block;height:100%;width:var(--w);background:repeating-linear-gradient(90deg,var(--g) 0 6px,#0000 6px 8px);animation:g 1.6s both}.mv b{text-align:right}@keyframes g{from{width:0}}
+.strip{display:flex;gap:8px;overflow-x:auto;padding:8px 0}.ph{flex:0 0 auto;width:min(40vw,150px);border:1px solid var(--d);padding:3px}.ph.mm{width:min(28vw,100px)}.ph img{display:block;width:100%;aspect-ratio:1;object-fit:cover}.ph.mm img{aspect-ratio:4/5}.ph figcaption{font-size:10px;color:var(--d)}
+.grp h3{margin-top:26px;color:#fff;font-size:18px}.grp h3::before{content:"$ ls ./";color:var(--d)}.grp h3 em{color:var(--d);font-style:normal;margin-left:8px;font-size:12px}.lede{color:var(--d);margin-bottom:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,220px),1fr));gap:12px}
+.card{display:block;text-decoration:none;border:1px solid var(--d);padding:6px;transition:.25s;position:relative}.card:hover{background:#0f2417;box-shadow:0 0 18px #7dffa855}.card .rc-th{aspect-ratio:16/10}
+.cap{display:grid;margin-top:6px;gap:1px}.cap i{font-style:normal;color:var(--a);font-size:11px}.cap b{color:#fff;font-weight:700;font-size:13px}.cap small{color:var(--d);font-size:11px}
+.chartbox{max-width:560px;margin:16px 0;color:var(--g)}.rk{width:100%;overflow:visible}.tg span{display:inline-block;border:1px solid var(--d);padding:0 6px;margin:0 6px 6px 0}.tg h4{color:var(--a);margin-top:12px}.sched{list-style:none}.sched li{display:grid;grid-template-columns:60px 1fr;gap:8px}.sched b{color:var(--a)}
+[data-r]{opacity:0;transform:translateX(-14px);transition:.6s}[data-r].in{opacity:1;transform:none}
+</style></head><body><div id="app"></div>
+<script src="rc.js"></script><script src="dx.js"></script><script>
+const {R,story}=DX;
+const logo=`██████╗ ███████╗███████╗ ██████╗███████╗███╗   ██╗███████╗
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔════╝████╗  ██║██╔════╝
+██████╔╝█████╗  ███████╗██║     █████╗  ██╔██╗ ██║█████╗  
+██╔══██╗██╔══╝  ╚════██║██║     ██╔══╝  ██║╚██╗██║██╔══╝  
+██║  ██║███████╗███████║╚██████╗███████╗██║ ╚████║███████╗
+╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝╚══════╝╚═╝  ╚═══╝╚══════╝`;
+app.innerHTML=`<div class="bar"><i></i><i></i><i></i> rescene — chronicle.sh <span>D+${R.sinceDebut}</span></div><div class="wrap"><pre class="logo">${logo}</pre>
+<p class="prompt cur">./chronicle --from 2024-03-26</p><div class="sts">${DX.statsHTML()}</div>
+${story.map(c=>`<section class="ch" data-r><h2>${c.title}</h2><p class="meta">[${c.n}] ${c.meta}</p><p class="cp">&gt; ${c.caption}</p>${DX.body(c)}${DX.mvbars(c)}${DX.ev(c)}${c.photos.length?`<div class="strip">${DX.ph(c)}</div>`:''}${DX.grp(c)}${DX.extra(c)}</section>`).join('')}
+<p class="prompt cur" style="margin-top:40px">exit 0 # ${DX.foot}</p></div>`;DX.boot();
+</script></body></html>

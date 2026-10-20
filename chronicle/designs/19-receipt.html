@@ -1,0 +1,25 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>리센느 연대기 19 · Receipt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Pinyon+Script&family=JetBrains+Mono:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap">
+<style>*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%;overflow-x:hidden}body{overflow-x:clip;font-family:"Noto Sans KR",system-ui,sans-serif;word-break:keep-all;overflow-wrap:anywhere}img{max-width:100%}a{color:inherit}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+.mv{display:grid;grid-template-columns:86px 1fr 90px;gap:8px;align-items:center;font:700 12px "JetBrains Mono";margin:6px 0}.mv em{height:8px;display:block;background:#8883}.mv u{display:block;height:100%;width:var(--w);background:currentColor;animation:g 1.6s both}.mv b{text-align:right}@keyframes g{from{width:0}}.rk{width:100%;overflow:visible}.chartbox{max-width:560px;margin:14px 0}[data-r]{opacity:0;transition:.9s}[data-r].in{opacity:1}.cap{display:grid;gap:2px}.cap i{font:700 11px "JetBrains Mono";font-style:normal}.cap small{opacity:.7;font-size:12px}
+body{background:#cfd3d8;color:#222;font-family:"JetBrains Mono","Noto Sans KR",monospace;font-size:13px}
+.rc{max-width:560px;margin:20px auto 60px;background:#fbfbf6;padding:20px 16px 34px;position:relative;box-shadow:0 20px 50px #0004;-webkit-mask:conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) 50%/20px 100%;mask:conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) 50%/20px 100%;animation:pr 1.2s both}@keyframes pr{from{clip-path:inset(0 0 100% 0)}to{clip-path:inset(0)}}
+.c{text-align:center}.rc h1{font:900 clamp(40px,12vw,64px)/.95;letter-spacing:-.04em;font-family:"Noto Sans KR"}.dash{border-top:2px dashed #222;margin:12px 0}
+.row{display:flex;justify-content:space-between;gap:10px}.sts{margin:6px 0}.st{display:flex;justify-content:space-between;gap:8px;padding:2px 0}.st b{order:2;white-space:nowrap}.st span{order:1}
+.ch{margin-top:24px}.ch h2{font:900 26px/1.1 "Noto Sans KR";letter-spacing:-.03em;margin:6px 0}.cp{font-weight:700;margin:8px 0}.ch p{line-height:1.7;margin:6px 0;font-family:"Noto Sans KR"}
+.ev{list-style:none;margin:8px 0}.ev li{display:grid;grid-template-columns:84px 1fr;gap:6px;padding:3px 0}.ev b{font-weight:700}.ev .s{background:#222;color:#fbfbf6;padding:3px 4px;margin:0 -4px}
+.mv{color:#222}.mv em{background:#0002;border-radius:0}
+.strip{display:flex;gap:8px;overflow-x:auto;padding:8px 0}.ph{flex:0 0 auto;width:min(34vw,120px)}.ph.mm{width:min(24vw,84px)}.ph img{display:block;width:100%;aspect-ratio:1;object-fit:cover;filter:contrast(1.1);border:1px solid #222}.ph figcaption{font-size:10px;text-align:center;padding-top:2px}
+.grp h3{margin-top:16px;font:900 18px "Noto Sans KR";display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid #222}.grp h3 em{font:400 10px "JetBrains Mono";font-style:normal}.lede{font-size:12px;margin:6px 0 10px;font-family:"Noto Sans KR"}
+.grid{display:grid;gap:10px}.card{display:grid;grid-template-columns:96px 1fr;gap:10px;text-decoration:none;border-bottom:1px dashed #222;padding-bottom:8px}.card .rc-th{aspect-ratio:1}.cap i{font-weight:700}.cap b{font:700 13px "Noto Sans KR"}
+.tg h4{margin:10px 0 4px}.tg span{display:inline-block;border:1px solid #222;padding:0 6px;margin:0 4px 4px 0;font-family:"Noto Sans KR";font-size:12px}.sched{list-style:none}.sched li{display:grid;grid-template-columns:56px 1fr;padding:2px 0}.chartbox{color:#222}
+.bar{height:48px;margin:20px auto 6px;background:repeating-linear-gradient(90deg,#222 0 2px,#0000 2px 4px,#222 4px 5px,#0000 5px 9px,#222 9px 12px,#0000 12px 14px);max-width:300px}
+[data-r]{transform:translateY(16px)}[data-r].in{transform:none}
+</style></head><body><div id="app"></div>
+<script src="rc.js"></script><script src="dx.js"></script><script>
+const {R,story}=DX;
+app.innerHTML=`<div class="rc"><div class="c"><h1>RESCENE<br>RECEIPT</h1><div>SCENT + SCENE CHRONICLE</div><div>${R.todayISO}</div></div><div class="dash"></div><div class="sts">${DX.statsHTML()}</div><div class="dash"></div>
+${story.map(c=>`<section class="ch" data-r><div class="row"><span>#${c.n}</span><span>${c.meta}</span></div><h2>${c.title}</h2><p class="cp">* ${c.caption}</p>${DX.body(c)}${DX.mvbars(c)}${DX.ev(c)}${c.photos.length?`<div class="strip">${DX.ph(c)}</div>`:''}${DX.grp(c)}${DX.extra(c)}<div class="dash"></div></section>`).join('')}
+<div class="row"><b>TOTAL DAYS</b><b>D+${R.sinceDebut}</b></div><div class="c"><div class="bar"></div><div>THANK YOU · ${DX.foot}</div></div></div>`;DX.boot();
+</script></body></html>

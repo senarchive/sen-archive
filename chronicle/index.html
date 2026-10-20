@@ -40,8 +40,7 @@ body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:70;opa
 #thf{position:absolute;left:0;top:0;width:2px;height:0;background:var(--pink)}
 #bead{position:absolute;left:-4px;top:-5px;width:10px;height:10px;border-radius:50%;background:#fff;box-shadow:0 0 0 2px var(--pink),0 0 14px 5px rgba(255,46,126,.4)}
 /* photocopy photos */
-.ph{filter:grayscale(1) contrast(1.18) brightness(1.03);transition:filter 1.1s ease}
-.on .ph,.ph.col{filter:none}
+.ph{filter:none}
 .tape{position:absolute;width:84px;height:22px;background:rgba(255,46,126,.22);top:-10px;left:50%;margin-left:-42px;transform:rotate(-4deg)}
 /* big type */
 .kr-big{font:900 clamp(56px,13vw,170px)/.95 var(--kr);letter-spacing:-.06em}
@@ -116,7 +115,6 @@ svg.scrib{position:absolute;pointer-events:none;overflow:visible;fill:none;strok
 .pf{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(5px,1vw,12px);margin-top:clamp(10px,2vw,18px)}
 .pf figure{margin:0;position:relative}.pf img{width:100%;aspect-ratio:4/5;object-fit:cover;background:#f6f4f8}
 .pf figcaption{margin-top:5px;color:var(--mute);font-size:9px;letter-spacing:.12em}
-.era.seen .ph,.era:hover .ph{filter:none}
 @media(max-width:720px){.era-g{grid-template-columns:1fr}.cvr{max-width:280px}}
 .era-intro{padding-block:12vh 2vh;display:grid;gap:8px}
 .oth{margin-top:8vh}.oth-t{display:flex;gap:12px;overflow-x:auto;padding-bottom:10px;scrollbar-width:thin}
@@ -216,7 +214,7 @@ svg.scrib{position:absolute;pointer-events:none;overflow:visible;fill:none;strok
 .ppl{display:flex;gap:10px;margin:14px 0;justify-content:center;flex-wrap:wrap}.ppl img{width:clamp(70px,13vw,140px);aspect-ratio:4/5;object-fit:cover}
 .foot{font-size:11.5px;color:var(--mute);max-width:70ch;line-height:1.8;margin-top:6vh}
 .foot a{color:var(--ink)}
-@media(prefers-reduced-motion:reduce){.cue i{animation:none}.ph{transition:none}}
+@media(prefers-reduced-motion:reduce){.cue i{animation:none}}
 @media(max-width:700px){.pl-ph{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
 /* ===================== v2 · refinements ===================== */
@@ -277,7 +275,8 @@ body.dk #thr{background:repeating-linear-gradient(to bottom,rgba(255,255,255,.3)
 .cards.t3 .card{grid-column:span 4}
 .cards.t4 .card{grid-column:span 3}
 .thumb{position:relative;aspect-ratio:16/9;overflow:hidden;background:#16121c;isolation:isolate}
-.thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;transition:transform 1.2s cubic-bezier(.2,.7,.2,1),filter 1.1s ease}
+.thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;transition:transform 1.2s cubic-bezier(.2,.7,.2,1),opacity .5s}
+.thumb img.t{opacity:0;z-index:2}.thumb img.t.ok{opacity:1}
 .thumb img.cx{object-position:50% 20%}
 .thumb::after{content:"";position:absolute;inset:0;z-index:4;pointer-events:none;background:linear-gradient(112deg,transparent 38%,rgba(255,255,255,.34) 50%,transparent 62%);transform:translateX(-130%);transition:transform 1s cubic-bezier(.2,.7,.2,1)}
 .card:hover .thumb::after,.card:focus-visible .thumb::after{transform:translateX(130%)}
@@ -312,6 +311,36 @@ body.dk #thr{background:repeating-linear-gradient(to bottom,rgba(255,255,255,.3)
 .burst{position:absolute;left:-4vw;top:calc(8% + 6vw);width:min(86vw,880px);z-index:0;overflow:visible;fill:none;stroke:var(--pink);stroke-width:1.6;pointer-events:none}
 .burst circle{vector-effect:non-scaling-stroke;opacity:0}
 @media(prefers-reduced-motion:reduce){.aur i,.ring{animation:none}}
+/* ===== mobile & no-pin fixes ===== */
+html.nopin .hz-view{scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}
+html.nopin .hc{scroll-snap-align:center}
+html.nopin .hc .sc{margin:10px 0 0}
+html.nopin .rs-pin{height:auto;min-height:0;display:flex;flex-direction:column;gap:16px;padding-block:72px 44px}
+html.nopin .rs-top{order:0}html.nopin .rs-bg{order:1;position:relative;right:auto;top:auto;width:min(56vw,250px);align-self:flex-end;margin:0 4px 0 0}
+html.nopin .rs-mid{order:2}html.nopin .rs-chart{order:3}
+html.nopin .rs-txt{min-height:6.4em}
+html.nopin .rs-chart svg{max-height:none}
+@media(max-width:900px){
+  .w1{display:flex;flex-direction:column;align-items:flex-start;gap:16px;min-height:0;padding-block:76px 36px}
+  .w1-n{position:relative;left:auto;top:auto;font-size:clamp(150px,46vw,260px);line-height:.8;order:0}
+  .w1-i{order:1;max-width:100%;width:100%;justify-self:auto;grid-row:auto}
+  .w1-t{order:2;padding-bottom:0;align-self:stretch}
+  .burst{display:none}
+}
+@media(max-width:700px){
+  .intro{padding-block:78px 24px}
+  .in-mid{padding-top:98px}
+  .fl{width:56px;top:112px!important;right:auto!important;bottom:auto!important}
+  .fl.f1{left:16px}.fl.f2{left:64px}.fl.f3{left:112px}.fl.f4{left:160px}.fl.f5{left:208px}
+  .bignum{font-size:clamp(100px,31vw,200px)}
+  .bignum .unit{font-size:clamp(40px,11vw,70px)}
+  .ring{width:70px;top:112px;bottom:auto}
+  .in-note{max-width:100%}
+  .hz-in{width:min(80vw,420px)}
+  .mq{font-size:clamp(70px,20vw,120px)}
+  .pl-big{font-size:clamp(70px,24vw,140px)}
+}
+
 #lb{position:fixed;inset:0;z-index:90;background:rgba(255,255,255,.96);display:none;align-items:center;justify-content:center;cursor:zoom-out}#lb.on{display:flex}#lb img{max-height:94vh;max-width:94vw}
 </style>
 <div id="hud" aria-hidden="true"><span class="t mono">Rescene · Chronicle<span id="hch">Prologue</span></span><div class="d"><b id="hdate">2024.03.25</b><span id="hdp">D+0</span></div></div>
@@ -404,7 +433,7 @@ body.dk #thr{background:repeating-linear-gradient(to bottom,rgba(255,255,255,.3)
     <div class="subhead"><div class="mono part">Part 4 · 음악방송 1위의 서사</div>
       <h2 class="kr-big m"><span class="mask"><span data-chars>여섯 번의</span></span><span class="mask"><span data-chars style="color:var(--pink)">1위</span></span></h2>
       <p class="sc" data-wipe>six trophies</p></div>
-    <div class="kpi"><div><b data-n="6">6</b><small>두 곡이 쌓은 음악방송 1위 (보도 기준)</small></div><div><b data-n="3">3</b><small>쇼! 음악중심 · Pretty Girl</small></div><div><b data-n="2">2<em>주</em></b><small>SBS 인기가요 · LOVE ATTACK</small></div></div>
+    <div class="kpi"><div><b data-n="6">6</b><small>두 곡이 쌓은 음악방송 1위</small></div><div><b data-n="3">3</b><small>쇼! 음악중심 · Pretty Girl</small></div><div><b data-n="2">2<em>주</em></b><small>SBS 인기가요 · LOVE ATTACK</small></div></div>
     <div class="cards p1" id="cWin"></div>
   </div>
 </section>
@@ -462,7 +491,7 @@ body.dk #thr{background:repeating-linear-gradient(to bottom,rgba(255,255,255,.3)
   <p class="mono" style="color:var(--mute)">D+<span id="nowd">939</span> · 2024.03.25 –</p>
   <p class="sc" data-wipe>to be continued</p>
   <div class="ppl" id="ppl"></div>
-  <p class="foot">출처: YTN 2026.10.13·소년한국일보 2026.09.28·뉴스컬처 2026.10.20 등 PULSE 보도(sen-archive 뉴스 모음), 마이데일리 2024.08.27, <a href="https://namu.wiki/w/RESCENE" target="_blank" rel="noopener">나무위키 RESCENE·수상·상세 음원 성적</a>(CC BY-NC-SA 2.0 KR, 요약·재서술), <a href="https://github.com/senarchive/sen-archive" target="_blank" rel="noopener">senarchive/sen-archive</a>(이미지, 음악방송·수상 데이터), 머니투데이 2026.06.01, 스포츠경향 2025.03.08·2026.07.09, 중앙데일리 Melon 기사. 순위·날짜는 출처마다 조금씩 다를 수 있습니다. 시작 시점 기준: ‘거제 야호’ 3/20(나무위키, 일부 기사는 2월), 멜론 1위 7/8(기사)·일간 1위 7/13(나무위키). 이미지는 sen-archive 저장소 자료입니다. 서사별 카드의 기사 이미지·유튜브 썸네일은 각 카드의 출처(스포츠경향·경남도민일보·뉴스1·일간스포츠·ZDNet Korea·파이낸셜신문·마이데일리·미주중앙일보·시대일보·유튜브 각 채널)에서 불러오며, 저작권은 각 매체와 채널에 있습니다. 카드 속 날짜·수치는 해당 기사 보도 기준입니다.</p>
+  <p class="foot">리센느(RESCENE)를 좋아하는 팬이 만든 비공식 연대기예요. 날짜와 순위는 조금씩 다를 수 있어요.</p>
 </section>
 </main>
 
@@ -497,13 +526,13 @@ const NOW=Math.round((()=>{const n=new Date();return Date.UTC(n.getFullYear(),n.
 $('#nowd').textContent=NOW;
 
 /* build content */
-$('#hzt').innerHTML=`<div class="hz-in"><div class="mono part">Part 1 · 2024.03.25 – 2026.02.28</div><h2 class="kr-big">조용히<br>쌓인 2년</h2><p class="sc">before the noise</p><p class="pen" style="font-size:26px;text-wrap:balance">넘기면 시간이 간다 →</p></div>`+EV.map(e=>`<article class="hc ${e.big?'big':''}" data-d="${e.d}"><div class="hc-n mono">${fd(e.d)} · D+${dp(e.d)}</div><div class="hc-img"><i class="tape"></i>${e.num?`<div class="hc-num"><span>${e.num[0]}</span><i>→</i><span>${e.num[1]}</span><small>${e.num[2]}</small></div>`:e.i?`<img class="ph ${e.logo?'lg':''}" src="${I(e.i)}" alt="${e.t}" loading="lazy">`:`<div class="hc-ph"><img src="img/logo.png" alt=""></div>`}</div><h3 class="sc">${e.en}</h3><div class="hk pen">${e.t}</div><p>${e.p}</p>${e.mark?`<span class="mark note" style="transform:rotate(-6deg)">이 곡,<br>기억해 두기 ↓</span>`:''}</article>`).join('')+`<div class="hz-in" style="width:min(70vw,420px)"><p class="mono" style="color:var(--mute)">2026.03 →</p><p class="pen" style="font-size:clamp(40px,7vw,70px);line-height:1">그리고,<br>불이 붙었다.</p></div>`;
+$('#hzt').innerHTML=`<div class="hz-in"><div class="mono part">Part 1 · 2024.03.25 – 2026.02.28</div><h2 class="kr-big">조용히<br>쌓인 2년</h2><p class="sc">before the noise</p><p class="pen" style="font-size:26px;text-wrap:balance">넘기면 시간이 간다 →</p></div>`+EV.map(e=>`<article class="hc ${e.big?'big':''}" data-d="${e.d}"><div class="hc-n mono">${fd(e.d)} · D+${dp(e.d)}</div><div class="hc-img"><i class="tape"></i>${e.num?`<div class="hc-num"><span>${e.num[0]}</span><i>→</i><span>${e.num[1]}</span><small>${e.num[2]}</small></div>`:e.i?`<img class="ph ${e.logo?'lg':''}" src="${I(e.i)}" alt="${e.t}">`:`<div class="hc-ph"><img src="img/logo.png" alt=""></div>`}</div><h3 class="sc">${e.en}</h3><div class="hk pen">${e.t}</div><p>${e.p}</p>${e.mark?`<span class="mark note" style="transform:rotate(-6deg)">이 곡,<br>기억해 두기 ↓</span>`:''}</article>`).join('')+`<div class="hz-in" style="width:min(70vw,420px)"><p class="mono" style="color:var(--mute)">2026.03 →</p><p class="pen" style="font-size:clamp(40px,7vw,70px);line-height:1">그리고,<br>불이 붙었다.</p></div>`;
 const mqt='거제 야호 ✦ 안원잘부 ✦ ';$('#mq1').textContent=mqt.repeat(7);$('#mq2').textContent='안원잘부 ✦ 거제 야호 ✦ '.repeat(7);
 const YT=v=>'https://www.youtube.com/watch?v='+v;
 const YA=[
- {d:'2026-03-20',en:'Yaho',t:'‘거제 야호’ 밈의 시작',p:'3월 20일 온라인에서 밈이 되기 시작했다. (나무위키 기준, 일부 기사는 2월)',txt:'야호',note:'여기서 시작 ↗'},
+ {d:'2026-03-20',en:'Yaho',t:'‘거제 야호’ 밈의 시작',p:'3월 20일 온라인에서 밈이 되기 시작했다.',txt:'야호',note:'여기서 시작 ↗'},
  {d:'2026-05-01',en:'The Dialect',t:'하루종일 사투리만 써봤습니다',p:'원이·미나미·제나. 5월 1일 올라온 사투리 영상. 안원잘부 채널이 눈에 띄기 시작한 때.',v:'NS7tSrMrWsc'},
- {d:'2026-05-08',en:'100K',t:'구독자 10만 기념 Q&A',p:'영상 제목 기준, 5월 8일에는 이미 10만 구독 기념 영상이 올라왔다.',v:'_AqXSSQ0Cmo'},
+ {d:'2026-05-08',en:'100K',t:'구독자 10만 기념 Q&A',p:'5월 8일에는 이미 10만 구독 기념 영상이 올라왔다.',v:'_AqXSSQ0Cmo'},
  {d:'2026-05-22',en:'Geoje, Ep.1',t:'갸루와 거제에 왔습니다 (거제 1편)',p:'5월 22일. 원이·미나미의 거제 편이 ‘야호’를 한 번 더 키웠다.',v:'OrCOflk2QmQ'},
  {d:'2026-05-29',en:'Before It Blew',t:'떡상 전 성수나들이 (사투리 2편)',p:'제목 그대로 ‘떡상 전’. 이 영상 직후인 6월 1일에 멜론 TOP100 28위가 찍힌다.',v:'JJBf0jCcfrQ',note:'떡상 직전 ↘'},
  {d:'2026-06-26',en:'Suddenly Famous',t:'갑자기 떡상해서 찍는 댓글읽기',p:'떡상 이후 원이·리브·메이가 찍은 댓글 읽기. 그 사이 TOP100은 5위, 1위를 지나갔다.',v:'xYLNDE4RXsg'}
@@ -518,44 +547,44 @@ $('#tix').innerHTML=[
 ].map(e=>`<div class="tx" data-d="${e.d}"><div class="d">${md(e.d)}<small>D+${dp(e.d)}</small></div><div class="b">${e.lg?`<img class="lg" src="${I(e.lg)}" alt="">`:`<span class="mono" style="color:var(--pink)">SBS 인기가요</span>`}<h3>${e.h}</h3>${e.c699?`<div class="big699"><span id="c699">699</span><small>일, 그 숫자</small></div>`:''}${e.crowns?`<div class="crowns">${CROWN+CROWN+CROWN}</div>`:''}<p>${e.p}</p></div></div>`).join('');
 
 /* ---------- story cards (thumbnails) ---------- */
-const ART=(d,src,url,img,o)=>Object.assign({d,src,url,img},o);
-const YTC=(d,src,v,o)=>Object.assign({d,src,v,url:YT(v)},o);
+const IM=n=>'img/'+n+'.webp';
 const ST={
  run:[
-  ART('2026-07-15','스포츠경향 · 2026.07.15','https://sports.khan.co.kr/article/202607152022003','https://images.khan.co.kr/article/2026/07/15/news-p.v1.20260715.e1db112477fc489895797b3cb0fee6e3_P1.png',{t:'‘거제 1편’, 누적 1000만 뷰',p:'‘갸루와 거제에 왔습니다’ 영상이 누적 1000만 뷰를 넘겼다. ‘야호’는 거제 여행 챌린지와 촬영지 성지순례로 번졌다.',stat:['1000만','CUMULATIVE VIEWS']}),
-  YTC('2026-07-08','KBS WORLD TV · YouTube','sNpMl4InHyA',{t:'뮤직뱅크 무대, ‘Viral Comeback’',p:'영상 제목에 ‘Viral Comeback’이 붙은 LOVE ATTACK 뮤직뱅크 무대. (제목에 표기된 방송일 2024.09.06)'}),
-  YTC('2024-08-27','RESCENE 공식 · YouTube','9XttLI0oH0I',{t:'모든 것의 시작, LOVE ATTACK MV',p:'2024.08.27 발매. 699일 뒤 지상파 1위가 된 바로 그 곡의 공식 뮤직비디오.'})
+  {d:'2026-05-22',v:'OrCOflk2QmQ',img:IM('g_scenedrome'),t:'‘거제 1편’, 누적 1000만 뷰',p:'‘갸루와 거제에 왔습니다’ 영상이 누적 1000만 뷰를 넘겼다. ‘야호’는 거제 여행 챌린지와 촬영지 성지순례로 번졌다.',stat:['1000만','CUMULATIVE VIEWS']},
+  {d:'2026-06-05',v:'xqySvx940PA',img:IM('g_heartdrop'),t:'‘역주행 1등’, 거제에서 국빈 대접',p:'역주행 한가운데에서 거제를 찾은 리센느.'},
+  {d:'2024-08-27',v:'9XttLI0oH0I',img:IM('c_scenedrome'),t:'모든 것의 시작, LOVE ATTACK MV',p:'2024.08.27 발매. 699일 뒤 지상파 1위가 된 바로 그 곡의 공식 뮤직비디오.'}
  ],
  win:[
-  ART('2026-07-14','스포츠경향 · 2026.07.15','https://sports.khan.co.kr/article/202607150729003','https://images.khan.co.kr/article/2026/07/15/news-p.v1.20260715.ed29451dcfc948cd94bd8a62dbe6aab3_P1.png',{t:'더 쇼, 데뷔 후 첫 음악방송 1위',p:'Pretty Girl로 올라선 첫 트로피. 멤버들은 팬덤 ‘리마인’에게 감사를 전했다.',stat:['1st','THE SHOW']}),
-  YTC('2026-07-26','SBS Inkigayo · YouTube','rzfjou7vPP0',{t:'인기가요 1위 앵콜 직캠',p:'LOVE ATTACK, 발매 699일 만의 지상파 1위. 앵콜 무대를 직캠으로.'}),
-  ART('2026-08-16','미주중앙일보 · 2026.08.16','https://www.koreadaily.com/article/20260816174753403','https://www.koreadaily.com/data/photo/thumbnail/2026/08/17/73ae5fe7-bc82-42b2-99f8-3eb2dfb208ff.jpg',{t:'인기가요 2주 연속, 음중 트리플 크라운',p:'LOVE ATTACK은 인기가요 통산 두 번째 1위. 쇼! 음악중심에서는 Pretty Girl이 세 번 정상에 올랐다.',stat:['×6','MUSIC SHOW WINS']})
+  {d:'2026-07-14',v:'cltr2QpFEvY',img:IM('g_prettygirl'),t:'더 쇼, 데뷔 후 첫 음악방송 1위',p:'Pretty Girl로 올라선 첫 트로피. 데뷔 841일 만이다.',stat:['1st','THE SHOW']},
+  {d:'2026-07-26',v:'rzfjou7vPP0',img:IM('g_scenedrome'),t:'인기가요 1위 앵콜 직캠',p:'LOVE ATTACK, 발매 699일 만의 지상파 1위. 앵콜 무대를 직캠으로.'},
+  {d:'2026-08-16',v:'_6hFuAlWJ4Y',img:IM('g_lipbomb'),t:'인기가요 2주 연속, 음중 트리플 크라운',p:'LOVE ATTACK은 인기가요 통산 2주 1위. 쇼! 음악중심에서는 Pretty Girl이 세 번 정상에 올랐다.',stat:['×6','MUSIC SHOW WINS']}
  ],
  aw:[
-  ART('2026-08-27','스포츠경향 · 2026.08.29','https://sports.khan.co.kr/article/202608290531003','https://images.khan.co.kr/article/2026/08/29/news-p.v1.20260829.f5e8d1a4425c436692ea2e0387dedb93_P1.jpg',{t:'K 월드 드림 어워즈 2관왕',p:'베스트 팬덤상 · 베스트 비주얼 콘텐츠상. 고양 킨텍스에서 ‘Deja Vu’ 무대도 선보였다.',chip:'KINTEX · 2 AWARDS'}),
-  ART('2026-09-06','스포츠경향 · 2026.09.07','https://sports.khan.co.kr/en/article/202609070836007','https://images.khan.co.kr/article/2026/09/07/news-p.v1.20260907.059bdf1e68d5436cae67c4d73722bb30_P1.jpg',{t:'SPOTV K-POP 어워즈',p:'GLOBAL CONNECT · SPOTV AMBASSADOR. 일산 킨텍스에서 2개 부문을 받았다.',chip:'KINTEX · 2 AWARDS'}),
-  ART('2026-09-19','마이데일리 · 2026.09.20','https://www.mydaily.co.kr/page/view/2026092017105001436','https://mydaily.co.kr/photos/2026/09/20/2026092017101854946_l.jpg',{t:'더팩트 뮤직 어워즈 2관왕',p:'올해의 아티스트, 그리고 현장 관객 선택 부문. 부산아시아드주경기장.',chip:'BUSAN · 2 AWARDS'})
+  {d:'2026-08-27',v:'HVDi_fb5nc8',img:IM('g_prettygirl'),t:'K 월드 드림 어워즈 2관왕',p:'베스트 비주얼 콘텐츠상 · 베스트 팬덤상.',chip:'2 AWARDS'},
+  {d:'2026-09-06',v:'KeGZn740Bso',img:IM('g_lipbomb'),t:'SPOTV K-POP 어워즈',p:'GLOBAL CONNECT · SPOTV AMBASSADOR.',chip:'2 AWARDS'},
+  {d:'2026-09-19',v:'Qk_dZCt3NxY',img:IM('g_runaway'),t:'더팩트 뮤직 어워즈',p:'올해의 아티스트 · 투데이스 초이스.',chip:'2 AWARDS'}
  ],
  ad:[
-  YTC('2026-06-25','일간스포츠 · 2026.06.25','BJlg9RU-xgQ',{url:'https://isplus.com/article/view/isp202606250047',t:'카사베르디, 데뷔 후 첫 TV CF',p:'이탈리아에서 촬영한 시네마틱 CF. 오픈카, 노을 진 강변, 초원을 슬로모션으로 담았다. 7월 1일에는 메이킹 영상도 공개됐다.'}),
-  ART('2026-07-01','ZDNet Korea · 2026.07.01','https://zdnet.co.kr/view/?no=20260701091030','https://image.zdnet.co.kr/2026/07/01/879f8cfd13d5857cec0ff344069cc590.jpg',{t:'CU, “야호”',p:'CU가 K팝 아이돌 그룹을 브랜드 모델로 선택한 건 편의점 중 처음이라고 밝혔다. 협업 상품과 콘텐츠, 팬 이벤트까지 이어진다.'}),
-  ART('2026-07-14','파이낸셜신문 · 2026.07.14','https://www.efnews.co.kr/news/articleView.html?idxno=130960','https://www.efnews.co.kr/news/photo/202607/130960_117573_1055.jpg',{t:'도미노피자 전속 모델',p:'7월 16일 TVCF와 신메뉴 ‘무진장 슈림프 스테이크 피자’ 공개. 공개 4일 만에 합산 1700만 뷰를 넘겼다.',stat:['17M','VIEWS · 4 DAYS']}),
-  ART('2026-07-21','한국경제 · 2026.07.21','https://www.hankyung.com/article/202607216931g',null,{t:'나랑드사이다 새 모델',p:'동아오츠카 제로슈거 사이다 ‘나랑드사이다’의 새 얼굴. 신규 광고는 다음 달 공개 예정이라고 발표됐다.'})
+  {d:'2026-06-26',v:'BJlg9RU-xgQ',img:IM('g_runaway'),t:'카사베르디, 데뷔 후 첫 TV CF',p:'이탈리아에서 촬영한 시네마틱 CF. 오픈카, 노을 진 강변, 초원을 슬로모션으로 담았다.'},
+  {d:'2026-07-01',img:IM('ad_cu'),t:'CU, “야호”',p:'K팝 아이돌 그룹을 브랜드 모델로 세운 편의점은 처음이라고 밝혔다. 협업 상품과 콘텐츠, 팬 이벤트까지 이어진다.'},
+  {d:'2026-07-16',img:IM('ad_domino'),t:'도미노피자 전속 모델',p:'신메뉴 ‘무진장 슈림프 스테이크 피자’ TVCF 공개. 4일 만에 합산 1700만 뷰를 넘겼다.',stat:['17M','VIEWS · 4 DAYS']},
+  {d:'2026-07-21',v:'HKlm_f-qXdk',img:IM('ad_narang'),t:'나랑드사이다 새 모델',p:'동아오츠카 제로슈거 사이다의 새 얼굴. 메이킹 필름도 공개됐다.'}
  ],
  amb:[
-  ART('2026-05-22','경남도민일보 · 2026.05.24','https://www.idomin.com/news/articleView.html?idxno=2006395','img/ad_geoje.webp',{t:'거제시 홍보대사',p:'‘거제야호’ 숏폼으로 시작한 위촉. 거제 출신 원이와 미나미가 밈을 키웠다.',chip:'GEOJE · 원이'}),
-  ART('2026-06-24','뉴스1 · 2026.06.24','https://www.news1.kr/local/gyeonggi/6206840','https://i3n.news1.kr/system/photos/2026/6/24/7974028/high.jpg',{t:'수원시 홍보대사',p:'‘2026~2027 수원 방문의 해’ 홍보. 수원 출신 리브가 도시의 새 얼굴이 됐다.',chip:'SUWON · 리브'}),
-  ART('2026-07-02','일간스포츠 · 2026.07.03','https://isplus.com/article/view/isp202607030049','https://isplus.com/data/isp/image/2026/07/03/isp20260703000068.800x.0.jpg',{t:'고양특례시 홍보대사',p:'초·중학교를 고양에서 다닌 메이의 도시. 9대 시정 첫 홍보대사로 위촉됐다.',chip:'GOYANG · 메이'}),
-  ART('2026-08-02','시대일보 · 2026.08.03','https://www.sidae.com/article/2026080310401356057','https://menu.sidae.com/moneyweek/thumb/2026/08/03/00/2026080310401356057_1.jpg',{t:'경주시, 첫 홍보 촬영',p:'제나의 고향 경주. 신라 전통 복식으로 왕실 행렬을 재현하고 명예 신라 공주 증서를 받았다.',chip:'GYEONGJU · 제나'})
+  {d:'2026-05-22',v:'G2Ajw1Po5f8',img:IM('ad_geoje'),t:'거제시 홍보대사',p:'‘거제야호’ 숏폼으로 시작한 위촉. 거제 출신 원이와 미나미가 밈을 키웠다.',chip:'GEOJE · 원이'},
+  {d:'2026-06-24',v:'AprhNzAcfdc',img:IM('ad_suwon'),t:'수원시 홍보대사',p:'‘2026~2027 수원 방문의 해’ 홍보. 수원 출신 리브가 도시의 새 얼굴이 됐다.',chip:'SUWON · 리브'},
+  {d:'2026-06-29',v:'QHomm66dhL0',img:IM('ad_gyeongju'),t:'경주시 홍보대사',p:'제나의 고향 경주. 신라 전통 복식으로 왕실 행렬을 재현하고 명예 신라 공주 증서를 받았다.',chip:'GYEONGJU · 제나'},
+  {d:'2026-07-02',img:IM('ad_goyang'),t:'고양시 홍보대사',p:'초·중학교를 고양에서 다닌 메이의 도시. 9대 시정 첫 홍보대사로 위촉됐다.',chip:'GOYANG · 메이'}
  ]
 };
 const CARD=c=>{
- const img=c.v?`https://i.ytimg.com/vi/${c.v}/hqdefault.jpg`:c.img;
- const local=img&&!/^https?:/.test(img);
- return `<a class="card" href="${c.url}" target="_blank" rel="noopener noreferrer" data-d="${c.d}" aria-label="${c.t} (${c.src})"><div class="thumb"><div class="fb"><span class="mono">${c.src}</span>${c.stat?'':`<b>${c.t}</b>`}</div>${img?`<img class="ph" src="${img}" alt="" loading="lazy"${local?'':' referrerpolicy="no-referrer"'} onerror="this.remove()">`:''}${c.stat?`<i class="sh"></i><div class="stat">${c.stat[0]}<small>${c.stat[1]}</small></div>`:''}<span class="badge ${c.v?'yt':''}">${c.v?'▶ YOUTUBE':'ARTICLE'}</span>${c.v?'<i class="play"></i>':''}</div><div class="cb"><div class="cd">${md(c.d)}<small>${fd(c.d)} · D+${dp(c.d)}</small></div><h3>${c.t}</h3>${c.chip?`<span class="hm">${c.chip}</span>`:''}<p>${c.p}</p><span class="src">${c.src}</span></div></a>`};
+ const loc=c.img?`<img class="b" src="${c.img}" alt="">`:'';
+ const rem=c.v?`<img class="t" src="https://i.ytimg.com/vi/${c.v}/hqdefault.jpg" alt="" referrerpolicy="no-referrer" onload="this.classList.add('ok')" onerror="this.remove()">`:'';
+ const inner=`<div class="thumb"><div class="fb"><b>${c.t}</b></div>${loc}${rem}${c.stat?`<i class="sh"></i><div class="stat">${c.stat[0]}<small>${c.stat[1]}</small></div>`:''}${c.v?'<i class="play"></i>':''}</div><div class="cb"><div class="cd">${md(c.d)}<small>${fd(c.d)} · D+${dp(c.d)}</small></div><h3>${c.t}</h3>${c.chip?`<span class="hm">${c.chip}</span>`:''}<p>${c.p}</p></div>`;
+ return c.v?`<a class="card" href="${YT(c.v)}" target="_blank" rel="noopener noreferrer" data-d="${c.d}">${inner}</a>`:`<div class="card" data-d="${c.d}">${inner}</div>`};
 $('#cRun').innerHTML=ST.run.map(CARD).join('');$('#cWin').innerHTML=ST.win.map(CARD).join('');$('#cAw').innerHTML=ST.aw.map(CARD).join('');$('#cAd').innerHTML=ST.ad.map(CARD).join('');$('#cAmb').innerHTML=ST.amb.map(CARD).join('');
 const ERA=['debut','yoyo','rescene','scenedrome','glowup','dearest','heartdrop','lipbomb','runaway','prettygirl'];
-$('#strip').innerHTML=ERA.map((n,i)=>`<figure><img class="ph" src="${I('g_'+n)}" alt="" loading="lazy"><figcaption class="mono">${String(i+1).padStart(2,'0')}</figcaption></figure>`).join('');
+$('#strip').innerHTML=ERA.map((n,i)=>`<figure><img class="ph" src="${I('g_'+n)}" alt=""><figcaption class="mono">${String(i+1).padStart(2,'0')}</figcaption></figure>`).join('');
 $('#ppl').innerHTML=['woni','liv','minami','may','zena'].map(m=>`<img class="ph col" src="${I('m_'+m+'_prettygirl')}" alt="">`).join('');
 
 /* eras (album galleries) */
@@ -572,10 +601,10 @@ const ERAS=[
  {k:'runaway',d:'2026-04-09',en:'Runaway',kr:'봄 싱글',tag:'SINGLE',trk:'Runaway',cover:'c_runaway'},
  {k:'prettygirl',d:'2026-07-09',en:'Pretty Girl',kr:'카라 원곡 리메이크 · 스페셜 싱글',tag:'SPECIAL SINGLE',trk:'Pretty Girl',cover:'c_pretty'}
 ];
-const eraHTML=e=>`<section class="era" data-d="${e.d||''}"><div class="era-g"><div class="era-l"><div class="mono part">${e.tag}${e.d?' · '+fd(e.d):''}</div><h3 class="sc" data-wipe>${e.en}</h3><p class="pen" style="font-size:clamp(26px,3vw,34px)">${e.kr}</p>${e.trk?`<p class="mono trk">${e.trk}</p>`:''}${e.cover?`<figure class="cvr"><i class="tape"></i><img class="ph" src="${I(e.cover)}" alt="${e.en} 커버" loading="lazy"></figure>`:''}</div><figure class="grp"><img class="ph" src="${I('g_'+e.k)}" alt="${e.en} 단체 컨셉 포토" loading="lazy"></figure></div><div class="pf">${MEM.map(m=>`<figure><img class="ph" src="${I('m_'+m[0]+'_'+e.k)}" alt="${m[1]} ${e.en}" loading="lazy"><figcaption class="mono">${m[1]}</figcaption></figure>`).join('')}</div></section>`;
+const eraHTML=e=>`<section class="era" data-d="${e.d||''}"><div class="era-g"><div class="era-l"><div class="mono part">${e.tag}${e.d?' · '+fd(e.d):''}</div><h3 class="sc" data-wipe>${e.en}</h3><p class="pen" style="font-size:clamp(26px,3vw,34px)">${e.kr}</p>${e.trk?`<p class="mono trk">${e.trk}</p>`:''}${e.cover?`<figure class="cvr"><i class="tape"></i><img class="ph" src="${I(e.cover)}" alt="${e.en} 커버"></figure>`:''}</div><figure class="grp"><img class="ph" src="${I('g_'+e.k)}" alt="${e.en} 단체 컨셉 포토"></figure></div><div class="pf">${MEM.map(m=>`<figure><img class="ph" src="${I('m_'+m[0]+'_'+e.k)}" alt="${m[1]} ${e.en}"><figcaption class="mono">${m[1]}</figcaption></figure>`).join('')}</div></section>`;
 const era=k=>eraHTML(ERAS.find(e=>e.k===k));
 const OTH=[['c_countingstar','Counting Star · 더 매직스타 OST'],['c_namju','남주의 첫날밤을 가져버렸다 OST'],['c_go','고백주파수 · 첫사랑 엔딩 OST'],['c_busy','Busy Boy · RESCENE X ???'],['c_busy2','Busy Boy (Galantis Remix)'],['c_musicfrom','Music from THE SPECIALS'],['c_pinballjp','Pinball (Japanese Ver.)']];
-$('#eraA').innerHTML=`<div class="pad" style="padding-inline:max(16px,env(safe-area-inset-left,0px))"><div class="era-intro"><div class="mono part">Part 1 · 앨범별 컨셉 포토 · 프로필</div><h2 class="kr-big"><span class="mask"><span data-chars>앨범마다</span></span><span class="mask"><span data-chars>다른 얼굴</span></span></h2></div>${['debut','yoyo','rescene','scenedrome','glowup','dearest','heartdrop','lipbomb'].map(era).join('')}<div class="oth"><div class="mono part" style="margin-bottom:14px">그 밖의 발매 · OST · 콜라보</div><div class="oth-t">${OTH.map(o=>`<figure><img class="ph" src="${I(o[0])}" alt="" loading="lazy"><figcaption>${o[1]}</figcaption></figure>`).join('')}</div></div></div>`;
+$('#eraA').innerHTML=`<div class="pad" style="padding-inline:max(16px,env(safe-area-inset-left,0px))"><div class="era-intro"><div class="mono part">Part 1 · 앨범별 컨셉 포토 · 프로필</div><h2 class="kr-big"><span class="mask"><span data-chars>앨범마다</span></span><span class="mask"><span data-chars>다른 얼굴</span></span></h2></div>${['debut','yoyo','rescene','scenedrome','glowup','dearest','heartdrop','lipbomb'].map(era).join('')}<div class="oth"><div class="mono part" style="margin-bottom:14px">그 밖의 발매 · OST · 콜라보</div><div class="oth-t">${OTH.map(o=>`<figure><img class="ph" src="${I(o[0])}" alt=""><figcaption>${o[1]}</figcaption></figure>`).join('')}</div></div></div>`;
 $('#eraB').innerHTML=era('runaway');$('#eraC').innerHTML=era('prettygirl');
 /* pulse build */
 {const x=[...'PULSE'];$('#plbig').innerHTML=x.map((c,i)=>`<span class="pc" aria-hidden="true" style="animation-delay:${i*.09}s">${c}</span>`).join('');
@@ -586,13 +615,13 @@ $('#eraB').innerHTML=era('runaway');$('#eraC').innerHTML=era('prettygirl');
  const rel=Date.UTC(2026,10,3),tn=new Date(),td=Date.UTC(tn.getFullYear(),tn.getMonth(),tn.getDate()),dd=Math.round((rel-td)/864e5);
  $('#plcd').textContent=Math.abs(dd);$('#plcl').textContent=(dd>0?'DAYS TO RELEASE':dd===0?'RELEASE DAY':'DAYS SINCE RELEASE')+' · 2026.11.03 18:00';}
 
-const PN=7;$('#plph').innerHTML=Array.from({length:PN},(_,i)=>`<div class="pl-fr" data-i="${i+1}"><img src="img/pulse_${i+1}.webp" alt="PULSE 콘셉트 포토 ${i+1}" loading="lazy"><span class="mono" style="position:absolute;left:8px;bottom:6px;color:#fff;text-shadow:0 0 8px rgba(0,0,0,.5)">${String(i+1).padStart(2,'0')}</span></div>`).join('');
+const PN=7;$('#plph').innerHTML=Array.from({length:PN},(_,i)=>`<div class="pl-fr" data-i="${i+1}"><img src="img/pulse_${i+1}.webp" alt="PULSE 콘셉트 포토 ${i+1}"><span class="mono" style="position:absolute;left:8px;bottom:6px;color:#fff;text-shadow:0 0 8px rgba(0,0,0,.5)">${String(i+1).padStart(2,'0')}</span></div>`).join('');
 $('#plph').addEventListener('click',e=>{const f=e.target.closest('.pl-fr');if(!f)return;$('#lb img').src='img/pulse_'+f.dataset.i+'.webp';$('#lb').classList.add('on')});$('#lb').addEventListener('click',()=>$('#lb').classList.remove('on'));
 /* helpers */
 function split(el){const t=el.textContent;el.textContent='';el.setAttribute('aria-label',t);return [...t].map(c=>{const s=document.createElement('span');s.className='ch';s.setAttribute('aria-hidden','true');s.textContent=c===' '?' ':c;el.appendChild(s);return s})}
 
 /* rise chart */
-const RS=[{p:0,d:'2026-06-01',r:28,b:'6월 1일 · 28위',s:'‘역주행’이라 불리기 시작한 자리. 불씨는 두 달 전 ‘거제 야호’.'},{p:.34,d:'2026-06-15',r:5,b:'6월 15일 · 5위',s:'2주 만에 23계단.'},{p:.72,d:'2026-07-08',r:1,b:'7월 8일 · 1위',s:'LOVE ATTACK, 발매 2년 만에 멜론 TOP100 정상. (기사 보도 기준)'},{p:1,d:'2026-07-13',r:1,b:'7월 13일 · 일간 1위',s:'멜론 일간 차트 1위 기록이 시작된 날. (나무위키 기준)'}];
+const RS=[{p:0,d:'2026-06-01',r:28,b:'6월 1일 · 28위',s:'‘역주행’이라 불리기 시작한 자리. 불씨는 두 달 전 ‘거제 야호’.'},{p:.34,d:'2026-06-15',r:5,b:'6월 15일 · 5위',s:'2주 만에 23계단.'},{p:.72,d:'2026-07-08',r:1,b:'7월 8일 · 1위',s:'LOVE ATTACK, 발매 2년 만에 멜론 TOP100 정상.'},{p:1,d:'2026-07-13',r:1,b:'7월 13일 · 일간 1위',s:'멜론 일간 차트 1위 기록이 시작된 날.'}];
 const NAR=innerWidth<640;const X0=Date.parse('2026-05-28'),X1=Date.parse('2026-07-16'),CW=NAR?420:1000,CH=NAR?250:220,PL=NAR?30:44,PR=NAR?16:24,PT=18,PB=34;$('#rsvg').setAttribute('viewBox','0 0 '+CW+' '+CH);
 const cx=d=>PL+(Date.parse(d)-X0)/(X1-X0)*(CW-PL-PR),cy=r=>PT+(r-1)/29*(CH-PT-PB);
 $('#rsvg').innerHTML=[1,5,10,20,28].map(r=>`<line x1="${PL}" x2="${CW-PR}" y1="${cy(r)}" y2="${cy(r)}" stroke="#e8e5ee"/><text x="${PL-8}" y="${cy(r)+3}" text-anchor="end">${r}</text>`).join('')+['2026-06-01','2026-06-15','2026-07-01','2026-07-15'].map(d=>`<text x="${cx(d)}" y="${CH-10}" text-anchor="middle">${md(d)}</text>`).join('')+`<line x1="${cx('2026-07-09')}" x2="${cx('2026-07-09')}" y1="${PT}" y2="${CH-PB}" stroke="#7a4de8" stroke-dasharray="3 4"/><text class="lab" id="pgl" x="${cx('2026-07-09')+6}" y="${PT+12}" style="fill:#7a4de8">07.09 Pretty Girl 활동 시작</text><path id="rline" d="" fill="none" stroke="#ff2e7e" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>`+RS.map((s,i)=>`<g class="lab" id="rl${i}"><circle cx="${cx(s.d)}" cy="${cy(s.r)}" r="5" fill="#ff2e7e" style="opacity:1"/><text x="${cx(s.d)}" y="${cy(s.r)+(s.r<3?-12:22)}" text-anchor="middle" style="fill:#111013;font-weight:700;font-size:11px">${md(s.d)} · ${s.r}위</text></g>`).join('')+`<circle id="rhead" r="8" fill="#fff" stroke="#ff2e7e" stroke-width="3" cx="${cx(RS[0].d)}" cy="${cy(RS[0].r)}"/>`;
@@ -611,7 +640,6 @@ function drawRise(p){
  let st=0;RS.forEach((s,k)=>{if(p>=s.p-.001)st=k});
  RS.forEach((s,k)=>{$('#rs'+k).classList.toggle('on',k===st);$('#rl'+k).classList.toggle('on',p>=s.p-.001)});
  $('#pgl').classList.toggle('on',p>=.8);
- $('#rsimg').style.filter=`grayscale(${(1-p).toFixed(2)}) contrast(1.1)`;
  if(st!==rsIdx){rsIdx=st;setHud(RS[st].d)}
 }
 
@@ -633,9 +661,10 @@ function pulseTriggers(){
 /* boot */
 function boot(){
  if(!window.gsap||!window.ScrollTrigger){drawRise(1);$$('.rs-st').forEach((x,k)=>x.classList.toggle('on',k===3));return}
- document.documentElement.classList.add('js');
+ const pin=!rm&&innerWidth>=900;
+ if(pin)document.documentElement.classList.add('js');else document.documentElement.classList.add('nopin');
  gsap.registerPlugin(ScrollTrigger);
- const pin=!rm;
+ ScrollTrigger.config({ignoreMobileResize:true});
  /* thread + progress */
  const tr=$('#thr'),f=$('#thf'),bd=$('#bead');
  ScrollTrigger.create({start:0,end:'max',onUpdate:s=>{const H=tr.clientHeight;f.style.height=s.progress*H+'px';bd.style.top=(s.progress*H-5)+'px'}});
@@ -656,7 +685,7 @@ function boot(){
   let act=-1;
   gsap.to(track,{x:()=>-dist(),ease:'none',scrollTrigger:{trigger:'#s1',start:'top top',end:()=>'+='+Math.round(dist()*1.15),pin:true,scrub:.7,invalidateOnRefresh:true,anticipatePin:1,
    onUpdate:s=>{const cxv=s.progress*dist()+innerWidth*.52;let best=-1,bd2=1e9;cards.forEach((c,i)=>{const m=c.offsetLeft+c.offsetWidth/2,dd=Math.abs(m-cxv);if(dd<bd2){bd2=dd;best=i}});if(best!==act){act=best;cards.forEach((c,i)=>c.classList.toggle('on',i===best));setHud(cards[best].dataset.d)}}}});
- } else {cards.forEach(c=>c.classList.add('on'))}
+ } else {cards.forEach(c=>c.classList.add('on'));let hl=-1;const hv=()=>{const mid=innerWidth/2;let best=0,bd=1e9;cards.forEach((c,i)=>{const r=c.getBoundingClientRect(),dd=Math.abs(r.left+r.width/2-mid);if(dd<bd){bd=dd;best=i}});if(best!==hl){hl=best;setHud(cards[best].dataset.d)}};view.addEventListener('scroll',hv,{passive:true});ScrollTrigger.create({trigger:'#s1',start:'top 60%',end:'bottom 40%',onToggle:s=>s.isActive&&hv()})}
  eraTriggers($('#eraA'));
  /* S2 yaho */
  if(!rm){gsap.fromTo('#mq1',{xPercent:0},{xPercent:-30,ease:'none',scrollTrigger:{trigger:'#s2',start:'top bottom',end:'bottom top',scrub:.6}});
@@ -672,7 +701,8 @@ function boot(){
  /* S3 rise (pinned scrub) */
  if(pin){drawRise(0);ScrollTrigger.create({trigger:'#s3',start:'top top',end:'+=3400',pin:true,scrub:true,anticipatePin:1,onUpdate:s=>drawRise(s.progress)});
   gsap.from('#rsnum',{y:60,opacity:0,duration:1,scrollTrigger:{trigger:'#s3',start:'top 70%',once:true}})}
- else drawRise(1);
+ else if(rm)drawRise(1);
+ else{drawRise(0);ScrollTrigger.create({trigger:'#s3',start:'top 62%',once:true,onEnter:()=>{const o={p:0};gsap.to(o,{p:1,duration:3.6,ease:'none',onUpdate:()=>drawRise(o.p)})}})}
  ScrollTrigger.create({trigger:'#s3',start:'top 50%',end:'bottom 50%',onToggle:s=>{if(s.isActive){rsIdx=-1;drawRise(RP)}}});
  eraTriggers($('#eraC'));
  /* S4 win */
@@ -692,8 +722,7 @@ function boot(){
  });
  const c699=$('#c699');if(c699&&!rm){const o={v:0};c699.textContent='0';gsap.to(o,{v:699,duration:2,ease:'power2.out',scrollTrigger:{trigger:c699,start:'top 85%',once:true},onUpdate:()=>c699.textContent=Math.round(o.v)})}
  /* S5 */
- if(!rm){const sw=()=>$('#strip').scrollWidth-innerWidth;gsap.fromTo('#strip',{x:0},{x:()=>-Math.max(0,sw()),ease:'none',scrollTrigger:{trigger:'.strip',start:'top bottom',end:'bottom top',scrub:.6,invalidateOnRefresh:true}});
-  $$('#strip .ph').forEach(im=>gsap.to(im,{filter:'grayscale(0) contrast(1)',ease:'none',scrollTrigger:{trigger:im,start:'top 92%',end:'top 40%',scrub:true}}))}
+ if(!rm){const sw=()=>$('#strip').scrollWidth-innerWidth;gsap.fromTo('#strip',{x:0},{x:()=>-Math.max(0,sw()),ease:'none',scrollTrigger:{trigger:'.strip',start:'top bottom',end:'bottom top',scrub:.6,invalidateOnRefresh:true}});}
 
  /* v2: story cards, counters, bands, chapter label */
  $$('.card').forEach(c=>{
@@ -722,6 +751,7 @@ function boot(){
  ScrollTrigger.create({trigger:'#s6',start:'top 55%',onToggle:s=>{if(s.isActive){const t=new Date().toISOString().slice(0,10);setHud(t)}}});
  if(!rm)gsap.from('#ppl img',{y:60,opacity:0,rotate:()=>gsap.utils.random(-12,12),stagger:.1,duration:.9,ease:'back.out(1.6)',scrollTrigger:{trigger:'#ppl',start:'top 90%',once:true}});
  addEventListener('load',()=>ScrollTrigger.refresh());
+ let rtm=0;$$('img').forEach(i=>{if(!i.complete)i.addEventListener('load',()=>{clearTimeout(rtm);rtm=setTimeout(()=>ScrollTrigger.refresh(),160)},{once:true})});
  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>ScrollTrigger.refresh());
 }
 boot();
