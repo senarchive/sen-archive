@@ -966,3 +966,33 @@ window.addEventListener('DOMContentLoaded', () => {
         console.error("Initialization error:", e);
     }
 });
+
+/* 사이드 필터 접기/펴기 (CATEGORY · YEAR · DETAIL) */
+(function () {
+    function init() {
+        var KEY = 'media-ms-collapsed';
+        var saved = {};
+        try { saved = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) {}
+        document.querySelectorAll('.ms-col').forEach(function (col, i) {
+            var title = col.querySelector('.ms-title');
+            if (!title) return;
+            var id = (col.closest('#mediaShortsView') ? 'sh-' : 'full-') + title.textContent.trim();
+            title.setAttribute('role', 'button');
+            title.setAttribute('tabindex', '0');
+            function apply(collapsed) {
+                col.classList.toggle('ms-collapsed', collapsed);
+                title.setAttribute('aria-expanded', String(!collapsed));
+            }
+            apply(!!saved[id]);
+            function toggle() {
+                var c = !col.classList.contains('ms-collapsed');
+                apply(c);
+                saved[id] = c;
+                try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch (e) {}
+            }
+            title.addEventListener('click', toggle);
+            title.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } });
+        });
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+})();

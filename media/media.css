@@ -386,3 +386,13 @@ html[data-theme="dark"] .afd-action-btn.btn-black {
     .sh-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 18px 10px; }
     .mv-tab { font-size: 13px; margin-right: 16px; }
 }
+
+/* ── 사이드 필터(CATEGORY / YEAR / DETAIL) 접기·펴기 ── */
+.ms-title { cursor: pointer; user-select: none; display: flex; align-items: center; justify-content: space-between; gap: 8px; transition: color 0.2s ease; }
+.ms-title:hover { color: var(--text-primary); }
+.ms-title::after { content: ''; width: 7px; height: 7px; border-right: 1.8px solid currentColor; border-bottom: 1.8px solid currentColor; transform: rotate(45deg) translateY(-2px); transition: transform 0.25s ease; flex-shrink: 0; }
+.ms-col.ms-collapsed .ms-title { margin-bottom: 0; }
+.ms-col.ms-collapsed .ms-title::after { transform: rotate(-45deg); }
+.ms-col.ms-collapsed .ms-list { display: none; }
+.ms-col.ms-collapsed { height: auto; }
+@media (max-width: 800px) { .ms-col.ms-collapsed .ms-title { border-bottom-color: transparent; padding-bottom: 0; } }

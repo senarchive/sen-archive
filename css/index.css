@@ -305,16 +305,6 @@ html[data-theme="light"] .today-empty-card{ background:transparent; border:none;
 .bg-option.active-bg { border-color: var(--c-accent); box-shadow: 0 0 12px var(--c-accent-glow); }
 .bg-option img { width: 100%; height: 100%; object-fit: cover; }
 
-/* ── ALBUM (index): 원형 커버만 한 줄, 제목 없음 ── */
-#profileSection .archive-split { grid-template-columns: minmax(0, 1fr); gap: 36px; }
-.d8-album-row { display: flex; flex-wrap: wrap; gap: 14px; width: 100%; }
-.d8-album { display: flex; align-items: center; justify-content: center; width: 96px; height: 96px; border-radius: 50%; overflow: hidden; flex: 0 0 auto; background: var(--bg-surface); box-shadow: 0 8px 22px rgba(0,0,0,0.28); cursor: pointer; text-decoration: none; transition: transform 0.3s ease; }
-.d8-album img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.d8-album:hover { transform: translateY(-3px) scale(1.04); }
-.d8-album-more { border: 1px solid var(--border-light); box-shadow: none; color: var(--text-secondary); }
-.d8-album-more:hover { color: var(--c-accent); border-color: var(--c-accent); }
-@media (max-width: 800px) { .d8-album-row { gap: 12px; justify-content: center; } .d8-album { width: 72px; height: 72px; } }
-
 /* ── FAN SITES: 동글 아이콘 1렬 ── */
 #fanSitesSection { max-width: 986px; width: 100%; box-sizing: border-box; }
 .fs-row { display: flex; flex-wrap: nowrap; justify-content: center; gap: 18px; width: 100%; padding: 8px 4px 14px; overflow-x: auto; scrollbar-width: none; }
