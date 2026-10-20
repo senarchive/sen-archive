@@ -316,10 +316,12 @@ html[data-theme="light"] .landing-logo { filter: brightness(0); opacity: 0.85; }
     .top-nav {
         top: 0; left: 0; bottom: 0; width: var(--sn-w); height: 100vh; height: 100dvh;
         display: flex; flex-direction: column; align-items: stretch; gap: 0;
-        padding: 8px 10px 14px; border-bottom: 0; border-right: 1px solid var(--text-primary);
+        background: rgba(18, 18, 24, 0.55); backdrop-filter: blur(18px) saturate(1.4); -webkit-backdrop-filter: blur(18px) saturate(1.4);
+        padding: 8px 10px 14px; border-bottom: 0; border-right: 1px solid var(--border-light);
         overflow-x: hidden; overflow-y: auto; scrollbar-width: none; transition: width 0.28s ease, background 0.4s ease;
     }
     .top-nav::-webkit-scrollbar { display: none; }
+    html[data-theme="light"] .top-nav { background: rgba(250, 250, 251, 0.62); }
     /* 모든 아이콘은 44px 칸 안에서 가운데 정렬 → 접힘/펼침 모두 같은 세로선에 맞춰짐 */
     .nav-left, .nav-right, .desktop-menu { display: flex; flex-direction: column; align-items: stretch; gap: 4px; margin: 0; padding: 0; grid-column: auto; list-style: none; }
     .nav-left { flex: 0 0 auto; }

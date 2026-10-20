@@ -44,20 +44,24 @@
     <script>renderSiteNav('home', '', { calendar: true, lang: true });</script>
 
     <div id="mainWrapper">
-        <div class="video-container" id="homeHero">
-            <video id="bgVideo" src="video/member.mp4" autoplay loop muted playsinline class="bg-video"></video>
-            <img id="bgImage" src="" class="bg-video" style="display:none; opacity:0;" alt="background">
-            <div class="video-overlay"></div>
-            <div class="hero-content">
-                <img src="images/logo.png" alt="RESCENE Logo" class="hero-logo" onerror="this.style.display='none'">
-                <div class="debut-timer">
-                    <div class="d-day" id="dDayText">D+000</div>
-                    <div class="time-flow" id="timeFlowText">00:00:00</div>
+        <section class="glass-hero" id="homeHero">
+            <video id="bgAmbient" class="gh-ambient" src="video/member.mp4" autoplay loop muted playsinline aria-hidden="true"></video>
+            <img id="bgAmbientImg" class="gh-ambient" src="" alt="" aria-hidden="true" style="display:none;">
+            <div class="gh-card">
+                <video id="bgVideo" src="video/member.mp4" autoplay loop muted playsinline class="bg-video"></video>
+                <img id="bgImage" src="" class="bg-video" style="display:none; opacity:0;" alt="background">
+                <img src="images/logo.png" alt="RESCENE Logo" class="gh-logo" onerror="this.style.display='none'">
+            </div>
+            <div class="gh-info">
+                <div class="d-day gh-dday" id="dDayText">D+000</div>
+                <div class="gh-meta">
+                    <div class="time-flow gh-time" id="timeFlowText">00:00:00</div>
+                    <div class="gh-debut">DEBUT 2024.03.26</div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!-- [임시 비활성화] WITH RESCENE
+        <!-- WITH RESCENE -->
         <div id="historySection" class="slow-reveal history-link" role="button" tabindex="0" onclick="playWithRescene()" onkeydown="if(event.key==='Enter')playWithRescene()" aria-label="위드 리센스 — 함께 걸어온 길 보기">
             <div class="wr-layer-stack">
                 <div class="wr-text" id="wrText">
@@ -70,7 +74,6 @@
                 </div>
             </div>
         </div>
-        -->
 
         <div class="section-container reveal full-page-section" id="profileSection">
             <div class="section-inner">
@@ -91,7 +94,7 @@
             </div>
         </div>
 
-        <!-- [임시 비활성화] AWARDS & AMBASSADOR
+        <!-- AWARDS & AMBASSADOR -->
         <div class="section-container reveal full-page-section" id="honorsSection">
             <div class="section-header center-header section-header-md">
                 <div class="section-title" data-i18n="sectionAwards">AWARDS & <span>AMBASSADOR</span></div>
@@ -115,7 +118,23 @@
                 </div>
             </div>
         </div>
-        -->
+
+        <div class="section-container reveal full-page-section" id="liveReleaseSection">
+            <div class="section-header center-header section-header-md">
+                <div class="section-title">LIVE <span>&amp; RELEASE</span></div>
+            </div>
+            <div class="lr-facts" id="lrFacts"></div>
+            <div class="lr-grid">
+                <div class="lr-col">
+                    <div class="archive-sub-header">CONCERT &amp; FANMEETING</div>
+                    <ul class="lr-list" id="lrConcerts"></ul>
+                </div>
+                <div class="lr-col">
+                    <div class="archive-sub-header">RELEASE</div>
+                    <ul class="lr-list" id="lrReleases"></ul>
+                </div>
+            </div>
+        </div>
 
         <div class="section-container reveal full-page-section" id="todayScheduleSection">
             <div class="section-header center-header section-header-sm">
@@ -306,6 +325,8 @@
     <script src="js/event_data.js"></script>
     <script src="js/honors_data.js"></script>
     <script src="js/honors.js"></script>
+    <script src="js/extras_data.js"></script>
+    <script src="js/extras.js"></script>
     <script src="js/contents.js"></script>
     <script src="js/shorts_data.js"></script>
     <script src="js/shorts.js"></script>

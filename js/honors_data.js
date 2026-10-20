@@ -22,7 +22,13 @@ const MUSIC_SHOW_WINS = [
     { date: '2026-07-25', logo: 'umc', program: '쇼! 음악중심', song: 'Pretty Girl', crown: '2관왕',
       notes: ['데뷔 첫 지상파 음악방송 1위 (데뷔 852일 / 2년 4개월 만)', '쇼! 음악중심 첫 1위'] },
     { date: '2026-07-26', logo: 'sbs', program: '인기가요', song: 'LOVE ATTACK', crown: '1관왕',
-      notes: ['SBS 인기가요 첫 1위 (발매 699일 / 1년 11개월 만)'] }
+      notes: ['SBS 인기가요 첫 1위 (발매 699일 / 1년 11개월 만)'] },
+    { date: '2026-08-08', logo: 'umc', program: '쇼! 음악중심', song: 'Pretty Girl', crown: '2주 연속',
+      notes: ['쇼! 음악중심 통산 2주 1위'] },
+    { date: '2026-08-15', logo: 'umc', program: '쇼! 음악중심', song: 'Pretty Girl', crown: '트리플 크라운',
+      notes: ['쇼! 음악중심 트리플 크라운 (통산 3주 1위)'] },
+    { date: '2026-08-16', logo: 'sbs', program: '인기가요', song: 'LOVE ATTACK', crown: '2주 연속',
+      notes: ['SBS 인기가요 통산 2주 1위'] }
 ];
 
 const MUSIC_SHOW_CUMULATIVE = [
@@ -30,17 +36,28 @@ const MUSIC_SHOW_CUMULATIVE = [
     { logo: 'showchampion', program: '쇼챔피언', wins: 0 },
     { logo: 'mcount', program: '엠 카운트다운', wins: 0 },
     { logo: 'musicbank', program: '뮤직뱅크', wins: 0 },
-    { logo: 'umc', program: '쇼! 음악중심', wins: 1 },
-    { logo: 'sbs', program: '인기가요', wins: 1 }
+    { logo: 'umc', program: '쇼! 음악중심', wins: 3 },
+    { logo: 'sbs', program: '인기가요', wins: 2 }
 ];
 
 const CEREMONY_AWARDS = [
     { date: '2024-11-02', logo: null, name: '아시아 모델 어워즈', award: '라이징스타상', note: '기타 시상식/상으로 분류' },
     { date: '2025-08-28', logo: 'kexpo', name: '제7회 뉴시스 한류엑스포', award: '한류특별상', note: '' },
-    { date: '2026-01-06', logo: 'firstbrand', name: '2026 대한민국 퍼스트브랜드 대상', award: '여자아이돌(라이징스타)', note: '' }
+    { date: '2026-01-06', logo: 'firstbrand', name: '2026 대한민국 퍼스트브랜드 대상', award: '여자아이돌(라이징스타)', note: '' },
+    { date: '2026-08-27', logo: null, name: '2026 케이 월드 드림 어워즈', award: 'K 월드 드림 베스트 비주얼 콘텐츠상', note: 'LE SSERAFIM, KiiiKiii와 공동 수상' },
+    { date: '2026-08-27', logo: null, name: '2026 케이 월드 드림 어워즈', award: 'K 월드 드림 베스트 팬덤상', note: '2관왕 (AHOF와 공동 수상)' },
+    { date: '2026-09-01', logo: null, name: '올해의 브랜드 대상', award: '여자아이돌(핫트렌드)', note: '' },
+    { date: '2026-09-06', logo: null, name: 'SPOTV K-POP 어워즈', award: 'GLOBAL CONNECT', note: 'MODYSSEY, 82MAJOR와 공동 수상' },
+    { date: '2026-09-06', logo: null, name: 'SPOTV K-POP 어워즈', award: 'SPOTV AMBASSADOR', note: '' },
+    { date: '2026-09-19', logo: null, name: '더팩트 뮤직 어워즈', award: '올해의 아티스트', note: 'ATEEZ, KiiiKiii, TREASURE, NMIXX, ILLIT, 최예나, CORTIS, ALLDAY PROJECT와 공동 수상' }
 ];
 
 const AD_TIMELINE = [
+    { date: '2026-08-26', type: '광고', title: '와키윌리 (의류)', note: '원이 26FW 시즌 단독 모델', img: null },
+    { date: '2026-08-24', type: '광고', title: '한스킨 (화장품)', note: '미나미 · 제나 개인 브랜드 모델', img: null },
+    { date: '2026-08-18', type: '광고', title: '할리스 (커피)', note: '창사 이래 첫 브랜드 광고 모델', img: null },
+    { date: '2026-08-15', type: '홍보대사', title: '바이오던스', note: '원이 개인 앰버서더', img: null },
+    { date: '2026-08-13', type: '광고', title: '어댑트 · 에이페', note: '브랜드 모델', img: null },
     { date: '2026-07-23', type: '홍보대사', title: 'MBC 아시안게임 중계방송', note: '', img: 'asiangame.webp' },
     { date: '2026-07-21', type: '홍보대사', title: '전남광주통합특별시 섬의 날', note: '행정안전부 주최', img: '섬의날.webp' },
     { date: '2026-07-14', type: '홍보대사', title: '저스트 메이크업 IN TOKYO 2027', note: '', img: 'justmakeup.webp' },
@@ -48,7 +65,7 @@ const AD_TIMELINE = [
     { date: '2026-06-29', type: '홍보대사', title: '경상북도 경주시', note: '제나의 고향', img: '경주시.webp' },
     { date: '2026-06-24', type: '홍보대사', title: '경기도 수원시', note: '리브의 고향', img: '수원시.webp' },
     { date: '2026-05-22', type: '홍보대사', title: '경상남도 거제시', note: '원이의 고향 (~2028.05.21)', img: '거제시.webp' },
-    { date: '2026-01-01', type: '홍보대사', title: '2026 캐릭터 라이선싱 페어', note: '', img: '캐릭터라이선싱.webp' },
+    { date: '2026-07-16', type: '홍보대사', title: '2026 캐릭터 라이선싱 페어', note: '2년 연속', img: '캐릭터라이선싱.webp' },
     { date: '2025-02-11', type: '홍보대사', title: '한국청소년연맹', note: '~2025.12.31', img: '한국청소년연맹.webp' },
     { date: '2025-01-01', type: '홍보대사', title: '2025 캐릭터 라이선싱 페어', note: '', img: '캐릭터라이선싱_2025.webp' },
 
@@ -67,12 +84,13 @@ const AD_TIMELINE = [
     { date: '2026-07-21', type: '광고', title: '동아오츠카 · 나랑드 사이다 (음료)', note: '', img: 'narang.webp' },
     { date: '2026-07-16', type: '광고', title: '청오DPK · 도미노피자 (식품)', note: '', img: 'domino.webp' },
     { date: '2026-07-01', type: '광고', title: 'BGF리테일 · CU (편의점)', note: '업계 최초 전속 모델 제안 발탁', img: 'cu.webp' },
-    { date: '2026-06-30', type: '광고', title: '형지엘리트 · 엘리트 (교복)', note: '', img: 'elite.webp' },
+    { date: '2026-06-30', type: '광고', title: '형지엘리트 · 엘리트 (교복)', note: '전속 모델 계약 연장 (2년 연속)', img: 'elite.webp' },
     { date: '2026-06-26', type: '광고', title: '그레인온 · 카사베르디 (식품)', note: '', img: null },
     { date: '2026-06-09', type: '광고', title: '넥슨 · FC 모바일 (게임)', note: '', img: 'fc.webp' },
     { date: '2026-01-01', type: '광고', title: 'WINDANDSEA (의류)', note: '', img: 'windandsea.webp' },
     { date: '2026-01-01', type: '광고', title: 'I-SHA · Wish I-GIRL (렌즈)', note: '', img: 'isha.webp' },
     
     { date: '2025-01-01', type: '광고', title: '형지엘리트 · 엘리트 (교복)', note: '', img: 'elite.webp' },
+    { date: '2024-09-01', type: '광고', title: '온그리디언츠', note: '모델', img: null },
     { date: '2025-01-01', type: '광고', title: '프리티스킨 (화장품)', note: '', img: 'prettyskin.webp' }
 ];
