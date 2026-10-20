@@ -417,6 +417,9 @@ html.nopin .rs-chart svg{max-height:none}
 .phd .part{font-size:13px;color:var(--pink)}
 .pl-r.done b,.pl-r.done{text-decoration:none!important}
 #stream .cards .card.nt{grid-template-columns:minmax(0,1fr)}
+.lg0{width:min(78vw,640px);height:auto;display:block;margin:0 0 clamp(18px,4vh,40px) -.02em}
+.dbt{display:grid;gap:6px}.dbt .mono{color:var(--pink);font-size:12px;letter-spacing:.2em}
+.dbt b{font:900 clamp(56px,16vw,200px)/.9 var(--kr);letter-spacing:-.06em}
 /* tick covers */
 .tk .tkc{grid-column:2/-1;width:clamp(92px,18vw,140px);aspect-ratio:1;object-fit:cover;border-radius:4px;box-shadow:0 10px 24px -12px rgba(17,16,19,.45);transform:rotate(-2deg);margin-top:6px}
 .cvr img{image-rendering:auto}
@@ -439,13 +442,12 @@ html.nopin .rs-chart svg{max-height:none}
 <section id="s0" class="intro full" style="padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))">
   <div class="aur" aria-hidden="true"><i></i><i></i><i></i></div>
   <svg class="ring" id="ring" viewBox="0 0 200 200" aria-hidden="true"><defs><path id="rgp" d="M100 100 m-80 0 a80 80 0 1 1 160 0 a80 80 0 1 1 -160 0"/></defs><text><textPath href="#rgp" textLength="500" lengthAdjust="spacing">RESCENE · CHRONICLE · 2024 — 2026 · SCROLL ·</textPath></text><path class="ar" d="M100 88 V112 M90 102 L100 113 L110 102"/></svg>
-  <div class="mono part" style="color:var(--mute)">2024.03.25 데뷔 · 날짜순 연대기</div>
+  <div class="mono part" style="color:var(--mute)">날짜순 연대기</div>
   <div class="in-mid">
-    <p class="k1 pen" data-chars>한 곡이 1위가 되기까지</p>
-    <div class="bignum"><span id="cnt">699</span><span class="unit">days<svg class="scrib" id="s0u" viewBox="0 0 200 20" style="left:0;bottom:-6px;width:100%;height:18px" preserveAspectRatio="none"><path d="M3 12 C 40 3, 90 18, 140 8 S 190 10, 197 6"/></svg></span></div>
-    <p class="k2 pen" data-chars>걸린 시간.</p>
+    <img class="lg0" src="img/logo_pink.png" alt="RESCENE">
+    <div class="dbt"><span class="mono">DEBUT</span><b>2024.03.25</b></div>
   </div>
-  <div><p class="in-note mono">LOVE ATTACK · 2024.08.27 발매 →<br>2026.07.26 SBS 인기가요 1위 (발매 699일)</p><div class="cue"><i></i><span class="mono">scroll</span></div></div>
+  <div><div class="cue"><i></i><span class="mono">scroll</span></div></div>
   <img class="fl f1 ph" src="img/m_woni_prettygirl.webp" alt=""><img class="fl f2 ph" src="img/m_liv_prettygirl.webp" alt=""><img class="fl f3 ph" src="img/m_minami_prettygirl.webp" alt=""><img class="fl f4 ph" src="img/m_may_prettygirl.webp" alt=""><img class="fl f5 ph" src="img/m_zena_prettygirl.webp" alt="">
 </section>
 <div id="stream"></div>
@@ -666,11 +668,10 @@ function boot(){
  gsap.registerPlugin(ScrollTrigger);ScrollTrigger.config({ignoreMobileResize:true});
  const tr=$('#thr'),f=$('#thf'),bd=$('#bead');
  ScrollTrigger.create({start:0,end:'max',onUpdate:s=>{const H=tr.clientHeight;f.style.height=s.progress*H+'px';bd.style.top=(s.progress*H-5)+'px'}});
- const n={v:0};if(!rm){$('#cnt').textContent='0';gsap.to(n,{v:699,duration:2.6,ease:'power3.out',delay:.3,onUpdate:()=>{$('#cnt').textContent=Math.round(n.v)}})}
+
  $$('[data-chars]').forEach(el=>{const cs=split(el);if(rm)return;gsap.from(cs,{yPercent:110,rotate:6,opacity:0,duration:.9,ease:'power4.out',stagger:.04,delay:.15,scrollTrigger:{trigger:el,start:'top 92%',once:true}})});
- const u=$('#s0u path'),ul=u.getTotalLength();u.style.strokeDasharray=ul;u.style.strokeDashoffset=rm?0:ul;if(!rm)gsap.to(u,{strokeDashoffset:0,duration:1.2,delay:2.2,ease:'power2.inOut'});
  if(!rm){$$('.fl').forEach((im,i)=>{gsap.from(im,{y:80,opacity:0,rotate:'+=12',duration:1,delay:.3+i*.12,ease:'power3.out'});gsap.to(im,{yPercent:-40-i*14,ease:'none',scrollTrigger:{trigger:'#s0',start:'top top',end:'bottom top',scrub:true}})});
-  gsap.to('.bignum',{yPercent:-12,color:'#c9c6d0',ease:'none',scrollTrigger:{trigger:'#s0',start:'top top',end:'bottom 20%',scrub:true}})}
+  gsap.to('.dbt',{yPercent:-12,color:'#c9c6d0',ease:'none',scrollTrigger:{trigger:'#s0',start:'top top',end:'bottom 20%',scrub:true}})}
  ScrollTrigger.create({trigger:'#s0',start:'top 60%',end:'bottom 60%',onToggle:s=>s.isActive&&setHud(DEBUT)});
  $$('[data-wipe]').forEach(el=>{if(rm)return;gsap.fromTo(el,{clipPath:'inset(-10% 100% -30% 0)'},{clipPath:'inset(-10% -6% -30% -6%)',duration:1.6,ease:'power2.inOut',scrollTrigger:{trigger:el,start:'top 90%',once:true}})});
  $$('[data-up]').forEach(el=>{if(rm)return;gsap.from(el,{y:36,opacity:0,duration:.9,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 92%',once:true}})});
