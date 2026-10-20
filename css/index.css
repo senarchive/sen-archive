@@ -305,19 +305,10 @@ html[data-theme="light"] .today-empty-card{ background:transparent; border:none;
 .bg-option.active-bg { border-color: var(--c-accent); box-shadow: 0 0 12px var(--c-accent-glow); }
 .bg-option img { width: 100%; height: 100%; object-fit: cover; }
 
-/* ── D08 글래스 히어로: 기존 풀스크린 mp4 배경 + 글래스 패널 ── */
-.glass-hero { position: relative; width: 100%; height: 100vh; height: 100dvh; box-sizing: border-box; overflow: hidden; background: #000; display: flex; align-items: center; justify-content: center; padding: 72px 24px 40px; scroll-snap-align: start; }
-.glass-hero .bg-video { opacity: 0.85; }
-.gh-panel { position: relative; z-index: 5; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 38px 56px 34px; border-radius: 22px; background: rgba(14, 14, 20, 0.34); border: 1px solid rgba(255, 255, 255, 0.2); backdrop-filter: blur(18px) saturate(1.5); -webkit-backdrop-filter: blur(18px) saturate(1.5); box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45); animation: heroFadeIn 1.5s ease-out both; }
-.gh-logo { width: 170px; max-width: 60%; margin-bottom: 18px; filter: drop-shadow(0 4px 16px rgba(0,0,0,0.5)); }
-.gh-dday { font-family: var(--font-head); font-weight: 800; font-size: clamp(54px, 9vw, 104px); line-height: 0.95; letter-spacing: -0.03em; color: #fff; margin: 0; text-shadow: 0 2px 24px rgba(0,0,0,0.4); }
-.gh-time { margin-top: 14px; font-family: var(--font-num); font-size: 14px; font-weight: 500; letter-spacing: 0.28em; color: rgba(255,255,255,0.88); }
-.gh-debut { margin-top: 8px; font-family: var(--font-num); font-size: 12px; font-weight: 600; letter-spacing: 0.3em; color: var(--c-accent); }
-@media (max-width: 800px) { .glass-hero { padding: 80px 16px 32px; } .gh-panel { padding: 28px 28px 26px; border-radius: 18px; } }
 
 /* ── LIVE & RELEASE ── */
 .lr-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; width: 100%; margin: 6px 0 34px; }
-.lr-fact { display: flex; flex-direction: column; gap: 6px; padding: 16px 18px; border: 1px solid var(--border-light); border-radius: 18px; background: var(--bg-surface); }
+.lr-fact { display: flex; flex-direction: column; gap: 6px; padding: 16px 18px; border: 1px solid var(--border-light); border-radius: 4px; background: var(--bg-surface); }
 .lr-fact-k { font-family: var(--font-num); font-size: 10.5px; letter-spacing: 0.24em; color: var(--text-muted); }
 .lr-fact-v { font-family: var(--font-head); font-size: 15px; font-weight: 700; color: var(--text-primary); }
 .lr-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; width: 100%; }
@@ -331,10 +322,6 @@ html[data-theme="light"] .today-empty-card{ background:transparent; border:none;
 .lr-up .lr-title, .lr-up .lr-date { color: var(--c-accent); }
 @media (max-width: 800px) { .lr-grid { grid-template-columns: 1fr; gap: 32px; } .lr-list li { grid-template-columns: 82px 1fr; } .lr-note { grid-column: 2; text-align: left; margin-top: -8px; padding-bottom: 8px; } }
 
-/* ── D08 카드 톤: 둥근 모서리 ── */
-.album-cover-item, .album-cover-item img { border-radius: 50%; }
-.profile-item { border-radius: 14px; }
-.honors-linear-group, .today-cal-card { border-radius: 18px; }
 
 /* 홍보·수상 미리보기: 제목이 잘리지 않도록 이름 위 / 설명 아래로 배치 */
 .honors-list .h-info { flex-direction: column; align-items: flex-start; gap: 3px; }
@@ -342,23 +329,8 @@ html[data-theme="light"] .today-empty-card{ background:transparent; border:none;
 .honors-list .h-badge, .honors-list .h-note { margin-left: 0; white-space: normal; max-width: 100%; }
 #liveReleaseSection { max-width: 986px; width: 100%; box-sizing: border-box; }
 
-/* ── YOUTUBE 모아보기: D08 카드 톤 ── */
-#youtubeSection .media-cat-block { padding: 14px 14px 16px; border: 1px solid var(--border-light); border-radius: 18px; background: var(--bg-surface); box-shadow: 0 10px 30px rgba(0,0,0,0.18); transition: transform 0.25s ease, border-color 0.25s ease; }
-#youtubeSection .media-cat-block:hover { transform: translateY(-3px); border-color: var(--c-accent); }
-#youtubeSection .media-cat-thumb, #youtubeSection .media-cat-thumb img { border-radius: 14px; }
-#youtubeSection .media-cat-tag { border-radius: 999px; }
-#youtubeSection .sh-card-thumb { border-radius: 16px; }
-#youtubeSection .sh-chip { border-radius: 999px; }
 
 /* ── ARCHIVE: D08 'sheet' 레이아웃 (PROFILE PHOTO 6열 3:4 / ALBUM 원형 150px + 제목) ── */
-#profileSection .archive-split { grid-template-columns: minmax(0, 1fr); gap: 36px; }
-.d8-photo-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px; width: 100%; }
-.d8-photo { position: relative; display: block; aspect-ratio: 3 / 4; border-radius: 9px; overflow: hidden; cursor: pointer; background: var(--bg-surface); transition: transform 0.3s ease, box-shadow 0.3s ease; }
-.d8-photo img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1); }
-.d8-photo:hover { transform: translateY(-3px); box-shadow: 0 10px 26px rgba(0,0,0,0.35); }
-.d8-photo:hover img { transform: scale(1.06); }
-.d8-photo.d8-more { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; border: 1px solid var(--border-light); text-decoration: none; color: var(--text-secondary); font-family: var(--font-head); font-size: 12px; font-weight: 700; letter-spacing: 0.1em; }
-.d8-photo.d8-more:hover { color: var(--c-accent); border-color: var(--c-accent); }
 .d8-album-row { display: flex; flex-wrap: wrap; gap: 24px; width: 100%; }
 .d8-album { display: flex; flex-direction: column; align-items: center; width: 150px; text-align: center; text-decoration: none; color: var(--text-primary); cursor: pointer; }
 .d8-album-cover { display: flex; align-items: center; justify-content: center; width: 150px; height: 150px; border-radius: 50%; overflow: hidden; margin-bottom: 10px; background: var(--bg-surface); box-shadow: 0 10px 26px rgba(0,0,0,0.3); transition: transform 0.3s ease; }
@@ -368,7 +340,6 @@ html[data-theme="light"] .today-empty-card{ background:transparent; border:none;
 .d8-album-more .d8-album-cover { border: 1px solid var(--border-light); box-shadow: none; color: var(--text-secondary); }
 .d8-album-more:hover { color: var(--c-accent); }
 @media (max-width: 800px) {
-    .d8-photo-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
     .d8-album-row { gap: 18px 14px; justify-content: center; }
     .d8-album, .d8-album-cover { width: 104px; } .d8-album-cover { height: 104px; }
 }

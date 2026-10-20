@@ -232,12 +232,12 @@ function renderProfileArchive() {
     const profileWrap = document.getElementById('profileScroll'); 
     if (profileWrap) {
         let phtml = '';
-        const PREVIEW_COUNT = 10;
+        const PREVIEW_COUNT = 7;
         for (let i = 1; i <= PREVIEW_COUNT; i++) {
-            phtml += `<div class="d8-photo" onclick="openImageModal('images/profile/${i}.jpg', ${i})"><img src="images/profile/${i}.jpg" alt="RESCENE profile ${i}" loading="lazy" onerror="this.closest('.d8-photo').style.display='none'"></div>`;
+            phtml += `<div class="profile-item" onclick="openImageModal('images/profile/${i}.jpg', ${i})"><img src="images/profile/${i}.jpg" alt="RESCENE profile ${i}" loading="lazy" onerror="this.closest('.profile-item').style.display='none'"><span class="pf-index">NO. ${String(i).padStart(2, '0')}</span></div>`;
         }
-        phtml += `<a class="d8-photo d8-more" href="archive.html#profile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg><span>전체보기</span></a>`;
-        profileWrap.innerHTML = `<div class="d8-photo-grid">${phtml}</div>`;
+        phtml += `<a class="profile-item archive-more-tile" href="archive.html#profile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg><span>전체보기</span></a>`;
+        profileWrap.innerHTML = `<div class="profile-track">${phtml}</div>`;
     }
 
     const fullProfileGrid = document.getElementById('fullProfileGrid');
@@ -316,7 +316,7 @@ function renderAlbumGrid() {
     const albumWrap = document.getElementById('albumScroll');
     if (albumWrap) {
         let ahtml = '';
-        const PREVIEW_COUNT = 8;
+        const PREVIEW_COUNT = 6; // 글로우업 자리에 전체보기
         ALBUMS.slice(0, PREVIEW_COUNT).forEach(function (album, idx) {
             ahtml += `<a href="javascript:void(0)" class="d8-album" onclick="openAlbumModal(${idx})"><span class="d8-album-cover"><img src="images/${album.image}" alt="${album.title}" loading="lazy" onerror="this.closest('.d8-album').style.display='none'"></span><span class="d8-album-title">${album.title}</span></a>`;
         });
@@ -533,18 +533,6 @@ function bgMarkActiveOptions() {
     });
 }
 
-function syncAmbientBg(type, src) {
-    const av = document.getElementById('bgAmbient');
-    const ai = document.getElementById('bgAmbientImg');
-    if (!av || !ai) return;
-    if (type === 'video') {
-        av.src = src; av.style.display = 'block'; ai.style.display = 'none';
-        av.play().catch(() => {});
-    } else {
-        ai.src = src; ai.style.display = 'block'; av.style.display = 'none'; av.pause();
-    }
-}
-
 function setCustomBg(type, src) {
     const vid = document.getElementById('bgVideo');
     const img = document.getElementById('bgImage');
@@ -552,7 +540,6 @@ function setCustomBg(type, src) {
 
     vid.style.opacity = '0';
     img.style.opacity = '0';
-    syncAmbientBg(type, src);
 
     setTimeout(() => {
         if (type === 'video') {
@@ -560,13 +547,13 @@ function setCustomBg(type, src) {
             vid.style.display = 'block';
             img.style.display = 'none';
             vid.play().catch(() => {});
-            requestAnimationFrame(() => { vid.style.opacity = '0.85'; });
+            requestAnimationFrame(() => { vid.style.opacity = '0.7'; });
         } else {
             img.src = src;
             img.style.display = 'block';
             vid.style.display = 'none';
             vid.pause();
-            requestAnimationFrame(() => { img.style.opacity = '0.85'; });
+            requestAnimationFrame(() => { img.style.opacity = '0.7'; });
         }
     }, 500);
 
