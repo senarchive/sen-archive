@@ -1,8 +1,4 @@
 let memberActiveKey = 'woni';
-(function () {
-    const q = new URLSearchParams(location.search).get('m');
-    if (q && typeof MEMBER_DATA !== 'undefined' && MEMBER_DATA.some(function (x) { return x.key === q; })) memberActiveKey = q;
-})();
 let memberActiveEra = 'prettygirl'; /* 기본으로 최신 포토를 히어로에 표시 */
 
 function renderMemberSelector() {

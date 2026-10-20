@@ -305,41 +305,12 @@ html[data-theme="light"] .today-empty-card{ background:transparent; border:none;
 .bg-option.active-bg { border-color: var(--c-accent); box-shadow: 0 0 12px var(--c-accent-glow); }
 .bg-option img { width: 100%; height: 100%; object-fit: cover; }
 
-
-/* ── LIVE & RELEASE ── */
-.lr-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; width: 100%; margin: 6px 0 34px; }
-.lr-fact { display: flex; flex-direction: column; gap: 6px; padding: 16px 18px; border: 1px solid var(--border-light); border-radius: 4px; background: var(--bg-surface); }
-.lr-fact-k { font-family: var(--font-num); font-size: 10.5px; letter-spacing: 0.24em; color: var(--text-muted); }
-.lr-fact-v { font-family: var(--font-head); font-size: 15px; font-weight: 700; color: var(--text-primary); }
-.lr-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; width: 100%; }
-.lr-col { min-width: 0; }
-.lr-list { list-style: none; margin: 0; padding: 0; }
-.lr-list li { display: grid; grid-template-columns: 92px 1fr auto; align-items: center; gap: 12px; min-height: 50px; border-top: 1px solid var(--border-light); font-family: var(--font-body); font-size: 14px; }
-.lr-list li:last-child { border-bottom: 1px solid var(--border-light); }
-.lr-date { font-family: var(--font-num); font-size: 12px; font-weight: 600; letter-spacing: 0.06em; color: var(--text-muted); }
-.lr-title { color: var(--text-primary); font-weight: 600; min-width: 0; overflow-wrap: anywhere; }
-.lr-note { font-family: var(--font-num); font-size: 10.5px; letter-spacing: 0.1em; color: var(--text-muted); text-align: right; }
-.lr-up .lr-title, .lr-up .lr-date { color: var(--c-accent); }
-@media (max-width: 800px) { .lr-grid { grid-template-columns: 1fr; gap: 32px; } .lr-list li { grid-template-columns: 82px 1fr; } .lr-note { grid-column: 2; text-align: left; margin-top: -8px; padding-bottom: 8px; } }
-
-
-/* 홍보·수상 미리보기: 제목이 잘리지 않도록 이름 위 / 설명 아래로 배치 */
-.honors-list .h-info { flex-direction: column; align-items: flex-start; gap: 3px; }
-.honors-list .h-name { flex: none; max-width: 100%; }
-.honors-list .h-badge, .honors-list .h-note { margin-left: 0; white-space: normal; max-width: 100%; }
-#liveReleaseSection { max-width: 986px; width: 100%; box-sizing: border-box; }
-
-
-/* ── ARCHIVE: D08 'sheet' 레이아웃 (PROFILE PHOTO 6열 3:4 / ALBUM 원형 150px + 제목) ── */
-.d8-album-row { display: flex; flex-wrap: wrap; gap: 24px; width: 100%; }
-.d8-album { display: flex; flex-direction: column; align-items: center; width: 150px; text-align: center; text-decoration: none; color: var(--text-primary); cursor: pointer; }
-.d8-album-cover { display: flex; align-items: center; justify-content: center; width: 150px; height: 150px; border-radius: 50%; overflow: hidden; margin-bottom: 10px; background: var(--bg-surface); box-shadow: 0 10px 26px rgba(0,0,0,0.3); transition: transform 0.3s ease; }
-.d8-album-cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.d8-album:hover .d8-album-cover { transform: translateY(-3px) scale(1.03); }
-.d8-album-title { font-family: var(--font-body); font-size: 13px; font-weight: 600; line-height: 1.35; overflow-wrap: anywhere; }
-.d8-album-more .d8-album-cover { border: 1px solid var(--border-light); box-shadow: none; color: var(--text-secondary); }
-.d8-album-more:hover { color: var(--c-accent); }
-@media (max-width: 800px) {
-    .d8-album-row { gap: 18px 14px; justify-content: center; }
-    .d8-album, .d8-album-cover { width: 104px; } .d8-album-cover { height: 104px; }
-}
+/* ── ALBUM (index): 원형 커버만 한 줄, 제목 없음 ── */
+#profileSection .archive-split { grid-template-columns: minmax(0, 1fr); gap: 36px; }
+.d8-album-row { display: flex; flex-wrap: wrap; gap: 14px; width: 100%; }
+.d8-album { display: flex; align-items: center; justify-content: center; width: 96px; height: 96px; border-radius: 50%; overflow: hidden; flex: 0 0 auto; background: var(--bg-surface); box-shadow: 0 8px 22px rgba(0,0,0,0.28); cursor: pointer; text-decoration: none; transition: transform 0.3s ease; }
+.d8-album img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.d8-album:hover { transform: translateY(-3px) scale(1.04); }
+.d8-album-more { border: 1px solid var(--border-light); box-shadow: none; color: var(--text-secondary); }
+.d8-album-more:hover { color: var(--c-accent); border-color: var(--c-accent); }
+@media (max-width: 800px) { .d8-album-row { gap: 12px; justify-content: center; } .d8-album { width: 72px; height: 72px; } }
