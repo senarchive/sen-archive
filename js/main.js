@@ -560,13 +560,13 @@ function setCustomBg(type, src) {
             vid.style.display = 'block';
             img.style.display = 'none';
             vid.play().catch(() => {});
-            requestAnimationFrame(() => { vid.style.opacity = '1'; });
+            requestAnimationFrame(() => { vid.style.opacity = '0.85'; });
         } else {
             img.src = src;
             img.style.display = 'block';
             vid.style.display = 'none';
             vid.pause();
-            requestAnimationFrame(() => { img.style.opacity = '1'; });
+            requestAnimationFrame(() => { img.style.opacity = '0.85'; });
         }
     }, 500);
 
