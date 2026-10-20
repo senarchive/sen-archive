@@ -1,5 +1,4 @@
 const CHART_PLATFORMS = [
-    { key: 'all', label: '종합' },
     { key: 'melon', label: 'Melon' },
     { key: 'genie', label: 'Geinie' },
     { key: 'vibe', label: 'VIBE' },
@@ -42,7 +41,7 @@ function chartPlatformSearchUrl(key, query) {
     return urls[key] || '#';
 }
 
-let chartActivePlatform = 'all';
+let chartActivePlatform = 'melon';
 let CHART_DATA = { songs: [] };
 
 function renderChartTabs() {
