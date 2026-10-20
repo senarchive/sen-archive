@@ -416,6 +416,7 @@ html.nopin .rs-chart svg{max-height:none}
 @media(min-width:900px){.pl-ph{columns:3}}
 .phd .part{font-size:13px;color:var(--pink)}
 .pl-r.done b,.pl-r.done{text-decoration:none!important}
+#stream .cards .card.nt{grid-template-columns:minmax(0,1fr)}
 /* tick covers */
 .tk .tkc{grid-column:2/-1;width:clamp(92px,18vw,140px);aspect-ratio:1;object-fit:cover;border-radius:4px;box-shadow:0 10px 24px -12px rgba(17,16,19,.45);transform:rotate(-2deg);margin-top:6px}
 .cvr img{image-rendering:auto}
@@ -518,8 +519,8 @@ const CARD=c=>{c=IMGO[c.t]?{...c,img:IMGO[c.t]}:c;
  const loc=c.img?`<img class="b" src="${I(c.img)}" alt="">`:'';
  const rem=(c.v&&!c.img)?`<img class="t" src="https://i.ytimg.com/vi/${c.v}/hqdefault.jpg" alt="" referrerpolicy="no-referrer" onload="this.classList.add('ok')" onerror="this.remove()">`:'';
  const month=c.d.endsWith('-00'),dd=nd(c.d);
- const inner=`<div class="thumb${c.img?' has':''}"><div class="fb"><b>${c.t}</b></div>${loc}${rem}${c.stat?`<i class="sh"></i><div class="stat">${c.stat[0]}<small>${c.stat[1]}</small></div>`:''}${c.v?'<i class="play"></i>':''}</div><div class="cb"><div class="cd">${month?dd.slice(5,7):md(dd)}<small>${month?dd.slice(0,4)+'.'+dd.slice(5,7):fd(dd)+' · D+'+dp(dd)}</small></div><h3>${c.t}</h3>${c.chip?`<span class="hm">${c.chip}</span>`:''}<p>${c.p||''}</p></div>`;
- return c.v?`<a class="card" href="${YT(c.v)}" target="_blank" rel="noopener noreferrer" data-d="${dd}">${inner}</a>`:`<div class="card" data-d="${dd}">${inner}</div>`};
+ const nt=!c.img&&!c.v;const inner=(nt?'':`<div class="thumb${c.img?' has':''}"><div class="fb"><b>${c.t}</b></div>${loc}${rem}${c.stat?`<i class="sh"></i><div class="stat">${c.stat[0]}<small>${c.stat[1]}</small></div>`:''}${c.v?'<i class="play"></i>':''}</div>`)+`<div class="cb"><div class="cd">${month?dd.slice(5,7):md(dd)}<small>${month?dd.slice(0,4)+'.'+dd.slice(5,7):fd(dd)+' · D+'+dp(dd)}</small></div><h3>${c.t}</h3>${c.chip?`<span class="hm">${c.chip}</span>`:''}<p>${c.p||''}</p></div>`;
+ return c.v?`<a class="card" href="${YT(c.v)}" target="_blank" rel="noopener noreferrer" data-d="${dd}">${inner}</a>`:`<div class="card${nt?' nt':''}" data-d="${dd}">${inner}</div>`};
 const yaItem=e=>`<div class="ya-item" data-d="${e.d}">${e.v?`<a class="ya-img th" href="${YT(e.v)}" target="_blank" rel="noopener" aria-label="${e.t} (YouTube)"><div class="th-fb"><span class="mono">YouTube · 안원잘부</span><b>${e.t}</b></div><img src="${I('ya_'+e.v)}" alt="" onerror="this.remove()"><img src="https://i.ytimg.com/vi/${e.v}/hqdefault.jpg" alt="" referrerpolicy="no-referrer" onerror="this.remove()"><i class="play"></i></a>`:`<div class="ya-img txt"><b>${e.txt}</b></div>`}<div class="ya-t"><div class="ya-d">${md(e.d)}<small>${fd(e.d)} · D+${dp(e.d)}</small></div><p class="sc" style="font-size:clamp(40px,5vw,60px)">${e.en}</p><h3>${e.t}</h3><p>${e.p}</p>${e.note?`<span class="note" style="transform:rotate(-4deg)">${e.note}</span>`:''}</div></div>`;
 const txRow=(d,x,it)=>`<div class="tx" data-d="${d}"><div class="d">${md(d)}<small>D+${dp(d)}</small></div><div class="b">${x.lg?`<img class="lg" src="${I(x.lg)}" alt="">`:`<span class="mono" style="color:var(--pink)">SBS 인기가요</span>`}<h3>${x.h}</h3>${x.c699?`<div class="big699"><span id="c699">699</span><small>일, 그 숫자</small></div>`:''}${x.crowns?`<div class="crowns">${CROWN+CROWN+CROWN}</div>`:''}<p>${x.p}</p>${it&&(it.vid||it.img)?`<div class="tx-th">${CARD({d,t:x.h,img:it.img,v:it.vid,p:''}).replace('<div class="cb">','<div class="cb" hidden>').replace(/<a class="card"/,'<a class="card"')}</div>`:''}</div></div>`;
 
@@ -538,7 +539,7 @@ add('2026-09-02',5,'card',{d:'2026-09-02',t:'카카오톡',p:'‘대화를 하�
 const MORE=[
  ['2026-07-07','티오더','테이블오더 플랫폼 티오더와 브랜드 파트너십. 약 35만 대 태블릿을 통해 광고·콘텐츠·프로모션을 함께 진행한다.','ad_torder','AD'],
  ['2026-07-09','리센느 × 김씨네과일','멤버 다섯 명의 고향(거제·고양·경주·수원·치바)을 손그림으로 담은 ‘야호 티셔츠’. KREAM 단독, 7월 31일까지 선착순 발매.','ad_kim','COLLAB'],
- ['2026-07-13','CU 패트와 매트 반반바','CU가 ‘패트와 매트’ 캐릭터 반반바를 출시. 9월에는 리센느 에디션도 나온다고 발표했다.',null,'COLLAB'],
+ ['2026-07-13','CU 패트와 매트 반반바','CU가 ‘패트와 매트’ 캐릭터 반반바를 출시. 9월에는 리센느 에디션도 나온다고 발표했다.','ad_patmat','COLLAB'],
  ['2026-07-16','레미니 키링 · KREAM','공식 캐릭터 레미니 키링 5종을 KREAM에서 단독 사전 예약으로 발매.','ad_kream','GOODS'],
  ['2026-07-24','저스트 메이크업 홍보대사','‘저스트 메이크업 IN TOKYO 2027’ 홍보대사 위촉식과 서밋 초청 이벤트(메가박스 코엑스).','ad_justmakeup','AMBASSADOR'],
  ['2026-07-30','서든어택 리센느 캐릭터','‘거제 야호’가 게임으로. 넥슨 서든어택에 리센느 캐릭터가 출시됐다.','ad_suddenattack','COLLAB'],
@@ -713,8 +714,8 @@ function boot(){
  $$('.card').forEach(c=>{
   ScrollTrigger.create({trigger:c,start:'top 68%',end:'bottom 32%',onToggle:s=>{c.classList.toggle('on',s.isActive);if(s.isActive&&c.dataset.d)setHud(c.dataset.d)}});
   if(rm){c.classList.add('on');return}
-  const th=c.querySelector('.thumb'),im=th.querySelector('img');
-  gsap.from(th,{clipPath:'inset(100% 0 0 0)',duration:1.15,ease:'power3.out',scrollTrigger:{trigger:c,start:'top 86%',once:true}});
+  const th=c.querySelector('.thumb'),im=th&&th.querySelector('img');
+  if(th)gsap.from(th,{clipPath:'inset(100% 0 0 0)',duration:1.15,ease:'power3.out',scrollTrigger:{trigger:c,start:'top 86%',once:true}});
   if(im)gsap.from(im,{scale:1.28,duration:1.7,ease:'power3.out',scrollTrigger:{trigger:c,start:'top 86%',once:true}});
   gsap.from(c.querySelectorAll('.cb>*'),{y:28,opacity:0,stagger:.09,duration:.8,ease:'power3.out',scrollTrigger:{trigger:c,start:'top 76%',once:true}})});
  $$('[data-n]').forEach(el=>{const n=+el.dataset.n,dec=+(el.dataset.dec||0),em=el.querySelector('em'),tail=em?em.outerHTML:'';const set=v=>el.innerHTML=v.toFixed(dec)+tail;if(rm)return;set(0);const o={v:0};gsap.to(o,{v:n,duration:1.8,ease:'power2.out',scrollTrigger:{trigger:el,start:'top 90%',once:true},onUpdate:()=>set(o.v)})});
