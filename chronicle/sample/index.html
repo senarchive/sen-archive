@@ -534,6 +534,7 @@ RC.sections.forEach(s=>s.items.forEach(i=>{const d=nd(i.d);secIso.add(d)}));
 RC.sec('run').items.forEach(i=>{if(!YAV.has(i.vid))add(i.d,5,'card',{d:i.d,t:i.t,p:i.p,img:i.img,v:i.vid,chip:'역주행'})});
 wins.forEach(i=>{if(i.d==='2026-07-14')add(i.d,3,'w1',i);else if(TX[i.d])add(i.d,5,'tx',i);else add(i.d,5,'card',{d:i.d,t:i.t,p:i.p,img:i.img,v:i.vid,chip:i.tag})});
 ['aw','ad','amb','pic'].forEach(k=>RC.sec(k).items.forEach(i=>add(i.d,5,'card',{d:i.d,t:i.t,p:i.p,img:i.img,v:i.vid,chip:i.tag,stat:null})));
+add('2026-09-02',5,'card',{d:'2026-09-02',t:'카카오톡',p:'‘대화를 하자’ 캠페인. 카카오톡 AI 기능으로 일상 대화가 쉬워지는 모습을 보여주는 영상으로, 9월 한 달 동안 에피소드가 순서대로 공개됐다.',chip:'AD'});
 /* dated notes from the chapters */
 RC.chapters.forEach(c=>{if(c.id==='pulse')return;(c.events||[]).forEach(e=>{const m=/^(\d{4})\.(\d{2})(?:\.(\d{2}))?$/.exec(e.d);if(!m)return;const d=`${m[1]}-${m[2]}-${m[3]||'00'}`;if(secIso.has(d)&&!e.s)return;if(e.s&&/발매|데뷔/.test(e.t)&&ERAS.some(x=>x.d===d))return;add(d,1,'tk',{t:e.t,hot:!!e.s,cv:TKC(e.t)})})});
 add('2025-03-08',1,'tk',{t:'첫 차트 조짐 · 멜론 일간 967위에서 131위까지',hot:1});
