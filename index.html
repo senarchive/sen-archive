@@ -45,19 +45,14 @@
 
     <div id="mainWrapper">
         <section class="glass-hero" id="homeHero">
-            <video id="bgAmbient" class="gh-ambient" src="video/member.mp4" autoplay loop muted playsinline aria-hidden="true"></video>
-            <img id="bgAmbientImg" class="gh-ambient" src="" alt="" aria-hidden="true" style="display:none;">
-            <div class="gh-card">
-                <video id="bgVideo" src="video/member.mp4" autoplay loop muted playsinline class="bg-video"></video>
-                <img id="bgImage" src="" class="bg-video" style="display:none; opacity:0;" alt="background">
+            <video id="bgVideo" src="video/member.mp4" autoplay loop muted playsinline class="bg-video"></video>
+            <img id="bgImage" src="" class="bg-video" style="display:none; opacity:0;" alt="background">
+            <div class="video-overlay"></div>
+            <div class="gh-panel">
                 <img src="images/logo.png" alt="RESCENE Logo" class="gh-logo" onerror="this.style.display='none'">
-            </div>
-            <div class="gh-info">
                 <div class="d-day gh-dday" id="dDayText">D+000</div>
-                <div class="gh-meta">
-                    <div class="time-flow gh-time" id="timeFlowText">00:00:00</div>
-                    <div class="gh-debut">DEBUT 2024.03.26</div>
-                </div>
+                <div class="time-flow gh-time" id="timeFlowText">00:00:00</div>
+                <div class="gh-debut">DEBUT 2024.03.26</div>
             </div>
         </section>
 
