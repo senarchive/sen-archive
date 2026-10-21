@@ -420,6 +420,19 @@ html.nopin .rs-chart svg{max-height:none}
 .lg0{width:min(78vw,640px);height:auto;display:block;margin:0 0 clamp(18px,4vh,40px) -.02em}
 .dbt{display:grid;gap:6px}.dbt .mono{color:var(--pink);font-size:12px;letter-spacing:.2em}
 .dbt b{font:900 clamp(56px,16vw,200px)/.9 var(--kr);letter-spacing:-.06em}
+/* one content per page */
+#stream .cards .card{min-height:100svh;align-content:center;padding-block:clamp(40px,8vh,90px)}
+#stream .cards .card.nt{min-height:80svh}
+.tks{margin-block:0}
+.tk{min-height:72svh;grid-template-columns:minmax(0,1fr)!important;align-content:center;justify-items:start;gap:14px;border-top:0!important;border-bottom:0!important;padding-block:8vh}
+.tk b{font-size:clamp(38px,6.4vw,76px)!important;line-height:1.1}
+.tk .mono{font-size:13px;letter-spacing:.18em}
+.tk .note{grid-column:auto;font-size:clamp(24px,3vw,34px)}
+.mh{min-height:78svh;align-content:center}
+.era,.ya-item{min-height:100svh;align-content:center}
+.pl-rw{min-height:58svh;align-content:center}
+.pl-rw.has{min-height:0}
+html.lenis,html.lenis body{height:auto}.lenis.lenis-smooth{scroll-behavior:auto!important}
 /* PULSE photos: album spread */
 .pl-rw.has{position:relative;margin-block:8px 26px;padding:18px 14px 8px;background:#fbf8f4;background-image:radial-gradient(rgba(17,16,19,.07) 1px,transparent 1px);background-size:14px 14px;border:1px solid var(--line);border-radius:6px}
 .pl-rw.has .pl-r{background:transparent}
@@ -472,6 +485,7 @@ html.nopin .rs-chart svg{max-height:none}
 <script src="rc.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="lenis.min.js"></script>
 <script>
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
 const RC=window.RC;
@@ -676,6 +690,10 @@ function boot(){
  const pin=!rm&&innerWidth>=900;
  if(pin)document.documentElement.classList.add('js');else document.documentElement.classList.add('nopin');
  gsap.registerPlugin(ScrollTrigger);ScrollTrigger.config({ignoreMobileResize:true});
+ if(!rm){const _f=gsap.from.bind(gsap),_ft=gsap.fromTo.bind(gsap);
+  const dream=(v,blur)=>{if(v&&v.scrollTrigger&&v.scrollTrigger.once){v.duration=(v.duration||.8)*2.3;if(typeof v.stagger==='number')v.stagger*=2;if(v.ease&&!/back/.test(v.ease))v.ease='power2.out';if(blur&&v.opacity!==undefined&&v.filter===undefined){v.filter='blur(10px)';v.clearProps=(v.clearProps?v.clearProps+',':'')+'filter'}}return v};
+  gsap.from=(t,v)=>_f(t,dream(v,1));gsap.fromTo=(t,a,b)=>_ft(t,a,dream(b,0));
+  if(window.Lenis){const lz=new Lenis({lerp:.055,wheelMultiplier:.62,smoothWheel:true,syncTouch:true,syncTouchLerp:.075,touchInertiaMultiplier:22});lz.on('scroll',ScrollTrigger.update);gsap.ticker.add(t=>lz.raf(t*1000));gsap.ticker.lagSmoothing(0)}}
  const tr=$('#thr'),f=$('#thf'),bd=$('#bead');
  ScrollTrigger.create({start:0,end:'max',onUpdate:s=>{const H=tr.clientHeight;f.style.height=s.progress*H+'px';bd.style.top=(s.progress*H-5)+'px'}});
 
@@ -700,7 +718,7 @@ function boot(){
    gsap.from(it.querySelectorAll('.ya-t>*:not(.ya-d)'),{y:30,opacity:0,stagger:.12,duration:.8,ease:'power3.out',scrollTrigger:{trigger:it,start:'top 72%',once:true}});
    gsap.to(it.querySelector('.ya-img'),{yPercent:-8,ease:'none',scrollTrigger:{trigger:it,start:'top bottom',end:'bottom top',scrub:true}})}});
  /* rise */
- if(pin){drawRise(0);ScrollTrigger.create({trigger:'#s3',start:'top top',end:'+=3400',pin:true,scrub:true,anticipatePin:1,onUpdate:s=>drawRise(s.progress)});
+ if(pin){drawRise(0);ScrollTrigger.create({trigger:'#s3',start:'top top',end:'+=3400',pin:true,scrub:1.2,anticipatePin:1,onUpdate:s=>drawRise(s.progress)});
   gsap.from('#rsnum',{y:60,opacity:0,duration:1,scrollTrigger:{trigger:'#s3',start:'top 70%',once:true}})}
  else if(rm)drawRise(1);
  else{drawRise(0);ScrollTrigger.create({trigger:'#s3',start:'top 62%',once:true,onEnter:()=>{const o={p:0};gsap.to(o,{p:1,duration:3.6,ease:'none',onUpdate:()=>drawRise(o.p)})}})}
