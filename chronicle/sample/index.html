@@ -420,6 +420,18 @@ html.nopin .rs-chart svg{max-height:none}
 .lg0{width:min(78vw,640px);height:auto;display:block;margin:0 0 clamp(18px,4vh,40px) -.02em}
 .dbt{display:grid;gap:6px}.dbt .mono{color:var(--pink);font-size:12px;letter-spacing:.2em}
 .dbt b{font:900 clamp(56px,16vw,200px)/.9 var(--kr);letter-spacing:-.06em}
+/* PULSE photos: album spread */
+.pl-rw.has{position:relative;margin-block:8px 26px;padding:18px 14px 8px;background:#fbf8f4;background-image:radial-gradient(rgba(17,16,19,.07) 1px,transparent 1px);background-size:14px 14px;border:1px solid var(--line);border-radius:6px}
+.pl-rw.has .pl-r{background:transparent}
+.pl-rw.has::before{content:attr(data-set);position:absolute;right:14px;top:14px;font:700 10px var(--mono);letter-spacing:.2em;color:var(--pink)}
+.pl-ph{columns:2;column-gap:16px;padding:10px 4px 0}
+.pl-fr{background:#fff;padding:8px 8px 30px!important;box-shadow:0 14px 28px -14px rgba(17,16,19,.45),0 1px 0 rgba(17,16,19,.05);rotate:var(--r,0deg);margin:0 0 22px!important;overflow:visible!important;position:relative}
+.pl-fr:nth-child(4n+1){--r:-1.8deg}.pl-fr:nth-child(4n+2){--r:1.6deg;margin-top:14px!important}.pl-fr:nth-child(4n+3){--r:1.2deg}.pl-fr:nth-child(4n){--r:-1.5deg;margin-top:10px!important}
+.pl-fr::before{content:"";position:absolute;left:50%;top:-10px;width:64px;height:20px;margin-left:-32px;background:rgba(255,46,126,.28);rotate:-3deg;z-index:3}
+.pl-fr:nth-child(3n+2)::before{background:rgba(122,134,255,.3);rotate:4deg}
+.pl-fr .mono{left:auto!important;bottom:8px!important;right:12px;color:var(--mute)!important;text-shadow:none!important;font-size:10px}
+.pl-fr::after{content:"RESCENE · PULSE";position:absolute;left:12px;bottom:9px;font:700 8px var(--mono);letter-spacing:.18em;color:var(--pink)}
+@media(min-width:900px){.pl-ph{columns:3}.pl-rw.has{padding:28px 28px 12px}}
 /* tick covers */
 .tk .tkc{grid-column:2/-1;width:clamp(92px,18vw,140px);aspect-ratio:1;object-fit:cover;border-radius:4px;box-shadow:0 10px 24px -12px rgba(17,16,19,.45);transform:rotate(-2deg);margin-top:6px}
 .cvr img{image-rendering:auto}
@@ -454,7 +466,6 @@ html.nopin .rs-chart svg{max-height:none}
 <section id="s6" class="outro">
   <p class="mono" style="color:var(--mute)">D+<span id="nowd">939</span> · 2024.03.25 –</p>
   <p class="sc" data-wipe>to be continued</p>
-  <div class="ppl" id="ppl"></div>
   <p class="foot">리센느(RESCENE)를 좋아하는 팬이 만든 비공식 연대기예요. 날짜와 순위는 조금씩 다를 수 있어요.</p>
 </section>
 </main>
@@ -564,7 +575,7 @@ add('2026-10-12',0,'margins');add('2026-10-13',0,'pulse');
 items.sort((a,b)=>a.d<b.d?-1:a.d>b.d?1:a.o-b.o);
 const PH={
  amb:{part:'Part 7 · 홍보대사의 서사',w1:'고향이',w2:'불렀다.',sc:'hometown calls',lede:'‘거제 야호’가 번지자 도시들이 먼저 손을 내밀었다. 거제·수원·고양·경주, 네 도시는 모두 멤버 한 명의 고향이다. 미나미는 일본 출신.'},
- ad:{part:'Part 6 · 광고의 서사',w1:'얼굴이',w2:'되다.',sc:'the new face',lede:'역주행의 열기는 광고판으로 번졌다. 6월 25일 카사베르디부터 7월 21일 나랑드사이다까지, 한 달 안에 네 곳의 브랜드가 리센느를 모델로 세웠다.',kpi:[['4','','한 달 안에 모델이 된 브랜드 (6.25 – 7.21)'],['17','M','도미노 TVCF 공개 4일 만의 합산 조회수 (7.21 보도)'],['2.52','M','원이 사투리 쇼츠 조회수 (도미노)']]},
+ ad:{part:'Part 6 · 광고의 서사',w1:'얼굴이',w2:'되다.',sc:'the new face',lede:'역주행의 열기는 광고판으로 번졌다. 6월 25일 카사베르디부터 7월 21일 나랑드사이다까지, 한 달 안에 네 곳의 브랜드가 리센느를 모델로 세웠다.',kpi:[['5','','한 달 안에 모델이 된 브랜드 (6.26 – 7.21)'],['17','M','도미노 TVCF 공개 4일 만의 합산 조회수 (7.21 보도)'],['2.52','M','원이 사투리 쇼츠 조회수 (도미노)']]},
  aw:{part:'Part 5 · 시상식의 서사',w1:'상, 그리고',w2:'지금',sc:'on stage',lede:'8월 27일부터 9월 19일까지, 세 곳의 시상식에서 여섯 개 부문. ‘역주행’ 이야기가 트로피로 이어졌다.'}
 };
 const kpiHTML=k=>`<div class="kpi">${k.map(x=>`<div><b data-n="${x[0]}"${x[0].includes('.')?' data-dec="2"':''}>${x[0]}${x[1]?`<em>${x[1]}</em>`:''}</b><small>${x[2]}</small></div>`).join('')}</div>`;
@@ -612,7 +623,7 @@ items.forEach(it=>{
  else if(it.k==='w1'){out+=w1HTML(x)}
  else if(it.k==='tx'){out+=PAD(txRow(it.d,TX[it.d],x))}
  else if(it.k==='winkpi')out+=winKpi;
- else if(it.k==='ph')out+=phHTML({...PH[x.key],d:it.d});
+ else if(it.k==='ph')out+=phHTML({...PH[x.key],lede:(RC.sec(x.key)&&RC.sec(x.key).lede)||PH[x.key].lede,d:it.d});
  else if(it.k==='margins'){lastM='';out+=marginsHTML}
  else if(it.k==='pulse'){lastM='';out+=pulseHTML}
 });
@@ -623,12 +634,11 @@ $('#stream').innerHTML=out;
 {const x=[...'PULSE'];$('#plbig').innerHTML=x.map((c,i)=>`<span class="pc" aria-hidden="true" style="animation-delay:${i*.09}s">${c}</span>`).join('');
  let d='M0 70';for(let i=0;i<4;i++){const o=i*300;d+=` H${o+90} L${o+110} 70 L${o+130} 16 L${o+160} 124 L${o+182} 70`}d+=' H1200';$('#ecgb').setAttribute('d',d);$('#ecgr').setAttribute('d',d);
  const T=new Date().toISOString().slice(0,10);
- $('#plsch').innerHTML=PS.map(r=>{const st=r[0]<T?'done':r[0]===T?'today':'next';const ph=CPG[r[0]];return `<div class="pl-rw ${ph?'has':''}" data-d="${r[0]}"><div class="pl-r ${st}"><span class="mono">${fd(r[0])}</span><b>${r[1]}</b><span class="chip ${st}">${st==='done'?'DONE':st==='today'?'TODAY':'COMING'}</span></div>${ph?`<div class="pl-ph">${ph.map((n,ix)=>`<div class="pl-fr" data-i="${n}"><img src="img/pulse_${n}.webp" alt="PULSE 콘셉트 포토 ${n}"><span class="mono" style="position:absolute;left:8px;bottom:6px;color:#fff;text-shadow:0 0 8px rgba(0,0,0,.5)">${String(ix+1).padStart(2,'0')}</span></div>`).join('')}</div>`:''}</div>`}).join('');
+ $('#plsch').innerHTML=PS.map(r=>{const st=r[0]<T?'done':r[0]===T?'today':'next';const ph=CPG[r[0]];return `<div class="pl-rw ${ph?'has':''}" data-d="${r[0]}" ${ph?`data-set="${r[0]==='2026-10-19'?'CONCEPT PHOTO A':'CONCEPT PHOTO B'}"`:''}><div class="pl-r ${st}"><span class="mono">${fd(r[0])}</span><b>${r[1]}</b><span class="chip ${st}">${st==='done'?'DONE':st==='today'?'TODAY':'COMING'}</span></div>${ph?`<div class="pl-ph">${ph.map((n,ix)=>`<div class="pl-fr" data-i="${n}"><img src="img/pulse_${n}.webp" alt="PULSE 콘셉트 포토 ${n}"><span class="mono" style="position:absolute;left:8px;bottom:6px;color:#fff;text-shadow:0 0 8px rgba(0,0,0,.5)">${String(ix+1).padStart(2,'0')}</span></div>`).join('')}</div>`:''}</div>`}).join('');
  const rel=Date.UTC(2026,10,3),tn=new Date(),td=Date.UTC(tn.getFullYear(),tn.getMonth(),tn.getDate()),dd=Math.round((rel-td)/864e5);
  $('#plcd').textContent=Math.abs(dd);$('#plcl').textContent=(dd>0?'DAYS TO RELEASE':dd===0?'RELEASE DAY':'DAYS SINCE RELEASE')+' · 2026.11.03 18:00';}
 $('#plsch').addEventListener('click',e=>{const f=e.target.closest('.pl-fr');if(!f)return;$('#lb img').src='img/pulse_'+f.dataset.i+'.webp';$('#lb').classList.add('on')});$('#lb').addEventListener('click',()=>$('#lb').classList.remove('on'));
 $('#mq1').textContent='거제 야호 ✦ 안원잘부 ✦ '.repeat(7);$('#mq2').textContent='안원잘부 ✦ 거제 야호 ✦ '.repeat(7);
-$('#ppl').innerHTML=['woni','liv','minami','may','zena'].map(m=>`<img class="ph col" src="${I('m_'+m+'_prettygirl')}" alt="">`).join('');
 
 function split(el){const t=el.textContent;el.textContent='';el.setAttribute('aria-label',t);return [...t].map(c=>{const s=document.createElement('span');s.className='ch';s.setAttribute('aria-hidden','true');s.textContent=c===' '?' ':c;el.appendChild(s);return s})}
 
@@ -735,7 +745,6 @@ function boot(){
   gsap.from('.pl-fr',{y:70,opacity:0,stagger:.15,duration:1,ease:'power3.out',scrollTrigger:{trigger:'#plsch',start:'top 60%',once:true}});
   $$('.pl-r').forEach(r=>gsap.from(r,{x:-40,opacity:0,duration:.7,ease:'power3.out',scrollTrigger:{trigger:r,start:'top 92%',once:true}}))}
  ScrollTrigger.create({trigger:'#s6',start:'top 55%',onToggle:s=>{if(s.isActive){const t=new Date().toISOString().slice(0,10);setHud(t)}}});
- if(!rm)gsap.from('#ppl img',{y:60,opacity:0,rotate:()=>gsap.utils.random(-12,12),stagger:.1,duration:.9,ease:'back.out(1.6)',scrollTrigger:{trigger:'#ppl',start:'top 90%',once:true}});
  addEventListener('load',()=>ScrollTrigger.refresh());
  let rtm=0;$$('img').forEach(i=>{if(!i.complete)i.addEventListener('load',()=>{clearTimeout(rtm);rtm=setTimeout(()=>ScrollTrigger.refresh(),160)},{once:true})});
  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>ScrollTrigger.refresh());
