@@ -1,4 +1,4 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-22T11:27:01.270Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-22T16:54:00.960Z) */
 
 const NEWS_DATA = [
     {
@@ -34,6 +34,14 @@ const NEWS_DATA = [
         "image": "https://cdn.gukjenews.com/news/thumbnail/202610/3729348_3907277_5448_v150.jpg"
     },
     {
+        "title": "리센느 원이·제나, 장원영·제니 제쳤다... 걸그룹 브랜드평판 1,2위 - 금강일보",
+        "source": "금강일보",
+        "date": "2026-10-22",
+        "url": "https://www.ggilbo.com/news/articleView.html?idxno=1187732",
+        "summary": "걸그룹 리센느(RESCENE)가 2026년 10월 걸그룹 개인 브랜드평판에서 상위권을 휩쓸며 눈길을 끌었다.지난 19일 한국기업평판연구소가 발표한 2026년 10월 걸그룹 개인 브랜드평판에 따르면 리센느의 원이는 브랜드평판지수 803만 9165로 1위에 올랐다. 이어 같은 그룹의 제나가",
+        "image": "https://cdn.ggilbo.com/news/photo/202610/1187732_1040559_599.jpg"
+    },
+    {
         "title": "'2026 MMA', 오늘(22일) 2차 티켓팅 시작…TOP10 투표 현재 1위 리센느-2위 임영웅 - TopStarNews",
         "source": "TopStarNews",
         "date": "2026-10-22",
@@ -42,12 +50,28 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202610/16255084_2063693_235_crop.jpg"
     },
     {
+        "title": "리센느, 아이돌차트 아차랭킹 1위! - 아시아뉴스통신",
+        "source": "아시아뉴스통신",
+        "date": "2026-10-22",
+        "url": "https://www.anewsa.com/detail.php?number=3210506",
+        "summary": "(사진출처=리센느 공식 SNS) [아시아뉴스통신=이상진 기자] 그룹 리센느(원이, 리브, 미나미, 메이, 제나)가 1위를 차지했다.아이돌차트 아차랭킹 10월 2주차 주간랭킹에 따르면 리센느가 음원 점수 1046점, 유튜브 점수 9038점, 소셜 점수 8430점 등 총점 1만 8514점으",
+        "image": "https://www.anewsa.com/news_images/2026/08/22/mark/20260822105534.jpg"
+    },
+    {
         "title": "\"리센느 컴백 한 눈에\"…네이버, K팝 통합 광고 전략 공개 - 매일일보",
         "source": "매일일보",
         "date": "2026-10-22",
         "url": "https://www.m-i.kr/news/articleView.html?idxno=2009302",
         "summary": "매일일보 = 권소윤 인턴기자 | 네이버가 K팝 팬이 아티스트의 컴백 소식을 접한 뒤 검색과 영상 콘텐츠 소비까지 이어가도록 통합 광고 사업을 강화한다.네이버는 경",
         "image": "https://cdn.m-i.kr/news/photo/202610/2009302_2009338_332.jpg"
+    },
+    {
+        "title": "[동영상] 리센느, ‘PULSE’ 콘셉트 트레일러 공개…11월3일 1년 만의 미니앨범 컴백 - 콕스뉴스",
+        "source": "콕스뉴스",
+        "date": "2026-10-22",
+        "url": "https://www.coxnews.co.kr/news/articleView.html?idxno=6491",
+        "summary": "‘LOVE ATTACK’ 역주행으로 이름을 알린 걸그룹 리센느가 1년 만의 미니앨범 발매를 앞두고 콘셉트 트레일러를 내놨다. 리센느는 22일 유튜브를 통해 미니",
+        "image": "https://cdn.coxnews.co.kr/news/photo/202610/6491_9350_468.jpg"
     },
     {
         "title": "아이브·리센느도 활용…네이버, K팝 팬덤 대상 광고 전략 공개 - 인더뉴스",
@@ -64,6 +88,14 @@ const NEWS_DATA = [
         "url": "http://breaknews.com/1244828",
         "summary": "그룹 리센느(RESCENE / 원이, 리브, 미나미, 메이, 제나) © 브레이크뉴스 박동제 기자= ‘5세대 대세 걸그룹’ 리",
         "image": "https://www.breaknews.com/imgdata/breaknews_com/202610/2026102006036506.jpg"
+    },
+    {
+        "title": "'리센느 원이' 안원잘부, 다이어리 예약 판매 시작 - 금강일보",
+        "source": "금강일보",
+        "date": "2026-10-22",
+        "url": "http://www.ggilbo.com/news/articleView.html?idxno=1187749",
+        "summary": "리센느 원이의 유튜브 채널 '안녕하세요원이입니다잘부탁드립니다'가 자사몰 오픈 소식을 전했다.지난 18일 원이의 유튜브 채널 '안녕하세요원이입니다잘부탁드립니다(이하 안원잘부)'가 자사몰을 오픈했다. 지난 17일 공개된 '언니 나 빼고 촬영 갔어?'에서 리센느 멤버들은 자사몰에서 판매하는 ",
+        "image": "https://cdn.ggilbo.com/news/photo/202610/1187749_1040563_4043.jpg"
     },
     {
         "title": "리센느, 5세대 걸그룹 아우라 제대로 장착 - 스포츠동아",
@@ -103,7 +135,7 @@ const NEWS_DATA = [
         "date": "2026-10-21",
         "url": "https://www.viva100.com/article/20261021500185",
         "summary": "그룹 리센느(RESCENE)가 신비로운 분위기의 콘셉트 포토를 선보이며 미니 4집 ‘PULSE(펄스)’를 통해 펼쳐낼 새로운 이야기에 기대감을 더했다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 20일 오후 6시 공식 SNS를 통해 미니 4집 ‘PULSE’의",
-        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/21/.cache/512/20261021500182.jpg?v=20261022202638"
+        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/21/.cache/512/20261021500182.jpg?v=20261023015343"
     },
     {
         "title": "리센느, 신성한 아우라로 시선 압도…초월적 비주얼로 팬심에 불 지핀다 - SPOTV NEWS",
@@ -130,14 +162,6 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202610/16253725_2062271_3749_crop.jpg"
     },
     {
-        "title": "수영선수 김영범 \"좋아하는 걸그룹 리센느...최애는 제나\" (라스)[전일야화] - www.xportsnews.com",
-        "source": "www.xportsnews.com",
-        "date": "2026-10-21",
-        "url": "https://www.xportsnews.com/article/2210130",
-        "summary": "(엑스포츠뉴스 오수정 기자) '라디오스타'에서 김영번에 걸그룹 리센느 제나를 향한 팬심을 드러냈다. 지난 21일 방송된 MBC 예능 프로그램 '라디오스타'는 '메이드 인 코리아' 특집으로 꾸며져 김영범, 최준용, 강이슬, 비웨사 다니엘 가사마, 나마디 조엘 진 등 2026 아이치 나고야",
-        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1022/1792597544555811.webp"
-    },
-    {
         "title": "리센느, 날개 단 수호천사로 변신…의미심장한 문구 의미는 - 헤럴드경제",
         "source": "헤럴드경제",
         "date": "2026-10-21",
@@ -162,35 +186,20 @@ const NEWS_DATA = [
         "image": "https://cdn.nc.press/news/photo/202610/629087_865844_1331.jpg"
     },
     {
+        "title": "수영선수 김영범 \"좋아하는 걸그룹 리센느...최애는 제나\" (라스)[전일야화] - www.xportsnews.com",
+        "source": "www.xportsnews.com",
+        "date": "2026-10-21",
+        "url": "https://www.xportsnews.com/article/2210130",
+        "summary": "(엑스포츠뉴스 오수정 기자) '라디오스타'에서 김영번에 걸그룹 리센느 제나를 향한 팬심을 드러냈다. 지난 21일 방송된 MBC 예능 프로그램 '라디오스타'는 '메이드 인 코리아' 특집으로 꾸며져 김영범, 최준용, 강이슬, 비웨사 다니엘 가사마, 나마디 조엘 진 등 2026 아이치 나고야",
+        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1022/1792597544555811.webp"
+    },
+    {
         "title": "리센느, 청초한 비주얼에 후광까지…신보 콘셉트 공개 - 더팩트",
         "source": "더팩트",
         "date": "2026-10-21",
         "url": "https://news.tf.co.kr/read/entertain/2378745.htm",
         "summary": "11월 3일 미니 4집 PULSE 발매 걸그룹 리센느(RESCENE)가 한층 물오른 비주얼로 신보 기대감을 키웠다. 리센느(원이 리브 미나미 메이 제나)는 지난 20일 공식 소셜 미디어에 …",
         "image": "https://img.tf.co.kr/article/home/2026/10/21/202643791792543367.jpg"
-    },
-    {
-        "title": "리센느 앞에서 선보인 ‘러브어택’…‘해피투게더 K2’ 영상에 “편곡 대박” 호평 - CBC뉴스",
-        "source": "CBC뉴스",
-        "date": "2026-10-21",
-        "url": "https://www.cbci.co.kr/news/articleView.html?idxno=617899",
-        "summary": "[CBC뉴스] 그룹 리센느(RESCENE) 앞에서 ‘러브어택’을 선보인 ‘해피투게더 K2’ 영상에 시청자들의 호평이 이어졌다. 댓글에는 남성 버전으로 들려준 노래의 분위기와 편곡, 가창을 칭찬하는 반응이 올라왔다. 리센느의 음악이 색다른 해석으로 주목받는 가운데, 10월 네티즌 어워즈에",
-        "image": "https://www.cbci.co.kr/news/thumbnail/202610/617899_424615_3759_v150.jpg"
-    },
-    {
-        "title": "리센느, ‘거제 야호’는 잊어라…이번엔 천상계 비주얼 - 앳스타일",
-        "source": "앳스타일",
-        "date": "2026-10-21",
-        "url": "https://www.atstar1.com/news/articleView.html?idxno=6039788",
-        "summary": "[앳스타일 황연도 기자] 음원 차트 역주행으로 전성기를 맞은 그룹 리센느가 이번에는 신비로운 수호자로 변신했다. 기존의 청량한 분위기와 다른 콘셉트를 앞세워 11월 컴백 준비에 나섰다.리센느는 공식 SNS에 미니 4집 'PULSE(펄스)'의 새로운 단체 및 개인 콘셉트 사진을 공개했다.",
-        "image": "https://cdn.atstar1.com/news/thumbnail/202610/6039788_119612_2118_v150.jpg"
-    },
-    {
-        "title": "'전참시' 리센느, 데뷔 '3년 차' 첫 - 이투데이",
-        "source": "이투데이",
-        "date": "2026-10-21",
-        "url": "https://m.etoday.co.kr/view_photo.php?idxno=2612407&seq=1",
-        "summary": "'전참시' 리센느, 데뷔 '3년 차' 첫 연말 무대 오른다⋯\"그동안 섭외 안 와\" 관련 이미지 원본을 이투데이에서 확인하세요"
     },
     {
         "title": "1위 리센느 원이, 2위 방탄소년단 지민, 3위 리센느 제나 - 스타뉴스",
@@ -201,14 +210,6 @@ const NEWS_DATA = [
         "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=858,fit=cover,q=high,sharpen=2/21/2026/10/2026102106565225792_4.jpg"
     },
     {
-        "title": "\"없어서 못 팔 정도\"…30대 남성들에 인기 폭발한 '편의점 빵' - 한국경제",
-        "source": "한국경제",
-        "date": "2026-10-20",
-        "url": "https://www.hankyung.com/article/202610203023i",
-        "summary": "\"없어서 못 팔 정도\"…30대 남성들에 인기 폭발한 '편의점 빵', \"얼마나 인기길래 8배 웃돈까지\"&hellip;30대男 쓸어 담은 '편의점 빵' CU-리센느 협업 '리센느 빵' 한 달 만에 누적 200만개 판매 30~40대 남성 비중 가장 커",
-        "image": "https://img.hankyung.com/photo/202610/02.46121448.1.jpg"
-    },
-    {
         "title": "그룹 유어즈 \"리센느 선배 이어 '중소의 복권' 될래요\" - 연합뉴스",
         "source": "연합뉴스",
         "date": "2026-10-20",
@@ -217,12 +218,12 @@ const NEWS_DATA = [
         "image": "https://img9.yna.co.kr/etc/inner/KR/2026/10/19/AKR20261019181200005_01_i_P4.jpg"
     },
     {
-        "title": "리센느, 수호자로 변신한 다섯 소녀 - JTBC",
-        "source": "JTBC",
+        "title": "\"없어서 못 팔 정도\"…30대 남성들에 인기 폭발한 '편의점 빵' - 한국경제",
+        "source": "한국경제",
         "date": "2026-10-20",
-        "url": "https://news.jtbc.co.kr/article/NB12324051",
-        "summary": "리센느(RESCENE)가 신비로운 비주얼을 담은 컨셉트 포토를 공개하며 컴백 기대감을 높였다. 소속사는 지난 20일 공식 SNS를 통해 11월...",
-        "image": "https://photo.jtbc.co.kr/news/jam_photo/202610/21/bfe3a6f9-7bbc-4da7-a116-93eafae4af48.jpg"
+        "url": "https://www.hankyung.com/article/202610203023i",
+        "summary": "\"없어서 못 팔 정도\"…30대 남성들에 인기 폭발한 '편의점 빵', \"얼마나 인기길래 8배 웃돈까지\"&hellip;30대男 쓸어 담은 '편의점 빵' CU-리센느 협업 '리센느 빵' 한 달 만에 누적 200만개 판매 30~40대 남성 비중 가장 커",
+        "image": "https://img.hankyung.com/photo/202610/02.46121448.1.jpg"
     },
     {
         "title": "리센느, 수호천사 됐다…달라진 비주얼 공개 - 연합뉴스",
@@ -381,7 +382,8 @@ const NEWS_DATA = [
         "source": "헤럴드경제 미주판",
         "date": "2026-10-20",
         "url": "https://www.heraldk.com/article/2026102018500476857",
-        "summary": ""
+        "summary": "WE HERALD!, 헤럴드경제는 모바일 시대를 선도하는 종합일간경제 매체입니다.",
+        "image": "https://static.heraldcorp.com/wbazic/biz/www/image/heraldsns.png"
     },
     {
         "title": "리센느, '향기' 넘어 '박동'으로…미니 4집 'PULSE' 수호자 변신 - 뉴스컬처",
@@ -400,13 +402,6 @@ const NEWS_DATA = [
         "image": "https://image.inews24.com/v1/72391d5c5bab58.jpg"
     },
     {
-        "title": "[인사이드 스토리]리센느도 넘었다…가짜 양주 '캪틴큐' 열풍 - 비즈워치",
-        "source": "비즈워치",
-        "date": "2026-10-19",
-        "url": "https://news.bizwatch.co.kr/article/consumer/2026/10/19/0036",
-        "summary": ""
-    },
-    {
         "title": "'수호천사' 리센느?! 'PULSE' 콘셉트 포토에 '설렘 증폭’ - 전자신문",
         "source": "전자신문",
         "date": "2026-10-19",
@@ -421,6 +416,13 @@ const NEWS_DATA = [
         "url": "https://sports.khan.co.kr/article/202610200721003",
         "summary": "5인의 수호천사들이 나타났다. ‘국민 걸그룹’ 리센느(RESCENE)가 수호천사를 연상케 하는 신보 콘셉트 포토를 공개했다. 지난 19일 오후 6시 리센느(원이, 리브, 미나미, 메이, 제나)는 공식 SNS를 ...",
         "image": "https://images.khan.co.kr/article/2026/10/20/news-p.v1.20261020.cbf5960b803143ac8aab2517cfa7ff14_P1.jpg"
+    },
+    {
+        "title": "[인사이드 스토리]리센느도 넘었다…가짜 양주 '캪틴큐' 열풍 - 비즈워치",
+        "source": "비즈워치",
+        "date": "2026-10-19",
+        "url": "https://news.bizwatch.co.kr/article/consumer/2026/10/19/0036",
+        "summary": ""
     },
     {
         "title": "[2026 차세대 리더-문화예술] 리센느 가수 - 시사저널",
@@ -526,14 +528,6 @@ const NEWS_DATA = [
         "image": "https://www.sportsworldi.com/content/image/2026/10/20/20261020506360.jpg"
     },
     {
-        "title": "리센느, 여리지만 강인한 수호자 - 마이데일리",
-        "source": "마이데일리",
-        "date": "2026-10-19",
-        "url": "https://mydaily.co.kr/page/view/2026102008035763362",
-        "summary": "그룹 리센느./더뮤즈엔터테인먼트...",
-        "image": "https://mydaily.co.kr/photos/2026/10/20/2026102008124178309_l.jpg"
-    },
-    {
         "title": "리센느 원이, 긍부정비율 95.10%..10월 걸그룹 개인 브랜드 평판 '1위' - 조선비즈 - Chosunbiz",
         "source": "Chosunbiz",
         "date": "2026-10-18",
@@ -564,6 +558,14 @@ const NEWS_DATA = [
         "url": "https://sports.khan.co.kr/article/202610181212003",
         "summary": "걸그룹 브랜드 평판도 ‘대세’ 리센느 천하다. 리센느 원이와 리센느 제나가 걸그룹 2026년 10월 개인 브랜드평판에서 나란히 1, 2위에 올랐다. 아이브 장원영이 3위로 뒤를 이었다.​ 한국기업평판연구소는 걸...",
         "image": "https://images.khan.co.kr/article/2026/10/18/news-p.v1.20261018.62f6909b5a984e7491a2e74d0438a2de_P1.png"
+    },
+    {
+        "title": "리센느, '중소의 기적'은 우연 아닌 필연 [Oh!쎈 레터①] - 조선일보",
+        "source": "조선일보",
+        "date": "2026-10-18",
+        "url": "https://www.chosun.com/entertainments/music/2026/10/18/GUYWGZBTMEYGKMZZGI2GIM3BHE/",
+        "summary": "그룹 리센느가 음악과 향기를 결합한 독창적 브랜딩과 멤버 개인의 유튜브 콘텐츠를 활용한 바이럴 전략을 통해 10월 걸그룹 브랜드평판 1위에 올랐습니다. 탄탄한 음악적 내공과 세대 통합형 리메이크 곡으로 대중성을 확보하며 중소 기획사 소속 그룹으로서 유의미한 성장 서사를 써 내려가고 있습",
+        "image": "https://www.chosun.com/resizer/v2/G5TGEYRSGE4TCNJWHFRDQNRSGM.jpg?auth=0046c8d5bce48435c7e9204084b8ae34b09c9a911b84a9febef4f5d339a5897c&width=650&height=341&smart=true"
     },
     {
         "title": "리센느, '중소의 기적'은 우연 아닌 필연 [Oh!쎈 레터①] - 미주중앙일보",
@@ -621,6 +623,14 @@ const NEWS_DATA = [
         "image": "https://economist.co.kr/data/ecn/image/2026/10/17/ecn20261017000007.800x.0.jpg"
     },
     {
+        "title": "1위 리센느 원이, 2위 리센느 제나, 3위 아이브 장원영 - 스타뉴스",
+        "source": "스타뉴스",
+        "date": "2026-10-17",
+        "url": "https://www.starnewskorea.com/music/2026/10/18/2026101808383178395",
+        "summary": "걸그룹 개인 브랜드평판 2026년 10월 빅데이터 분석결과, 1위 리센느 원이 2위 리센느 제나 3위 아이브 장원영 순으로 분석됐다. 10월 18일 한국기업평판연구소가 발표한 걸그룹 개인 브랜드평판 2026년 10월 빅데이터에 따르면 리센느 원이는 참여지수 122만8704, 미디어지수 ",
+        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=858,fit=cover,q=high,sharpen=2/21/2026/10/2026101808383178395_1.jpg"
+    },
+    {
         "title": "역주행으로 뜬 리센느(RESCENE)에게 이번 컴백이 중요한 이유 - 뉴스1",
         "source": "뉴스1",
         "date": "2026-10-16",
@@ -644,12 +654,12 @@ const NEWS_DATA = [
         "image": "https://biz.chosun.com/resizer/v2/6D5SPPJDJZAN7JNSWM3IN7TIG4.jpg?auth=5cb5c2683df53c7c2e0d9e716d1cef778badab22aefa3ebfbb24b95357e6450b&width=1200&height=630&smart=true"
     },
     {
-        "title": "'거제야호' 리센느 효과로 거제시 방문객·관광 소비 증가 - 연합뉴스",
-        "source": "연합뉴스",
+        "title": "“좋아하면 그냥 해!”…도미노피자, ‘리센느’와 신규 브랜드 캠페인 - 문화일보",
+        "source": "문화일보",
         "date": "2026-10-14",
-        "url": "https://www.yna.co.kr/view/AKR20261014164000052",
-        "summary": "(거제=연합뉴스) 정종호 기자 = 경남 거제시는 그룹 리센느와 '거제야호' 밈(Meme·온라인 유행 콘텐츠)이 지역 방문객과 관광 소비 증가, ...",
-        "image": "https://img8.yna.co.kr/etc/inner/KR/2026/10/14/AKR20261014164000052_01_i_P4.jpg"
+        "url": "https://www.munhwa.com/article/11623295",
+        "summary": "도미노피자가 브랜드 모델인 걸그룹 ‘리센느(RESCENE)’와 함께 한 신규 브랜드 캠페인을 14일 공개했다. 도미노피자는 지난 7월 리센느와 함께 ‘무진장 슈림프 스테이크 피자’ TV CF를 공개했다. 이후 가로형과 세로형 콘텐츠를 합쳐 유튜브 누적 조회수 1억600",
+        "image": "https://wimg.munhwa.com/news/cms/2026/10/14/news-p.v1.20261014.b71446d1766f4c3888feb1cc78146256_R.jpg"
     },
     {
         "title": "[단독] 배민에서 아이돌 앨범까지...‘리센느’ 컴백 앨범 사전 예약 받는다 - 조선일보",
@@ -658,14 +668,6 @@ const NEWS_DATA = [
         "url": "https://www.chosun.com/economy/industry-company/2026/10/13/BL3EENHBY5GRXDINRQSDED4B4Y/",
         "summary": "배달의민족이 리센느의 미니 4집 사전 예약 및 간식 패키지 판매를 진행하며 K팝 협업을 확대함. 이는 배달 서비스를 넘어 전자제품, 패션 등 비식료품을 아우르는 퀵커머스 사업 다각화 전략의 일환임.",
         "image": "https://www.chosun.com/resizer/v2/MFSDGNJWG5QTQMZZGNSWKMJRMU.jpg?auth=0d75343dbfcebcc9ed3800a2b7e9ff1799c92172cd15faafb30e7b6a43197c36&width=1200&height=630&smart=true"
-    },
-    {
-        "title": "“좋아하면 그냥 해!”…도미노피자, ‘리센느’와 신규 브랜드 캠페인 - 문화일보",
-        "source": "문화일보",
-        "date": "2026-10-13",
-        "url": "https://www.munhwa.com/article/11623295",
-        "summary": "도미노피자가 브랜드 모델인 걸그룹 ‘리센느(RESCENE)’와 함께 한 신규 브랜드 캠페인을 14일 공개했다. 도미노피자는 지난 7월 리센느와 함께 ‘무진장 슈림프 스테이크 피자’ TV CF를 공개했다. 이후 가로형과 세로형 콘텐츠를 합쳐 유튜브 누적 조회수 1억600",
-        "image": "https://wimg.munhwa.com/news/cms/2026/10/14/news-p.v1.20261014.b71446d1766f4c3888feb1cc78146256_R.jpg"
     },
     {
         "title": "리센느, 차트 역주행 넘어 새 도약…신보 'PULSE' 프로모션 일정 공개 - YTN",
@@ -681,7 +683,7 @@ const NEWS_DATA = [
         "date": "2026-10-11",
         "url": "https://www.kyeonggi.com/article/20261011580297",
         "summary": "‘중소돌의 기적’ 대세 걸그룹 리센느(원이, 미나미, 리브, 메이, 제나)가 파주 임진각 평화누리공원에서 펼쳐진 ‘2026 고스트(GHOST·경기 한류 OST) 페스티벌’ 마지막날인 11일 평화로운 가을날에 화려한 무대로 관객을 열광시켰다. 경기관광공사가 주최하고 경기",
-        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/11/.cache/512/20261011580299.jpg?v=20261022202658"
+        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/11/.cache/512/20261011580299.jpg?v=20261023015358"
     },
     {
         "title": "리센느, 부캉이, 김민의 공통점 - 보그 코리아 (Vogue Korea)",
@@ -721,7 +723,7 @@ const NEWS_DATA = [
         "date": "2026-10-04",
         "url": "https://www.kyeonggi.com/article/20261004580029",
         "summary": "편의점에서 아이돌 포토카드와 유명 디저트를 앞세운 협업 상품이 잇따라 흥행하고 있다. 4일 유통업계에 따르면 BGF리테일이 운영하는 CU의 ‘리센느 빵’ 5종은 1일 기준 약 60만개가 판매됐다. CU는 지난달 17일 ‘원이의 옥수수 크림빵’을 시작으로 같은 달 30일",
-        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/04/.cache/512/20261004580030.jpg?v=20261022202659"
+        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/04/.cache/512/20261004580030.jpg?v=20261023015359"
     },
     {
         "title": "삼촌들이 움직였다…‘리센느 빵’ 최대 구매자 30대 남성 - 문화일보",
