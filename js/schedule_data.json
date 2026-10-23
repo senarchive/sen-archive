@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T03:00:15.897Z",
+  "updated": "2026-10-23T10:53:40.053Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3770,6 +3770,14 @@
       "source": "mnetplus"
     },
     {
+      "date": "2026-10-23",
+      "time": "",
+      "title": "동아대학교 축제 (승학캠)",
+      "detail": "",
+      "type": "event",
+      "source": "mnetplus"
+    },
+    {
       "date": "2026-10-24",
       "time": "19:00",
       "title": "한화 오션 하모니",
@@ -3783,6 +3791,14 @@
       "title": "여기어때 콘서트팩 거제",
       "detail": "",
       "type": "concert",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "",
+      "title": "한화오션 오션하모니",
+      "detail": "",
+      "type": "event",
       "source": "mnetplus"
     },
     {
