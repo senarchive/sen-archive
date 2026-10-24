@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T20:17:02.383Z",
+  "updatedAt": "2026-10-24T22:54:52.120Z",
   "platforms": [
     "melon",
     "genie",
@@ -32,7 +32,7 @@
           "previousRank": 8
         },
         "flo": {
-          "rank": 10,
+          "rank": 11,
           "previousRank": 10
         },
         "youtube_music": {
@@ -55,27 +55,27 @@
           "previousRank": 6
         },
         "genie": {
-          "rank": 32,
+          "rank": 35,
           "previousRank": 32
         },
         "vibe": {
-          "rank": 14,
-          "previousRank": 14
+          "rank": 13,
+          "previousRank": 12
         },
         "bugs": {
-          "rank": 15,
-          "previousRank": 21
+          "rank": 25,
+          "previousRank": 15
         },
         "flo": {
           "rank": 29,
-          "previousRank": 16
+          "previousRank": 29
         },
         "youtube_music": {
           "rank": 8,
           "previousRank": 8
         },
         "spotify": {
-          "rank": 6,
+          "rank": 9,
           "previousRank": 6
         }
       }
@@ -90,16 +90,16 @@
           "previousRank": 7
         },
         "genie": {
-          "rank": 35,
-          "previousRank": 33
+          "rank": 43,
+          "previousRank": 35
         },
         "vibe": {
           "rank": 10,
           "previousRank": 10
         },
         "bugs": {
-          "rank": 34,
-          "previousRank": 35
+          "rank": 38,
+          "previousRank": 34
         },
         "flo": {
           "rank": 31,
@@ -110,7 +110,7 @@
           "previousRank": 6
         },
         "spotify": {
-          "rank": 13,
+          "rank": 16,
           "previousRank": 13
         }
       }
@@ -125,8 +125,8 @@
           "previousRank": 80
         },
         "bugs": {
-          "rank": 54,
-          "previousRank": 59
+          "rank": 42,
+          "previousRank": 54
         },
         "flo": {
           "rank": 65,
@@ -137,8 +137,8 @@
           "previousRank": 23
         },
         "spotify": {
-          "rank": 50,
-          "previousRank": 48
+          "rank": 45,
+          "previousRank": 50
         }
       }
     },
@@ -152,7 +152,7 @@
           "previousRank": 57
         },
         "bugs": {
-          "rank": 67,
+          "rank": 62,
           "previousRank": 67
         },
         "flo": {
@@ -160,8 +160,8 @@
           "previousRank": 98
         },
         "spotify": {
-          "rank": 33,
-          "previousRank": 35
+          "rank": 37,
+          "previousRank": 33
         }
       }
     },
