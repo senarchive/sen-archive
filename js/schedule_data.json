@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T20:53:38.879Z",
+  "updated": "2026-10-24T02:57:22.554Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3778,6 +3778,14 @@
       "source": "mnetplus"
     },
     {
+      "date": "2026-10-23",
+      "time": "18:50",
+      "title": "동아대학교 승학 캠퍼스 축제",
+      "detail": "",
+      "type": "event",
+      "source": "mnetplus"
+    },
+    {
       "date": "2026-10-24",
       "time": "19:00",
       "title": "한화 오션 하모니",
@@ -3795,7 +3803,7 @@
     },
     {
       "date": "2026-10-24",
-      "time": "",
+      "time": "19:00",
       "title": "한화오션 오션하모니",
       "detail": "",
       "type": "event",
@@ -3835,7 +3843,7 @@
     },
     {
       "date": "2026-10-31",
-      "time": "",
+      "time": "16:00",
       "title": "경주 APEC 정상회의장 기념관 개관식",
       "detail": "",
       "type": "event",
@@ -3880,6 +3888,14 @@
       "detail": "",
       "type": "event",
       "source": "fan-schedule"
+    },
+    {
+      "date": "2026-11-14",
+      "time": "",
+      "title": "2026 멜론 뮤직 어워드 (MMA)",
+      "detail": "",
+      "type": "concert",
+      "source": "mnetplus"
     },
     {
       "date": "2026-11-20",
