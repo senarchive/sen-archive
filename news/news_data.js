@@ -1,21 +1,21 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-25T03:56:35.712Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-25T11:00:50.729Z) */
 
 const NEWS_DATA = [
     {
-        "title": "삼성전자·리센느, 갤럭시 Z 폴드8 협업 캠페인 시동 - 매일신문",
-        "source": "매일신문",
-        "date": "2026-10-24",
-        "url": "https://www.imaeil.com/page/view/2026102411512142337",
-        "summary": "삼성전자 공식 SNS에 공개된 갤럭시 Z 폴드8과 걸그룹 리...",
-        "image": "https://www.imaeil.com/photos/2026/10/24/2026102411511707059_l.jpg"
+        "title": "삼성전자, 리센느와 폴드8 협업 예고…1030세대·여심 겨냥 - 인더스트리뉴스",
+        "source": "인더스트리뉴스",
+        "date": "2026-10-25",
+        "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=88144",
+        "summary": "[인더스트리뉴스 한원석 기자] 삼성전자가 걸그룹 리센느와 갤럭시 Z 폴드8의 협업을 예고했다. 폴드8 구매자 가운데 젊은 층이 절반가량을 차지하고 여성 고객이 늘",
+        "image": "https://cdn.industrynews.co.kr/news/photo/202610/88144_109402_548.jpg"
     },
     {
-        "title": "삼성전자, 리센느와 폴드8 협업 예고⋯1030 여성 공략 - 아이뉴스24",
-        "source": "아이뉴스24",
-        "date": "2026-10-24",
-        "url": "http://www.inews24.com/view/2018570",
-        "summary": "공식 SNS에 흑백 티저 공개⋯스페셜 에디션&middot;신규 색상 관심 폴드8 구매한 1030 여성 고객, 전작 대비 2배 이상 증가 삼성전자가 걸그룹 리센느와 갤럭시 Z 폴드8 협업 캠페인을 예고했다. 갤럭시 Z 폴드8 구매층에서 10~30대 여성 비중이 크게 늘어난 가운데 젊은 고",
-        "image": "https://image.inews24.com/v1/bfb5725e150829.jpg"
+        "title": "\"폴드8 야호~\" 삼성전자, 리센느와 협업 예고…젊은 층 공력 나서 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "date": "2026-10-25",
+        "url": "https://www.mt.co.kr/tech/2026/10/25/2026102510061242453",
+        "summary": "지난 8월 출시된 '갤럭시 Z 폴드 8' 시리즈로 젊은 층을 공략하기 위해서다. 삼성전자는 지난 23일 공식 SNS(소셜네트워크서비스) 계정에 '시작해볼까?'라는 문구와 함께 리센느로 추정되는 다섯 명의 여성이 폴드8을 들고 있는 흑백 실루엣 티저 이미지를 공개했다.",
+        "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=1914,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026102510061242453_1.jpg"
     },
     {
         "title": "유영우, 리센느 원이와 함께 탄 차인데..문콕 당하고 상심 \"범인 못 찾아\" - 조선일보",
@@ -26,12 +26,12 @@ const NEWS_DATA = [
         "image": "https://www.chosun.com/resizer/v2/GA2DIMRSGQYWKMBXGQZDAOLGG4.jpg?auth=162475e3a77b90a742d50453bcdc41cf8444de07ce95058fd1fb8e61c960f58f&width=600&height=315&smart=true"
     },
     {
-        "title": "리센느, BTS·임영웅 제쳤다 - 스포츠경향",
+        "title": "리센느 19% vs 임영웅 18%… ‘멜론뮤직어워드 TOP 10’ 막판 대접전 주인공은? - 스포츠경향",
         "source": "스포츠경향",
         "date": "2026-10-24",
-        "url": "https://sports.khan.co.kr/article/202610241844003",
-        "summary": "‘국민 걸그룹’ 리센느가 2026년 10월 가수 브랜드평판 분석에서 방탄소년단과 임영웅을 제치고 1위에 올랐다. 한국기업평판연구소는 2026년 9월 24일부터 2026년 10월 24일까지의 가수 브랜드 빅데이터...",
-        "image": "https://images.khan.co.kr/article/2026/10/24/news-p.v1.20261024.cbf8a9ef95e646caae2c349c97a9ce66_P1.png"
+        "url": "https://sports.khan.co.kr/article/202610242020003",
+        "summary": "국내 최대 음원 플랫폼 멜론이 주관하는 ‘멜론뮤직어워드(MMA)’ TOP 10 투표가 막바지를 향해 치달으며 가요계에 전례 없는 대지각변동이 일어나고 있다. 그야말로 예측 불허의 박빙 승부가 펼쳐지는 가운데, ...",
+        "image": "https://images.khan.co.kr/article/2026/10/24/news-p.v1.20261024.6d5c3820954b40579f10f8300900f374_P1.jpg"
     },
     {
         "title": "리센느, 10월 가수 브랜드평판 1위! - 아시아뉴스통신",
@@ -42,28 +42,28 @@ const NEWS_DATA = [
         "image": "https://www.anewsa.com/news_images/2026/08/22/mark/20260822105534.jpg"
     },
     {
-        "title": "리센느, 미니 4집 트랙리스트 공개…타이틀곡은 '위드' - 뉴시스",
-        "source": "뉴시스",
+        "title": "리센느, 11월 3일 컴백…이번엔 ‘수호자’ 변신 - 스포츠동아",
+        "source": "스포츠동아",
         "date": "2026-10-24",
-        "url": "https://nwww.newsis.com/view/NISX20261024_0003839418",
-        "summary": "그룹 리센느가 네 번째 미니 앨범 트랙리스트를 공개하며 컴백 초읽기에 돌입했다. 리센느는 23일 공식 소셜미디어(SNS)를 통해 미니 4집 '펄스'(PULSE) 트랙리스트를 게재했다.",
-        "image": "https://img1.newsis.com/2026/10/24/NISI20261024_0002272701_web.jpg"
+        "url": "https://sports.donga.com/ent/article/all/20261024/134900874/1",
+        "summary": "[동아닷컴 이슬비 기자] 그룹 리센느(RESCENE)가 새 앨범 트랙리스트를 공개했다.리센느(원이, 리브, 미나미, 메이, 제나)는 지난 23일 공식 SNS를 통해 네 번째 미니 앨범 ‘PULSE’(펄스)의 트랙리스트를 공개했다.공개된 트랙리스트에는 타이틀곡 ‘Wit…",
+        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/24/134900870.1.jpg"
     },
     {
-        "title": "‘리센느 원이 삼촌’ 유영우도 대학축제 무대 섰다‥MC 아닌 가수로(전참시) - 뉴스엔",
-        "source": "뉴스엔",
+        "title": "삼성전자, 리센느와 ‘폴드8’ 캠페인 개시… 젊은 여성층 저격과 ‘아이폰 로제’ 대결 구도 포석 - www.dt.co.kr",
+        "source": "www.dt.co.kr",
         "date": "2026-10-24",
-        "url": "https://www.newsen.com/news_view.php?uid=202610241303476310&code=100100",
-        "summary": "'���̵��'(����+�ڹ̵��) �����찡 �ʴ밡���� ���� ���� ���뿡 ������. 10�� 24�� ��۵Ǵ� MBC �������� ���� ������(��ȹ ��ÿ�, ���� ä���������شϡ��̴ٿ����������...",
-        "image": "https://photo.newsen.com/news_photo/2026/10/24/202610241303476310_1.jpg"
+        "url": "https://www.dt.co.kr/article/12090937",
+        "summary": "삼성전자가 걸그룹 ‘리센느’와 손잡고 최신 폴더블폰 ‘갤럭시 Z 폴드8’의 대대적인 협업 캠페인에 돌입하며 그 배경에 관심이 쏠리고 있다. 이번 협업은 단순한 연예인 마케팅을 넘어, 갤럭시 시리즈의 해묵은 과제인 ‘젊은 층 및 여성 고객 확대’를 달성하고 경쟁사 애플과",
+        "image": "https://wimg.dt.co.kr/news/cms/2026/10/24/news-p.v1.20261024.dace2e3a40664ff6a12798c39f2b8d90_R.png"
     },
     {
-        "title": "베일 벗은 리센느 새 앨범 면면…타이틀곡 '위드' 포함 5곡 - 이데일리",
-        "source": "이데일리",
+        "title": "삼성전자, 리센느와 폴드8 협업 예고⋯1030 여성 공략 - 아이뉴스24",
+        "source": "아이뉴스24",
         "date": "2026-10-24",
-        "url": "https://www.edaily.co.kr/News/Read?newsId=01945046645616200&mediaCodeNo=257",
-        "summary": "컴백을 앞둔 걸그룹 리센느(RESCENE·원이, 리브, 미나미, 메이, 제나)가 새 앨범 트랙리스트를 공개했다. (사진=더뮤즈엔터테인먼트)(사진=더뮤즈엔터테인먼트)리센느는 23일 공식 사회관계망서비스(SNS) 채널에 4번째 미니앨범 ‘펄스’(PULSE) 트랙리스트 ...",
-        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/10/PS26102400339.jpg"
+        "url": "http://www.inews24.com/view/2018570",
+        "summary": "공식 SNS에 흑백 티저 공개⋯스페셜 에디션&middot;신규 색상 관심 폴드8 구매한 1030 여성 고객, 전작 대비 2배 이상 증가 삼성전자가 걸그룹 리센느와 갤럭시 Z 폴드8 협업 캠페인을 예고했다. 갤럭시 Z 폴드8 구매층에서 10~30대 여성 비중이 크게 늘어난 가운데 젊은 고",
+        "image": "https://image.inews24.com/v1/bfb5725e150829.jpg"
     },
     {
         "title": "삼성전자, 리센느 품고 갤럭시폴드8 캠페인···아이폰 듀오 맞불 - 글로벌E",
@@ -90,14 +90,6 @@ const NEWS_DATA = [
         "image": "https://img.etnews.com/news/article/2026/10/24/article_24145312147835.jpg"
     },
     {
-        "title": "역주행 신화 리센느 새 앨범 컴백 임박, 그 실체 미리 살펴봤더니 - 뉴스엔",
-        "source": "뉴스엔",
-        "date": "2026-10-24",
-        "url": "https://www.newsen.com/news_view.php?uid=202610241235191210&code=100100",
-        "summary": "������ �ɱ׷졯 ������(RESCENE)�� �ź��� Ʈ������Ʈ�� �����ϸ� �������� �Ĺ� ī��Ʈ�ٿ ������. ���� 23�� ���� 6�� ������(����, ����, �̳���, ����, ����)�� ���� SNS�� ���� �",
-        "image": "https://photo.newsen.com/news_photo/2026/10/24/202610241235191210_1.jpg"
-    },
-    {
         "title": "리센느, 컴백 카운트 다운…\"역주행 신화 이어간다\" - 디스패치",
         "source": "디스패치",
         "date": "2026-10-24",
@@ -106,12 +98,36 @@ const NEWS_DATA = [
         "image": "https://dispatch.cdnser.be/cms-content/uploads/2026/10/24/38742a3c-b0f7-4f77-a123-3d84ce60e4d6.png"
     },
     {
-        "title": "리센느 19% vs 임영웅 18%… ‘멜론뮤직어워드 TOP 10’ 막판 대접전 주인공은? - 스포츠경향",
+        "title": "삼성전자·리센느, 갤럭시 Z 폴드8 협업 캠페인 시동 - 매일신문",
+        "source": "매일신문",
+        "date": "2026-10-24",
+        "url": "https://www.imaeil.com/page/view/2026102411512142337",
+        "summary": "삼성전자 공식 SNS에 공개된 갤럭시 Z 폴드8과 걸그룹 리...",
+        "image": "https://www.imaeil.com/photos/2026/10/24/2026102411511707059_l.jpg"
+    },
+    {
+        "title": "리센느, 미니 4집 트랙리스트 공개…타이틀곡은 '위드' - 뉴시스",
+        "source": "뉴시스",
+        "date": "2026-10-24",
+        "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261024_0003839418",
+        "summary": "[서울=뉴시스]강주희 기자 = 그룹 리센느가 네 번째 미니 앨범 트랙리스트를 공개하며 컴백 초읽기에 돌입했다",
+        "image": "https://img1.newsis.com/2026/10/24/NISI20261024_0002272701_web.jpg"
+    },
+    {
+        "title": "역주행 신화 리센느 새 앨범 컴백 임박, 그 실체 미리 살펴봤더니 - 뉴스엔",
+        "source": "뉴스엔",
+        "date": "2026-10-24",
+        "url": "https://www.newsen.com/news_view.php?uid=202610241235191210&code=100100",
+        "summary": "������ �ɱ׷졯 ������(RESCENE)�� �ź��� Ʈ������Ʈ�� �����ϸ� �������� �Ĺ� ī��Ʈ�ٿ ������. ���� 23�� ���� 6�� ������(����, ����, �̳���, ����, ����)�� ���� SNS�� ���� �",
+        "image": "https://photo.newsen.com/news_photo/2026/10/24/202610241235191210_1.jpg"
+    },
+    {
+        "title": "리센느, BTS·임영웅 제쳤다 - 스포츠경향",
         "source": "스포츠경향",
         "date": "2026-10-24",
-        "url": "https://sports.khan.co.kr/article/202610242020003",
-        "summary": "국내 최대 음원 플랫폼 멜론이 주관하는 ‘멜론뮤직어워드(MMA)’ TOP 10 투표가 막바지를 향해 치달으며 가요계에 전례 없는 대지각변동이 일어나고 있다. 그야말로 예측 불허의 박빙 승부가 펼쳐지는 가운데, ...",
-        "image": "https://images.khan.co.kr/article/2026/10/24/news-p.v1.20261024.6d5c3820954b40579f10f8300900f374_P1.jpg"
+        "url": "https://sports.khan.co.kr/article/202610241844003",
+        "summary": "‘국민 걸그룹’ 리센느가 2026년 10월 가수 브랜드평판 분석에서 방탄소년단과 임영웅을 제치고 1위에 올랐다. 한국기업평판연구소는 2026년 9월 24일부터 2026년 10월 24일까지의 가수 브랜드 빅데이터...",
+        "image": "https://images.khan.co.kr/article/2026/10/24/news-p.v1.20261024.cbf8a9ef95e646caae2c349c97a9ce66_P1.png"
     },
     {
         "title": "유영우, 리센느 원이와 몰던 차 문콕 당했다 “범인 못 찾아”(전참시) - 뉴스엔",
@@ -122,12 +138,12 @@ const NEWS_DATA = [
         "image": "https://photo.newsen.com/news_photo/2026/10/24/202610242252566110_1.jpg"
     },
     {
-        "title": "리센느, 11월 3일 컴백…이번엔 ‘수호자’ 변신 - 스포츠동아",
-        "source": "스포츠동아",
+        "title": "리센느 컴백, 미니 4집 펄스 트랙리스트 전격 공개 - https://www.2news.co.kr/",
+        "source": "https://www.2news.co.kr/",
         "date": "2026-10-24",
-        "url": "https://sports.donga.com/ent/article/all/20261024/134900874/1",
-        "summary": "[동아닷컴 이슬비 기자] 그룹 리센느(RESCENE)가 새 앨범 트랙리스트를 공개했다.리센느(원이, 리브, 미나미, 메이, 제나)는 지난 23일 공식 SNS를 통해 네 번째 미니 앨범 ‘PULSE’(펄스)의 트랙리스트를 공개했다.공개된 트랙리스트에는 타이틀곡 ‘Wit…",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/24/134900870.1.jpg"
+        "url": "https://www.2news.co.kr/news/articleView.html?idxno=30235",
+        "summary": "걸그룹 리센느가 신보 트랙리스트를 선보이며 컴백을 기대케 했다. 리센느는 공식 사회관계망서비스를 통해 오는 11월 3일 발매되는 미니 4집 펄스의 트랙리스트를 공",
+        "image": "https://cdn.2news.co.kr/news/photo/202610/mn_30235_20261024111542_1.jpg"
     },
     {
         "title": "삼성전자, 폴드8 새 얼굴은 '리센느'…정식 캠페인 시동 - 파이낸셜포스트",
@@ -138,38 +154,6 @@ const NEWS_DATA = [
         "image": "https://cdn.financialpost.co.kr/news/thumbnail/202610/282335_373540_19_v150.jpg"
     },
     {
-        "title": "리센느 10월 가수 브랜드평판 1위 등극 방탄소년단 임영웅 에이티즈 아이브 순 - 지피코리아",
-        "source": "지피코리아",
-        "date": "2026-10-24",
-        "url": "https://www.gpkorea.com/news/articleView.html?idxno=147901",
-        "summary": "걸그룹 리센느(RESCENE)가 10월 가수 브랜드평판 1위를 차지하며 독보적인 대세 행보를 이어갔다.한국기업평판연구소는 지난 9월 24일부터 10월 24일까지 가수 브랜드 빅데이터 1억 2968만 8950개를 추출해 소비자들의 참여, 미디어, 소통, 커뮤니티 지수를 분석한 결과, 리센",
-        "image": "https://cdn.gpkorea.com/news/photo/202610/147901_314546_4357.jpg"
-    },
-    {
-        "title": "리센느 컴백, 미니 4집 펄스 트랙리스트 전격 공개 - https://www.2news.co.kr/",
-        "source": "https://www.2news.co.kr/",
-        "date": "2026-10-24",
-        "url": "https://www.2news.co.kr/news/articleView.html?idxno=30235",
-        "summary": "걸그룹 리센느가 신보 트랙리스트를 선보이며 컴백을 기대케 했다. 리센느는 공식 사회관계망서비스를 통해 오는 11월 3일 발매되는 미니 4집 펄스의 트랙리스트를 공",
-        "image": "https://cdn.2news.co.kr/news/photo/202610/mn_30235_20261024111542_1.jpg"
-    },
-    {
-        "title": "리센느, 5색 '두근거림' 품은 수호자…미니 4집 트랙리스트 공개 - 뉴스컬처",
-        "source": "뉴스컬처",
-        "date": "2026-10-24",
-        "url": "https://www.nc.press/news/articleView.html?idxno=629394",
-        "summary": "[뉴스컬처 박동선 기자] 그룹 리센느(RESCENE)가 신비로운 수호자의 날갯짓을 예고하며 새 앨범을 채울 5곡의 단단한 서사를 베일 벗었다.더뮤즈엔터테인먼트 측",
-        "image": "https://cdn.nc.press/news/photo/202610/629394_866530_71.jpg"
-    },
-    {
-        "title": "리센느, 미니 4집 ‘PULSE’ 트랙리스트 공개..타이틀곡은 ‘With’ - 브레이크뉴스",
-        "source": "브레이크뉴스",
-        "date": "2026-10-24",
-        "url": "http://breaknews.com/1245451",
-        "summary": "그룹 리센느(RESCENE / 원이, 리브, 미나미, 메이, 제나) © 브레이크뉴스 박동제 기자= 걸그룹 리센느(RESCENE / 원",
-        "image": "https://www.breaknews.com/imgdata/breaknews_com/202610/2026102158431310.jpg"
-    },
-    {
         "title": "리센느, 새 타이틀곡은 `With`…거대한 날개 달았다 - 마이데일리",
         "source": "마이데일리",
         "date": "2026-10-24",
@@ -178,12 +162,28 @@ const NEWS_DATA = [
         "image": "https://mydaily.co.kr/photos/2026/10/24/2026102409123110641_l.jpg"
     },
     {
-        "title": "삼성전자, 리센느와 ‘폴드8’ 캠페인 개시… 젊은 여성층 저격과 ‘아이폰 로제’ 대결 구도 포석 - www.dt.co.kr",
-        "source": "www.dt.co.kr",
+        "title": "리센느 10월 가수 브랜드평판 1위 등극 방탄소년단 임영웅 에이티즈 아이브 순 - 지피코리아",
+        "source": "지피코리아",
         "date": "2026-10-24",
-        "url": "https://www.dt.co.kr/article/12090937",
-        "summary": "삼성전자가 걸그룹 ‘리센느’와 손잡고 최신 폴더블폰 ‘갤럭시 Z 폴드8’의 대대적인 협업 캠페인에 돌입하며 그 배경에 관심이 쏠리고 있다. 이번 협업은 단순한 연예인 마케팅을 넘어, 갤럭시 시리즈의 해묵은 과제인 ‘젊은 층 및 여성 고객 확대’를 달성하고 경쟁사 애플과",
-        "image": "https://wimg.dt.co.kr/news/cms/2026/10/24/news-p.v1.20261024.dace2e3a40664ff6a12798c39f2b8d90_R.png"
+        "url": "https://www.gpkorea.com/news/articleView.html?idxno=147901",
+        "summary": "걸그룹 리센느(RESCENE)가 10월 가수 브랜드평판 1위를 차지하며 독보적인 대세 행보를 이어갔다.한국기업평판연구소는 지난 9월 24일부터 10월 24일까지 가수 브랜드 빅데이터 1억 2968만 8950개를 추출해 소비자들의 참여, 미디어, 소통, 커뮤니티 지수를 분석한 결과, 리센",
+        "image": "https://cdn.gpkorea.com/news/photo/202610/147901_314546_4357.jpg"
+    },
+    {
+        "title": "베일 벗은 리센느 새 앨범 면면…타이틀곡 '위드' 포함 5곡 - 이데일리",
+        "source": "이데일리",
+        "date": "2026-10-24",
+        "url": "https://www.edaily.co.kr/News/Read?newsId=01945046645616200&mediaCodeNo=257",
+        "summary": "컴백을 앞둔 걸그룹 리센느(RESCENE·원이, 리브, 미나미, 메이, 제나)가 새 앨범 트랙리스트를 공개했다. (사진=더뮤즈엔터테인먼트)(사진=더뮤즈엔터테인먼트)리센느는 23일 공식 사회관계망서비스(SNS) 채널에 4번째 미니앨범 ‘펄스’(PULSE) 트랙리스트 ...",
+        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/10/PS26102400339.jpg"
+    },
+    {
+        "title": "리센느, 5색 '두근거림' 품은 수호자…미니 4집 트랙리스트 공개 - 뉴스컬처",
+        "source": "뉴스컬처",
+        "date": "2026-10-24",
+        "url": "https://www.nc.press/news/articleView.html?idxno=629394",
+        "summary": "[뉴스컬처 박동선 기자] 그룹 리센느(RESCENE)가 신비로운 수호자의 날갯짓을 예고하며 새 앨범을 채울 5곡의 단단한 서사를 베일 벗었다.더뮤즈엔터테인먼트 측",
+        "image": "https://cdn.nc.press/news/photo/202610/629394_866530_71.jpg"
     },
     {
         "title": "리센느, BTS·임영웅 제쳤다…광고 문의 100건→10월 가수 브랜드평판 1위 - 마이데일리",
@@ -234,6 +234,14 @@ const NEWS_DATA = [
         "image": "https://pimg.mk.co.kr/news/cms/202610/24/news-p.v1.20261024.e230850d2ee74e83b3dda770fc021f51_R.png"
     },
     {
+        "title": "리센느, 순백의 비주얼 그리고 심장 박동 소리 - OSEN",
+        "source": "OSEN",
+        "date": "2026-10-23",
+        "url": "https://www.osen.co.kr/article/G1112897318",
+        "summary": "그룹 리센느(RESCENE)가 순백의 비주얼과 심장 박동 소리로 궁금증을 높였다. 리센느(원이, 리브, 미나미, 메이, 제나)가 지난 22일 오후 6시 공식 SNS를 통해...",
+        "image": "http://file.osen.co.kr/article_thumb/2026/10/23/202610231807779635_6adb25112ea35_300x.jpg"
+    },
+    {
         "title": "스키즈·아이브·엔하이픈·리센느·NCT WISH…'2026 SBS 가요대전' 1차 라인업 공개 - 싱글리스트",
         "source": "싱글리스트",
         "date": "2026-10-23",
@@ -250,14 +258,6 @@ const NEWS_DATA = [
         "image": "https://photo.jtbc.co.kr/news/jam_photo/202610/23/899f01aa-71a4-425b-98db-44fd5a213c99.jpg"
     },
     {
-        "title": "리센느, 순백의 수호자로 변신…‘PULSE’ 트레일러 공개 - YTN star",
-        "source": "YTN star",
-        "date": "2026-10-23",
-        "url": "https://star.ytn.co.kr/_sn/0117_202610230945301491",
-        "summary": "리센느(RESCENE)가 신비로운 수호자로 변신한 콘셉트 트레일러로 새 앨범의 분위기를 예고했다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 22일 오후 6시 공식 SNS에 미니 4집 ‘PULSE’(펄스)의 콘셉트 트레일러를 공개했다. 앞서 선보인 콘셉트 포토와 배경이 이어지는",
-        "image": "https://image.ytn.co.kr/general/jpg/2026/1023/202610230945301491_d.jpg"
-    },
-    {
         "title": "리센느, 미니 4집 ‘PULSE’ 트랙리스트 공개 - BNT뉴스",
         "source": "BNT뉴스",
         "date": "2026-10-23",
@@ -266,12 +266,12 @@ const NEWS_DATA = [
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/24/bnt202610240078.jpg"
     },
     {
-        "title": "리센느·방탄소년단·임영웅, 가수 평판 톱3 - BNT뉴스",
-        "source": "BNT뉴스",
+        "title": "리센느, 순백의 수호자로 변신…‘PULSE’ 트레일러 공개 - YTN star",
+        "source": "YTN star",
         "date": "2026-10-23",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202610240059",
-        "summary": "걸그룹 리센느가 10월 가수 브랜드평판 1위에 올랐다. 방탄소년단이 2위, 임영웅이 3위를 차지했다.24일 한국기업평판연구소에 따르면 2026년 10월 가수",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/24/bnt202610240093.jpg"
+        "url": "https://star.ytn.co.kr/_sn/0117_202610230945301491",
+        "summary": "리센느(RESCENE)가 신비로운 수호자로 변신한 콘셉트 트레일러로 새 앨범의 분위기를 예고했다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 22일 오후 6시 공식 SNS에 미니 4집 ‘PULSE’(펄스)의 콘셉트 트레일러를 공개했다. 앞서 선보인 콘셉트 포토와 배경이 이어지는",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1023/202610230945301491_d.jpg"
     },
     {
         "title": "리센느, 순백의 비주얼 그리고 심장 박동 소리 - 조선일보",
@@ -280,6 +280,14 @@ const NEWS_DATA = [
         "url": "https://www.chosun.com/entertainments/music/2026/10/23/ME3TKNRZG5TDGMJUGNTDSODEGI/",
         "summary": "그룹 리센느가 미니 4집 PULSE의 콘셉트 트레일러를 공개했습니다. 순백의 스타일링과 깃털 날개 장식으로 신비로운 수호자 분위기를 자아냈으며, 영상 말미에 심장 박동 소리를 배치해 앨범이 담고 있는 몽환적인 무드와 주제를 감각적으로 전달하며 컴백에 대한 팬들의 호기심을 자극하고 있습니",
         "image": "https://www.chosun.com/resizer/v2/GQYGMZBXGBSDIMJQMJSTENDFGE.jpg?auth=73d6b26d3c293992ce3606a20830d7fc8180506164a51bdf5ca82120bb1582b6&width=530&height=278&smart=true"
+    },
+    {
+        "title": "리센느·방탄소년단·임영웅, 가수 평판 톱3 - BNT뉴스",
+        "source": "BNT뉴스",
+        "date": "2026-10-23",
+        "url": "https://www.bntnews.co.kr/article/view/bnt202610240059",
+        "summary": "걸그룹 리센느가 10월 가수 브랜드평판 1위에 올랐다. 방탄소년단이 2위, 임영웅이 3위를 차지했다.24일 한국기업평판연구소에 따르면 2026년 10월 가수",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/24/bnt202610240093.jpg"
     },
     {
         "title": "1위 리센느, 2위 방탄소년단, 3위 임영웅 - 스타뉴스",
@@ -354,6 +362,22 @@ const NEWS_DATA = [
         "image": "https://img.tf.co.kr/article/home/2026/10/23/20263551792713869.jpg"
     },
     {
+        "title": "리센느 미나미, '1129 생일' 특별 이벤트 진행 - 더팩트",
+        "source": "더팩트",
+        "date": "2026-10-23",
+        "url": "https://news.tf.co.kr/stars/read/starwars/2380054.htm",
+        "summary": "지하철 전광판부터 버스 광고까지 풍성한 선물 준비아이돌 팬덤의 놀이터 팬앤스타에서 23일 리센느 멤버 미나미의 생일 프로젝트를 진행하고 있다. /팬앤스타 [더팩트 | 최주빈..",
+        "image": "https://img.tf.co.kr/article/stars/2026/10/23/202648791792732197.jpg"
+    },
+    {
+        "title": "\"1127\" 리센느 제나 생일 축하 위한 깜짝 이벤트 - 더팩트",
+        "source": "더팩트",
+        "date": "2026-10-23",
+        "url": "https://news.tf.co.kr/stars/read/starwars/2380053.htm",
+        "summary": "무지개별 많이 모일수록 여러 장소에 축하 광고 게시아이돌 팬덤의 놀이터 팬앤스타에서 23일 리센느 멤버 제나의 생일 프로젝트를 진행하고 있다. /팬앤스타 [더팩트 | 최주빈 ..",
+        "image": "https://img.tf.co.kr/article/stars/2026/10/23/202682431792732118.jpg"
+    },
+    {
         "title": "리센느 응원봉, 알고보니 위클리 응원봉 재활용? #리센느 #RESCENE - 스타뉴스",
         "source": "스타뉴스",
         "date": "2026-10-23",
@@ -368,6 +392,14 @@ const NEWS_DATA = [
         "url": "https://www.slist.kr/news/articleView.html?idxno=775989",
         "summary": "리센느(RESCENE)가 타이틀곡 ‘With’(위드)를 포함한 5곡을 담은 미니 4집 ‘PULSE’(펄스)로 컴백한다.리센느(원이·리브·미나미·메이·제나)는 10월 23일 오후 6시 공식 SNS에 새 앨범 트랙리스트를 공개했다. 앨범은 11월 3일 오후 6시 각종 음원 사이트에서 발매된",
         "image": "https://cdn.slist.kr/news/thumbnail/202610/775989_1186339_843_v150.jpg"
+    },
+    {
+        "title": "“신비로움 그 자체” 리센느, ‘PULSE’ 컴백 트레일러 공개 - 스포츠서울",
+        "source": "스포츠서울",
+        "date": "2026-10-23",
+        "url": "https://www.sportsseoul.com/news/read/1643492",
+        "summary": "[스포츠서울 | 박경호 기자] 그룹 리센느(RESCENE)가 새 앨범의 콘셉트 트레일러를 공개하고 컴백 열기를 끌어올렸다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 22일 오후 6시 공식 SNS를 통해 미니 4집 ‘PULSE’(펄스)의 콘셉트 트레일러를 선보였다. 공개된",
+        "image": "https://file.sportsseoul.com/news/cms/2026/10/23/news-p.v1.20261023.954d0627dd444ff99361e11a35d8e594_T1.jpg"
     },
     {
         "title": "김재환·리센느 미나미 '메리 베리 러브' OST로 시청자 설렘~UP - 스타뉴스",
@@ -426,14 +458,6 @@ const NEWS_DATA = [
         "image": "https://cdn.coxnews.co.kr/news/photo/202610/6491_9350_468.jpg"
     },
     {
-        "title": "핑클빵 잇는 ‘리센느 빵’, K팝과 식품업계의 ‘맛있는 콜라보’ - 스포츠동아",
-        "source": "스포츠동아",
-        "date": "2026-10-22",
-        "url": "https://sports.donga.com/ent/article/all/20261022/134881681/1",
-        "summary": "[스포츠동아 장은지 기자] 국진이 빵, 핑클 빵 등 반가운 ‘빵 수집 광풍’이 2026년 편의점 매대에서 재현되고 있다. 출시 한 달 만에 편의점 베이커리 역사를 새로 쓰고 있는 ‘리센느 빵’ 이야기다.20일 씨유(CU)를에 따르면 리센느와 협업해 출시한 빵 5종의 …",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/22/134882700.1.png"
-    },
-    {
         "title": "심장 뛰는 리센느, 비주얼 심쿵~♥ 미니 4집 'PULSE' 콘셉트 트레일러 공개 - 스타뉴스",
         "source": "스타뉴스",
         "date": "2026-10-22",
@@ -487,7 +511,7 @@ const NEWS_DATA = [
         "date": "2026-10-21",
         "url": "https://www.viva100.com/article/20261021500185",
         "summary": "그룹 리센느(RESCENE)가 신비로운 분위기의 콘셉트 포토를 선보이며 미니 4집 ‘PULSE(펄스)’를 통해 펼쳐낼 새로운 이야기에 기대감을 더했다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 20일 오후 6시 공식 SNS를 통해 미니 4집 ‘PULSE’의",
-        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/21/.cache/512/20261021500182.jpg?v=20261025125626"
+        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/21/.cache/512/20261021500182.jpg?v=20261025200036"
     },
     {
         "title": "리센느, 5세대 걸그룹 아우라 제대로 장착 - 스포츠동아",
@@ -504,22 +528,6 @@ const NEWS_DATA = [
         "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1014603",
         "summary": "리센느가 컴백을 앞두고 한층 물오른 비주얼을 과시하며 팬들에게 기대감을 주고 있다. 지난 20일 리센느는 SNS를 통해 11월 3일 오후 6시 발매되는 네번째 미니앨범 '펄스'(PULSE) 팀 및 개인 콘셉트 사진을 추가 공개했다.",
         "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202610/1014603_2031261_784.jpg"
-    },
-    {
-        "title": "“너는 내 심장을 뛰게 해”…리센느, 순백의 ‘수호자’로 컴백 - 스포츠동아",
-        "source": "스포츠동아",
-        "date": "2026-10-21",
-        "url": "https://sports.donga.com/ent/article/all/20261021/134879815/1",
-        "summary": "[스포츠동아 곽현수 기자] ‘러브어택’과 ‘프리티 걸’로 존재감을 다진 그룹 리센느가 신곡의 힘으로 상승세를 이어간다. 특유의 ‘향기 프레임’으로 독창성을 구축해 온 다섯 멤버가 이번에는 ‘심장 박동’을 키워드로 내세워 팬심 공략에 나선다.리센느는 11월 3일 미니 …",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/21/134879897.1.jpg"
-    },
-    {
-        "title": "리센느, 아이돌차트 아차랭킹 1위…컴백 앞두고 저력 과시 - TopStarNews",
-        "source": "TopStarNews",
-        "date": "2026-10-21",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16253725",
-        "summary": "리센느가 아이돌차트 10월 2주차 아차랭킹에서 총점 1만 8514점으로 1위를 기록했다. 음원·유튜브·소셜 지표에서 고른 성적을 보였으며, 내달 3일 발매될 미니 4집 ‘PULSE’를 앞두고 추가 콘셉트 포토를 공개하며 컴백 열기를 높이고 있다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202610/16253725_2062271_3749_crop.jpg"
     },
     {
         "title": "그룹 유어즈 \"리센느 선배 이어 '중소의 복권' 될래요\" - 연합뉴스",
@@ -562,14 +570,6 @@ const NEWS_DATA = [
         "image": "https://image.ytn.co.kr/general/jpg/2026/1020/202610200933270539_t.jpg"
     },
     {
-        "title": "리센느, 또 한번 심장 쿵! - 스포츠경향",
-        "source": "스포츠경향",
-        "date": "2026-10-20",
-        "url": "https://sports.khan.co.kr/article/202610210747003",
-        "summary": "이번엔 초월적인 비주얼로 팬들의 심장을 두드렸다. ‘국민 걸그룹’ 리센느(RESCENE)가 한층 물오른 비주얼로 또 한 번 팬심에 불을 지폈다. 지난 20일 오후 6시 리센느(원이, 리브, 미나미, 메이, 제나...",
-        "image": "https://images.khan.co.kr/article/2026/10/21/news-p.v1.20261021.617e8e400c5344ef8ba15b6618c387ad_P1.jpg"
-    },
-    {
         "title": "리센느, 눈부신 수호천사 비주얼 - 머니투데이 - 머니투데이",
         "source": "머니투데이",
         "date": "2026-10-20",
@@ -592,22 +592,6 @@ const NEWS_DATA = [
         "url": "https://www.etoday.co.kr/news/view/2638140",
         "summary": "▲(사진제공=더뮤즈엔터테인먼트)그룹 리센느(RESCENE)가 신비로운 비주얼을 자랑했다.20일 리센느는 공식 SNS를 통해 다음 달 3일 오후 6시 발매되는",
         "image": "https://img.etoday.co.kr/pto_db/2026/10/20261021082726_2404517_1000_679.jpg"
-    },
-    {
-        "title": "리센느 원이, 아이돌 개인 브랜드평판 1위…방탄소년단 지민 2위 - 핀포인트뉴스",
-        "source": "핀포인트뉴스",
-        "date": "2026-10-20",
-        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=497012",
-        "summary": "리센느 원이가 2026년 10월 아이돌 개인 브랜드평판 1위에 올랐다. 방탄소년단 지민이 2위, 리센느 제나가 3위를 차지했다. 아이브 장원영과 방탄소년단 정국도 각각 4위와 5위에 이름을 올렸다. 이번 조사에서는 상위권에 오른 리센느 멤버들과 방탄소년단 멤버들의 강세가 두드러졌다.한국",
-        "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/497012_482436_4813_v150.jpg"
-    },
-    {
-        "title": "리센느 원이, BTS 지민 제치고 아이돌 개인 브랜드평판 1위…제나도 3위 - 지피코리아",
-        "source": "지피코리아",
-        "date": "2026-10-20",
-        "url": "https://www.gpkorea.com/news/articleView.html?idxno=147774",
-        "summary": "리센느 원이가 2026년 10월 아이돌 개인 브랜드평판 1위를 차지했다. 같은 그룹 제나도 3위에 오르며 방탄소년단 지민과 아이브 장원영 등 쟁쟁한 아티스트 사이에서 존재감을 드러냈다.한국기업평판연구소가 21일 발표한 아이돌 개인 브랜드평판 빅데이터 분석 결과에 따르면 원이는 브랜드평판",
-        "image": "https://cdn.gpkorea.com/news/photo/202610/147774_314237_3518.jpg"
     },
     {
         "title": "'수호천사' 리센느?! 'PULSE' 콘셉트 포토에 '설렘 증폭’ - 전자신문",
@@ -736,12 +720,28 @@ const NEWS_DATA = [
         "image": "https://img.hankyung.com/photo/202610/03.42487434.1.jpg"
     },
     {
+        "title": "리센느, 신보 ‘펄스’ 스케줄러 공개…컴백 카운트다운 - JTBC",
+        "source": "JTBC",
+        "date": "2026-10-13",
+        "url": "https://news.jtbc.co.kr/article/NB12322664",
+        "summary": "리센느(RESCENE)가 신보 프로모션 스케줄러를 공개하며 컴백 카운트다운에 돌입했다. 소속사는 지난 12일 공식 SNS를 통해 11월 3일 ...",
+        "image": "https://photo.jtbc.co.kr/news/jam_photo/202610/13/79f6a31f-3deb-4dc2-aecf-327ddb21b6c5.jpg"
+    },
+    {
+        "title": "리센느, 8월·9월·10월에도 \"야호\"..걸그룹 브랜드 평판 '평정' - OSEN",
+        "source": "OSEN",
+        "date": "2026-10-11",
+        "url": "https://www.osen.co.kr/article/G1112891088",
+        "summary": "그룹 리센느(RESCENE)가 8월과 9월에 이어 10월에도 걸그룹 브랜드 평판 1위에 올랐다. 11일 한국기업평판연구소가 걸그룹 브랜드평판 빅데이터 분석을 위해 2026년...",
+        "image": "http://file.osen.co.kr/article_thumb/2026/10/11/202610110926774663_6acad8d82e647_300x.jpg"
+    },
+    {
         "title": "“러브 어택” 리센느 등장에 ‘2026 고스트 페스티벌’ 무대 열광 - 경기일보",
         "source": "경기일보",
         "date": "2026-10-11",
         "url": "https://www.kyeonggi.com/article/20261011580297",
         "summary": "‘중소돌의 기적’ 대세 걸그룹 리센느(원이, 미나미, 리브, 메이, 제나)가 파주 임진각 평화누리공원에서 펼쳐진 ‘2026 고스트(GHOST·경기 한류 OST) 페스티벌’ 마지막날인 11일 평화로운 가을날에 화려한 무대로 관객을 열광시켰다. 경기관광공사가 주최하고 경기",
-        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/11/.cache/512/20261011580299.jpg?v=20261025125633"
+        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/11/.cache/512/20261011580299.jpg?v=20261025200045"
     },
     {
         "title": "리센느, 부캉이, 김민의 공통점 - Vogue korea",
@@ -752,12 +752,19 @@ const NEWS_DATA = [
         "image": "https://www.vogue.co.kr/wp_data/vogue/2026/10/style_6ac89995a81a0-scaled-1920x1080.jpg?x=2223&y=1092&ver=1.1.60"
     },
     {
+        "title": "리센느 ‘SBS 8뉴스’ 출연한다…데뷔 후 첫 지상파 메인 뉴스 - 미디어오늘",
+        "source": "미디어오늘",
+        "date": "2026-10-09",
+        "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=337623",
+        "summary": "올해 최고의 대세 아이돌 그룹으로 꼽히는 그룹 리센느(RESCENE)가 오는 11일 ‘SBS 8뉴스’에 출연한다. 리센느가 지상파 메인 뉴스에 출연하는 것은 이번이 처음이다.SBS는 지난 8일 오후 리센느의 ‘8뉴스’ 출연 소식을 전했다. 원이, 리브, 미나미, 메이, 제나 등 리센느 ",
+        "image": "https://cdn.mediatoday.co.kr/news/thumbnail/202610/337623_484327_206_v150.jpg"
+    },
+    {
         "title": "“얘들아, 삼촌이 다 사줄게”…‘리센느 빵’ 60만개 쓸어간 30대 남성들 - 서울신문",
         "source": "서울신문",
         "date": "2026-10-05",
         "url": "https://www.seoul.co.kr/news/world/2026/10/05/20261005500033",
-        "summary": "CU가 선보인 리센느 협업 빵 5종이 출시 한 달여 만에 누적 60만개를 넘겼다. 구매자 중 남성이 69.1%로 여성보다 훨씬 많았고, 30대 남성이 22.7%로 가장 큰 비중을 차지했다. 포토카드 수집 수요도 판매를 끌어올렸다.",
-        "image": "https://img.seoul.co.kr//img/upload/2026/10/05/SSC_20261005105115_O2.png.webp"
+        "summary": ""
     },
     {
         "title": "\"원이야, 삼촌이 다 사줄게\"…60만개 '리센느 빵' 쓸어간 30대 男 - 아시아경제",
@@ -790,13 +797,5 @@ const NEWS_DATA = [
         "url": "https://www.yonhapnewstv.co.kr/news/AKR20261002121344I3Q",
         "summary": "역주행 흥행 신화를 쓰며 ’중소돌의 기적’으로 불리는 걸그룹 리센느가 팬들을 대상으로 한 고가 선물 요구 논란에 휩싸였습니다. 리센느 소속사 더뮤즈엔터테인먼트는 오는 11일 멤버 리브의 생일을 앞두고 지난달 말 공식 채널을 통해 선물 관련 공지를 게시했습니다. 안내문에",
         "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261002/AKR20261002121344I3Q_01_i.jpg"
-    },
-    {
-        "title": "리센느, 미니 4집 나온다 - 소년한국일보",
-        "source": "소년한국일보",
-        "date": "2026-09-28",
-        "url": "https://www.kidshankook.kr/news/articleView.html?idxno=18362",
-        "summary": "그룹 리센느가 11월 3일 미니 4집 ‘펄스’(PULSE)를 발매한다.27일 소속사 더뮤즈엔터테인먼트에 따르면 리센느가 신곡을 내는 것은 올해 7월 리메이크 싱글 ‘프리티 걸’이후 4개월 만이다. 실물 앨범으로는 지난해 11월 미니 3집 이후 1년 만이다.앨범마다 ‘풀 향’과 ‘베리 향",
-        "image": "https://cdn.kidshankook.kr/news/thumbnail/202609/18362_45902_242_v150.jpg"
     }
 ];
