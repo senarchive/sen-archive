@@ -1,4 +1,4 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-26T12:33:17.171Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-26T22:27:53.059Z) */
 
 const NEWS_DATA = [
     {
@@ -9,14 +9,6 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
-        "title": "‘거제야호’ 리센느, ‘연예인 1호’ 거제 명예시민 됐다 - 동아일보",
-        "source": "동아일보",
-        "date": "2026-10-26",
-        "url": "https://www.donga.com/news/Society/article/all/20261026/134908160/1",
-        "summary": "경남 거제시는 걸그룹 리센느(RESCENE)에 2026년 명예시민증을 수여했다고 26일 밝혔다.리센느는 제70호 거제시 명예시민으로 선정됐다.연예인이 거제시 명예시민증을 받은 것은 이번이 처음이다. 시는 리센느가 ‘거제야호’ 밈(Meme)과 거제 여행 유튜브 콘텐츠 …",
-        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/26/134908161.1.jpg"
-    },
-    {
         "title": "“팬들만 비 맞을 수 없죠“…리센느, 천막 걷고 팬들과 ’흠뻑’ - 연합뉴스TV",
         "source": "연합뉴스TV",
         "date": "2026-10-26",
@@ -25,12 +17,12 @@ const NEWS_DATA = [
         "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261026/AKR20261026112818RlQ_02_i.jpg"
     },
     {
-        "title": "리센느, 컴백 앞두고 기쁜 소식 전했다...‘K탑스타’ 최고의 루키 등극 - 매일경제",
-        "source": "매일경제",
+        "title": "“우리도 같이 맞을게요”… 비보다 진했던 리센느의 팬사랑 - 이데일리",
+        "source": "이데일리",
         "date": "2026-10-26",
-        "url": "https://www.mk.co.kr/news/entertain/12185532",
-        "summary": "그룹 리센느가 컴백을 앞두고 기분 좋은 소식을 전했다. K-POP의 현 상황을 알려주는 글로벌 K팝 투표사이트 ‘K탑스타’(KTOPSTAR)에 따르면 10월 19일부터 10월 25일까지 집계된 120회차 ‘최고의 루키(여)’ 부문에서 리센느가 1위에 등극했다. ‘대세 걸그룹’으로 등극한",
-        "image": "https://pimg.mk.co.kr/news/cms/202610/26/news-p.v1.20261026.166ba3bb73b045e0a6a840b678dc25c7_R.png"
+        "url": "https://www.edaily.co.kr/News/Read?newsId=05812166645616856&mediaCodeNo=257",
+        "summary": "팬들의 사랑을 기억하는 방법은 저마다 다르다. 누군가는 말로 감사를 전하고, 누군가는 무대 위에서 더 좋은 공연으로 보답한다. 그룹 리센느(RESCENE)는 조금 특별한 선택을 했다. 자신들을 보기 위해 비를 맞으며 기다린 팬들 앞에서 천막을 걷어낸 것이다. 비를 피...",
+        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/10/PS26102700238.jpg"
     },
     {
         "title": "“팬들 비 맞는데 우리만 어떻게”…리센느, 무대 천막 치우고 팬들과 빗속 무대 - 스포츠서울",
@@ -41,28 +33,76 @@ const NEWS_DATA = [
         "image": "https://file.sportsseoul.com/news/cms/2026/10/26/news-p.v1.20261026.bbc51eb907804d8a90e6baac263ff5b8_T1.png"
     },
     {
-        "title": "'거제 야호' 리센느에 거제 명예시민증…\"애정으로 지역 홍보\" - 연합뉴스",
-        "source": "연합뉴스",
+        "title": "‘거제 야호! 국민 걸그룹 리센느, 연예인 최초 거제시 명예시민됐다. - 국제신문",
+        "source": "국제신문",
         "date": "2026-10-26",
-        "url": "https://www.yna.co.kr/view/AKR20261026092800052",
-        "summary": "(거제=연합뉴스) 정종호 기자 = 경남 거제시는 시 홍보대사인 걸그룹 리센느에게 명예시민증을 수여했다고 26일 밝혔다.",
-        "image": "https://img2.yna.co.kr/etc/inner/KR/2026/10/26/AKR20261026092800052_01_i_P4.jpg"
+        "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261026.99099007350",
+        "summary": "������ ��ȣ!�� ��ǳ�� Ÿ�� ������ �ɱ׷졯���� ������ ������(RESCENE)�� �泲 ������ �����ù����� ���˵ƴ�. ���������� ������ �����ù����� �����ϱ�� ����..",
+        "image": "https://db.kookje.co.kr/news2000/photo/2026/1026/L20261026.99099007350i1.jpg?17"
     },
     {
-        "title": "‘거제 야호!’ 리센느, 연예인 첫 거제시 명예시민 - 경남도민일보",
-        "source": "경남도민일보",
+        "title": "리센느·에이티즈→성리, 라이징 가수 브랜드평판 '톱5' - 싱글리스트",
+        "source": "싱글리스트",
         "date": "2026-10-26",
-        "url": "https://www.idomin.com/news/articleView.html?idxno=2017871",
-        "summary": "‘거제 야호!’로 거제시를 전국에 알린 걸그룹 리센느(RESCENE)가 명예시민증을 받았다.리센느는 70호 거제시 명예시민으로, 연예인으로서는 처음이다. 앞서 ‘",
-        "image": "https://cdn.idomin.com/news/photo/202610/2017871_728750_4007.png"
+        "url": "https://www.slist.kr/news/articleView.html?idxno=776556",
+        "summary": "걸그룹 리센느가 라이징 가수 브랜드평판 10월 빅데이터 분석 결과, 1위를 차지했다. 에이티즈, 김용빈, 코르티스, 성리가 뒤를 이었다.한국기업평판연구소는 9월 27일부터 10월 27일까지 측정한 라이징 가수 브랜드 빅데이터 89,224,754개를 소비자 행동분석을 통해 라이징 가수 브",
+        "image": "https://cdn.slist.kr/news/thumbnail/202610/776556_1187129_19_v150.jpg"
     },
     {
-        "title": "리센느, 거제 홍보대사 넘어 명예시민으로…지역 사랑 빛났다 - YTN",
-        "source": "YTN",
+        "title": "리센느, 컴백 앞두고 기쁜 소식 전했다...‘K탑스타’ 최고의 루키 등극 - 매일경제",
+        "source": "매일경제",
         "date": "2026-10-26",
-        "url": "https://www.ytn.co.kr/_ln/0117_202610261135552314",
-        "summary": "걸그룹 리센느(RESCENE)가 경남 거제시 사상 최초의 연예인 명예시민이 됐다. 지역 홍보대사로 활약하며 거제의 이름을 널리 알린 데 이어 특별한 영예까지 안으며 지역과 맺은 인연을 빛냈다. 거제시는 지난 24일 한화리조트 거제 벨버디어에서 리센느에게 명예시민증을 수여했다고 26일 밝",
-        "image": "https://image.ytn.co.kr/general/jpg/2026/1026/202610261135552314_t.jpg"
+        "url": "https://www.mk.co.kr/news/entertain/12185532",
+        "summary": "그룹 리센느가 컴백을 앞두고 기분 좋은 소식을 전했다. K-POP의 현 상황을 알려주는 글로벌 K팝 투표사이트 ‘K탑스타’(KTOPSTAR)에 따르면 10월 19일부터 10월 25일까지 집계된 120회차 ‘최고의 루키(여)’ 부문에서 리센느가 1위에 등극했다. ‘대세 걸그룹’으로 등극한",
+        "image": "https://pimg.mk.co.kr/news/cms/202610/26/news-p.v1.20261026.166ba3bb73b045e0a6a840b678dc25c7_R.png"
+    },
+    {
+        "title": "‘가요무대’ 가수 박상철, 리센느 제나發 역주행 ‘빵빵’ 열창 ‘눈길’ - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-10-26",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16257543",
+        "summary": "가수 박상철이 KBS1 '가요무대'에서 리센느 제나의 역주행 곡 '빵빵'을 열창하며 시청자들의 이목을 끌었다. 10월 신청곡 편에서는 이용, 김무진 등 다양한 아티스트들이 감성적인 무대를 선보였다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202610/16257543_2066487_957_crop.jpg"
+    },
+    {
+        "title": "거제시, 걸그룹 리센느 '제1호 명예시민증' 수여 - 경남매일",
+        "source": "경남매일",
+        "date": "2026-10-26",
+        "url": "https://www.gnmaeil.com/news/articleView.html?idxno=597391",
+        "summary": "거제시는 걸그룹 리센느(RESCENE) 멤버 '원이, 미나미, 제나, 리브, 메이' 5명의 가수에게 2026년 명예시민증을 수여(사진)했다.24일 자로 제70호 거제시 명예시민이 된 리센느는 연예인으로서는 제1호 명예시민증 소지자다. 리더 원이가 거제시 출신인 리센느는 '거제 야호!' ",
+        "image": "http://www.gnmaeil.com/news/thumbnail/202610/597391_599118_5959_v150.jpg"
+    },
+    {
+        "title": "1위 리센느, 2위 에이티즈, 3위 김용빈 - 스타뉴스",
+        "source": "스타뉴스",
+        "date": "2026-10-26",
+        "url": "https://www.starnewskorea.com/music/2026/10/27/2026102707045560330",
+        "summary": "그룹 리센느(RESCENE)가 10월 라이징 가수 브랜드평판 1위에 오르며 '대세' 인기를 이어갔다. 한국기업평판연구소는 10월 라이징 가수 브랜드평판에서 리센느를 1위로 분석했다. 리센느의 브랜드평판지수는 675만110으로 지난달보다 17.29% 하락했다. 분석 대상 빅데이터는 9월 ",
+        "image": "https://image.starnewskorea.com/21/2026/10/2026102707045560330_1.jpg"
+    },
+    {
+        "title": "리센느, 역주행 이후 첫 정식 컴백…'PULSE' 하이라이트 메들리 반응 보니 - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-10-26",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16258809",
+        "summary": "리센느가 역주행 이후 첫 정식 앨범 컴백을 앞두고 미니 4집 'PULSE' 하이라이트 메들리를 공개했다. 영상은 공개 8시간 만에 86만 조회수를 기록하며 관심을 모았다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202610/16258809_2067901_5048_crop.jpeg"
+    },
+    {
+        "title": "리센느, 라이징 가수 1위…에이티즈 2위 - BNT뉴스",
+        "source": "BNT뉴스",
+        "date": "2026-10-26",
+        "url": "https://www.bntnews.co.kr/article/view/bnt202610270011",
+        "summary": "걸그룹 리센느가 10월 라이징 가수 브랜드평판 1위에 올랐다. 에이티즈와 김용빈이 뒤를 이었다.한국기업평판연구소는 27일 라이징 가수 브랜드평판 빅",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/27/bnt202610270015.jpg"
+    },
+    {
+        "title": "‘거제 야호’ 리센느, 거제 명예시민 됐다 - 경향신문",
+        "source": "경향신문",
+        "date": "2026-10-26",
+        "url": "https://www.khan.co.kr/article/202610262019045",
+        "summary": "경남 거제시는 시 홍보대사인 걸그룹 리센느(사진)에게 명예시민증을 수여했다고 26일 밝혔다. 지난 24일 한화리조트 거제 벨버디어에서 연예인으로서는 처음 명예시민증을 받은 리센느는 제70호 거제시 명예시민으로 이름을 올렸다. 거제시는 리센느가 꾸준한 홍보 활동을 하면서 시민 자긍심을 높",
+        "image": "https://img.khan.co.kr/news/2026/10/26/l_2026102701000768700075131.jpg"
     },
     {
         "title": "'거제 야호' 터트린 걸그룹 ‘리센느’에 거제시 명예시민증 수여 - 경남일보",
@@ -73,12 +113,19 @@ const NEWS_DATA = [
         "image": "https://cdn.gnnews.co.kr/news/photo/202610/648186_448551_5445.jpg"
     },
     {
-        "title": "‘거제 야호! 국민 걸그룹 리센느, 연예인 최초 거제시 명예시민됐다. - 국제신문",
-        "source": "국제신문",
+        "title": "걸그룹 ‘리센느’ 거제시 명예시민에 - 동아일보",
+        "source": "동아일보",
         "date": "2026-10-26",
-        "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261026.99099007350",
-        "summary": "������ ��ȣ!�� ��ǳ�� Ÿ�� ������ �ɱ׷졯���� ������ ������(RESCENE)�� �泲 ������ �����ù����� ���˵ƴ�. ���������� ������ �����ù����� �����ϱ�� ����..",
-        "image": "https://db.kookje.co.kr/news2000/photo/2026/1026/L20261026.99099007350i1.jpg?47"
+        "url": "https://www.donga.com/news/amp/all/20261027/134913542/2",
+        "summary": "경남 거제시는 올해 5월부터 시 홍보대사로 활동하고 있는 걸그룹 리센느에게 명예시민증을 수여했다고 26일 밝혔다. 연예인이 거제시 명예시민이 된 것은 이번이 처음이다. 거제는 리센느 멤버 원이의 고향이자, 그룹을 대중에게 알린 밈(Meme·온라인 유행 콘텐츠) &lsquo…"
+    },
+    {
+        "title": "리센느, 거제 홍보대사 넘어 명예시민으로…지역 사랑 빛났다 - YTN",
+        "source": "YTN",
+        "date": "2026-10-26",
+        "url": "https://www.ytn.co.kr/_ln/0117_202610261135552314",
+        "summary": "걸그룹 리센느(RESCENE)가 경남 거제시 사상 최초의 연예인 명예시민이 됐다. 지역 홍보대사로 활약하며 거제의 이름을 널리 알린 데 이어 특별한 영예까지 안으며 지역과 맺은 인연을 빛냈다. 거제시는 지난 24일 한화리조트 거제 벨버디어에서 리센느에게 명예시민증을 수여했다고 26일 밝",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1026/202610261135552314_t.jpg"
     },
     {
         "title": "‘거제 야호’ 리센느, 거제 명예시민 됐다 - 경남신문",
@@ -89,36 +136,28 @@ const NEWS_DATA = [
         "image": "https://cdn.knnews.co.kr/edbthumbnail/2026/10/1553662_520_images.jpg"
     },
     {
-        "title": "“거제 야호!” 리센느, ‘명예 거제시민’ 됐다…연예인으론 처음 - 한겨레",
-        "source": "한겨레",
+        "title": "리센느, 10월 라이징 가수 브랜드평판 1위…에이티즈·김용빈 順 - 핀포인트뉴스",
+        "source": "핀포인트뉴스",
         "date": "2026-10-26",
-        "url": "https://www.hani.co.kr/arti/area/yeongnam/1284236.html",
-        "summary": "“거제 야호!”라는 추임새로 큰 관심을 끈 걸그룹 리센느가 경남 거제시 명예시민이 됐다. 연예인이 거제시 명예시민이 된 것은 처음이다. 거제시는 26일 “리센느에게 제70호 거제시 명예시민증을 수여했다”고 밝혔다. 앞서 지난달 9일 거제시의회는 제265회 임시회 2차",
-        "image": "https://flexible.img.hani.co.kr/flexible/normal/950/633/imgdb/original/2026/1026/20261026503034.webp"
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498647",
+        "summary": "그룹 리센느가 10월 라이징 가수 브랜드평판 1위에 올랐다. 그룹 에이티즈가 2위, 트로트 가수 김용빈이 3위를 차지했다. 라이징 가수 브랜드 전반의 빅데이터 규모는 전월보다 감소했지만, 상위권에서는 그룹과 트로트 가수들이 나란히 이름을 올리며 서로 다른 팬층의 관심을 끌었다.27일 한",
+        "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/498647_483975_4727_v150.jpg"
     },
     {
-        "title": "거제시, 걸그룹 리센느에 명예시민증 수여…거제 알리기 공로 - 거제신문",
-        "source": "거제신문",
+        "title": "‘거제 야호!’ 리센느, 연예인 첫 거제시 명예시민 - 경남도민일보",
+        "source": "경남도민일보",
         "date": "2026-10-26",
-        "url": "https://www.geojenews.co.kr/news/articleView.html?idxno=97373",
-        "summary": "거제시가 걸그룹 리센느(RESCENE)에 명예시민증을 전달하고 거제의 매력을 알리는 데 힘을 보탠 데 대해 감사의 뜻을 전했다.시는 지난 24일 한화리조트 거제 벨버디어에서 리센느에게 2026년 거제시 명예시민증을 수여했다고 밝혔다.리센느는 거제시 명예시민 제70호로 이름을 올렸다. 연",
-        "image": "https://cdn.geojenews.co.kr/news/thumbnail/202610/97373_93629_1815_v150.jpg"
+        "url": "https://www.idomin.com/news/articleView.html?idxno=2017871",
+        "summary": "‘거제 야호!’로 거제시를 전국에 알린 걸그룹 리센느(RESCENE)가 명예시민증을 받았다.리센느는 70호 거제시 명예시민으로, 연예인으로서는 처음이다. 앞서 ‘",
+        "image": "https://cdn.idomin.com/news/photo/202610/2017871_728750_4007.png"
     },
     {
-        "title": "리센느, 팬들 비 맞자 천막 걷고 빗속 공연 - BNT뉴스",
-        "source": "BNT뉴스",
+        "title": "'거제 야호' 리센느에 거제 명예시민증…\"애정으로 지역 홍보\" - 연합뉴스",
+        "source": "연합뉴스",
         "date": "2026-10-26",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202610260278",
-        "summary": "그룹 리센느가 팬들과 같은 비를 맞으며 무대에 올라 특별한 순간을 만들었다.리센느는 지난 24일 경남 거제시 옥포 한화오션 오션플라자 사외주차장",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/26/bnt202610260534.jpg"
-    },
-    {
-        "title": "리센느 '까엉이' 거제 명예시민 됐다... 리브·메이·미나미도 \"야호!\" - 경남뉴스",
-        "source": "경남뉴스",
-        "date": "2026-10-26",
-        "url": "https://www.gnnews24.kr/news/articleView.html?idxno=34787",
-        "summary": "[경남뉴스 | 류광현 기자] 거제시가 지난 24일 한화리조티 거제 벨버디어에서 걸그룹 리센느(RESCENE)에 2026년 명예시민증을 수여했다고 26일 밝혔다.제70호 거제시 명예시민이 된 리센느는 연예인 최초로 명예시민증을 받게 됐다.'거제 야호!' 밈으로 거제를 널리 알린 공로로",
-        "image": "https://cdn.gnnews24.kr/news/thumbnail/202610/34787_61104_4734_v150.jpg"
+        "url": "https://www.yna.co.kr/view/AKR20261026092800052",
+        "summary": "(거제=연합뉴스) 정종호 기자 = 경남 거제시는 시 홍보대사인 걸그룹 리센느에게 명예시민증을 수여했다고 26일 밝혔다.",
+        "image": "https://img2.yna.co.kr/etc/inner/KR/2026/10/26/AKR20261026092800052_01_i_P4.jpg"
     },
     {
         "title": "거제시, ‘거제 야호’ 리센느에 명예시민증 수여 - 경향신문",
@@ -137,12 +176,36 @@ const NEWS_DATA = [
         "image": "https://img.hankyung.com/photo/202610/01.46195508.1.jpg"
     },
     {
-        "title": "‘거제 야호!’ 알린 리센느, 연예인 최초 거제 명예시민 - 경남미디어",
-        "source": "경남미디어",
+        "title": "“거제 야호!” 리센느, ‘명예 거제시민’ 됐다…연예인으론 처음 - 한겨레",
+        "source": "한겨레",
         "date": "2026-10-26",
-        "url": "https://www.mediagn.co.kr/news/articleView.html?idxno=30644",
-        "summary": "거제시는 ‘거제 야호!’ 밈과 홍보대사 활동으로 지역을 알려 온 걸그룹 리센느(RESCENE)에 24일 연예인 최초로 거제시 명예시민증을 수여했다.리센느는 제70",
-        "image": "https://cdn.mediagn.co.kr/news/photo/202610/30644_40666_332.jpg"
+        "url": "https://www.hani.co.kr/arti/area/yeongnam/1284236.html",
+        "summary": "“거제 야호!”라는 추임새로 큰 관심을 끈 걸그룹 리센느가 경남 거제시 명예시민이 됐다. 연예인이 거제시 명예시민이 된 것은 처음이다. 거제시는 26일 “리센느에게 제70호 거제시 명예시민증을 수여했다”고 밝혔다. 앞서 지난달 9일 거제시의회는 제265회 임시회 2차",
+        "image": "https://flexible.img.hani.co.kr/flexible/normal/950/633/imgdb/original/2026/1026/20261026503034.webp"
+    },
+    {
+        "title": "리센느 '까엉이' 거제 명예시민 됐다... 리브·메이·미나미도 \"야호!\" - 경남뉴스",
+        "source": "경남뉴스",
+        "date": "2026-10-26",
+        "url": "https://www.gnnews24.kr/news/articleView.html?idxno=34787",
+        "summary": "[경남뉴스 | 류광현 기자] 거제시가 지난 24일 한화리조티 거제 벨버디어에서 걸그룹 리센느(RESCENE)에 2026년 명예시민증을 수여했다고 26일 밝혔다.제70호 거제시 명예시민이 된 리센느는 연예인 최초로 명예시민증을 받게 됐다.'거제 야호!' 밈으로 거제를 널리 알린 공로로",
+        "image": "https://cdn.gnnews24.kr/news/thumbnail/202610/34787_61104_4734_v150.jpg"
+    },
+    {
+        "title": "리센느, 팬들 비 맞자 천막 걷고 빗속 공연 - BNT뉴스",
+        "source": "BNT뉴스",
+        "date": "2026-10-26",
+        "url": "https://www.bntnews.co.kr/article/view/bnt202610260278",
+        "summary": "그룹 리센느가 팬들과 같은 비를 맞으며 무대에 올라 특별한 순간을 만들었다.리센느는 지난 24일 경남 거제시 옥포 한화오션 오션플라자 사외주차장",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/26/bnt202610260534.jpg"
+    },
+    {
+        "title": "거제시, 걸그룹 리센느에 명예시민증 수여…거제 알리기 공로 - 거제신문",
+        "source": "거제신문",
+        "date": "2026-10-26",
+        "url": "https://www.geojenews.co.kr/news/articleView.html?idxno=97373",
+        "summary": "거제시가 걸그룹 리센느(RESCENE)에 명예시민증을 전달하고 거제의 매력을 알리는 데 힘을 보탠 데 대해 감사의 뜻을 전했다.시는 지난 24일 한화리조트 거제 벨버디어에서 리센느에게 2026년 거제시 명예시민증을 수여했다고 밝혔다.리센느는 거제시 명예시민 제70호로 이름을 올렸다. 연",
+        "image": "https://cdn.geojenews.co.kr/news/thumbnail/202610/97373_93629_1815_v150.jpg"
     },
     {
         "title": "“거제 야호” 리센느, 거제 첫 연예인 명예시민 됐다 - 부산일보",
@@ -151,6 +214,14 @@ const NEWS_DATA = [
         "url": "https://mobile.busan.com/view/election/view.php?code=2026102615042726866",
         "summary": "거제시는 지난 24일 한화리조트 거제 벨버디어에서 리센느 명예시민증 수여식을 열었다. 거제시 제공 걸그룹 ‘리센느’(RESCENE)...",
         "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/10/26/2026102615041399945_l.jpg"
+    },
+    {
+        "title": "\"연예인 최초\"…'거제 야호' 리센느, 거제시 명예시민 됐다 - SPOTV NEWS",
+        "source": "SPOTV NEWS",
+        "date": "2026-10-26",
+        "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1015353",
+        "summary": "그룹 리센느가 연예인 최초로 거제시 명예시민으로 위촉됐다. 경남 거제시는 지난 24일 한화리조트 거제 벨버디어에서 시 홍보대사인 리센느(원이, 미나미, 제나, 리브, 메이)에게 2026 명예시민증을 수여했다고 26일 밝혔다.",
+        "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202610/1015353_2033067_314.jpg"
     },
     {
         "title": "리센느, 거제 명예시민 선정…\"연예인 최초, 시민증 받았다\" - 디스패치",
@@ -177,20 +248,12 @@ const NEWS_DATA = [
         "image": "https://www.breaknews.com/imgdata/breaknews_com/202610/2026102158431310.jpg"
     },
     {
-        "title": "\"연예인 최초\"…'거제 야호' 리센느, 거제시 명예시민 됐다 - SPOTV NEWS",
-        "source": "SPOTV NEWS",
+        "title": "‘거제 야호!’ 알린 리센느, 연예인 최초 거제 명예시민 - 경남미디어",
+        "source": "경남미디어",
         "date": "2026-10-26",
-        "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1015353",
-        "summary": "그룹 리센느가 연예인 최초로 거제시 명예시민으로 위촉됐다. 경남 거제시는 지난 24일 한화리조트 거제 벨버디어에서 시 홍보대사인 리센느(원이, 미나미, 제나, 리브, 메이)에게 2026 명예시민증을 수여했다고 26일 밝혔다.",
-        "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202610/1015353_2033067_314.jpg"
-    },
-    {
-        "title": "\"거제 야호!\"열풍...리센느 연예인 최초\"거제시 명예시민\" - 한스경제",
-        "source": "한스경제",
-        "date": "2026-10-26",
-        "url": "https://www.hansbiz.co.kr/news/articleView.html?idxno=876314",
-        "summary": "| 거제=한스경제 이화랑 기자 | 리센느가 거제시 명예시민으로 선정되었다.거제시는 24일 한화리조트 거제 벨버디어에서 걸그룹 리센느(RESCENE)에게 명예시민증을 수여했다.리센느는 제70호 거제시 명예시민이 됐으며, 연예인으로서 명예시민증을 받은 것은 이번이 처음이다.리센느는 ‘거제 ",
-        "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/876314_901530_3454_v150.jpg"
+        "url": "https://www.mediagn.co.kr/news/articleView.html?idxno=30644",
+        "summary": "거제시는 ‘거제 야호!’ 밈과 홍보대사 활동으로 지역을 알려 온 걸그룹 리센느(RESCENE)에 24일 연예인 최초로 거제시 명예시민증을 수여했다.리센느는 제70",
+        "image": "https://cdn.mediagn.co.kr/news/photo/202610/30644_40666_332.jpg"
     },
     {
         "title": "리센느 무대 고척돔서 직접 본다…웨이브, MMA2026 직관 티켓 120장 응모 이벤트 - 콕스뉴스",
@@ -201,12 +264,12 @@ const NEWS_DATA = [
         "image": "https://cdn.coxnews.co.kr/news/photo/202610/6516_9381_4855.jpg"
     },
     {
-        "title": "걸그룹 리센느, 거제시 첫 연예인 명예시민 됐다 - 브레이크뉴스",
-        "source": "브레이크뉴스",
+        "title": "\"거제 야호!\"열풍...리센느 연예인 최초\"거제시 명예시민\" - 한스경제",
+        "source": "한스경제",
         "date": "2026-10-26",
-        "url": "http://breaknews.com/1245584",
-        "summary": "걸그룹 리센느, 거제시 첫 연예인 명예시민 됐다[브레이크뉴스=황민성 기자] 걸그룹 리센느(RESCENE)가 ‘거제 야호!’ 밈 확산과 지역 홍보 활동 공로를",
-        "image": "https://www.breaknewsgn.com/imgdata/breaknewsgn_com/202610/2026102656523021.jpg"
+        "url": "https://www.hansbiz.co.kr/news/articleView.html?idxno=876314",
+        "summary": "| 거제=한스경제 이화랑 기자 | 리센느가 거제시 명예시민으로 선정되었다.거제시는 24일 한화리조트 거제 벨버디어에서 걸그룹 리센느(RESCENE)에게 명예시민증을 수여했다.리센느는 제70호 거제시 명예시민이 됐으며, 연예인으로서 명예시민증을 받은 것은 이번이 처음이다.리센느는 ‘거제 ",
+        "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/876314_901530_3454_v150.jpg"
     },
     {
         "title": "밈 하나로 거제 알리더니…리센느, 연예인 최초 명예시민 됐다 - 매일경제",
@@ -217,6 +280,14 @@ const NEWS_DATA = [
         "image": "https://pimg.mk.co.kr/news/cms/202610/26/news-p.v1.20261026.df7a828c1c884198b3a6b3fb8dfa756e_R.jpg"
     },
     {
+        "title": "걸그룹 리센느, 거제시 첫 연예인 명예시민 됐다 - 브레이크뉴스",
+        "source": "브레이크뉴스",
+        "date": "2026-10-26",
+        "url": "http://breaknews.com/1245584",
+        "summary": "걸그룹 리센느, 거제시 첫 연예인 명예시민 됐다[브레이크뉴스=황민성 기자] 걸그룹 리센느(RESCENE)가 ‘거제 야호!’ 밈 확산과 지역 홍보 활동 공로를",
+        "image": "https://www.breaknewsgn.com/imgdata/breaknewsgn_com/202610/2026102656523021.jpg"
+    },
+    {
         "title": "“거제 야호!” 외치던 리센느, 이제 ‘명예 거제시민’ 됐다 - 거제타임즈",
         "source": "거제타임즈",
         "date": "2026-10-26",
@@ -225,12 +296,12 @@ const NEWS_DATA = [
         "image": "https://cdn.geojetimes.co.kr/news/photo/202610/205752_207779_1851.jpg"
     },
     {
-        "title": "리센느, 연예인 최초 거제시 명예시민증 수상…관광 홍보 공로 인정 - 거제저널",
-        "source": "거제저널",
+        "title": "거제시, 걸그룹 '리센느' 명예시민증…\"거제 야호! 열풍 공로\" - 뉴시스",
+        "source": "뉴시스",
         "date": "2026-10-26",
-        "url": "https://www.geojejournal.co.kr/news/articleView.html?idxno=208590",
-        "summary": "거제시는 24일 한화리조티 거제 벨버디어에서 걸그룹 리센느(RESCENE)에 2026년 명예시민증을 전달했다고 26일 밝혔다.리센느는 연예인 최초로 제70호 거제",
-        "image": "https://cdn.geojejournal.co.kr/news/photo/202610/208590_113642_4558.jpg"
+        "url": "https://www.newsis.com/view/NISX20261026_0003840875",
+        "summary": "[거제=뉴시스] 신정철 기자 = '거제 야호!’ 열풍에서 전국에 경남 거제의 매력을 알린 '걸그룹 리센느'가 거제시 명예시민이 됐다.거제시는 지난 24일 한화리조티 거제 벨버디어에서 걸그룹 리센느(RESCENE)에 2026년 명예시민증을 수여했다.26일, 거제시에 따르면 '걸그룹 리센느",
+        "image": "https://img1.newsis.com/2026/10/26/NISI20261026_0002273760_web.jpg"
     },
     {
         "title": "‘거제 야호’ 리센느, 거제시 명예시민 됐다...연예인 최초 - 일간스포츠",
@@ -241,6 +312,14 @@ const NEWS_DATA = [
         "image": "https://isplus.com/data/isp/image/2026/10/26/isp20261026000292.800x.0.jpg"
     },
     {
+        "title": "리센느, 연예인 최초 거제시 명예시민증 수상…관광 홍보 공로 인정 - 거제저널",
+        "source": "거제저널",
+        "date": "2026-10-26",
+        "url": "https://www.geojejournal.co.kr/news/articleView.html?idxno=208590",
+        "summary": "거제시는 24일 한화리조티 거제 벨버디어에서 걸그룹 리센느(RESCENE)에 2026년 명예시민증을 전달했다고 26일 밝혔다.리센느는 연예인 최초로 제70호 거제",
+        "image": "https://cdn.geojejournal.co.kr/news/photo/202610/208590_113642_4558.jpg"
+    },
+    {
         "title": "거제시, 걸그룹 리센느에 명예시민증 수여 - 통영광장",
         "source": "통영광장",
         "date": "2026-10-26",
@@ -249,20 +328,12 @@ const NEWS_DATA = [
         "image": "https://cdn.tyib.kr/news/photo/202610/12717_18581_2557.jpg"
     },
     {
-        "title": "거제시, 걸그룹 리센느에 2026년 명예시민증 수여 - 새거제신문",
-        "source": "새거제신문",
+        "title": "리센느, 거제 빗속 공연에 팬들 감동…“관객과 함께 비 맞겠다” 뜨거운 반응 - CBC뉴스",
+        "source": "CBC뉴스",
         "date": "2026-10-26",
-        "url": "https://www.saegeoje.com/news/articleView.html?idxno=309997",
-        "summary": "거제시는 24일 한화리조티 거제 벨버디어에서 걸그룹 리센느(RESCENE)에 2026년 명예시민증을 수여했다.리센느는 제70호 거제시 명예시민으로 연예인으로서는",
-        "image": "https://cdn.saegeoje.com/news/photo/202610/309997_72171_3238.jpg"
-    },
-    {
-        "title": "걸그룹 리센느, 거제시 제70호 명예시민 됐다 - 보도자료 | 기사 - 더팩트",
-        "source": "더팩트",
-        "date": "2026-10-26",
-        "url": "https://news.tf.co.kr/read/releasecopy/2380622.htm",
-        "summary": "거제 야호! 밈으로 지역 홍보 앞장 젊은 세대와 소통하며 관광도시 거제 알리기 기여 걸그룹 리센느(RESCENE)가 거제시 제70호 명예시민으로 선정됐다. 거제시는 지난 24일 한화…",
-        "image": "https://img.tf.co.kr/article/home/2026/10/26/20268189179298025000.jpg"
+        "url": "https://www.cbci.co.kr/news/articleView.html?idxno=619324",
+        "summary": "[CBC뉴스] 걸그룹 리센느(RESCENE)가 경남 거제에서 열린 행사에서 비를 맞으며 공연한 모습이 온라인에서 화제를 모으고 있다. 관객들이 비를 맞으며 무대를 지켜보는 가운데 멤버들 역시 함께 비를 맞으며 공연을 이어간 것으로 전해지면서 팬들의 감동적인 반응이 잇따랐다.이러한 팬들의",
+        "image": "https://www.cbci.co.kr/news/thumbnail/202610/619324_425690_5855_v150.jpg"
     },
     {
         "title": "'거제 야호' 리센느, 연예인 최초 명예시민 위촉 [투데이픽] - 파이낸셜포스트",
@@ -273,12 +344,20 @@ const NEWS_DATA = [
         "image": "https://cdn.financialpost.co.kr/news/thumbnail/202610/282501_373794_3029_v150.jpg"
     },
     {
-        "title": "리센느, 거제 빗속 공연에 팬들 감동…“관객과 함께 비 맞겠다” 뜨거운 반응 - CBC뉴스",
-        "source": "CBC뉴스",
+        "title": "걸그룹 리센느, 거제시 제70호 명예시민 됐다 - 보도자료 | 기사 - 더팩트",
+        "source": "더팩트",
         "date": "2026-10-26",
-        "url": "https://www.cbci.co.kr/news/articleView.html?idxno=619324",
-        "summary": "[CBC뉴스] 걸그룹 리센느(RESCENE)가 경남 거제에서 열린 행사에서 비를 맞으며 공연한 모습이 온라인에서 화제를 모으고 있다. 관객들이 비를 맞으며 무대를 지켜보는 가운데 멤버들 역시 함께 비를 맞으며 공연을 이어간 것으로 전해지면서 팬들의 감동적인 반응이 잇따랐다.이러한 팬들의",
-        "image": "https://www.cbci.co.kr/news/thumbnail/202610/619324_425690_5855_v150.jpg"
+        "url": "https://news.tf.co.kr/read/releasecopy/2380622.htm",
+        "summary": "거제 야호! 밈으로 지역 홍보 앞장 젊은 세대와 소통하며 관광도시 거제 알리기 기여 걸그룹 리센느(RESCENE)가 거제시 제70호 명예시민으로 선정됐다. 거제시는 지난 24일 한화…",
+        "image": "https://img.tf.co.kr/article/home/2026/10/26/20268189179298025000.jpg"
+    },
+    {
+        "title": "거제시, 걸그룹 리센느에 2026년 명예시민증 수여 - 새거제신문",
+        "source": "새거제신문",
+        "date": "2026-10-26",
+        "url": "https://www.saegeoje.com/news/articleView.html?idxno=309997",
+        "summary": "거제시는 24일 한화리조티 거제 벨버디어에서 걸그룹 리센느(RESCENE)에 2026년 명예시민증을 수여했다.리센느는 제70호 거제시 명예시민으로 연예인으로서는",
+        "image": "https://cdn.saegeoje.com/news/photo/202610/309997_72171_3238.jpg"
     },
     {
         "title": "걸그룹 리센느, 거제시 연예인 1호 명예시민 > 뉴스 - 더코리아",
@@ -321,14 +400,6 @@ const NEWS_DATA = [
         "image": "https://www.segye.com/content/image/2026/10/26/20261026514695.jpg"
     },
     {
-        "title": "3위 임영웅·2위 방탄소년단…10월 브랜드평판 1위 차지한 '스타 가수' - 위키트리",
-        "source": "위키트리",
-        "date": "2026-10-26",
-        "url": "https://www.wikitree.co.kr/articles/1168795",
-        "summary": "한국기업평판연구소 분석 결과, 리센느 1위",
-        "image": "https://cdnweb01.wikitree.co.kr/webdata/editor/202610/24/img_20261024153201_41c0599d.jpg"
-    },
-    {
         "title": "거제시 걸그룹 리센느에 명예시민증 수여…연예인 최초 70호 : 사회 - 재경일보",
         "source": "재경일보",
         "date": "2026-10-26",
@@ -337,19 +408,19 @@ const NEWS_DATA = [
         "image": "https://images.jkn.co.kr/data/images/full/109/40/1094002.jpg?width=1200&height=630"
     },
     {
-        "title": "“거제 야호~” 리센느 결국…거제 명예시민증까지 받았다 “애정으로 홍보 감사” - 헤럴드경제",
-        "source": "헤럴드경제",
+        "title": "3위 임영웅·2위 방탄소년단…10월 브랜드평판 1위 차지한 '스타 가수' - 위키트리",
+        "source": "위키트리",
         "date": "2026-10-26",
-        "url": "https://biz.heraldcorp.com/article/10914965",
-        "summary": "지난 24일 한화리조트 거제 벨버디어에서 연예인으로는 처음 명예시민증을 받은 리센느가 거제시 명예시민으로 이름을 올렸으며 거제시는 리센느가 꾸준한 시 홍보 활동을",
-        "image": "https://wimg.heraldcorp.com/news/cms/2026/10/26/rcv.YNA.20260906.PYH2026090606870001300_P1.jpg"
+        "url": "https://www.wikitree.co.kr/articles/1168795",
+        "summary": "한국기업평판연구소 분석 결과, 리센느 1위",
+        "image": "https://cdnweb01.wikitree.co.kr/webdata/editor/202610/24/img_20261024153201_41c0599d.jpg"
     },
     {
-        "title": "\"리센느까지 제쳤다\"…한국서 난리 난 가수 누구길래 [김수영의 크레딧&] - 한국경제",
+        "title": "\"리센느까지 제쳐\"…'화제의 가수' 머무르, 정체 밝혔다 [김수영의 크레딧&] - 한국경제",
         "source": "한국경제",
         "date": "2026-10-25",
         "url": "https://www.hankyung.com/article/202610231638H",
-        "summary": "\"리센느까지 제쳤다\"…한국서 난리 난 가수 누구길래 [김수영의 크레딧&], [김수영의 크레딧&] 리센느 넘고 멜론 3위 한 '깜짝 신인' 머무르, 정체 밝혔다 AI 가수 머무르 만든 프로듀싱팀 글로리웨이브 '꿈꾸던 어른이 되었나요?'로 음원차트 강타 \"가사 초안 만든 뒤 멜로디&midd",
+        "summary": "\"리센느까지 제쳐\"…'화제의 가수' 머무르, 정체 밝혔다 [김수영의 크레딧&], [김수영의 크레딧&] AI 가수 머무르 만든 프로듀싱팀 글로리웨이브 '꿈꾸던 어른이 되었나요?'로 음원차트 강타 \"가사 초안 만든 뒤 멜로디&middot;편곡&middot;보컬 AI로\" \"가이드 녹음&mid",
         "image": "https://img.hankyung.com/photo/202610/01.46186994.1.jpg"
     },
     {
@@ -377,51 +448,12 @@ const NEWS_DATA = [
         "image": "https://www.segye.com/content/image/2026/10/26/20261026500448.jpg"
     },
     {
-        "title": "K팝-파인다이닝… 피자에 ‘색다른 즐거움’ - 동아일보",
-        "source": "동아일보",
-        "date": "2026-10-25",
-        "url": "https://www.donga.com/news/Culture/article/all/20261024/134898881/2",
-        "summary": "도미노피자가 브랜드 전속 모델인 걸그룹 ‘리센느’와 함께 신규 브랜드 캠페인 공개를 비롯해 소비자들에게 색다른 모습으로 다가가기 위한 전방위적 활동 강화에 나서고 있다. 먼저 도미노피자는 지난 8일 신규 브랜드 캠페인을 시작했다. 앞서 7월 선보인 ‘무진장 슈림프 스…",
-        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/24/134898880.3.jpg"
-    },
-    {
         "title": "삼성전자, 리센느와 폴드8 협업 예고…1030세대·여심 겨냥 - 인더스트리뉴스",
         "source": "인더스트리뉴스",
         "date": "2026-10-25",
         "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=88144",
         "summary": "[인더스트리뉴스 한원석 기자] 삼성전자가 걸그룹 리센느와 갤럭시 Z 폴드8의 협업을 예고했다. 폴드8 구매자 가운데 젊은 층이 절반가량을 차지하고 여성 고객이 늘",
         "image": "https://cdn.industrynews.co.kr/news/photo/202610/88144_109402_548.jpg"
-    },
-    {
-        "title": "[빅데이터로본다] 가수 2026년 10월 브랜드평판... 1위 리센느, 2위 방탄소년단, 3위 임영웅 - 일간투데이",
-        "source": "일간투데이",
-        "date": "2026-10-25",
-        "url": "https://www.dtoday.co.kr/news/articleView.html?idxno=799090",
-        "summary": "[일간투데이 박선영 기자] 가수 브랜드평판 2026년 10월 빅데이터 분석결과, 1위 리센느 브랜드로 분석됐다.한국기업평판연구소는 2026년 9월 24일부터 2026년 10월 24일까지의 가수 브랜드 빅데이터 129,688,950개를 분석하여 소비자들의 브랜드 참여,",
-        "image": "https://cdn.dtoday.co.kr/news/thumbnail/202610/799090_671826_1715_v150.jpg"
-    },
-    {
-        "title": "리센느 정상 지켰다…BTS 24.53% 상승·아이브 112.40% 급등 - 핀포인트뉴스",
-        "source": "핀포인트뉴스",
-        "date": "2026-10-25",
-        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498270",
-        "summary": "걸그룹 리센느가 10월 가수 브랜드평판 조사에서 1위에 올랐다. 방탄소년단(BTS)이 2위, 임영웅이 3위를 차지했다. 아이브는 브랜드평판지수가 전월보다 112% 넘게 상승하며 5위에 이름을 올렸다.한국기업평판연구소는 9월 24일부터 10월 24일까지 가수 브랜드 빅데이터 1억2968만",
-        "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/498270_483620_4524_v150.jpg"
-    },
-    {
-        "title": "'거제 야호' 리센느, 거제 수해에 50 - 이투데이",
-        "source": "이투데이",
-        "date": "2026-10-25",
-        "url": "https://m.etoday.co.kr/view_photo.php?idxno=2616125&seq=1",
-        "summary": "'거제 야호' 리센느, 거제 수해에 5000만원 쾌척…팬들도 4000만원 모금 관련 이미지 원본을 이투데이에서 확인하세요"
-    },
-    {
-        "title": "리센느 19% vs 임영웅 18%… ‘멜론뮤직어워드 TOP 10’ 막판 대접전 주인공은? - 스포츠경향",
-        "source": "스포츠경향",
-        "date": "2026-10-24",
-        "url": "https://sports.khan.co.kr/article/202610242020003",
-        "summary": "국내 최대 음원 플랫폼 멜론이 주관하는 ‘멜론뮤직어워드(MMA)’ TOP 10 투표가 막바지를 향해 치달으며 가요계에 전례 없는 대지각변동이 일어나고 있다. 그야말로 예측 불허의 박빙 승부가 펼쳐지는 가운데, ...",
-        "image": "https://images.khan.co.kr/article/2026/10/24/news-p.v1.20261024.6d5c3820954b40579f10f8300900f374_P1.jpg"
     },
     {
         "title": "설렘 한도 초과! 리센느, 'PULSE' 트랙리스트 선물 - 전자신문",
@@ -472,6 +504,14 @@ const NEWS_DATA = [
         "image": "https://img1.newsis.com/2026/10/24/NISI20261024_0002272701_web.jpg"
     },
     {
+        "title": "리센느 19% vs 임영웅 18%… ‘멜론뮤직어워드 TOP 10’ 막판 대접전 주인공은? - 스포츠경향",
+        "source": "스포츠경향",
+        "date": "2026-10-24",
+        "url": "https://sports.khan.co.kr/article/202610242020003",
+        "summary": "국내 최대 음원 플랫폼 멜론이 주관하는 ‘멜론뮤직어워드(MMA)’ TOP 10 투표가 막바지를 향해 치달으며 가요계에 전례 없는 대지각변동이 일어나고 있다. 그야말로 예측 불허의 박빙 승부가 펼쳐지는 가운데, ...",
+        "image": "https://images.khan.co.kr/article/2026/10/24/news-p.v1.20261024.6d5c3820954b40579f10f8300900f374_P1.jpg"
+    },
+    {
         "title": "역주행 신화 리센느 새 앨범 컴백 임박, 그 실체 미리 살펴봤더니 - 뉴스엔",
         "source": "뉴스엔",
         "date": "2026-10-24",
@@ -520,30 +560,6 @@ const NEWS_DATA = [
         "image": "https://www.cbci.co.kr/news/thumbnail/202610/mn_618886_20261024105150_1_v150.jpg"
     },
     {
-        "title": "삼성전자, 리센느와 ‘폴드8’ 캠페인 개시… 젊은 여성층 저격과 ‘아이폰 로제’ 대결 구도 포석 - www.dt.co.kr",
-        "source": "www.dt.co.kr",
-        "date": "2026-10-24",
-        "url": "https://www.dt.co.kr/article/12090937",
-        "summary": "삼성전자가 걸그룹 ‘리센느’와 손잡고 최신 폴더블폰 ‘갤럭시 Z 폴드8’의 대대적인 협업 캠페인에 돌입하며 그 배경에 관심이 쏠리고 있다. 이번 협업은 단순한 연예인 마케팅을 넘어, 갤럭시 시리즈의 해묵은 과제인 ‘젊은 층 및 여성 고객 확대’를 달성하고 경쟁사 애플과",
-        "image": "https://wimg.dt.co.kr/news/cms/2026/10/24/news-p.v1.20261024.dace2e3a40664ff6a12798c39f2b8d90_R.png"
-    },
-    {
-        "title": "삼성전자, 폴드8 새 얼굴은 '리센느'…정식 캠페인 시동 - 파이낸셜포스트",
-        "source": "파이낸셜포스트",
-        "date": "2026-10-24",
-        "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=282335",
-        "summary": "삼성전자가 그룹 리센느와 갤럭시 Z 폴드8 협업 캠페인에 나설 것을 예고했다.24일 삼성전자 인스타그램과 엑스에 따르면 삼성전자는 전날 '시작해볼까?'라는 문구와 함께 리센느로 추정되는 다섯 명의 여성이 폴드8을 들고 있는 흑백 실루엣 티저 이미지를 공개했다.앞서 삼성전자는 지난 7월",
-        "image": "https://cdn.financialpost.co.kr/news/thumbnail/202610/282335_373540_19_v150.jpg"
-    },
-    {
-        "title": "리센느 원이, 유튜브 예능 화제성 첫 조사 1위...압도적 존재감 - YTN",
-        "source": "YTN",
-        "date": "2026-10-23",
-        "url": "https://www.ytn.co.kr/_sn/0117_202610231038534310",
-        "summary": "걸그룹 리센느(RESCENE) 원이가 유튜브 예능 화제성 첫 조사에서 정상에 오르며 대세 인기를 입증했다. TV·OTT 중심이던 화제성 분석이 유튜브까지 확장된 가운데, 원이는 첫 조사부터 정상에 오르며 남다른 존재감을 과시했다. 새로운 화제성 경쟁의 출발점에서 1위를 차지했다는 점에서",
-        "image": "https://image.ytn.co.kr/general/jpg/2026/1023/202610231038534310_t.jpg"
-    },
-    {
         "title": "삼성전자, 리센느와 손잡고 폴드8 여심 잡기 나선다 - 연합뉴스",
         "source": "연합뉴스",
         "date": "2026-10-23",
@@ -568,6 +584,14 @@ const NEWS_DATA = [
         "image": "https://photo.jtbc.co.kr/news/jam_photo/202610/23/899f01aa-71a4-425b-98db-44fd5a213c99.jpg"
     },
     {
+        "title": "리센느 원이, 유튜브 예능 화제성 첫 조사 1위...압도적 존재감 - YTN",
+        "source": "YTN",
+        "date": "2026-10-23",
+        "url": "https://www.ytn.co.kr/_sn/0117_202610231038534310",
+        "summary": "걸그룹 리센느(RESCENE) 원이가 유튜브 예능 화제성 첫 조사에서 정상에 오르며 대세 인기를 입증했다. TV·OTT 중심이던 화제성 분석이 유튜브까지 확장된 가운데, 원이는 첫 조사부터 정상에 오르며 남다른 존재감을 과시했다. 새로운 화제성 경쟁의 출발점에서 1위를 차지했다는 점에서",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1023/202610231038534310_t.jpg"
+    },
+    {
         "title": "리센느, 순백의 수호자로 변신…‘PULSE’ 트레일러 공개 - YTN star",
         "source": "YTN star",
         "date": "2026-10-23",
@@ -584,20 +608,20 @@ const NEWS_DATA = [
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/24/bnt202610240078.jpg"
     },
     {
-        "title": "리센느, 순백의 비주얼 그리고 심장 박동 소리 - 조선일보",
-        "source": "조선일보",
-        "date": "2026-10-23",
-        "url": "https://www.chosun.com/entertainments/music/2026/10/23/ME3TKNRZG5TDGMJUGNTDSODEGI/",
-        "summary": "그룹 리센느가 미니 4집 PULSE의 콘셉트 트레일러를 공개했습니다. 순백의 스타일링과 깃털 날개 장식으로 신비로운 수호자 분위기를 자아냈으며, 영상 말미에 심장 박동 소리를 배치해 앨범이 담고 있는 몽환적인 무드와 주제를 감각적으로 전달하며 컴백에 대한 팬들의 호기심을 자극하고 있습니",
-        "image": "https://www.chosun.com/resizer/v2/GQYGMZBXGBSDIMJQMJSTENDFGE.jpg?auth=73d6b26d3c293992ce3606a20830d7fc8180506164a51bdf5ca82120bb1582b6&width=530&height=278&smart=true"
-    },
-    {
         "title": "리센느·방탄소년단·임영웅, 가수 평판 톱3 - BNT뉴스",
         "source": "BNT뉴스",
         "date": "2026-10-23",
         "url": "https://www.bntnews.co.kr/article/view/bnt202610240059",
         "summary": "걸그룹 리센느가 10월 가수 브랜드평판 1위에 올랐다. 방탄소년단이 2위, 임영웅이 3위를 차지했다.24일 한국기업평판연구소에 따르면 2026년 10월 가수",
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/24/bnt202610240093.jpg"
+    },
+    {
+        "title": "리센느, 순백의 비주얼 그리고 심장 박동 소리 - 조선일보",
+        "source": "조선일보",
+        "date": "2026-10-23",
+        "url": "https://www.chosun.com/entertainments/music/2026/10/23/ME3TKNRZG5TDGMJUGNTDSODEGI/",
+        "summary": "그룹 리센느가 미니 4집 PULSE의 콘셉트 트레일러를 공개했습니다. 순백의 스타일링과 깃털 날개 장식으로 신비로운 수호자 분위기를 자아냈으며, 영상 말미에 심장 박동 소리를 배치해 앨범이 담고 있는 몽환적인 무드와 주제를 감각적으로 전달하며 컴백에 대한 팬들의 호기심을 자극하고 있습니",
+        "image": "https://www.chosun.com/resizer/v2/GQYGMZBXGBSDIMJQMJSTENDFGE.jpg?auth=73d6b26d3c293992ce3606a20830d7fc8180506164a51bdf5ca82120bb1582b6&width=530&height=278&smart=true"
     },
     {
         "title": "1위 리센느, 2위 방탄소년단, 3위 임영웅 - 스타뉴스",
@@ -632,22 +656,6 @@ const NEWS_DATA = [
         "image": "https://cdn.alphabiz.co.kr/news/photo/202610/194180_155911_3035.jpg"
     },
     {
-        "title": "리센느, 신보 타이틀곡은 'With'..5곡 담긴 미니 4집 'PULSE' 트랙리스트 공개 - 스타뉴스",
-        "source": "스타뉴스",
-        "date": "2026-10-23",
-        "url": "https://www.starnewskorea.com/music/2026/10/24/2026102408053337831",
-        "summary": "그룹 리센느(RESCENE·원이, 리브, 미나미, 메이, 제나)가 신보 트랙리스트를 오픈, 컴백 열기를 더했다. 리센느는 10월 23일 오후 6시 공식 SNS를 통해 11월 3일 오후 6시 발매되는 네 번째 미니 앨범 'PULSE'(펄스)의 트랙리스트를 공개했다. 이번 앨범에는 타이틀곡",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=1600,fit=cover,q=high,sharpen=2/21/2026/10/2026102408053337831_1.jpg"
-    },
-    {
-        "title": "‘MMA 2026’, TOP10 투표 리센느 1위·임영웅 2위…시상자 37명은 누구? - 톱스타뉴스",
-        "source": "톱스타뉴스",
-        "date": "2026-10-23",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16256271",
-        "summary": "‘MMA 2026’ TOP10 투표에서 리센느가 64만 5,470표로 1위를 기록했다. 임영웅이 61만 8,677표로 2위를 차지한 가운데 플레이브, 엔시티 위시, 라이즈 등이 상위권에 올랐다. 이영애, 이승철, 변요한, 티파니 영 등 시상자 37명의 라인업도 공개됐다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202610/16256271_2065053_1041_crop.jpg"
-    },
-    {
         "title": "리센느 ‘심장 박동’ 콘셉트 트레일러 공개 - 스포츠경향",
         "source": "스포츠경향",
         "date": "2026-10-22",
@@ -669,7 +677,7 @@ const NEWS_DATA = [
         "date": "2026-10-21",
         "url": "https://www.viva100.com/article/20261021500185",
         "summary": "그룹 리센느(RESCENE)가 신비로운 분위기의 콘셉트 포토를 선보이며 미니 4집 ‘PULSE(펄스)’를 통해 펼쳐낼 새로운 이야기에 기대감을 더했다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 20일 오후 6시 공식 SNS를 통해 미니 4집 ‘PULSE’의",
-        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/21/.cache/512/20261021500182.jpg?v=20261026213312"
+        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/21/.cache/512/20261021500182.jpg?v=20261027072743"
     },
     {
         "title": "그룹 유어즈 \"리센느 선배 이어 '중소의 복권' 될래요\" - 연합뉴스",
@@ -680,28 +688,12 @@ const NEWS_DATA = [
         "image": "https://img9.yna.co.kr/etc/inner/KR/2026/10/19/AKR20261019181200005_01_i_P4.jpg"
     },
     {
-        "title": "리센느, 수호천사 됐다…달라진 비주얼 공개 - 연합뉴스",
-        "source": "연합뉴스",
+        "title": "리센느, 수호자로 변신한 다섯 소녀 - JTBC",
+        "source": "JTBC",
         "date": "2026-10-20",
-        "url": "https://www.yna.co.kr/view/MYH20261021001400038",
-        "summary": "다음 달 신보를 발매하는 걸그룹 리센느가 새 콘셉트를 예고했습니다.리센느는 공식 SNS를 통해 미니 4집 '펄스'의 콘셉트 사진을 공개했습니다....",
-        "image": "https://img5.yna.co.kr/mpic/YH/2026/10/21/MYH20261021001400038_P1.jpg"
-    },
-    {
-        "title": "초월적 비주얼에 '심쿵'…리센느, 'PULSE' 콘셉트 포토 - 전자신문",
-        "source": "전자신문",
-        "date": "2026-10-20",
-        "url": "https://www.etnews.com/20261021000008",
-        "summary": "걸그룹 리센느의 특별한 비주얼이 도착했다. 리센느는 지난 20일 공식 SNS에 오는 11월 3일 오후 6시 발매되는 네 번째 미니앨범 'PULSE'의 단체 및 개인 콘셉트 포토를 선보였다. 공개된 사진에는 푸른빛을",
-        "image": "https://img.etnews.com/news/article/2026/10/21/article_21075334361069.jpg"
-    },
-    {
-        "title": "'수호천사' 리센느?! 'PULSE' 콘셉트 포토에 '설렘 증폭’ - 전자신문",
-        "source": "전자신문",
-        "date": "2026-10-19",
-        "url": "https://www.etnews.com/20261020000007",
-        "summary": "리센느(RESCENE)가 수호천사로 변신했다. 리센느는 지난 19일 오후 6시 공식 SNS에 네 번째 미니앨범 'PULSE'의 단체 및 개인 콘셉트 포토를 공개했다. 사진 속 멤버들은 깃털이 달린 날개 오브제와 팔·신발",
-        "image": "https://img.etnews.com/news/article/2026/10/20/article_20074923157334.jpg"
+        "url": "https://news.jtbc.co.kr/article/NB12324051",
+        "summary": "리센느(RESCENE)가 신비로운 비주얼을 담은 컨셉트 포토를 공개하며 컴백 기대감을 높였다. 소속사는 지난 20일 공식 SNS를 통해 11월...",
+        "image": "https://photo.jtbc.co.kr/news/jam_photo/202610/21/bfe3a6f9-7bbc-4da7-a116-93eafae4af48.jpg"
     },
     {
         "title": "리센느 원이, 긍부정비율 95.10%..10월 걸그룹 개인 브랜드 평판 '1위' - 조선비즈 - Chosunbiz",
@@ -744,6 +736,14 @@ const NEWS_DATA = [
         "image": "https://cdn.geojenews.co.kr/news/thumbnail/202610/97144_93292_3214_v150.jpg"
     },
     {
+        "title": "'거제야호' 리센느 효과로 거제시 방문객·관광 소비 증가 - 연합뉴스",
+        "source": "연합뉴스",
+        "date": "2026-10-14",
+        "url": "https://www.yna.co.kr/view/AKR20261014164000052",
+        "summary": "(거제=연합뉴스) 정종호 기자 = 경남 거제시는 그룹 리센느와 '거제야호' 밈(Meme·온라인 유행 콘텐츠)이 지역 방문객과 관광 소비 증가, ...",
+        "image": "https://img8.yna.co.kr/etc/inner/KR/2026/10/14/AKR20261014164000052_01_i_P4.jpg"
+    },
+    {
         "title": "\"광고가 아니라 화보 같다\"…그레인온, 리센느 효과에 매출 11배 ↑ - 뉴스1",
         "source": "뉴스1",
         "date": "2026-10-13",
@@ -780,7 +780,7 @@ const NEWS_DATA = [
         "date": "2026-10-11",
         "url": "https://www.kyeonggi.com/article/20261011580297",
         "summary": "‘중소돌의 기적’ 대세 걸그룹 리센느(원이, 미나미, 리브, 메이, 제나)가 파주 임진각 평화누리공원에서 펼쳐진 ‘2026 고스트(GHOST·경기 한류 OST) 페스티벌’ 마지막날인 11일 평화로운 가을날에 화려한 무대로 관객을 열광시켰다. 경기관광공사가 주최하고 경기",
-        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/11/.cache/512/20261011580299.jpg?v=20261026213315"
+        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/11/.cache/512/20261011580299.jpg?v=20261027072746"
     },
     {
         "title": "리센느, 부캉이, 김민의 공통점 - Vogue korea",
