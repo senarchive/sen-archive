@@ -3,10 +3,9 @@
     var RELEASE = new Date('2026-11-03T18:00:00+09:00'); // 컴백(발매) 일시 — 시간 변경 시 여기만 수정
     var GROUP_SLIDES = [
         'images/pulse/group1.webp',
-        'images/pulse/group2.webp',
-        'images/pulse/group3.webp',
-        'images/pulse/group4.webp'
+        'images/pulse/group2.webp'
     ];
+    var YT_ID = 'kmDGZd1mv7I';
     var TRACKS = [
         { t: 'Finest Thing', d: '02:20' },
         { t: 'With', d: '03:11' },
@@ -81,10 +80,12 @@
     function buildMedley() {
         var ol = $('pvTracks'); if (!ol) return;
         ol.innerHTML = TRACKS.map(function (t, i) { return '<li style="--i:' + i + '"><span>' + pad(i + 1) + '</span><b>' + t.t + '</b><i>' + t.d + '</i></li>'; }).join('');
-        var f = $('pvFrame');
-        if ('IntersectionObserver' in window && f) {
-            new IntersectionObserver(function (es, o) { if (es[0].isIntersecting) { f.src = f.dataset.src; o.disconnect(); } }, { rootMargin: '200px' }).observe(f);
-        } else if (f) f.src = f.dataset.src;
+        var box = $('pvVideo');
+        if (box) box.addEventListener('click', function () {
+            if (box.classList.contains('playing')) return;
+            box.classList.add('playing');
+            box.insertAdjacentHTML('beforeend', '<iframe src="https://www.youtube.com/embed/' + YT_ID + '?autoplay=1&rel=0" title="PULSE Highlight Medley" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>');
+        });
     }
 
     /* 섹션 진입 애니메이션 */
