@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/i18n.css">
+    <link rel="stylesheet" href="css/pulse.css">
 
     <script src="js/theme-init.js"></script>
     <script src="js/i18n.js"></script>
@@ -44,6 +45,7 @@
     <script>renderSiteNav('home', '', { calendar: true, lang: true });</script>
 
     <div id="mainWrapper">
+        <!-- [임시 비활성화] 기존 메인 히어로 mp4
         <div class="video-container" id="homeHero">
             <video id="bgVideo" src="video/member.mp4" autoplay loop muted playsinline class="bg-video"></video>
             <img id="bgImage" src="" class="bg-video" style="display:none; opacity:0;" alt="background">
@@ -56,6 +58,54 @@
                 </div>
             </div>
         </div>
+        -->
+
+        <!-- ① PULSE 컴백 히어로 -->
+        <section class="pulse-hero" id="pulseHero">
+            <div class="ph-slides" id="phSlides"></div>
+            <div class="ph-shade"></div>
+            <div class="ph-grain"></div>
+            <div class="ph-marquee ph-marquee-top"><div class="ph-marquee-track"><span>PULSE ✦ KEEP MY HEART RUNNING ✦ RESCENE ✦ 6TH MINI ALBUM ✦ 2026.11.03 ✦ </span><span>PULSE ✦ KEEP MY HEART RUNNING ✦ RESCENE ✦ 6TH MINI ALBUM ✦ 2026.11.03 ✦ </span></div></div>
+            <div class="ph-content">
+                <img src="images/logo.png" alt="RESCENE" class="ph-logo" onerror="this.style.display='none'">
+                <h1 class="ph-title" aria-label="PULSE"><span>P</span><span>U</span><span>L</span><span>S</span><span>E</span></h1>
+                <svg class="ph-ecg" viewBox="0 0 600 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 H210 L228 30 L240 8 L256 52 L270 14 L282 30 H600" /></svg>
+                <p class="ph-sub">6th Mini Album · COMEBACK 2026.11.03</p>
+                <div class="ph-count" id="phCount" aria-live="off">
+                    <div class="ph-cell"><b id="cdD">00</b><i>DAYS</i></div>
+                    <div class="ph-colon">:</div>
+                    <div class="ph-cell"><b id="cdH">00</b><i>HOURS</i></div>
+                    <div class="ph-colon">:</div>
+                    <div class="ph-cell"><b id="cdM">00</b><i>MINUTES</i></div>
+                    <div class="ph-colon">:</div>
+                    <div class="ph-cell"><b id="cdS">00</b><i>SECONDS</i></div>
+                </div>
+                <p class="ph-released" id="phReleased" style="display:none">PULSE · OUT NOW</p>
+            </div>
+            <div class="ph-dots" id="phDots"></div>
+            <div class="ph-scroll"><span></span>SCROLL</div>
+        </section>
+
+        <!-- ② 멤버 개인 포토 -->
+        <section class="pulse-members" id="pulseMembers">
+            <div class="pm-bgword" aria-hidden="true">MEMBERS</div>
+            <div class="pm-head"><div class="section-title">PULSE <span>MEMBERS</span></div></div>
+            <div class="pm-strip" id="pmStrip"></div>
+            <div class="pm-detail" id="pmDetail">
+                <div class="pm-photo"><img id="pmPhoto" alt=""><div class="pm-thumbs" id="pmThumbs"></div></div>
+                <div class="pm-info" id="pmInfo"></div>
+            </div>
+        </section>
+
+        <!-- ③ 하이라이트 메들리 -->
+        <section class="pulse-medley" id="pulseMedley">
+            <div class="pv-bgword" aria-hidden="true">HIGHLIGHT</div>
+            <div class="pm-head"><div class="section-title">HIGHLIGHT <span>MEDLEY</span></div></div>
+            <div class="pv-wrap">
+                <div class="pv-video"><iframe id="pvFrame" data-src="https://www.youtube.com/embed/kmDGZd1mv7I?rel=0" title="PULSE Highlight Medley" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+                <ol class="pv-tracks" id="pvTracks"></ol>
+            </div>
+        </section>
 
         <!-- WITH RESCENE -->
         <div id="historySection" class="slow-reveal history-link" role="button" tabindex="0" onclick="playWithRescene()" onkeydown="if(event.key==='Enter')playWithRescene()" aria-label="위드 리센스 — 함께 걸어온 길 보기">
@@ -320,6 +370,7 @@
         <button type="button" class="chronicle-close" onclick="closeChronicle()" aria-label="연대기 닫기">← <span>ARCHIVE</span></button>
         <iframe id="chronicleFrame" title="리센느 연대기" data-src="chronicle/sample/index.html"></iframe>
     </div>
+    <script src="js/pulse_home.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

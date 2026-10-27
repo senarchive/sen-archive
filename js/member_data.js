@@ -41,5 +41,6 @@ const MEMBER_ERAS = [
     { key: 'heartdrop', label: 'Heart Drop' },
     { key: 'lipbomb', label: 'lip bomb' },
     { key: 'runaway', label: 'Runaway' },
-    { key: 'prettygirl', label: 'Pretty Girl' }
+    { key: 'prettygirl', label: 'Pretty Girl' },
+    { key: 'pulse', label: 'PULSE' }
 ];

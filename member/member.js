@@ -1,5 +1,5 @@
 let memberActiveKey = 'woni';
-let memberActiveEra = 'prettygirl'; /* 기본으로 최신 포토를 히어로에 표시 */
+let memberActiveEra = 'pulse'; /* 기본으로 최신 포토를 히어로에 표시 */
 
 function renderMemberSelector() {
     const row = document.getElementById('memberSelectorRow');
@@ -13,7 +13,7 @@ function renderMemberSelector() {
 function setActiveMember(key) {
     if (key === memberActiveKey) return;
     memberActiveKey = key;
-    memberActiveEra = 'prettygirl'; // 멤버가 바뀔 때마다 최신 활동 사진으로 리셋
+    memberActiveEra = 'pulse'; // 멤버가 바뀔 때마다 최신 활동 사진으로 리셋
     renderMemberSelector();
     renderMemberDetail();
 }
