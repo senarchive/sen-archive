@@ -3,7 +3,9 @@
     var RELEASE = new Date('2026-11-03T18:00:00+09:00'); // 컴백(발매) 일시 — 시간 변경 시 여기만 수정
     var GROUP_SLIDES = [
         'images/pulse/group1.webp',
-        'images/pulse/group2.webp'
+        'images/pulse/group2.webp',
+        'images/pulse/group3.webp',
+        'images/pulse/group4.webp'
     ];
     var YT_ID = 'kmDGZd1mv7I';
     var TRACKS = [
@@ -64,9 +66,12 @@
         var g = $('pmGallery'); if (!g) return;
         var h = '';
         for (var i = 1; i <= SOLO_COUNT; i++) {
-            h += '<div class="pm-item" style="--i:' + i + '"><img src="images/pulse/solo' + pad(i) + '.webp" alt="RESCENE PULSE photo ' + i + '" loading="lazy"></div>';
+            h += '<div class="pm-item" data-n="' + i + '" style="--i:' + i + '"><img src="images/pulse/solo' + pad(i) + '.webp" alt="RESCENE PULSE photo ' + i + '" loading="lazy"></div>';
         }
         g.innerHTML = h;
+        g.addEventListener('click', function (e) {
+            var it = e.target.closest('.pm-item'); if (it) openPhoto(+it.dataset.n);
+        });
         /* 마우스 휠 → 가로 스크롤 */
         g.addEventListener('wheel', function (e) {
             if (Math.abs(e.deltaY) > Math.abs(e.deltaX) && g.scrollWidth > g.clientWidth) {
@@ -74,6 +79,34 @@
                 if (!atStart && !atEnd) { e.preventDefault(); g.scrollLeft += e.deltaY; }
             }
         }, { passive: false });
+    }
+
+    /* 개인 사진 모달 */
+    var curPhoto = 0;
+    function openPhoto(n) {
+        curPhoto = n;
+        $('pmModalImg').src = 'images/pulse/solo' + pad(n) + '.webp';
+        $('pmModal').classList.add('open');
+        document.body.style.overflow = 'hidden';
+    }
+    function closePhoto() {
+        $('pmModal').classList.remove('open');
+        document.body.style.overflow = '';
+    }
+    function stepPhoto(d) { openPhoto(((curPhoto - 1 + d + SOLO_COUNT) % SOLO_COUNT) + 1); }
+    function initModal() {
+        var m = $('pmModal'); if (!m) return;
+        m.addEventListener('click', function (e) {
+            if (e.target.closest('#pmModalClose')) return closePhoto();
+            if (e.target.closest('.pm-modal-nav')) return stepPhoto(e.target.closest('.pm-modal-nav').dataset.d === 'prev' ? -1 : 1);
+            if (!e.target.closest('#pmModalImg')) closePhoto();
+        });
+        document.addEventListener('keydown', function (e) {
+            if (!m.classList.contains('open')) return;
+            if (e.key === 'Escape') closePhoto();
+            else if (e.key === 'ArrowLeft') stepPhoto(-1);
+            else if (e.key === 'ArrowRight') stepPhoto(1);
+        });
     }
 
     /* ---------- ③ 메들리 ---------- */
@@ -98,7 +131,7 @@
 
     document.addEventListener('DOMContentLoaded', function () {
         buildSlides(); restart(); tick(); setInterval(tick, 1000);
-        buildGallery(); buildMedley(); observeReveal();
+        buildGallery(); initModal(); buildMedley(); observeReveal();
         document.addEventListener('visibilitychange', function () { if (document.hidden) clearInterval(timer); else restart(); });
     });
 })();
