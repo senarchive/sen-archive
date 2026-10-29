@@ -1,13 +1,37 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-28T22:22:55.148Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-29T05:02:34.486Z) */
 
 const NEWS_DATA = [
     {
-        "title": "‘리센느’가 알려주는 핼러윈 인파사고 대처법 [지금뉴스] - KBS 뉴스",
-        "source": "KBS 뉴스",
+        "title": "리센느 '백화요란'에 이재(EJAE·) 힘 보탰다…신흥 국민 걸그룹, '국제그룹' 발돋움할까 - 뉴시스",
+        "source": "뉴시스",
+        "date": "2026-10-29",
+        "url": "https://www.newsis.com/view/NISX20261029_0003845941",
+        "summary": "[서울=뉴시스]이재훈 기자 = 세계적인 주목을 받는 싱어송라이터 겸 프로듀서 이재(EJAE·김은재)가 신흥 국민 걸그룹 '리센느(RESCENE)'의 신보에 힘을 보탰다.29일 리센느 소속사 더뮤즈엔터테인먼트에 따르면, 리센느가 내달 3일 발매하는 미니 4집 '펄스(PULSE)'의 수록곡",
+        "image": "https://img1.newsis.com/2026/10/29/NISI20261029_0002277098_web.jpg"
+    },
+    {
+        "title": "리센느, ‘케데헌’ 이재와 손잡고 컴백 - BNT뉴스",
+        "source": "BNT뉴스",
+        "date": "2026-10-29",
+        "url": "https://www.bntnews.co.kr/article/view/bnt202610290138",
+        "summary": "리센느(RESCENE)가 ‘케이팝 데몬 헌터스’ 주역 이재(EJAE)와 협업해 새 앨범의 기대감을 높였다.리센느는 지난 26일 공식 SNS를 통해 네 번째 미니앨",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/29/bnt202610290248.jpg"
+    },
+    {
+        "title": "리센느, ‘케이팝 데몬 헌터스’ 이재와 손잡았다…글로벌 도약 노린다 - 매일경제",
+        "source": "매일경제",
+        "date": "2026-10-29",
+        "url": "https://www.mk.co.kr/news/hot-issues/12189541",
+        "summary": "",
+        "image": "https://pimg.mk.co.kr/news/cms/202610/29/news-p.v1.20261029.49246a0408e44b26b02681f70aec5fe8_R.jpg"
+    },
+    {
+        "title": "리센느, 10월 라이징 가수 브랜드평판 1위…에이티즈·김용빈 뒤이어 - 진일보 | 전남일보",
+        "source": "진일보 | 전남일보",
         "date": "2026-10-28",
-        "url": "https://news.kbs.co.kr/news/view.do?ncd=8697414",
-        "summary": "각종 축제와 공연으로 나들이가 잦아지는 계절, 가을입니다. 특히 10월의 마지막 날인 '핼러윈(Halloween)...",
-        "image": "http://news.kbs.co.kr/data/news/2026/10/28/20261028_2m7phS.png"
+        "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000077225",
+        "summary": "리센느가 10월 라이징 가수 브랜드평판 1위에 올랐다.한국기업평판연구소는 9월 27일부터 10월 27일까지 측정한 8922만4754개의 빅데이터를 바탕으로 10월",
+        "image": "https://cdn.jnilbo.com/news/photo/202610/90000077225_606070_2454.jpg"
     },
     {
         "title": "걸그룹 ‘리센느’ 포토북 찍은 금호강 ‘팔현습지’ 훼손되나···환경단체, 무기한 천막농성 나서 - 경향신문",
@@ -18,6 +42,22 @@ const NEWS_DATA = [
         "image": "https://img.khan.co.kr/news/2026/10/28/news-p.v1.20261028.8a1c4854ba3f453c85fd85083b7e24fa_P1.jpg"
     },
     {
+        "title": "‘리센느’가 알려주는 핼러윈 인파사고 대처법 [지금뉴스] - KBS 뉴스",
+        "source": "KBS 뉴스",
+        "date": "2026-10-28",
+        "url": "https://news.kbs.co.kr/news/view.do?ncd=8697414",
+        "summary": "각종 축제와 공연으로 나들이가 잦아지는 계절, 가을입니다. 특히 10월의 마지막 날인 '핼러윈(Halloween)...",
+        "image": "http://news.kbs.co.kr/data/news/2026/10/28/20261028_2m7phS.png"
+    },
+    {
+        "title": "리센느 신곡, ‘케데헌’ 이재 참여...글로벌 관심 집중 - YTN star",
+        "source": "YTN star",
+        "date": "2026-10-28",
+        "url": "https://star.ytn.co.kr/_sn/0117_202610290847399082",
+        "summary": "그룹 리센느(RESCENE)가 신곡에 글로벌 화제의 주역 이재(EJAE)의 참여를 더해 컴백 기대감을 높이고 있다. 여기에 멤버 미나미의 오랜 바람이 담긴 수록곡 ‘백화요란(Inside Out)’까지 팬들의 관심을 끌며 새 앨범을 향한 열기가 달아오르고 있다. 리센느는 지난 26일 공식",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1029/202610290847399082_t.jpg"
+    },
+    {
         "title": "삼성전자, 걸그룹 리센느와 '갤럭시Z폴드8' 캠페인 - 전자신문",
         "source": "전자신문",
         "date": "2026-10-28",
@@ -26,36 +66,12 @@ const NEWS_DATA = [
         "image": "https://img.etnews.com/news/article/2026/10/28/news-p.v1.20261028.2b6a1977509242b38cd9815314b18b12_P1.jpg"
     },
     {
-        "title": "[ET포토] 엑스러브 우무티, '리센느 미나미 만큼 능숙한 한국말' - 전자신문",
-        "source": "전자신문",
+        "title": "리센느 효과 어마어마했다..'빵빵' 박상철 \"해외 러브콜까지\" 겹경사 ('양락1번지') - 미주중앙일보",
+        "source": "미주중앙일보",
         "date": "2026-10-28",
-        "url": "https://www.etnews.com/20261028000434",
-        "summary": "그룹 엑스러브(XLOV/ 루이, 우무티, 하루)가 28일 서울 마포구 큐브컨벤션센터에서 진행된 미니 3집 'i=!'(아이 이퀄스 아이) 미디어 쇼케이스 일정에 참석했다. 이승훈 기자 (mozart1205@etnews.com)",
-        "image": "https://img.etnews.com/news/article/2026/10/28/cms_temp_stats_17931727531408959999.jpg"
-    },
-    {
-        "title": "리센느 효과 어마어마했다..'빵빵' 박상철 \"해외 러브콜까지\" 겹경사 ('양락1번지') - Chosunbiz",
-        "source": "Chosunbiz",
-        "date": "2026-10-28",
-        "url": "https://biz.chosun.com/entertainment/enter_general/2026/10/28/GI4WCNJSGNRGGZJUHFSDMNBZMM/",
-        "summary": "리센느 효과 어마어마했다..빵빵 박상철 해외 러브콜까지 겹경사 양락1번지",
-        "image": "https://biz.chosun.com/resizer/v2/MRSTOMJVMU3GIN3CG4ZWCNBWMM.jpg?auth=4b9e8c15207adda32c065af0f3d6061c58dab30e3e18019c4df3ca08d5fa298b&width=650&height=341&smart=true"
-    },
-    {
-        "title": "듣고 맡고 누른다…리센느, 감각 깨우는 ‘오감 공략법’ - 스포츠동아",
-        "source": "스포츠동아",
-        "date": "2026-10-28",
-        "url": "https://sports.donga.com/ent/article/all/20261028/134922298/1",
-        "summary": "[스포츠동아 곽현수 기자] 음악을 즐기는 데 이제는 이어폰만으로는 부족하다. 손가락을 움직여 게임을 해야 숨겨진 사진을 발견할 수 있고 음악에는 향기까지 따라붙는다. 청취 경험에 머물지 않고 눈과 코끝까지 자극하는 걸그룹 리센느의 특별한 컴백 이야기다.리센느가 11월…",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/28/134922303.1.jpg"
-    },
-    {
-        "title": "[TMA 인터뷰] 리센느, '미지의 향'으로 만들어낸 2관왕 - 더팩트",
-        "source": "더팩트",
-        "date": "2026-10-28",
-        "url": "https://news.tf.co.kr/read/entertain/2381525.htm",
-        "summary": "올해의 아티스트 투데이스 초이스 2관왕 많이 행복하고 많이 울었던 뜻깊은 2026년 2026년은 그야말로 리센느의 재발견이라고 해도 과언이 아니다. 각자의 자리에서 묵묵히 …",
-        "image": "https://img.tf.co.kr/article/home/2026/10/19/20266285179309007700.jpg"
+        "url": "https://www.koreadaily.com/article/20261028062109938",
+        "summary": "가수 박상철이 리센느 제나에게 고마운 마음을 전했다. 28일 유튜브 채널 '양락1번지'에는 '제나님께서 빵빵! 하고 들어오십니다! 리센느는 무조건이야~ 때아닌 호황기를 맞은 박상철'이라는 제목의 영상이 공개됐다. 영...",
+        "image": "https://www.koreadaily.com/data/photo/thumbnail/2026/10/28/9597fa80-f69a-456a-ae97-9804abe63ad6.jpg"
     },
     {
         "title": "A2O 데뷔부터 리센느 컴백까지 '설렘 폭발' - 파이낸셜뉴스",
@@ -66,20 +82,20 @@ const NEWS_DATA = [
         "image": "https://image.fnnews.com/resource/media/image/2026/10/28/202610281833386541_e.jpg"
     },
     {
+        "title": "[TMA 인터뷰] 리센느, '미지의 향'으로 만들어낸 2관왕 - 더팩트",
+        "source": "더팩트",
+        "date": "2026-10-28",
+        "url": "https://news.tf.co.kr/read/entertain/2381525.htm",
+        "summary": "올해의 아티스트 투데이스 초이스 2관왕 많이 행복하고 많이 울었던 뜻깊은 2026년 2026년은 그야말로 리센느의 재발견이라고 해도 과언이 아니다. 각자의 자리에서 묵묵히 …",
+        "image": "https://img.tf.co.kr/article/home/2026/10/19/20266285179309007700.jpg"
+    },
+    {
         "title": "[issue&] 리센느 손잡고 Z세대 공략 … 스타 셰프 협업 피자도 - 중앙일보",
         "source": "중앙일보",
         "date": "2026-10-28",
         "url": "https://www.joongang.co.kr/article/25473904",
         "summary": "도미노피자 새 브랜드 캠페인 조회수 1000만 돌파 ‘레몬 버터 더블 살시챠’연말까지 판매 골프 국가대표에 후원금 1억원 전달 글로벌 피자 브랜드 도미노피자가 전속 모델인 걸그룹 리센느(RESCENE)와 함께 신규 브랜드 캠페인을 공개했다. 여기에 유명 셰프와 손잡고 신제품을 선보이는 ",
         "image": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202610/29/826c8697-34b9-4a4c-9a70-357ac68f61c6.jpg"
-    },
-    {
-        "title": "삼성전자, 리센느 통해 ‘갤럭시 Z 폴드8’ 사용 경험 알린다 - 매일일보",
-        "source": "매일일보",
-        "date": "2026-10-28",
-        "url": "https://www.m-i.kr/news/articleView.html?idxno=2011459",
-        "summary": "매일일보 = 이강민 기자 | 삼성전자가 K팝 그룹 리센느와 함께 ‘갤럭시 Z 폴드8’의 사용 경험을 알리는 데 나선다. 제품을 직접 써 온 멤버들의 이야기를 통해",
-        "image": "https://cdn.m-i.kr/news/photo/202610/2011459_2011625_3344.jpg"
     },
     {
         "title": "삼성전자, 리센느와 '갤럭시 Z 폴드8' 캠페인 - 디일렉",
@@ -90,27 +106,35 @@ const NEWS_DATA = [
         "image": "https://cdn.thelec.kr/news/photo/202610/64392_50636_427.jpg"
     },
     {
+        "title": "삼성전자, 리센느 통해 ‘갤럭시 Z 폴드8’ 사용 경험 알린다 - 매일일보",
+        "source": "매일일보",
+        "date": "2026-10-28",
+        "url": "https://www.m-i.kr/news/articleView.html?idxno=2011459",
+        "summary": "매일일보 = 이강민 기자 | 삼성전자가 K팝 그룹 리센느와 함께 ‘갤럭시 Z 폴드8’의 사용 경험을 알리는 데 나선다. 제품을 직접 써 온 멤버들의 이야기를 통해",
+        "image": "https://cdn.m-i.kr/news/photo/202610/2011459_2011625_3344.jpg"
+    },
+    {
+        "title": "리센느, 컴백 스케줄러 속 하트의 정체는? 이색 프로모션 눈길 - YTN star",
+        "source": "YTN star",
+        "date": "2026-10-28",
+        "url": "https://star.ytn.co.kr/_sn/0117_202610280951042495",
+        "summary": "그룹 리센느(RESCENE)가 새 앨범 발매를 앞두고 프로모션 웹사이트와 신곡 챌린지 영상을 공개하며 컴백 준비에 속도를 내고 있다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 27일 공식 SNS를 통해 오는 11월 3일 발매하는 네 번째 미니 앨범 ‘PULSE’(펄스)의 프로",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1028/202610280951042495_t.jpg"
+    },
+    {
+        "title": "[테크스냅] 삼성전자, 리센느 손잡고 갤럭시 Z 폴드8 알린다 - 연합뉴스",
+        "source": "연합뉴스",
+        "date": "2026-10-28",
+        "url": "https://www.yna.co.kr/amp/view/AKR20261028045600017",
+        "summary": "(서울=연합뉴스) 박형빈 기자 = 삼성전자[005930]가 그룹 리센느와 손잡고 갤럭시 Z 폴드8의 여심 공략에 나선다.",
+        "image": "https://img1.yna.co.kr/etc/inner/KR/2026/10/28/AKR20261028045600017_03_i_P4.jpg"
+    },
+    {
         "title": "\"그립감이 좋다\"…삼성전자, 리센느와 ’Z 폴드8’ 신규 캠페인 전개 By EBN - Investing.com 한국어",
         "source": "Investing.com 한국어",
         "date": "2026-10-28",
         "url": "https://kr.investing.com/news/stock-market-news/article-2144592",
         "summary": ""
-    },
-    {
-        "title": "거제시, 걸그룹 리센느에 2026년 명예시민증 수여 - 경남도민신문",
-        "source": "경남도민신문",
-        "date": "2026-10-28",
-        "url": "http://www.gndomin.com/news/articleView.html?idxno=494513",
-        "summary": "거제시는 지난 24일 한화리조티 거제 벨버디어에서 걸그룹 리센느(RESCENE)에 2026년 명예시민증을 수여했다고 밝혔다. 리센느는 제70호 거제시 명예시민으로, 연예인으로서는 처음으로 명예시민증을 받았다. ‘거제 야호!’ 밈을 확산시키며 거제에 대한 관심과 친밀도를 높인 공로로 거제",
-        "image": "http://www.gndomin.com/news/thumbnail/202610/494513_482191_0459_v150.jpg"
-    },
-    {
-        "title": "[신동립 잡기노트]리센느, 진짜를 고르는 시대 - 더리포트",
-        "source": "더리포트",
-        "date": "2026-10-28",
-        "url": "https://www.thereport.co.kr/news/articleView.html?idxno=92745",
-        "summary": "“네가 경상도 맞나? 와 말끝에다 ‘노’를 다 씨부리노?”디즈니+ ‘무빙’에서 ‘장주원’(류승룡)이 가짜 사투리를 쓰는 배달원에게 던진 대사다. 가짜는 티가 나고",
-        "image": "https://cdn.thereport.co.kr/news/photo/202610/92745_119506_253.jpg"
     },
     {
         "title": "‘MMA 2026’, TOP10 투표 마감 D-1…리센느 108만 표 1위·임영웅과 11만 표 차이 - 톱스타뉴스",
@@ -121,20 +145,12 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202610/16260956_2070407_2848_crop.jpg"
     },
     {
-        "title": "\"그립감 좋다\" 한 마디에 대박 난 아이돌…결국 광고 따냈다 - 한국경제",
-        "source": "한국경제",
+        "title": "[ET포토] 엑스러브 우무티, '리센느 미나미 만큼 능숙한 한국말' - 전자신문",
+        "source": "전자신문",
         "date": "2026-10-28",
-        "url": "https://www.hankyung.com/article/202610280331g",
-        "summary": "\"그립감 좋다\" 한 마디에 대박 난 아이돌…결국 광고 따냈다, 삼성전자, 리센느와 캠페인 '협업' 리센느 앞세워 1020세대 여심 공략",
-        "image": "https://img.hankyung.com/photo/202610/ZA.45579009.1.jpg"
-    },
-    {
-        "title": "리센느, 궁금증 자극했던 미지의 일정 베일 벗었다…게임 형식의 프로모션 웹사이트 개설 - SPOTV NEWS",
-        "source": "SPOTV NEWS",
-        "date": "2026-10-28",
-        "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1016011",
-        "summary": "리센느가 새 앨범 프로모션을 위해 별도의 웹사이트를 개설했다. 리센느는 지난 27일 SNS를 통해 11월 3일 발매되는 네 번째 미니앨범 ‘펄스' 프로모션 웹사이트를 오픈하고 컴백 카운트다운에 돌입했다.",
-        "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202610/1016011_2034365_880.jpg"
+        "url": "https://www.etnews.com/20261028000434",
+        "summary": "그룹 엑스러브(XLOV/ 루이, 우무티, 하루)가 28일 서울 마포구 큐브컨벤션센터에서 진행된 미니 3집 'i=!'(아이 이퀄스 아이) 미디어 쇼케이스 일정에 참석했다. 이승훈 기자 (mozart1205@etnews.com)",
+        "image": "https://img.etnews.com/news/article/2026/10/28/cms_temp_stats_17931727531408959999.jpg"
     },
     {
         "title": "삼성전자, 갤럭시 ‘찐팬’ 리센느와 손잡았다 … Z 폴드8 마케팅 강화 - 워크투데이",
@@ -145,12 +161,12 @@ const NEWS_DATA = [
         "image": "http://www.worktoday.co.kr/news/thumbnail/202610/91112_131191_197_v150.jpg"
     },
     {
-        "title": "[Tech 뷰] 리센느, 삼성전자 ‘갤럭시 Z 폴드8’ 알린다 - 뷰어스",
-        "source": "뷰어스",
+        "title": "거제시, 걸그룹 리센느에 2026년 명예시민증 수여 - 경남도민신문",
+        "source": "경남도민신문",
         "date": "2026-10-28",
-        "url": "https://theviewers.co.kr/View.aspx?No=4287162",
-        "summary": "■ 삼성전자, 리센느와 ‘갤럭시 Z 폴드8’ 신규 캠페인 전개삼성전자가 K팝 아티스트 리센느(RESCENE)와 함께 ‘갤럭시 Z 폴드8’의 새로운 캠페인을 전개한다고 28일 밝혔다. 삼성전자는 과거에도 갤럭시 제품을 실제로 사랑하고 애용하는 셀럽 및 인플루언서를 대상으로 다양한 진정성 ",
-        "image": "https://cdn.coenworks.com/Files/30/News/202610/6456_20261028164452388.jpg"
+        "url": "http://www.gndomin.com/news/articleView.html?idxno=494513",
+        "summary": "거제시는 지난 24일 한화리조티 거제 벨버디어에서 걸그룹 리센느(RESCENE)에 2026년 명예시민증을 수여했다고 밝혔다. 리센느는 제70호 거제시 명예시민으로, 연예인으로서는 처음으로 명예시민증을 받았다. ‘거제 야호!’ 밈을 확산시키며 거제에 대한 관심과 친밀도를 높인 공로로 거제",
+        "image": "http://www.gndomin.com/news/thumbnail/202610/494513_482191_0459_v150.jpg"
     },
     {
         "title": "우무티, 리센느 미나미 만큼 능숙한 한국말 - 뉴스1",
@@ -158,6 +174,22 @@ const NEWS_DATA = [
         "date": "2026-10-28",
         "url": "https://www.news1.kr/photos/8184754",
         "summary": ""
+    },
+    {
+        "title": "리센느, 궁금증 자극했던 미지의 일정 베일 벗었다…게임 형식의 프로모션 웹사이트 개설 - SPOTV NEWS",
+        "source": "SPOTV NEWS",
+        "date": "2026-10-28",
+        "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1016011",
+        "summary": "리센느가 새 앨범 프로모션을 위해 별도의 웹사이트를 개설했다. 리센느는 지난 27일 SNS를 통해 11월 3일 발매되는 네 번째 미니앨범 ‘펄스' 프로모션 웹사이트를 오픈하고 컴백 카운트다운에 돌입했다.",
+        "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202610/1016011_2034365_880.jpg"
+    },
+    {
+        "title": "[Tech 뷰] 리센느, 삼성전자 ‘갤럭시 Z 폴드8’ 알린다 - 뷰어스",
+        "source": "뷰어스",
+        "date": "2026-10-28",
+        "url": "https://theviewers.co.kr/View.aspx?No=4287162",
+        "summary": "■ 삼성전자, 리센느와 ‘갤럭시 Z 폴드8’ 신규 캠페인 전개삼성전자가 K팝 아티스트 리센느(RESCENE)와 함께 ‘갤럭시 Z 폴드8’의 새로운 캠페인을 전개한다고 28일 밝혔다. 삼성전자는 과거에도 갤럭시 제품을 실제로 사랑하고 애용하는 셀럽 및 인플루언서를 대상으로 다양한 진정성 ",
+        "image": "https://cdn.coenworks.com/Files/30/News/202610/6456_20261028164452388.jpg"
     },
     {
         "title": "[강일홍의 오늘연예] 리센느, 무서운 '질주'...스타브랜드평판 1위 - 더팩트",
@@ -168,22 +200,6 @@ const NEWS_DATA = [
         "image": "https://img.tf.co.kr/article/home/2026/10/28/20269261793143994.jpg"
     },
     {
-        "title": "삼성전자, 리센느와 갤럭시 Z 폴드8 캠페인 전개 - 퍼블릭뉴스통신",
-        "source": "퍼블릭뉴스통신",
-        "date": "2026-10-28",
-        "url": "https://www.ttlnews.com/news/articleView.html?idxno=3156070",
-        "summary": "삼성전자가 갤럭시 제품을 실제로 사용하는 K팝 아티스트 리센느(RESCENE)와 ‘갤럭시 Z 폴드8’ 캠페인을 전개한다. 팬들의 협업 요청에 응답해 멤버들의 실사",
-        "image": "https://cdn.ttlnews.com/news/photo/202610/3156070_784487_1118.jpg"
-    },
-    {
-        "title": "삼성전자, 갤럭시Z 폴드8 새 얼굴 걸그룹 ‘리센느’ 발탁 - 브레이크뉴스",
-        "source": "브레이크뉴스",
-        "date": "2026-10-28",
-        "url": "http://breaknews.com/1246336",
-        "summary": "브레이크뉴스 정민우 기자= 삼성전자가 팬들의 요청과 아티스트의 실제 사용 경험을 적극 반영해 K팝 걸그룹 ‘리센느(RESCENE)’와 손잡고 ‘갤럭시Z 폴",
-        "image": "https://www.breaknews.com/imgdata/breaknews_com/202610/2026102800066871.jpg"
-    },
-    {
         "title": "팬들이 원한 협업을 캠페인으로…삼성전자, 리센느와 ‘갤럭시Z 폴드8’ 알린다 - 아이티데일리",
         "source": "아이티데일리",
         "date": "2026-10-28",
@@ -192,12 +208,20 @@ const NEWS_DATA = [
         "image": "https://cdn.itdaily.kr/news/thumbnail/202610/242487_248473_1443_v150.jpg"
     },
     {
-        "title": "리센느, 10월 라이징 가수 브랜드평판 1위…에이티즈·김용빈 뒤이어 - 전남일보",
-        "source": "전남일보",
+        "title": "리센느 효과 어마어마했다..'빵빵' 박상철 \"해외 러브콜까지\" 겹경사 ('양락1번지') - OSEN",
+        "source": "OSEN",
         "date": "2026-10-28",
-        "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000077225",
-        "summary": "리센느가 10월 라이징 가수 브랜드평판 1위에 올랐다.한국기업평판연구소는 9월 27일부터 10월 27일까지 측정한 8922만4754개의 빅데이터를 바탕으로 10월",
-        "image": "https://cdn.jnilbo.com/news/photo/202610/90000077225_606070_2454.jpg"
+        "url": "https://www.osen.co.kr/article/G1112900062",
+        "summary": "가수 박상철이 리센느 제나에게 고마운 마음을 전했다. 28일 유튜브 채널 '양락1번지'에는 '제나님께서 빵빵! 하고 들어오십니다! 리센느는 무조건이야~ 때아닌 호황기를 맞은...",
+        "image": "http://file.osen.co.kr/article_thumb/2026/10/28/202610282200773819_6ae1f61152e64_300x.jpg"
+    },
+    {
+        "title": "삼성전자, 리센느와 갤럭시 Z 폴드8 캠페인 전개 - 퍼블릭뉴스통신",
+        "source": "퍼블릭뉴스통신",
+        "date": "2026-10-28",
+        "url": "https://www.ttlnews.com/news/articleView.html?idxno=3156070",
+        "summary": "삼성전자가 갤럭시 제품을 실제로 사용하는 K팝 아티스트 리센느(RESCENE)와 ‘갤럭시 Z 폴드8’ 캠페인을 전개한다. 팬들의 협업 요청에 응답해 멤버들의 실사",
+        "image": "https://cdn.ttlnews.com/news/photo/202610/3156070_784487_1118.jpg"
     },
     {
         "title": "팬덤 요청에 리센느와 손잡은 삼성전자…‘갤럭시 찐팬’ 마케팅 - 라이센스뉴스",
@@ -216,82 +240,12 @@ const NEWS_DATA = [
         "image": "http://www.efnews.co.kr/news/photo/202610/133520_121191_2846.jpg"
     },
     {
-        "title": "삼성전자, ‘갤럭시 찐팬’ 리센느 모델 발탁 - 남다른디테일",
-        "source": "남다른디테일",
-        "date": "2026-10-28",
-        "url": "https://namdi.co.kr/?p=29828",
-        "summary": ""
-    },
-    {
-        "title": "리센느 효과 어마어마했다..'빵빵' 박상철 \"해외 러브콜까지\" 겹경사 ('양락1번지') - OSEN",
-        "source": "OSEN",
-        "date": "2026-10-28",
-        "url": "https://www.osen.co.kr/article/G1112900062",
-        "summary": "가수 박상철이 리센느 제나에게 고마운 마음을 전했다. 28일 유튜브 채널 '양락1번지'에는 '제나님께서 빵빵! 하고 들어오십니다! 리센느는 무조건이야~ 때아닌 호황기를 맞은...",
-        "image": "http://file.osen.co.kr/article_thumb/2026/10/28/202610282200773819_6ae1f61152e64_300x.jpg"
-    },
-    {
-        "title": "\"그립감 좋다\"던 리센느…갤럭시 Z 폴드8 캠페인 모델로 - IT타임스",
-        "source": "IT타임스",
-        "date": "2026-10-28",
-        "url": "https://www.ittimes.com/news/articleView.html?idxno=87675",
-        "summary": "삼성전자가 K팝 그룹 리센느(RESCENE)와 갤럭시 Z 폴드8 마케팅에 나선다. 팬들의 협업 요청에 응답해 실제 갤럭시 사용 경험을 알리고, 1020 여성 고객과의 접점을 넓힌다.삼성전자는 리센느와 갤럭시 Z 폴드8 신규 캠페인을 전개한다고 28일 밝혔다. 제품을 실제로 사용하는 인물",
-        "image": "https://cdn.ittimes.com/news/photo/202610/87675_26719_5230.jpg"
-    },
-    {
-        "title": "신예 걸그룹 리센느, 방탄소년단·임영웅 제치고 10월 스타브랜드평판 1위 등극 - 스페셜타임스",
-        "source": "스페셜타임스",
-        "date": "2026-10-28",
-        "url": "https://www.specialtimes.co.kr/news/articleView.html?idxno=479541",
-        "summary": "신예 걸그룹 리센느가 방탄소년단과 임영웅을 제치고 10월 스타브랜드평판 1위에 올랐다. 한국기업평판연구소의 이번 분석에서 리센느는 참여와 미디어, 소통, 커뮤니티 지수를 종합한 결과 정상에 올랐으며 방탄소년단이 2위, 임영웅이 3위를 기록했다. 리센느는 원이, 리브, 미나미, 메이,",
-        "image": "https://cdn.specialtimes.co.kr/news/thumbnail/202610/479541_468944_2555_v150.jpg"
-    },
-    {
         "title": "삼성전자 '갤럭시 찐팬' 리센느와 Z폴드8 캠페인 … 팬 요청에 화답 - 뉴데일리",
         "source": "뉴데일리",
         "date": "2026-10-28",
         "url": "https://biz.newdaily.co.kr/site/data/html/2026/10/28/2026102800091.html",
         "summary": "삼성전자가 K팝 아티스트 리센느(RESCENE)와 함께 '갤럭시 Z 폴드8' 신규 캠페인을 진행한다. 멤버들이 평소 갤럭시 제품을 사용해 온데다 팬들 사이에서도 두 측의 협업을 요청하는 목소리가 이어진 만큼 실제 사용 경험을 앞세워 1020 여성 고객과의 접점을 넓힌다는 계획이다.삼성전",
         "image": "https://image.newdaily.co.kr/site/data/img/2026/10/28/2026102800091_0.jpg"
-    },
-    {
-        "title": "방탄소년단·임영웅 제쳤다...스타 브랜드평판 1위 오른 '이 가수' - 위키트리",
-        "source": "위키트리",
-        "date": "2026-10-28",
-        "url": "https://www.wikitree.co.kr/articles/1169715",
-        "summary": "한국기업평판연구소 분석 결과, 리센느 1위",
-        "image": "https://cdnweb01.wikitree.co.kr/webdata/editor/202610/28/img_20261028090959_833aba55.jpg"
-    },
-    {
-        "title": "삼성전자, 걸그룹 리센느와 '갤럭시 Z 폴드8' 브랜드 캠페인 - 비즈니스포스트",
-        "source": "비즈니스포스트",
-        "date": "2026-10-28",
-        "url": "https://www.businesspost.co.kr/BP?command=article_view&num=450502",
-        "summary": ""
-    },
-    {
-        "title": "삼성전자, 갤럭시 Z 폴드8 ‘찐팬 마케팅’…리센느와 1020 여성 공략 - 나눔경제뉴스",
-        "source": "나눔경제뉴스",
-        "date": "2026-10-28",
-        "url": "https://www.nanumy.co.kr/news/articleView.html?idxno=4011081",
-        "summary": "삼성전자가 K팝 아티스트 리센느(RESCENE)와 손잡고 폴더블 스마트폰 ‘갤럭시 Z 폴드8’의 마케팅을 강화한다. 실제 갤럭시 제품을 애용하는 아티스트와 협업하",
-        "image": "https://cdn.nanumy.co.kr/news/photo/202610/4011081_65813_2228.jpg"
-    },
-    {
-        "title": "리센느, 10월 스타 브랜드평판 1위! - 아시아뉴스통신",
-        "source": "아시아뉴스통신",
-        "date": "2026-10-28",
-        "url": "https://www.anewsa.com/detail.php?number=3212488",
-        "summary": "(사진출처=리센느 공식 SNS) [아시아뉴스통신=이상진 기자] 스타 브랜드평판 2026년 10월 빅데이터 분석결과, 1위 리센느 2위 방탄소년단 3위 임영웅 순으로 분석되었다.한국기업평판연구소는 2026년 9월 28일부터 2026년 10월 28일까지 측정한 스타 브랜드 빅데이터 215,",
-        "image": "https://www.anewsa.com/news_images/2026/08/22/mark/20260822105534.jpg"
-    },
-    {
-        "title": "리센느, 미니 4집 ‘PULSE’ 프로모션 웹사이트 오픈+‘With’ 챌린지 영상 공개 - 브레이크뉴스",
-        "source": "브레이크뉴스",
-        "date": "2026-10-28",
-        "url": "http://breaknews.com/1246337",
-        "summary": "리센느, 미니 4집 ‘PULSE’ 프로모션 웹사이트 오픈 ©브레이크뉴스 박동제 기자= 걸그룹 리센느가 미니 4집 ‘PULS",
-        "image": "https://www.breaknews.com/imgdata/breaknews_com/202610/202610280836804.jpg"
     },
     {
         "title": "'2026 MMA' TOP10 투표, 오늘(29일) 마감…현재 1위 리센느-2위 임영웅-3위 플레이브 - 톱스타뉴스",
@@ -302,36 +256,28 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202610/16261132_2070651_645_crop.jpg"
     },
     {
-        "title": "포카 대란 일으킨 리센느, 이번엔 '도시락'으로 나온다 - 캠페인 인사이트",
-        "source": "캠페인 인사이트",
+        "title": "신예 걸그룹 리센느, 방탄소년단·임영웅 제치고 10월 스타브랜드평판 1위 등극 - 스페셜타임스",
+        "source": "스페셜타임스",
         "date": "2026-10-28",
-        "url": "https://www.campaigninsight.co.kr/news/articleView.html?idxno=6870",
-        "summary": "편의점 CU가 9월 출시한 ‘리센느 빵’의 성공을 발판으로 협업 상품을 도시락으로 확대한다. CU는 걸그룹 리센느와 협업한 ‘리센느 도시락’ 5종을 오는 11월",
-        "image": "https://cdn.campaigninsight.co.kr/news/photo/202610/6870_9287_5617.png"
+        "url": "https://www.specialtimes.co.kr/news/articleView.html?idxno=479541",
+        "summary": "신예 걸그룹 리센느가 방탄소년단과 임영웅을 제치고 10월 스타브랜드평판 1위에 올랐다. 한국기업평판연구소의 이번 분석에서 리센느는 참여와 미디어, 소통, 커뮤니티 지수를 종합한 결과 정상에 올랐으며 방탄소년단이 2위, 임영웅이 3위를 기록했다. 리센느는 원이, 리브, 미나미, 메이,",
+        "image": "https://cdn.specialtimes.co.kr/news/thumbnail/202610/479541_468944_2555_v150.jpg"
     },
     {
-        "title": "삼성전자, 대세 걸그룹 리센느와 ‘갤럭시 Z 폴드8’ 캠페인 전개 - 한강타임즈",
-        "source": "한강타임즈",
+        "title": "방탄소년단·임영웅 제쳤다...스타 브랜드평판 1위 오른 '이 가수' - 위키트리",
+        "source": "위키트리",
         "date": "2026-10-28",
-        "url": "https://www.hg-times.com/news/articleView.html?idxno=306490",
-        "summary": "한강타임즈 김광호 기자 = 삼성전자는 K팝 아티스트 '리센느(RESCENE)'와 함께 '갤럭시 Z 폴드8'의 새로운 캠페인을 전개한다고 28일 밝혔다.삼성전자는",
-        "image": "https://cdn.hg-times.com/news/photo/202610/306490_307143_1740.jpg"
+        "url": "https://www.wikitree.co.kr/articles/1169715",
+        "summary": "한국기업평판연구소 분석 결과, 리센느 1위",
+        "image": "https://cdnweb01.wikitree.co.kr/webdata/editor/202610/28/img_20261028090959_833aba55.jpg"
     },
     {
-        "title": "갤럭시 좋아하던 리센느, Z 폴드8 얼굴 됐다 - 스마트비즈",
-        "source": "스마트비즈",
+        "title": "리센느, 10월 스타 브랜드평판 1위! - 아시아뉴스통신",
+        "source": "아시아뉴스통신",
         "date": "2026-10-28",
-        "url": "https://www.smartbizn.com/news/articleView.html?idxno=157737",
-        "summary": "| 스마트비즈 = 양대규 기자 | 삼성전자가 K팝 아티스트 리센느(RESCENE)와 손잡고 갤럭시 Z 폴드8 마케팅에 나선다. 제품을 실제로 사용하는 아티스트의",
-        "image": "https://cdn.smartbizn.com/news/photo/202610/157737_265202_3534.jpg"
-    },
-    {
-        "title": "리센느, 이제는 '갤럭시 야호'...팬들 바람 통했다 - 뉴스컬처",
-        "source": "뉴스컬처",
-        "date": "2026-10-28",
-        "url": "https://www.nc.press/news/articleView.html?idxno=629679",
-        "summary": "[뉴스컬처 이준섭 기자] 그룹 리센느(RESCENE)가 신보 발매를 앞두고 삼성전자 갤럭시 Z 폴드8 캠페인에 참여한다. 멤버들이 평소 갤럭시 제품을 사용하는 모",
-        "image": "https://cdn.nc.press/news/photo/202610/629679_867173_2311.jpg"
+        "url": "https://www.anewsa.com/detail.php?number=3212488",
+        "summary": "(사진출처=리센느 공식 SNS) [아시아뉴스통신=이상진 기자] 스타 브랜드평판 2026년 10월 빅데이터 분석결과, 1위 리센느 2위 방탄소년단 3위 임영웅 순으로 분석되었다.한국기업평판연구소는 2026년 9월 28일부터 2026년 10월 28일까지 측정한 스타 브랜드 빅데이터 215,",
+        "image": "https://www.anewsa.com/news_images/2026/08/22/mark/20260822105534.jpg"
     },
     {
         "title": "\"폴드8, 그립감이 좋다\"…리센느, 팬덤 요청에 갤럭시 모델 됐다 - 뉴시스",
@@ -342,6 +288,44 @@ const NEWS_DATA = [
         "image": "https://img1.newsis.com/2026/10/28/NISI20261028_0002275789_web.jpg"
     },
     {
+        "title": "\"그립감 좋다\"던 리센느…갤럭시 Z 폴드8 캠페인 모델로 - IT타임스",
+        "source": "IT타임스",
+        "date": "2026-10-28",
+        "url": "https://www.ittimes.com/news/articleView.html?idxno=87675",
+        "summary": "삼성전자가 K팝 그룹 리센느(RESCENE)와 갤럭시 Z 폴드8 마케팅에 나선다. 팬들의 협업 요청에 응답해 실제 갤럭시 사용 경험을 알리고, 1020 여성 고객과의 접점을 넓힌다.삼성전자는 리센느와 갤럭시 Z 폴드8 신규 캠페인을 전개한다고 28일 밝혔다. 제품을 실제로 사용하는 인물",
+        "image": "https://cdn.ittimes.com/news/photo/202610/87675_26719_5230.jpg"
+    },
+    {
+        "title": "삼성전자, ‘갤럭시 찐팬’ 리센느 모델 발탁 - 남다른디테일",
+        "source": "남다른디테일",
+        "date": "2026-10-28",
+        "url": "https://namdi.co.kr/?p=29828",
+        "summary": ""
+    },
+    {
+        "title": "갤럭시 좋아하던 리센느, Z 폴드8 얼굴 됐다 - 스마트비즈",
+        "source": "스마트비즈",
+        "date": "2026-10-28",
+        "url": "https://www.smartbizn.com/news/articleView.html?idxno=157737",
+        "summary": "| 스마트비즈 = 양대규 기자 | 삼성전자가 K팝 아티스트 리센느(RESCENE)와 손잡고 갤럭시 Z 폴드8 마케팅에 나선다. 제품을 실제로 사용하는 아티스트의",
+        "image": "https://cdn.smartbizn.com/news/photo/202610/157737_265202_3534.jpg"
+    },
+    {
+        "title": "포카 대란 일으킨 리센느, 이번엔 '도시락'으로 나온다 - 캠페인 인사이트",
+        "source": "캠페인 인사이트",
+        "date": "2026-10-28",
+        "url": "https://www.campaigninsight.co.kr/news/articleView.html?idxno=6870",
+        "summary": "편의점 CU가 9월 출시한 ‘리센느 빵’의 성공을 발판으로 협업 상품을 도시락으로 확대한다. CU는 걸그룹 리센느와 협업한 ‘리센느 도시락’ 5종을 오는 11월",
+        "image": "https://cdn.campaigninsight.co.kr/news/photo/202610/6870_9287_5617.png"
+    },
+    {
+        "title": "삼성전자, 걸그룹 리센느와 '갤럭시 Z 폴드8' 브랜드 캠페인 - 비즈니스포스트",
+        "source": "비즈니스포스트",
+        "date": "2026-10-28",
+        "url": "https://www.businesspost.co.kr/BP?command=article_view&num=450502",
+        "summary": ""
+    },
+    {
         "title": "삼성전자, 리센느와 ‘갤폴8’ 캠페인…1020 여성층 공략 나선다 - 매일경제",
         "source": "매일경제",
         "date": "2026-10-28",
@@ -350,50 +334,12 @@ const NEWS_DATA = [
         "image": "https://pimg.mk.co.kr/news/cms/202610/28/news-p.v1.20261028.f1f0a3fe7084404788c363e5352f266c_R.jpg"
     },
     {
-        "title": "삼성전자, 리센느와 갤럭시Z폴드8 캠페인…티저 조회수 200만 돌파 - Queen 이코노미퀸",
-        "source": "Queen 이코노미퀸",
+        "title": "듣고 맡고 누른다…리센느, 감각 깨우는 ‘오감 공략법’ - 스포츠동아",
+        "source": "스포츠동아",
         "date": "2026-10-28",
-        "url": "https://www.queen.co.kr/news/articleView.html?idxno=465424",
-        "summary": ""
-    },
-    {
-        "title": "삼성전자, K팝 그룹 리센느와 ‘갤럭시 Z 폴드8’ 신규 캠페인 전개 - 뉴스N연합",
-        "source": "뉴스N연합",
-        "date": "2026-10-28",
-        "url": "https://newsyonhap.com/news/133581",
-        "summary": "△ 삼성전자가 K팝 아티스트 ‘리센느(RESCENE)’와 함께 ‘갤럭시 Z 폴드8’의 새로운 캠페인을 전개한다 [제공=삼성전자] 오랜 기간 축적해 온 브랜드 철학과 충성 고객 중심의 마케팅 기조를 바탕으로, 삼성전자가 대세 K팝 걸그룹과 손잡고 신제품 알리기에 나선다. 삼성전자는 인기 ",
-        "image": "https://img.ehom.kr/news/2026/10/28/6d1f27de859baffa62c7e2c246d33bcf132642_thumb.jpg"
-    },
-    {
-        "title": "대세 걸그룹 리센느, 알고 보니 '갤럭시 찐팬'…삼성 폴드8 얼굴 됐다 - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-10-28",
-        "url": "https://www.news1.kr/it-science/mobile/6334370",
-        "summary": ""
-    },
-    {
-        "title": "삼성전자, ‘갤럭시 찐팬’ K팝 아티스트 리센느와 신규 캠페인 전개 - 데일리메이커",
-        "source": "데일리메이커",
-        "date": "2026-10-28",
-        "url": "http://www.d-maker.kr/news/articleView.html?idxno=83720",
-        "summary": "삼성전자가 갤럭시 ‘찐팬’ 중심의 마케팅 철학을 바탕으로 K팝 아티스트 ‘리센느(RESCENE)’와 함께 ‘갤럭시 Z 폴드8’의 새로운 캠페인을 전개한다.이번 리센느와의 협업 역시 이러한 진정성 기반 캠페인의 연장선상에 있다. 평소 일상에서 ‘갤럭시 Z 폴드8’을 실제로 사용하는 리센느",
-        "image": "http://www.d-maker.kr/news/thumbnail/202610/mn_83720_20261028140134_1_v150.jpg"
-    },
-    {
-        "title": "리센느, 연예인 최초로 거제시 명예시민 선정 - CWN",
-        "source": "CWN",
-        "date": "2026-10-28",
-        "url": "https://www.cwn.kr/news/articleView.html?idxno=60401",
-        "summary": "걸그룹 리센느(RESCENE)가 거제시의 관광 활성화와 도시 이미지 제고에 기여한 공로로 명예시민에 선정됐다.거제시는 한화리조트 거제 벨버디어에서 리센느에게 제7",
-        "image": "https://cdn.cwn.kr/news/photo/202610/60401_60879_1545.jpg"
-    },
-    {
-        "title": "리센느, 10월 라이징 가수 브랜드평판 1위…에이티즈·김용빈 뒤이어 - 제이앤엠뉴스",
-        "source": "제이앤엠뉴스",
-        "date": "2026-10-28",
-        "url": "https://www.jnmnews.com/news/article.html?no=677312",
-        "summary": "제이앤엠뉴스 | 걸그룹 리센느(RESCENE)가 2026년 10월 라이징 가수 브랜드평판 조사에서 1위를 차지했다. 에이티즈와 김용빈이 각각 2위와 3위에 올랐으며, 코르티스와 성리가 뒤를 이었다. 리센느는 전월보다 브랜드평판지수가 하락했음에도 조사 대상 가운데 가장 높은 지수를 기록하",
-        "image": "https://www.jnmnews.com/data/photos/20261044/art_17931648490032_58d49a.jpg"
+        "url": "https://sports.donga.com/ent/article/all/20261028/134922298/1",
+        "summary": "[스포츠동아 곽현수 기자] 음악을 즐기는 데 이제는 이어폰만으로는 부족하다. 손가락을 움직여 게임을 해야 숨겨진 사진을 발견할 수 있고 음악에는 향기까지 따라붙는다. 청취 경험에 머물지 않고 눈과 코끝까지 자극하는 걸그룹 리센느의 특별한 컴백 이야기다.리센느가 11월…",
+        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/28/134922303.1.jpg"
     },
     {
         "title": "[단독] \"원이야 단디 챙기라\"…CU '리센느 도시락' 5종 내달 초 출시 - 뉴스1",
@@ -403,12 +349,20 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
-        "title": "리센느, 컴백까지 단 6일..미지의 일정까지 드디어 공개 - Chosunbiz",
-        "source": "Chosunbiz",
+        "title": "리센느 ‘대세몰이’…BTS 그리고 임영웅 - 스포츠경향",
+        "source": "스포츠경향",
         "date": "2026-10-27",
-        "url": "https://biz.chosun.com/entertainment/enter_general/2026/10/28/MFTGGOJQHEZGCYJWGQ4DKYTCG4/",
-        "summary": "리센느, 컴백까지 단 6일..미지의 일정까지 드디어 공개",
-        "image": "https://biz.chosun.com/resizer/v2/GBSDGMZTHE3TEYLBGM4WEMBSGM.jpg?auth=12583012041269ec4076168ad35d9c427b925f1273ffb1cc0ac336452e87d30f&width=572&height=300&smart=true"
+        "url": "https://sports.khan.co.kr/article/202610280817003",
+        "summary": "‘국민 걸그룹’ 리센느의 대세몰이가 거침없다. 그룹 리센느가 방탄소년단과 임영웅을 제치고 2026년 10월 스타 브랜드평판 1위에 올랐다. 탄탄한 글로벌 팬덤과 음원·영상 시장에서의 영향력이 주효했다는 분석이다...",
+        "image": "https://images.khan.co.kr/article/2026/10/28/news-p.v1.20261028.6997c0d7209740d6b1a5497c6f9af6a5_P1.png"
+    },
+    {
+        "title": "1위 리센느, 2위 방탄소년단, 3위 임영웅 - 스타뉴스",
+        "source": "스타뉴스",
+        "date": "2026-10-27",
+        "url": "https://www.starnewskorea.com/music/2026/10/28/2026102807393435494",
+        "summary": "그룹 리센느(RESCENE)가 10월 스타 브랜드평판 1위에 오르며 '대세' 인기를 또 한 번 빛냈다. 한국기업평판연구소는 2026년 10월 스타 브랜드평판 조사에서 리센느가 브랜드평판지수 909만245로 1위를 기록했다고 분석했다. 리센느의 지수는 9월 1051만6714보다 13.56",
+        "image": "https://image.starnewskorea.com/21/2026/10/2026102807393435494_1.jpg"
     },
     {
         "title": "리센느, 이번엔 머스크 향이다…팬들 심장 뛰게 할 '펄스' - 한국경제",
@@ -427,27 +381,12 @@ const NEWS_DATA = [
         "image": "https://cdn.2news.co.kr/news/photo/202610/mn_30693_20261028074043_1.jpg"
     },
     {
-        "title": "팬들 목소리에 응답한 삼성전자…리센느와 `갤럭시 Z 폴드8` 마케팅 전개 - 디지털데일리",
-        "source": "디지털데일리",
+        "title": "리센느, '2026 MMA' TOP10 투표수 100만 돌파…2위 임영웅-3위 플레이브 - 톱스타뉴스",
+        "source": "톱스타뉴스",
         "date": "2026-10-27",
-        "url": "https://www.ddaily.co.kr/page/view/2026102808581156639",
-        "summary": "삼성전자가 K팝 아티스트 '리센느(RESCENE)'와 함께 '갤럭시 Z 폴드8'의 새로운 캠페인을 전개한다. [사진=삼성전자] [디지털데일리 옥송이기자] 삼성전자가 K팝 아티스트..."
-    },
-    {
-        "title": "\"팬들 비 맞는데...\" 리센느, 무대 천막 치웠다 - YTN star",
-        "source": "YTN star",
-        "date": "2026-10-27",
-        "url": "https://star.ytn.co.kr/_sn/0117_202610270946226135",
-        "summary": "그룹 리센느가 비를 맞으며 공연을 관람하는 팬들을 위해 빗속에서 무대를 펼쳐 감동을 안겼습니다. 리센느는 지난 24일 경남 거제시 옥포 한화오션 오션플라자 사외주차장에서 열린 ‘거제 야호, 리센느와 함께하는 오션하모니’ 공연에 참석했습니다. 이날 거제에는 비가 쏟아졌습니다.객석에서 공연",
-        "image": "https://image.ytn.co.kr/general/jpg/2026/1027/202610270946226135_t.jpg"
-    },
-    {
-        "title": "삼성전자, 리센느와 갤럭시 Z 폴드8 캠페인…1020 여성 공략 - 글로벌이코노믹",
-        "source": "글로벌이코노믹",
-        "date": "2026-10-27",
-        "url": "https://www.g-enews.com/article/Industry/2026/10/2026102808243357993084322ec9_1",
-        "summary": "삼성전자가 K팝 걸그룹 리센느(RESCENE)와 손잡고 폴더블 스마트폰 '갤럭시 Z 폴드8' 마케팅에 나선다. 실제 갤럭시 제품을 사용해 온 아티스트의 경험을 앞세워 10~20대 여성 소비자와의 접점을 확대한다는 전략이다.삼성전자는 28일 리센느와 함께 갤럭시 Z 폴드8의 신규 캠페인을",
-        "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=20261028082459033323084322ec91182166987.jpg"
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16259934",
+        "summary": "리센느가 'MMA2026' TOP10 투표에서 후보 중 가장 먼저 100만 표를 돌파하며 1위를 기록했다. 오는 11월 3일 미니 4집 'PULSE' 발매를 앞두고 있는 가운데 높은 팬덤 화력에도 관심이 쏠린다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202610/16259934_2069255_3253_crop.jpg"
     },
     {
         "title": "리센느, 미니 4집 ‘PULSE’ 리듬 게임 웹사이트 공개로 컴백 카운트다운 - 톱스타뉴스",
@@ -458,6 +397,21 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202610/16260066_2069316_556_crop.jpg"
     },
     {
+        "title": "\"팬들 비 맞는데...\" 리센느, 무대 천막 치웠다 - YTN",
+        "source": "YTN",
+        "date": "2026-10-27",
+        "url": "https://www.ytn.co.kr/_ln/0117_202610270946226135",
+        "summary": "그룹 리센느가 비를 맞으며 공연을 관람하는 팬들을 위해 빗속에서 무대를 펼쳐 감동을 안겼습니다. 리센느는 지난 24일 경남 거제시 옥포 한화오션 오션플라자 사외주차장에서 열린 ‘거제 야호, 리센느와 함께하는 오션하모니’ 공연에 참석했습니다. 이날 거제에는 비가 쏟아졌습니다.객석에서 공연",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1027/202610270946226135_t.jpg"
+    },
+    {
+        "title": "팬들 목소리에 응답한 삼성전자…리센느와 `갤럭시 Z 폴드8` 마케팅 전개 - 디지털데일리",
+        "source": "디지털데일리",
+        "date": "2026-10-27",
+        "url": "https://www.ddaily.co.kr/page/view/2026102808581156639",
+        "summary": "삼성전자가 K팝 아티스트 '리센느(RESCENE)'와 함께 '갤럭시 Z 폴드8'의 새로운 캠페인을 전개한다. [사진=삼성전자] [디지털데일리 옥송이기자] 삼성전자가 K팝 아티스트..."
+    },
+    {
         "title": "'국민 걸그룹' 리센느, 컴백 전 수록곡 메들리 공개 - YTN star",
         "source": "YTN star",
         "date": "2026-10-27",
@@ -466,20 +420,20 @@ const NEWS_DATA = [
         "image": "https://image.ytn.co.kr/general/jpg/2026/1027/202610271104578470_t.jpg"
     },
     {
-        "title": "\"갤럭시 모델로 써달라\" 팬심 통했다…삼성전자, 리센느와 '폴드8' 캠페인 - 아이뉴스24",
-        "source": "아이뉴스24",
+        "title": "삼성전자, 리센느와 갤럭시Z폴드8 캠페인 - 지디넷코리아",
+        "source": "지디넷코리아",
         "date": "2026-10-27",
-        "url": "http://www.inews24.com/view/2019674",
-        "summary": "실제 갤럭시 애용하는 리센느와 협업해 1020 여성층 공략 삼성 공식 SNS 티저 공개 하루 만에 조회수 200만회 돌파 삼성전자가 K팝 그룹 리센느(RESCENE)를 앞세워 '갤럭시 Z 폴드8' 마케팅을 강화한다. 평소 갤럭시 스마트폰에 대한 애정을 드러낸 멤버들을 광고 모델로 기용해",
-        "image": "https://image.inews24.com/v1/e870716af1e03e.jpg"
+        "url": "https://zdnet.co.kr/view/?no=20261028081113",
+        "summary": "삼성전자가 아이돌 '리센느(RESCENE)'와 손잡고 폴더블폰 신제품 '갤럭시 Z 폴드8'의 새로운 캠페인을 전개한다고 28일 밝혔다. 브랜드와 제품을 일상에서 자발적으로 사용해 온 아티스트와 팬덤의 유대를 조명해 마케팅 진정성...",
+        "image": "https://image.zdnet.co.kr/2026/10/28/e6bd09fdbd2a99f4403ee54472822055.jpg"
     },
     {
-        "title": "삼성전자, 걸그룹 리센느와 찐팬 '갤럭시Z폴드8' 캠페인 전개 - 글로벌E",
-        "source": "글로벌E",
+        "title": "삼성전자, 리센느와 갤럭시 Z 폴드8 캠페인…1020 여성 공략 - 글로벌이코노믹",
+        "source": "글로벌이코노믹",
         "date": "2026-10-27",
-        "url": "https://www.globale.co.kr/news/articleView.html?idxno=41273",
-        "summary": "삼성전자가 실제 갤럭시 기기를 애용하는 '찐팬' 중심의 마케팅 철학을 바탕으로 K-팝 라이징 그룹 리센느(RESCENE)와 손잡고 폴더블폰 갤럭시Z폴드8의 신규 브랜드 캠페인에 들어갔다.자발적인 제품 애정과 팬덤의 목소리를 반영한 진정성 소통으로 1020 세대 여성 소비자들의 마음을",
-        "image": "https://cdn.globale.co.kr/news/thumbnail/202610/41273_68646_643_v150.jpg"
+        "url": "https://www.g-enews.com/article/Industry/2026/10/2026102808243357993084322ec9_1",
+        "summary": "삼성전자가 K팝 걸그룹 리센느(RESCENE)와 손잡고 폴더블 스마트폰 '갤럭시 Z 폴드8' 마케팅에 나선다. 실제 갤럭시 제품을 사용해 온 아티스트의 경험을 앞세워 10~20대 여성 소비자와의 접점을 확대한다는 전략이다.삼성전자는 28일 리센느와 함께 갤럭시 Z 폴드8의 신규 캠페인을",
+        "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=20261028082459033323084322ec91182166987.jpg"
     },
     {
         "title": "\"갤럭시 찐팬이 모델로\"…삼성전자, 리센느와 '갤럭시 Z 폴드8' 캠페인 전개 - 뉴스탭",
@@ -490,28 +444,12 @@ const NEWS_DATA = [
         "image": "https://cdn.newstap.co.kr/news/photo/202610/336612_447212_958.jpg"
     },
     {
-        "title": "리센느·에이티즈·나연, 11월도 뜨거울 가요계 - 스포츠Q",
-        "source": "스포츠Q",
+        "title": "삼성전자, 걸그룹 리센느와 찐팬 '갤럭시Z폴드8' 캠페인 전개 - 글로벌E",
+        "source": "글로벌E",
         "date": "2026-10-27",
-        "url": "https://www.newsq.co.kr/news/articleView.html?idxno=500622",
-        "summary": "뉴스Q(큐) 스포츠Q 임유진 기자 / 11월 가요계에 반가운 이름들이 속속 등장한다.리센느와 에이티즈, 엔시티 드림을 비롯 투어스, 투모로우바이투게더, 엔하이픈",
-        "image": "https://cdn.newsq.co.kr/news/photo/202610/500622_578635_371.jpg"
-    },
-    {
-        "title": "리센느 ‘대세몰이’…BTS 그리고 임영웅 - 스포츠경향",
-        "source": "스포츠경향",
-        "date": "2026-10-27",
-        "url": "https://sports.khan.co.kr/article/202610280817003",
-        "summary": "‘국민 걸그룹’ 리센느의 대세몰이가 거침없다. 그룹 리센느가 방탄소년단과 임영웅을 제치고 2026년 10월 스타 브랜드평판 1위에 올랐다. 탄탄한 글로벌 팬덤과 음원·영상 시장에서의 영향력이 주효했다는 분석이다...",
-        "image": "https://images.khan.co.kr/article/2026/10/28/news-p.v1.20261028.6997c0d7209740d6b1a5497c6f9af6a5_P1.png"
-    },
-    {
-        "title": "삼성전자, ‘갤럭시 찐팬’ 리센느와 ‘갤럭시 Z 폴드8’ 캠페인 - 이투데이",
-        "source": "이투데이",
-        "date": "2026-10-27",
-        "url": "https://www.etoday.co.kr/news/view/2640903",
-        "summary": "팬들의 협업 요청에 화답…실사용 경험을 담아1020 여성층 겨냥…디자인·기능 매력 소개신규 앨범 활동 연계…온·오프라인 홍보 확대▲삼성전자가 K팝 아",
-        "image": "https://img.etoday.co.kr/pto_db/2026/10/20261028084721_2408095_1200_679.jpg"
+        "url": "https://www.globale.co.kr/news/articleView.html?idxno=41273",
+        "summary": "삼성전자가 실제 갤럭시 기기를 애용하는 '찐팬' 중심의 마케팅 철학을 바탕으로 K-팝 라이징 그룹 리센느(RESCENE)와 손잡고 폴더블폰 갤럭시Z폴드8의 신규 브랜드 캠페인에 들어갔다.자발적인 제품 애정과 팬덤의 목소리를 반영한 진정성 소통으로 1020 세대 여성 소비자들의 마음을",
+        "image": "https://cdn.globale.co.kr/news/thumbnail/202610/41273_68646_643_v150.jpg"
     },
     {
         "title": "리센느, '펄스' 미리듣기…\"중독적 훅, 잔잔한 감성\" - 디스패치",
@@ -538,6 +476,30 @@ const NEWS_DATA = [
         "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/28/134921954.1.jpg"
     },
     {
+        "title": "리센느·에이티즈·나연, 11월도 뜨거울 가요계 - 스포츠Q",
+        "source": "스포츠Q",
+        "date": "2026-10-27",
+        "url": "https://www.newsq.co.kr/news/articleView.html?idxno=500622",
+        "summary": "뉴스Q(큐) 스포츠Q 임유진 기자 / 11월 가요계에 반가운 이름들이 속속 등장한다.리센느와 에이티즈, 엔시티 드림을 비롯 투어스, 투모로우바이투게더, 엔하이픈",
+        "image": "https://cdn.newsq.co.kr/news/photo/202610/500622_578635_371.jpg"
+    },
+    {
+        "title": "\"갤럭시 모델로 써달라\" 팬심 통했다…삼성전자, 리센느와 '폴드8' 캠페인 - 아이뉴스24",
+        "source": "아이뉴스24",
+        "date": "2026-10-27",
+        "url": "https://m.inews24.com/v/2019674",
+        "summary": "실제 갤럭시 애용하는 리센느와 협업해 1020 여성층 공략삼성 공식 SNS 티저 공개 하루 만에 조회수 200만회 돌파 삼성전자가 K팝 그룹 리센느(RESCENE)를 앞세워 '갤럭시 Z 폴드8' 마케팅을 강화한다. 평소 갤럭시 스마트폰에 대한 애정을 드러낸 멤버들을 광고 모델로 기용해 ",
+        "image": "https://static.inews24.com/v1/e870716af1e03e.jpg"
+    },
+    {
+        "title": "삼성전자, ‘갤럭시 찐팬’ 리센느와 ‘갤럭시 Z 폴드8’ 캠페인 - 이투데이",
+        "source": "이투데이",
+        "date": "2026-10-27",
+        "url": "https://www.etoday.co.kr/news/view/2640903",
+        "summary": "팬들의 협업 요청에 화답…실사용 경험을 담아1020 여성층 겨냥…디자인·기능 매력 소개신규 앨범 활동 연계…온·오프라인 홍보 확대▲삼성전자가 K팝 아",
+        "image": "https://img.etoday.co.kr/pto_db/2026/10/20261028084721_2408095_1200_679.jpg"
+    },
+    {
         "title": "“그립감 좋다”…삼성, 리센느와 Z 폴드8 협업 - 데일리안",
         "source": "데일리안",
         "date": "2026-10-27",
@@ -546,43 +508,20 @@ const NEWS_DATA = [
         "image": "https://cdnimage.dailian.co.kr/news/202610/news_1793142843397_1707026_m_1.jpg"
     },
     {
-        "title": "'컴백' 리센느 신곡, 게임으로 먼저 즐긴다…프로모션 누리집 개설 - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-10-27",
-        "url": "https://www.news1.kr/entertain/music/6334071",
-        "summary": ""
-    },
-    {
-        "title": "1위 리센느, 2위 방탄소년단, 3위 임영웅 - 스타뉴스",
-        "source": "스타뉴스",
-        "date": "2026-10-27",
-        "url": "https://www.starnewskorea.com/music/2026/10/28/2026102807393435494",
-        "summary": "그룹 리센느(RESCENE)가 10월 스타 브랜드평판 1위에 오르며 '대세' 인기를 또 한 번 빛냈다. 한국기업평판연구소는 2026년 10월 스타 브랜드평판 조사에서 리센느가 브랜드평판지수 909만245로 1위를 기록했다고 분석했다. 리센느의 지수는 9월 1051만6714보다 13.56",
-        "image": "https://image.starnewskorea.com/21/2026/10/2026102807393435494_1.jpg"
-    },
-    {
-        "title": "리센느, '2026 MMA' TOP10 투표수 100만 돌파…2위 임영웅-3위 플레이브 - 톱스타뉴스",
-        "source": "톱스타뉴스",
-        "date": "2026-10-27",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16259934",
-        "summary": "리센느가 'MMA2026' TOP10 투표에서 후보 중 가장 먼저 100만 표를 돌파하며 1위를 기록했다. 오는 11월 3일 미니 4집 'PULSE' 발매를 앞두고 있는 가운데 높은 팬덤 화력에도 관심이 쏠린다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202610/16259934_2069255_3253_crop.jpg"
-    },
-    {
-        "title": "리센느, 컴백까지 단 6일..미지의 일정까지 드디어 공개 - OSEN",
-        "source": "OSEN",
-        "date": "2026-10-27",
-        "url": "http://www.osen.co.kr/article/G1112899666",
-        "summary": "그룹 리센느(RESCENE)의 미지의 일정이 드디어 베일을 벗었다. 지난 27일 리센느(원이, 리브, 미나미, 메이, 제나)가 공식 SNS에 공개한 네 번째 미니 앨범...",
-        "image": "http://file.osen.co.kr/article_thumb/2026/10/28/202610280750779999_6ae12c2ef1a43_300x.jpg"
-    },
-    {
         "title": "리센느, 이번 향기는 은은한 머스크 향…중독적 멜로디부터 잔잔한 감성까지 담았다 - SPOTV NEWS",
         "source": "SPOTV NEWS",
         "date": "2026-10-27",
         "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1015691",
         "summary": "11월 3일 네번째 미니앨범 '펄스'를 발표하는 리센느가 머스크 향을 가득 머금고 가요계로 돌아온다. 리센느는 지난 26일 SNS를 통해 새 앨범 ‘펄스' 하이라이트 메들리 영상을 공개하고 컴백 열기에 불을 지피고 있다.",
         "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202610/1015691_2033711_2409.jpg"
+    },
+    {
+        "title": "리센느, 컴백까지 단 6일..미지의 일정까지 드디어 공개 - Chosunbiz",
+        "source": "Chosunbiz",
+        "date": "2026-10-27",
+        "url": "https://biz.chosun.com/entertainment/enter_general/2026/10/28/MFTGGOJQHEZGCYJWGQ4DKYTCG4/?outputType=amp",
+        "summary": "리센느, 컴백까지 단 6일..미지의 일정까지 드디어 공개",
+        "image": "https://biz.chosun.com/resizer/v2/GBSDGMZTHE3TEYLBGM4WEMBSGM.jpg?auth=12583012041269ec4076168ad35d9c427b925f1273ffb1cc0ac336452e87d30f&width=572&height=300&smart=true"
     },
     {
         "title": "“팬들만 비 맞을 수 없죠“…리센느, 천막 걷고 팬들과 ’흠뻑’ - 연합뉴스TV",
@@ -609,6 +548,22 @@ const NEWS_DATA = [
         "image": "https://cdn.idomin.com/news/photo/202610/2017871_728750_4007.png"
     },
     {
+        "title": "리센느, 거제 홍보대사 넘어 명예시민으로…지역 사랑 빛났다 - YTN",
+        "source": "YTN",
+        "date": "2026-10-26",
+        "url": "https://www.ytn.co.kr/_sn/0117_202610261135552314",
+        "summary": "걸그룹 리센느(RESCENE)가 경남 거제시 사상 최초의 연예인 명예시민이 됐다. 지역 홍보대사로 활약하며 거제의 이름을 널리 알린 데 이어 특별한 영예까지 안으며 지역과 맺은 인연을 빛냈다. 거제시는 지난 24일 한화리조트 거제 벨버디어에서 리센느에게 명예시민증을 수여했다고 26일 밝",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1026/202610261135552314_t.jpg"
+    },
+    {
+        "title": "'거제 야호' 리센느에 거제 명예시민증…\"애정으로 지역 홍보\" - 연합뉴스",
+        "source": "연합뉴스",
+        "date": "2026-10-26",
+        "url": "https://www.yna.co.kr/view/AKR20261026092800052",
+        "summary": "(거제=연합뉴스) 정종호 기자 = 경남 거제시는 시 홍보대사인 걸그룹 리센느에게 명예시민증을 수여했다고 26일 밝혔다.",
+        "image": "https://img2.yna.co.kr/etc/inner/KR/2026/10/26/AKR20261026092800052_01_i_P4.jpg"
+    },
+    {
         "title": "거제-걸그룹 리센느, 연예인 최초 명예시민 선정 - 부산경남대표방송 KNN 뉴스",
         "source": "부산경남대표방송 KNN 뉴스",
         "date": "2026-10-26",
@@ -617,20 +572,28 @@ const NEWS_DATA = [
         "image": "https://kcms.knn.co.kr/mam/data/CI2016123000000000006/CI2017072513315301673/2026/10/27/26102759709/26102759709.jpg"
     },
     {
-        "title": "“거제 야호!” 리센느, ‘명예 거제시민’ 됐다…연예인으론 처음 - 한겨레",
-        "source": "한겨레",
+        "title": "‘거제 야호’ 리센느, 거제 명예시민 됐다 - 경남신문",
+        "source": "경남신문",
         "date": "2026-10-26",
-        "url": "https://www.hani.co.kr/arti/area/yeongnam/1284236.html",
-        "summary": "“거제 야호!”라는 추임새로 큰 관심을 끈 걸그룹 리센느가 경남 거제시 명예시민이 됐다. 연예인이 거제시 명예시민이 된 것은 처음이다. 거제시는 26일 “리센느에게 제70호 거제시 명예시민증을 수여했다”고 밝혔다. 앞서 지난달 9일 거제시의회는 제265회 임시회 2차",
-        "image": "https://flexible.img.hani.co.kr/flexible/normal/950/633/imgdb/original/2026/1026/20261026503034.webp"
+        "url": "https://www.knnews.co.kr/news/articleView.php?idxno=1553662",
+        "summary": "‘거제 야호’로 거제시를 알린 걸그룹 리센느가 명예거제시민이 됐다.거제시는 지난 24일 한화리조트 거제 벨버디어에서 걸그룹 리센느(RESCENE)에...",
+        "image": "https://cdn.knnews.co.kr/edb/nimages/2026/10/2026102619351699456.jpg"
+    },
+    {
+        "title": "‘거제 야호’ 리센느, 거제 명예시민 됐다 - 경향신문",
+        "source": "경향신문",
+        "date": "2026-10-26",
+        "url": "https://www.khan.co.kr/article/202610262019045/amp",
+        "summary": "경남 거제시는 시 홍보대사인 걸그룹 리센느(사진)에게 명예시민증을 수여했다고 26일 밝혔다. 지난 24일 한화리조트 거제 벨버디어에서 연예인으로서는 처음 명예시민증을 받은 리센느는 제70호 거제시 명예시민으로 이름을 올렸다. 거제시는 리센느가 꾸준한 홍보 활동을 하면서 시민 자긍심을 높",
+        "image": "https://img.khan.co.kr/news/2026/10/26/2026102701000768700075131.jpg"
     },
     {
         "title": "거제시, ‘거제 야호’ 리센느에 명예시민증 수여 - 경향신문",
         "source": "경향신문",
         "date": "2026-10-26",
-        "url": "https://www.khan.co.kr/article/202610261359001",
+        "url": "https://www.khan.co.kr/article/202610261359001/amp",
         "summary": "경남 거제시는 시 홍보대사인 걸그룹 리센느에게 명예시민증을 수여했다고 26일 밝혔다. 지난 24일 한화리조트 거제 벨버디어에서 연예인으로서는 처음 명예시민증을 받은 리센느는 제70호 거제시 명예시민으로 이름을 올렸다. 거제시는 리센느가 꾸준한 홍보 활동을 하면서 시민 자긍심을 높이고, ",
-        "image": "https://img.khan.co.kr/news/2026/10/26/news-p.v1.20261026.1b6b682878a540bf947906481fa44989_P1.jpg"
+        "image": "https://img.khan.co.kr/news/2026/10/26/news-p.v1.20261026.1b6b682878a540bf947906481fa44989.jpg"
     },
     {
         "title": "리센느, 신곡 ‘펄스’ 하이라이트 공개 - www.bntnews.co.kr",
@@ -662,7 +625,7 @@ const NEWS_DATA = [
         "date": "2026-10-26",
         "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261026.99099007350",
         "summary": "������ ��ȣ!�� ��ǳ�� Ÿ�� ������ �ɱ׷졯���� ������ ������(RESCENE)�� �泲 ������ �����ù����� ���˵ƴ�. ���������� ������ �����ù����� �����ϱ�� ����..",
-        "image": "https://db.kookje.co.kr/news2000/photo/2026/1026/L20261026.99099007350i1.jpg?50"
+        "image": "https://db.kookje.co.kr/news2000/photo/2026/1026/L20261026.99099007350i1.jpg?26"
     },
     {
         "title": "‘거제야호’ 리센느, ‘연예인 1호’ 거제 명예시민 됐다 - 동아일보",
@@ -686,14 +649,6 @@ const NEWS_DATA = [
         "url": "https://www.edaily.co.kr/News/Read?newsId=05812166645616856&mediaCodeNo=257",
         "summary": "팬들의 사랑을 기억하는 방법은 저마다 다르다. 누군가는 말로 감사를 전하고, 누군가는 무대 위에서 더 좋은 공연으로 보답한다. 그룹 리센느(RESCENE)는 조금 특별한 선택을 했다. 자신들을 보기 위해 비를 맞으며 기다린 팬들 앞에서 천막을 걷어낸 것이다. 비를 피...",
         "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/10/PS26102700238.jpg"
-    },
-    {
-        "title": "‘거제 야호’ 리센느, 거제 명예시민 됐다 - 경남신문",
-        "source": "경남신문",
-        "date": "2026-10-26",
-        "url": "https://m.knnews.co.kr/mView.php?idxno=1553662",
-        "summary": "‘거제 야호’로 거제시를 알린 걸그룹 리센느가 명예거제시민이 됐다.거제시는 지난 24일 한화리조트 거제 벨버디어에서 걸그룹 리센느(RESCENE)에게 명예시민증을 수여했다고 밝혔다. 리센느는 제70호 거제시 명...",
-        "image": "https://cdn.knnews.co.kr/edbthumbnail/2026/10/1553662_520_images.jpg"
     },
     {
         "title": "리센느, 역주행 이후 첫 정식 컴백…'PULSE' 하이라이트 메들리 반응 보니 - 톱스타뉴스",
@@ -720,6 +675,14 @@ const NEWS_DATA = [
         "image": "https://cdn.topstarnews.net/news/photo/202610/16258938_2067983_407_crop.jpg"
     },
     {
+        "title": "“거제 야호!” 리센느, ‘명예 거제시민’ 됐다…연예인으론 처음 - 한겨레",
+        "source": "한겨레",
+        "date": "2026-10-26",
+        "url": "https://www.hani.co.kr/arti/area/yeongnam/1284236.html",
+        "summary": "“거제 야호!”라는 추임새로 큰 관심을 끈 걸그룹 리센느가 경남 거제시 명예시민이 됐다. 연예인이 거제시 명예시민이 된 것은 처음이다. 거제시는 26일 “리센느에게 제70호 거제시 명예시민증을 수여했다”고 밝혔다. 앞서 지난달 9일 거제시의회는 제265회 임시회 2차",
+        "image": "https://flexible.img.hani.co.kr/flexible/normal/950/633/imgdb/original/2026/1026/20261026503034.webp"
+    },
+    {
         "title": "1위 리센느, 2위 에이티즈, 3위 김용빈 - 스타뉴스",
         "source": "스타뉴스",
         "date": "2026-10-26",
@@ -728,12 +691,12 @@ const NEWS_DATA = [
         "image": "https://image.starnewskorea.com/21/2026/10/2026102707045560330_1.jpg"
     },
     {
-        "title": "\"리센느까지 제쳐\"…'화제의 가수' 머무르, 정체 밝혔다 [김수영의 크레딧&] - 한국경제",
-        "source": "한국경제",
-        "date": "2026-10-25",
-        "url": "https://www.hankyung.com/article/202610231638H",
-        "summary": "\"리센느까지 제쳐\"…'화제의 가수' 머무르, 정체 밝혔다 [김수영의 크레딧&], [김수영의 크레딧&] AI 가수 머무르 만든 프로듀싱팀 글로리웨이브 '꿈꾸던 어른이 되었나요?'로 음원차트 강타 \"가사 초안 만든 뒤 멜로디&middot;편곡&middot;보컬 AI로\" \"가이드 녹음&mid",
-        "image": "https://img.hankyung.com/photo/202610/01.46186994.1.jpg"
+        "title": "리센느 ‘머스크 향’ 나는 하라메 공개 - 스포츠동아",
+        "source": "스포츠동아",
+        "date": "2026-10-26",
+        "url": "https://sports.donga.com/ent/article/all/20261027/134913954/1",
+        "summary": "[스포츠동아 장은지 기자] 그룹 리센느가 은은한 머스크 향을 머금고 돌아온다.리센느는 지난 26일 오후 6시 공식 SNS 채널을 통해 오는 11월 3일 발매를 앞둔 미니 4집 ‘PULSE’(펄스)의 하이라이트 메들리 영상을 공개했다.공개된 영상 속에는 한층 물오른 다…",
+        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/27/134913952.1.jpg"
     },
     {
         "title": "‘중소돌의 기적’ 리센느… 역주행 열기 이어갈까 - 세계일보",
@@ -744,6 +707,14 @@ const NEWS_DATA = [
         "image": "https://www.segye.com/content/image/2026/10/26/20261026500448.jpg"
     },
     {
+        "title": "\"리센느까지 제쳐\"…'화제의 가수' 머무르, 정체 밝혔다 [김수영의 크레딧&] - 한국경제",
+        "source": "한국경제",
+        "date": "2026-10-25",
+        "url": "https://www.hankyung.com/article/202610231638H",
+        "summary": "\"리센느까지 제쳐\"…'화제의 가수' 머무르, 정체 밝혔다 [김수영의 크레딧&], [김수영의 크레딧&] AI 가수 머무르 만든 프로듀싱팀 글로리웨이브 '꿈꾸던 어른이 되었나요?'로 음원차트 강타 \"가사 초안 만든 뒤 멜로디&middot;편곡&middot;보컬 AI로\" \"가이드 녹음&mid",
+        "image": "https://img.hankyung.com/photo/202610/01.46186994.1.jpg"
+    },
+    {
         "title": "리센느, 삼성 갤럭시와 손잡았다…글로벌 브랜드가 주목한 대세 - YTN star",
         "source": "YTN star",
         "date": "2026-10-25",
@@ -752,12 +723,12 @@ const NEWS_DATA = [
         "image": "https://image.ytn.co.kr/general/jpg/2026/1026/202610260818051177_t.jpg"
     },
     {
-        "title": "삼성전자, 리센느와 폴드8 협업 예고…1030세대·여심 겨냥 - 인더스트리뉴스",
-        "source": "인더스트리뉴스",
-        "date": "2026-10-25",
-        "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=88144",
-        "summary": "[인더스트리뉴스 한원석 기자] 삼성전자가 걸그룹 리센느와 갤럭시 Z 폴드8의 협업을 예고했다. 폴드8 구매자 가운데 젊은 층이 절반가량을 차지하고 여성 고객이 늘",
-        "image": "https://cdn.industrynews.co.kr/news/photo/202610/88144_109402_548.jpg"
+        "title": "설렘 한도 초과! 리센느, 'PULSE' 트랙리스트 선물 - 전자신문",
+        "source": "전자신문",
+        "date": "2026-10-24",
+        "url": "https://www.etnews.com/20261024000017",
+        "summary": "그룹 리센느의 두근거림이 도착했다. 리센느는 지난 23일 공식 SNS 채널에 네 번째 미니앨범 'PULSE'의 트랙리스트를 게재했다. 새 앨범은 오는 11월 3일 오후 6시 발매된다. 트랙리스트에 따르면 신보에는 타",
+        "image": "https://img.etnews.com/news/article/2026/10/24/article_24145312147835.jpg"
     },
     {
         "title": "삼성전자, 리센느와 손잡고 폴드8 여심 잡기 나선다 - 연합뉴스",
@@ -768,6 +739,14 @@ const NEWS_DATA = [
         "image": "https://img1.yna.co.kr/etc/inner/KR/2026/10/23/AKR20261023169900017_01_i_P4.jpg"
     },
     {
+        "title": "‘중소돌의 기적’ 리센느, 파워 확인할 진짜 시험대 - 동아일보",
+        "source": "동아일보",
+        "date": "2026-10-23",
+        "url": "https://www.donga.com/news/Entertainment/article/all/20261024/134900253/1",
+        "summary": "이지 리스닝과 퍼포먼스 역량, 멤버들의 다채로운 끼를 바탕으로 차트 상승세를 이어온 그룹 리센느(RESCENE)가 오는 11월 3일 미니 4집 ‘펄스’(PULSE)를 발매하고 본격적인 컴백 행보에 돌입한다. 차트 역주행 신드롬에 이어 리메이크곡으로 정주행 성공까지 이…",
+        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/24/134900254.1.jpg"
+    },
+    {
         "title": "리센느 원이·제나, 브랜드평판 1·2위 싹쓸이…한 그룹 독식 ‘이례적’ - YTN",
         "source": "YTN",
         "date": "2026-10-19",
@@ -776,11 +755,42 @@ const NEWS_DATA = [
         "image": "https://image.ytn.co.kr/general/jpg/2026/1019/202610190741062961_t.jpg"
     },
     {
-        "title": "리센느 원이, 긍부정비율 95.10%..10월 걸그룹 개인 브랜드 평판 '1위' - Chosunbiz",
+        "title": "“‘리센느’ 보려고 45회 응모했어요”…일산 킨텍스 달군 ‘놀 페스티벌’ [가봤어요] - 이코노미스트",
+        "source": "이코노미스트",
+        "date": "2026-10-17",
+        "url": "https://economist.co.kr/article/view/ecn202610170009",
+        "summary": "17일 오후 1시 40분경 경기 고양시 킨텍스 제2전시장은 ‘NOL FESTIVAL’(놀 페스티벌)에 방문한 관람객으로 북적였다. 1시 50분에 시작하는 가수 이무",
+        "image": "https://economist.co.kr/data/ecn/image/2026/10/17/ecn20261017000007.800x.0.jpg"
+    },
+    {
+        "title": "동아오츠카, ‘나랑드사이다 리센느 에디션’ 3종 출시 - Chosunbiz",
         "source": "Chosunbiz",
-        "date": "2026-10-18",
-        "url": "https://biz.chosun.com/entertainment/enter_general/2026/10/18/HA4TMODDHBRTKNBUMFSTAZBQME/",
-        "summary": "리센느 원이, 긍부정비율 95.10%..10월 걸그룹 개인 브랜드 평판 1위",
-        "image": "https://biz.chosun.com/resizer/v2/GQ3TEZBSHA4DGYJSGE3TKNRQMU.jpg?auth=b11e4e83e425cdfe636ee6cfb97416c7d3420a9d61c3965c805925d2966ca8e0&width=572&height=300&smart=true"
+        "date": "2026-10-15",
+        "url": "https://biz.chosun.com/distribution/food/2026/10/15/HZYTUO72TJAEFHWMS3IFMH5PAY/",
+        "summary": "동아오츠카, 나랑드사이다 리센느 에디션 3종 출시",
+        "image": "https://biz.chosun.com/resizer/v2/6D5SPPJDJZAN7JNSWM3IN7TIG4.jpg?auth=5cb5c2683df53c7c2e0d9e716d1cef778badab22aefa3ebfbb24b95357e6450b&width=1200&height=630&smart=true"
+    },
+    {
+        "title": "물 들어올 때 노 저어야지…나랑드사이다 '리센느 에디션' 나온다 - 비즈워치",
+        "source": "비즈워치",
+        "date": "2026-10-15",
+        "url": "https://news.bizwatch.co.kr/article/consumer/2026/10/15/0010",
+        "summary": ""
+    },
+    {
+        "title": "리센느, 8월·9월·10월에도 \"야호\"..걸그룹 브랜드 평판 '평정' - OSEN",
+        "source": "OSEN",
+        "date": "2026-10-11",
+        "url": "https://www.osen.co.kr/article/G1112891088",
+        "summary": "그룹 리센느(RESCENE)가 8월과 9월에 이어 10월에도 걸그룹 브랜드 평판 1위에 올랐다. 11일 한국기업평판연구소가 걸그룹 브랜드평판 빅데이터 분석을 위해 2026년...",
+        "image": "http://file.osen.co.kr/article_thumb/2026/10/11/202610110926774663_6acad8d82e647_300x.jpg"
+    },
+    {
+        "title": "\"원이야, 삼촌이 다 사줄게\"…60만개 '리센느 빵' 쓸어간 30대 男 - 아시아경제",
+        "source": "아시아경제",
+        "date": "2026-10-04",
+        "url": "https://www.asiae.co.kr/article/2026100413242033151",
+        "summary": "최고의 주가를 달리고 있는 그룹 리센느와 협업한 '리센느 빵' 5종의 판매량이 60만개를 달성했다.",
+        "image": "https://cphoto.asiae.co.kr/listimglink/1/2026100420425350308_1791114173.png"
     }
 ];
