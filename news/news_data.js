@@ -1,28 +1,13 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-30T12:26:42.373Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-10-30T22:04:52.276Z) */
 
 const NEWS_DATA = [
     {
-        "title": "리센느 공연 보고 갤Z폴드8도 특가로…네이버, 오늘 밤 8시 라이브 - 뉴시스",
-        "source": "뉴시스",
+        "title": "네이버, 삼성전자와 갤럭시 Z 폴드8 쇼핑라이브…'리센느' 공연 결합 - 전자신문",
+        "source": "전자신문",
         "date": "2026-10-30",
-        "url": "https://www.newsis.com/view/NISX20261030_0003847984",
-        "summary": "[서울=뉴시스]윤정민 기자 = 아이돌 '리센느' 공연을 보며 삼성전자 갤럭시 제품을 구매할 수 있는 생방송이 열린다. 원이, 미나미, 리브, 제나, 메이 등 멤버들이 직접 사용한 갤럭시 Z 폴드8 기능과 활용 경험을 소개하고 방송 중 구매 혜택도 제공한다.네이버는 삼성전자와 함께 30일",
-        "image": "https://img1.newsis.com/2026/10/30/NISI20261030_0002278365_web.jpg"
-    },
-    {
-        "title": "리센느 리브·메이 캐릭터, AI 영상 공모전 소재로 등판…특별한 팬덤 문화 - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-10-30",
-        "url": "https://www.news1.kr/entertain/celebrity-topic/6338169",
-        "summary": ""
-    },
-    {
-        "title": "'매출 48%↑' 떴다 하면 '잭팟'…광고계 집어삼킨 '팔방미인' 정체는 - 이코노미스트",
-        "source": "이코노미스트",
-        "date": "2026-10-30",
-        "url": "https://economist.co.kr/article/view/ecn202610300057",
-        "summary": "걸그룹 리센느가 당대 최고 스타들의 전유물로 꼽히는 스마트폰과 제1금융권 광고를 동시에 꿰차며 광고계 최대 블루칩으로 떠올랐다. 단순한 화제성",
-        "image": "https://economist.co.kr/data/ecn/image/2026/09/16/ecn20260916000053.800x.0.png"
+        "url": "https://www.etnews.com/20261030000089",
+        "summary": "네이버는 30일 오후 8시 그룹 리센느(RESCENE)가 출연하는 '갤럭시 나이트(Galaxy Night)'를 네이버 쇼핑라이브에서 단독 진행한다고 밝혔다. 이번 방송은 삼성전자의 '갤럭시 Z 폴드8' 캠페인의 일환이다. 방송에서는 리센느의 공연과 함께 갤럭시 Z 폴드8 등 주요 갤럭시",
+        "image": "https://img.etnews.com/news/article/2026/10/30/news-p.v1.20261030.48839699f85348c580dbb1495e130365_P1.png"
     },
     {
         "title": "우리은행 새 얼굴에 리센느…'우리는해' CM송 공개 - 머니투데이 - 머니투데이",
@@ -49,6 +34,21 @@ const NEWS_DATA = [
         "image": "https://cdn.ggilbo.com/news/photo/202610/1190119_1043106_5347.jpg"
     },
     {
+        "title": "\"금전 요구 하지 않아\"… 컴백 앞둔 리센느 소속사, 직원 사칭범에 법적 대응 - 한국일보",
+        "source": "한국일보",
+        "date": "2026-10-30",
+        "url": "https://www.hankookilbo.com/news/article/A2026103016150003506",
+        "summary": "① 리센느 소속사는 경영지원팀 직원이라고 사칭한 사람이 업체들에 돈을 요구한 정황을 확인했다고 밝혔습니다. ② 소속사는 해당 인물이 재직자가 아니며 공식 이메일 외에는 업무에 쓰지 않고 돈을 요구하지도 않는다고 강조했습니다. ③ 소속사는 사칭범을 고소하는 등 법적 절차를 진행 중이며 비",
+        "image": "https://newsimg.hankookilbo.com/2026/10/30/810402b8-a419-4db6-958a-051704abe4a4.jpg"
+    },
+    {
+        "title": "리센느 리브·메이 캐릭터, AI 영상 공모전 소재로 등판…특별한 팬덤 문화 - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-10-30",
+        "url": "https://www.news1.kr/entertain/celebrity-topic/6338169",
+        "summary": ""
+    },
+    {
         "title": "박지현, 내일 리센느와 축하 공연 - 진일보 | 전남일보",
         "source": "진일보 | 전남일보",
         "date": "2026-10-30",
@@ -65,6 +65,14 @@ const NEWS_DATA = [
         "image": "https://cdn.slist.kr/news/thumbnail/202610/777708_1188629_855_v150.jpg"
     },
     {
+        "title": "'매출 48%↑' 떴다 하면 '잭팟'…광고계 집어삼킨 '팔방미인' 정체는 - 이코노미스트",
+        "source": "이코노미스트",
+        "date": "2026-10-30",
+        "url": "https://economist.co.kr/article/view/ecn202610300057",
+        "summary": "걸그룹 리센느가 당대 최고 스타들의 전유물로 꼽히는 스마트폰과 제1금융권 광고를 동시에 꿰차며 광고계 최대 블루칩으로 떠올랐다. 단순한 화제성",
+        "image": "https://economist.co.kr/data/ecn/image/2026/09/16/ecn20260916000053.800x.0.png"
+    },
+    {
         "title": "리센느 미나미·메이도 떴다… 아이돌 ‘한국어 대결’ 유튜브 예능 공개 - 한국대학신문",
         "source": "한국대학신문",
         "date": "2026-10-30",
@@ -73,28 +81,20 @@ const NEWS_DATA = [
         "image": "https://cdn.news.unn.net/news/thumbnail/202610/599601_426258_5946_v150.jpg"
     },
     {
-        "title": "네이버, 삼성전자와 '갤럭시 나이트' 쇼핑라이브 진행…리센느 출연 - 뉴스핌",
-        "source": "뉴스핌",
+        "title": "우리銀, 리센느와 ‘우리는 해’... 꿈을 향한 도전 응원 - 한국보험신문",
+        "source": "한국보험신문",
         "date": "2026-10-30",
-        "url": "https://www.newspim.com/news/view/20261030000499",
-        "summary": "[서울=뉴스핌] 심재민 인턴기자 = 네이버는 삼성전자와 함께 걸그룹 리센느(RESCENE)가 출연하는 '갤럭시 나이트(Galaxy Night)'를 30일 오후 8시 네이버 쇼핑라이브에서 단독 진행한다고 밝혔다.이번 방송은 삼성전자의 '갤럭시 Z 폴드8' 캠페인",
-        "image": "https://img.newspim.com/news/2026/10/30/2610301054226150_t1.jpg"
+        "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93609",
+        "summary": "우리은행이 걸그룹 ‘리센느’와 함께 일상 속 도전을 응원하는 ‘우리는 해’ CM송 광고를 30일 공개했다고 밝혔다. 이번 광고는 각자의 자리에서 최선을 다하는 우",
+        "image": "https://cdn.insnews.co.kr/news/photo/202610/93609_58705_4214.jpg"
     },
     {
-        "title": "우리은행, 새 광고모델 걸그룹 리센느…'우리는 해' CM송 공개 - 연합뉴스",
-        "source": "연합뉴스",
+        "title": "리센느, 소속사 직원 ‘사칭 피해’에 법적 대응 - JTBC",
+        "source": "JTBC",
         "date": "2026-10-30",
-        "url": "https://www.yna.co.kr/amp/view/AKR20261030045000002",
-        "summary": "(서울=연합뉴스) 이도흔 기자 = 우리은행은 걸그룹 리센느를 새로운 광고모델로 선정하고 '우리는 해' CM송을 공개했다고 30일 밝혔다.",
-        "image": "https://img7.yna.co.kr/etc/inner/KR/2026/10/30/AKR20261030045000002_01_i_P4.jpg"
-    },
-    {
-        "title": "네이버·삼성전자, 리센느 출연 '갤럭시 나이트' 쇼핑라이브 단독 진행 - 파이낸셜신문",
-        "source": "파이낸셜신문",
-        "date": "2026-10-30",
-        "url": "https://www.efnews.co.kr/news/articleView.html?idxno=133620",
-        "summary": "네이버와 삼성전자가 K팝 공연을 결합한 라이브 커머스를 통해 젊은 소비자와의 접점 확대에 나선다.네이버는 삼성전자와 함께 그룹 리센느(RESCENE)가 출연하는 '갤럭시 나이트(Galaxy Night)' 쇼핑라이브를 30일 오후 8시 단독 진행한다고 밝혔다.이번 방송은 삼성전자의 '갤럭",
-        "image": "http://www.efnews.co.kr/news/photo/202610/133620_121339_3749.png"
+        "url": "https://news.jtbc.co.kr/article/NB12325776",
+        "summary": "리센느(RESCENE) 소속사 더뮤즈엔터테인먼트가 직원 사칭 피해에 주의를 당부했다. 더뮤즈엔터테인먼트는 30일 공식 SNS 채널을 통해 직원...",
+        "image": "https://photo.jtbc.co.kr/news/jam_photo/202610/30/bfe3a6f9-7bbc-4da7-a116-93eafae4af48.jpg"
     },
     {
         "title": "우리은행, 새 광고 모델 ‘리센느’ 발탁…‘우리는 해’ CM송 공개 - 더나은미래",
@@ -112,6 +112,38 @@ const NEWS_DATA = [
         "image": "https://cdn.newsian.co.kr/news/photo/202610/100344_100408_039.jpg"
     },
     {
+        "title": "우리은행, 걸그룹 '리센느' 참여 신규 CM송 공개 - 메트로신문",
+        "source": "메트로신문",
+        "date": "2026-10-30",
+        "url": "https://www.metroseoul.co.kr/article/20261030500235",
+        "summary": "우리은행이 새로운 CM송을 공개했다. 우리은행은 광고 모델로 신규 발탁한 걸그룹 '리센느'와 함께 일상 속 도전을 응원하는 '우리는 해' CM송 광고를 공개했다고 30일 밝혔다. 이번 광고는 각자의 자리에서 최선을 다하는 우리 모두를 응원하고 성장을 함께하는 우리은행의",
+        "image": "https://cdn.emetro.co.kr/data2/content/image/2026/10/30/.cache/512/20261030500236.jpg"
+    },
+    {
+        "title": "리센느, 컴백 앞두고 소속사 사칭 피해 발생…“법적 대응 중” - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-10-30",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16264245",
+        "summary": "그룹 리센느의 소속사가 소속 직원을 사칭해 금전을 요구하는 사례가 확인됐다며 주의를 당부했다. 소속사 측은 경영지원팀 소속이라고 자신을 소개한 인물이 다수의 제지업체에 연락해 금전적인 요구와 부당한 이익을 취하는 정황을 확인했다고 밝혔다. 해당 인물은 실제 직원이 아니며, 현재 고소 등",
+        "image": "https://cdn.topstarnews.net/news/photo/202610/16264245_2073023_3754_crop.jpg"
+    },
+    {
+        "title": "네이버·삼성전자, 리센느 출연 '갤럭시 나이트' 쇼핑라이브 단독 진행 - 파이낸셜신문",
+        "source": "파이낸셜신문",
+        "date": "2026-10-30",
+        "url": "https://www.efnews.co.kr/news/articleView.html?idxno=133620",
+        "summary": "네이버와 삼성전자가 K팝 공연을 결합한 라이브 커머스를 통해 젊은 소비자와의 접점 확대에 나선다.네이버는 삼성전자와 함께 그룹 리센느(RESCENE)가 출연하는 '갤럭시 나이트(Galaxy Night)' 쇼핑라이브를 30일 오후 8시 단독 진행한다고 밝혔다.이번 방송은 삼성전자의 '갤럭",
+        "image": "http://www.efnews.co.kr/news/photo/202610/133620_121339_3749.png"
+    },
+    {
+        "title": "네이버, 삼성전자와 '갤럭시 나이트' 쇼핑라이브 진행…리센느 출연 - 뉴스핌",
+        "source": "뉴스핌",
+        "date": "2026-10-30",
+        "url": "https://www.newspim.com/news/view/20261030000499",
+        "summary": "[서울=뉴스핌] 심재민 인턴기자 = 네이버는 삼성전자와 함께 걸그룹 리센느(RESCENE)가 출연하는 '갤럭시 나이트(Galaxy Night)'를 30일 오후 8시 네이버 쇼핑라이브에서 단독 진행한다고 밝혔다.이번 방송은 삼성전자의 '갤럭시 Z 폴드8' 캠페인",
+        "image": "https://img.newspim.com/news/2026/10/30/2610301054226150_t1.jpg"
+    },
+    {
         "title": "우리은행, 걸그룹 리센느와 ‘우리는 해’ 캠페인…'도전·성장' 메시지 담아 - 조세일보",
         "source": "조세일보",
         "date": "2026-10-30",
@@ -120,12 +152,20 @@ const NEWS_DATA = [
         "image": "https://www.joseilbo.com/gisa_img/17933335201793333520_hheo.jpg"
     },
     {
-        "title": "우리은행, 리센느와 ‘우리는 해’…꿈을 향한 도전 응원 - 매일일보",
-        "source": "매일일보",
+        "title": "[피플] ‘컴백 D-4’ 리센느, ‘펄스’로 연말 차트도 점령하나 - JTBC",
+        "source": "JTBC",
         "date": "2026-10-30",
-        "url": "https://www.m-i.kr/news/articleView.html?idxno=2012288",
-        "summary": "매일일보 = 김현태 기자 | 우리은행이 새롭게 광고 모델로 발탁한 인기 걸그룹 ‘리센느’와 함께 일상 속 도전을 응원하는 ‘우리는 해’ CM송 광고를 30일 공개",
-        "image": "https://cdn.m-i.kr/news/photo/202610/2012288_2012544_86.jpg"
+        "url": "https://news.jtbc.co.kr/article/NB12325630",
+        "summary": "‘대세’ 그룹 리센느(RESCENE)가 연말 차트 점령에 나선다. 물오른 기세로 이들이 써 내려갈 새로운 성적에 관심이 쏠리고 있다. 리센느는...",
+        "image": "https://photo.jtbc.co.kr/news/jam_photo/202610/30/899f01aa-71a4-425b-98db-44fd5a213c99.jpg"
+    },
+    {
+        "title": "우리은행, 새 광고모델 걸그룹 리센느…'우리는 해' CM송 공개 - 연합뉴스",
+        "source": "연합뉴스",
+        "date": "2026-10-30",
+        "url": "https://www.yna.co.kr/amp/view/AKR20261030045000002",
+        "summary": "(서울=연합뉴스) 이도흔 기자 = 우리은행은 걸그룹 리센느를 새로운 광고모델로 선정하고 '우리는 해' CM송을 공개했다고 30일 밝혔다.",
+        "image": "https://img7.yna.co.kr/etc/inner/KR/2026/10/30/AKR20261030045000002_01_i_P4.jpg"
     },
     {
         "title": "우리은행, 걸그룹 '리센느' 새 광고모델 발탁.....CM송 공개 - 금융소비자뉴스",
@@ -136,51 +176,20 @@ const NEWS_DATA = [
         "image": "http://www.newsfc.co.kr/news/thumbnail/202610/82119_79510_1140_v150.jpg"
     },
     {
-        "title": "우리은행, `리센느` 손잡고 `우리는 해` CM송 제작 및 공개 - 매일신문",
-        "source": "매일신문",
+        "title": "네이버-삼성전자, 리센느와 ‘Galaxy Night’ 쇼핑라이브에서 단독 진행 - 머스트 뉴스",
+        "source": "머스트 뉴스",
         "date": "2026-10-30",
-        "url": "https://www.imaeil.com/page/view/2026103010383146593",
-        "summary": "우리은행 제공...",
-        "image": "https://www.imaeil.com/photos/2026/10/30/2026103010373956394_l.jpg"
+        "url": "https://mustnews.co.kr/View.aspx?No=4291252",
+        "summary": "네이버㈜(대표이사 최수연)는 삼성전자와 함께 그룹 리센느(RESCENE)가 출연하는 ‘Galaxy Night’를 30일 오후 8시 네이버 쇼핑라이브에서 단독으로 진행한다고 밝혔다.이번 쇼핑라이브는 삼성전자의 ‘갤럭시 Z 폴드8’ 캠페인의 일환으로 마련됐다. 네이버의 영상 기술 및 라이브",
+        "image": "https://cdn.coenworks.com/Files/34/News/202610/2025_20261030210433021.jpg"
     },
     {
-        "title": "“우리은행 야호” 리센느, 새 광고모델 발탁 - 이코노미스트",
-        "source": "이코노미스트",
+        "title": "우리은행, 리센느와 ‘우리는 해’…꿈을 향한 도전 응원 - 매일일보",
+        "source": "매일일보",
         "date": "2026-10-30",
-        "url": "https://economist.co.kr/article/view/ecn202610300005",
-        "summary": "우리은행이 대세 걸그룹 리센느를 새 광고모델로 발탁했다. 특유의 밝은 에너지와 중독성 있는 노랫말을 앞세워, 고객의 일상 속 도전과 성장을 함께",
-        "image": "https://economist.co.kr/data/ecn/image/2026/10/30/ecn20261030000015.800x.0.jpg"
-    },
-    {
-        "title": "네이버-삼성전자, 리센느와 'Galaxy Night' 쇼핑라이브에서 단독 진행 - 마일드경제",
-        "source": "마일드경제",
-        "date": "2026-10-30",
-        "url": "https://www.todaymild.com/news/articleView.html?idxno=40464",
-        "summary": "[마일드경제 최주연 기자] 네이버(대표이사 최수연)는 삼성전자와 함께 그룹 리센느(RESCENE)가 출연하는 ‘Galaxy Night’를 30일 오후 8시 네이버 쇼핑라이브에서 단독으로 진행한다고 30일 밝혔다.이번 쇼핑라이브는 삼성전자의 ‘갤럭시 Z 폴드8’ 캠페인의 일환으로 마련됐",
-        "image": "https://cdn.todaymild.com/news/thumbnail/202610/40464_47606_5744_v150.jpg"
-    },
-    {
-        "title": "우리은행, 새 모델로 리센느 발탁...'우리는 해' CM송 공개 - 뉴스핌",
-        "source": "뉴스핌",
-        "date": "2026-10-30",
-        "url": "https://www.newspim.com/news/view/20261030000236",
-        "summary": "[서울= 뉴스핌] 전미옥 기자 = 우리은행은 걸그룹 리센느를 광고 모델로 발탁했다고 30일 밝혔다. 리센느와 함께 한 새로운 CM송 광고도 공개했다.'우리는 해'라는 제목의 광고에는 일상 속에서 최선을 다하는 사람들의 도전을 응원하는 메시지를 담았다. 친근한 가사와 반",
-        "image": "https://img.newspim.com/news/2026/10/30/2610300921563550_t1.jpg"
-    },
-    {
-        "title": "네이버, 삼성전자와 갤럭시 Z 폴드8 쇼핑라이브…'리센느' 공연 결합 - 전자신문",
-        "source": "전자신문",
-        "date": "2026-10-30",
-        "url": "https://www.etnews.com/20261030000089",
-        "summary": ""
-    },
-    {
-        "title": "\"금전 요구 하지 않아\"… 컴백 앞둔 리센느 소속사, 직원 사칭범에 법적 대응 - 한국일보",
-        "source": "한국일보",
-        "date": "2026-10-30",
-        "url": "https://www.hankookilbo.com/news/article/A2026103016150003506",
-        "summary": "① 리센느 소속사는 경영지원팀 직원이라고 사칭한 사람이 업체들에 돈을 요구한 정황을 확인했다고 밝혔습니다. ② 소속사는 해당 인물이 재직자가 아니며 공식 이메일 외에는 업무에 쓰지 않고 돈을 요구하지도 않는다고 강조했습니다. ③ 소속사는 사칭범을 고소하는 등 법적 절차를 진행 중이며 비",
-        "image": "https://newsimg.hankookilbo.com/2026/10/30/810402b8-a419-4db6-958a-051704abe4a4.jpg"
+        "url": "https://www.m-i.kr/news/articleView.html?idxno=2012288",
+        "summary": "매일일보 = 김현태 기자 | 우리은행이 새롭게 광고 모델로 발탁한 인기 걸그룹 ‘리센느’와 함께 일상 속 도전을 응원하는 ‘우리는 해’ CM송 광고를 30일 공개",
+        "image": "https://cdn.m-i.kr/news/photo/202610/2012288_2012544_86.jpg"
     },
     {
         "title": "네이버·삼성전자, 리센느와 ‘Galaxy Night’ 쇼핑라이브...갤럭시 Z 폴드8 특가 판매 - 워크투데이",
@@ -191,28 +200,20 @@ const NEWS_DATA = [
         "image": "http://www.worktoday.co.kr/news/thumbnail/202610/91241_131367_5828_v150.jpg"
     },
     {
-        "title": "[포토뉴스] 우리은행, 리센느와 ‘우리는 해’···도전자들 응원 - CNB뉴스",
-        "source": "CNB뉴스",
+        "title": "우리은행, 걸그룹 리센느와 ‘우리는 해’ CM송 광고 공개 - 서울타임즈뉴스",
+        "source": "서울타임즈뉴스",
         "date": "2026-10-30",
-        "url": "https://www.cnbnews.com/news/articleView.html?idxno=1021737",
-        "summary": "우리은행이 걸그룹 ‘리센느’와 함께 자신이 이루고자 하는 일을 해내기 위해 노력하는 사람들을 응원하는 ‘우리는 해’ 커머셜 메시지(CM)송 광고를 30일 공개했다",
-        "image": "https://cdn.cnbnews.com/news/photo/202610/1021737_524320_2111.png"
+        "url": "https://www.seoultimes.news/news/article.html?no=2000101601",
+        "summary": "[서울타임즈뉴스 = 최남주 기자] 우리은행은 새 광고 모델로 발탁한 걸그룹 ‘리센느’와 함께 제작한 ‘우리는 해’ CM송 광고를 30일 공개했다고 30일 밝혔다. 이번 광고는 각자의 자리에서 목표를 향해 노력하는 사람들을 격려하고, 고객의 성장을 함께하겠다는 취지로 만들어졌다. 리센느는",
+        "image": "https://www.seoultimes.news/data/photos/20261044/art_17933466886649_d31967.jpg"
     },
     {
-        "title": "[공식] \"금전 요구 확인, 고소\"..리센느 컴백 앞두고 더뮤즈, '사칭 피해' 법적 대응 [전문] - 스타뉴스",
-        "source": "스타뉴스",
+        "title": "“우리은행 야호” 리센느, 새 광고모델 발탁 - 이코노미스트",
+        "source": "이코노미스트",
         "date": "2026-10-30",
-        "url": "https://www.starnewskorea.com/star/2026/10/30/2026103015512389729",
-        "summary": "그룹 리센느(RESCENE) 소속사가 직원 사칭 피해를 입으며 팬들에게 주의를 당부하고 나섰다. 더뮤즈엔터테인먼트(이하 더뮤즈) 측은 29일 공식 SNS 계정에 \"다수의 제보를 통해 당사 직원을 사칭하는 사례가 확인되어 안내드린다\"라고 알렸다. 이들은 \"최근 더뮤즈 경영지원팀 소속이라고",
-        "image": "https://image.starnewskorea.com/21/2026/10/2026103015512389729_1.jpg"
-    },
-    {
-        "title": "리센느, 우리은행 새 광고 모델 발탁→ CM송 공개 - BNT뉴스",
-        "source": "BNT뉴스",
-        "date": "2026-10-30",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202610300204",
-        "summary": "우리은행이 리센느(RESCENE)를 새 광고 모델로 발탁하고 CM송 광고를 공개했다.우리은행은 오늘(30일) 리센느가 참여한 CM송 광고를 선보였다. CM송 제목이",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/30/bnt202610300354.jpg"
+        "url": "https://economist.co.kr/article/view/ecn202610300005",
+        "summary": "우리은행이 대세 걸그룹 리센느를 새 광고모델로 발탁했다. 특유의 밝은 에너지와 중독성 있는 노랫말을 앞세워, 고객의 일상 속 도전과 성장을 함께",
+        "image": "https://economist.co.kr/data/ecn/image/2026/10/30/ecn20261030000015.800x.0.jpg"
     },
     {
         "title": "리센느, 네이버 쇼핑라이브 출격⋯\"갤럭시 Z 폴드8 특가 혜택\" - 브릿지경제",
@@ -220,7 +221,7 @@ const NEWS_DATA = [
         "date": "2026-10-30",
         "url": "https://www.viva100.com/article/20261030500611",
         "summary": "네이버가 삼성전자와 함께 걸그룹 리센느가 출연하는 ‘갤럭시 나이트’를 30일 오후 8시 네이버 쇼핑라이브에서 단독 진행한다고 밝혔다. 이번 쇼핑라이브는 삼성전자의 ‘갤럭시 Z 폴드8’ 캠페인의 일환으로 마련됐다. 네이버의 라이브 커머스 역량에 K팝 공연을 결합해 제품을",
-        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/30/.cache/512/20261030500576.png?v=20261030212618"
+        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/30/.cache/512/20261030500576.png?v=20261031070432"
     },
     {
         "title": "우리은행, 새 광고 모델 리센느와 '우리는 해' CM송 선보여 - 한국재난안전뉴스",
@@ -231,6 +232,22 @@ const NEWS_DATA = [
         "image": "https://www.kdsn.co.kr/data/photos/20261044/art_17933342607538_edd1f4.jpg"
     },
     {
+        "title": "[포토뉴스] 우리은행, 리센느와 ‘우리는 해’···도전자들 응원 - CNB뉴스",
+        "source": "CNB뉴스",
+        "date": "2026-10-30",
+        "url": "https://www.cnbnews.com/news/articleView.html?idxno=1021737",
+        "summary": "우리은행이 걸그룹 ‘리센느’와 함께 자신이 이루고자 하는 일을 해내기 위해 노력하는 사람들을 응원하는 ‘우리는 해’ 커머셜 메시지(CM)송 광고를 30일 공개했다",
+        "image": "https://cdn.cnbnews.com/news/photo/202610/1021737_524320_2111.png"
+    },
+    {
+        "title": "리센느, 우리은행 새 광고 모델 발탁→ CM송 공개 - BNT뉴스",
+        "source": "BNT뉴스",
+        "date": "2026-10-30",
+        "url": "https://www.bntnews.co.kr/article/view/bnt202610300204",
+        "summary": "우리은행이 리센느(RESCENE)를 새 광고 모델로 발탁하고 CM송 광고를 공개했다.우리은행은 오늘(30일) 리센느가 참여한 CM송 광고를 선보였다. CM송 제목이",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/30/bnt202610300354.jpg"
+    },
+    {
         "title": "우리은행, 광고 모델 리센느와 '우리는 해' CM송 광고 공개 - 일간투데이",
         "source": "일간투데이",
         "date": "2026-10-30",
@@ -239,28 +256,20 @@ const NEWS_DATA = [
         "image": "https://cdn.dtoday.co.kr/news/thumbnail/202610/800449_673311_1044_v150.jpg"
     },
     {
+        "title": "우리은행, 새 모델로 리센느 발탁...'우리는 해' CM송 공개 - 뉴스핌",
+        "source": "뉴스핌",
+        "date": "2026-10-30",
+        "url": "https://www.newspim.com/news/view/20261030000236",
+        "summary": "[서울= 뉴스핌] 전미옥 기자 = 우리은행은 걸그룹 리센느를 광고 모델로 발탁했다고 30일 밝혔다. 리센느와 함께 한 새로운 CM송 광고도 공개했다.'우리는 해'라는 제목의 광고에는 일상 속에서 최선을 다하는 사람들의 도전을 응원하는 메시지를 담았다. 친근한 가사와 반",
+        "image": "https://img.newspim.com/news/2026/10/30/2610300921563550_t1.jpg"
+    },
+    {
         "title": "네이버·삼성전자, 리센느 공연 결합 쇼핑라이브…갤럭시 판매 확대 - 뉴스락",
         "source": "뉴스락",
         "date": "2026-10-30",
         "url": "http://www.newslock.co.kr/news/articleView.html?idxno=138968",
         "summary": "[뉴스락] 네이버가 삼성전자와 공연을 결합한 쇼핑라이브로 갤럭시 판매를 확대한다. 30일 오후 8시 그룹 리센느가 출연하는 ‘Galaxy Night’를 단독 진행한다.방송에서는 리센느 공연과 함께 갤럭시 Z 폴드8 등 주요 상품을 판매한다. 멤버들이 제품 기능과 디자인, 활용 경험도 소",
         "image": "https://cdn.newslock.co.kr/news/thumbnail/202610/138968_126300_5346_v150.jpg"
-    },
-    {
-        "title": "거제시, 걸그룹 리센느에 2026년 명예시민증 수여 - 진주뉴스",
-        "source": "진주뉴스",
-        "date": "2026-10-30",
-        "url": "https://www.jinjutv.com/news/articleView.html?idxno=238276",
-        "summary": "[진주뉴스 지대호 기자] 거제시는 최근 한화리조티 거제 벨버디어에서 걸그룹 리센느(RESCENE)에 2026년 명예시민증을 수여했다고 밝혔다.리센느는 제70호 거제시 명예시민으로, 연예인으로서는 처음으로 명예시민증을 받았다.‘거제 야호!’ 밈을 확산시키며 거제에 대한 관심과 친밀도를 높",
-        "image": "https://cdn.jinjutv.com/news/thumbnail/202610/238276_284798_2008_v150.jpg"
-    },
-    {
-        "title": "우리은행, 리센느와 ‘우리는 해’ CM송 광고 공개 - BBS불교방송",
-        "source": "BBS불교방송",
-        "date": "2026-10-30",
-        "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4115759",
-        "summary": "우리은행이 걸그룹 리센느와 함께 일상 속 도전을 응원하는 ‘우리는 해’ CM송 광고를 공개했습니다.우리은행은 새 광고 모델로 발탁한 리센느와 제작한 광고를 30일 공개했다고 오늘 밝혔습니다.이번 광고는 각자의 자리에서 최선을 다하는 사람들을 응원하고, 성장을 함께하는 우리은행의 브랜드",
-        "image": "https://cdn.news.bbsi.co.kr/news/thumbnail/202610/4115759_778937_218_v150.jpg"
     },
     {
         "title": "네이버, 리센느와 ‘갤럭시 나이트’ 개최…폴드8 특가 판매 - 한스경제",
@@ -279,12 +288,20 @@ const NEWS_DATA = [
         "image": "https://cdn.popcornnews.net/news/thumbnail/202610/138131_164568_489_v150.jpg"
     },
     {
-        "title": "리센느, 컴백 코 앞인데…\"직원 사칭 금전 요구\" 피해 주의보 - SPOTV NEWS",
-        "source": "SPOTV NEWS",
+        "title": "거제시, 걸그룹 리센느에 2026년 명예시민증 수여 - 진주뉴스",
+        "source": "진주뉴스",
         "date": "2026-10-30",
-        "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1016452",
-        "summary": "그룹 리센느가 컴백을 앞두고 소속사 직원 사칭 피해를 입었다. 소속사 측은 유사한 피해 방지를 위해 주의 당부에 나섰다.",
-        "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202610/1016452_2035224_1786.jpg"
+        "url": "https://www.jinjutv.com/news/articleView.html?idxno=238276",
+        "summary": "[진주뉴스 지대호 기자] 거제시는 최근 한화리조티 거제 벨버디어에서 걸그룹 리센느(RESCENE)에 2026년 명예시민증을 수여했다고 밝혔다.리센느는 제70호 거제시 명예시민으로, 연예인으로서는 처음으로 명예시민증을 받았다.‘거제 야호!’ 밈을 확산시키며 거제에 대한 관심과 친밀도를 높",
+        "image": "https://cdn.jinjutv.com/news/thumbnail/202610/238276_284798_2008_v150.jpg"
+    },
+    {
+        "title": "리센느, 사칭 주의 당부 \"금전적인 요구 하지 않아\" - 아시아뉴스통신",
+        "source": "아시아뉴스통신",
+        "date": "2026-10-30",
+        "url": "https://m.anewsa.com/article_sub3.php?number=3213213&type=&mobile=",
+        "summary": "(사진출처=리센느 공식 SNS) [아시아뉴스통신=이상진 기자] 그룹 리센느가 사칭에 대한 주의를 당부했다.소속사 더뮤즈엔터테인먼트는",
+        "image": "https://www.anewsa.com/news_images/2026/08/22/mark/20260822105534.jpg"
     },
     {
         "title": "우리은행, 걸그룹 리센느 모델 발탁…'우리는 해' CM송 공개 - FETV",
@@ -303,11 +320,28 @@ const NEWS_DATA = [
         "image": "https://cdn.lcnews.co.kr/news/photo/202610/210589_213811_359.jpg"
     },
     {
-        "title": "우리은행, 리센느 광고모델 발탁…CM송 `우리는 해` 공개 - 디지털데일리",
-        "source": "디지털데일리",
+        "title": "우리은행, 걸그룹 리센느와 CM송 광고 우리는 해 공개 - 아주경제",
+        "source": "아주경제",
         "date": "2026-10-30",
-        "url": "https://m.ddaily.co.kr/page/view/2026103010191794337",
-        "summary": ""
+        "url": "https://www.ajunews.com/view/20261030164939234",
+        "summary": "우리은행은 새 광고 모델로 발탁한 걸그룹 리센느(RESCENE)와 함께 제작한 CM송 광고 우리는 해를 공개했다고 30일 밝혔다.이번 광고는 일상 속에서 각자의 ...",
+        "image": "https://image.ajunews.com/content/image/2026/10/30/20261030165115634720.jpg"
+    },
+    {
+        "title": "리센느, 컴백 코 앞인데…\"직원 사칭 금전 요구\" 피해 주의보 - SPOTV NEWS",
+        "source": "SPOTV NEWS",
+        "date": "2026-10-30",
+        "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1016452",
+        "summary": "그룹 리센느가 컴백을 앞두고 소속사 직원 사칭 피해를 입었다. 소속사 측은 유사한 피해 방지를 위해 주의 당부에 나섰다.",
+        "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202610/1016452_2035224_1786.jpg"
+    },
+    {
+        "title": "우리은행, 걸그룹 리센느와 새 CM송 ‘우리는 해’ 공개 - 비즈트리뷴",
+        "source": "비즈트리뷴",
+        "date": "2026-10-30",
+        "url": "https://www.biztribune.co.kr/news/articleView.html?idxno=361647",
+        "summary": "우리은행이 새 광고 모델로 발탁한 걸그룹 리센느와 함께 일상 속 도전을 응원하는 CM송 광고 ‘우리는 해’를 30일 공개했다.이번 광고는 각자의 자리에서 도전하는 사람들을 응원하고 성장을 함께한다는 우리은행의 브랜드 메시지를 친근하게 전달하기 위해 제작됐다.CM송 핵심 가사인 ‘우리는 ",
+        "image": "http://www.biztribune.co.kr/news/thumbnail/202610/361647_267616_468_v150.jpg"
     },
     {
         "title": "리센느, 우리은행 새 얼굴 발탁…CM송 ‘우리는 해’ 공개 - 알파경제",
@@ -318,76 +352,12 @@ const NEWS_DATA = [
         "image": "https://cdn.alphabiz.co.kr/news/photo/202610/195444_157522_5855.jpg"
     },
     {
-        "title": "우리은행, 걸그룹 리센느와 새 CM송 ‘우리는 해’ 공개 - 비즈트리뷴",
-        "source": "비즈트리뷴",
+        "title": "우리은행, 리센느와 ‘우리는 해’ CM송 광고 공개 - BBS불교방송",
+        "source": "BBS불교방송",
         "date": "2026-10-30",
-        "url": "http://www.biztribune.co.kr/news/articleView.html?idxno=361647",
-        "summary": "우리은행이 새 광고 모델로 발탁한 걸그룹 리센느와 함께 일상 속 도전을 응원하는 CM송 광고 ‘우리는 해’를 30일 공개했다.이번 광고는 각자의 자리에서 도전하는 사람들을 응원하고 성장을 함께한다는 우리은행의 브랜드 메시지를 친근하게 전달하기 위해 제작됐다.CM송 핵심 가사인 ‘우리는 ",
-        "image": "http://www.biztribune.co.kr/news/thumbnail/202610/361647_267616_468_v150.jpg"
-    },
-    {
-        "title": "네이버-삼성전자, 리센느 출연 'Galaxy Night' 쇼핑라이브 진행 - 브레이크뉴스",
-        "source": "브레이크뉴스",
-        "date": "2026-10-30",
-        "url": "http://breaknews.com/1247085",
-        "summary": "네이버 쇼핑라이브 Galaxy Night © 네이버 네이버가 삼성전자와 함께 그룹 리센느(RESCENE)가 출연하는 'Galaxy Night'를 이날 오후 8시 네이버 쇼핑라이브에서",
-        "image": "https://www.breaknews.com/imgdata/breaknews_com/202610/2026103011404345.png"
-    },
-    {
-        "title": "“우리는 해”…우리은행, 리센느와 CM송 광고 공개 - 뉴스퀘스트",
-        "source": "뉴스퀘스트",
-        "date": "2026-10-30",
-        "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=303804",
-        "summary": "【뉴스퀘스트=심민현 기자】 우리은행이 걸그룹 리센느와 함께 제작한 ‘우리는 해’ CM송(광고 노래) 광고를 30일 공개했다. 은행 이름을 활용한 노랫말과 반복되는",
-        "image": "https://cdn.newsquest.co.kr/news/photo/202610/303804_204587_1036.jpg"
-    },
-    {
-        "title": "[피플] ‘컴백 D-4’ 리센느, ‘펄스’로 연말 차트도 점령하나 - JTBC",
-        "source": "JTBC",
-        "date": "2026-10-30",
-        "url": "https://news.jtbc.co.kr/article/NB12325630",
-        "summary": "‘대세’ 그룹 리센느(RESCENE)가 연말 차트 점령에 나선다. 물오른 기세로 이들이 써 내려갈 새로운 성적에 관심이 쏠리고 있다. 리센느는...",
-        "image": "https://photo.jtbc.co.kr/news/jam_photo/202610/30/899f01aa-71a4-425b-98db-44fd5a213c99.jpg"
-    },
-    {
-        "title": "우리은행, 리센느 새 광고모델 발탁…‘우리는 해’ CM송 공개 - 전국매일신문",
-        "source": "전국매일신문",
-        "date": "2026-10-30",
-        "url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1306885",
-        "summary": "우리은행이 걸그룹 리센느를 새 광고모델로 발탁하고 브랜드 CM송 ‘우리는 해’를 공개했다.이번 광고는 각자의 자리에서 최선을 다하는 이들을 응원하고 고객의 성장을 함께하겠다는 우리은행의 브랜드 메시지를 친근한 방식으로 전달하기 위해 제작됐다.[전국매일신문] 이현정기자hj_lee@jeon",
-        "image": "https://www.jeonmae.co.kr/news/thumbnail/202610/1306885_1039252_3148_v150.jpg"
-    },
-    {
-        "title": "우리은행, ‘우리는 해’ CM송 공개… 리센느와 일상 속 도전 응원 - 이코리아",
-        "source": "이코리아",
-        "date": "2026-10-30",
-        "url": "https://www.ekoreanews.co.kr/news/articleView.html?idxno=88934",
-        "summary": "[이코리아] 우리은행이 걸그룹 리센느와 함께 제작한 브랜드 CM송 광고 ‘우리는 해’를 30일 공개했다.일상 속 도전을 이어가는 사람들을 응원한다는 브랜드 메시지",
-        "image": "https://cdn.ekoreanews.co.kr/news/photo/202610/88934_111456_4441.jpg"
-    },
-    {
-        "title": "우리은행, 새 CM송 공개...걸그룹 리센느 참여 - 한스경제",
-        "source": "한스경제",
-        "date": "2026-10-30",
-        "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=878116",
-        "summary": "| 서울=한스경제 이나라 기자 | 우리은행이 새 광고 모델로 합류한 걸그룹 리센느와 함께 제작한 '우리는 해' CM송 광고를 30일 선보였다.이번 광고는 각자의 위치에서 힘쓰는 이들을 격려하고 성장을 함께하겠다는 우리은행의 브랜드 뜻을 전하기 위해 기획됐다.모델로 나선 리센느는 'LOV",
-        "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/878116_903445_151_v150.jpg"
-    },
-    {
-        "title": "리센느, 우리은행 간판 됐다…CM송 '우리는 해' 공개 - 뉴스웍스",
-        "source": "뉴스웍스",
-        "date": "2026-10-30",
-        "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=901379",
-        "summary": "[뉴스웍스=진소영 기자] 우리은행이 걸그룹 리센느를 새로운 광고 모델로 발탁하고 일상 속 도전을 응원하는 CM송 광고 '우리는 해'를 공개했다.우리은행은 30일",
-        "image": "https://cdn.newsworks.co.kr/news/photo/202610/901379_901847_5113.jpg"
-    },
-    {
-        "title": "우리은행, 걸그룹 리센느와 ‘우리는 해’ CM송 광고 공개 - 이지경제",
-        "source": "이지경제",
-        "date": "2026-10-30",
-        "url": "https://www.ezyeconomy.com/news/articleView.html?idxno=241383",
-        "summary": "우리은행이 걸그룹 리센느(RESCENE)를 새로운 광고 모델로 발탁하고 고객의 일상 속 도전과 성장을 응원하는 CM송 광고를 선보였다.우리은행은 30일 리센느와 함께 제작한 신규 CM송 광고 ‘우리는 해’를 공개했다고 밝혔다.이번 광고는 각자의 자리에서 꿈을 향해 노력하는 사람들을 응",
-        "image": "https://cdn.ezyeconomy.com/news/thumbnail/202610/241383_142929_3654_v150.jpg"
+        "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4115759",
+        "summary": "우리은행이 걸그룹 리센느와 함께 일상 속 도전을 응원하는 ‘우리는 해’ CM송 광고를 공개했습니다.우리은행은 새 광고 모델로 발탁한 리센느와 제작한 광고를 30일 공개했다고 오늘 밝혔습니다.이번 광고는 각자의 자리에서 최선을 다하는 사람들을 응원하고, 성장을 함께하는 우리은행의 브랜드",
+        "image": "https://cdn.news.bbsi.co.kr/news/thumbnail/202610/4115759_778937_218_v150.jpg"
     },
     {
         "title": "걸그룹 리센느 내세운 갤럭시 Z 폴드8…삼성·네이버, 쇼핑라이브로 1030 공략 - 콕스뉴스",
@@ -398,28 +368,43 @@ const NEWS_DATA = [
         "image": "https://cdn.coxnews.co.kr/news/photo/202610/6534_9399_744.png"
     },
     {
-        "title": "리센느 소속사 직원 사칭해 금전 요구까지…더뮤즈 “법적 대응 중” [전문] - 일간스포츠",
-        "source": "일간스포츠",
+        "title": "[공식] \"금전 요구 확인, 고소\"..리센느 컴백 앞두고 더뮤즈, '사칭 피해' 법적 대응 [전문] - 스타뉴스",
+        "source": "스타뉴스",
         "date": "2026-10-30",
-        "url": "https://isplus.com/article/view/isp202610300078",
-        "summary": "그룹 리센느의 소속사 더뮤즈엔터테인먼트가 직원을 사칭해 금전을 요구하는 사례가 발생했다며 주의를 당부했다.더뮤즈엔터테인먼트는 지난 29일 공...",
-        "image": "https://isplus.com/data/isp/image/2026/10/21/isp20261021000149.800x.0.jpg"
+        "url": "https://www.starnewskorea.com/star/2026/10/30/2026103015512389729",
+        "summary": "그룹 리센느(RESCENE) 소속사가 직원 사칭 피해를 입으며 팬들에게 주의를 당부하고 나섰다. 더뮤즈엔터테인먼트(이하 더뮤즈) 측은 29일 공식 SNS 계정에 \"다수의 제보를 통해 당사 직원을 사칭하는 사례가 확인되어 안내드린다\"라고 알렸다. 이들은 \"최근 더뮤즈 경영지원팀 소속이라고",
+        "image": "https://image.starnewskorea.com/21/2026/10/2026103015512389729_1.jpg"
     },
     {
-        "title": "황찬성·노라조 다음은 리센느 리브·메이, AI 공모전 판 커졌다 - www.bntnews.co.kr",
-        "source": "www.bntnews.co.kr",
+        "title": "우리은행, 리센느 광고모델 발탁…CM송 `우리는 해` 공개 - 디지털데일리",
+        "source": "디지털데일리",
         "date": "2026-10-30",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202610300147",
-        "summary": "좋아하는 스타와 캐릭터를 소재로 직접 영상을 만들어볼 수 있는 AI 공모전이 열린다. 리센느 리브·메이의 ‘리트와 메트’부터 김성모 작",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/30/bnt202610300229.png"
+        "url": "https://m.ddaily.co.kr/page/view/2026103010191794337",
+        "summary": "[사진=우리은행][디지털데일리 이호연기자] 우리은행이 30일 새 광고 모델인 걸그룹 ‘리센느’와 함께 CM송 광고 ‘우리는 해’를 공개했다. 이번 광고는 각자의 자리에서 최선을 다..."
     },
     {
-        "title": "우리은행·걸그룹 리센느, 꿈을 향한 도전 응원...'우리는 해' CM송 공개 - 글로벌이코노믹",
-        "source": "글로벌이코노믹",
+        "title": "우리은행, 리센느 새 광고모델 발탁…‘우리는 해’ CM송 공개 - 전국매일신문",
+        "source": "전국매일신문",
         "date": "2026-10-30",
-        "url": "https://www.g-enews.com/article/Finance/2026/10/202610300914262161bb91c46fcd_1",
-        "summary": "우리은행이 신규 광고 모델로 발탁한 걸그룹 리센느(RESCENE)와 함께 꿈을 향한 도전을 응원하는 CM송 광고를 선보였다.30일 금융권에 따르면 우리은행은 일상 속 도전과 성장을 응원하는 브랜드 메시지를 담은 '우리는 해' CM송 광고를 공개했다.이번 광고는 각자의 자리에서 목표를 향",
-        "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026103009155004450bb91c46fcd12813480118.jpg"
+        "url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1306885",
+        "summary": "우리은행이 걸그룹 리센느를 새 광고모델로 발탁하고 브랜드 CM송 ‘우리는 해’를 공개했다.이번 광고는 각자의 자리에서 최선을 다하는 이들을 응원하고 고객의 성장을 함께하겠다는 우리은행의 브랜드 메시지를 친근한 방식으로 전달하기 위해 제작됐다.[전국매일신문] 이현정기자hj_lee@jeon",
+        "image": "https://www.jeonmae.co.kr/news/thumbnail/202610/1306885_1039252_3148_v150.jpg"
+    },
+    {
+        "title": "네이버-삼성전자, 리센느 출연 'Galaxy Night' 쇼핑라이브 진행 - 브레이크뉴스",
+        "source": "브레이크뉴스",
+        "date": "2026-10-30",
+        "url": "http://breaknews.com/1247085",
+        "summary": "네이버 쇼핑라이브 Galaxy Night © 네이버 네이버가 삼성전자와 함께 그룹 리센느(RESCENE)가 출연하는 'Galaxy Night'를 이날 오후 8시 네이버 쇼핑라이브에서",
+        "image": "https://www.breaknews.com/imgdata/breaknews_com/202610/2026103011404345.png"
+    },
+    {
+        "title": "우리은행, 새 CM송 공개...걸그룹 리센느 참여 - 한스경제",
+        "source": "한스경제",
+        "date": "2026-10-30",
+        "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=878116",
+        "summary": "| 서울=한스경제 이나라 기자 | 우리은행이 새 광고 모델로 합류한 걸그룹 리센느와 함께 제작한 '우리는 해' CM송 광고를 30일 선보였다.이번 광고는 각자의 위치에서 힘쓰는 이들을 격려하고 성장을 함께하겠다는 우리은행의 브랜드 뜻을 전하기 위해 기획됐다.모델로 나선 리센느는 'LOV",
+        "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/878116_903445_151_v150.jpg"
     },
     {
         "title": "우리은행, 리센느와 손잡았다…\"우리는 해!\" - 데일리안",
@@ -430,28 +415,28 @@ const NEWS_DATA = [
         "image": "https://cdnimage.dailian.co.kr/news/202610/news_1793334767485_1708758_m_1.jpg"
     },
     {
-        "title": "우리은행, 걸그룹 리센느와 CM송 광고 우리는 해 공개 - 아주경제",
-        "source": "아주경제",
+        "title": "“우리는 해”…우리은행, 리센느와 CM송 광고 공개 - 뉴스퀘스트",
+        "source": "뉴스퀘스트",
         "date": "2026-10-30",
-        "url": "https://www.ajunews.com/view/20261030164939234",
-        "summary": "우리은행은 새 광고 모델로 발탁한 걸그룹 리센느(RESCENE)와 함께 제작한 CM송 광고 우리는 해를 공개했다고 30일 밝혔다.이번 광고는 일상 속에서 각자의 ...",
-        "image": "https://image.ajunews.com/content/image/2026/10/30/20261030165115634720.jpg"
+        "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=303804",
+        "summary": "【뉴스퀘스트=심민현 기자】 우리은행이 걸그룹 리센느와 함께 제작한 ‘우리는 해’ CM송(광고 노래) 광고를 30일 공개했다. 은행 이름을 활용한 노랫말과 반복되는",
+        "image": "https://cdn.newsquest.co.kr/news/photo/202610/303804_204587_1036.jpg"
     },
     {
-        "title": "우리은행, 걸그룹 리센느와 ‘우리는 해’ CM송 광고 공개 - 서울타임즈뉴스",
-        "source": "서울타임즈뉴스",
+        "title": "리센느 소속사 직원 사칭해 금전 요구까지…더뮤즈 “법적 대응 중” [전문] - 일간스포츠",
+        "source": "일간스포츠",
         "date": "2026-10-30",
-        "url": "https://www.seoultimes.news/news/article.html?no=2000101601",
-        "summary": "[서울타임즈뉴스 = 최남주 기자] 우리은행은 새 광고 모델로 발탁한 걸그룹 ‘리센느’와 함께 제작한 ‘우리는 해’ CM송 광고를 30일 공개했다고 30일 밝혔다. 이번 광고는 각자의 자리에서 목표를 향해 노력하는 사람들을 격려하고, 고객의 성장을 함께하겠다는 취지로 만들어졌다. 리센느는",
-        "image": "https://www.seoultimes.news/data/photos/20261044/art_17933466886649_d31967.jpg"
+        "url": "https://isplus.com/article/view/isp202610300078",
+        "summary": "그룹 리센느의 소속사 더뮤즈엔터테인먼트가 직원을 사칭해 금전을 요구하는 사례가 발생했다며 주의를 당부했다.더뮤즈엔터테인먼트는 지난 29일 공...",
+        "image": "https://isplus.com/data/isp/image/2026/10/21/isp20261021000149.800x.0.jpg"
     },
     {
-        "title": "리센느, K-브랜드지수 걸그룹 1위···아이브·르세라핌 제쳤다 - 글로벌E",
-        "source": "글로벌E",
+        "title": "리센느, 우리은행 간판 됐다…CM송 '우리는 해' 공개 - 뉴스웍스",
+        "source": "뉴스웍스",
         "date": "2026-10-30",
-        "url": "https://www.globale.co.kr/news/articleView.html?idxno=41334",
-        "summary": "걸그룹 리센느(RESCENE, 원이, 메이, 미나미, 리브, 제나)가 대형 기획사 간판 그룹들을 제치고 빅데이터 기반 K-브랜드지수 걸그룹 부문 정상에 올랐다.30일 빅데이터 평가 기관 아시아브랜드연구소는 K-브랜드지수 걸그룹 부문 분석 결과 리센느가 1위를 차지했다고 밝혔다. 아이브",
-        "image": "https://cdn.globale.co.kr/news/thumbnail/202610/41334_68756_2242_v150.jpg"
+        "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=901379",
+        "summary": "[뉴스웍스=진소영 기자] 우리은행이 걸그룹 리센느를 새로운 광고 모델로 발탁하고 일상 속 도전을 응원하는 CM송 광고 '우리는 해'를 공개했다.우리은행은 30일",
+        "image": "https://cdn.newsworks.co.kr/news/photo/202610/901379_901847_5113.jpg"
     },
     {
         "title": "우리은행, 리센느와 ‘우리는 해’ CM송 광고 공개 - 글로벌뉴스통신GNA",
@@ -460,6 +445,14 @@ const NEWS_DATA = [
         "url": "https://www.globalnewsagency.kr/news/articleView.html?idxno=502016",
         "summary": "[서울=글로벌뉴스통신] 우리은행은 신규 광고 모델로 발탁한 걸그룹 리센느와 함께한 ‘우리는 해’ CM송 광고를 10월 30일(금) 공개했다.이번 광고는 각자의 자",
         "image": "https://cdn.globalnewsagency.kr/news/photo/202610/502016_520232_72.jpg"
+    },
+    {
+        "title": "우리은행, 걸그룹 리센느와 ‘우리는 해’ CM송 광고 공개 - 이지경제",
+        "source": "이지경제",
+        "date": "2026-10-30",
+        "url": "https://www.ezyeconomy.com/news/articleView.html?idxno=241383",
+        "summary": "우리은행이 걸그룹 리센느(RESCENE)를 새로운 광고 모델로 발탁하고 고객의 일상 속 도전과 성장을 응원하는 CM송 광고를 선보였다.우리은행은 30일 리센느와 함께 제작한 신규 CM송 광고 ‘우리는 해’를 공개했다고 밝혔다.이번 광고는 각자의 자리에서 꿈을 향해 노력하는 사람들을 응",
+        "image": "https://cdn.ezyeconomy.com/news/thumbnail/202610/241383_142929_3654_v150.jpg"
     },
     {
         "title": "네이버·삼성전자, 리센느와 ‘갤럭시 나이트’ 쇼핑라이브…Z 폴드8 체험 콘텐츠 선보인다 - 나눔경제뉴스",
@@ -478,36 +471,36 @@ const NEWS_DATA = [
         "image": "https://cdn.speconomy.com/news/photo/202610/419495_415913_2754.jpg"
     },
     {
+        "title": "우리은행·걸그룹 리센느, 꿈을 향한 도전 응원...'우리는 해' CM송 공개 - 글로벌이코노믹",
+        "source": "글로벌이코노믹",
+        "date": "2026-10-30",
+        "url": "https://www.g-enews.com/article/Finance/2026/10/202610300914262161bb91c46fcd_1",
+        "summary": "우리은행이 신규 광고 모델로 발탁한 걸그룹 리센느(RESCENE)와 함께 꿈을 향한 도전을 응원하는 CM송 광고를 선보였다.30일 금융권에 따르면 우리은행은 일상 속 도전과 성장을 응원하는 브랜드 메시지를 담은 '우리는 해' CM송 광고를 공개했다.이번 광고는 각자의 자리에서 목표를 향",
+        "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026103009155004450bb91c46fcd12813480118.jpg"
+    },
+    {
+        "title": "황찬성·노라조 다음은 리센느 리브·메이, AI 공모전 판 커졌다 - www.bntnews.co.kr",
+        "source": "www.bntnews.co.kr",
+        "date": "2026-10-30",
+        "url": "https://www.bntnews.co.kr/article/view/bnt202610300147",
+        "summary": "좋아하는 스타와 캐릭터를 소재로 직접 영상을 만들어볼 수 있는 AI 공모전이 열린다. 리센느 리브·메이의 ‘리트와 메트’부터 김성모 작",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/30/bnt202610300229.png"
+    },
+    {
+        "title": "리센느, K-브랜드지수 걸그룹 1위···아이브·르세라핌 제쳤다 - 글로벌E",
+        "source": "글로벌E",
+        "date": "2026-10-30",
+        "url": "https://www.globale.co.kr/news/articleView.html?idxno=41334",
+        "summary": "걸그룹 리센느(RESCENE, 원이, 메이, 미나미, 리브, 제나)가 대형 기획사 간판 그룹들을 제치고 빅데이터 기반 K-브랜드지수 걸그룹 부문 정상에 올랐다.30일 빅데이터 평가 기관 아시아브랜드연구소는 K-브랜드지수 걸그룹 부문 분석 결과 리센느가 1위를 차지했다고 밝혔다. 아이브",
+        "image": "https://cdn.globale.co.kr/news/thumbnail/202610/41334_68756_2242_v150.jpg"
+    },
+    {
         "title": "삼성 갤럭시 모델 리센느, 네이버 쇼핑라이브 진출 - 월요신문",
         "source": "월요신문",
         "date": "2026-10-30",
         "url": "https://www.wolyo.co.kr/news/articleView.html?idxno=319812",
         "summary": "네이버의 실시간 커머스 방송 '네이버 쇼핑라이브'에서 30일 삼성전자의 '갤럭시 나이트' 방송이 열린다. 갤럭시 공식 모델인 리센느(RESCENE)가 출연할 예정",
         "image": "https://cdn.wolyo.co.kr/news/photo/202610/319812_228816_5321.jpg"
-    },
-    {
-        "title": "우리은행, 리센느와 '우리는 해' CM송 공개...\"꿈을 향한 도전 응원\" - www.ebn.co.kr",
-        "source": "www.ebn.co.kr",
-        "date": "2026-10-30",
-        "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1729817",
-        "summary": "우리은행이 새롭게 광고 모델로 발탁한 인기 걸그룹 '리센느'와 함께 일상 속 도전을 응원하는 '우리는 해' CM송 광고를 30일 공개했다.이번 광고는 각자의 자리",
-        "image": "https://cdn.ebn.co.kr/news/thumbnail/202610/1729817_765072_736_v150.jpg"
-    },
-    {
-        "title": "리센느, 잘나가니 별일 다 생긴다 “소속사 직원 사칭+금전요구, 법적 대응”[전문] - 뉴스엔",
-        "source": "뉴스엔",
-        "date": "2026-10-30",
-        "url": "https://www.newsen.com/news_view.php?uid=202610301610362510&code=100100",
-        "summary": "�׷� ������ �Ҽӻ簡 ���� ��Ī�� ���Ǹ� ����ߴ�. ������ �Ҽӻ� ����������θ�Ʈ�� ���� 10�� 29�� ���� �Ҽȹ̵� ���� ���ֱ� ����������θ�Ʈ �濵������ �Ҽ��̶�� �ڽ�...",
-        "image": "https://photo.newsen.com/news_photo/2026/10/30/202610301610362510_51.jpg"
-    },
-    {
-        "title": "우리은행, 리센느 모델 발탁..‘우리는 해’ CM송 공개 - 스마트투데이",
-        "source": "스마트투데이",
-        "date": "2026-10-30",
-        "url": "https://www.smarttoday.co.kr/ko-kr/articles/113300",
-        "summary": "|스마트투데이=이태윤 기자| 인기 걸그룹 ‘리센느’가 우리은행의 광고 모델로 새롭게 합류했다. 우리은행은 새 광고 모델인 걸그룹 리센느가 참여한 ‘우리는 해’ CM송 광고를 30일 공개했다고 밝혔다.",
-        "image": "https://cdn.www.smarttoday.co.kr/w1200/q100/f_jpg/article-images/2026-10-30/bd52cb3e-6e58-49c5-8046-0bd92817057e.jpg"
     },
     {
         "title": "삼성전자·네이버, 리센느 출연 쇼핑라이브 단독 진행 - 파이낸셜포스트",
@@ -518,14 +511,6 @@ const NEWS_DATA = [
         "image": "https://cdn.financialpost.co.kr/news/thumbnail/202610/283603_375686_134_v150.jpg"
     },
     {
-        "title": "우리은행, 리센느 '우리는 해' CM송 광고 공개 - 뉴시스",
-        "source": "뉴시스",
-        "date": "2026-10-30",
-        "url": "https://www.newsis.com/view/NISX20261030_0003848079",
-        "summary": "[서울=뉴시스] 이정필 기자 = 우리은행은 신규 모델로 발탁한 걸그룹 리센느의 '우리는 해' CM송 광고를 30일 공개했다.이번 광고는 고객을 응원하고 브랜드 메시지를 친근하게 전달하기 위해 제작됐다.해당 광고는 TV, 라디오, 유튜브, 인스타그램 등 채널에서 볼 수 있다. ◎공감언론 ",
-        "image": "https://img1.newsis.com/2026/10/30/NISI20261030_0002278430_web.jpg"
-    },
-    {
         "title": "우리은행, 걸그룹 리센느와 ‘우리는 해’ 광고 공개 - 이뉴스투데이",
         "source": "이뉴스투데이",
         "date": "2026-10-30",
@@ -534,12 +519,12 @@ const NEWS_DATA = [
         "image": "https://cdn.enewstoday.co.kr/news/thumbnail/202610/2486357_1332192_67_v150.jpg"
     },
     {
-        "title": "우리은행 새 얼굴 된 걸그룹 리센느…'우리는 해' 광고 공개 - 핀포인트뉴스",
-        "source": "핀포인트뉴스",
+        "title": "우리은행, 리센느와 '우리는 해' CM송 공개...\"꿈을 향한 도전 응원\" - www.ebn.co.kr",
+        "source": "www.ebn.co.kr",
         "date": "2026-10-30",
-        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=499964",
-        "summary": "우리은행이 걸그룹 리센느(RESCENE)를 새로운 광고 모델로 발탁하고 CM송을 활용한 브랜드 광고를 선보였다.우리은행은 리센느와 함께 제작한 '우리는 해' CM송 광고를 30일 공개했다고 밝혔다.이번 광고는 일상에서 각자의 목표를 향해 도전하는 사람들을 응원하고, 고객의 성장을 함께하",
-        "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/499964_485229_449_v150.jpg"
+        "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1729817",
+        "summary": "우리은행이 새롭게 광고 모델로 발탁한 인기 걸그룹 '리센느'와 함께 일상 속 도전을 응원하는 '우리는 해' CM송 광고를 30일 공개했다.이번 광고는 각자의 자리",
+        "image": "https://cdn.ebn.co.kr/news/thumbnail/202610/1729817_765072_736_v150.jpg"
     },
     {
         "title": "우리은행, 신규 모델 '리센느' 호흡 맞춘 '우리는 해' CM송 공개 - 데일리한국",
@@ -550,20 +535,20 @@ const NEWS_DATA = [
         "image": "https://cdn.daily.hankooki.com/news/thumbnail/202610/1420345_1599134_284_v150.jpg"
     },
     {
-        "title": "네이버·삼성전자, 리센느 공연 보며 ‘폴드8’ 만난다…30일 쇼핑라이브 - 인사이트코리아",
-        "source": "인사이트코리아",
+        "title": "우리은행, 리센느 '우리는 해' CM송 광고 공개 - 뉴시스",
+        "source": "뉴시스",
         "date": "2026-10-30",
-        "url": "https://www.insightkorea.co.kr/news/articleView.html?idxno=257691",
-        "summary": "[인사이트코리아 = 이동연 기자] 네이버와 삼성전자가 K팝 그룹 리센느와 함께 갤럭시 Z 폴드8 쇼핑라이브를 진행한다. 리센느의 공연을 보여주고 멤버들이 직접 제품 사용 경험을 소개한다. 방송 중에는 구매 혜택과 경품 이벤트도 제공한다.네이버는 30일 오후 8시 네이버 쇼핑라이브에서",
-        "image": "https://cdn.insightkorea.co.kr/news/thumbnail/202610/257691_270302_4927_v150.jpg"
+        "url": "https://www.newsis.com/view/NISX20261030_0003848079",
+        "summary": "[서울=뉴시스] 이정필 기자 = 우리은행은 신규 모델로 발탁한 걸그룹 리센느의 '우리는 해' CM송 광고를 30일 공개했다.이번 광고는 고객을 응원하고 브랜드 메시지를 친근하게 전달하기 위해 제작됐다.해당 광고는 TV, 라디오, 유튜브, 인스타그램 등 채널에서 볼 수 있다. ◎공감언론 ",
+        "image": "https://img1.newsis.com/2026/10/30/NISI20261030_0002278430_web.jpg"
     },
     {
-        "title": "우리은행, 새 광고모델로 걸 그룹 리센느…CM송 공개 - SBS Biz",
-        "source": "SBS Biz",
+        "title": "우리은행, 리센느 모델 발탁..‘우리는 해’ CM송 공개 - 스마트투데이",
+        "source": "스마트투데이",
         "date": "2026-10-30",
-        "url": "https://biz.sbs.co.kr/article/20000343252",
-        "summary": "[리센느 (우리은행 제공=연합뉴스)]우리은행이 걸 그룹 리센느를 새로운 광고모델로 선정하고 '우리는 해' CM송을 공개했다고 오늘(30일) 밝혔습니다.이번 광고는 각자의 자리에서 최선을 다하는 사람들을 응원하고 성장을 함께하는 우리은행의 브랜드 메시지를 친근하게 전달하기 위해 제작됐습니",
-        "image": "https://img.biz.sbs.co.kr/upload/2026/10/30/gKB1793326605700-850.jpg"
+        "url": "https://www.smarttoday.co.kr/ko-kr/articles/113300",
+        "summary": "|스마트투데이=이태윤 기자| 인기 걸그룹 ‘리센느’가 우리은행의 광고 모델로 새롭게 합류했다. 우리은행은 새 광고 모델인 걸그룹 리센느가 참여한 ‘우리는 해’ CM송 광고를 30일 공개했다고 밝혔다.",
+        "image": "https://cdn.www.smarttoday.co.kr/w1200/q100/f_jpg/article-images/2026-10-30/bd52cb3e-6e58-49c5-8046-0bd92817057e.jpg"
     },
     {
         "title": "삼성전자·네이버, K팝 공연 결합한 갤럭시 쇼핑라이브 진행 - 뉴스톱",
@@ -574,84 +559,28 @@ const NEWS_DATA = [
         "image": "https://cdn.newstopkorea.com/news/photo/202610/48633_49964_317.png"
     },
     {
-        "title": "우리은행, 리센느와 '우리는 해' CM송 공개…꿈 향한 도전 응원 - 비욘드포스트",
-        "source": "비욘드포스트",
+        "title": "우리은행, 새 광고모델로 걸 그룹 리센느…CM송 공개 - SBS Biz",
+        "source": "SBS Biz",
         "date": "2026-10-30",
-        "url": "https://www.beyondpost.co.kr/view.php?ud=202610300959363321be44c0aacd_30",
-        "summary": "우리은행이 새 광고모델인 걸그룹 리센느와 함께 고객의 도전과 성장을 응원하는 브랜드 캠페인에 나섰다. '우리 모두가 해낼 수 있다'는 메시지에 은행 이름을 결합한 '우리는 해'를 CM송으로 만들어 친근하게 전달한다.30일 우리은행은 새 광고모델인 걸그룹 리센느와 함께 일상 속 도전을 응",
-        "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20261030100211000110be44c0aacd222988468.jpg&nmt=30"
+        "url": "https://biz.sbs.co.kr/article/20000343252",
+        "summary": "[리센느 (우리은행 제공=연합뉴스)]우리은행이 걸 그룹 리센느를 새로운 광고모델로 선정하고 '우리는 해' CM송을 공개했다고 오늘(30일) 밝혔습니다.이번 광고는 각자의 자리에서 최선을 다하는 사람들을 응원하고 성장을 함께하는 우리은행의 브랜드 메시지를 친근하게 전달하기 위해 제작됐습니",
+        "image": "https://img.biz.sbs.co.kr/upload/2026/10/30/gKB1793326605700-850.jpg"
     },
     {
-        "title": "우리은행, 새 광고 모델 리센느 발탁…'우리는 해' 캠페인 선봬 - 디지털투데이",
-        "source": "디지털투데이",
+        "title": "우리은행 새 얼굴 된 걸그룹 리센느…'우리는 해' 광고 공개 - 핀포인트뉴스",
+        "source": "핀포인트뉴스",
         "date": "2026-10-30",
-        "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=711218",
-        "summary": "[디지털투데이 이지영 기자] 우리은행이 걸그룹 리센느(RESCENE)를 새로운 광고 모델로 발탁하고, 도전과 성장을 응원하는 메시지를 담은 CM송 광고를 선보였다.우리은행은 리센느와 함께 제작한 '우리는 해' CM송 광고를 30일 공개했다고 밝혔다.이번 광고는 각자의 자리에서 목표를 향",
-        "image": "https://cdn.digitaltoday.co.kr/news/photo/202610/711218_658736_47.jpg"
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=499964",
+        "summary": "우리은행이 걸그룹 리센느(RESCENE)를 새로운 광고 모델로 발탁하고 CM송을 활용한 브랜드 광고를 선보였다.우리은행은 리센느와 함께 제작한 '우리는 해' CM송 광고를 30일 공개했다고 밝혔다.이번 광고는 일상에서 각자의 목표를 향해 도전하는 사람들을 응원하고, 고객의 성장을 함께하",
+        "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/499964_485229_449_v150.jpg"
     },
     {
-        "title": "우리은행, 리센느와 새 CM송 '우리는 해' 공개 - 뉴스프리존",
-        "source": "뉴스프리존",
+        "title": "네이버·삼성전자, 리센느 공연 보며 ‘폴드8’ 만난다…30일 쇼핑라이브 - 인사이트코리아",
+        "source": "인사이트코리아",
         "date": "2026-10-30",
-        "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=716781",
-        "summary": "우리은행이 새롭게 광고 모델로 발탁한 인기 걸그룹 리센느와 함께 일상 속 도전을 응원하는 '우리는 해' CM송 광고를 30일 공개했다.이번 광고는 각자의 자리에서 최선을 다하는 우리 모두를 응원하고 성장을 함께하는 우리은행의 브랜드 메시지를 친근하게 전달하기 위해 제작됐다.리센느는 '",
-        "image": "https://cdn.newsfreezone.co.kr/news/thumbnail/202610/716781_765717_1420_v150.jpg"
-    },
-    {
-        "title": "우리은행, 걸그룹 리센느와 손잡고 일상 속 도전 응원 - 포인트데일리",
-        "source": "포인트데일리",
-        "date": "2026-10-30",
-        "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=324289",
-        "summary": "[포인트데일리 조혜승 기자] 우리은행은 새롭게 발탁한 인기 걸그룹 ‘리센느’와 호흡을 맞춰 대중의 일상 속 도전을 응원하는 '우리는 해' CM송 광고를 30일 전격 공개했다.이번 신규 광고 캠페인을 통해 각자의 위치에서 최선을 다하는 모든 이들을 격려하고 지속적인 성장을 북돋우겠다는 브",
-        "image": "https://cdn.pointdaily.co.kr/news/thumbnail/202610/324289_321250_2611_v150.jpg"
-    },
-    {
-        "title": "리센느 회사 직원 사칭해 금전요구…\"고소+법적 절차 진행 중\"(공식) - 조이뉴스24",
-        "source": "조이뉴스24",
-        "date": "2026-10-30",
-        "url": "https://www.joynews24.com/view/2020954",
-        "summary": "그룹 리센느 소속사가 사칭 피해 주의를 당부했다. 리센느 소속사 더뮤즈엔터테인먼트는 29일 공식 SNS를 통해 \"최근 더뮤즈 경영지원팀 소속이라 자신을 소개하고 다수의 제지업체에 연락해 금전적인 요구 및 부당한 이익을 취하는 정황을 확인했다\"고 밝혔다.",
-        "image": "https://image.inews24.com/v1/72391d5c5bab58.jpg"
-    },
-    {
-        "title": "우리은행, 리센느와 꿈을 향한 도전..새 광고 CM송 공개 - 한국정경신문",
-        "source": "한국정경신문",
-        "date": "2026-10-30",
-        "url": "https://kpenews.com/View.aspx?No=4289984",
-        "summary": "[한국정경신문=이하정 기자] 우리은행(은행장 정진완)이 일상 속 도전을 응원하는 새 CM송 광고를 선보였다.우리은행은 새 광고모델인 인기 걸그룹 '리센느'와 함께 각자의 자리에서 최선을 다하는 모두를 응원하는 브랜드 메시지를 담은 ‘우리는 해’ CM송 광고를 공개했다고 30일 밝혔다. ",
-        "image": "https://cdn.coenworks.com/Files/4/News/202610/8599_20261030102324207.jpg"
-    },
-    {
-        "title": "네이버 쇼핑라이브에 뜬 리센느…'갤럭시 나이트' 개최 - 파이낸셜뉴스",
-        "source": "파이낸셜뉴스",
-        "date": "2026-10-30",
-        "url": "https://www.fnnews.com/news/202610301033578650",
-        "summary": "네이버가 삼성전자와 손잡고 K팝 공연과 라이브 커머스를 결합한 쇼핑 콘텐츠를 선보인다. 제품 정보와 구매 혜택을 전달하는 기존 쇼핑라이브에 아이돌 공연과 현장 이벤트를 접목해 젊은 소비자층과의 접점을 확대하려는 전략이다.30일 업계에 따르면 네이버는 그룹 ..",
-        "image": "https://image.fnnews.com/resource/media/image/2026/10/30/202610301039333009_e.PNG"
-    },
-    {
-        "title": "우리은행, 걸그룹 리센느와 '우리는 해' CM송 공개…꿈 향한 도전 응원 - 파이낸셜포스트",
-        "source": "파이낸셜포스트",
-        "date": "2026-10-30",
-        "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=283551",
-        "summary": "우리은행이 걸그룹 '리센느'와 함께 일상 속 도전과 성장을 응원하는 새로운 광고를 선보였다.우리은행은 30일 신규 광고 모델로 발탁한 리센느가 참여한 '우리는 해' CM송 광고를 공개했다고 밝혔다.이번 광고는 각자의 자리에서 목표를 향해 노력하는 이들에게 응원의 메시지를 전하고, 고객",
-        "image": "https://cdn.financialpost.co.kr/news/thumbnail/202610/283551_375632_3229_v150.jpg"
-    },
-    {
-        "title": "우리은행, ‘대세’ 리센느와 만났다…‘우리는 해’ 광고 공개 - SR타임스",
-        "source": "SR타임스",
-        "date": "2026-10-30",
-        "url": "https://www.srtimes.kr/news/articleView.html?idxno=216289",
-        "summary": "‘LOVE ATTACK’ 역주행 이어 지상파 메인뉴스까지…새 광고모델 발탁 “우리 모두가 해낼 수 있다”…꿈 향한 도전 응원하는 CM송 선봬[SRT(에스알타임스) 김동운 기자] 올봄 ‘거제 야호’ 밈을 계기로 음원 역주행에 성공한 걸그룹 리센느가 우리은행의 새 광고모델로 나섰다.우리은",
-        "image": "https://cdn.srtimes.kr/news/thumbnail/202610/216289_221365_5051_v150.jpg"
-    },
-    {
-        "title": "리센느 '백화요란'에 이재(EJAE·) 힘 보탰다…신흥 국민 걸그룹, '국제그룹' 발돋움할까 - 뉴시스",
-        "source": "뉴시스",
-        "date": "2026-10-29",
-        "url": "https://www.newsis.com/view/NISX20261029_0003845941",
-        "summary": "[서울=뉴시스]이재훈 기자 = 세계적인 주목을 받는 싱어송라이터 겸 프로듀서 이재(EJAE·김은재)가 신흥 국민 걸그룹 '리센느(RESCENE)'의 신보에 힘을 보탰다.29일 리센느 소속사 더뮤즈엔터테인먼트에 따르면, 리센느가 내달 3일 발매하는 미니 4집 '펄스(PULSE)'의 수록곡",
-        "image": "https://img1.newsis.com/2026/10/29/NISI20261029_0002277098_web.jpg"
+        "url": "https://www.insightkorea.co.kr/news/articleView.html?idxno=257691",
+        "summary": "[인사이트코리아 = 이동연 기자] 네이버와 삼성전자가 K팝 그룹 리센느와 함께 갤럭시 Z 폴드8 쇼핑라이브를 진행한다. 리센느의 공연을 보여주고 멤버들이 직접 제품 사용 경험을 소개한다. 방송 중에는 구매 혜택과 경품 이벤트도 제공한다.네이버는 30일 오후 8시 네이버 쇼핑라이브에서",
+        "image": "https://cdn.insightkorea.co.kr/news/thumbnail/202610/257691_270302_4927_v150.jpg"
     },
     {
         "title": "스테이씨 시은, 리센느 유행어 '야호' 몰랐다 \"왜 하는지, 누가 만든 건지\"('월간다음') - Chosunbiz",
@@ -660,6 +589,14 @@ const NEWS_DATA = [
         "url": "https://biz.chosun.com/entertainment/enter_general/2026/10/29/GFTDANBZMFRWIYTGMI4GIZJSHE/",
         "summary": "스테이씨 시은, 리센느 유행어 야호 몰랐다 왜 하는지, 누가 만든 건지월간다음",
         "image": "https://biz.chosun.com/resizer/v2/GQ2GKMRUMM4DCMZZMYYDCZBYGY.jpg?auth=03f37d683e7dbecfd609519b5fcb11bc8b8b4e2436e088c17334557cb56807ed&width=650&height=341&smart=true"
+    },
+    {
+        "title": "리센느 제나 커버로 16년 만의 역주행 열풍… 가수 박상철, '빵빵'으로 제2의 전성기 맞이 - 국제뉴스",
+        "source": "국제뉴스",
+        "date": "2026-10-29",
+        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3736472",
+        "summary": "(서울=국제뉴스) 김지현 기자 = 가수 박상철의 대표 히트곡 '빵빵'이 후배 가수의 커버 무대를 계기로 폭발적인 역주행 인기를 누리며 대중의 뜨거운 관심을 받고 있다.2010년 발표된 트로트 곡 빵빵은 최근 걸그룹 리센느의 멤버 제나가 방송 등에서 경쾌하게 커버하면서 젊은 세대 사이에서",
+        "image": "https://cdn.gukjenews.com/news/thumbnail/202610/3736472_3915759_3745_v150.jpg"
     },
     {
         "title": "“우리 WONi, 운명이었네”…리센느, 우리은행 응원가 주인공 됐다 - YTN",
@@ -674,21 +611,16 @@ const NEWS_DATA = [
         "source": "KBS 뉴스",
         "date": "2026-10-28",
         "url": "https://news.kbs.co.kr/news/view.do?ncd=8697414",
-        "summary": ""
-    },
-    {
-        "title": "[ET포토] 엑스러브 우무티, '리센느 미나미 만큼 능숙한 한국말' - 전자신문",
-        "source": "전자신문",
-        "date": "2026-10-28",
-        "url": "https://www.etnews.com/20261028000434",
-        "summary": ""
+        "summary": "각종 축제와 공연으로 나들이가 잦아지는 계절, 가을입니다. 특히 10월의 마지막 날인 '핼러윈(Halloween)...",
+        "image": "http://news.kbs.co.kr/data/news/2026/10/28/20261028_2m7phS.png"
     },
     {
         "title": "삼성전자, 걸그룹 리센느와 '갤럭시Z폴드8' 캠페인 - 전자신문",
         "source": "전자신문",
         "date": "2026-10-28",
         "url": "https://www.etnews.com/20261028000076",
-        "summary": ""
+        "summary": "삼성전자가 K팝 그룹 리센느(RESCENE)와 함께 '갤럭시 Z 폴드8' 신규 마케팅 캠페인을 진행한다. 실제 갤럭시 스마트폰을 사용하는 아티스트와 협업해 10~20대 여성 고객을 공략한다는 계획이다. 삼성전자는 28일 리센느를 갤럭시 Z 폴드8 캠페인 모델로 선정했다고 밝혔다. 리센느",
+        "image": "https://img.etnews.com/news/article/2026/10/28/news-p.v1.20261028.2b6a1977509242b38cd9815314b18b12_P1.jpg"
     },
     {
         "title": "\"그립감 좋다\" 한 마디에 대박 난 아이돌…결국 광고 따냈다 - 한국경제",
@@ -728,6 +660,29 @@ const NEWS_DATA = [
         "url": "https://star.ytn.co.kr/_sn/0117_202610280951042495",
         "summary": "그룹 리센느(RESCENE)가 새 앨범 발매를 앞두고 프로모션 웹사이트와 신곡 챌린지 영상을 공개하며 컴백 준비에 속도를 내고 있다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 27일 공식 SNS를 통해 오는 11월 3일 발매하는 네 번째 미니 앨범 ‘PULSE’(펄스)의 프로",
         "image": "https://image.ytn.co.kr/general/jpg/2026/1028/202610280951042495_t.jpg"
+    },
+    {
+        "title": "[테크스냅] 삼성전자, 리센느 손잡고 갤럭시 Z 폴드8 알린다 - 연합뉴스",
+        "source": "연합뉴스",
+        "date": "2026-10-28",
+        "url": "https://www.yna.co.kr/amp/view/AKR20261028045600017",
+        "summary": "(서울=연합뉴스) 박형빈 기자 = 삼성전자[005930]가 그룹 리센느와 손잡고 갤럭시 Z 폴드8의 여심 공략에 나선다.",
+        "image": "https://img1.yna.co.kr/etc/inner/KR/2026/10/28/AKR20261028045600017_03_i_P4.jpg"
+    },
+    {
+        "title": "삼성전자, 리센느 통해 ‘갤럭시 Z 폴드8’ 사용 경험 알린다 - 매일일보",
+        "source": "매일일보",
+        "date": "2026-10-28",
+        "url": "https://www.m-i.kr/news/articleView.html?idxno=2011459",
+        "summary": "매일일보 = 이강민 기자 | 삼성전자가 K팝 그룹 리센느와 함께 ‘갤럭시 Z 폴드8’의 사용 경험을 알리는 데 나선다. 제품을 직접 써 온 멤버들의 이야기를 통해",
+        "image": "https://cdn.m-i.kr/news/photo/202610/2011459_2011625_3344.jpg"
+    },
+    {
+        "title": "\"그립감이 좋다\"…삼성전자, 리센느와 ’Z 폴드8’ 신규 캠페인 전개 By EBN - Investing.com 한국어",
+        "source": "Investing.com 한국어",
+        "date": "2026-10-28",
+        "url": "https://kr.investing.com/news/stock-market-news/article-2144592",
+        "summary": ""
     },
     {
         "title": "리센느, 이번엔 머스크 향이다…팬들 심장 뛰게 할 '펄스' - 한국경제",
@@ -777,6 +732,37 @@ const NEWS_DATA = [
         "image": "https://image.ytn.co.kr/general/jpg/2026/1027/202610270946226135_t.jpg"
     },
     {
+        "title": "팬들 목소리에 응답한 삼성전자…리센느와 `갤럭시 Z 폴드8` 마케팅 전개 - 디지털데일리",
+        "source": "디지털데일리",
+        "date": "2026-10-27",
+        "url": "https://www.ddaily.co.kr/page/view/2026102808581156639",
+        "summary": "삼성전자가 K팝 아티스트 '리센느(RESCENE)'와 함께 '갤럭시 Z 폴드8'의 새로운 캠페인을 전개한다. [사진=삼성전자] [디지털데일리 옥송이기자] 삼성전자가 K팝 아티스트..."
+    },
+    {
+        "title": "삼성전자, 리센느와 갤럭시Z폴드8 캠페인 - 지디넷코리아",
+        "source": "지디넷코리아",
+        "date": "2026-10-27",
+        "url": "https://zdnet.co.kr/view/?no=20261028081113",
+        "summary": "삼성전자가 아이돌 '리센느(RESCENE)'와 손잡고 폴더블폰 신제품 '갤럭시 Z 폴드8'의 새로운 캠페인을 전개한다고 28일 밝혔다. 브랜드와 제품을 일상에서 자발적으로 사용해 온 아티스트와 팬덤의 유대를 조명해 마케팅 진정성...",
+        "image": "https://image.zdnet.co.kr/2026/10/28/e6bd09fdbd2a99f4403ee54472822055.jpg"
+    },
+    {
+        "title": "'국민 걸그룹' 리센느, 컴백 전 수록곡 메들리 공개 - YTN star",
+        "source": "YTN star",
+        "date": "2026-10-27",
+        "url": "https://star.ytn.co.kr/_sn/0117_202610271104578470",
+        "summary": "'국민 걸그룹’ 리센느가 역주행 이후 첫 정식 컴백을 앞두고, 신곡 일부를 깜짝 공개했습니다. 리센느는 내달 3일 오후 6시 각종 음원 사이트를 통해 미니 4집 ‘펄스’(PULSE)를 발매하고 활동을 이어갈 예정입니다. 이에 앞서 리센느는 공식 SNS를 통해 새 미니 앨범 '펄스'의 하",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1027/202610271104578470_t.jpg"
+    },
+    {
+        "title": "삼성전자, 리센느와 갤럭시 Z 폴드8 캠페인…1020 여성 공략 - 글로벌이코노믹",
+        "source": "글로벌이코노믹",
+        "date": "2026-10-27",
+        "url": "https://www.g-enews.com/article/Industry/2026/10/2026102808243357993084322ec9_1",
+        "summary": "삼성전자가 K팝 걸그룹 리센느(RESCENE)와 손잡고 폴더블 스마트폰 '갤럭시 Z 폴드8' 마케팅에 나선다. 실제 갤럭시 제품을 사용해 온 아티스트의 경험을 앞세워 10~20대 여성 소비자와의 접점을 확대한다는 전략이다.삼성전자는 28일 리센느와 함께 갤럭시 Z 폴드8의 신규 캠페인을",
+        "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=20261028082459033323084322ec91182166987.jpg"
+    },
+    {
         "title": "“팬들만 비 맞을 수 없죠“…리센느, 천막 걷고 팬들과 ’흠뻑’ - 연합뉴스TV",
         "source": "연합뉴스TV",
         "date": "2026-10-26",
@@ -791,5 +777,21 @@ const NEWS_DATA = [
         "url": "https://www.sisajournal.com/news/articleView.html?idxno=390097",
         "summary": "마음속에 오래도록 남는 음악적 향기를 선사하겠다는 작은 회사의 걸그룹이 드디어 대중의 눈에 들었다. 2024년 3월 데뷔한 리센느는 지금 가장 뜨거운 시기를 보내",
         "image": "https://cdn.sisajournal.com/news/thumbnail/202610/390097_399242_387_v150.jpg"
+    },
+    {
+        "title": "‘중소돌의 기적’ 리센느… 역주행 열기 이어갈까 - 세계일보",
+        "source": "세계일보",
+        "date": "2026-10-25",
+        "url": "https://www.segye.com/newsView/20261025508816",
+        "summary": "잠시 반짝인 행운일까. 아니면 정상을 향하는 첫 발걸음일까. 무대 밖에서 출발해 ‘대세’로 거듭났던 그룹 리센느(RESCENE·사진)가 내달 본격적인 컴백 행보에 돌입한다.",
+        "image": "https://www.segye.com/content/image/2026/10/26/20261026500448.jpg"
+    },
+    {
+        "title": "리센느, 삼성 갤럭시와 손잡았다…글로벌 브랜드가 주목한 대세 - YTN star",
+        "source": "YTN star",
+        "date": "2026-10-25",
+        "url": "https://star.ytn.co.kr/_sn/0117_202610260818051177",
+        "summary": "걸그룹 리센느(RESCENE)가 글로벌 스타들이 참여해온 삼성전자 갤럭시 캠페인에 합류한다. 삼성전자는 지난 23일 공식 SNS에 ‘시작해볼까?’라는 문구와 함께 갤럭시 Z 폴드8을 든 다섯 여성의 실루엣 티저 이미지를 공개했다. 구체적인 협업 내용은 공개되지 않았지만, 리센느를 연상케",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1026/202610260818051177_t.jpg"
     }
 ];
