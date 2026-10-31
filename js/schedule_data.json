@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T11:34:40.245Z",
+  "updated": "2026-10-31T16:41:38.608Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3938,6 +3938,22 @@
       "source": "mnetplus"
     },
     {
+      "date": "2026-11-24",
+      "time": "",
+      "title": "멜론 STAGE 99",
+      "detail": "",
+      "type": "event",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-11-27",
+      "time": "18:30",
+      "title": "[PULSE] 영상통화/대면 팬사인회 by WITHMUU",
+      "detail": "",
+      "type": "fansign",
+      "source": "mnetplus"
+    },
+    {
       "date": "2026-12-05",
       "time": "16:00",
       "title": "AAA 아시아 아티스트 어워즈 - 레드카펫 (대만 가오슝 내셔널 스타디움)",
@@ -3954,6 +3970,14 @@
       "source": "fan-schedule"
     },
     {
+      "date": "2026-12-05",
+      "time": "",
+      "title": "AAA 2026 in Kaohsiung",
+      "detail": "",
+      "type": "concert",
+      "source": "mnetplus"
+    },
+    {
       "date": "2026-12-06",
       "time": "18:00",
       "title": "AAA 아시아 아티스트 어워즈 (대만 가오슝 내셔널 스타디움)",
@@ -3968,6 +3992,14 @@
       "detail": "",
       "type": "broadcast",
       "source": "fan-schedule"
+    },
+    {
+      "date": "2026-12-13",
+      "time": "",
+      "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPAN",
+      "detail": "",
+      "type": "broadcast",
+      "source": "mnetplus"
     },
     {
       "date": "2026-12-20",
@@ -4029,6 +4061,7 @@
     "2026-08": true,
     "2026-09": true,
     "2026-10": true,
-    "2026-11": true
+    "2026-11": true,
+    "2026-12": true
   }
 }
