@@ -1,6 +1,141 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-11-01T21:51:45.225Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-11-02T05:13:44.893Z) */
 
 const NEWS_DATA = [
+    {
+        "title": "[창간22년] 리센느, '올해의 파워 피플' 1위…'중소의 기적' 通했다 - 조이뉴스24",
+        "source": "조이뉴스24",
+        "date": "2026-11-02",
+        "url": "https://www.joynews24.com/view/2020477",
+        "summary": "최산 터진 에이티즈-'왕사남' 주역 박지훈, 신드롬 가까운 인기 이수만&middot;방탄소년단&middot;지드래곤&rarr;유재석&middot;장항준, 저력 입증 K콘텐츠의 황금기다. 글로벌 팬덤이 형성된 K팝을 필두로 한국 드라마와 영화 등은 플랫폼의 급격한 발전과 더불어 전 세계가",
+        "image": "https://image.inews24.com/v1/cd04c7ac56d4f6.jpg"
+    },
+    {
+        "title": "리센느 원이, 무대 이탈 이유 밝혔다…“의상 탓에 호흡 어려워” - YTN star",
+        "source": "YTN star",
+        "date": "2026-11-02",
+        "url": "https://star.ytn.co.kr/_sn/0117_202611021335545649",
+        "summary": "그룹 리센느(RESCENE) 원이가 공연 중 무대를 잠시 이탈한 이유를 밝혔다. 리센느는 지난달 31일 경북 경주APEC기념공원(옛 경주엑스포대공원)에서 열린 ‘APEC 정상회의 기념관 개관식’ 축하 공연에 참석했다. 이날 원이는 ‘러브 어택(Love Attack)’ 무대를 마친 뒤 의",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1102/202611021335545649_t.jpg"
+    },
+    {
+        "title": "\"너무 놀랐다\" 리센느 원이, 무대 중 돌발 무대 이탈…왜? - 한국경제",
+        "source": "한국경제",
+        "date": "2026-11-02",
+        "url": "https://www.hankyung.com/article/202611020183H",
+        "summary": "\"너무 놀랐다\" 리센느 원이, 무대 중 돌발 무대 이탈…왜?, 리센느 원이, 경주 공연 도중 무대 이탈 \"줄어든 옷 때문에 숨 안 쉬어져\" 해명",
+        "image": "https://img.hankyung.com/photo/202611/01.46277462.1.png"
+    },
+    {
+        "title": "리센느 원이, 공연 중 무대 이탈 왜?…\"숨 안 쉬어져\" - 스포츠월드",
+        "source": "스포츠월드",
+        "date": "2026-11-02",
+        "url": "https://www.sportsworldi.com/newsView/20261102510512",
+        "summary": "그룹 리센느 멤버 원이가 공연 중 호흡 곤란으로 무대를 이탈하는 아찔한 상황이 벌어졌다. 팬들의 우려가 쏟아진 가운데 원이가 이에 대해 직접 입을 열었다. 원이는 최근 팬 소통 플랫폼을 통해 \"경주에 가니 의상을 입고 몇 시간은 못 있을 것 같아서 (무대 의상을) 안 입고 가겠다고 했다",
+        "image": "https://www.sportsworldi.com/content/image/2026/11/02/20261102510511.jpg"
+    },
+    {
+        "title": "리센느 원이, '무대 이탈' 공식입장 \"의상 줄어들어 호흡곤란\"[SC이슈] - 스포츠조선",
+        "source": "스포츠조선",
+        "date": "2026-11-02",
+        "url": "https://www.sportschosun.com/entertainment/2026-11-02/202611020100010990000733",
+        "summary": "그룹 리센느 원이가 무대 이탈 사건에 대한 입장을 밝혔다. 원이는 팬소통 플랫폼을 통해 \"경주에 가니 의상을 입고 몇 시간은 못 있을 것 같아서 무대 의상을 안 입고 가겠다고 했다. 원래는 입어보고 확인했어야 한다.",
+        "image": "https://www.sportschosun.com/article/html/2026/11/02/2026110201000109900007332.jpg"
+    },
+    {
+        "title": "[스경연예연구소] ‘머스크 향’으로 돌아온 리센느, 진정한 ‘국민 걸그룹’ 등극할까 - 스포츠경향",
+        "source": "스포츠경향",
+        "date": "2026-11-02",
+        "url": "https://sports.khan.co.kr/article/202611021038003",
+        "summary": "2026년 가요계에서 가장 극적인 역주행 서사를 쓴 걸그룹 리센느(RESCENE)가 1년 만에 새 앨범을 들고 돌아온다. ‘국민 걸그룹’이라는 수식어를 콘텐츠가 아닌 음악으로 증명해야 하는 가장 중요한 시험대가...",
+        "image": "https://images.khan.co.kr/article/2026/11/02/news-p.v1.20261102.1c86139df81843c997794841707a8a6a_P1.jpg"
+    },
+    {
+        "title": "`리센느` 포토북 촬영 현장 `팔현습지`…보도교 공사 저지 천막농성 이어져 - 매일신문",
+        "source": "매일신문",
+        "date": "2026-11-02",
+        "url": "https://www.imaeil.com/page/view/2026103015431001216",
+        "summary": "지난 2월 대구 수성구 금호강 팔현습지 일대 모습. 보도교와...",
+        "image": "https://www.imaeil.com/photos/2026/02/04/2026020416003333295_l.jpg"
+    },
+    {
+        "title": "“숨 안 쉬어져”…리센느 원이, 공연 중 호흡 곤란 - BNT뉴스",
+        "source": "BNT뉴스",
+        "date": "2026-11-02",
+        "url": "https://www.bntnews.co.kr/article/view/bnt202611020230",
+        "summary": "그룹 리센느 멤버 원이가 공연 도중 갑자기 무대를 이탈한 이유를 직접 밝혔다.리센느는 지난달 31일 경주엑스포대공원에서 열린 ‘APEC 정상회의장",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/02/bnt202611020492.jpg"
+    },
+    {
+        "title": "\"무대 하는데 숨 안 쉬어져\"..리센느 원이, 공연 중 이탈한 이유 - 스타뉴스",
+        "source": "스타뉴스",
+        "date": "2026-11-02",
+        "url": "https://www.starnewskorea.com/star/2026/11/02/2026110213403646289",
+        "summary": "걸 그룹 리센느 멤버 원이가 무대에서 공연을 하던 중 이탈한 이유를 밝혔다. 원이가 속한 리센느는 지난달 31일 경북 경주APEC기념공원(옛 경주엑스포대공원)에서 열린 'APEC 정상회의 기념관 개관식' 축하 공연에 참석했다. 이날 원이는 '러브 어택' 무대를 마친 후 의상을 매만졌다.",
+        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=1878,fit=cover,q=high,sharpen=2/21/2026/11/2026110213403646289_1.jpg"
+    },
+    {
+        "title": "“숨이 안 쉬어져” 리센느 원이, 무대 이탈 이유는 ‘이것’ 탓 - 매일경제",
+        "source": "매일경제",
+        "date": "2026-11-02",
+        "url": "https://www.mk.co.kr/news/hot-issues/12193449",
+        "summary": "",
+        "image": "https://pimg.mk.co.kr/news/cms/202611/02/news-p.v1.20261102.a6c23bfe4b5345008408e13b66a592a1_R.jpg"
+    },
+    {
+        "title": "리센느 원이, 공연 중 호흡 곤란으로 무대 이탈 “숨 안 쉬어져 놀라” 직접 해명 - 뉴스엔",
+        "source": "뉴스엔",
+        "date": "2026-11-02",
+        "url": "https://www.newsen.com/news_view.php?uid=202611021314405710&code=100100",
+        "summary": "�׷� ������(RESCENE) ��� ���̰� ���� ���� ���븦 ������ ������ ���� ������. �������� ������ 31�� ��� ���ֿ�������������� ���� ��APEC ����ȸ���� ���� �����ġ� ���� ����",
+        "image": "https://photo.newsen.com/news_photo/2026/11/02/202611021314405710_1.jpeg"
+    },
+    {
+        "title": "리센느 원이, 무대 도중 호흡 곤란에 급히 퇴장…“의상 줄어 숨 안 쉬어져” - 일간스포츠",
+        "source": "일간스포츠",
+        "date": "2026-11-02",
+        "url": "http://isplus.joins.com/article/view/isp202611020089",
+        "summary": ""
+    },
+    {
+        "title": "리센느 원이, '무대 이탈' 공식입장 \"의상 줄어들어 호흡곤란\"[SC이슈] - 조선일보",
+        "source": "조선일보",
+        "date": "2026-11-02",
+        "url": "https://www.chosun.com/entertainments/enter_general/2026/11/02/HE3TOMJTHFRWIODEHE4DKMZUMM/",
+        "summary": "그룹 리센느 멤버 원이가 최근 경주 공연 중 무대를 이탈하게 된 경위를 밝혔다. 세탁으로 수축된 의상을 착용한 상태에서 격한 안무를 소화하던 중 호흡 곤란을 느꼈으며, 잠시 무대를 벗어났다가 회복 후 다시 복귀하여 남은 공연을 마무리한 것으로 확인되었다.",
+        "image": "https://www.chosun.com/resizer/v2/GI3TSOLBGE3WCNZUGZQWEMRWME.jpg?auth=200983cbf66ac714fe57241178fb1e269ab89d22cc1bc9f42eaae1fa0b5c1273&width=650&height=341&smart=true"
+    },
+    {
+        "title": "리센느, 컴백 전부터 뜨겁다…‘K탑스타’ 최고의 루키 2주 연속 정상 - 매일경제",
+        "source": "매일경제",
+        "date": "2026-11-02",
+        "url": "https://www.mk.co.kr/news/entertain/12193376",
+        "summary": "그룹 리센느가 2주 연속 ‘K탑스타’ 1위를 차지하며 컴백 인기를 예열했다. K-POP의 현 상황을 알려주는 글로벌 K팝 투표사이트 ‘K탑스타’(KTOPSTAR)에 따르면 10월 26일부터 11월 1일까지 집계된 121회차 ‘최고의 루키(여)’ 부문에서 아홉이 1위에 등극했다. 2026",
+        "image": "https://pimg.mk.co.kr/news/cms/202611/02/news-p.v1.20261102.7117a154b0bc45288c2b3bf76db5c70d_R.png"
+    },
+    {
+        "title": "[창간22년] '파워피플 1위' 리센느 \"음악의 힘 느껴…향기+색 잃지 않겠다\" - 조이뉴스24",
+        "source": "조이뉴스24",
+        "date": "2026-11-02",
+        "url": "https://www.joynews24.com/view/2019503",
+        "summary": "그룹 리센느가 엔터 업계 관계자들이 뽑은 '올해의 파워 피플' 1위에 오르며 가요계 신예 스타로서 존재감을 입증했다. 대형 IP 중심의 K팝 시장 속에서 독창적인 기획력과 친근한 콘텐츠로 가요계 전반의 기획과 마케팅 지평을 넓혔다는 평가다.",
+        "image": "https://image.inews24.com/v1/cd04c7ac56d4f6.jpg"
+    },
+    {
+        "title": "“숨이 안 쉬어져” 리센느 원이, 눈물 흘리며 무대 이탈 ‘아찔’ - 스포츠서울",
+        "source": "스포츠서울",
+        "date": "2026-11-02",
+        "url": "https://www.sportsseoul.com/news/read/1646061",
+        "summary": "[스포츠서울 | 박경호 기자] 걸그룹 리센느(RESCENE) 멤버 원이가 공연 도중 호흡 곤란으로 무대를 급히 이탈하는 아찔한 상황이 벌어졌다. 리센느 지난달 31일 경주엑스포대공원에서 열린 ‘APEC 정상회의장 기념관 개관식’ 행사에 참석했다. 이날 ‘Runway’ 무대를 소화하던",
+        "image": "https://file.sportsseoul.com/news/cms/2026/11/02/news-p.v1.20261102.a9bc0880d29940be979ff8bd985b446b_T1.png"
+    },
+    {
+        "title": "40대 삼촌, 주한미군도 지갑 연다…유통가 휩쓴 ‘리센느노믹스’ - 중앙일보",
+        "source": "중앙일보",
+        "date": "2026-11-01",
+        "url": "https://www.joongang.co.kr/article/25474873",
+        "summary": "유통가를 휩쓴 '리센느노믹스', 수백억 파급 효과",
+        "image": "https://pds.joongang.co.kr/news/FbMetaImage/202611/0d3fa908-35e1-40ff-9bc7-90a59e095248.jpg"
+    },
     {
         "title": "“꿈을 향한 도전 응원” 우리은행, 리센느와 ‘우리는 해’ CF 공개 - 스포츠동아",
         "source": "스포츠동아",
@@ -10,20 +145,28 @@ const NEWS_DATA = [
         "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/01/134943493.1.jpg"
     },
     {
-        "title": "40대 삼촌, 주한미군도 지갑 연다…유통가 휩쓴 ‘리센느노믹스’ - 중앙일보",
-        "source": "중앙일보",
+        "title": "CU, 리센느 원이와 손잡고 도시락 2종 출시 - Chosunbiz",
+        "source": "Chosunbiz",
         "date": "2026-11-01",
-        "url": "https://www.joongang.co.kr/article/25474873",
-        "summary": "“구매 수량 제한이 있을까요? 내일부터 각오해야겠습니다”, “원이 포토카드 15종을 다 모으려면 15개는 무조건 먹어야겠네”, “남는 빵은 냉동했는데, 도시락은 어떻게 해야 할지”…. 걸그룹 ‘리센느’ 멤버인 원이를 내세운 편의점 도시락 출시 소식이 알려진 1일, 온라인은 30·40대 ",
-        "image": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202611/02/e6a4d6f4-5c32-483b-b3c9-b770e70d8d09.jpg"
+        "url": "https://biz.chosun.com/distribution/channel/2026/11/01/C5IWTJ5KCNCYNK7XCCHZEK3AP4/",
+        "summary": "CU, 리센느 원이와 손잡고 도시락 2종 출시",
+        "image": "https://biz.chosun.com/resizer/v2/CHPKZJZ7FFOVHJJTVBGENWUMOM.jpg?auth=8c0b4fa59145c57c771a28a3bab6c0198694530349351dea8524305900065a8a&width=1000&height=525&smart=true"
     },
     {
-        "title": "CU, 리센느 원이 취향 담은 ‘덕연이 딸 도시락’ 2종 출시 - 코리아리포트",
-        "source": "코리아리포트",
+        "title": "“빵이 없지, 돈이 없냐?” 리센느 삼촌팬들의 화력…‘리센느노믹스’ 뜬다 - YTN star",
+        "source": "YTN star",
         "date": "2026-11-01",
-        "url": "https://www.koreareport.co.kr/news/articleView.html?idxno=54165",
-        "summary": "CU가 브랜드 모델인 리센느(RESCENE) 멤버 원이의 식사 취향을 담은 ‘덕연이 딸 도시락’ 2종을 내놓고 차별화한 컬래버 상품을 간편식으로 넓힌다.CU는 지",
-        "image": "https://cdn.koreareport.co.kr/news/photo/202611/54165_57318_358.jpg"
+        "url": "https://star.ytn.co.kr/_sn/0117_202611020845293991",
+        "summary": "“빵이 없지, 돈이 없냐?” 걸그룹 리센느(RESCENE)를 향한 30·40대 삼촌팬들의 화력이 유통업계를 흔들고 있다. 단순히 아이돌 굿즈를 모으는 데 그치지 않고 빵을 사고, 음료를 마시고, 피자까지 주문하는 적극적인 소비로 이어지면서 이른바 ‘리센느노믹스(Rescene-nomics",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1102/202611020845293991_t.jpg"
+    },
+    {
+        "title": "숏폼 시대에 11분 영상으로 2000만뷰…리센느 제나, 44일 만의 기록 - YTN star",
+        "source": "YTN star",
+        "date": "2026-11-01",
+        "url": "https://star.ytn.co.kr/_sn/0117_202611020808220384",
+        "summary": "그룹 리센느(RESCENE) 제나가 추석 특집 트로트 메들리로 유튜브 조회수 2000만뷰를 돌파했다. 11분 분량의 롱폼 영상이 공개 약 한 달 반 만에 거둔 성과로, 짧은 영상이 주류인 유튜브에서 이례적인 기록이라는 점에서 눈길을 끈다. 지난 9월 18일 공개된 '[추석 특집] 제나의",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1102/202611020808220384_t.jpg"
     },
     {
         "title": "CU ‘리센느 원이 도시락’ 출시 - 대구신문",
@@ -34,12 +177,51 @@ const NEWS_DATA = [
         "image": "https://cdn.idaegu.co.kr/news/photo/202611/2026110201000045800002541.jpg"
     },
     {
+        "title": "CU, 리센느 원이 취향 담은 ‘덕연이 딸 도시락’ 2종 출시 - 코리아리포트",
+        "source": "코리아리포트",
+        "date": "2026-11-01",
+        "url": "https://www.koreareport.co.kr/news/articleView.html?idxno=54165",
+        "summary": "CU가 브랜드 모델인 리센느(RESCENE) 멤버 원이의 식사 취향을 담은 ‘덕연이 딸 도시락’ 2종을 내놓고 차별화한 컬래버 상품을 간편식으로 넓힌다.CU는 지",
+        "image": "https://cdn.koreareport.co.kr/news/photo/202611/54165_57318_358.jpg"
+    },
+    {
+        "title": "CU, 걸그룹 '리센느' 원이 취향 반영 '덕연이 딸 도시락' 2종 출시 - 전자신문",
+        "source": "전자신문",
+        "date": "2026-11-01",
+        "url": "https://www.etnews.com/20261101000028",
+        "summary": ""
+    },
+    {
         "title": "CU, 리센느 원이 협업 도시락 2종 출시…팬덤 마케팅 확대 - 신아일보",
         "source": "신아일보",
         "date": "2026-11-01",
         "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5078211",
         "summary": "편의점 CU가 걸그룹 ‘리센느’ 멤버 원이와 협업한 도시락을 내놓는다. 앞서 선보인 리센느 협업 빵의 흥행에 힘입어 팬덤을 겨냥한 상품군을 간편식으로 확대한다는",
         "image": "https://cdn.shinailbo.co.kr/news/photo/202611/5078211_2075734_5331.jpg"
+    },
+    {
+        "title": "리센느 제나, 11분 영상 44일 만에 2000만뷰 달성 - 한국사회복지저널",
+        "source": "한국사회복지저널",
+        "date": "2026-11-01",
+        "url": "http://www.ksw-news.com/news/articleView.html?idxno=3055478",
+        "summary": "그룹 리센느의 제나는 9월 18일 ‘추석 특집’ 트로트 메들리 영상을 유튜브에 공개했다. 영상은 총 11분 분량으로, 44일 뒤 1일 차에 2000만 조회수를 돌파했다. 매체 보도에 따르면 이 기록은 짧은 영상이 주류인 유튜브에서 이례적인 성과다.영상에는 고봉산의 ‘용두산 엘레지’,",
+        "image": "https://cdn.ksw-news.com/news/thumbnail/202611/3055478_3044621_1821_v150.jpg"
+    },
+    {
+        "title": "리센느 빵 이어 도시락 나왔다 - 부산일보",
+        "source": "부산일보",
+        "date": "2026-11-01",
+        "url": "https://www.busan.com/view/busan/view.php?code=2026110114543192531",
+        "summary": "편의점 CU에서 모델이 리센느 멤버 원이의 취향을 담은 ‘덕연이 딸 도시락’을 소개하고 있다. BGF리테일 제공 편의점 CU가 리센...",
+        "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/11/01/2026110114541617702_l.jpg"
+    },
+    {
+        "title": "‘리센느’ 원이, 공연 중 무대 이탈 왜?…“줄어든 의상 탓에 숨 안 쉬어져” 해명 - 헤럴드경제 미주판",
+        "source": "헤럴드경제 미주판",
+        "date": "2026-11-01",
+        "url": "https://www.heraldk.com/article/2026110120552396519",
+        "summary": "WE HERALD!, 헤럴드경제는 모바일 시대를 선도하는 종합일간경제 매체입니다.",
+        "image": "https://static.heraldcorp.com/wbazic/biz/www/image/heraldsns.png"
     },
     {
         "title": "CU, 리센느 원이 취향 담은 도시락 출시…팬덤 협업 간편식 확대 - 아시아투데이",
@@ -58,12 +240,11 @@ const NEWS_DATA = [
         "image": "https://cdn.emetro.co.kr/data2/content/image/2026/11/01/.cache/512/20261101500020.jpg"
     },
     {
-        "title": "CU, 리센느 원이 협업 도시락 출시…팬덤 상품군 확대 - 스마트경제",
-        "source": "스마트경제",
+        "title": "[BASE NOTES] RESCENE (리센느) MLB 광고 Behind - YouTube",
+        "source": "YouTube",
         "date": "2026-11-01",
-        "url": "http://www.dailysmart.co.kr/news/articleView.html?idxno=131786",
-        "summary": "[스마트경제 권희진 기자] 편의점 CU는 브랜드 모델인 걸그룹 리센느(RESCENE) 멤버 원이의 식사 취향을 반영한 '덕연이 딸 도시락' 2종을 출시한다고 1일",
-        "image": "https://cdn.dailysmart.co.kr/news/photo/202611/131786_131093_4428.jpg"
+        "url": "https://youtu.be/SsoyXhImVGc?si=eRRlbnYB8NUxX8oE",
+        "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
     },
     {
         "title": "CU, 리센느 원이 어머니표 '덕연이 딸 도시락' 2종 출시 - 뉴스후플러스",
@@ -74,34 +255,28 @@ const NEWS_DATA = [
         "image": "https://cdn.newswhoplus.com/news/thumbnail/202611/73165_112123_4436_v150.jpg"
     },
     {
-        "title": "[BASE NOTES] RESCENE (리센느) MLB 광고 Behind - YouTube",
-        "source": "YouTube",
+        "title": "리센느 돌풍 잠재울까? A2O LITE, 데뷔곡 하나로 음방 8관왕 달성 - 뉴스버즈",
+        "source": "뉴스버즈",
         "date": "2026-11-01",
-        "url": "https://youtu.be/SsoyXhImVGc?si=eRRlbnYB8NUxX8oE",
-        "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+        "url": "https://www.newsbuzz.co.kr/news/articleView.html?idxno=26551",
+        "summary": "걸그룹 A2O LITE(에이 투 오 라이트)가 데뷔곡 'NEON(니온)'으로 음악방송 8관왕을 달성하며 가요계에 돌풍을 일으키고 있다.A2O LITE(영, 오아, 아윤, 아이찡, 히메키, 라다, 시리, 보라, 메르시)는 지난 11월 1일(일) 방송된 SBS '인기가요'에서 데뷔 디지털",
+        "image": "https://cdn.newsbuzz.co.kr/news/thumbnail/202611/26551_29504_3612_v150.jpg"
     },
     {
-        "title": "[포토] 리센느 빵 이어 도시락…CU, RESCENE 원이 '덕연이 딸 도시락' 출시 - 콕스뉴스",
-        "source": "콕스뉴스",
+        "title": "CU, 리센느 원이 협업 도시락 출시…팬덤 상품군 확대 - 스마트경제",
+        "source": "스마트경제",
         "date": "2026-11-01",
-        "url": "https://www.coxnews.co.kr/news/articleView.html?idxno=6549",
-        "summary": "CU가 걸그룹 리센느 멤버 원이의 어머니가 싸주던 도시락을 편의점 도시락으로 내놓는다. 10월 출시한 리센느 빵 5종이 한 달 만에 누적 200만개 넘게 팔리자,",
-        "image": "https://cdn.coxnews.co.kr/news/photo/202611/6549_9422_3128.jpg"
+        "url": "http://www.dailysmart.co.kr/news/articleView.html?idxno=131786",
+        "summary": "[스마트경제 권희진 기자] 편의점 CU는 브랜드 모델인 걸그룹 리센느(RESCENE) 멤버 원이의 식사 취향을 반영한 '덕연이 딸 도시락' 2종을 출시한다고 1일",
+        "image": "https://cdn.dailysmart.co.kr/news/photo/202611/131786_131093_4428.jpg"
     },
     {
-        "title": "'200만개 판매 리센느 빵' 흥행 잇는다..CU, 원이표 도시락 출시 - 한국정경신문",
-        "source": "한국정경신문",
-        "date": "2026-11-01",
-        "url": "https://kpenews.com/View.aspx?No=4291965",
-        "summary": "[한국정경신문=박준수 기자] CU가 걸그룹 리센느(RESCENE) 멤버 원이의 식사 취향을 반영한 도시락 2종을 출시한다. 앞서 선보인 리센느 협업 베이커리 5종에 이어 간편식으로 협업 범위를 확대했다. 아티스트가 평소 즐겨 먹는 메뉴를 상품화하고 포토카드를 동봉해 팬덤 소비를 겨냥한다",
-        "image": "https://cdn.coenworks.com/Files/4/News/202611/8821_20261101112231001.jpg"
-    },
-    {
-        "title": "[ENG/JP/ID] RESCENE(리센느) May(메이) 🐘 & Woni(원이) 🐱 | Woni Multiverse: Factory & Pottery | 261101 - YouTube",
-        "source": "YouTube",
-        "date": "2026-11-01",
-        "url": "https://youtu.be/EGLHx5gfHOI?si=35Kt7aSrjMXLbSU4",
-        "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+        "title": "리센느, MMA 본상 탈락에도 글로벌 TOP10 투표 1위…지드래곤에 13%p 앞서 - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-10-31",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16264727",
+        "summary": "리센느가 MMA 2026 일반 TOP10 본상 선정에서 제외된 이후 진행 중인 글로벌 TOP10 팬 투표에서 28%로 선두를 달리고 있다. 지드래곤과 13%포인트 차이를 보이는 가운데, 투표 반영 비율과 국내외 차트 평가 기준이 주목받고 있다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202610/16264727_2073556_2055_crop.jpg"
     },
     {
         "title": "CU, 리센느 원이와 손잡고 '덕연이 딸 도시락' 2종 출시 - 연합뉴스",
@@ -112,12 +287,12 @@ const NEWS_DATA = [
         "image": "https://img0.yna.co.kr/etc/inner/KR/2026/11/01/AKR20261101011500030_01_i_P4.jpg"
     },
     {
-        "title": "리센느, MMA 본상 탈락에도 글로벌 TOP10 투표 1위…지드래곤에 13%p 앞서 - 톱스타뉴스",
-        "source": "톱스타뉴스",
+        "title": "리센느 원이의 집밥, 편의점 도시락으로…CU, 협업 상품 확대 - 지디넷코리아",
+        "source": "지디넷코리아",
         "date": "2026-10-31",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16264727",
-        "summary": "리센느가 MMA 2026 일반 TOP10 본상 선정에서 제외된 이후 진행 중인 글로벌 TOP10 팬 투표에서 28%로 선두를 달리고 있다. 지드래곤과 13%포인트 차이를 보이는 가운데, 투표 반영 비율과 국내외 차트 평가 기준이 주목받고 있다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202610/16264727_2073556_2055_crop.jpg"
+        "url": "https://zdnet.co.kr/view/?no=20261101084515",
+        "summary": "CU가 아이돌 그룹 리센느와의 협업을 빵에서 도시락으로 넓힌다. 멤버 원이의 어머니가 딸에게 만들어주던 반찬을 상품에 담아 팬들이 아티스트의 식사 취향을 함께 경험하도록 했다.BGF리테일이 운영하는 편의점 CU는 리센느 멤버 원이와 협업한 ‘덕연이 딸 도시락’ 2종을 선보인다고 1일 밝",
+        "image": "https://image.zdnet.co.kr/2026/11/01/878cdc965fb6f7e784e11ce172783972.jpg"
     },
     {
         "title": "리센느, 팀 서사 녹인 앨범…'위드', 찬란한 순간 - 디스패치",
@@ -136,14 +311,6 @@ const NEWS_DATA = [
         "image": "https://i.ytimg.com/vi/dZ2tTKQz4As/maxresdefault.jpg"
     },
     {
-        "title": "CU, 리센느 멤버 ‘덕연이 딸 원이 도시락’ 2종 출시...베이커리 이어 간편식까지 확장 - 팝콘뉴스",
-        "source": "팝콘뉴스",
-        "date": "2026-10-31",
-        "url": "https://www.popcornnews.net/news/articleView.html?idxno=138176",
-        "summary": "(팝콘뉴스=김지수 기자) 편의점 CU는 걸그룹 리센느(RESCENE) 멤버 원이의 식사 취향을 반영한 ‘덕연이 딸 도시락’ 2종을 선보이며 차별화 컬래버레이션 상품군을 간편식 시장으로 넓힌다고 1일 밝혔다. 앞서 CU가 선보인 ‘BAKE405 리센느 빵’ 5종은 출시 한 달 만에 누적 ",
-        "image": "https://cdn.popcornnews.net/news/thumbnail/202611/138176_164620_1824_v150.jpg"
-    },
-    {
         "title": "‘컴백 D-3’ 리센느, 타이틀곡 ‘With’ MV 베일 벗었다 - 스포츠경향",
         "source": "스포츠경향",
         "date": "2026-10-31",
@@ -156,8 +323,23 @@ const NEWS_DATA = [
         "source": "전자신문",
         "date": "2026-10-31",
         "url": "https://www.etnews.com/20261031000019",
-        "summary": "그룹 리센느가 특별한 미감을 빛냈다. 리센느는 지난 30일 공식 SNS 채널에 네 번째 미니앨범 'PULSE'의 타이틀곡 'With' 뮤직비디오 티저 영상을 선보였다. 신보는 오는 11월 3일 오후 6시 발매된다. 공개된",
-        "image": "https://img.etnews.com/news/article/2026/10/31/article_31131502071043.jpg"
+        "summary": ""
+    },
+    {
+        "title": "CU, 리센느 멤버 ‘덕연이 딸 원이 도시락’ 2종 출시...베이커리 이어 간편식까지 확장 - 팝콘뉴스",
+        "source": "팝콘뉴스",
+        "date": "2026-10-31",
+        "url": "https://www.popcornnews.net/news/articleView.html?idxno=138176",
+        "summary": "(팝콘뉴스=김지수 기자) 편의점 CU는 걸그룹 리센느(RESCENE) 멤버 원이의 식사 취향을 반영한 ‘덕연이 딸 도시락’ 2종을 선보이며 차별화 컬래버레이션 상품군을 간편식 시장으로 넓힌다고 1일 밝혔다. 앞서 CU가 선보인 ‘BAKE405 리센느 빵’ 5종은 출시 한 달 만에 누적 ",
+        "image": "https://cdn.popcornnews.net/news/thumbnail/202611/138176_164620_1824_v150.jpg"
+    },
+    {
+        "title": "\"리센느 원이 취향 담았다\" CU, '덕연이 딸 도시락' 2종 출시 - 뉴시스",
+        "source": "뉴시스",
+        "date": "2026-10-31",
+        "url": "https://www.newsis.com/view/NISX20261101_0003849521",
+        "summary": "[서울=뉴시스]오제일 기자 = CU가 브랜드 모델 리센느(RESCENE) 멤버 원이의 평소 식사 취향을 담은 '덕연이 딸 도시락'을 출시한다고 1일 밝혔다. CU는 지난달 리센느 멤버들의 취향을 담은 'BAKE405 리센느 빵' 5종을 출시, 한 달 만에 누적 판매량 200만개를 돌파한",
+        "image": "https://img1.newsis.com/2026/11/01/NISI20261101_0002279434_web.jpg"
     },
     {
         "title": "리센느 미나미·메이도 떴다… 아이돌 ‘한국어 대결’ 유튜브 예능 공개 - 한국대학신문",
@@ -196,8 +378,7 @@ const NEWS_DATA = [
         "source": "전자신문",
         "date": "2026-10-30",
         "url": "https://www.etnews.com/20261030000089",
-        "summary": "네이버는 30일 오후 8시 그룹 리센느(RESCENE)가 출연하는 '갤럭시 나이트(Galaxy Night)'를 네이버 쇼핑라이브에서 단독 진행한다고 밝혔다. 이번 방송은 삼성전자의 '갤럭시 Z 폴드8' 캠페인의 일환이다. 방송에서는 리센느의 공연과 함께 갤럭시 Z 폴드8 등 주요 갤럭시",
-        "image": "https://img.etnews.com/news/article/2026/10/30/news-p.v1.20261030.48839699f85348c580dbb1495e130365_P1.png"
+        "summary": ""
     },
     {
         "title": "리센느, 소속사 직원 ‘사칭 피해’에 법적 대응 - JTBC",
@@ -232,20 +413,20 @@ const NEWS_DATA = [
         "image": "https://cdn.m-i.kr/news/photo/202610/2012288_2012544_86.jpg"
     },
     {
-        "title": "리센느, 아시아브랜드연구소 걸그룹 브랜드지수 1위…아이브·르세라핌 뒤이어 - 진일보 | 전남일보",
-        "source": "진일보 | 전남일보",
-        "date": "2026-10-30",
-        "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000078289",
-        "summary": "아시아브랜드연구소가 14억 건 이상의 온라인 데이터를 분석해 2026년 9월 걸그룹 부문 TOP10 순위를 발표했다. 이번 분석은 Trend, Social, Me",
-        "image": "https://cdn.jnilbo.com/news/photo/202610/90000078289_607729_111.jpg"
-    },
-    {
         "title": "네이버, 삼성전자와 '갤럭시 나이트' 쇼핑라이브 진행…리센느 출연 - 뉴스핌",
         "source": "뉴스핌",
         "date": "2026-10-30",
         "url": "https://www.newspim.com/news/view/20261030000499",
         "summary": "[서울=뉴스핌] 심재민 인턴기자 = 네이버는 삼성전자와 함께 걸그룹 리센느(RESCENE)가 출연하는 '갤럭시 나이트(Galaxy Night)'를 30일 오후 8시 네이버 쇼핑라이브에서 단독 진행한다고 밝혔다.이번 방송은 삼성전자의 '갤럭시 Z 폴드8' 캠페인",
         "image": "https://img.newspim.com/news/2026/10/30/2610301054226150_t1.jpg"
+    },
+    {
+        "title": "리센느, 아시아브랜드연구소 걸그룹 브랜드지수 1위…아이브·르세라핌 뒤이어 - 진일보 | 전남일보",
+        "source": "진일보 | 전남일보",
+        "date": "2026-10-30",
+        "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000078289",
+        "summary": "아시아브랜드연구소가 14억 건 이상의 온라인 데이터를 분석해 2026년 9월 걸그룹 부문 TOP10 순위를 발표했다. 이번 분석은 Trend, Social, Me",
+        "image": "https://cdn.jnilbo.com/news/photo/202610/90000078289_607729_111.jpg"
     },
     {
         "title": "우리은행, 새 광고 모델 ‘리센느’ 발탁…‘우리는 해’ CM송 공개 - 더나은미래",
@@ -259,8 +440,7 @@ const NEWS_DATA = [
         "source": "조세일보",
         "date": "2026-10-30",
         "url": "https://m.joseilbo.com/news/view.htm?newsid=578550&class2=&class=2",
-        "summary": "��&hellip;(����=�츮���� ����)�츮����(������ ������)�� �α� �ɱ׷� ������(RESCENE)�� ���ο� ���� �𵨷� ������ �귣�� ������ ��ȭ�� ������. �ܼ��� ������ǰ ȫ������ ��� �����",
-        "image": "https://www.joseilbo.com/gisa_img/17933335201793333520_hheo.jpg"
+        "summary": ""
     },
     {
         "title": "우리은행, 새 모델로 리센느 발탁...'우리는 해' CM송 공개 - 뉴스핌",
@@ -279,6 +459,14 @@ const NEWS_DATA = [
         "image": "https://economist.co.kr/data/ecn/image/2026/10/30/ecn20261030000015.800x.0.jpg"
     },
     {
+        "title": "우리은행, 걸그룹 '리센느' 참여 신규 CM송 공개 - 메트로신문",
+        "source": "메트로신문",
+        "date": "2026-10-30",
+        "url": "https://www.metroseoul.co.kr/article/20261030500235",
+        "summary": "우리은행이 새로운 CM송을 공개했다. 우리은행은 광고 모델로 신규 발탁한 걸그룹 '리센느'와 함께 일상 속 도전을 응원하는 '우리는 해' CM송 광고를 공개했다고 30일 밝혔다. 이번 광고는 각자의 자리에서 최선을 다하는 우리 모두를 응원하고 성장을 함께하는 우리은행의",
+        "image": "https://cdn.emetro.co.kr/data2/content/image/2026/10/30/.cache/512/20261030500236.jpg"
+    },
+    {
         "title": "네이버·삼성전자, 리센느 출연 '갤럭시 나이트' 쇼핑라이브 단독 진행 - 파이낸셜신문",
         "source": "파이낸셜신문",
         "date": "2026-10-30",
@@ -295,28 +483,12 @@ const NEWS_DATA = [
         "image": "https://www.imaeil.com/photos/2026/10/30/2026103010373956394_l.jpg"
     },
     {
-        "title": "우리은행, 걸그룹 '리센느' 참여 신규 CM송 공개 - 메트로신문",
-        "source": "메트로신문",
-        "date": "2026-10-30",
-        "url": "https://www.metroseoul.co.kr/article/20261030500235",
-        "summary": "우리은행이 새로운 CM송을 공개했다. 우리은행은 광고 모델로 신규 발탁한 걸그룹 '리센느'와 함께 일상 속 도전을 응원하는 '우리는 해' CM송 광고를 공개했다고 30일 밝혔다. 이번 광고는 각자의 자리에서 최선을 다하는 우리 모두를 응원하고 성장을 함께하는 우리은행의",
-        "image": "https://cdn.emetro.co.kr/data2/content/image/2026/10/30/.cache/512/20261030500236.jpg"
-    },
-    {
         "title": "우리은행, 새 광고모델에 걸그룹 리센느 발탁…‘우리는 해’ 공개 - 뉴시안",
         "source": "뉴시안",
         "date": "2026-10-30",
         "url": "https://www.newsian.co.kr/news/articleView.html?idxno=100344",
         "summary": "［뉴시안= 박성하 기자］우리은행이 걸그룹 리센느를 새 광고모델로 발탁하고 일상 속 도전을 응원하는 브랜드 캠페인에 나선다.우리은행은 리센느가 참여한 ‘우리는 해’",
         "image": "https://cdn.newsian.co.kr/news/photo/202610/100344_100408_039.jpg"
-    },
-    {
-        "title": "리센느, 우리은행 새 광고 모델 발탁→ CM송 공개 - BNT뉴스",
-        "source": "BNT뉴스",
-        "date": "2026-10-30",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202610300204",
-        "summary": "우리은행이 리센느(RESCENE)를 새 광고 모델로 발탁하고 CM송 광고를 공개했다.우리은행은 오늘(30일) 리센느가 참여한 CM송 광고를 선보였다. CM송 제목이",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/30/bnt202610300354.jpg"
     },
     {
         "title": "박지현, 내일 리센느와 축하 공연 - 진일보 | 전남일보",
@@ -347,16 +519,7 @@ const NEWS_DATA = [
         "source": "한국재난안전뉴스",
         "date": "2026-10-30",
         "url": "https://www.kdsn.co.kr/news/article.html?no=49681",
-        "summary": "한국재난안전뉴스 정유진 기자 | 우리은행(은행장 정진완)이 새 광고 모델로 발탁한 인기 걸그룹 '리센느'와 함께 일상 속 도전을 응원하는 '우리는 해' CM송 광고를 공개했다고 30일 밝혔다. 이번 광고는 각자의 자리에서 최선을 다하는 모두를 응원하고 성장을 함께한다는 우리은행의 브랜드",
-        "image": "https://www.kdsn.co.kr/data/photos/20261044/art_17933342607538_edd1f4.jpg"
-    },
-    {
-        "title": "네이버·삼성전자, 리센느 공연 결합 쇼핑라이브…갤럭시 판매 확대 - 뉴스락",
-        "source": "뉴스락",
-        "date": "2026-10-30",
-        "url": "http://www.newslock.co.kr/news/articleView.html?idxno=138968",
-        "summary": "[뉴스락] 네이버가 삼성전자와 공연을 결합한 쇼핑라이브로 갤럭시 판매를 확대한다. 30일 오후 8시 그룹 리센느가 출연하는 ‘Galaxy Night’를 단독 진행한다.방송에서는 리센느 공연과 함께 갤럭시 Z 폴드8 등 주요 상품을 판매한다. 멤버들이 제품 기능과 디자인, 활용 경험도 소",
-        "image": "https://cdn.newslock.co.kr/news/thumbnail/202610/138968_126300_5346_v150.jpg"
+        "summary": ""
     },
     {
         "title": "우리은행, 리센느와 ‘우리는 해’ CM송 광고 공개 - BBS불교방송",
@@ -395,39 +558,15 @@ const NEWS_DATA = [
         "date": "2026-10-30",
         "url": "https://www.viva100.com/article/20261030500611",
         "summary": "네이버가 삼성전자와 함께 걸그룹 리센느가 출연하는 ‘갤럭시 나이트’를 30일 오후 8시 네이버 쇼핑라이브에서 단독 진행한다고 밝혔다. 이번 쇼핑라이브는 삼성전자의 ‘갤럭시 Z 폴드8’ 캠페인의 일환으로 마련됐다. 네이버의 라이브 커머스 역량에 K팝 공연을 결합해 제품을",
-        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/30/.cache/512/20261030500576.png?v=20261102065129"
+        "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/30/.cache/512/20261030500576.png?v=20261102141332"
     },
     {
-        "title": "[금융 게시판] 우리은행, 걸그룹 리센느와 새 광고 공개…KB국민은행, 박은빈과 퇴직연금 관리 홍보 - 라이센스뉴스",
-        "source": "라이센스뉴스",
+        "title": "\"금전 요구 하지 않아\"… 컴백 앞둔 리센느 소속사, 직원 사칭범에 법적 대응 - 한국일보",
+        "source": "한국일보",
         "date": "2026-10-30",
-        "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=210589",
-        "summary": "라이센스뉴스 = 김상미 기자 | 은행권이 유명 연예인을 활용한 브랜드 광고를 통해 고객과의 소통을 강화하고 있다. 우리은행은 걸그룹 리센느와 함께 일상 속 도전과",
-        "image": "https://cdn.lcnews.co.kr/news/photo/202610/210589_213811_359.jpg"
-    },
-    {
-        "title": "“우리는 해”…우리은행, 리센느와 CM송 광고 공개 - 뉴스퀘스트",
-        "source": "뉴스퀘스트",
-        "date": "2026-10-30",
-        "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=303804",
-        "summary": "【뉴스퀘스트=심민현 기자】 우리은행이 걸그룹 리센느와 함께 제작한 ‘우리는 해’ CM송(광고 노래) 광고를 30일 공개했다. 은행 이름을 활용한 노랫말과 반복되는",
-        "image": "https://cdn.newsquest.co.kr/news/photo/202610/303804_204587_1036.jpg"
-    },
-    {
-        "title": "우리은행, 걸그룹 리센느와 ‘우리는 해’ CM송 광고 공개 - 이지경제",
-        "source": "이지경제",
-        "date": "2026-10-30",
-        "url": "https://www.ezyeconomy.com/news/articleView.html?idxno=241383",
-        "summary": "우리은행이 걸그룹 리센느(RESCENE)를 새로운 광고 모델로 발탁하고 고객의 일상 속 도전과 성장을 응원하는 CM송 광고를 선보였다.우리은행은 30일 리센느와 함께 제작한 신규 CM송 광고 ‘우리는 해’를 공개했다고 밝혔다.이번 광고는 각자의 자리에서 꿈을 향해 노력하는 사람들을 응",
-        "image": "https://cdn.ezyeconomy.com/news/thumbnail/202610/241383_142929_3654_v150.jpg"
-    },
-    {
-        "title": "우리은행, 광고 모델 리센느와 '우리는 해' CM송 광고 공개 - 일간투데이",
-        "source": "일간투데이",
-        "date": "2026-10-30",
-        "url": "https://www.dtoday.co.kr/news/articleView.html?idxno=800449",
-        "summary": "[일간투데이 한지연 기자] 우리은행이 새 광고 모델인 걸그룹 '리센느'와 함께 일상 속 도전을 응원하는 '우리는 해' CM송 광고를 공개했다고 30일 밝혔다.이번 광고는 각자의 자리에서 최선을 다하는 이들을 격려하고 성장을 함께하겠다는 브랜드 메시지를 친근하게",
-        "image": "https://cdn.dtoday.co.kr/news/thumbnail/202610/800449_673311_1044_v150.jpg"
+        "url": "https://www.hankookilbo.com/news/article/A2026103016150003506",
+        "summary": "① 리센느 소속사는 경영지원팀 직원이라고 사칭한 사람이 업체들에 돈을 요구한 정황을 확인했다고 밝혔습니다. ② 소속사는 해당 인물이 재직자가 아니며 공식 이메일 외에는 업무에 쓰지 않고 돈을 요구하지도 않는다고 강조했습니다. ③ 소속사는 사칭범을 고소하는 등 법적 절차를 진행 중이며 비",
+        "image": "https://newsimg.hankookilbo.com/2026/10/30/810402b8-a419-4db6-958a-051704abe4a4.jpg"
     },
     {
         "title": "리센느, 우리은행 새 얼굴 발탁…CM송 ‘우리는 해’ 공개 - 알파경제",
@@ -436,62 +575,6 @@ const NEWS_DATA = [
         "url": "https://www.alphabiz.co.kr/news/articleView.html?idxno=195444",
         "summary": "[알파경제 = 김단하 기자] 걸그룹 리센느(RESCENE)가 우리은행의 새로운 광고모델로 발탁되며 활동 영역을 넓혔다. 신곡 발표를 앞둔 가운데 CM송까지 선보이",
         "image": "https://cdn.alphabiz.co.kr/news/photo/202610/195444_157522_5855.jpg"
-    },
-    {
-        "title": "리센느, 우리은행 간판 됐다…CM송 '우리는 해' 공개 - 뉴스웍스",
-        "source": "뉴스웍스",
-        "date": "2026-10-30",
-        "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=901379",
-        "summary": "[뉴스웍스=진소영 기자] 우리은행이 걸그룹 리센느를 새로운 광고 모델로 발탁하고 일상 속 도전을 응원하는 CM송 광고 '우리는 해'를 공개했다.우리은행은 30일",
-        "image": "https://cdn.newsworks.co.kr/news/photo/202610/901379_901847_5113.jpg"
-    },
-    {
-        "title": "우리은행·걸그룹 리센느, 꿈을 향한 도전 응원...'우리는 해' CM송 공개 - 글로벌이코노믹",
-        "source": "글로벌이코노믹",
-        "date": "2026-10-30",
-        "url": "https://www.g-enews.com/article/Finance/2026/10/202610300914262161bb91c46fcd_1",
-        "summary": "우리은행이 신규 광고 모델로 발탁한 걸그룹 리센느(RESCENE)와 함께 꿈을 향한 도전을 응원하는 CM송 광고를 선보였다.30일 금융권에 따르면 우리은행은 일상 속 도전과 성장을 응원하는 브랜드 메시지를 담은 '우리는 해' CM송 광고를 공개했다.이번 광고는 각자의 자리에서 목표를 향",
-        "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026103009155004450bb91c46fcd12813480118.jpg"
-    },
-    {
-        "title": "네이버·삼성전자, 리센느와 ‘Galaxy Night’ 쇼핑라이브...갤럭시 Z 폴드8 특가 판매 - 워크투데이",
-        "source": "워크투데이",
-        "date": "2026-10-30",
-        "url": "http://www.worktoday.co.kr/news/articleView.html?idxno=91241",
-        "summary": "네이버(대표 최수연)는 삼성전자와 함께 걸그룹 리센느(RESCENE)가 출연하는 ‘Galaxy Night’를 30일 오후 8시 네이버 쇼핑라이브에서 단독 진행한다.갤럭시 Z 폴드8의 주요 기능과 활용 경험을 소개하고, 특별 공연과 구매 혜택을 제공한다.이번 방송은 삼성전자의 갤럭시 Z ",
-        "image": "http://www.worktoday.co.kr/news/thumbnail/202610/91241_131367_5828_v150.jpg"
-    },
-    {
-        "title": "우리은행, 리센느 새 광고모델 발탁…‘우리는 해’ CM송 공개 - 전국매일신문",
-        "source": "전국매일신문",
-        "date": "2026-10-30",
-        "url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1306885",
-        "summary": "우리은행이 걸그룹 리센느를 새 광고모델로 발탁하고 브랜드 CM송 ‘우리는 해’를 공개했다.이번 광고는 각자의 자리에서 최선을 다하는 이들을 응원하고 고객의 성장을 함께하겠다는 우리은행의 브랜드 메시지를 친근한 방식으로 전달하기 위해 제작됐다.[전국매일신문] 이현정기자hj_lee@jeon",
-        "image": "https://www.jeonmae.co.kr/news/thumbnail/202610/1306885_1039252_3148_v150.jpg"
-    },
-    {
-        "title": "우리은행, 새 CM송 공개...걸그룹 리센느 참여 - 한스경제",
-        "source": "한스경제",
-        "date": "2026-10-30",
-        "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=878116",
-        "summary": "| 서울=한스경제 이나라 기자 | 우리은행이 새 광고 모델로 합류한 걸그룹 리센느와 함께 제작한 '우리는 해' CM송 광고를 30일 선보였다.이번 광고는 각자의 위치에서 힘쓰는 이들을 격려하고 성장을 함께하겠다는 우리은행의 브랜드 뜻을 전하기 위해 기획됐다.모델로 나선 리센느는 'LOV",
-        "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/878116_903445_151_v150.jpg"
-    },
-    {
-        "title": "황찬성·노라조 다음은 리센느 리브·메이, AI 공모전 판 커졌다 - www.bntnews.co.kr",
-        "source": "www.bntnews.co.kr",
-        "date": "2026-10-30",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202610300147",
-        "summary": "좋아하는 스타와 캐릭터를 소재로 직접 영상을 만들어볼 수 있는 AI 공모전이 열린다. 리센느 리브·메이의 ‘리트와 메트’부터 김성모 작",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/30/bnt202610300229.png"
-    },
-    {
-        "title": "[포토뉴스] 우리은행, 리센느와 ‘우리는 해’···도전자들 응원 - CNB뉴스",
-        "source": "CNB뉴스",
-        "date": "2026-10-30",
-        "url": "https://www.cnbnews.com/news/articleView.html?idxno=1021737",
-        "summary": "우리은행이 걸그룹 ‘리센느’와 함께 자신이 이루고자 하는 일을 해내기 위해 노력하는 사람들을 응원하는 ‘우리는 해’ 커머셜 메시지(CM)송 광고를 30일 공개했다",
-        "image": "https://cdn.cnbnews.com/news/photo/202610/1021737_524320_2111.png"
     },
     {
         "title": "“우리 WONi, 운명이었네”…리센느, 우리은행 응원가 주인공 됐다 - YTN star",
@@ -518,27 +601,18 @@ const NEWS_DATA = [
         "image": "https://biz.chosun.com/resizer/v2/GQ2GKMRUMM4DCMZZMYYDCZBYGY.jpg?auth=03f37d683e7dbecfd609519b5fcb11bc8b8b4e2436e088c17334557cb56807ed&width=650&height=341&smart=true"
     },
     {
-        "title": "거제의 새벽, 리센느 원이는 알고 있을까? - OhmyNews",
-        "source": "OhmyNews",
-        "date": "2026-10-29",
-        "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003279728",
-        "summary": "'거제 야호.' 리센느 원이 덕분에 다시 한번 거제에 관광 열풍이 불었다. 최근에 거제로 출장을 다녀왔다. 거제는 10년 만이다. 10년 전에는 외도, 김영삼 생가 등 관광지 위주로 돌아다녔다. 그런데 관광도시로 알려진 거제는 사실 배를 만들어 먹",
-        "image": "https://ojsfile.ohmynews.com/CT_T_IMG/2026/1028/IE003691043_LT.jpg"
-    },
-    {
         "title": "삼성전자, 걸그룹 리센느와 '갤럭시Z폴드8' 캠페인 - 전자신문",
         "source": "전자신문",
         "date": "2026-10-28",
         "url": "https://www.etnews.com/20261028000076",
-        "summary": "삼성전자가 K팝 그룹 리센느(RESCENE)와 함께 '갤럭시 Z 폴드8' 신규 마케팅 캠페인을 진행한다. 실제 갤럭시 스마트폰을 사용하는 아티스트와 협업해 10~20대 여성 고객을 공략한다는 계획이다. 삼성전자는 28일 리센느를 갤럭시 Z 폴드8 캠페인 모델로 선정했다고 밝혔다. 리센느",
-        "image": "https://img.etnews.com/news/article/2026/10/28/news-p.v1.20261028.2b6a1977509242b38cd9815314b18b12_P1.jpg"
+        "summary": ""
     },
     {
         "title": "\"그립감 좋다\" 한 마디에 대박 난 아이돌…결국 광고 따냈다 - 한국경제",
         "source": "한국경제",
         "date": "2026-10-28",
         "url": "https://www.hankyung.com/article/202610280331g",
-        "summary": "\"그립감 좋다\" 한 마디에 대박 난 아이돌…결국 광고 따냈다, 삼성전자, 리센느와 캠페인 '협업' 리센느 앞세워 1020세대 여심 공략",
+        "summary": "\"그립감 좋다\" 한 마디에 대박 난 아이돌…갤럭시 광고 따냈다, 삼성전자, 리센느와 캠페인 '협업' 리센느 앞세워 1020세대 여심 공략",
         "image": "https://img.hankyung.com/photo/202610/ZA.45579009.1.jpg"
     },
     {
@@ -566,6 +640,14 @@ const NEWS_DATA = [
         "image": "https://img.khan.co.kr/news/2026/10/28/news-p.v1.20261028.8a1c4854ba3f453c85fd85083b7e24fa_P1.jpg"
     },
     {
+        "title": "[테크스냅] 삼성전자, 리센느 손잡고 갤럭시 Z 폴드8 알린다 - 연합뉴스",
+        "source": "연합뉴스",
+        "date": "2026-10-28",
+        "url": "https://www.yna.co.kr/view/AKR20261028045600017",
+        "summary": "(서울=연합뉴스) 박형빈 기자 = 삼성전자[005930]가 그룹 리센느와 손잡고 갤럭시 Z 폴드8의 여심 공략에 나선다.",
+        "image": "https://img1.yna.co.kr/etc/inner/KR/2026/10/28/AKR20261028045600017_03_i_P4.jpg"
+    },
+    {
         "title": "리센느, 컴백 스케줄러 속 하트의 정체는? 이색 프로모션 눈길 - YTN star",
         "source": "YTN star",
         "date": "2026-10-28",
@@ -574,28 +656,12 @@ const NEWS_DATA = [
         "image": "https://image.ytn.co.kr/general/jpg/2026/1028/202610280951042495_t.jpg"
     },
     {
-        "title": "삼성전자, 리센느 통해 ‘갤럭시 Z 폴드8’ 사용 경험 알린다 - 매일일보",
-        "source": "매일일보",
-        "date": "2026-10-28",
-        "url": "https://www.m-i.kr/news/articleView.html?idxno=2011459",
-        "summary": "매일일보 = 이강민 기자 | 삼성전자가 K팝 그룹 리센느와 함께 ‘갤럭시 Z 폴드8’의 사용 경험을 알리는 데 나선다. 제품을 직접 써 온 멤버들의 이야기를 통해",
-        "image": "https://cdn.m-i.kr/news/photo/202610/2011459_2011625_3344.jpg"
-    },
-    {
         "title": "‘리센느’가 알려주는 핼러윈 인파사고 대처법 [지금뉴스] - KBS 뉴스",
         "source": "KBS 뉴스",
         "date": "2026-10-28",
         "url": "https://news.kbs.co.kr/news/view.do?ncd=8697414",
         "summary": "각종 축제와 공연으로 나들이가 잦아지는 계절, 가을입니다. 특히 10월의 마지막 날인 '핼러윈(Halloween)...",
         "image": "http://news.kbs.co.kr/data/news/2026/10/28/20261028_2m7phS.png"
-    },
-    {
-        "title": "[테크스냅] 삼성전자, 리센느 손잡고 갤럭시 Z 폴드8 알린다 - 연합뉴스",
-        "source": "연합뉴스",
-        "date": "2026-10-28",
-        "url": "https://www.yna.co.kr/view/AKR20261028045600017",
-        "summary": "(서울=연합뉴스) 박형빈 기자 = 삼성전자[005930]가 그룹 리센느와 손잡고 갤럭시 Z 폴드8의 여심 공략에 나선다.",
-        "image": "https://img1.yna.co.kr/etc/inner/KR/2026/10/28/AKR20261028045600017_03_i_P4.jpg"
     },
     {
         "title": "[단독] \"원이야 단디 챙기라\"…CU '리센느 도시락' 5종 내달 초 출시 - 뉴스1",
@@ -613,14 +679,6 @@ const NEWS_DATA = [
         "image": "https://img.hankyung.com/photo/202610/01.46210145.1.jpg"
     },
     {
-        "title": "\"팬들 비 맞는데...\" 리센느, 무대 천막 치웠다 - YTN star",
-        "source": "YTN star",
-        "date": "2026-10-27",
-        "url": "https://star.ytn.co.kr/_sn/0117_202610270946226135",
-        "summary": "그룹 리센느가 비를 맞으며 공연을 관람하는 팬들을 위해 빗속에서 무대를 펼쳐 감동을 안겼습니다. 리센느는 지난 24일 경남 거제시 옥포 한화오션 오션플라자 사외주차장에서 열린 ‘거제 야호, 리센느와 함께하는 오션하모니’ 공연에 참석했습니다. 이날 거제에는 비가 쏟아졌습니다.객석에서 공연",
-        "image": "https://image.ytn.co.kr/general/jpg/2026/1027/202610270946226135_t.jpg"
-    },
-    {
         "title": "삼성전자, 리센느와 ‘갤럭시 Z 폴드8’ 캠페인 - 부산일보",
         "source": "부산일보",
         "date": "2026-10-27",
@@ -633,6 +691,14 @@ const NEWS_DATA = [
         "source": "YTN",
         "date": "2026-10-27",
         "url": "https://www.ytn.co.kr/_ln/0117_202610270946226135",
+        "summary": "그룹 리센느가 비를 맞으며 공연을 관람하는 팬들을 위해 빗속에서 무대를 펼쳐 감동을 안겼습니다. 리센느는 지난 24일 경남 거제시 옥포 한화오션 오션플라자 사외주차장에서 열린 ‘거제 야호, 리센느와 함께하는 오션하모니’ 공연에 참석했습니다. 이날 거제에는 비가 쏟아졌습니다.객석에서 공연",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1027/202610270946226135_t.jpg"
+    },
+    {
+        "title": "\"팬들 비 맞는데...\" 리센느, 무대 천막 치웠다 - YTN star",
+        "source": "YTN star",
+        "date": "2026-10-27",
+        "url": "https://star.ytn.co.kr/_sn/0117_202610270946226135",
         "summary": "그룹 리센느가 비를 맞으며 공연을 관람하는 팬들을 위해 빗속에서 무대를 펼쳐 감동을 안겼습니다. 리센느는 지난 24일 경남 거제시 옥포 한화오션 오션플라자 사외주차장에서 열린 ‘거제 야호, 리센느와 함께하는 오션하모니’ 공연에 참석했습니다. 이날 거제에는 비가 쏟아졌습니다.객석에서 공연",
         "image": "https://image.ytn.co.kr/general/jpg/2026/1027/202610270946226135_t.jpg"
     },
@@ -652,12 +718,12 @@ const NEWS_DATA = [
         "summary": "삼성전자가 K팝 아티스트 '리센느(RESCENE)'와 함께 '갤럭시 Z 폴드8'의 새로운 캠페인을 전개한다. [사진=삼성전자] [디지털데일리 옥송이기자] 삼성전자가 K팝 아티스트..."
     },
     {
-        "title": "리센느, 컴백까지 단 6일..미지의 일정까지 드디어 공개 - Chosunbiz",
-        "source": "Chosunbiz",
-        "date": "2026-10-27",
-        "url": "https://biz.chosun.com/entertainment/enter_general/2026/10/28/MFTGGOJQHEZGCYJWGQ4DKYTCG4/",
-        "summary": "리센느, 컴백까지 단 6일..미지의 일정까지 드디어 공개",
-        "image": "https://biz.chosun.com/resizer/v2/GBSDGMZTHE3TEYLBGM4WEMBSGM.jpg?auth=12583012041269ec4076168ad35d9c427b925f1273ffb1cc0ac336452e87d30f&width=572&height=300&smart=true"
+        "title": "‘거제야호’ 리센느, ‘연예인 1호’ 거제 명예시민 됐다 - 동아일보",
+        "source": "동아일보",
+        "date": "2026-10-26",
+        "url": "https://www.donga.com/news/Society/article/all/20261026/134908160/1",
+        "summary": "경남 거제시는 걸그룹 리센느(RESCENE)에 2026년 명예시민증을 수여했다고 26일 밝혔다.리센느는 제70호 거제시 명예시민으로 선정됐다.연예인이 거제시 명예시민증을 받은 것은 이번이 처음이다. 시는 리센느가 ‘거제야호’ 밈(Meme)과 거제 여행 유튜브 콘텐츠 …",
+        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/26/134908161.1.jpg"
     },
     {
         "title": "“너무 감사해서”…천막 치우고 팬들과 비 맞으며 노래한 리센느 - 세계일보",
@@ -668,28 +734,12 @@ const NEWS_DATA = [
         "image": "https://www.segye.com/content/image/2026/10/26/20261026514695.jpg"
     },
     {
-        "title": "‘거제야호’ 리센느, ‘연예인 1호’ 거제 명예시민 됐다 - 동아일보",
-        "source": "동아일보",
-        "date": "2026-10-26",
-        "url": "https://www.donga.com/news/Society/article/all/20261026/134908160/1",
-        "summary": "경남 거제시는 걸그룹 리센느(RESCENE)에 2026년 명예시민증을 수여했다고 26일 밝혔다.리센느는 제70호 거제시 명예시민으로 선정됐다.연예인이 거제시 명예시민증을 받은 것은 이번이 처음이다. 시는 리센느가 ‘거제야호’ 밈(Meme)과 거제 여행 유튜브 콘텐츠 …",
-        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/26/134908161.1.jpg"
-    },
-    {
         "title": "“팬들만 비 맞을 수 없죠“…리센느, 천막 걷고 팬들과 ’흠뻑’ - 연합뉴스TV",
         "source": "연합뉴스TV",
         "date": "2026-10-26",
         "url": "https://www.yonhapnewstv.co.kr/news/AKR20261026112818RlQ",
         "summary": "걸그룹 리센느가 공연 도중 쏟아지는 빗속에서 자신들을 기다려준 팬들과 함께 비를 맞으며 공연을 이어갔다는 사연이 알려졌습니다. 오늘(26일) 각종 SNS에서는 지난 24일 경남 거제에서 열린 오션하모니 공연에서 비를 맞으며 무대를 선보이는 리센느의 모습이 담긴 영상이",
         "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261026/AKR20261026112818RlQ_02_i.jpg"
-    },
-    {
-        "title": "[2026 차세대 리더-문화예술] 리센느 가수 - 시사저널",
-        "source": "시사저널",
-        "date": "2026-10-26",
-        "url": "https://www.sisajournal.com/news/articleView.html?idxno=390097",
-        "summary": "마음속에 오래도록 남는 음악적 향기를 선사하겠다는 작은 회사의 걸그룹이 드디어 대중의 눈에 들었다. 2024년 3월 데뷔한 리센느는 지금 가장 뜨거운 시기를 보내",
-        "image": "https://cdn.sisajournal.com/news/thumbnail/202610/390097_399242_387_v150.jpg"
     },
     {
         "title": "‘중소돌의 기적’ 리센느… 역주행 열기 이어갈까 - 세계일보",
@@ -702,7 +752,7 @@ const NEWS_DATA = [
     {
         "title": "‘중소돌의 기적’ 리센느, 파워 확인할 진짜 시험대 - 동아일보",
         "source": "동아일보",
-        "date": "2026-10-23",
+        "date": "2026-10-24",
         "url": "https://www.donga.com/news/Entertainment/article/all/20261024/134900253/1",
         "summary": "이지 리스닝과 퍼포먼스 역량, 멤버들의 다채로운 끼를 바탕으로 차트 상승세를 이어온 그룹 리센느(RESCENE)가 오는 11월 3일 미니 4집 ‘펄스’(PULSE)를 발매하고 본격적인 컴백 행보에 돌입한다. 차트 역주행 신드롬에 이어 리메이크곡으로 정주행 성공까지 이…",
         "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/24/134900254.1.jpg"
