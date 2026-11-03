@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T14:33:10.454Z",
+  "updated": "2026-11-03T00:21:50.457Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3890,6 +3890,14 @@
       "source": "mnetplus"
     },
     {
+      "date": "2026-11-08",
+      "time": "18:30",
+      "title": "[PULSE] 대면/영상통화 팬사인회 by MAKESTAR",
+      "detail": "",
+      "type": "fansign",
+      "source": "mnetplus"
+    },
+    {
       "date": "2026-11-14",
       "time": "18:00",
       "title": "MMA 2026 (멜론 뮤직 어워즈) (서울 고척스카이돔)",
@@ -3941,6 +3949,14 @@
       "date": "2026-11-27",
       "time": "18:30",
       "title": "[PULSE] 영상통화/대면 팬사인회 by WITHMUU",
+      "detail": "",
+      "type": "fansign",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-11-29",
+      "time": "14:00",
+      "title": "[PULSE] 대면/영상통화 팬사인회 by WHOSFAN",
       "detail": "",
       "type": "fansign",
       "source": "mnetplus"
