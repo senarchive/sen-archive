@@ -1,13 +1,245 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-11-03T00:46:19.880Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-11-03T13:53:09.095Z) */
 
 const NEWS_DATA = [
     {
-        "title": "리센느, 역주행 돌풍 이어갈까…오늘(3일) 신곡 'With' 발매 - YTN star",
-        "source": "YTN star",
+        "title": "[사진]리센느, 'With' - 조선일보",
+        "source": "조선일보",
         "date": "2026-11-03",
-        "url": "https://star.ytn.co.kr/_sn/0117_202611030933266559",
-        "summary": "그룹 리센느(RESCENE)가 네 번째 미니앨범 'PULSE'(펄스)를 발매하고 컴백한다. 리센느(원이, 리브, 미나미, 메이, 제나)는 오늘(3일) 오후 6시 각종 온라인 음원 사이트를 통해 미니 4집 'PULSE'를 공개한다. 이번 앨범은 심장의 박동을 뜻하는 제목처럼 서로에게 힘이",
-        "image": "https://image.ytn.co.kr/general/jpg/2026/1103/202611030933266559_t.jpg"
+        "url": "https://www.chosun.com/entertainments/entertain_photo/2026/11/03/GY3TMMLGGVQTKZTCHBRTAOBVGM/",
+        "summary": "걸그룹 리센느가 네 번째 미니 앨범 'PULSE'를 발표하고 서울 용산구 블루스퀘어에서 컴백 쇼케이스를 가졌습니다. 이번 앨범은 심장 박동을 모티브로 하여 상대에게 건넨 노래가 다시 돌아오는 회복의 순간을 담아냈습니다.",
+        "image": "https://www.chosun.com/resizer/v2/GM2DQN3FMY4GCZDDGFRWGZTBGA.jpg?auth=a88b637e73718d6f2696f9e5dd59a8efb3a27225fd4daada3b00e3cc2ae6ff1b&width=650&height=341&smart=true"
+    },
+    {
+        "title": "리센느 “ ‘중소돌의 기적’에 걸맞은 그룹이 될게요” - 경향신문",
+        "source": "경향신문",
+        "date": "2026-11-03",
+        "url": "https://www.khan.co.kr/article/202611032056015",
+        "summary": "“잠깐의 화제성이 아니라 오래 리센느를 사랑해주실 수 있도록 열심히 하는 모습 보여드리겠습니다.”(메이) ‘중소돌의 기적’ ‘역주행의 아이콘’ ‘국민 걸그룹’… 인기만큼 각종 수식어를 끌고 다니는 그룹 리센느가 3일 미니 4집 로 본격적인 음악 활동에 돌입한다. 리센느가 지난 3월경 유",
+        "image": "https://img.khan.co.kr/news/2026/11/03/l_2026110401000112100010581.jpg"
+    },
+    {
+        "title": "[4K] 리센느, 타이틀곡 'With(위드)' 쇼케이스 무대 [영상] - 스타뉴스",
+        "source": "스타뉴스",
+        "date": "2026-11-03",
+        "url": "https://www.starnewskorea.com/star/2026/11/03/2026110316162153568",
+        "summary": "3일 오후 서울 용산구 한남동 블루스퀘어 우리WON뱅킹홀에서 가수 리센느(RESCENE) 네 번째 미니 앨범 'PULSE(펄스)' 쇼케이스가 열렸다. 이날 리센느 멤버 원이, 리브, 미나미, 메이, 제나가 타이틀곡인 '위드(With)' 무대를 선보이고 있다. 리센느가 미니앨범을 내놓는 ",
+        "image": "https://image.starnewskorea.com/21/2026/11/2026110316162153568_1.jpg"
+    },
+    {
+        "title": "[Y현장] “성적도 중요하지만”…리센느가 역주행 이후 컴백에 담은 목표 (종합) - YTN",
+        "source": "YTN",
+        "date": "2026-11-03",
+        "url": "https://www.ytn.co.kr/_ln/0117_202611031545117092",
+        "summary": "그룹 리센느(RESCENE)가 역주행으로 얻은 관심을 새 앨범으로 이어간다. ‘국민 걸그룹’이라는 수식어에는 감사와 책임감을, 높아진 기대에는 음악과 무대로 답하겠다는 각오를 전했다. 리센느(원이, 리브, 미나미, 메이, 제나)는 오늘(3일) 네 번째 미니앨범 ‘PULSE’(펄스) 발매",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1103/202611031545117092_t.jpg"
+    },
+    {
+        "title": "리센느,'With' - 뉴스핌",
+        "source": "뉴스핌",
+        "date": "2026-11-03",
+        "url": "https://www.newspim.com/news/view/20261103001056",
+        "summary": "",
+        "image": "https://img.newspim.com/news/2026/11/03/261103151538085_t1.jpg"
+    },
+    {
+        "title": "‘정주행’ 시작하는 ‘역주행’ 리센느…“변함없이 믿고 듣는 그룹이고 싶다” - 문화일보",
+        "source": "문화일보",
+        "date": "2026-11-03",
+        "url": "https://www.munhwa.com/article/11628498",
+        "summary": "‘역주행 신화’를 일군 걸그룹 리센느가 이제 ‘정주행’을 위한 시동을 건다. 리센느는 3일 서울 용산구 블루스퀘어 우리은행홀에서 네 번째 미니앨범 ‘펄스’(PULSE) 발매 기념 쇼케이스를 진행했다. 이들은 지난 2024년 8월 발매한 ‘러브 어택’(LOVE ATTAC",
+        "image": "https://wimg.munhwa.com/news/cms/2026/11/03/news-p.v1.20261103.78d5f37d22fe41458b8f9f2bf6c143f2_R.jpg"
+    },
+    {
+        "title": "[사진]리센느, 머릿결 날리며 - 조선일보",
+        "source": "조선일보",
+        "date": "2026-11-03",
+        "url": "https://www.chosun.com/entertainments/entertain_photo/2026/11/03/MIZGGOBYGE3WEYRUG44GIM3BMM/",
+        "summary": "걸그룹 리센느가 서울 용산구 한남동 블루스퀘어에서 네 번째 미니 앨범 PULSE 발매 쇼케이스를 개최함. 심장의 박동을 주제로 한 이번 앨범은 노래가 다시 자신을 일으킨다는 메시지를 담고 있으며 타이틀곡 With 무대를 선보임.",
+        "image": "https://www.chosun.com/resizer/v2/HEZDSMZXMI4TGOBQGMYWCMZSGE.jpg?auth=4ec70f3ff1d3dcc307330df1322cf19f8afb24805b0c7cb1e5a70eb4f4fcae7d&width=650&height=341&smart=true"
+    },
+    {
+        "title": "[포토] 타이틀곡 무대 선보이는 리센느 - 뉴데일리",
+        "source": "뉴데일리",
+        "date": "2026-11-03",
+        "url": "https://www.newdaily.co.kr/site/data/html/2026/11/03/2026110300326.html",
+        "summary": "걸그룹 리센느(RESCENE)가 3일 오후 서울 용산구 블루스퀘어에서 열린 네 번째 미니 앨범 '펄스(PULSE)' 발매 기념 쇼케이스에서 타이틀곡 무대를 선보이고 있다. ...",
+        "image": "https://image.newdaily.co.kr/site/data/img/2026/11/03/2026110300326_0.jpg"
+    },
+    {
+        "title": "‘국민 걸그룹’ 리센느 미니 4집 ‘펄스’ 발매 기념 쇼케이스 현장 - 동아일보",
+        "source": "동아일보",
+        "date": "2026-11-03",
+        "url": "https://www.donga.com/news/Entertainment/article/all/20261103/134958321/1",
+        "summary": "그룹 리센느가 미니 4집 ‘PULSE’(펄스)로 상승세를 이어간다.3일 서울 용산구 블루스퀘어 우리은행홀에서 리센느 네 번째 미니앨범 ‘펄스’ 발매 기념 쇼케이스가 열렸다.이날 ‘중소돌’의 기적을 이뤄낸 소감에 대해 원이는 “중소돌의 기적이 쉽지 않다. 기적이란 단어…",
+        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/03/134958322.1.jpg"
+    },
+    {
+        "title": "[ET포토] 리센느, '완벽한 5인조' - 전자신문",
+        "source": "전자신문",
+        "date": "2026-11-03",
+        "url": "https://www.etnews.com/20261103000458",
+        "summary": "그룹 리센느(RESCENE/ 원이, 리브, 미나미, 메이, 제나)가 3일 서울 용산구 한남동 블루스퀘어에서 진행된 네 번째 미니 앨범 &lsquo;PULSE&rsquo;(펄스) 미디어 쇼케이스 일정에 참석했다. 미니 4집 &lsquo;PULSE&",
+        "image": "https://img.etnews.com/news/article/2026/11/03/cms_temp_stats_17937105841910269961.jpg"
+    },
+    {
+        "title": "[Y현장] 리센느 “'국민 걸그룹' 과분한 호칭…걸맞은 팀 되겠다” - YTN",
+        "source": "YTN",
+        "date": "2026-11-03",
+        "url": "https://www.ytn.co.kr/_ln/0117_202611031518080792",
+        "summary": "그룹 리센느(RESCENE)가 음원 차트 역주행 이후 첫 미니앨범을 발표하며 상승세 이어가기에 나섰다. 리센느(원이, 리브, 미나미, 메이, 제나)는 오늘(3일) 네 번째 미니앨범 'PULSE'(펄스) 발매 기념 미디어 쇼케이스를 열고 신보를 소개했다. 이번 앨범은 리센느가 'LOVE ",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1103/202611031518080792_t.jpg"
+    },
+    {
+        "title": "믿고 든는 리센느 컴백 - 연합뉴스",
+        "source": "연합뉴스",
+        "date": "2026-11-03",
+        "url": "https://www.yna.co.kr/amp/view/PYH20261103161400013",
+        "summary": "(서울=연합뉴스) 진연수 기자 = 그룹 리센느가 3일 오후 서울 용산구 블루스퀘어에서 열린 네 번째 미니앨범 '펄스(PULSE)' 발매 기념 쇼...",
+        "image": "https://img9.yna.co.kr/photo/yna/YH/2026/11/03/PYH2026110316140001300_P4.jpg"
+    },
+    {
+        "title": "[ET포토] 리센느, '스윗하트' - 전자신문",
+        "source": "전자신문",
+        "date": "2026-11-03",
+        "url": "https://www.etnews.com/20261103000461",
+        "summary": "그룹 리센느(RESCENE/ 원이, 리브, 미나미, 메이, 제나)가 3일 서울 용산구 한남동 블루스퀘어에서 진행된 네 번째 미니 앨범 &lsquo;PULSE&rsquo;(펄스) 미디어 쇼케이스 일정에 참석했다. 미니 4집 &lsquo;PULSE&",
+        "image": "https://img.etnews.com/news/article/2026/11/03/cms_temp_stats_1793710800413909702.jpg"
+    },
+    {
+        "title": "[Y현장] 리센느 원이, 건강 우려 해명→컴백 각오 \"또 한 번 기적 떠올리게 할 것\" - YTN",
+        "source": "YTN",
+        "date": "2026-11-03",
+        "url": "https://www.ytn.co.kr/_ln/0117_202611031538247017",
+        "summary": "그룹 리센느(RESCENE) 원이가 최근 무대에서 호흡 곤란을 겪은 뒤 불거진 건강 우려에 직접 답했다. 리센느는 오늘(3일) 네 번째 미니앨범 ‘PULSE’(펄스) 발매 기념 미디어 쇼케이스를 열었다. 이날 원이는 건강 상태를 묻는 질문에 “너무너무 괜찮다”라며 “전혀 걱정하지 않으셨",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1103/202611031538247017_t.jpg"
+    },
+    {
+        "title": "'중소돌의 기적' 리센느 \"또 한 번 기적 이루는 그룹 되고 싶어\" - 연합뉴스",
+        "source": "연합뉴스",
+        "date": "2026-11-03",
+        "url": "https://www.yna.co.kr/amp/view/AKR20261103133400005",
+        "summary": "(서울=연합뉴스) 김선우 기자 = \"'중소돌의 기적'이라니, 기적이 쉽지 않은 걸 알기에 더 감사하죠. 또 한 번 기적이란 단어를 떠올리게 하는...",
+        "image": "https://img0.yna.co.kr/photo/yna/YH/2026/11/03/PYH2026110314000001300_P4.jpg"
+    },
+    {
+        "title": "[ET포토] 리센느, '우아한 엔딩' - 전자신문",
+        "source": "전자신문",
+        "date": "2026-11-03",
+        "url": "https://www.etnews.com/20261103000471",
+        "summary": "그룹 리센느(RESCENE/ 원이, 리브, 미나미, 메이, 제나)가 3일 서울 용산구 한남동 블루스퀘어에서 진행된 네 번째 미니 앨범 &lsquo;PULSE&rsquo;(펄스) 미디어 쇼케이스 일정에 참석했다. 미니 4집 &lsquo;PULSE&",
+        "image": "https://img.etnews.com/news/article/2026/11/03/cms_temp_stats_17937117131961707446.jpg"
+    },
+    {
+        "title": "[ET포토] 리센느, '별이 빛나는 무대' - 전자신문",
+        "source": "전자신문",
+        "date": "2026-11-03",
+        "url": "http://www.etnews.com/20261103000470",
+        "summary": "그룹 리센느(RESCENE/ 원이, 리브, 미나미, 메이, 제나)가 3일 서울 용산구 한남동 블루스퀘어에서 진행된 네 번째 미니 앨범 &lsquo;PULSE&rsquo;(펄스) 미디어 쇼케이스 일정에 참석했다. 미니 4집 &lsquo;PULSE&",
+        "image": "https://img.etnews.com/news/article/2026/11/03/cms_temp_stats_1793711669378318410.jpg"
+    },
+    {
+        "title": "[ET포토] 리센느, '주목받는 컴백' - 전자신문",
+        "source": "전자신문",
+        "date": "2026-11-03",
+        "url": "https://www.etnews.com/20261103000468",
+        "summary": "그룹 리센느(RESCENE/ 원이, 리브, 미나미, 메이, 제나)가 3일 서울 용산구 한남동 블루스퀘어에서 진행된 네 번째 미니 앨범 &lsquo;PULSE&rsquo;(펄스) 미디어 쇼케이스 일정에 참석했다. 미니 4집 &lsquo;PULSE&",
+        "image": "https://img.etnews.com/news/article/2026/11/03/cms_temp_stats_1793711378863226527.jpg"
+    },
+    {
+        "title": "[포토] '백화요란' 무대 선보이는 리센느 - 뉴데일리",
+        "source": "뉴데일리",
+        "date": "2026-11-03",
+        "url": "https://www.newdaily.co.kr/site/data/html/2026/11/03/2026110300329.html",
+        "summary": "걸그룹 리센느(RESCENE)가 3일 오후 서울 용산구 블루스퀘어에서 열린 네 번째 미니 앨범 '펄스(PULSE)' 발매 기념 쇼케이스에서 수록곡 '백화요란' 무대를 선보이고 있다. ...",
+        "image": "https://image.newdaily.co.kr/site/data/img/2026/11/03/2026110300329_0.jpg"
+    },
+    {
+        "title": "[영상] 리센느 메이 '깜찍 윙크' - 뉴데일리",
+        "source": "뉴데일리",
+        "date": "2026-11-03",
+        "url": "https://www.newdaily.co.kr/site/data/html/2026/11/03/2026110300323.html",
+        "summary": "걸그룹 리센느(RESCENE) 메이가 3일 오후 서울 용산구 블루스퀘어에서 열린 네 번째 미니 앨범 '펄스(PULSE)' 발매 기념 쇼케이스에서 포즈를 취하고 있다....",
+        "image": "https://image.newdaily.co.kr/site/data/img/2026/11/03/2026110300323_0.jpg"
+    },
+    {
+        "title": "[ET포토] 리센느, '에너지 발산하는 무대' - 전자신문",
+        "source": "전자신문",
+        "date": "2026-11-03",
+        "url": "https://www.etnews.com/20261103000464",
+        "summary": "그룹 리센느(RESCENE/ 원이, 리브, 미나미, 메이, 제나)가 3일 서울 용산구 한남동 블루스퀘어에서 진행된 네 번째 미니 앨범 &lsquo;PULSE&rsquo;(펄스) 미디어 쇼케이스 일정에 참석했다. 미니 4집 &lsquo;PULSE&",
+        "image": "https://img.etnews.com/news/article/2026/11/03/cms_temp_stats_17937110451242811578.jpg"
+    },
+    {
+        "title": "[ET포토] 리센느, '스카이~하이' - 전자신문",
+        "source": "전자신문",
+        "date": "2026-11-03",
+        "url": "http://www.etnews.com/20261103000469",
+        "summary": "그룹 리센느(RESCENE/ 원이, 리브, 미나미, 메이, 제나)가 3일 서울 용산구 한남동 블루스퀘어에서 진행된 네 번째 미니 앨범 &lsquo;PULSE&rsquo;(펄스) 미디어 쇼케이스 일정에 참석했다. 미니 4집 &lsquo;PULSE&",
+        "image": "https://img.etnews.com/news/article/2026/11/03/cms_temp_stats_1793711504404963286.jpg"
+    },
+    {
+        "title": "[ET포토] 리센느 메이, '가득한 귀여움' - 전자신문",
+        "source": "전자신문",
+        "date": "2026-11-03",
+        "url": "https://www.etnews.com/20261103000478",
+        "summary": "그룹 리센느(RESCENE/ 원이, 리브, 미나미, 메이, 제나)가 3일 서울 용산구 한남동 블루스퀘어에서 진행된 네 번째 미니 앨범 &lsquo;PULSE&rsquo;(펄스) 미디어 쇼케이스 일정에 참석했다. 미니 4집 &lsquo;PULSE&",
+        "image": "https://img.etnews.com/news/article/2026/11/03/cms_temp_stats_1793712389613396369.jpg"
+    },
+    {
+        "title": "[ET포토] 리센느 원이, '매력 덩어리' - 전자신문",
+        "source": "전자신문",
+        "date": "2026-11-03",
+        "url": "https://www.etnews.com/20261103000473",
+        "summary": "그룹 리센느(RESCENE/ 원이, 리브, 미나미, 메이, 제나)가 3일 서울 용산구 한남동 블루스퀘어에서 진행된 네 번째 미니 앨범 &lsquo;PULSE&rsquo;(펄스) 미디어 쇼케이스 일정에 참석했다. 미니 4집 &lsquo;PULSE&",
+        "image": "https://img.etnews.com/news/article/2026/11/03/cms_temp_stats_1793711936295314418.jpg"
+    },
+    {
+        "title": "[ET포토] 리센느 리브, '러블리한 엔젤' - 전자신문",
+        "source": "전자신문",
+        "date": "2026-11-03",
+        "url": "https://www.etnews.com/20261103000474",
+        "summary": "그룹 리센느(RESCENE/ 원이, 리브, 미나미, 메이, 제나)가 3일 서울 용산구 한남동 블루스퀘어에서 진행된 네 번째 미니 앨범 &lsquo;PULSE&rsquo;(펄스) 미디어 쇼케이스 일정에 참석했다. 미니 4집 &lsquo;PULSE&",
+        "image": "https://img.etnews.com/news/article/2026/11/03/cms_temp_stats_17937120291416801697.jpg"
+    },
+    {
+        "title": "[ET포토] 리센느 리브, '인형 그 자체' - 전자신문",
+        "source": "전자신문",
+        "date": "2026-11-03",
+        "url": "https://www.etnews.com/20261103000475",
+        "summary": "그룹 리센느(RESCENE/ 원이, 리브, 미나미, 메이, 제나)가 3일 서울 용산구 한남동 블루스퀘어에서 진행된 네 번째 미니 앨범 &lsquo;PULSE&rsquo;(펄스) 미디어 쇼케이스 일정에 참석했다. 미니 4집 &lsquo;PULSE&",
+        "image": "https://img.etnews.com/news/article/2026/11/03/cms_temp_stats_17937121351555648476.jpg"
+    },
+    {
+        "title": "[ET포토] 리센느 원이, '상큼발랄' - 전자신문",
+        "source": "전자신문",
+        "date": "2026-11-03",
+        "url": "https://www.etnews.com/20261103000472",
+        "summary": "그룹 리센느(RESCENE/ 원이, 리브, 미나미, 메이, 제나)가 3일 서울 용산구 한남동 블루스퀘어에서 진행된 네 번째 미니 앨범 &lsquo;PULSE&rsquo;(펄스) 미디어 쇼케이스 일정에 참석했다. 미니 4집 &lsquo;PULSE&",
+        "image": "https://img.etnews.com/news/article/2026/11/03/cms_temp_stats_17937118251942262468.jpg"
+    },
+    {
+        "title": "“반짝 말고 오래오래…믿고 듣는 리센느로” - 스포츠경향",
+        "source": "스포츠경향",
+        "date": "2026-11-03",
+        "url": "https://sports.khan.co.kr/article/202611032200006",
+        "summary": "걸그룹 리센느(RESCENE)가 한층 성장한 모습으로 ‘머스크 향’처럼 오래 머물고 싶은 솔직한 진심을 전한다. 리센느(원이, 리브, 미나미, 메이, 제나)는 3일 오후 서울 용산구 블루스퀘어 우리WON뱅킹홀에...",
+        "image": "https://images.khan.co.kr/article/2026/11/03/l_2026110402000012500009592.jpg"
+    },
+    {
+        "title": "‘중소돌의 기적’ 리센느, 미니 4집 ‘펄스’로 컴백 - 서울신문",
+        "source": "서울신문",
+        "date": "2026-11-03",
+        "url": "https://www.seoul.co.kr/news/life/pop-culture/2026/11/03/20261103500275",
+        "summary": "리센느가 리메이크곡 ‘프리티걸’ 이후 4개월 만에 미니 4집 ‘펄스’로 돌아왔다. 타이틀곡 ‘위드’는 꿈꾸던 상대와 마주하는 순간을 담은 곡으로, 서정적인 도입부와 강한 후렴이 특징이다. 멤버들은 성장한 팀워크로 기대에 보답하겠다고 했다.",
+        "image": "https://img.seoul.co.kr//img/upload/2026/11/03/SSC_20261103165919_O2.jpg.webp"
+    },
+    {
+        "title": "“또 한 번 중소돌의 기적을”…컴백 리센느, 역주행 신화 이어갈까 - 한겨레",
+        "source": "한겨레",
+        "date": "2026-11-03",
+        "url": "https://www.hani.co.kr/arti/culture/music/1285552.html",
+        "summary": "“‘중소돌의 기적’이라는 말을 다시 떠올리게 하는 그룹이 되고 싶어요.” 리센느 멤버 원이는 3일 서울 용산구 블루스퀘어에서 열린 네번째 미니앨범 ‘펄스’ 발매 기념 쇼케이스에서 “‘리센느 노래는 믿고 듣는다’는 수식어가 확실해졌으면 좋겠다”고 힘줘 말했다. ‘역주행",
+        "image": "https://flexible.img.hani.co.kr/flexible/normal/1200/774/imgdb/original/2026/1103/20261103502759.webp"
     },
     {
         "title": "[Y초점] 밈으로 떴지만, 음악은 이미 달랐다…리센느가 기대되는 이유 - YTN star",
@@ -18,553 +250,447 @@ const NEWS_DATA = [
         "image": "https://image.ytn.co.kr/general/jpg/2026/1103/202611030930289185_t.jpg"
     },
     {
-        "title": "리센느도 가고 싶다는 ‘뷰티썸 수원’…130개 기업 한자리에 - 문화일보",
-        "source": "문화일보",
+        "title": "리센느, 역주행 돌풍 이어갈까…오늘(3일) 신곡 'With' 발매 - YTN star",
+        "source": "YTN star",
         "date": "2026-11-03",
-        "url": "https://www.munhwa.com/article/11628282",
-        "summary": "수원=박성훈 기자 걸그룹 리센느도 기대감을 나타낸 뷰티박람회가 수원에서 열린다. 화장품부터 뷰티 기술, 원료, 이너뷰티까지 아름다움과 관련한 산업의 흐름을 한자리에서 살펴볼 수 있는 ‘2026 뷰티썸 수원’이다. 시는 오는 5일부터 7일까지 사흘간 수원컨벤션센터에서 2",
-        "image": "https://wimg.munhwa.com/news/cms/2026/11/03/news-p.v1.20261103.6175be453472453f940decd8218a8e20_R.jpg"
+        "url": "https://star.ytn.co.kr/_sn/0117_202611030933266559",
+        "summary": "그룹 리센느(RESCENE)가 네 번째 미니앨범 'PULSE'(펄스)를 발매하고 컴백한다. 리센느(원이, 리브, 미나미, 메이, 제나)는 오늘(3일) 오후 6시 각종 온라인 음원 사이트를 통해 미니 4집 'PULSE'를 공개한다. 이번 앨범은 심장의 박동을 뜻하는 제목처럼 서로에게 힘이",
+        "image": "https://image.ytn.co.kr/general/jpg/2026/1103/202611030933266559_t.jpg"
     },
     {
-        "title": "\"리센느를 직접 만날 기회\"···할리스, 팬 대상 특별 이벤트 진행 - 캠페인 인사이트",
-        "source": "캠페인 인사이트",
+        "title": "리센느, 또 한 번의 기적을 향한 뜨거운 심장 박동 ‘PULSE’ [쇼케이스] - BNT뉴스",
+        "source": "BNT뉴스",
         "date": "2026-11-03",
-        "url": "https://www.campaigninsight.co.kr/news/articleView.html?idxno=7007",
-        "summary": "할리스가 브랜드 모델 리센느의 컴백을 기념해 '리센느의 선물' 세트 3종을 출시하고 팬 초청 이벤트를 연다고 2일 밝혔다. 이벤트는 11월 3~15일 전국 할리스",
-        "image": "https://cdn.campaigninsight.co.kr/news/photo/202611/7007_9400_3626.jpg"
+        "url": "https://www.bntnews.co.kr/article/view/bnt202611030192",
+        "summary": "뜨거운 심장 박동으로 돌아온 리센느(RESCENE)가 또 하나의 기적을 써 내려간다. 리센느는 오늘(3일) 오후 2시 서울 블루스퀘어 우리WON뱅킹홀에서 미니 4",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/03/bnt202611030550.jpg"
     },
     {
-        "title": "[포토] 수원특례시, 리센느가 가보고 싶어하는 뷰티박람회 보러 오세요 - 수도권지역뉴스",
-        "source": "수도권지역뉴스",
+        "title": "인사말하는 리센느 원이 - 뉴스핌",
+        "source": "뉴스핌",
         "date": "2026-11-03",
-        "url": "https://www.mp-news.com/news/articleView.html?idxno=73222",
-        "summary": "[수원=김춘식 기자]= “뷰티트렌드를 한자리에서 만날 수 있는 페스티벌 아니에요? 전시와 체험까지 너무 기대되는데요!” 수원시 홍보대사인 대세 걸그룹 ‘리센느’가 너무 가보고 싶다고 입을 모으는 뷰티박람회가 있다.뷰티에 관한 모든 것을 모아 둔 ‘2026 수원 뷰티썸(BEAUTY SU",
-        "image": "https://cdn.mp-news.com/news/thumbnail/202611/73222_54579_5144_v150.jpg"
+        "url": "https://www.newspim.com/news/view/20261103000899",
+        "summary": "",
+        "image": "https://img.newspim.com/news/2026/11/03/261103143259028_t1.jpg"
     },
     {
-        "title": "'新 역주행 아이콘' 리센느, 오늘 새 앨범 '펄스' 발매 - 이데일리",
-        "source": "이데일리",
-        "date": "2026-11-03",
-        "url": "https://www.edaily.co.kr/News/Read?newsId=03306246645642112&mediaCodeNo=257",
-        "summary": "걸그룹 리센느(RESCENE·원이, 리브, 미나미, 메이, 제나)가 4번째 미니앨범 ‘펄스’(PULSE)로 3일 컴백한다. '펄스' 커버(사진=더뮤즈엔터테인먼트)리센느(사진=더뮤즈엔터테인먼트)‘펄스’는 타이틀곡 ‘위드’(With)를 비롯해 ‘파이니스트 띵’(Fine...",
-        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26110300627.jpg"
-    },
-    {
-        "title": "'대세' 리센느, 오늘(3일) 'PULSE'로 컴백 - iMBC 연예",
-        "source": "iMBC 연예",
-        "date": "2026-11-03",
-        "url": "https://enews.imbc.com/News/RetrieveNewsInfo/523295",
-        "summary": "걸그룹 리센느(RESCENE)가 머스크 향을 입고 돌아온다. 리센느(원이, 리브, 미나미, 메이, 제나)는 오늘(3일) 오후 6시 각종 음원 사이트를 통해 네 번째 미니 앨범 '펄스(PULSE)'를 발매한다. '펄스'는 심장의 박동을 뜻하는 단어로, 너에게 건넨 노래가 다시 나를 일으켜",
-        "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/11/03/2c23d17f-e8a0-4cfb-b314-5e1292aef648.jpg"
-    },
-    {
-        "title": "리센느 원이, 공연 중 호흡곤란으로 무대 이탈..“의상 때문에 숨 안 쉬어져” [핫피플] - Chosunbiz",
-        "source": "Chosunbiz",
-        "date": "2026-11-02",
-        "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/02/MZRGKNBZGZSDQM3FGA3WIYRVG4/",
-        "summary": "리센느 원이, 공연 중 호흡곤란으로 무대 이탈..의상 때문에 숨 안 쉬어져 핫피플",
-        "image": "https://biz.chosun.com/resizer/v2/HA4DQYRQGUYDQYRUMZSGGYRZGA.jpg?auth=a553904e16172fee1a9f9bd10529d9cff3a1968d810196de22b170dbf91794df&width=572&height=300&smart=true"
-    },
-    {
-        "title": "셔누X형원·에이티즈·트레저·피원하모니·싸이커스·리센느·투어스·앤더블·민호·장민호·터치드·튜이드…‘2026 KGMA’서 신곡 시상식 첫 공개 - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-11-02",
-        "url": "http://isplus.joins.com/article/view/isp202611010118",
-        "summary": "짱짱한 실력과 다채로운 매력으로 무장한 K팝 별들이 압도적 스케일로 구성된 신곡 첫 무대를 ‘2026 KGMA’에서 시상식 최초로 공개한다. 오는 7...",
-        "image": "https://isplus.com/data/isp/image/2026/05/20/isp20260520000212.800x.0.jpg"
-    },
-    {
-        "title": "[창간22년] 리센느, '올해의 파워 피플' 1위…'중소의 기적' 通했다 - 조이뉴스24",
-        "source": "조이뉴스24",
-        "date": "2026-11-02",
-        "url": "https://www.joynews24.com/view/2020477",
-        "summary": "최산 터진 에이티즈-'왕사남' 주역 박지훈, 신드롬 가까운 인기 이수만&middot;방탄소년단&middot;지드래곤&rarr;유재석&middot;장항준, 저력 입증 K콘텐츠의 황금기다. 글로벌 팬덤이 형성된 K팝을 필두로 한국 드라마와 영화 등은 플랫폼의 급격한 발전과 더불어 전 세계가",
-        "image": "https://image.inews24.com/v1/cd04c7ac56d4f6.jpg"
-    },
-    {
-        "title": "리센느, 컴백 전부터 뜨겁다…‘K탑스타’ 최고의 루키 2주 연속 정상 - 매일경제",
-        "source": "매일경제",
-        "date": "2026-11-02",
-        "url": "https://www.mk.co.kr/news/entertain/12193376",
-        "summary": "그룹 리센느가 2주 연속 ‘K탑스타’ 1위를 차지하며 컴백 인기를 예열했다. K-POP의 현 상황을 알려주는 글로벌 K팝 투표사이트 ‘K탑스타’(KTOPSTAR)에 따르면 10월 26일부터 11월 1일까지 집계된 121회차 ‘최고의 루키(여)’ 부문에서 아홉이 1위에 등극했다. 2026",
-        "image": "https://pimg.mk.co.kr/news/cms/202611/02/news-p.v1.20261102.7117a154b0bc45288c2b3bf76db5c70d_R.png"
-    },
-    {
-        "title": "리센느 제치고 AI 음원이 음원 차트 톱…美·EU 자체 기준 마련하는데 韓은 관망만 - 아주경제",
-        "source": "아주경제",
-        "date": "2026-11-02",
-        "url": "https://www.ajunews.com/view/20261102144721596",
-        "summary": "생성형 인공지능(AI)이 만든 음악이 국내 음원 차트 최상위권까지 진입하면서 음원 플랫폼의 AI 음악 관리 체계 마련이 과제로 떠올랐다. 해외 주요 플랫폼들이 A...",
-        "image": "https://image.ajunews.com/content/image/2026/11/02/20261102145032229900.png"
-    },
-    {
-        "title": "리센느 제나 덕분에...박상철, 16년 만 역주행 \"노래방 1위·음원 2위까지\" (한잔주락) - 엑스포츠뉴스",
-        "source": "엑스포츠뉴스",
-        "date": "2026-11-02",
-        "url": "https://www.xportsnews.com/article/2214395",
-        "summary": "(엑스포츠뉴스 이창규 기자) 가수 박상철이 그룹 리센느 제나 덕분에 16년 전 발표한 '빵빵'이 역주행한 소감을 밝혔다.지난달 28일 '양락1번지' 유튜브 채널에는 '제나님께서 빵빵! 하고 들어오십니다! 리센느는 무조건이야~ 때아닌 호황기를 맞은 박상철!'이라는 제목의 '한잔주락' 영상",
-        "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1102/1793607544545361.webp"
-    },
-    {
-        "title": "하성운·리센느 미나미, ‘아이돌스 테이블’ 합류…윤지성 깜짝 지원사격 - 싱글리스트",
-        "source": "싱글리스트",
-        "date": "2026-11-02",
-        "url": "https://www.slist.kr/news/articleView.html?idxno=778498",
-        "summary": "가수 하성운과 그룹 리센느 미나미가 ‘아이돌스 테이블’에 합류해 학창 시절 추억을 나눈다.3일 오후 8시 엠넷플러스에서 공개되는 ‘IDOL’S TABLE(아이돌스 테이블)’ 5회에서는 ‘스쿨푸드’를 주제로 다양한 음식과 학교생활에 얽힌 이야기가 펼쳐진다.이번 회차에는 기존 출연자인 뱀뱀",
-        "image": "https://cdn.slist.kr/news/thumbnail/202611/778498_1189689_1137_v150.jpg"
-    },
-    {
-        "title": "리센느 원이, 공연 중 무대 이탈…\"세탁 후 줄어든 의상 탓\" - 조선일보",
+        "title": "[SC현장] \"중소돌 기적 한번더\"…리센느, 머스크향 입고 '국민 걸그룹' 굳히기(종합) - 조선일보",
         "source": "조선일보",
-        "date": "2026-11-02",
-        "url": "https://www.chosun.com/entertainments/celebrity/2026/11/02/OG64B6SR4JCCBDTBJJ67UMKX2M/",
-        "summary": "걸그룹 리센느 멤버 원이가 경주 행사 공연 중 의상 문제로 일시적으로 무대를 이탈함. 세탁 후 수축된 의상을 착용하여 호흡 곤란을 겪었으나, 즉각적인 의상 정비 후 복귀하여 남은 공연을 성공적으로 마쳤음. 이후 본인이 직접 상황을 설명하며 팬들을 안심시킴.",
-        "image": "https://www.chosun.com/resizer/v2/YGX6JQP77FH6ZOQRQD2CEL6JBM.jpg?auth=1d271a6795a177f01f41a11618c7c8f68ead2c5a732b208f4bcd174231d6ecb5&width=719&height=377&smart=true"
+        "date": "2026-11-03",
+        "url": "https://www.chosun.com/entertainments/enter_general/2026/11/03/GQ2GEMLBGYZTMNTDMQYWCZJRMU/",
+        "summary": "그룹 리센느가 3일 미니 4집 앨범 펄스를 발매하고 쇼케이스를 진행했다. 이번 신보는 심장 박동을 의미하며 머스크향을 통해 팬들의 마음을 사로잡겠다는 다짐을 담았다. 멤버들은 음악방송 1위를 기록했던 지난 성과에 이어 초심을 잃지 않고 꾸준히 사랑받는 그룹이 되겠다는 포부를 전했다.",
+        "image": "https://www.chosun.com/resizer/v2/GA4GCNJZMZRDSNRVGA2TOOBZG4.jpg?auth=15daa6c55bee2de252e79fb366a0eea450787ee732da8a6f04afd7eab828b4ff&width=700&height=367&smart=true"
     },
     {
-        "title": "리센느, 향기는 고동이 된다…맥박 뛰는 자리마다 번지는 온기 - 뉴시스",
+        "title": "인사말하는 리센느 메이 - 뉴스핌",
+        "source": "뉴스핌",
+        "date": "2026-11-03",
+        "url": "https://www.newspim.com/news/view/20261103000901",
+        "summary": "",
+        "image": "https://img.newspim.com/news/2026/11/03/261103143314203_t1.jpg"
+    },
+    {
+        "title": "리센느 \"'국민 걸그룹' 호칭 과분…'믿고 듣는 리센느' 수식어 붙길\" - 한국경제",
+        "source": "한국경제",
+        "date": "2026-11-03",
+        "url": "https://www.hankyung.com/article/202611032757H",
+        "summary": "리센느 \"'국민 걸그룹' 호칭 과분…'믿고 듣는 리센느' 수식어 붙길\", 김예랑 기자, 연예",
+        "image": "https://img.hankyung.com/photo/202611/ZN.46291234.1.jpg"
+    },
+    {
+        "title": "[영상] 리센느 미나미 '야호' - 뉴데일리",
+        "source": "뉴데일리",
+        "date": "2026-11-03",
+        "url": "https://www.newdaily.co.kr/site/data/html/2026/11/03/2026110300317.html",
+        "summary": "걸그룹 리센느(RESCENE) 미나미가 3일 오후 서울 용산구 블루스퀘어에서 열린 네 번째 미니 앨범 '펄스(PULSE)' 발매 기념 쇼케이스에서 포즈를 취하고 있다....",
+        "image": "https://image.newdaily.co.kr/site/data/img/2026/11/03/2026110300317_0.jpg"
+    },
+    {
+        "title": "리센느 신곡 '위드', 발매 첫날 2시간만에 멜론 '톱 100' 1위 차지 - 중앙신문",
+        "source": "중앙신문",
+        "date": "2026-11-03",
+        "url": "http://www.joongang.tv/news/view/324024/%EB%A6%AC%EC%84%BC%EB%8A%90-%EC%8B%A0%EA%B3%A1-%EC%9C%84%EB%93%9C-%EB%B0%9C%EB%A7%A4-%EC%B2%AB%EB%82%A0-2%EC%8B%9C%EA%B0%84%EB%A7%8C-%EB%A9%9C%EB%A1%A0-%ED%86%B1-100-1%EC%9C%84-%EC%B0%A8%EC%A7%80-2026",
+        "summary": "그룹 리센느의 신곡 '위드'(With)가 발매 첫날 국내 최대 음원 플랫폼 멜론에서 1위를 차지했다.3일 멜론에 따르면 리센느 미니 4집 '펄스'(PULSE)의 타이틀곡 '위드'는 발매 2시간 만인 이날 오후 8시 '톱 100' 차트 정상에 올랐다.'위드'는 서정적인 도입부에서 힘차게",
+        "image": "https://cdn.jasm.co.kr/news/photo/202611/news_1793708409_324024_m_1.jpg"
+    },
+    {
+        "title": "구름떼 취재진 몰렸다…리센느가 던진 승부수 [종합] - 한국경제",
+        "source": "한국경제",
+        "date": "2026-11-03",
+        "url": "https://www.hankyung.com/article/202611033062H",
+        "summary": "구름떼 취재진 몰렸다…리센느가 던진 승부수 [종합], 100여 매체 몰린 리센느 컴백 현장 '국민 걸그룹' 칭호에 \"아직 부끄러워\" \"또 한 번 기적 떠올리게 하고파\"",
+        "image": "https://img.hankyung.com/photo/202611/ZN.46291784.1.jpg"
+    },
+    {
+        "title": "[ET포토] 리센느, '춤추는 스완' - 전자신문",
+        "source": "전자신문",
+        "date": "2026-11-03",
+        "url": "https://www.etnews.com/20261103000466",
+        "summary": "그룹 리센느(RESCENE/ 원이, 리브, 미나미, 메이, 제나)가 3일 서울 용산구 한남동 블루스퀘어에서 진행된 네 번째 미니 앨범 &lsquo;PULSE&rsquo;(펄스) 미디어 쇼케이스 일정에 참석했다. 미니 4집 &lsquo;PULSE&",
+        "image": "https://img.etnews.com/news/article/2026/11/03/cms_temp_stats_17937112322020851529.jpg"
+    },
+    {
+        "title": "[포토] 리센느 '화려한 컴백 무대' - 세계일보",
+        "source": "세계일보",
+        "date": "2026-11-03",
+        "url": "https://m.segye.com/view/20261103514426",
+        "summary": "그룹 리센느가 3일 서울 용산구 한남동 블루스퀘어에서 열린 미니 4집 ‘펄스(PULSE)’의 쇼케이스에 참석해 열띤 공연을 펼치고 있다. 타이틀곡 ‘위드’는 자신을 부르는 목소리를 따라 달려가 오랫동안 꿈꿔온 상대와 마주하는 순간을 담았다. 서정적인 도입부에서 힘찬 후렴으로 이어지며 심",
+        "image": "https://www.segye.com/content/image/2026/11/03/20261103513481.jpg"
+    },
+    {
+        "title": "[TOP영상] 리센느, 이제는 국민 걸그룹! 리센느가 생각하는 기적이란?(PULSE) - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-11-03",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16267264",
+        "summary": "리센느(RESCENE)가 11월 3일 미니 4집 'PULSE(펄스)'를 발매하며 본격적인 컴백 활동에 나선다. 타이틀곡 'With'를 포함한 5곡이 수록된 이번 앨범은 새로운 에너지를 전달할 것으로 기대된다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202611/16267264_2076398_2126_crop.jpg"
+    },
+    {
+        "title": "\"기적 떠올리는 그룹될 것\" 리센느, 이젠 정주행이다..'펄스'로 증명할 성장 [종합] - 스타뉴스",
+        "source": "스타뉴스",
+        "date": "2026-11-03",
+        "url": "https://www.starnewskorea.com/music/2026/11/03/2026110314175662169",
+        "summary": "그룹 리센느(RESCENE)가 또 한 번의 도약에 나선다. '러브 어택(LOVE ATTACK)' 역주행과 음악방송 1위로 존재감을 키운 이들은 한층 단단해진 음악과 퍼포먼스를 앞세워 '중소돌의 기적'을 넘어 국민 걸그룹을 향한 발걸음을 내디딘다. 리센느(원이, 리브, 미나미, 메이, 제",
+        "image": "https://image.starnewskorea.com/21/2026/11/2026110314175662169_1.jpg"
+    },
+    {
+        "title": "리센느 원이, 귀요미 볼하트 - 뉴스핌",
+        "source": "뉴스핌",
+        "date": "2026-11-03",
+        "url": "https://www.newspim.com/news/view/20261103000954",
+        "summary": "",
+        "image": "https://img.newspim.com/news/2026/11/03/261103145148855_t1.jpg"
+    },
+    {
+        "title": "[ET포토] 리센느, '미니 4집 펄스 발매' - 전자신문",
+        "source": "전자신문",
+        "date": "2026-11-03",
+        "url": "https://www.etnews.com/20261103000456",
+        "summary": "그룹 리센느(RESCENE/ 원이, 리브, 미나미, 메이, 제나)가 3일 서울 용산구 한남동 블루스퀘어에서 진행된 네 번째 미니 앨범 &lsquo;PULSE&rsquo;(펄스) 미디어 쇼케이스 일정에 참석했다. 미니 4집 &lsquo;PULSE&",
+        "image": "https://img.etnews.com/news/article/2026/11/03/cms_temp_stats_1793710374411375534.jpg"
+    },
+    {
+        "title": "대세 입지 굳힌 리센느의 화려한 컴백 - https://www.2news.co.kr/",
+        "source": "https://www.2news.co.kr/",
+        "date": "2026-11-03",
+        "url": "https://www.2news.co.kr/news/articleView.html?idxno=31599",
+        "summary": "국민 걸그룹으로 성장한 그룹 리센느가 대세 자리를 더욱 공고히 하기 위한 신보로 팬들 곁에 돌아왔다.3일 뉴스1에 따르면 서울 용산구 블루스퀘어 우리WON뱅킹홀에",
+        "image": "https://cdn.2news.co.kr/news/photo/202611/mn_31599_20261103163929_1.jpg"
+    },
+    {
+        "title": "리센느 컴백, 타이틀곡 ‘With’ 무대[O! STAR 숏폼] - Chosunbiz",
+        "source": "Chosunbiz",
+        "date": "2026-11-03",
+        "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/03/MZRTKZRXGQ2GINZTMMYTEZDFGM/",
+        "summary": "리센느 컴백, 타이틀곡 With 무대O STAR 숏폼",
+        "image": "https://biz.chosun.com/resizer/v2/GZTDQOBRG44TAYZTHA3WGZRXMM.jpg?auth=3a154997fcf4282025031fa479ca2dd46ae3efb2b757813b23643aeb3712ba82&width=572&height=300&smart=true"
+    },
+    {
+        "title": "오늘부터 리센느와 'With'…이번엔 정주행 노리는 컴백 무대 - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-11-03",
+        "url": "https://www.news1.kr/videos/25302",
+        "summary": ""
+    },
+    {
+        "title": "RESCENE (리센느) 'With' Official MV - YouTube",
+        "source": "YouTube",
+        "date": "2026-11-03",
+        "url": "https://youtu.be/pey3E47eSc8?si=EPaHgyKeLQfjrH9d",
+        "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+    },
+    {
+        "title": "리센느, 역주행 신화 다음은 ‘펄스’…오늘(3일) 컴백 - JTBC",
+        "source": "JTBC",
+        "date": "2026-11-03",
+        "url": "https://news.jtbc.co.kr/article/NB12326157",
+        "summary": "걸그룹 리센느(RESCENE)가 음악방송 역주행 후 1년 만에 컴백한다. 3일 리센느는 네 번째 미니 앨범 ‘펄스(PULSE)’를 발매한다. ...",
+        "image": "https://photo.jtbc.co.kr/news/jam_photo/202611/03/154b9158-c45c-4262-80ea-3bf0b66d23ae.jpg"
+    },
+    {
+        "title": "[HD포토] 리센느 제나, ‘보스 베이비’ (PULSE 쇼케이스) - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-11-03",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16267379",
+        "summary": "리센느(RESCENE)가 11월 3일 서울 블루스퀘어에서 네 번째 미니 앨범 ‘펄스(PULSE)’ 컴백 쇼케이스를 열고, 타이틀 곡 ‘위드(With)’와 수록곡 ‘백화요란(Inside Out)’의 무대를 최초 공개했다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202611/16267379_2076438_530_crop.jpg"
+    },
+    {
+        "title": "리센느 원이, 건강 걱정에 ‘거제 상여자’ 면모 “마 걱정하지 마라, 단디 챙길게” - BNT뉴스",
+        "source": "BNT뉴스",
+        "date": "2026-11-03",
+        "url": "https://www.bntnews.co.kr/article/view/bnt202611030243",
+        "summary": "리센느(RESCENE) 원이가 건강을 걱정하는 팬들에게 ‘거제 상여자’다운 씩씩한 한마디를 전했다.리센느는 오늘(3일) 오후 2시 서울 블루스퀘어 우",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/03/bnt202611030510.jpg"
+    },
+    {
+        "title": "리센느 미나미 “차트 성적 넘어 음악과 향기로 기억되고파” - BNT뉴스",
+        "source": "BNT뉴스",
+        "date": "2026-11-03",
+        "url": "https://www.bntnews.co.kr/article/view/bnt202611030190",
+        "summary": "리센느(RESCENE) 미나미가 음악과 향기를 통해 대중에게 그룹만의 색깔을 각인시키고 싶다는 바람을 전했다.리센느는 오늘(3일) 오후 2시 서울 블루스퀘",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/03/bnt202611030506.jpg"
+    },
+    {
+        "title": "리센느, 미니 4집 '펄스'로 컴백 - 머니투데이",
+        "source": "머니투데이",
+        "date": "2026-11-03",
+        "url": "https://www.mt.co.kr/index.php/photo/202611031548106878",
+        "summary": "머니투데이는 경제, 증권, 기업 등 실시간 뉴스부터 정치, 사회, 문화에 이르기까지 다양한 분야의 깊이 있는 분석과 신뢰할 수 있는 정보를 제공합니다. 빠르고 정확한 보도로 대한민국 대표 종합경제미디어의 역할을 충실히 수행하며, 독자에게 가치 있는 뉴스를 전달합니다.",
+        "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/11/2026110315223515063_1.jpg"
+    },
+    {
+        "title": "[스경X현장] “반짝 아닌 오래오래”…리센느, 머스크 향처럼 스며들 ‘PULSE’ - 스포츠경향",
+        "source": "스포츠경향",
+        "date": "2026-11-03",
+        "url": "https://sports.khan.co.kr/article/202611031609003",
+        "summary": "걸그룹 리센느(RESCENE)가 한층 성장한 모습으로 ‘머스크 향’처럼 오래 머물고 싶은 솔직한 진심을 전한다. 리센느(원이, 리브, 미나미, 메이, 제나)는 3일 오후 서울 용산구 블루스퀘어 우리WON뱅킹홀에...",
+        "image": "https://images.khan.co.kr/article/2026/11/03/news-p.v1.20261103.4d078635edf84f07a22900ccea7dc261_P1.jpg"
+    },
+    {
+        "title": "리센느 \"국민 걸그룹? 너무 과분한 호칭… 그에 걸맞게 노력할 것\" - 한국일보",
+        "source": "한국일보",
+        "date": "2026-11-03",
+        "url": "https://www.hankookilbo.com/news/article/amp/A2026110314250004302",
+        "summary": "① 그룹 리센느가 네 번째 미니 앨범 ‘펄스’ 발매 쇼케이스에서 ‘국민 걸그룹’이라는 호칭에 대한 생각을 말했습니다. ② 리센느는 ‘국민 걸그룹’이라는 말이 과분하다고 하며 더 노력하겠다는 뜻을 밝혔습니다. ③ 미니 앨범 ‘펄스’는 2026년 11월 3일 오후 6시에 발매되며 타이틀곡 ",
+        "image": "https://newsimg.hankookilbo.com/2026/11/03/935a9199-cec5-4199-9025-870fab84204e.jpg"
+    },
+    {
+        "title": "\"옷 따위에 넘어가지 않아\"…리센느 원이, 무슨 일이 있었길래 - 한국경제",
+        "source": "한국경제",
+        "date": "2026-11-03",
+        "url": "https://www.hankyung.com/article/202611032782H",
+        "summary": "\"옷 따위에 넘어가지 않아\"…리센느 원이, 무슨 일이 있었길래, 리센느 원이, 무대 호흡곤란 해명 \"거제 상여자&hellip;걱정하지 마라\"",
+        "image": "https://img.hankyung.com/photo/202611/ZN.46291320.1.jpg"
+    },
+    {
+        "title": "리센느 “‘국민 걸그룹’ 수식어? 과분하지만 감사한 마음” - 스포츠경향",
+        "source": "스포츠경향",
+        "date": "2026-11-03",
+        "url": "https://sports.khan.co.kr/article/202611031525003",
+        "summary": "걸그룹 리센느(RESCENE)가 ‘국민 걸그룹’이라고 불리는 소감에 대해 전했다. 리센느(원이, 리브, 미나미, 메이, 제나)는 3일 오후 서울 용산구 블루스퀘어 우리WON뱅킹홀에서 진행된 미니 4집 ‘펄스(P...",
+        "image": "https://images.khan.co.kr/article/2026/11/03/news-p.v1.20261103.91d2c61db9cc4886ad104977b809872a_P1.jpg"
+    },
+    {
+        "title": "리센느 미니 4집 펄스 발매…심장 박동 담아 컴백 - https://www.2news.co.kr/",
+        "source": "https://www.2news.co.kr/",
+        "date": "2026-11-03",
+        "url": "https://www.2news.co.kr/news/articleView.html?idxno=31593",
+        "summary": "그룹 리센느가 미니 4집 앨범을 발표하며 활동에 나섰다.3일 뉴스1에 따르면 리센느는 서울 용산구 블루스퀘어 우리WON뱅킹홀에서 미니 4집 펄스(PULSE) 발매",
+        "image": "https://cdn.2news.co.kr/news/photo/202611/mn_31593_20261103162610_1.jpg"
+    },
+    {
+        "title": "리센느 메이 “한순간의 유행 아닌 오래 기억되는 그룹 되고파” - BNT뉴스",
+        "source": "BNT뉴스",
+        "date": "2026-11-03",
+        "url": "https://www.bntnews.co.kr/article/view/bnt202611030189",
+        "summary": "리센느(RESCENE) 메이가 한순간의 유행으로 지나가는 그룹이 아닌 오랫동안 사랑받고 기억되는 아티스트가 되고 싶다는 바람을 전했다.리센느는 오늘(3",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/03/bnt202611030504.jpg"
+    },
+    {
+        "title": "리센느, 이번엔 '정주행'…신곡 '위드' 발매 2시간 만에 1위 직행 - 뉴시스",
         "source": "뉴시스",
-        "date": "2026-11-02",
-        "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261103_0003851913",
-        "summary": "[서울=뉴시스]이재훈 기자 = 신흥 국민 걸그룹 '리센느(RESCENE)'가 향기에서 심장 박동으로 감각의 지평을 넓힌다",
-        "image": "https://img1.newsis.com/2026/11/03/NISI20261103_0002281032_web.jpg"
+        "date": "2026-11-03",
+        "url": "https://www.newsis.com/view/NISX20261103_0003853530",
+        "summary": "[서울=뉴시스]이재훈 기자 = '역주행 신화'를 썼던 신흥 국민 걸그룹 '리센느(RESCENE)'가 이번에는 발매와 동시에 음원 차트 정상을 꿰차는 강력한 '정주행' 화력을 과시했다.3일 가요계와 음원 플랫폼 멜론(Melon)에 따르면, 리센느가 이날 오후 6시 발매한 미니 4집 '펄스",
+        "image": "https://img1.newsis.com/2026/11/03/NISI20261103_0021516981_web.jpg"
+    },
+    {
+        "title": "리센느 \"기적이라는 단어 떠올리는 그룹 되고파..리마인이 원동력\" - 스타뉴스",
+        "source": "스타뉴스",
+        "date": "2026-11-03",
+        "url": "https://www.starnewskorea.com/music/2026/11/03/2026110314175199403",
+        "summary": "그룹 리센느(RESCENE)가 '중소돌의 기적'이라는 평가에 관해 이야기했다. 3일 오후 서울 용산구 블루스퀘어 우리원뱅크홀에서는 리센느의 네 번째 미니 앨범 '펄스(PULSE)' 발매 기념 쇼케이스가 개최됐다. 이날 원이는 중소돌의 기적이라는 평가에 대해 \"기적이라는 게 쉽지 않지 않",
+        "image": "https://image.starnewskorea.com/21/2026/11/2026110314175199403_1.jpg"
+    },
+    {
+        "title": "리센느 위드 - 뉴시스",
+        "source": "뉴시스",
+        "date": "2026-11-03",
+        "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISI20261103_0021516984",
+        "summary": "[서울=뉴시스] 김혜진 기자 = 그룹 리센느가 3일 오후 서울 용산구 블루스퀘어에서 열린 네 번째 미니앨범 '펄스' 발매 기념 쇼케이스에서 무대를 선보이고 있다",
+        "image": "https://img1.newsis.com/2026/11/03/NISI20261103_0021516984_web.jpg"
+    },
+    {
+        "title": "리센느 \"국민 걸그룹? 과분한 수식어…새 기적 만들고파\" - SPOTV NEWS",
+        "source": "SPOTV NEWS",
+        "date": "2026-11-03",
+        "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1017192",
+        "summary": "그룹 리센느(RESCENE)가 '국민 걸그룹'이라는 호칭에 대한 솔직한 생각을 밝혔다. 리센느는 3일 오후 서울 용산구 한남동 블루스퀘어 우리WON뱅킹홀에서 네 번째 미니앨범 ‘펄스(PULSE)’ 발매 기념 미디어 쇼케이스를 개최했다.",
+        "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202611/1017192_2036792_5633.jpg"
+    },
+    {
+        "title": "리센느 \"역주행 인기·기대 속 컴백, 부담 아닌 원동력 됐다\" - SPOTV NEWS",
+        "source": "SPOTV NEWS",
+        "date": "2026-11-03",
+        "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1017191",
+        "summary": "그룹 리센느(RESCENE)가 역주행 인기 속 대중의 기대를 안고 컴백에 나서게 된 소감을 밝혔다. 리센느는 3일 오후 서울 용산구 한남동 블루스퀘어 우리WON뱅킹홀에서 네 번째 미니앨범 ‘펄스(PULSE)’ 발매 기념 미디어 쇼케이스를 개최했다.",
+        "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202611/1017191_2036797_8470.jpg"
+    },
+    {
+        "title": "리센느 뜨자 30대男 '우르르'…54만명 몰린 라방의 '반전' - 한국경제",
+        "source": "한국경제",
+        "date": "2026-11-03",
+        "url": "https://www.hankyung.com/article/202611021413g",
+        "summary": "리센느 뜨자 30대男 '우르르'…54만명 몰린 라방의 '반전', 리센느 갤Z폴드8 라방 시청수 '54만' 라방 당시 30대 남성 구매 가장 많아",
+        "image": "https://img.hankyung.com/photo/202611/01.46282473.1.jpg"
+    },
+    {
+        "title": "컴백 리센느 - 뉴시스",
+        "source": "뉴시스",
+        "date": "2026-11-03",
+        "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISI20261103_0021516847",
+        "summary": "[서울=뉴시스] 김혜진 기자 = 그룹 리센느가 3일 오후 서울 용산구 블루스퀘어에서 열린 네 번째 미니앨범 '펄스' 발매 기념 쇼케이스에서 포즈를 취하고 있다",
+        "image": "https://img1.newsis.com/2026/11/03/NISI20261103_0021516847_web.jpg"
+    },
+    {
+        "title": "[현장영상] \"심장박동수 UP!\"...리센느, 'PULSE' 컴백 쇼케이스 - 디스패치",
+        "source": "디스패치",
+        "date": "2026-11-03",
+        "url": "https://www.dispatch.co.kr/2350215",
+        "summary": "리센느(RESCENE)가 완벽한 무대로 심장 박동을 일깨웠다.리센느의 미니 4집 'PULSE' 발매 기념 미... [더보기]",
+        "image": "https://dispatch.cdnser.be/cms-content/uploads/2026/11/03/3bbedc12-318e-4723-8cb4-ebb975857baa.jpg"
+    },
+    {
+        "title": "리센느의 무대 - 뉴시스",
+        "source": "뉴시스",
+        "date": "2026-11-03",
+        "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISI20261103_0021516980",
+        "summary": "[서울=뉴시스] 김혜진 기자 = 그룹 리센느가 3일 오후 서울 용산구 블루스퀘어에서 열린 네 번째 미니앨범 '펄스' 발매 기념 쇼케이스에서 무대를 선보이고 있다",
+        "image": "https://img1.newsis.com/2026/11/03/NISI20261103_0021516980_web.jpg"
+    },
+    {
+        "title": "리센느, 커진 기대에 ‘펄스’로 답할 다섯의 호흡 [현장] - 데일리안",
+        "source": "데일리안",
+        "date": "2026-11-03",
+        "url": "https://www.dailian.co.kr/news/view/1710206/%EB%A6%AC%EC%84%BC%EB%8A%90-%EC%BB%A4%EC%A7%84-%EA%B8%B0%EB%8C%80-%E2%80%98%ED%8E%84%EC%8A%A4%E2%80%99%EB%A1%9C-%EB%8B%B5%ED%95%A0-%EB%8B%A4-2026",
+        "summary": "‘중소돌의 기적’이라는 수식어를 받은 리센느(RESCENE)가 이번에 얻고 싶은 평가는 “리센느 노래는 믿고 듣는다”는 말이다. 커진 관심을 새 앨범을 준비하는 동력으로 받아들이면서도, 수치보다 팀의 색깔과 실력을 보여주는 데 집중했다고 밝혔다.리센느는 3일 오후 서울 용산구 블루스퀘어",
+        "image": "https://cdnimage.dailian.co.kr/news/202611/news_1793687347938_1710206_m_1.jpg"
+    },
+    {
+        "title": "“마, 걱정하지 마라! 단디 챙길게”…‘컴백’ 리센느 원이, 건강 우려 불식 - 스포츠경향",
+        "source": "스포츠경향",
+        "date": "2026-11-03",
+        "url": "https://sports.khan.co.kr/article/202611031512003",
+        "summary": "걸그룹 리센느(RESCENE) 멤버 원이가 건강에 문제가 없음을 전했다. 원이는 3일 오후 서울 용산구 블루스퀘어 우리WON뱅킹홀에서 진행된 리센느(원이, 리브, 미나미, 메이, 제나) 미니 4집 ‘펄스(PUL...",
+        "image": "https://images.khan.co.kr/article/2026/11/03/news-p.v1.20261103.21ee6cc72ee84dd1a5861958592f93a5_P1.jpg"
+    },
+    {
+        "title": "역주행 신화 리센느 … 새 음악 들고 컴백 - 매일경제",
+        "source": "매일경제",
+        "date": "2026-11-03",
+        "url": "https://www.mk.co.kr/news/culture/12195003",
+        "summary": "미니 4집 앨범 '펄스' 공개타이틀곡 '위드' 음원 1위 직행",
+        "image": "https://pimg.mk.co.kr/news/cms/202611/04/20261104_01170128000001_L00.jpg"
+    },
+    {
+        "title": "[포토] 멋진 무대 선보이는 리센느 - 아주경제",
+        "source": "아주경제",
+        "date": "2026-11-03",
+        "url": "https://www.ajunews.com/view/20261103205534400",
+        "summary": "걸그룹 리센느(RESCENE)가 3일 서울 용산구 블루스퀘어에서 열린 네 번째 미니앨범 펄스(PULSE) 발매 기념 쇼케이스에서 수록곡 백화요란의 무대를 선보이고...",
+        "image": "https://image.ajunews.com/content/image/2026/11/03/20261103205543520036.jpg"
+    },
+    {
+        "title": "'대세' 리센느 \"4개월 만의 컴백, 한층 더 단단해지고 성장해\" [N현장] - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-11-03",
+        "url": "https://www.news1.kr/entertain/music/6341370",
+        "summary": ""
+    },
+    {
+        "title": "[영상] 리센느, “리마인, 설렐 준비됐지?”…머스크 향 가득 머금은 ‘With’로 전하는 두근거림 - 일간스포츠",
+        "source": "일간스포츠",
+        "date": "2026-11-03",
+        "url": "https://isplus.com/article/view/isp202611030305",
+        "summary": "그룹 리센느(RESCENE)가 3일 오후 서울 용산구 블루스퀘어 우리WON뱅킹홀에서 열린 미니 4집 ‘PUL SE’ 발매 기념 미디어 쇼케이스에 참석했다. 이...",
+        "image": "https://isplus.com/data/isp/image/2026/11/03/isp20261103000399.800x.0.jpg"
+    },
+    {
+        "title": "[포토] 리센느, 파워풀한 컴백 무대 - 중앙신문",
+        "source": "중앙신문",
+        "date": "2026-11-03",
+        "url": "https://www.jasm.co.kr/news/view/323994/%ED%8F%AC%ED%86%A0-%EB%A6%AC%EC%84%BC%EB%8A%90-%ED%8C%8C%EC%9B%8C%ED%92%80%ED%95%9C-%EC%BB%B4%EB%B0%B1-%EB%AC%B4%EB%8C%80-2026",
+        "summary": "",
+        "image": "https://cdn.jasm.co.kr/news/photo/202611/news_1793690622_323994_m_1.jpg"
+    },
+    {
+        "title": "리센느, 위드 무대 - 뉴시스",
+        "source": "뉴시스",
+        "date": "2026-11-03",
+        "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISI20261103_0021516929",
+        "summary": "[서울=뉴시스] 김혜진 기자 = 그룹 리센느가 3일 오후 서울 용산구 블루스퀘어에서 열린 네 번째 미니앨범 '펄스' 발매 기념 쇼케이스에서 무대를 선보이고 있다",
+        "image": "https://img1.newsis.com/2026/11/03/NISI20261103_0021516929_web.jpg"
+    },
+    {
+        "title": "리센느 미나미 \"평소 좋아해서 쓴 단어 '백화요란', 아름답고 멋진 곡으로 탄생\" - Chosunbiz",
+        "source": "Chosunbiz",
+        "date": "2026-11-03",
+        "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/03/HE3DCNLGGVSTGMRUGA4GIZLCGA/",
+        "summary": "리센느 미나미 평소 좋아해서 쓴 단어 백화요란, 아름답고 멋진 곡으로 탄생",
+        "image": "https://biz.chosun.com/resizer/v2/GFRGINRQHBTGINLEGYZWEMZRMM.jpg?auth=d66bb83cb26c86f5338ac8d04da7054662dd372d77745dae5dea4f5a3c02a1ba&width=900&height=472&smart=true"
+    },
+    {
+        "title": "[포토] 머스크향 입힌 리센느... 화려한 컴백 - 아주경제",
+        "source": "아주경제",
+        "date": "2026-11-03",
+        "url": "https://www.ajunews.com/view/20261103205953408",
+        "summary": "걸그룹 리센느(RESCENE)가 3일 서울 용산구 블루스퀘어에서 열린 네 번째 미니앨범 펄스(PULSE) 발매 기념 쇼케이스에서 수록곡 백화요란의 무대를 선보이고...",
+        "image": "https://image.ajunews.com/content/image/2026/11/03/20261103210014124131.jpg"
+    },
+    {
+        "title": "[K-팝] '언더독 신화' 리센느, 미니 4집 'PULSE'로 컴백… 역주행 기세 잇는다 - 굿모닝베트남미디어",
+        "source": "굿모닝베트남미디어",
+        "date": "2026-11-03",
+        "url": "https://www.goodmorningvietnam.co.kr/news/article.html?no=84384",
+        "summary": "【굿모닝베트남미디어】 K-팝 걸그룹 리센느(RESCENE)가 네 번째 미니 앨범 'PULSE'를 발매하며 대세 행보를 이어간다. 원이, 리브, 미나미, 메이, 제나로 구성된 5인조 그룹 리센느는 서울 블루스퀘어에서 미디어 쇼케이스를 열고 신보 'PULSE'를 공식 공개했다. 이번 앨범은",
+        "image": "https://www.goodmorningvietnam.co.kr/data/photos/20261145/art_1793711450.jpg"
+    },
+    {
+        "title": "러블리한 리센느 - 뉴시스",
+        "source": "뉴시스",
+        "date": "2026-11-03",
+        "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISI20261103_0021516850",
+        "summary": "[서울=뉴시스] 김혜진 기자 = 그룹 리센느가 3일 오후 서울 용산구 블루스퀘어에서 열린 네 번째 미니앨범 '펄스' 발매 기념 쇼케이스에서 포즈를 취하고 있다",
+        "image": "https://img1.newsis.com/2026/11/03/NISI20261103_0021516850_web.jpg"
+    },
+    {
+        "title": "'국민 걸그룹'으로 성장한 리센느…\"잠깐 반짝하는 게 아니었으면\"(종합) - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-11-03",
+        "url": "https://www.news1.kr/entertain/music/6341502",
+        "summary": ""
+    },
+    {
+        "title": "컴백한 리센느 - 뉴시스",
+        "source": "뉴시스",
+        "date": "2026-11-03",
+        "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISI20261103_0021516849",
+        "summary": "[서울=뉴시스] 김혜진 기자 = 그룹 리센느가 3일 오후 서울 용산구 블루스퀘어에서 열린 네 번째 미니앨범 '펄스' 발매 기념 쇼케이스에서 포즈를 취하고 있다",
+        "image": "https://img1.newsis.com/2026/11/03/NISI20261103_0021516849_web.jpg"
+    },
+    {
+        "title": "리센느, 포토타임에서도 향기가 날 수 있나요 (포토) - Chosunbiz",
+        "source": "Chosunbiz",
+        "date": "2026-11-03",
+        "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/03/GAYTSZBUGMZTKNBZGZSDONZUGY/",
+        "summary": "리센느, 포토타임에서도 향기가 날 수 있나요 포토",
+        "image": "https://biz.chosun.com/resizer/v2/GVRTIOJTGU4TCY3BG5RTAODDME.jpg?auth=b4bbbf6bdb12901f85e24ceea377cae180c758a7e3347f645e25c46c66d3c523&width=900&height=472&smart=true"
     },
     {
         "title": "\"너무 놀랐다\" 리센느 원이, 공연 중 돌발 무대 이탈…왜? - 한국경제",
         "source": "한국경제",
         "date": "2026-11-02",
         "url": "https://www.hankyung.com/article/202611020183H",
-        "summary": "\"너무 놀랐다\" 리센느 원이, 무대 중 돌발 이탈…왜?, 리센느 원이, 경주 공연 도중 무대 이탈 \"줄어든 옷 때문에 숨 안 쉬어져\" 해명",
-        "image": "https://img.hankyung.com/photo/202611/01.46277462.1.png"
-    },
-    {
-        "title": "리센느, 오늘(3일) 미니 4집 발매 - BNT뉴스",
-        "source": "BNT뉴스",
-        "date": "2026-11-02",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202611030075",
-        "summary": "그룹 리센느(RESCENE)가 네 번째 미니 앨범으로 돌아온다. 음원 차트 역주행과 음악방송 1위에 이어 이번 신보로 상승세를 이어갈지 관심이 쏠린다.리센",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/03/bnt202611030094.jpg"
-    },
-    {
-        "title": "'국민 걸그룹' 돌아온다! 리센느, 오늘(3일) 미니 4집 'PULSE' 컴백 - 스타뉴스",
-        "source": "스타뉴스",
-        "date": "2026-11-02",
-        "url": "https://www.starnewskorea.com/music/2026/11/03/2026110308030878414",
-        "summary": "'국민 걸그룹'이 돌아온다. 리센느(RESCENE·원이, 리브, 미나미, 메이, 제나)가 11월 3일 오후 6시 각종 음원 사이트를 통해 네 번째 미니 앨범 'PULSE'(펄스)를 발매한다. 이번 앨범에는 타이틀곡 'With'(위드)를 포함해 'Finest Thing'(파이니스트 띵),",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=815,fit=cover,q=high,sharpen=2/21/2026/11/2026110308030878414_1.jpg"
-    },
-    {
-        "title": "리센느 원이 \"숨 못 쉬어\"…공연 도중 사라진 사연, 무슨 일? - 연합뉴스TV",
-        "source": "연합뉴스TV",
-        "date": "2026-11-02",
-        "url": "https://www.yonhapnewstv.co.kr/news/AKR20261102164458lxa",
-        "summary": "걸그룹 리센느 멤버 원이가 공연 도중 갑자기 무대를 이탈할 수 밖에 없던 사연을 털어놨습니다. 무대를 떠난 원인은 뜻밖에도 ’세탁 후 줄어든 의상’ 때문이었습니다. 원이는 팬 소통 플랫폼을 통해 지난달 31일 경주엑스포대공원에서 열린 ’APEC 정상회의장 기념관 개관식",
-        "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261102/AKR20261102164458lxa_02_i.jpg"
-    },
-    {
-        "title": "리센느, 오늘 미니 4집 ‘PULSE’ 발매…타이틀곡 ‘With’로 컴백 - 톱스타뉴스",
-        "source": "톱스타뉴스",
-        "date": "2026-11-02",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16266684",
-        "summary": "리센느가 오늘 오후 6시 네 번째 미니 앨범 ‘PULSE’를 발매하고 타이틀곡 ‘With’로 컴백한다. 총 5곡이 수록됐으며, 음악과 향기를 연결해 머스크 향 콘셉트로 또 다른 매력을 선보일 예정이다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202611/16266684_2075700_3150_crop.jpg"
-    },
-    {
-        "title": "‘머스크향’ 입힌 리센느, 대세 입증 간다 - 스포츠경향",
-        "source": "스포츠경향",
-        "date": "2026-11-02",
-        "url": "https://sports.khan.co.kr/article/202611030817003",
-        "summary": "그룹 리센느(RESCENE)가 음원 역주행과 음악방송 6관왕을 기록한 뒤 약 1년 만에 새 미니앨범을 발표한다. 소속사 더뮤즈엔터테인먼트는 3일 리센느(원이, 리브, 미나미, 메이, 제나)가 이날 오후 6시 미...",
-        "image": "https://images.khan.co.kr/article/2026/11/03/news-p.v1.20261103.db00a7a1b44c40739662f62cfa196c39_P1.jpg"
-    },
-    {
-        "title": "리센느, 컴백 당일 뮤지션100 1위·인기곡 3곡 TOP10…신보 'PULSE'로 새 승부 [뮤지션100] - 톱스타뉴스",
-        "source": "톱스타뉴스",
-        "date": "2026-11-02",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16266628",
-        "summary": "리센느가 미니 4집 'PULSE' 발매를 앞둔 11월 3일 오전 7시 뮤지션100에서 4,963점으로 1위를 지켰다. 뮤직100에서는 'LOVE ATTACK', 'Deja Vu', 'Pretty Girl' 등 3곡이 TOP10에 이름을 올렸고, 소속사 더뮤즈엔터테인먼트는 뮤직컴퍼니100",
-        "image": "https://cdn.topstarnews.net/news/photo/202611/16266628_2075598_4049_crop.jpg"
-    },
-    {
-        "title": "“숨이 안 쉬어졌다”…리센느 원이, 공연 중 무대 이탈한 이유 - 중앙일보",
-        "source": "중앙일보",
-        "date": "2026-11-02",
-        "url": "https://www.joongang.co.kr/article/25475111",
-        "summary": "걸그룹 리센느 멤버 원이가 공연 도중 호흡 곤란을 겪어 무대를 잠시 이탈했다. 원이는 세탁 과정에서 줄어든 무대 의상 때문에 숨쉬기가 어려웠다고 설명했다. 2일 가요계에 따르면 리센느는 지난달 31일 경북 경주APEC기념공원에서 열린 ‘APEC 정상회의장 기념관 개관식’ 축하 공연 무대",
-        "image": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202611/02/be3b2685-525a-45ed-b1f7-e3a44a3a6f2a.jpg"
-    },
-    {
-        "title": "리센느 원이, 무대 이탈 이유 밝혔다…“의상 탓에 호흡 어려워” - YTN",
-        "source": "YTN",
-        "date": "2026-11-02",
-        "url": "https://www.ytn.co.kr/_ln/0117_202611021335545649",
-        "summary": "그룹 리센느(RESCENE) 원이가 공연 중 무대를 잠시 이탈한 이유를 밝혔다. 리센느는 지난달 31일 경북 경주APEC기념공원(옛 경주엑스포대공원)에서 열린 ‘APEC 정상회의 기념관 개관식’ 축하 공연에 참석했다. 이날 원이는 ‘러브 어택(Love Attack)’ 무대를 마친 뒤 의",
-        "image": "https://image.ytn.co.kr/general/jpg/2026/1102/202611021335545649_t.jpg"
-    },
-    {
-        "title": "[리센느 컴백 ①] 이미 심장은 뛰고 있어…‘펄스’로 기적 정주행 이어간다 - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-11-02",
-        "url": "https://isplus.com/article/view/isp202611010090",
-        "summary": "‘너는 내 심장이 계속 뛸 수 있게 하는 존재야’자신들의 이름으로 온 세상을 물들인 그룹 리센느가 새로운 음악으로 리마인의 심장을 뛰게 한...",
-        "image": "https://isplus.com/data/isp/image/2026/11/01/isp20261101000126.800x.0.jpg"
-    },
-    {
-        "title": "[리센느 컴백 ②] 광고계도 팝업도 접수…‘국민 걸그룹’ 리센느의 전성시대 - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-11-02",
-        "url": "https://isplus.com/article/view/isp202611020085",
-        "summary": "그룹 리센느를 향한 사랑이 식을 줄 모른다. 멤버들의 다채로운 매력은 물론, 관련 콘텐츠와 영상들이 연일 화제를 모으고 있다. 광고계의 러브콜도 잇...",
-        "image": "https://isplus.com/data/isp/image/2026/11/01/isp20261101000132.800x.0.jpg"
-    },
-    {
-        "title": "리센느, 오늘(3일) 컴백→‘2026 KGMA’ 출격…원이 MC 활약까지 - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-11-02",
-        "url": "http://isplus.live.joins.com/article/view/isp202611030028",
-        "summary": "그룹 리센느가 한층 성장한 음악으로 돌아온다.리센느(원이, 리브, 미나미, 메이, 제나)는 3일 오후 6시 각종 음원 사이트를 통해 네 번째 미니앨범 &lsquo...",
-        "image": "https://isplus.com/data/isp/image/2026/11/03/isp20261103000033.800x.0.jpg"
-    },
-    {
-        "title": "리센느, 경찰대 편입시험 문제에 깜짝 등장…'이례적 관심' - YTN",
-        "source": "YTN",
-        "date": "2026-11-02",
-        "url": "https://m.ytn.co.kr/news_view.amp.php?param=0117_202611021524238750",
-        "summary": "그룹 리센느(RESCENE)가 경찰대학 편입시험 문제에 등장해 화제를 모으고 있다. 아이돌 그룹의 이름이 경찰대 편입시험 지문에 활용된 것은 이례적인 일로, 음악과 무대를 넘어 시험 문제에까지 등장하며 달라진 위상을 실감케 했다.지난 10월 31일 치러진 경찰대학...",
-        "image": "https://image.ytn.co.kr/general/jpg/2026/1102/202611021524238750_t.jpg"
-    },
-    {
-        "title": "리센느, 머스크 향 품고 오늘(3일) 컴백..정주행의 시간 - OSEN",
-        "source": "OSEN",
-        "date": "2026-11-02",
-        "url": "https://www.osen.co.kr/article/G1112902856",
-        "summary": "걸그룹 리센느(RESCENE)가 머스크 향을 품고 차트 역주행 신화를 이어간다. 리센느(원이, 리브, 미나미, 메이, 제나)는 오늘(3일) 오후 6시 각종 음원 사이트를 통해...",
-        "image": "http://file.osen.co.kr/article_thumb/2026/11/03/202611030802777842_6ae917a1adc01_300x.jpg"
-    },
-    {
-        "title": "‘IDOL’S TABLE’ 리센느 미나미·하성운 합류… 스쿨푸드 추억 소환 - 톱스타뉴스",
-        "source": "톱스타뉴스",
-        "date": "2026-11-02",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16266665",
-        "summary": "엠넷플러스 ‘IDOL’S TABLE’ 5회가 3일 저녁 8시 공개된다. 리센느 미나미와 워너원 하성운이 새롭게 합류해 뱀뱀, 재민, 천러, 카르멘과 함께 스쿨푸드를 주제로 학창 시절 추억과 스페셜 레시피를 선보인다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202611/16266665_2075665_254_crop.jpg"
-    },
-    {
-        "title": "리센느 원이, 의상 문제로 돌발 무대 이탈 \"숨 안쉬어져\" - JTBC",
-        "source": "JTBC",
-        "date": "2026-11-02",
-        "url": "https://news.jtbc.co.kr/article/NB12326015",
-        "summary": "그룹 리센느(RESCENE) 원이의 무대 이탈 이유가 밝혀졌다. 리센느 원이는 팬 소통 플랫폼을 통해 지난달 31일 경주엑스포대공원에서 열린 ...",
-        "image": "https://photo.jtbc.co.kr/news/jam_photo/202611/02/52cd5d6b-eb54-4bfe-b257-46d97dd5f018.jpg"
-    },
-    {
-        "title": "일방통행 아닌 쌍방향 호흡…리센느가 새 앨범 ‘PULSE’에 심은 유대 서사 - 스포츠동아",
-        "source": "스포츠동아",
-        "date": "2026-11-02",
-        "url": "https://sports.donga.com/ent/article/all/20261103/134954927/1",
-        "summary": "[스포츠동아 곽현수 기자] 무대 위에서 노래하는 가수와 객석에서 환호하는 팬. 서 있는 자리는 다르지만 서로를 움직이는 원동력은 같다. 그룹 리센느가 팬과 아티스트 사이의 단단한 유대를 새 앨범 서사의 중심에 놓았다.리센느는 3일 오후 6시 미니 4집 ‘PULSE’를…",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/03/134954934.1.jpg"
-    },
-    {
-        "title": "리센느, 머스크향 품고 돌아왔다…역주행 넘어 정주행의 시간 - 마이데일리",
-        "source": "마이데일리",
-        "date": "2026-11-02",
-        "url": "https://www.mydaily.co.kr/page/view/2026110308291232593",
-        "summary": "그룹 리센느 '펄스' 단체 / 더뮤즈엔터테인먼트...",
-        "image": "https://mydaily.co.kr/photos/2026/11/03/2026110308384347206_l.jpg"
-    },
-    {
-        "title": "\"할리스 매장에서 리센느 만난다\"…컴백 기념 팬 초청 이벤트 진행 - 뉴스탭",
-        "source": "뉴스탭",
-        "date": "2026-11-02",
-        "url": "https://www.newstap.co.kr/news/articleView.html?idxno=337029",
-        "summary": "할리스가 브랜드 모델인 걸그룹 리센느(RESCENE)의 컴백을 기념해 특별 메뉴를 출시하고, 팬들이 리센느를 직접 만날 수 있는 이벤트를 마련했다.할리스는 오는",
-        "image": "https://cdn.newstap.co.kr/news/photo/202611/337029_447800_3422.jpg"
-    },
-    {
-        "title": "리센느 원이, 공연 중 사색된 채 이탈 '왜'…\"줄어든 의상 때문에 숨 안 쉬어져\" - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-11-02",
-        "url": "https://www.news1.kr/entertain/celebrity-topic/6339930",
         "summary": ""
     },
     {
-        "title": "코르셋 의상 입은 리센느 원이 \"숨 안 쉬어져\"…무대 중 이탈 - 머니투데이 - 머니투데이",
-        "source": "머니투데이",
+        "title": "리센느 원이, 공연중 무대 떠나…“숨 쉬기 힘들었다”, 무슨일? - 동아일보",
+        "source": "동아일보",
         "date": "2026-11-02",
-        "url": "https://www.mt.co.kr/amp/entertainment/2026/11/02/2026110211512658405",
-        "summary": "그룹 리센느(RESCENE) 멤버 원이가 공연 도중 호흡 곤란을 겪어 무대를 급히 내려가는 일이 발생했다. 앞서 원이는 공연 중간 대화 시간에도 의상이 조이는 듯 옷을 여러 차례 잡아당기는 모습을 보여 팬들의 걱정을 샀다.",
-        "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=946,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/11/2026110211512658405_1.jpg"
-    },
-    {
-        "title": "\"음료·디저트 즐기고 리센느도 만나자\" 할리스, 컴백 기념 세트 선봬 - 뉴시스",
-        "source": "뉴시스",
-        "date": "2026-11-02",
-        "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261102_0003851417",
-        "summary": "[서울=뉴시스]김상윤 기자 = 할리스는 브랜드 모델인 걸그룹 리센느(RESCENE)의 컴백을 기념해 음료·디저트 세트 구매 고객 50명을 추첨해 멤버들과 직접 만날 기회를 제공한다고 2일 밝혔다",
-        "image": "https://img1.newsis.com/2026/11/02/NISI20261102_0002280732_web.jpg"
-    },
-    {
-        "title": "할리스, 리센느 컴백 기념 ‘리센느의 선물’ 세트 출시 - 문화투데이",
-        "source": "문화투데이",
-        "date": "2026-11-02",
-        "url": "https://www.munhwatoday.co.kr/news/article.html?no=177922",
-        "summary": "[문화투데이 구재숙 기자] 커피 브랜드 할리스가 브랜드 모델 ‘리센느’ 컴백을 기념해 ‘리센느의 선물’ 세트를 출시하고, 매장에서 직접 만날 수 있는 특별한 이벤트를 진행한다. 할리스는 창사 이래 최초의 브랜드 모델이자, 오는 3일 컴백을 앞둔 리센느를 할리스 매장에서 직접 만나볼 수 ",
-        "image": "https://www.munhwatoday.co.kr/data/photos/20261145/art_17936013088655_8f12c0.jpg"
-    },
-    {
-        "title": "리센느 원이, 공연 중 돌연 무대 이탈… 호흡 곤란 증세까지 - 한국일보",
-        "source": "한국일보",
-        "date": "2026-11-02",
-        "url": "https://www.hankookilbo.com/news/article/amp/A2026110213290005188",
-        "summary": "① 리센느 멤버 원이는 2026년 10월 31일 경주 행사 공연 중 호흡 곤란을 호소하며 무대에서 내려갔습니다. ② 남은 멤버들이 원이의 파트까지 맡아 공연을 이어갔고 원이도 다시 무대에 올라 일정을 마무리했습니다. ③ 원이는 세탁으로 줄어든 의상 때문에 숨쉬기 어려웠다고 설명하며 20",
-        "image": "https://newsimg.hankookilbo.com/2026/11/02/e663230b-83bf-4117-972c-0b1a13a1cdda.jpg"
-    },
-    {
-        "title": "리센느 원이, 공연 중 호흡 곤란으로 무대 이탈…“줄어든 의상 때문” - 알파경제",
-        "source": "알파경제",
-        "date": "2026-11-02",
-        "url": "https://www.alphabiz.co.kr/news/articleView.html?idxno=195754",
-        "summary": "[알파경제 = 김단하 기자] 걸그룹 리센느(RESCENE) 멤버 원이가 공연 도중 호흡 곤란을 겪어 무대를 잠시 이탈한 사실이 알려지면서 팬들의 걱정이 이어졌다.",
-        "image": "https://cdn.alphabiz.co.kr/news/photo/202611/195754_157910_1812.png"
-    },
-    {
-        "title": "`리센느` 포토북 촬영 현장 `팔현습지`…보도교 공사 저지 천막농성 이어져 - 매일신문",
-        "source": "매일신문",
-        "date": "2026-11-02",
-        "url": "https://www.imaeil.com/page/view/2026103015431001216",
-        "summary": "지난 2월 대구 수성구 금호강 팔현습지 일대 모습. 보도교와...",
-        "image": "https://www.imaeil.com/photos/2026/02/04/2026020416003333295_l.jpg"
-    },
-    {
-        "title": "\"무대 하는데 숨 안 쉬어져\"..리센느 원이, 공연 중 이탈한 이유 - 스타뉴스",
-        "source": "스타뉴스",
-        "date": "2026-11-02",
-        "url": "https://www.starnewskorea.com/star/2026/11/02/2026110213403646289",
-        "summary": "걸 그룹 리센느 멤버 원이가 무대에서 공연을 하던 중 이탈한 이유를 밝혔다. 원이가 속한 리센느는 지난달 31일 경북 경주APEC기념공원(옛 경주엑스포대공원)에서 열린 'APEC 정상회의 기념관 개관식' 축하 공연에 참석했다. 이날 원이는 '러브 어택' 무대를 마친 후 의상을 매만졌다.",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=1878,fit=cover,q=high,sharpen=2/21/2026/11/2026110213403646289_1.jpg"
-    },
-    {
-        "title": "리센느 원이, 의상 문제로 무대 이탈…\"호흡 곤란 겪었다\" - 메디컬투데이",
-        "source": "메디컬투데이",
-        "date": "2026-11-02",
-        "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=622390",
-        "summary": "[mdtoday = 양정의 기자] 리센느(RESCENE)의 새 미니 4집 'PULSE'가 3일 오후 6시 각종 음원 사이트를 통해 공개될 예정이다. 이번 앨범명은",
-        "image": "https://cdn.mdtoday.co.kr/news/photo/202611/622390_330391_3452.png"
-    },
-    {
-        "title": "“숨 안 쉬어져”…리센느 원이, 공연 중 호흡 곤란 - BNT뉴스",
-        "source": "BNT뉴스",
-        "date": "2026-11-02",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202611020230",
-        "summary": "그룹 리센느 멤버 원이가 공연 도중 갑자기 무대를 이탈한 이유를 직접 밝혔다.리센느는 지난달 31일 경주엑스포대공원에서 열린 ‘APEC 정상회의장",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/02/bnt202611020492.jpg"
-    },
-    {
-        "title": "리센느 원이, 공연 도중 무대 이탈…“숨이 안 쉬어졌다” - 미주중앙일보",
-        "source": "미주중앙일보",
-        "date": "2026-11-02",
-        "url": "https://www.koreadaily.com/article/20261102054409677",
-        "summary": "걸그룹 리센느 멤버 원이가 공연 도중 호흡 곤란을 겪어 무대를 잠시 이탈했다. 원이는 세탁 과정에서 줄어든 무대 의상 때문에 숨쉬기가 어려웠다고 설명했다. 2일 가요계에 따르면 리센느는 지난달 31일 경북 경주APE...",
-        "image": "https://www.koreadaily.com/data/photo/thumbnail/2026/11/03/842dd171-f0e6-470f-bacb-22a980f531e9.jpg"
-    },
-    {
-        "title": "리센느 원이, 공연 중 돌연 무대 이탈…\"숨 안 쉬어져\" 직접 밝힌 전말[이슈S] - SPOTV NEWS",
-        "source": "SPOTV NEWS",
-        "date": "2026-11-02",
-        "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1017001",
-        "summary": "[스포티비뉴스=홍혜민 기자] 그룹 리센느(RESCENE) 원이가 공연 도중 갑자기 무대를 이탈해 팬들의 우려가 모인 가운데, 직접 이유를 밝혔다. 리센느는 지난달 31일 경북 경주엑스포대공원에서 열린 ‘APEC 정상회의장 기념관 개관식’ 축하 공연에 참석해 무대를 꾸몄다.",
-        "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202611/1017001_2036408_9546.jpg"
-    },
-    {
-        "title": "리센느 'PULSE', 역주행 이후의 신곡…음원 흥행과 음악적 지속성의 거리 - 케이트렌디뉴스",
-        "source": "케이트렌디뉴스",
-        "date": "2026-11-02",
-        "url": "http://www.k-trendynews.com/news/articleView.html?idxno=206501",
-        "summary": "[KtN 홍은희기자]2024년 발표된 노래가 2026년 음원차트 상위권에 올랐다. 그룹 리센느(RESCENE)의 'LOVE ATTACK'은 발매 당시보다 2년 뒤 더 큰 관심을 받았고, 올해 7월에는 멜론 톱100 1위를 기록했다. 리메이크곡 'Pretty Girl'도 차트 상위권에 진",
-        "image": "https://cdn.k-trendynews.com/news/photo/202611/206501_356627_3642.png"
-    },
-    {
-        "title": "“숨이 안 쉬어져”…리센느 원이, 굳은 표정으로 무대 이탈한 이유 - 매일경제",
-        "source": "매일경제",
-        "date": "2026-11-02",
-        "url": "https://www.mk.co.kr/news/culture/12193446",
-        "summary": "그룹 리센느 원이가 공연 도중 갑자기 무대를 내려간 이유를 밝혔다. 리센느는 지난달 31일 경주 엑스포 대공원에서 열린 ‘APEC 정상회의장 기념관 개관식’에서 축하 공연을 펼쳤다. 하지만 원이는 ‘Love Attack’ 무대를 마친 뒤부터 의상을 여러 자체 매만졌고, ‘Runway’ ",
-        "image": "https://pimg.mk.co.kr/news/cms/202611/02/news-p.v1.20261102.44833f1cd05e4aa6aae8224cc499c17b_R.jpg"
-    },
-    {
-        "title": "리센느 원이 ‘무대 이탈’ 해명... “의상 줄어들어 호흡곤란” - 조선일보",
-        "source": "조선일보",
-        "date": "2026-11-02",
-        "url": "https://www.chosun.com/entertainments/enter_general/2026/11/02/HE3TOMJTHFRWIODEHE4DKMZUMM/",
-        "summary": "그룹 리센느 멤버 원이가 최근 경주 공연 중 무대를 이탈하게 된 경위를 밝혔다. 세탁으로 수축된 의상을 착용한 상태에서 격한 안무를 소화하던 중 호흡 곤란을 느꼈으며, 잠시 무대를 벗어났다가 회복 후 다시 복귀하여 남은 공연을 마무리한 것으로 확인되었다.",
-        "image": "https://www.chosun.com/resizer/v2/GI3TSOLBGE3WCNZUGZQWEMRWME.jpg?auth=200983cbf66ac714fe57241178fb1e269ab89d22cc1bc9f42eaae1fa0b5c1273&width=650&height=341&smart=true"
-    },
-    {
-        "title": "리센느 원이, 공연 중 무대 이탈…“숨 안 쉬어졌다” - 코메디닷컴",
-        "source": "코메디닷컴",
-        "date": "2026-11-02",
-        "url": "https://kormedi.com/2896927/",
-        "summary": "그룹 리센느 멤버 원이가 공연 중 갑자기 무대를 이탈했다. 원이는 이후 세탁 후 줄어든 무대 의상 때문에 호흡곤란을 겪었다고 설명이다.원이는 지난달 31일 경주엑스포대공원에서 열린 'APEC 정상회의장 기념관 개관식' 행사...",
-        "image": "https://kormedi.com/wp-content/uploads/2026/11/2026-11-02-43948.png"
-    },
-    {
-        "title": "“숨이 안 쉬어져” 리센느 원이, 무대 이탈 이유는 ‘이것’ 탓 - 매일경제",
-        "source": "매일경제",
-        "date": "2026-11-02",
-        "url": "https://www.mk.co.kr/news/hot-issues/12193449",
-        "summary": "",
-        "image": "https://pimg.mk.co.kr/news/cms/202611/02/news-p.v1.20261102.a6c23bfe4b5345008408e13b66a592a1_R.jpg"
-    },
-    {
-        "title": "리센느, 오늘(3일) 미니 4집 ‘PULSE’ 발매…타이틀곡 ‘With’로 컴백 - 싱글리스트",
-        "source": "싱글리스트",
-        "date": "2026-11-02",
-        "url": "https://www.slist.kr/news/articleView.html?idxno=778489",
-        "summary": "그룹 리센느(RESCENE)가 네 번째 미니앨범으로 돌아온다.리센느는 3일 오후 6시 각종 음원사이트를 통해 미니 4집 'PULSE(펄스)'를 발매하고 본격적인 컴백 활동에 나선다.이번 앨범에는 타이틀곡 'With(위드)'를 비롯해 'Finest Thing', '백화요란(Inside O",
-        "image": "https://cdn.slist.kr/news/thumbnail/202611/778489_1189677_129_v150.jpg"
-    },
-    {
-        "title": "리센느 원이, 공연 중 무대 이탈…“세탁 후 줄어든 의상에 숨 안 쉬어져” - 데일리안",
-        "source": "데일리안",
-        "date": "2026-11-02",
-        "url": "https://www.dailian.co.kr/news/view/1709680/%EB%A6%AC%EC%84%BC%EB%8A%90-%EC%9B%90%EC%9D%B4-%EA%B3%B5%EC%97%B0-%EC%A4%91-%EB%AC%B4%EB%8C%80-%EC%9D%B4%ED%83%88%E2%80%9C%EC%84%B8%ED%83%81-2026",
-        "summary": "그룹 리센느(RESCENE) 멤버 원이가 공연 도중 무대를 이탈했던 이유를 밝혔다.리센느는 지난달 31일 경북 경주시 경주APEC기념공원(옛 경주엑스포대공원)에서 열린 ‘APEC 정상회의장 기념관 개관식’ 축하 공연에 올랐다. 원이는 ‘러브 어택’(Love Attack) 무대를 마친 뒤",
-        "image": "https://cdnimage.dailian.co.kr/news/202611/news_1793601694454_1709680_m_1.jpg"
-    },
-    {
-        "title": "리센느, 역주행 신화 잇는다…오늘(3일) 미니 4집 ‘PULSE’ 발매 - https://www.frame-less.co.kr/",
-        "source": "https://www.frame-less.co.kr/",
-        "date": "2026-11-02",
-        "url": "https://www.frame-less.co.kr/news/articleView.html?idxno=5761",
-        "summary": "그룹 리센느(RESCENE)가 음원 역주행으로 이뤄낸 상승세를 이어 새로운 음악적 도약에 나선다.리센느(원이, 리브, 미나미, 메이, 제나)는 3일 오후 6시 각",
-        "image": "https://cdn.frame-less.co.kr/news/photo/202611/5761_15339_2154.jpg"
-    },
-    {
-        "title": "리센느 컴백 앞두고 건강 이상설? 원이가 밝힌 '무대 이탈' 이유 - www.newsq.co.kr",
-        "source": "www.newsq.co.kr",
-        "date": "2026-11-02",
-        "url": "https://www.newsq.co.kr/news/articleView.html?idxno=500697",
-        "summary": "뉴스Q(큐) 스포츠Q 이남경 기자 / ‘대세’로 떠오른 리센느의 컴백이 코앞으로 다가온 가운데 원이(22)의 건강 이상설이 불거졌다. 원이가 직접 밝힌 갑작스럽게",
-        "image": "https://cdn.newsq.co.kr/news/photo/202611/500697_578887_3838.jpg"
-    },
-    {
-        "title": "'중소돌의 기적' 리센느, 팬덤 화력 시험대…컴백 성과 주목 - 이데일리",
-        "source": "이데일리",
-        "date": "2026-11-02",
-        "url": "https://www.edaily.co.kr/News/Read?newsId=04421446645641784&mediaCodeNo=257",
-        "summary": "‘중소돌의 기적’으로 주목받는 걸그룹 리센느(RESCENE)가 새 앨범을 들고 돌아온다. 음원 차트 역주행과 자체 콘텐츠 흥행으로 인지도를 끌어올린 이후 처음으로 실물 음반을 발매하는 만큼 이번 컴백 활동의 성과에 이목이 쏠린다. (사진=더뮤즈엔터테인먼트)2일 가요...",
-        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26110201141.jpg"
-    },
-    {
-        "title": "리센느 원이, 무대 이탈 이유 밝혔다… 무슨 일? - 금강일보",
-        "source": "금강일보",
-        "date": "2026-11-02",
-        "url": "https://www.ggilbo.com/news/articleView.html?idxno=1190650",
-        "summary": "그룹 리센느의 원이가 공연 중 무대를 잠시 이탈한 이유를 직접 밝혔다.지난달 31일 리센느는 경북 경주APEC기념공원(옛 경주엑스포대공원)에서 열린 ‘APEC 정상회의장 기념관 개관식’ 축하 공연을 선보였다.이날 원이는 ‘러브 어택(Love Attack)’ 무대를 마친 뒤 의상을 여러 ",
-        "image": "https://cdn.ggilbo.com/news/photo/202611/1190650_1043691_2329.jpg"
-    },
-    {
-        "title": "[스경연예연구소] ‘머스크 향’으로 돌아온 리센느, 진정한 ‘국민 걸그룹’ 등극할까 - 스포츠경향",
-        "source": "스포츠경향",
-        "date": "2026-11-02",
-        "url": "https://sports.khan.co.kr/article/202611021038003",
-        "summary": "2026년 가요계에서 가장 극적인 역주행 서사를 쓴 걸그룹 리센느(RESCENE)가 1년 만에 새 앨범을 들고 돌아온다. ‘국민 걸그룹’이라는 수식어를 콘텐츠가 아닌 음악으로 증명해야 하는 가장 중요한 시험대가...",
-        "image": "https://images.khan.co.kr/article/2026/11/02/news-p.v1.20261102.1c86139df81843c997794841707a8a6a_P1.jpg"
-    },
-    {
-        "title": "리센느, 오늘(3일) 미니 4집 'PULSE' 발매…타이틀곡 'With'로 컴백 - 스타데일리뉴스",
-        "source": "스타데일리뉴스",
-        "date": "2026-11-02",
-        "url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=601127",
-        "summary": "[스타데일리뉴스=천설화기자] 리센느(RESCENE)가 3일 오후 6시 각종 음원 사이트를 통해 네 번째 미니 앨범 'PULSE'를 발표한다.리센느는 이번 앨범의",
-        "image": "https://cdn.stardailynews.co.kr/news/photo/202611/601127_601215_4056.jpg"
-    },
-    {
-        "title": "리센느 원이, 공연 중 호흡 곤란으로 무대 이탈 “숨 안 쉬어져 놀라” 직접 해명 - 뉴스엔",
-        "source": "뉴스엔",
-        "date": "2026-11-02",
-        "url": "https://www.newsen.com/news_view.php?uid=202611021314405710&code=100100",
-        "summary": "�׷� ������(RESCENE) ��� ���̰� ���� ���� ���븦 ������ ������ ���� ������. �������� ������ 31�� ��� ���ֿ�������������� ���� ��APEC ����ȸ���� ���� �����ġ� ���� ����",
-        "image": "https://photo.newsen.com/news_photo/2026/11/02/202611021314405710_1.jpeg"
-    },
-    {
-        "title": "황제성 팬심 여전하네, 대세 리센느 등장에도 “난 아일릿인데”(맛녀석) - 뉴스엔",
-        "source": "뉴스엔",
-        "date": "2026-11-02",
-        "url": "https://www.newsen.com/news_view.php?uid=202611021652536310&code=100100",
-        "summary": "'���ִ� �༮��' Ȳ������ �ɱ׷� ���ϸ��� ���� �ҽ��� �巯�´�. 10�� 30�� ��۵� �ڹ̵�TV '���ִ� �༮��'(���� '���༮') 587ȸ������ ��Mr.��(��)�� ...",
-        "image": "https://photo.newsen.com/news_photo/2026/11/02/202611021652536310_2.jpg"
-    },
-    {
-        "title": "리센느 원이, 돌연 무대 이탈한 이유…“숨이 안 쉬어져” - 스포츠경향",
-        "source": "스포츠경향",
-        "date": "2026-11-02",
-        "url": "https://sports.khan.co.kr/article/202611021124003",
-        "summary": "그룹 리센느(RESCENE) 원이가 공연 도중 갑자기 무대를 내려간 이유를 직접 밝혔다. 리센느는 지난달 31일 경북 경주엑스포대공원에서 열린 ‘APEC 정상회의장 기념관 개관식’ 축하 공연에 참석했다. 이날 ...",
-        "image": "https://images.khan.co.kr/article/2026/11/02/news-p.v1.20261102.5200354883da491f98e8c3af09e64d17_P1.png"
-    },
-    {
-        "title": "'리센느 신드롬', 이제 신곡이 답할 차례 - 이투데이",
-        "source": "이투데이",
-        "date": "2026-11-02",
-        "url": "https://www.etoday.co.kr/news/view/2643126?trc=right_hot_news",
-        "summary": "▲(출처=리센느 공식 X)그룹 리센느(RESCENE)가 대세 걸그룹으로 거듭난 후 첫 성적표를 받는다. 기존 발매곡의 재조명이나 리메이크가 아닌 새 앨범으",
-        "image": "https://img.etoday.co.kr/pto_db/2026/11/20261102145621_2410894_1200_814.jpg"
-    },
-    {
-        "title": "리센느 원이, 무대 도중 호흡 곤란에 급히 퇴장…“의상 줄어 숨 안 쉬어져” - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-11-02",
-        "url": "https://isplus.com/article/view/isp202611020089",
-        "summary": "그룹 리센느 원이가 공연 도중 갑작스럽게 무대를 이탈했던 이유를 직접 밝혔다.원이는 최근 팬 소통 채널을 통해 지난달 31일 경주 공연에서 호흡 곤...",
-        "image": "https://isplus.com/data/isp/image/2026/08/27/isp20260827000241.800x.0.jpg"
-    },
-    {
-        "title": "거제 알린 리센느 원이, 이번엔 전국 편의점 도시락으로 만난다 - 새거제신문",
-        "source": "새거제신문",
-        "date": "2026-11-02",
-        "url": "https://www.saegeoje.com/news/articleView.html?idxno=310254",
-        "summary": "CU, 원이의 입맛 담은 ‘덕연이 딸 도시락’ 2종 출시…10일부터 판매‘거제야호’ 열풍으로 고향 관광 홍보에도 한몫…젊은 관광객 유입·관광 소비 증가거제 출신",
-        "image": "https://cdn.saegeoje.com/news/photo/202611/310254_72507_1320.png"
-    },
-    {
-        "title": "리센느 원이, 갑작스러운 무대 이탈 해명…“숨이 안 쉬어졌다” [MK★이슈] - 매일경제",
-        "source": "매일경제",
-        "date": "2026-11-02",
-        "url": "https://www.mk.co.kr/news/entertain/12193516",
-        "summary": "그룹 리센느(RESCENE) 원이가 공연 도중 호흡 곤란을 호소하며 무대를 이탈하는 일이 벌어졌다. 팬들의 우려가 쏟아진 가운데, 원이가 의상 문제였다며 직접 이유를 설명했다. 리센느는 지난달 31일 경주 엑스포대공원에서 열린 ‘APEC 정상회의장 기념관 개관식’ 행사에 참석해 축하 공",
-        "image": "https://pimg.mk.co.kr/news/cms/202611/02/news-p.v1.20261102.31e27a53a6c34989b1f838f171e85a49_R.png"
-    },
-    {
-        "title": "(Teaser) RESCENE(리센느) 'With' (4K) | STUDIO CHOOM ORIGINAL - YouTube",
-        "source": "YouTube",
-        "date": "2026-11-02",
-        "url": "https://youtu.be/o-_gz2E5ldU?si=ziDbM0wn8uYQ0d-k",
-        "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
-    },
-    {
-        "title": "40대 삼촌, 주한미군도 지갑 연다…유통가 휩쓴 ‘리센느노믹스’ - 중앙일보",
-        "source": "중앙일보",
-        "date": "2026-11-01",
-        "url": "https://www.joongang.co.kr/article/25474873",
-        "summary": ""
-    },
-    {
-        "title": "CU, 리센느 원이와 손잡고 도시락 2종 출시 - Chosunbiz",
-        "source": "Chosunbiz",
-        "date": "2026-11-01",
-        "url": "https://biz.chosun.com/distribution/channel/2026/11/01/C5IWTJ5KCNCYNK7XCCHZEK3AP4/",
-        "summary": "CU, 리센느 원이와 손잡고 도시락 2종 출시",
-        "image": "https://biz.chosun.com/resizer/v2/CHPKZJZ7FFOVHJJTVBGENWUMOM.jpg?auth=8c0b4fa59145c57c771a28a3bab6c0198694530349351dea8524305900065a8a&width=1000&height=525&smart=true"
-    },
-    {
-        "title": "“빵이 없지, 돈이 없냐?” 리센느 삼촌팬들의 화력…‘리센느노믹스’ 뜬다 - YTN",
-        "source": "YTN",
-        "date": "2026-11-01",
-        "url": "https://www.ytn.co.kr/_sn/0117_202611020845293991",
-        "summary": "“빵이 없지, 돈이 없냐?” 걸그룹 리센느(RESCENE)를 향한 30·40대 삼촌팬들의 화력이 유통업계를 흔들고 있다. 단순히 아이돌 굿즈를 모으는 데 그치지 않고 빵을 사고, 음료를 마시고, 피자까지 주문하는 적극적인 소비로 이어지면서 이른바 ‘리센느노믹스(Rescene-nomics",
-        "image": "https://image.ytn.co.kr/general/jpg/2026/1102/202611020845293991_t.jpg"
+        "url": "https://www.donga.com/news/Culture/article/all/20261102/134953626/1",
+        "summary": "걸그룹 ‘리센느’ 멤버 원이가 무대 도중 발생한 호흡 곤란으로 공연을 잠시 중단하는 일이 발생했다. 호흡 곤란의 원인은 세탁 후 수축된 무대 의상 때문이었던 것으로 알려졌다.2일 가요계에 따르면 리센느는 지난달 31일 경북 경주시 경주APEC기념공원에서 열린 ‘APE…",
+        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/02/134953675.1.jpg"
     },
     {
         "title": "숏폼 시대에 11분 영상으로 2000만뷰…리센느 제나, 44일 만의 기록 - YTN",
@@ -575,44 +701,20 @@ const NEWS_DATA = [
         "image": "https://image.ytn.co.kr/general/jpg/2026/1102/202611020808220384_t.jpg"
     },
     {
-        "title": "CU, 걸그룹 '리센느' 원이 취향 반영 '덕연이 딸 도시락' 2종 출시 - 전자신문",
-        "source": "전자신문",
+        "title": "40대 삼촌, 주한미군도 지갑 연다…유통가 휩쓴 ‘리센느노믹스’ - 중앙일보",
+        "source": "중앙일보",
         "date": "2026-11-01",
-        "url": "https://www.etnews.com/20261101000028",
-        "summary": "BGF리테일이 운영하는 편의점 CU는 오는 10일 브랜드 모델 리센느(RESCENE) 멤버 원이의 평소 식사 취향을 담은 '덕연이 딸 도시락' 2종을 출시한다고 1일 밝혔다. 도시락은 원이의 어머니(덕연이)가 평소 해주던 원이의 최애 반찬으로 구성했다. 원이가 즐겨 먹던 음식을 도시락으",
-        "image": "https://img.etnews.com/news/article/2026/11/01/news-p.v1.20261101.08976daad9ce4149a3d69214d66e7c0e_P1.jpeg"
+        "url": "https://www.joongang.co.kr/article/25474873",
+        "summary": "유통가를 휩쓴 '리센느노믹스', 수백억 파급 효과",
+        "image": "https://pds.joongang.co.kr/news/FbMetaImage/202611/0d3fa908-35e1-40ff-9bc7-90a59e095248.jpg"
     },
     {
-        "title": "CU, 리센느 원이 협업 도시락 2종 출시…팬덤 마케팅 확대 - 신아일보",
-        "source": "신아일보",
+        "title": "CU, 리센느 원이와 손잡고 도시락 2종 출시 - Chosunbiz",
+        "source": "Chosunbiz",
         "date": "2026-11-01",
-        "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5078211",
-        "summary": "편의점 CU가 걸그룹 ‘리센느’ 멤버 원이와 협업한 도시락을 내놓는다. 앞서 선보인 리센느 협업 빵의 흥행에 힘입어 팬덤을 겨냥한 상품군을 간편식으로 확대한다는",
-        "image": "https://cdn.shinailbo.co.kr/news/photo/202611/5078211_2075734_5331.jpg"
-    },
-    {
-        "title": "리센느 빵 이어 도시락 나왔다 - 부산일보",
-        "source": "부산일보",
-        "date": "2026-11-01",
-        "url": "https://www.busan.com/view/busan/view.php?code=2026110114543192531",
-        "summary": "편의점 CU에서 모델이 리센느 멤버 원이의 취향을 담은 ‘덕연이 딸 도시락’을 소개하고 있다. BGF리테일 제공 편의점 CU가 리센...",
-        "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/11/01/2026110114541617702_l.jpg"
-    },
-    {
-        "title": "CU, 리센느 원이 취향 담은 ‘덕연이 딸 도시락’ 2종 출시 - 코리아리포트",
-        "source": "코리아리포트",
-        "date": "2026-11-01",
-        "url": "https://www.koreareport.co.kr/news/articleView.html?idxno=54165",
-        "summary": "CU가 브랜드 모델인 리센느(RESCENE) 멤버 원이의 식사 취향을 담은 ‘덕연이 딸 도시락’ 2종을 내놓고 차별화한 컬래버 상품을 간편식으로 넓힌다.CU는 지",
-        "image": "https://cdn.koreareport.co.kr/news/photo/202611/54165_57318_358.jpg"
-    },
-    {
-        "title": "리센느 원이의 집밥, 편의점 도시락으로…CU, 협업 상품 확대 - 지디넷코리아",
-        "source": "지디넷코리아",
-        "date": "2026-10-31",
-        "url": "https://zdnet.co.kr/view/?no=20261101084515",
-        "summary": "CU가 아이돌 그룹 리센느와의 협업을 빵에서 도시락으로 넓힌다. 멤버 원이의 어머니가 딸에게 만들어주던 반찬을 상품에 담아 팬들이 아티스트의 식사 취향을 함께 경험하도록 했다.BGF리테일이 운영하는 편의점 CU는 리센느 멤버 원이와 협업한 ‘덕연이 딸 도시락’ 2종을 선보인다고 1일 밝",
-        "image": "https://image.zdnet.co.kr/2026/11/01/878cdc965fb6f7e784e11ce172783972.jpg"
+        "url": "https://biz.chosun.com/distribution/channel/2026/11/01/C5IWTJ5KCNCYNK7XCCHZEK3AP4/",
+        "summary": "CU, 리센느 원이와 손잡고 도시락 2종 출시",
+        "image": "https://biz.chosun.com/resizer/v2/CHPKZJZ7FFOVHJJTVBGENWUMOM.jpg?auth=8c0b4fa59145c57c771a28a3bab6c0198694530349351dea8524305900065a8a&width=1000&height=525&smart=true"
     },
     {
         "title": "CU, 리센느 원이와 손잡고 '덕연이 딸 도시락' 2종 출시 - 연합뉴스",
@@ -623,170 +725,11 @@ const NEWS_DATA = [
         "image": "https://img0.yna.co.kr/etc/inner/KR/2026/11/01/AKR20261101011500030_01_i_P4.jpg"
     },
     {
-        "title": "리센느, MMA 본상 탈락에도 글로벌 TOP10 투표 1위…지드래곤에 13%p 앞서 - 톱스타뉴스",
-        "source": "톱스타뉴스",
-        "date": "2026-10-31",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16264727",
-        "summary": "리센느가 MMA 2026 일반 TOP10 본상 선정에서 제외된 이후 진행 중인 글로벌 TOP10 팬 투표에서 28%로 선두를 달리고 있다. 지드래곤과 13%포인트 차이를 보이는 가운데, 투표 반영 비율과 국내외 차트 평가 기준이 주목받고 있다.",
-        "image": "https://cdn.topstarnews.net/news/photo/202610/16264727_2073556_2055_crop.jpg"
-    },
-    {
-        "title": "[AAA 2026 LINE-UP] RESCENE 리센느 | Asia Artist Awards IN KAOHSIUNG | Asia Artist Awards - Asia Artist Awards",
-        "source": "Asia Artist Awards",
-        "date": "2026-10-31",
-        "url": "https://www.asiaartistawards.com/news/3245",
-        "summary": "[AAA 2026 LINE-UP] RESCENE 리센느 | Asia Artist Awards IN KAOHSIUNG — Asia Artist Awards 공식 영상을 확인하세요.",
-        "image": "https://i.ytimg.com/vi/z7Q8nHepxEg/maxresdefault.jpg"
-    },
-    {
         "title": "리센느 미나미·메이도 떴다… 아이돌 ‘한국어 대결’ 유튜브 예능 공개 - 한국대학신문",
         "source": "한국대학신문",
         "date": "2026-10-30",
         "url": "https://news.unn.net/news/articleView.html?idxno=599601",
         "summary": "[한국대학신문 주지영 기자] 케이(K)-팝 아이돌들의 한국어·한국문화 체험을 담은 유튜브 예능이 잇따라 공개돼 국내외 케이팝 팬들의 관심이 모아진다.세종학당재단은 오는 31일 오후 2시 ‘순간뽀짝 세상에 이런 아이돌이’ 제2편이 공개된다고 30일 밝혔다.2편에는 아이돌 그룹 앤더블(AN",
         "image": "https://cdn.news.unn.net/news/thumbnail/202610/599601_426258_5946_v150.jpg"
-    },
-    {
-        "title": "우리銀, 리센느와 ‘우리는 해’... 꿈을 향한 도전 응원 - 한국보험신문",
-        "source": "한국보험신문",
-        "date": "2026-10-30",
-        "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93609",
-        "summary": "우리은행이 걸그룹 ‘리센느’와 함께 일상 속 도전을 응원하는 ‘우리는 해’ CM송 광고를 30일 공개했다고 밝혔다. 이번 광고는 각자의 자리에서 최선을 다하는 우",
-        "image": "https://cdn.insnews.co.kr/news/photo/202610/93609_58705_4214.jpg"
-    },
-    {
-        "title": "리센느 공연 보고 갤럭시 쇼핑…네이버·삼성전자 라이브 - 연합뉴스",
-        "source": "연합뉴스",
-        "date": "2026-10-30",
-        "url": "https://www.yna.co.kr/view/AKR20261030085800017",
-        "summary": "(서울=연합뉴스) 한상용 기자 = 네이버는 삼성전자[005930]와 함께 걸그룹 리센느가 출연하는 '갤럭시 나이트'를 30일 오후 8시 네이버 ...",
-        "image": "https://img9.yna.co.kr/etc/inner/KR/2026/10/30/AKR20261030085800017_01_i_P4.jpg"
-    },
-    {
-        "title": "네이버, 삼성전자와 갤럭시 Z 폴드8 쇼핑라이브…'리센느' 공연 결합 - 전자신문",
-        "source": "전자신문",
-        "date": "2026-10-30",
-        "url": "https://www.etnews.com/20261030000089",
-        "summary": "네이버는 30일 오후 8시 그룹 리센느(RESCENE)가 출연하는 '갤럭시 나이트(Galaxy Night)'를 네이버 쇼핑라이브에서 단독 진행한다고 밝혔다. 이번 방송은 삼성전자의 '갤럭시 Z 폴드8' 캠페인의 일환이다. 방송에서는 리센느의 공연과 함께 갤럭시 Z 폴드8 등 주요 갤럭시",
-        "image": "https://img.etnews.com/news/article/2026/10/30/news-p.v1.20261030.48839699f85348c580dbb1495e130365_P1.png"
-    },
-    {
-        "title": "우리은행, 새 광고모델 걸그룹 리센느…'우리는 해' CM송 공개 - 연합뉴스",
-        "source": "연합뉴스",
-        "date": "2026-10-30",
-        "url": "https://www.yna.co.kr/amp/view/AKR20261030045000002",
-        "summary": "(서울=연합뉴스) 이도흔 기자 = 우리은행은 걸그룹 리센느를 새로운 광고모델로 선정하고 '우리는 해' CM송을 공개했다고 30일 밝혔다.",
-        "image": "https://img7.yna.co.kr/etc/inner/KR/2026/10/30/AKR20261030045000002_01_i_P4.jpg"
-    },
-    {
-        "title": "[피플] ‘컴백 D-4’ 리센느, ‘펄스’로 연말 차트도 점령하나 - JTBC",
-        "source": "JTBC",
-        "date": "2026-10-30",
-        "url": "https://news.jtbc.co.kr/article/NB12325630",
-        "summary": ""
-    },
-    {
-        "title": "리센느, 소속사 직원 ‘사칭 피해’에 법적 대응 - JTBC",
-        "source": "JTBC",
-        "date": "2026-10-30",
-        "url": "https://news.jtbc.co.kr/article/NB12325776",
-        "summary": "리센느(RESCENE) 소속사 더뮤즈엔터테인먼트가 직원 사칭 피해에 주의를 당부했다. 더뮤즈엔터테인먼트는 30일 공식 SNS 채널을 통해 직원...",
-        "image": "https://photo.jtbc.co.kr/news/jam_photo/202610/30/bfe3a6f9-7bbc-4da7-a116-93eafae4af48.jpg"
-    },
-    {
-        "title": "리센느, 아시아브랜드연구소 걸그룹 브랜드지수 1위…아이브·르세라핌 뒤이어 - 진일보 | 전남일보",
-        "source": "진일보 | 전남일보",
-        "date": "2026-10-30",
-        "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000078289",
-        "summary": "아시아브랜드연구소가 14억 건 이상의 온라인 데이터를 분석해 2026년 9월 걸그룹 부문 TOP10 순위를 발표했다. 이번 분석은 Trend, Social, Me",
-        "image": "https://cdn.jnilbo.com/news/photo/202610/90000078289_607729_111.jpg"
-    },
-    {
-        "title": "“우리 WONi, 운명이었네”…리센느, 우리은행 응원가 주인공 됐다 - YTN star",
-        "source": "YTN star",
-        "date": "2026-10-29",
-        "url": "https://star.ytn.co.kr/_sn/0117_202610300755581339",
-        "summary": "그룹 리센느(RESCENE)가 삼성전자 갤럭시에 이어 우리은행까지 접점을 넓히며 대세 행보에 힘을 싣고 있다. 우리은행은 30일 공식 채널을 통해 ‘우리 모두를 위한 응원가’를 주제로 리센느가 등장하는 영상을 공개했다. 영상 속 리센느는 우리 모두를 향한 응원의 메시지를 전하며 눈길을 ",
-        "image": "https://image.ytn.co.kr/general/jpg/2026/1030/202610300755581339_t.jpg"
-    },
-    {
-        "title": "CU, 리센느와 브랜드 캠페인…이달 협업상품 출시 - 매일경제 마켓",
-        "source": "매일경제 마켓",
-        "date": "2026-10-29",
-        "url": "https://stock.mk.co.kr/news/view/1151184",
-        "summary": "CU, 리센느와 브랜드 캠페인[...",
-        "image": "https://stock.mk.co.kr/photos/20260901/AKR20260901028800030_01_i_P4.jpg"
-    },
-    {
-        "title": "삼성전자, 걸그룹 리센느와 '갤럭시Z폴드8' 캠페인 - 전자신문",
-        "source": "전자신문",
-        "date": "2026-10-28",
-        "url": "https://www.etnews.com/20261028000076",
-        "summary": "삼성전자가 K팝 그룹 리센느(RESCENE)와 함께 '갤럭시 Z 폴드8' 신규 마케팅 캠페인을 진행한다. 실제 갤럭시 스마트폰을 사용하는 아티스트와 협업해 10~20대 여성 고객을 공략한다는 계획이다. 삼성전자는 28일 리센느를 갤럭시 Z 폴드8 캠페인 모델로 선정했다고 밝혔다. 리센느",
-        "image": "https://img.etnews.com/news/article/2026/10/28/news-p.v1.20261028.2b6a1977509242b38cd9815314b18b12_P1.jpg"
-    },
-    {
-        "title": "\"그립감 좋다\" 한 마디에 대박 난 아이돌…결국 광고 따냈다 - 한국경제",
-        "source": "한국경제",
-        "date": "2026-10-28",
-        "url": "https://www.hankyung.com/article/202610280331g",
-        "summary": "\"그립감 좋다\" 한 마디에 대박 난 아이돌…갤럭시 광고 따냈다, 삼성전자, 리센느와 캠페인 '협업' 리센느 앞세워 1020세대 여심 공략",
-        "image": "https://img.hankyung.com/photo/202610/ZA.45579009.1.jpg"
-    },
-    {
-        "title": "리센느 신곡, ‘케데헌’ 이재 참여...글로벌 관심 집중 - YTN star",
-        "source": "YTN star",
-        "date": "2026-10-28",
-        "url": "https://star.ytn.co.kr/_sn/0117_202610290847399082",
-        "summary": "그룹 리센느(RESCENE)가 신곡에 글로벌 화제의 주역 이재(EJAE)의 참여를 더해 컴백 기대감을 높이고 있다. 여기에 멤버 미나미의 오랜 바람이 담긴 수록곡 ‘백화요란(Inside Out)’까지 팬들의 관심을 끌며 새 앨범을 향한 열기가 달아오르고 있다. 리센느는 지난 26일 공식",
-        "image": "https://image.ytn.co.kr/general/jpg/2026/1029/202610290847399082_t.jpg"
-    },
-    {
-        "title": "리센느, 이번엔 머스크 향이다…팬들 심장 뛰게 할 '펄스' - 한국경제",
-        "source": "한국경제",
-        "date": "2026-10-27",
-        "url": "https://www.hankyung.com/article/202610278793H",
-        "summary": "리센느, 이번엔 머스크 향이다…팬들 심장 뛰게 할 '펄스', 김수영 기자, 연예",
-        "image": "https://img.hankyung.com/photo/202610/01.46210145.1.jpg"
-    },
-    {
-        "title": "‘거제야호’ 리센느, ‘연예인 1호’ 거제 명예시민 됐다 - 동아일보",
-        "source": "동아일보",
-        "date": "2026-10-26",
-        "url": "https://www.donga.com/news/Society/article/all/20261026/134908160/1",
-        "summary": "경남 거제시는 걸그룹 리센느(RESCENE)에 2026년 명예시민증을 수여했다고 26일 밝혔다.리센느는 제70호 거제시 명예시민으로 선정됐다.연예인이 거제시 명예시민증을 받은 것은 이번이 처음이다. 시는 리센느가 ‘거제야호’ 밈(Meme)과 거제 여행 유튜브 콘텐츠 …",
-        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/26/134908161.1.jpg"
-    },
-    {
-        "title": "“너무 감사해서”…천막 치우고 팬들과 비 맞으며 노래한 리센느 - 세계일보",
-        "source": "세계일보",
-        "date": "2026-10-26",
-        "url": "https://www.segye.com/newsView/20261026512917",
-        "summary": "걸그룹 리센느가 비를 맞으며 자신들을 기다린 팬들을 위해 무대 앞 천막을 치우고 공연을 했다는 사연이 알려져 눈길을 끈다. 멤버들은 공연이 끝난 뒤에도 팬들에게 감사 인사를 전했다. 리센느는 지난 24일 경남 거제시 옥포 한화오션 오션플라자 사외주차장에서 열린 ‘거제 야호-! 리센느와 ",
-        "image": "https://www.segye.com/content/image/2026/10/26/20261026514695.jpg"
-    },
-    {
-        "title": "“팬들만 비 맞을 수 없죠“…리센느, 천막 걷고 팬들과 ’흠뻑’ - 연합뉴스TV",
-        "source": "연합뉴스TV",
-        "date": "2026-10-26",
-        "url": "https://www.yonhapnewstv.co.kr/news/AKR20261026112818RlQ",
-        "summary": "걸그룹 리센느가 공연 도중 쏟아지는 빗속에서 자신들을 기다려준 팬들과 함께 비를 맞으며 공연을 이어갔다는 사연이 알려졌습니다. 오늘(26일) 각종 SNS에서는 지난 24일 경남 거제에서 열린 오션하모니 공연에서 비를 맞으며 무대를 선보이는 리센느의 모습이 담긴 영상이",
-        "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261026/AKR20261026112818RlQ_02_i.jpg"
-    },
-    {
-        "title": "‘중소돌의 기적’ 리센느, 파워 확인할 진짜 시험대 - 동아일보",
-        "source": "동아일보",
-        "date": "2026-10-24",
-        "url": "https://www.donga.com/news/Entertainment/article/all/20261024/134900253/1",
-        "summary": "이지 리스닝과 퍼포먼스 역량, 멤버들의 다채로운 끼를 바탕으로 차트 상승세를 이어온 그룹 리센느(RESCENE)가 오는 11월 3일 미니 4집 ‘펄스’(PULSE)를 발매하고 본격적인 컴백 행보에 돌입한다. 차트 역주행 신드롬에 이어 리메이크곡으로 정주행 성공까지 이…",
-        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/24/134900254.1.jpg"
-    },
-    {
-        "title": "삼성전자, 리센느와 손잡고 폴드8 여심 잡기 나선다 - 연합뉴스",
-        "source": "연합뉴스",
-        "date": "2026-10-23",
-        "url": "https://www.yna.co.kr/view/AKR20261023169900017",
-        "summary": "(서울=연합뉴스) 박형빈 기자 = 삼성전자[005930]가 그룹 리센느와 갤럭시 Z 폴드8 협업 캠페인에 나선다.",
-        "image": "https://img1.yna.co.kr/etc/inner/KR/2026/10/23/AKR20261023169900017_01_i_P4.jpg"
     }
 ];
