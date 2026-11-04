@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T04:30:01.679Z",
+  "updated": "2026-11-04T13:39:41.263Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3874,6 +3874,38 @@
       "source": "fan-schedule"
     },
     {
+      "date": "2026-11-04",
+      "time": "06:00",
+      "title": "MBC <쇼!음악중심> 사전 녹화",
+      "detail": "",
+      "type": "broadcast",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-11-05",
+      "time": "10:30",
+      "title": "SBS <인기가요> 사전 녹화",
+      "detail": "",
+      "type": "broadcast",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-11-05",
+      "time": "06:00",
+      "title": "KBS2 <뮤직뱅크> 사전 녹화",
+      "detail": "",
+      "type": "broadcast",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-11-06",
+      "time": "16:45",
+      "title": "KBS2 <뮤직뱅크>",
+      "detail": "",
+      "type": "broadcast",
+      "source": "mnetplus"
+    },
+    {
       "date": "2026-11-07",
       "time": "17:00",
       "title": "KGMA 코리아 그랜드 뮤직 어워즈 - MC 원이 (서울 고척스카이돔)",
@@ -3992,6 +4024,14 @@
       "detail": "",
       "type": "event",
       "source": "fan-schedule"
+    },
+    {
+      "date": "2026-12-08",
+      "time": "20:00",
+      "title": "[PULSE] 영상통화 팬사인회 by WITHMUU",
+      "detail": "",
+      "type": "fansign",
+      "source": "mnetplus"
     },
     {
       "date": "2026-12-13",
