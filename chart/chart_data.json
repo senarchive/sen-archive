@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T01:54:41.958Z",
+  "updatedAt": "2026-11-04T08:39:58.125Z",
   "platforms": [
     "melon",
     "genie",
@@ -20,7 +20,7 @@
           "previousRank": 4
         },
         "genie": {
-          "rank": 6,
+          "rank": 5,
           "previousRank": 6
         },
         "vibe": {
@@ -28,11 +28,11 @@
           "previousRank": 5
         },
         "bugs": {
-          "rank": 17,
-          "previousRank": 15
+          "rank": 8,
+          "previousRank": 8
         },
         "flo": {
-          "rank": 12,
+          "rank": 11,
           "previousRank": 12
         },
         "youtube_music": {
@@ -41,7 +41,7 @@
         },
         "spotify": {
           "rank": 6,
-          "previousRank": 4
+          "previousRank": 6
         }
       }
     },
@@ -51,31 +51,31 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/118/75/116/11875116_20250701165641_500.jpg?86da3088c776a346e926b1b4052f227c/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 9,
-          "previousRank": 9
+          "rank": 7,
+          "previousRank": 7
         },
         "genie": {
           "rank": 15,
-          "previousRank": 16
+          "previousRank": 14
         },
         "vibe": {
           "rank": 21,
           "previousRank": 23
         },
         "bugs": {
-          "rank": 21,
-          "previousRank": 21
+          "rank": 17,
+          "previousRank": 16
         },
         "flo": {
-          "rank": 34,
-          "previousRank": 34
+          "rank": 20,
+          "previousRank": 20
         },
         "youtube_music": {
           "rank": 17,
           "previousRank": 10
         },
         "spotify": {
-          "rank": 10,
+          "rank": 11,
           "previousRank": 10
         }
       }
@@ -86,32 +86,32 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/137/88/545/13788545_20260707111659_500.jpg?3ef0f9e6af1ea09e3f919c7cb69065ed/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 13,
-          "previousRank": 12
+          "rank": 11,
+          "previousRank": 10
         },
         "genie": {
-          "rank": 16,
-          "previousRank": 19
+          "rank": 14,
+          "previousRank": 15
         },
         "vibe": {
           "rank": 14,
           "previousRank": 15
         },
         "bugs": {
-          "rank": 43,
-          "previousRank": 34
+          "rank": 32,
+          "previousRank": 39
         },
         "flo": {
-          "rank": 38,
-          "previousRank": 37
+          "rank": 31,
+          "previousRank": 39
         },
         "youtube_music": {
           "rank": 15,
           "previousRank": 9
         },
         "spotify": {
-          "rank": 15,
-          "previousRank": 12
+          "rank": 17,
+          "previousRank": 15
         }
       }
     },
@@ -137,8 +137,8 @@
           "previousRank": 1
         },
         "flo": {
-          "rank": 3,
-          "previousRank": 5
+          "rank": 1,
+          "previousRank": 1
         }
       }
     },
@@ -148,24 +148,24 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/115/75/849/11575849_20240826152240_500.jpg?da43be78cb2cc67e9ee423c739bc09b6/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 36,
-          "previousRank": 29
+          "rank": 29,
+          "previousRank": 22
         },
         "bugs": {
-          "rank": 54,
-          "previousRank": 43
+          "rank": 43,
+          "previousRank": 77
         },
         "flo": {
-          "rank": 75,
-          "previousRank": 75
+          "rank": 76,
+          "previousRank": 77
         },
         "youtube_music": {
           "rank": 27,
           "previousRank": 24
         },
         "spotify": {
-          "rank": 43,
-          "previousRank": 41
+          "rank": 42,
+          "previousRank": 43
         }
       }
     },
@@ -176,19 +176,19 @@
       "ranks": {
         "melon": {
           "rank": 5,
-          "previousRank": 6
+          "previousRank": 5
         },
         "genie": {
-          "rank": 13,
-          "previousRank": 11
+          "rank": 26,
+          "previousRank": 28
         },
         "bugs": {
-          "rank": 4,
+          "rank": 7,
           "previousRank": 5
         },
         "flo": {
-          "rank": 16,
-          "previousRank": 21
+          "rank": 14,
+          "previousRank": 14
         }
       }
     },
@@ -198,20 +198,20 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/150/82/293/15082293_20261026170443_500.jpg?4d6b5106b27f2c41c45ed4957be82cee/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 7,
+          "rank": 9,
           "previousRank": 8
         },
         "genie": {
-          "rank": 17,
-          "previousRank": 14
+          "rank": 43,
+          "previousRank": 47
         },
         "bugs": {
-          "rank": 5,
-          "previousRank": 4
+          "rank": 12,
+          "previousRank": 12
         },
         "flo": {
-          "rank": 23,
-          "previousRank": 33
+          "rank": 18,
+          "previousRank": 18
         }
       }
     },
@@ -225,16 +225,16 @@
           "previousRank": 11
         },
         "genie": {
-          "rank": 31,
-          "previousRank": 21
+          "rank": 61,
+          "previousRank": 65
         },
         "bugs": {
-          "rank": 9,
-          "previousRank": 8
+          "rank": 20,
+          "previousRank": 19
         },
         "flo": {
-          "rank": 39,
-          "previousRank": 41
+          "rank": 26,
+          "previousRank": 33
         }
       }
     },
@@ -244,20 +244,20 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/150/82/293/15082293_20261026170443_500.jpg?4d6b5106b27f2c41c45ed4957be82cee/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 11,
-          "previousRank": 13
-        },
-        "genie": {
-          "rank": 40,
-          "previousRank": 26
-        },
-        "bugs": {
-          "rank": 11,
+          "rank": 12,
           "previousRank": 12
         },
+        "genie": {
+          "rank": 77,
+          "previousRank": 85
+        },
+        "bugs": {
+          "rank": 19,
+          "previousRank": 18
+        },
         "flo": {
-          "rank": 52,
-          "previousRank": 56
+          "rank": 46,
+          "previousRank": 46
         }
       }
     },
@@ -267,20 +267,20 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/133/12/413/13312413_20260406143448_500.jpg?0d1b1aec895dbf60aa601748ddf64dd9/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 18,
-          "previousRank": 21
+          "rank": 17,
+          "previousRank": 16
         },
         "bugs": {
-          "rank": 61,
-          "previousRank": 54
+          "rank": 46,
+          "previousRank": 50
         },
         "flo": {
-          "rank": 92,
-          "previousRank": 92
+          "rank": 91,
+          "previousRank": 91
         },
         "spotify": {
-          "rank": 47,
-          "previousRank": 39
+          "rank": 41,
+          "previousRank": 47
         }
       }
     },
