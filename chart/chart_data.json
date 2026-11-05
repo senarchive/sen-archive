@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T22:26:03.072Z",
+  "updatedAt": "2026-11-05T03:11:57.200Z",
   "platforms": [
     "melon",
     "genie",
@@ -16,12 +16,12 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/115/75/849/11575849_20240826152240_500.jpg?da43be78cb2cc67e9ee423c739bc09b6/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 5,
+          "rank": 4,
           "previousRank": 5
         },
         "genie": {
-          "rank": 15,
-          "previousRank": 26
+          "rank": 7,
+          "previousRank": 6
         },
         "vibe": {
           "rank": 5,
@@ -29,10 +29,10 @@
         },
         "bugs": {
           "rank": 10,
-          "previousRank": 10
+          "previousRank": 14
         },
         "flo": {
-          "rank": 14,
+          "rank": 13,
           "previousRank": 13
         },
         "youtube_music": {
@@ -40,7 +40,7 @@
           "previousRank": 7
         },
         "spotify": {
-          "rank": 6,
+          "rank": 7,
           "previousRank": 6
         }
       }
@@ -51,12 +51,12 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/118/75/116/11875116_20250701165641_500.jpg?86da3088c776a346e926b1b4052f227c/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 8,
-          "previousRank": 8
+          "rank": 7,
+          "previousRank": 7
         },
         "genie": {
-          "rank": 34,
-          "previousRank": 36
+          "rank": 14,
+          "previousRank": 13
         },
         "vibe": {
           "rank": 22,
@@ -64,10 +64,10 @@
         },
         "bugs": {
           "rank": 24,
-          "previousRank": 21
+          "previousRank": 18
         },
         "flo": {
-          "rank": 33,
+          "rank": 27,
           "previousRank": 33
         },
         "youtube_music": {
@@ -75,8 +75,8 @@
           "previousRank": 10
         },
         "spotify": {
-          "rank": 11,
-          "previousRank": 10
+          "rank": 13,
+          "previousRank": 11
         }
       }
     },
@@ -86,32 +86,32 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/137/88/545/13788545_20260707111659_500.jpg?3ef0f9e6af1ea09e3f919c7cb69065ed/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 12,
-          "previousRank": 12
+          "rank": 9,
+          "previousRank": 11
         },
         "genie": {
-          "rank": 40,
-          "previousRank": 38
+          "rank": 16,
+          "previousRank": 15
         },
         "vibe": {
           "rank": 16,
           "previousRank": 18
         },
         "bugs": {
-          "rank": 32,
-          "previousRank": 25
+          "rank": 28,
+          "previousRank": 41
         },
         "flo": {
-          "rank": 44,
-          "previousRank": 44
+          "rank": 39,
+          "previousRank": 38
         },
         "youtube_music": {
           "rank": 15,
           "previousRank": 9
         },
         "spotify": {
-          "rank": 17,
-          "previousRank": 15
+          "rank": 19,
+          "previousRank": 17
         }
       }
     },
@@ -126,46 +126,23 @@
         },
         "genie": {
           "rank": 3,
-          "previousRank": 1
+          "previousRank": 3
         },
         "vibe": {
           "rank": 12,
           "previousRank": -56
         },
         "bugs": {
+          "rank": 3,
+          "previousRank": 3
+        },
+        "flo": {
           "rank": 1,
-          "previousRank": 2
+          "previousRank": 1
         },
-        "flo": {
-          "rank": 7,
-          "previousRank": 4
-        }
-      }
-    },
-    {
-      "songName": "백화요란 (Inside Out)",
-      "artistName": "RESCENE (리센느)",
-      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/150/82/293/15082293_20261026170443_500.jpg?4d6b5106b27f2c41c45ed4957be82cee/melon/resize/144/optimize/90",
-      "ranks": {
-        "melon": {
-          "rank": 7,
-          "previousRank": 7
-        },
-        "genie": {
-          "rank": 32,
-          "previousRank": 30
-        },
-        "vibe": {
-          "rank": 74,
-          "previousRank": 31
-        },
-        "bugs": {
-          "rank": 5,
-          "previousRank": 5
-        },
-        "flo": {
-          "rank": 15,
-          "previousRank": 15
+        "spotify": {
+          "rank": 3,
+          "previousRank": null
         }
       }
     },
@@ -175,51 +152,55 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/150/82/293/15082293_20261026170443_500.jpg?4d6b5106b27f2c41c45ed4957be82cee/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 13,
-          "previousRank": 13
+          "rank": 10,
+          "previousRank": 9
         },
         "genie": {
-          "rank": 42,
-          "previousRank": 39
+          "rank": 69,
+          "previousRank": 63
         },
         "vibe": {
           "rank": 43,
           "previousRank": -24
         },
         "bugs": {
-          "rank": 14,
-          "previousRank": 11
+          "rank": 21,
+          "previousRank": 17
         },
         "flo": {
-          "rank": 31,
-          "previousRank": 31
+          "rank": 17,
+          "previousRank": 17
+        },
+        "spotify": {
+          "rank": 9,
+          "previousRank": null
         }
       }
     },
     {
-      "songName": "Pinball",
+      "songName": "백화요란 (Inside Out)",
       "artistName": "RESCENE (리센느)",
-      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/115/75/849/11575849_20240826152240_500.jpg?da43be78cb2cc67e9ee423c739bc09b6/melon/resize/144/optimize/90",
+      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/150/82/293/15082293_20261026170443_500.jpg?4d6b5106b27f2c41c45ed4957be82cee/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 45,
-          "previousRank": 45
+          "rank": 5,
+          "previousRank": 4
+        },
+        "genie": {
+          "rank": 33,
+          "previousRank": 30
+        },
+        "vibe": {
+          "rank": 74,
+          "previousRank": 31
         },
         "bugs": {
-          "rank": 77,
-          "previousRank": 46
+          "rank": 4,
+          "previousRank": 5
         },
         "flo": {
-          "rank": 72,
-          "previousRank": 71
-        },
-        "youtube_music": {
-          "rank": 27,
-          "previousRank": 24
-        },
-        "spotify": {
-          "rank": 42,
-          "previousRank": 43
+          "rank": 12,
+          "previousRank": 12
         }
       }
     },
@@ -229,20 +210,24 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/150/82/293/15082293_20261026170443_500.jpg?4d6b5106b27f2c41c45ed4957be82cee/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 19,
-          "previousRank": 19
+          "rank": 12,
+          "previousRank": 10
         },
         "genie": {
-          "rank": 49,
-          "previousRank": 49
+          "rank": 82,
+          "previousRank": 74
         },
         "bugs": {
-          "rank": 19,
-          "previousRank": 16
+          "rank": 33,
+          "previousRank": 20
         },
         "flo": {
-          "rank": 45,
-          "previousRank": 45
+          "rank": 37,
+          "previousRank": 37
+        },
+        "spotify": {
+          "rank": 15,
+          "previousRank": null
         }
       }
     },
@@ -252,20 +237,51 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/150/82/293/15082293_20261026170443_500.jpg?4d6b5106b27f2c41c45ed4957be82cee/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 21,
-          "previousRank": 21
+          "rank": 15,
+          "previousRank": 12
         },
         "genie": {
-          "rank": 57,
-          "previousRank": 50
+          "rank": 94,
+          "previousRank": 87
         },
         "bugs": {
-          "rank": 30,
-          "previousRank": 22
+          "rank": 32,
+          "previousRank": 27
         },
         "flo": {
-          "rank": 52,
-          "previousRank": 52
+          "rank": 45,
+          "previousRank": 44
+        },
+        "spotify": {
+          "rank": 21,
+          "previousRank": null
+        }
+      }
+    },
+    {
+      "songName": "Pinball",
+      "artistName": "RESCENE (리센느)",
+      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/115/75/849/11575849_20240826152240_500.jpg?da43be78cb2cc67e9ee423c739bc09b6/melon/resize/144/optimize/90",
+      "ranks": {
+        "melon": {
+          "rank": 22,
+          "previousRank": 21
+        },
+        "bugs": {
+          "rank": 31,
+          "previousRank": 48
+        },
+        "flo": {
+          "rank": 75,
+          "previousRank": 74
+        },
+        "youtube_music": {
+          "rank": 27,
+          "previousRank": 24
+        },
+        "spotify": {
+          "rank": 40,
+          "previousRank": 42
         }
       }
     },
@@ -275,20 +291,31 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/133/12/413/13312413_20260406143448_500.jpg?0d1b1aec895dbf60aa601748ddf64dd9/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 28,
-          "previousRank": 28
+          "rank": 16,
+          "previousRank": 16
         },
         "bugs": {
-          "rank": 52,
-          "previousRank": 47
+          "rank": 46,
+          "previousRank": 51
         },
         "flo": {
           "rank": 87,
           "previousRank": 87
         },
         "spotify": {
-          "rank": 41,
-          "previousRank": 47
+          "rank": 42,
+          "previousRank": 41
+        }
+      }
+    },
+    {
+      "songName": "Inside Out",
+      "artistName": "RESCENE",
+      "albumImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/df/b7/b3dfb7ba-715f-1f5a-5528-eb82acd5225a/888272191394_Cover.jpg/600x600bb.jpg",
+      "ranks": {
+        "spotify": {
+          "rank": 8,
+          "previousRank": null
         }
       }
     },
