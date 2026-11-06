@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T04:45:07.296Z",
+  "updated": "2026-11-06T13:37:50.005Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3906,6 +3906,14 @@
       "source": "mnetplus"
     },
     {
+      "date": "2026-11-06",
+      "time": "06:45",
+      "title": "MBC <쇼!음악중심> 사전 녹화",
+      "detail": "",
+      "type": "broadcast",
+      "source": "mnetplus"
+    },
+    {
       "date": "2026-11-07",
       "time": "17:00",
       "title": "KGMA 코리아 그랜드 뮤직 어워즈 - MC 원이 (서울 고척스카이돔)",
@@ -3919,6 +3927,22 @@
       "title": "2026 KGMA (코리아 그랜드 뮤직 어워즈)",
       "detail": "",
       "type": "concert",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-11-07",
+      "time": "06:25",
+      "title": "SBS <인기가요> 사전 녹화",
+      "detail": "",
+      "type": "broadcast",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-11-08",
+      "time": "15:10",
+      "title": "SBS <인기가요>",
+      "detail": "",
+      "type": "broadcast",
       "source": "mnetplus"
     },
     {
