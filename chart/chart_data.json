@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T17:38:49.078Z",
+  "updatedAt": "2026-11-08T21:43:08.352Z",
   "platforms": [
     "melon",
     "genie",
@@ -32,8 +32,8 @@
           "previousRank": 14
         },
         "flo": {
-          "rank": 12,
-          "previousRank": 12
+          "rank": 16,
+          "previousRank": 15
         },
         "youtube_music": {
           "rank": 10,
@@ -67,16 +67,16 @@
           "previousRank": 24
         },
         "flo": {
-          "rank": 21,
-          "previousRank": 19
+          "rank": 33,
+          "previousRank": 33
         },
         "youtube_music": {
           "rank": 17,
           "previousRank": 10
         },
         "spotify": {
-          "rank": 15,
-          "previousRank": 14
+          "rank": 14,
+          "previousRank": 15
         }
       }
     },
@@ -102,16 +102,16 @@
           "previousRank": 23
         },
         "flo": {
-          "rank": 37,
-          "previousRank": 27
+          "rank": 45,
+          "previousRank": 37
         },
         "youtube_music": {
           "rank": 15,
           "previousRank": 9
         },
         "spotify": {
-          "rank": 20,
-          "previousRank": 19
+          "rank": 18,
+          "previousRank": 20
         }
       }
     },
@@ -141,7 +141,7 @@
           "previousRank": 9
         },
         "spotify": {
-          "rank": 2,
+          "rank": 3,
           "previousRank": 2
         }
       }
@@ -168,12 +168,12 @@
           "previousRank": 47
         },
         "flo": {
-          "rank": 70,
-          "previousRank": 70
+          "rank": 68,
+          "previousRank": 69
         },
         "spotify": {
-          "rank": 14,
-          "previousRank": 10
+          "rank": 20,
+          "previousRank": 14
         }
       }
     },
@@ -203,8 +203,8 @@
           "previousRank": 24
         },
         "spotify": {
-          "rank": 37,
-          "previousRank": 26
+          "rank": 32,
+          "previousRank": 37
         }
       }
     },
@@ -230,8 +230,8 @@
           "previousRank": 8
         },
         "flo": {
-          "rank": 19,
-          "previousRank": 18
+          "rank": 32,
+          "previousRank": 32
         }
       }
     },
@@ -254,11 +254,11 @@
         },
         "flo": {
           "rank": 90,
-          "previousRank": 89
+          "previousRank": 90
         },
         "spotify": {
-          "rank": 13,
-          "previousRank": 12
+          "rank": 21,
+          "previousRank": 13
         }
       }
     },
@@ -281,7 +281,7 @@
         },
         "spotify": {
           "rank": 11,
-          "previousRank": 17
+          "previousRank": 11
         }
       }
     },
@@ -292,7 +292,7 @@
       "ranks": {
         "melon": {
           "rank": 20,
-          "previousRank": 20
+          "previousRank": 19
         },
         "bugs": {
           "rank": 56,
@@ -300,11 +300,11 @@
         },
         "flo": {
           "rank": 82,
-          "previousRank": 84
+          "previousRank": 82
         },
         "spotify": {
-          "rank": 39,
-          "previousRank": 36
+          "rank": 45,
+          "previousRank": 39
         }
       }
     },
