@@ -1,14 +1,6 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-11-09T05:30:06.609Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-11-09T15:41:40.007Z) */
 
 const NEWS_DATA = [
-    {
-        "title": "[조이!써치] ① 대중픽 최애스타는⋯아이돌은 리센느·믿보배 김지원 - 조이뉴스24",
-        "source": "조이뉴스24",
-        "date": "2026-11-09",
-        "url": "https://www.joynews24.com/view/2023505",
-        "summary": "모바일 리서치 플랫폼 아젠다북과 설문조사 진행 리센느&middot;방탄소년단&middot;아이브-에이티즈, 내마음을 훔친 최애 아이돌 김지원-이병헌-최민식, 믿고보는 '최애 배우' 연예계는 그 어느 분야보다 유행에 민감하고, 트렌드가 빠르게 변화한다. 오랜 세월 꾸준히 사랑을 받는 스타",
-        "image": "https://image.inews24.com/v1/d6a9088b38a14e.jpg"
-    },
     {
         "title": "‘리센느 열풍’ 불지만…K팝 그룹 10팀 중 9팀은 중소, 활동은 대형 절반 ‘3.6년’ - 동아일보",
         "source": "동아일보",
@@ -18,84 +10,20 @@ const NEWS_DATA = [
         "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134989906.1.jpg"
     },
     {
-        "title": "리센느, 'With' 1위·수록곡 줄세우기…컴백 첫 주 강렬 존재감 - YTN star",
-        "source": "YTN star",
+        "title": "리센느, 국내 걸그룹 최초로 디즈니 엔딩크레딧 참여 - 금강일보",
+        "source": "금강일보",
         "date": "2026-11-09",
-        "url": "https://star.ytn.co.kr/_sn/0117_202611091325025088",
-        "summary": "그룹 리센느(RESCENE)가 컴백 첫 주 음악방송 활동을 마무리하며 상승세를 이어갔다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 3일 네 번째 미니 앨범 'PULSE'(펄스)를 발매한 뒤 KBS2 '뮤직뱅크', MBC '쇼! 음악중심', SBS '인기가요' 등에 출연해 신곡",
-        "image": "https://image.ytn.co.kr/general/jpg/2026/1109/202611091325025088_t.jpg"
+        "url": "https://www.ggilbo.com/news/articleView.html?idxno=1191252",
+        "summary": "걸그룹 리센느의 신곡이 디즈니 애니메이션과 만난다.디즈니 코리아는 지난 4일 리센느가 디즈니 영화 '헥스: 마녀왕국' 스페셜 콜라보 뮤직 아티스트로 선정됐다\"고 밝혔다. 디즈니 코리아 유튜브에는 관련 영상도 업로드 됐다.지난 4일 공개된 영상에는 작품 속 신입 마녀 빌리로 변신한 리센느",
+        "image": "https://cdn.ggilbo.com/news/photo/202611/1191252_1044341_303.jpg"
     },
     {
-        "title": "리센느 대세 행보 거침없다, 음원·시상식·디즈니 접수 - 스포츠Q",
-        "source": "스포츠Q",
-        "date": "2026-11-09",
-        "url": "https://www.newsq.co.kr/news/articleView.html?idxno=500795",
-        "summary": "뉴스Q(큐) 스포츠Q 이남경 기자 / 더뮤즈엔터테인먼트 소속 걸그룹 리센느가 대세를 넘어 이제는 K팝 신흥 강자로 확실히 자리매김하고 있다. 역주행 신드롬으로 존",
-        "image": "https://cdn.newsq.co.kr/news/photo/202611/500795_579145_3914.jpg"
-    },
-    {
-        "title": "리센느, 타이틀곡 ‘With’ 음악방송 활동 1주차 성료···음원 차트 1위로 달성 - 스포츠경향",
-        "source": "스포츠경향",
-        "date": "2026-11-09",
-        "url": "https://sports.khan.co.kr/article/202611091155003",
-        "summary": "걸그룹 리센느(RESCENE)가 한층 확장된 음악적 스펙트럼을 입증하며 컴백 첫 주 활동을 성공적으로 마무리했다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 3일 네 번째 미니 앨범 ‘PULSE’(펄스...",
-        "image": "https://images.khan.co.kr/article/2026/11/09/news-p.v1.20261109.a17f2fa36b324fb995473414de423ce0_P1.jpg"
-    },
-    {
-        "title": "리센느 'With', 디즈니 영화에 울려 퍼진다…국내 걸그룹 최초 - 지피코리아",
-        "source": "지피코리아",
-        "date": "2026-11-09",
-        "url": "https://www.gpkorea.com/news/articleView.html?idxno=148411",
-        "summary": "그룹 리센느(RESCENE)가 디즈니 영화 '헥스: 마녀왕국'과 특별한 음악적 만남을 선보인다.11월 25일 개봉하는 영화 '헥스: 마녀왕국'은 스페셜 콜라보 뮤직 아티스트로 참여한 리센느의 신곡 'With' 뮤직비디오 티저를 공개했다. 리센느의 'With'는 영화의 엔딩크레딧 곡으로 ",
-        "image": "https://cdn.gpkorea.com/news/photo/202611/148411_315609_1045.jpg"
-    },
-    {
-        "title": "[2026 KGMA] MC부터 스페셜 무대까지…아이브 리즈·리센느 원이 ‘올라운더’ 입증 - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-11-09",
-        "url": "https://isplus.com/article/view/isp202611090145",
-        "summary": "그룹 아이브 리즈와 리센느 원이가 ‘2026 코리아 그랜드 뮤직 어워즈’(2026 KGMA) MC로 시상식을 빛냈다. 안정적인 진행 실력은 물론, 가요계 대선...",
-        "image": "https://isplus.com/data/isp/image/2026/11/09/isp20261109000167.800x.0.jpg"
-    },
-    {
-        "title": "디즈니 '헥스'와 '리센느'의 동화 같은 만남 - 캠페인 인사이트",
-        "source": "캠페인 인사이트",
-        "date": "2026-11-09",
-        "url": "https://www.campaigninsight.co.kr/news/articleView.html?idxno=7130",
-        "summary": "디즈니의 신규 애니메이션 영화 헥스: 마녀왕국의 엔딩곡 'With' MV 티저 영상. / 디즈니 코리아 유튜브월트디즈니컴퍼니코리아가 오는 25일 개봉하는 애니메이",
-        "image": "https://cdn.campaigninsight.co.kr/news/photo/202611/7130_9539_4747.jpg"
-    },
-    {
-        "title": "리센느, 음원 차트 1위+매력 다 잡았다…본격 정주행 시작 - 조이뉴스24",
+        "title": "[조이!써치] ① 대중픽 최애스타는⋯아이돌은 리센느·믿보배 김지원 - 조이뉴스24",
         "source": "조이뉴스24",
         "date": "2026-11-09",
-        "url": "https://www.joynews24.com/view/2023961",
-        "summary": "그룹 리센느(RESCENE)가 네 번째 미니 앨범 'PULSE'(펄스) 발매 후 컴백 첫 주 활동을 성공적으로 마무리했다.리센느는 KBS2 '뮤직뱅크', MBC '쇼! 음악중심', SBS '인기가요'에 출연해 타이틀곡 'With'(위드)와 수록곡 '백화요란 (Inside Out)'",
-        "image": "https://image.inews24.com/v1/98606f70da1ef5.jpg"
-    },
-    {
-        "title": "'리센느 열풍' 불지만…K팝 그룹 10팀 중 9팀은 중소, 활동은 대형 절반 '3.6년' - 뉴시스",
-        "source": "뉴시스",
-        "date": "2026-11-09",
-        "url": "https://mobile.newsis.com/view.html?ar_id=NISX20261109_0003859909",
-        "summary": "김정섭 성신여대 교수, 1996~2025년 데뷔 1159개 팀 전수분석 평균 활동 7.4년 대 3.6년…5년 생존확률 대형 65.2%·중소 28.7% 단일 100만장 도달 비율 30.5배 격차…\"성장기반 구축 10대 과제 긴요\"",
-        "image": "https://img1.newsis.com/2026/11/03/NISI20261103_0002281032_web.jpg"
-    },
-    {
-        "title": "디즈니 '헥스: 마녀왕국' X K팝 그룹 리센느, 신곡 'With' MV 티저 전격 공개 - 씨네플레이",
-        "source": "씨네플레이",
-        "date": "2026-11-09",
-        "url": "https://www.cineplay.co.kr/ko-kr/articles/30702",
-        "summary": "〈헥스: 마녀왕국〉과 리센느가 함께한 'With'의 뮤직비디오 티저가 공개됐다. 디즈니 애니메이션과 K팝 대세 리센느의 특급 만남 디즈니 애니메이션 〈헥스: 마녀왕국〉은 그룹 리센느(RESCENE)와 함께한 'With'의 뮤직비디오 티저를 11월 6일 공개했다.",
-        "image": "https://img.youtube.com/vi/BQIjSpS3Hmg/maxresdefault.jpg"
-    },
-    {
-        "title": "방탄소년단·임영웅 제쳤다…광고모델 브랜드평판 1위 차지한 '연예인' - 위키트리",
-        "source": "위키트리",
-        "date": "2026-11-09",
-        "url": "https://www.wikitree.co.kr/articles/1172364",
-        "summary": "리센느, 광고모델 브랜드평판 1위",
-        "image": "https://cdnweb01.wikitree.co.kr/webdata/editor/202611/06/img_20261106103447_5b35dd51.jpg"
+        "url": "https://www.joynews24.com/view/2023505",
+        "summary": "모바일 리서치 플랫폼 아젠다북과 설문조사 진행 리센느&middot;방탄소년단&middot;아이브-에이티즈, 내마음을 훔친 최애 아이돌 김지원-이병헌-최민식, 믿고보는 '최애 배우' 연예계는 그 어느 분야보다 유행에 민감하고, 트렌드가 빠르게 변화한다. 오랜 세월 꾸준히 사랑을 받는 스타",
+        "image": "https://image.inews24.com/v1/d6a9088b38a14e.jpg"
     },
     {
         "title": "박명수, 리센느와 신곡 발매 겹친 김종서에...\"점 좀 보세요\" (라디오쇼) - www.xportsnews.com",
@@ -106,12 +34,148 @@ const NEWS_DATA = [
         "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1109/1794192454637956.webp"
     },
     {
+        "title": "리센느 이어 이번엔 YB 뜬다…거제 ‘오션하모니’ 올해 마지막 무대 - 거제타임즈",
+        "source": "거제타임즈",
+        "date": "2026-11-09",
+        "url": "https://www.geojetimes.co.kr/news/articleView.html?idxno=206012",
+        "summary": "지난달 리센느가 달군 거제 옥포의 무대를 이번에는 록밴드 YB가 이어받는다. 한화오션의 지역상생 문화공연 ‘오션하모니’가 오는 14일 YB와 함께 올해 마지막 공",
+        "image": "https://cdn.geojetimes.co.kr/news/photo/202611/206012_208092_3852.jpg"
+    },
+    {
+        "title": "[K-팝] 리센느, 11월 걸그룹 브랜드평판 1위 등극… 아이브·블랙핑크 제치고 정상 차지 - 굿모닝베트남미디어",
+        "source": "굿모닝베트남미디어",
+        "date": "2026-11-09",
+        "url": "https://www.goodmorningvietnam.co.kr/news/article.html?no=84494",
+        "summary": "【굿모닝베트남미디어】 리센느(RESCENE)가 대세 글로벌 걸그룹들의 경쟁 속에서 2026년 11월 걸그룹 브랜드평판 정상에 오르는 기염을 토했다. 한국기업평판연구소가 발표한 2026년 11월 걸그룹 브랜드평판 빅데이터 분석 결과에 따르면, 최근 미니 4집 'PULSE'를 발매하며 활발",
+        "image": "https://www.goodmorningvietnam.co.kr/data/photos/20261146/art_1794208237.jpg"
+    },
+    {
+        "title": "리센느, 디즈니 애니메이션 ‘헥스: 마녀왕국’ 엔딩곡 ‘With’ MV 티저 공개 - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-11-09",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16271963",
+        "summary": "영화 ‘헥스: 마녀왕국’이 스페셜 콜라보 아티스트 리센느의 엔딩곡 ‘With’ 뮤직비디오 티저를 공개했다. 영화 속 소녀 빌리의 마법 각성과 마녀 세계 ‘헥스’의 장면에 리센느 멤버들의 모습이 더해져 뜨거운 반응을 얻고 있으며, 풀 버전 뮤직비디오는 11월 12일 공개된다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202611/16271963_2082448_1831_crop.jpg"
+    },
+    {
+        "title": "리센느, 미니 4집 ‘PULSE’ 성수 팝업…신곡 청음·하트 볼링 체험 - 신문고뉴스",
+        "source": "신문고뉴스",
+        "date": "2026-11-09",
+        "url": "http://www.shinmoongo.net/182981",
+        "summary": "걸그룹 리센느(RESCENE)의 미니 4집 ‘펄스(PULSE)’ 발매를 기념하는 팝업스토어가 서울 성동구 성수동 연무장길 플레이엑스스튜디오에서 11월 10일까지",
+        "image": "https://www.shinmoongo.net/data/shinmoongo_net/mainimages/202611/2026110938372707.jpg?t=1794238876"
+    },
+    {
+        "title": "리센느 대세 행보 거침없다, 음원·시상식·디즈니 접수 - 스포츠Q",
+        "source": "스포츠Q",
+        "date": "2026-11-09",
+        "url": "https://www.newsq.co.kr/news/articleView.html?idxno=500795",
+        "summary": "뉴스Q(큐) 스포츠Q 이남경 기자 / 더뮤즈엔터테인먼트 소속 걸그룹 리센느가 대세를 넘어 이제는 K팝 신흥 강자로 확실히 자리매김하고 있다. 역주행 신드롬으로 존",
+        "image": "https://cdn.newsq.co.kr/news/photo/202611/500795_579145_3914.jpg"
+    },
+    {
+        "title": "'더쇼' 라인업, 리센느·코스모시·엔탑 등 출격 - 아시아뉴스통신",
+        "source": "아시아뉴스통신",
+        "date": "2026-11-09",
+        "url": "https://m.anewsa.com/article_sub3.php?number=3216105&type=&mobile=",
+        "summary": "(사진출처=리센느 공식 SNS) [아시아뉴스통신=이상진 기자] '더쇼' 라인업이 공개됐다.'더쇼' 공식 SNS에 공개된 정보에 따르면 ADAP(에이댑), BE BOYS (비보이즈), cosmosy (코스모시), HEART OF WOMAN, P1Harmony, RESCENE (리센느), ",
+        "image": "https://www.anewsa.com/news_images/2026/11/08/mark/20261108221521.jpg"
+    },
+    {
+        "title": "디즈니 '헥스'와 '리센느'의 동화 같은 만남 - 캠페인 인사이트",
+        "source": "캠페인 인사이트",
+        "date": "2026-11-09",
+        "url": "https://www.campaigninsight.co.kr/news/articleView.html?idxno=7130",
+        "summary": "디즈니의 신규 애니메이션 영화 헥스: 마녀왕국의 엔딩곡 'With' MV 티저 영상. / 디즈니 코리아 유튜브월트디즈니컴퍼니코리아가 오는 25일 개봉하는 애니메이",
+        "image": "https://cdn.campaigninsight.co.kr/news/photo/202611/7130_9539_4747.jpg"
+    },
+    {
+        "title": "리센느 'With', 디즈니 영화에 울려 퍼진다…국내 걸그룹 최초 - 지피코리아",
+        "source": "지피코리아",
+        "date": "2026-11-09",
+        "url": "https://www.gpkorea.com/news/articleView.html?idxno=148411",
+        "summary": "그룹 리센느(RESCENE)가 디즈니 영화 '헥스: 마녀왕국'과 특별한 음악적 만남을 선보인다.11월 25일 개봉하는 영화 '헥스: 마녀왕국'은 스페셜 콜라보 뮤직 아티스트로 참여한 리센느의 신곡 'With' 뮤직비디오 티저를 공개했다. 리센느의 'With'는 영화의 엔딩크레딧 곡으로 ",
+        "image": "https://cdn.gpkorea.com/news/photo/202611/148411_315609_1045.jpg"
+    },
+    {
+        "title": "리센느, 타이틀곡 ‘With’ 음악방송 활동 1주차 성료···음원 차트 1위로 달성 - 스포츠경향",
+        "source": "스포츠경향",
+        "date": "2026-11-09",
+        "url": "https://sports.khan.co.kr/article/202611091155003",
+        "summary": "걸그룹 리센느(RESCENE)가 한층 확장된 음악적 스펙트럼을 입증하며 컴백 첫 주 활동을 성공적으로 마무리했다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 3일 네 번째 미니 앨범 ‘PULSE’(펄스...",
+        "image": "https://images.khan.co.kr/article/2026/11/09/news-p.v1.20261109.a17f2fa36b324fb995473414de423ce0_P1.jpg"
+    },
+    {
+        "title": "[2026 KGMA] MC부터 스페셜 무대까지…아이브 리즈·리센느 원이 ‘올라운더’ 입증 - 일간스포츠",
+        "source": "일간스포츠",
+        "date": "2026-11-09",
+        "url": "https://isplus.com/article/view/isp202611090145",
+        "summary": "그룹 아이브 리즈와 리센느 원이가 ‘2026 코리아 그랜드 뮤직 어워즈’(2026 KGMA) MC로 시상식을 빛냈다. 안정적인 진행 실력은 물론, 가요계 대선...",
+        "image": "https://isplus.com/data/isp/image/2026/11/09/isp20261109000167.800x.0.jpg"
+    },
+    {
+        "title": "리센느, 2026 KGMA 4관왕…더뮤즈엔터테인먼트 이주헌 대표 프로듀서상 [하반기 결선] - CBC뉴스",
+        "source": "CBC뉴스",
+        "date": "2026-11-09",
+        "url": "https://www.cbci.co.kr/news/articleView.html?idxno=624892",
+        "summary": "[CBC뉴스] 걸그룹 리센느(RESCENE)가 2026 코리아 그랜드 뮤직 어워즈(KGMA)에서 4개 부문을 수상하며 존재감을 드러냈다. 소속사 더뮤즈엔터테인먼트의 이주헌 대표도 프로듀서상을 받으면서 아티스트와 제작자가 나란히 수상하는 성과를 거뒀다.리센느는 이번 시상식에서 베스트 아티",
+        "image": "https://www.cbci.co.kr/news/thumbnail/202611/624892_429544_831_v150.jpg"
+    },
+    {
+        "title": "'리센느 열풍' 불지만…K팝 그룹 10팀 중 9팀은 중소, 활동은 대형 절반 '3.6년' - 뉴시스",
+        "source": "뉴시스",
+        "date": "2026-11-09",
+        "url": "https://mobile.newsis.com/view.html?ar_id=NISX20261109_0003859909",
+        "summary": "김정섭 성신여대 교수, 1996~2025년 데뷔 1159개 팀 전수분석 평균 활동 7.4년 대 3.6년…5년 생존확률 대형 65.2%·중소 28.7% 단일 100만장 도달 비율 30.5배 격차…\"성장기반 구축 10대 과제 긴요\"",
+        "image": "https://img1.newsis.com/2026/11/03/NISI20261103_0002281032_web.jpg"
+    },
+    {
+        "title": "리센느, 음원 차트 1위+매력 다 잡았다…본격 정주행 시작 - 조이뉴스24",
+        "source": "조이뉴스24",
+        "date": "2026-11-09",
+        "url": "https://www.joynews24.com/view/2023961",
+        "summary": "그룹 리센느(RESCENE)가 네 번째 미니 앨범 'PULSE'(펄스) 발매 후 컴백 첫 주 활동을 성공적으로 마무리했다.리센느는 KBS2 '뮤직뱅크', MBC '쇼! 음악중심', SBS '인기가요'에 출연해 타이틀곡 'With'(위드)와 수록곡 '백화요란 (Inside Out)'",
+        "image": "https://image.inews24.com/v1/98606f70da1ef5.jpg"
+    },
+    {
+        "title": "이찬원 8주 연속 1위, 임영웅 3,729회 차 추격…리센느 'PULSE' 3위 급상승 (기사열독순위) - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-11-09",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16272100",
+        "summary": "2026년 45주차 톱스타뉴스 기사열독순위에서 이찬원이 8주 연속 1위를 유지했지만 임영웅과의 격차는 3,729회로 좁혀졌다. 리센느는 신보 'PULSE'의 음반 판매 신기록이 연속 보도되면서 조회수 110.1% 증가와 3위 진입을 기록했다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202611/16272100_2082661_5449_crop.jpg"
+    },
+    {
+        "title": "방탄소년단·임영웅 제쳤다…광고모델 브랜드평판 1위 차지한 '연예인' - 위키트리",
+        "source": "위키트리",
+        "date": "2026-11-09",
+        "url": "https://www.wikitree.co.kr/articles/1172364",
+        "summary": "리센느, 광고모델 브랜드평판 1위",
+        "image": "https://cdnweb01.wikitree.co.kr/webdata/editor/202611/06/img_20261106103447_5b35dd51.jpg"
+    },
+    {
         "title": "리센느 뒤의 숫자들…중소돌 3년 생존 42.2%, 밀리언셀러 0.7% - 헤럴드경제",
         "source": "헤럴드경제",
         "date": "2026-11-09",
         "url": "https://biz.heraldcorp.com/article/10930082",
         "summary": "[헤럴드경제=고승희 기자] 바야흐로 ‘장수돌의 시대’다. 데뷔 10년을 넘긴 대형기획사 아이돌 그룹은 어떤 경우에도 굳건했다. 10년 차에 49.8%였던 활동 지속확률은 15",
         "image": "https://wimg.heraldcorp.com/news/cms/2026/11/09/news-p.v1.20261104.5bc134cd6b1f441ba79b56567596cb3d_P1.jpg"
+    },
+    {
+        "title": "드래곤빌리지3, 리센느 멤버 5명 모티브 드래곤 공개 - 게임인",
+        "source": "게임인",
+        "date": "2026-11-09",
+        "url": "http://www.gameinn.co.kr/news/articleView.html?idxno=14634",
+        "summary": "하이브로가 드래곤빌리지3의 서비스 반주년을 맞아 걸그룹 리센느와 협업한다. 멤버 다섯 명을 모티브로 한 드래곤을 11월 19일 업데이트에서 선보일 예정이다. 드래곤은 불 속성 원이, 물 속성 미나미, 빛 속성 제나, 땅 속성 메이, 어둠 속성 리브로 나뉜다. 사전예약은 업데이트 전까지",
+        "image": "https://cdn.gameinn.co.kr//news/thumbnail/202611/14634_24888_1348_v150.jpg"
+    },
+    {
+        "title": "‘2026 KGMA’ 영케이 5관왕 질주…트레저·리센느·앤더블 최고상 영예 - 스포츠동아",
+        "source": "스포츠동아",
+        "date": "2026-11-08",
+        "url": "https://sports.donga.com/ent/article/all/20261108/134985695/1",
+        "summary": "[스포츠동아 곽현수 기자] 가수 영케이와 그룹 트레저가 ‘2026 코리아 그랜드 뮤직어워즈(2026 KGMA)’ 첫날 최고 영예를 안았다.7일 오후 서울 구로구 고척스카이돔에서 일간스포츠가 주최한 ‘제3회 2026 KGMA’의 첫날 행사 ‘아티스트 데이’가 열렸다. …",
+        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/08/134985706.1.jpg"
     },
     {
         "title": "[기자수첩] 리센느 착시 빠진 엔터 펀딩 - 딜사이트",
@@ -122,28 +186,12 @@ const NEWS_DATA = [
         "image": "https://dtd31o1ybbmk8.cloudfront.net/photos/2026/11/06/5caf4e3cf2684331b1a95f361051c23c/thumb.jpg"
     },
     {
-        "title": "SBS 인기가요 : 백화요란 (Inside Out) - RESCENE (리센느) | SBS 261108 방송 - programs.sbs.co.kr",
-        "source": "programs.sbs.co.kr",
-        "date": "2026-11-08",
-        "url": "https://programs.sbs.co.kr/enter/gayo/clip/54768/OC483062889?div=live_end",
-        "summary": "SBS 온에어/VOD/클립영상 즐기기!",
-        "image": "https://img2.sbs.co.kr/ops_clip_img/2026/11/08/dddd1af7-f75c-4c2a-bf44-550a040ca9b3335w640.jpg"
-    },
-    {
         "title": "[TF초점] '화제의 컴백' 리센느, 새 앨범 향한 두 가지 반응 - 더팩트",
         "source": "더팩트",
         "date": "2026-11-08",
         "url": "https://news.tf.co.kr/read/entertain/2386002.htm",
         "summary": "전반적인 반응은 무난하다가 주를 이뤄 백화요란 (Inside Out)도 타이틀곡 못지않은 화제 2026년 하반기 가장 관심을 모은 컴백 중 하나였던 리센느(RESCENE)의 새 앨범이 베일…",
         "image": "https://img.tf.co.kr/article/home/2026/11/04/20267615179395718200.jpg"
-    },
-    {
-        "title": "영케이 5관왕, 트레저·리센느 4관왕… 8팀, 최고 영예 그랜드 상 품었다[2026 KGMA] - 이데일리",
-        "source": "이데일리",
-        "date": "2026-11-08",
-        "url": "https://www.edaily.co.kr/News/Read?newsId=01610486645644080&mediaCodeNo=257",
-        "summary": "‘영케이, 트레저, 리센느, 에이티즈, 라이즈, 있지, 키키, 앤더블.’ 올해 K팝을 빛낸 8팀이 ‘2026 코리아 그랜드 뮤직어워즈’(2026 KGMA)의 최고 영예인 그랜드 상을 품에 안았다. 7~8일 서울 구로구 고척스카이돔에서 열린 ‘2026 KGMA’는 ...",
-        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26110900055.jpg"
     },
     {
         "title": "유행 넘어 희망...리센느 1위로 확인한 가능성 [엔터그알] - MTN 머니투데이방송",
@@ -162,12 +210,12 @@ const NEWS_DATA = [
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/09/bnt202611090186.jpg"
     },
     {
-        "title": "리센느, 디즈니 애니 ‘헥스: 마녀왕국’ 협업… 엔딩크레딧 곡 티저 공개 - 스포츠동아",
-        "source": "스포츠동아",
+        "title": "리센느, ‘With’ 음원 차트 1위 - BNT뉴스",
+        "source": "BNT뉴스",
         "date": "2026-11-08",
-        "url": "https://sports.donga.com/ent/article/all/20261109/134989281/1",
-        "summary": "[스포츠동아 이승미 기자] 그룹 리센느가 디즈니 애니메이션 ‘헥스: 마녀왕국’과 특별한 협업을 선보인다. 영화 엔딩크레딧 곡으로 참여한 ‘위드’(With)의 뮤직비디오 티저가 공개되며 팬들의 관심을 모으고 있다.오는 25일 개봉하는 ‘헥스: 마녀왕국’은 평범한 일상을…",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/09/134989292.1.jpg"
+        "url": "https://www.bntnews.co.kr/article/view/bnt202611090046",
+        "summary": "그룹 리센느(RESCENE)가 신곡 ‘With’로 음원 차트 1위에 오르며 컴백 첫 주 음악방송 활동을 마쳤다. 타이틀곡과 수록곡 무대를 통해 서로 다른 콘",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/09/bnt202611090060.jpg"
     },
     {
         "title": "\"걸그룹 리센느가 떴을 뿐…K팝그룹 89.9%는 중소돌\" - 뉴스1",
@@ -177,36 +225,20 @@ const NEWS_DATA = [
         "summary": ""
     },
     {
-        "title": "리센느, ‘With’ 음원 차트 1위 - BNT뉴스",
-        "source": "BNT뉴스",
+        "title": "리센느, 디즈니 애니 ‘헥스: 마녀왕국’ 협업… 엔딩크레딧 곡 티저 공개 - 스포츠동아",
+        "source": "스포츠동아",
         "date": "2026-11-08",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202611090046",
-        "summary": "그룹 리센느(RESCENE)가 신곡 ‘With’로 음원 차트 1위에 오르며 컴백 첫 주 음악방송 활동을 마쳤다. 타이틀곡과 수록곡 무대를 통해 서로 다른 콘",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/09/bnt202611090060.jpg"
+        "url": "https://sports.donga.com/ent/article/all/20261109/134989281/1",
+        "summary": "[스포츠동아 이승미 기자] 그룹 리센느가 디즈니 애니메이션 ‘헥스: 마녀왕국’과 특별한 협업을 선보인다. 영화 엔딩크레딧 곡으로 참여한 ‘위드’(With)의 뮤직비디오 티저가 공개되며 팬들의 관심을 모으고 있다.오는 25일 개봉하는 ‘헥스: 마녀왕국’은 평범한 일상을…",
+        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/09/134989292.1.jpg"
     },
     {
-        "title": "리센느, 아이브, 블랙핑크…11월 걸그룹 브랜드평판 톱3 - 마이데일리",
-        "source": "마이데일리",
+        "title": "[빅데이터로본다] 걸그룹 2026년 11월 브랜드평판... 1위 리센느, 2위 아이브, 3위 블랙핑크 - 일간투데이",
+        "source": "일간투데이",
         "date": "2026-11-08",
-        "url": "https://mydaily.co.kr/page/view/2026110900400883083",
-        "summary": "그룹 리센느 / 마이데일리...",
-        "image": "https://mydaily.co.kr/photos/2026/11/09/2026110900555798916_l.jpg"
-    },
-    {
-        "title": "리센느 원이 ‘보아 명곡’부터 한일 합작 ‘예뻤어’ 감동까지[2026 KGMA] - 이데일리",
-        "source": "이데일리",
-        "date": "2026-11-08",
-        "url": "https://www.edaily.co.kr/News/Read?newsId=01600646645644080&mediaCodeNo=257",
-        "summary": "익숙한 명곡이 새로운 목소리와 퍼포먼스를 만나 색다른 무대로 탄생했다. ‘2026 KGMA’가 세대와 국경을 잇는 특별 무대로 ‘무대 맛집’의 매력을 드러냈다. 선배 가수의 대표곡에는 후배들의 개성이 더해졌고, 한국과 일본의 밴드 보컬리스트는 ‘예뻤어’를 함께 열창하...",
-        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26110900050.jpg"
-    },
-    {
-        "title": "리센느, 초동 자체 '신기록'⋯이제 하프 밀리언셀러 넘본다 - 이투데이",
-        "source": "이투데이",
-        "date": "2026-11-08",
-        "url": "https://www.etoday.co.kr/news/view/2645571?trc=main_culturelife_news",
-        "summary": "▲(사진제공=더뮤즈엔터테인먼트)그룹 리센느(RESCENE)가 미니 4집 '펄스(PULSE)'로 초동(발매 후 일주일간 앨범 판매량) 46만 장을 돌파, 팀 자체 최",
-        "image": "https://img.etoday.co.kr/pto_db/2026/11/20261109085327_2414109_1000_679.jpg"
+        "url": "https://www.dtoday.co.kr/news/articleView.html?idxno=802097",
+        "summary": "[일간투데이 박선영 기자] 걸그룹 브랜드평판 2026년 11월 빅데이터 분석결과, 1위 리센느 브랜드로 분석됐다. ​한국기업평판연구소는 걸그룹 브랜드평판 빅데이터 분석을 위해 2026년 10월 8일부터 2026년 11월 8일까지 측정한 브랜드 빅데이터 57,578,16",
+        "image": "https://cdn.dtoday.co.kr/news/thumbnail/202611/802097_675064_403_v150.jpg"
     },
     {
         "title": "리센느, 신곡 ‘With’ 차트 1위 접수… 성공적인 컴백 1주차 포문 - iMBC 연예",
@@ -217,28 +249,44 @@ const NEWS_DATA = [
         "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/11/09/f55d5023-f419-475f-a849-875ccbd5f257.jpg"
     },
     {
+        "title": "영케이 5관왕, 트레저·리센느 4관왕… 8팀, 최고 영예 그랜드 상 품었다[2026 KGMA] - 이데일리",
+        "source": "이데일리",
+        "date": "2026-11-08",
+        "url": "https://www.edaily.co.kr/News/Read?newsId=01610486645644080&mediaCodeNo=257",
+        "summary": "‘영케이, 트레저, 리센느, 에이티즈, 라이즈, 있지, 키키, 앤더블.’ 올해 K팝을 빛낸 8팀이 ‘2026 코리아 그랜드 뮤직어워즈’(2026 KGMA)의 최고 영예인 그랜드 상을 품에 안았다. 7~8일 서울 구로구 고척스카이돔에서 열린 ‘2026 KGMA’는 ...",
+        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26110900055.jpg"
+    },
+    {
+        "title": "리센느, 아이브, 블랙핑크…11월 걸그룹 브랜드평판 톱3 - 마이데일리",
+        "source": "마이데일리",
+        "date": "2026-11-08",
+        "url": "https://mydaily.co.kr/page/view/2026110900400883083",
+        "summary": "그룹 리센느 / 마이데일리...",
+        "image": "https://mydaily.co.kr/photos/2026/11/09/2026110900555798916_l.jpg"
+    },
+    {
+        "title": "리센느, 초동 자체 '신기록'⋯이제 하프 밀리언셀러 넘본다 - 이투데이",
+        "source": "이투데이",
+        "date": "2026-11-08",
+        "url": "https://www.etoday.co.kr/news/view/2645571?trc=main_culturelife_news",
+        "summary": "▲(사진제공=더뮤즈엔터테인먼트)그룹 리센느(RESCENE)가 미니 4집 '펄스(PULSE)'로 초동(발매 후 일주일간 앨범 판매량) 46만 장을 돌파, 팀 자체 최",
+        "image": "https://img.etoday.co.kr/pto_db/2026/11/20261109085327_2414109_1000_679.jpg"
+    },
+    {
+        "title": "리센느 원이 ‘보아 명곡’부터 한일 합작 ‘예뻤어’ 감동까지[2026 KGMA] - 이데일리",
+        "source": "이데일리",
+        "date": "2026-11-08",
+        "url": "https://www.edaily.co.kr/News/Read?newsId=01600646645644080&mediaCodeNo=257",
+        "summary": "익숙한 명곡이 새로운 목소리와 퍼포먼스를 만나 색다른 무대로 탄생했다. ‘2026 KGMA’가 세대와 국경을 잇는 특별 무대로 ‘무대 맛집’의 매력을 드러냈다. 선배 가수의 대표곡에는 후배들의 개성이 더해졌고, 한국과 일본의 밴드 보컬리스트는 ‘예뻤어’를 함께 열창하...",
+        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26110900050.jpg"
+    },
+    {
         "title": "리센느, ‘With’ 음악방송 첫 주 마무리…3개 음원 차트 1위 - 싱글리스트",
         "source": "싱글리스트",
         "date": "2026-11-08",
         "url": "https://www.slist.kr/news/articleView.html?idxno=780014",
         "summary": "그룹 리센느(RESCENE)가 미니 4집 ‘PULSE(펄스)’의 첫 주 음악방송 활동을 마쳤다. 타이틀곡 ‘With(위드)’는 멜론과 벅스, 지니뮤직 음원 차트에서 1위에 올랐다.리센느는 지난 3일 앨범을 발매한 뒤 KBS2 ‘뮤직뱅크’를 시작으로 MBC ‘쇼! 음악중심’, SBS ‘인",
         "image": "https://cdn.slist.kr/news/thumbnail/202611/780014_1191692_3435_v150.jpg"
-    },
-    {
-        "title": "리센느, 11월 걸그룹 브랜드평판 1위! - 아시아뉴스통신",
-        "source": "아시아뉴스통신",
-        "date": "2026-11-08",
-        "url": "https://www.anewsa.com/detail.php?number=3215583",
-        "summary": "(사진출처=리센느 공식 SNS) [아시아뉴스통신=이상진 기자] 걸그룹 브랜드평판 2026년 11월 빅데이터 분석결과, 1위 리센느 2위 아이브 3위 블랙핑크 순으로 분석되었다.한국기업평판연구소는 걸그룹 브랜드평판 빅데이터 분석을 위해 2026년 10월 8일부터 2026년 11월 8일까지",
-        "image": "https://www.anewsa.com/news_images/2026/11/04/mark/20261104101117.jpg"
-    },
-    {
-        "title": "'놀뭐', 한 자릿수 시청률 찍고도 토요 예능 1위 굳건…김희선 출연 예고→리센느 미나미 등장 - 텐아시아",
-        "source": "텐아시아",
-        "date": "2026-11-08",
-        "url": "https://www.tenasia.co.kr/article/2026110826494",
-        "summary": "'놀면 뭐하니?'가 토요일 예능 시청률 1위를 차지했다. '95 서울가요제' 합격자 18명의 정체가 공개된 가운데, 그룹 리센느 미나미부터 가수 이소라까지 다양한 분야의 출연진이 무대에 올랐다. 배우 김희선의 합류 소식도 전해졌다. 지난 7일 방송된 MBC 예능 프로그...",
-        "image": "https://img.tenasia.co.kr/photo/202611/BF.46349298.1.jpg"
     },
     {
         "title": "리센느, 아이브·블핑 제치고 걸그룹 브랜드 평판 1위 - 매일경제",
@@ -249,44 +297,12 @@ const NEWS_DATA = [
         "image": "https://pimg.mk.co.kr/news/cms/202611/08/news-p.v1.20261108.42dbe741932c43cdb45805ecf727b66c_R.jpeg"
     },
     {
-        "title": "리센느, KGMA 트로피만 4개…최고 영예상 품고 \"사랑이 과분해, 더 성장하겠다\" - 마이데일리",
-        "source": "마이데일리",
+        "title": "리센느, ‘2026 KGMA’서 최고 영예상 포함 4관왕 쾌거 - 데일리스포츠한국",
+        "source": "데일리스포츠한국",
         "date": "2026-11-08",
-        "url": "https://mydaily.co.kr/page/view/2026110817151868407",
-        "summary": "그룹 리센느 / '2026 KGMA' 방송 화면 캡처...",
-        "image": "https://mydaily.co.kr/photos/2026/11/08/2026110817233445382_l.jpg"
-    },
-    {
-        "title": "'2026 KGMA' 리센느, '그랜드 아너스 초이스' 포함 4관왕 - iMBC 연예",
-        "source": "iMBC 연예",
-        "date": "2026-11-08",
-        "url": "https://enews.imbc.com/News/RetrieveNewsInfo/524026",
-        "summary": "리센느(RESCENE)가 '2026 KGMA'에서 '그랜드 아너스 초이스' 포함 4관왕을 달성했다. 7일 서울 고척스카이돔에서 개최된 '2026 코리아 그랜드 뮤직 어워즈'(이하 '2026 KGMA')에서 리센느(원이, 리브, 미나미, 메이, 제나)는 최고 영예상인 '그랜드 아너스 초이",
-        "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/11/08/ae072ead-6681-43de-8426-fbe8f496d993.jpg"
-    },
-    {
-        "title": "리센느, 타이틀곡 ‘With’ 음악방송 활동 1주차 성료... 음원 차트 1위 석권 - 스타데일리뉴스",
-        "source": "스타데일리뉴스",
-        "date": "2026-11-08",
-        "url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=601653",
-        "summary": "[스타데일리뉴스=천설화기자] 리센느가 컴백 첫 주 활동을 성공적으로 마무리했다.리센느는 지난 3일 네 번째 미니 앨범 ‘PULSE’ 발매 후 KBS2 ‘뮤직뱅크’",
-        "image": "https://cdn.stardailynews.co.kr/news/photo/202611/601653_601804_3343.jpg"
-    },
-    {
-        "title": "찰나의 화제성을 코어로…리센느, 이제는 ‘하프 밀리언셀러’ 정조준 - 스포츠동아",
-        "source": "스포츠동아",
-        "date": "2026-11-08",
-        "url": "https://sports.donga.com/ent/article/all/20261108/134985738/1",
-        "summary": "[스포츠동아 곽현수 기자] 유튜브에서의 화제성이 성적으로, 역주행의 열기는 음반 구매로 직결됐다. 그룹 리센느가 새 앨범 발매 닷새 만에 45만 장이 넘는 판매고를 올리며 이전과 확연하게 달라진 체급을 증명했다.8일 음반 판매량 집계 사이트인 한터차트에 따르면 리센느…",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/08/134985637.1.jpg"
-    },
-    {
-        "title": "리센느 11월 걸그룹 브랜드평판 1위 등극 아이브 블랙핑크 아일릿 에스파 순 - 지피코리아",
-        "source": "지피코리아",
-        "date": "2026-11-08",
-        "url": "https://www.gpkorea.com/news/articleView.html?idxno=148397",
-        "summary": "신예 걸그룹 리센느(RESCENE)가 11월 걸그룹 브랜드평판 1위에 오르며 파죽지세의 대세 행보를 입증했다.한국기업평판연구소는 지난 10월 8일부터 11월 8일까지 측정한 걸그룹 브랜드 빅데이터 5757만 8163개를 분석한 결과, 리센느(원이, 리브, 미나미, 메이, 제나)가 브랜드",
-        "image": "https://cdn.gpkorea.com/news/photo/202611/148397_315579_20.jpg"
+        "url": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=435269",
+        "summary": "[데일리스포츠한국 조경순 기자] 그룹 리센느(RESCENE)가 ‘2026 코리아 그랜드 뮤직 어워즈(KGMA)’에서 최고 영예상을 포함해 4관왕을 달성하며 ‘대세",
+        "image": "https://cdn.dailysportshankook.co.kr/news/photo/202611/435269_451666_376.jpg"
     },
     {
         "title": "'대세' 리센느, 'KGMA' 4관왕…소속사 대표도 수상-리더 원이 MC 데뷔 - 노컷뉴스",
@@ -297,35 +313,36 @@ const NEWS_DATA = [
         "image": "https://file2.nocutnews.co.kr/newsroom/image/2026/11/08/202611080956227931_0.jpg"
     },
     {
-        "title": "‘2026 KGMA’ 영케이 5관왕 질주…트레저·리센느·앤더블 최고상 영예 - 스포츠동아",
+        "title": "찰나의 화제성을 코어로…리센느, 이제는 ‘하프 밀리언셀러’ 정조준 - 스포츠동아",
         "source": "스포츠동아",
         "date": "2026-11-08",
-        "url": "https://sports.donga.com/ent/article/all/20261108/134985695/1",
-        "summary": "[스포츠동아 곽현수 기자] 가수 영케이와 그룹 트레저가 ‘2026 코리아 그랜드 뮤직어워즈(2026 KGMA)’ 첫날 최고 영예를 안았다.7일 오후 서울 구로구 고척스카이돔에서 일간스포츠가 주최한 ‘제3회 2026 KGMA’의 첫날 행사 ‘아티스트 데이’가 열렸다. …",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/08/134985706.1.jpg"
+        "url": "https://sports.donga.com/ent/article/all/20261108/134985738/1",
+        "summary": "[스포츠동아 곽현수 기자] 유튜브에서의 화제성이 성적으로, 역주행의 열기는 음반 구매로 직결됐다. 그룹 리센느가 새 앨범 발매 닷새 만에 45만 장이 넘는 판매고를 올리며 이전과 확연하게 달라진 체급을 증명했다.8일 음반 판매량 집계 사이트인 한터차트에 따르면 리센느…",
+        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/08/134985637.1.jpg"
     },
     {
-        "title": "리센느, ‘2026 KGMA’ 최고 영예상 포함 4관왕…원이 첫 시상식 MC까지 - MHN스포츠",
-        "source": "MHN스포츠",
+        "title": "‘MMA 2026’, 플레이브 3개 부문 1위→임영웅·아이유·리센느 선두 - 톱스타뉴스",
+        "source": "톱스타뉴스",
         "date": "2026-11-08",
-        "url": "https://mhnse.com/news/articleView.html?idxno=1687747",
-        "summary": "그룹 리센느가 '2026 코리아 그랜드 뮤직 어워즈'에서 최고 영예상을 포함하여 4관왕에 올랐으며, 리더 원이는 첫 시상식 MC를 맡아 다채로운 무대를 선보였다. 리센느는 'PULSE'를 발매하고 활동 중이며, 더뮤즈엔터테인먼트의 이주헌 대표도 수상 소감을 밝혔다.",
-        "image": "https://cdn.mhnse.com/mhnsports/2026/11/08141201/thumb_ccms_86344.jpg"
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16271163",
+        "summary": "‘MMA 2026’ 부문별 투표가 진행 중인 가운데 알파드라이브원이 올해의 신인 부문 1위를 차지했다. 롱샷과 튜이드는 3124표 차이로 2위 경쟁을 벌이고 있으며, 플레이브는 올해의 아티스트·베스트 그룹 남자·베스트 OST 등 3개 부문에서 1위에 올랐다. 임영웅, 아이유, 리센느, ",
+        "image": "https://cdn.topstarnews.net/news/photo/202611/16271163_2081371_562_crop.jpeg"
     },
     {
-        "title": "리센느 KGMA 4관왕 쾌거,원이 첫 시상식 MC,소속사 대표 베스트 프로듀서 상까지 겹경사 - 뉴스엔",
-        "source": "뉴스엔",
+        "title": "리센느 11월 걸그룹 브랜드평판 1위 등극 아이브 블랙핑크 아일릿 에스파 순 - 지피코리아",
+        "source": "지피코리아",
         "date": "2026-11-08",
-        "url": "https://m.newsen.com/news_view.php?uid=202611081010101210",
-        "summary": ""
+        "url": "https://www.gpkorea.com/news/articleView.html?idxno=148397",
+        "summary": "신예 걸그룹 리센느(RESCENE)가 11월 걸그룹 브랜드평판 1위에 오르며 파죽지세의 대세 행보를 입증했다.한국기업평판연구소는 지난 10월 8일부터 11월 8일까지 측정한 걸그룹 브랜드 빅데이터 5757만 8163개를 분석한 결과, 리센느(원이, 리브, 미나미, 메이, 제나)가 브랜드",
+        "image": "https://cdn.gpkorea.com/news/photo/202611/148397_315579_20.jpg"
     },
     {
-        "title": "싸이커스ㆍ투어스ㆍ리센느ㆍ에이댑ㆍ언차일드ㆍ드래곤포니 [이번주 뭐 들었니?] - 티브이데일리",
-        "source": "티브이데일리",
+        "title": "리센느, 타이틀곡 ‘With’ 음악방송 활동 1주차 성료... 음원 차트 1위 석권 - 스타데일리뉴스",
+        "source": "스타데일리뉴스",
         "date": "2026-11-08",
-        "url": "http://m.tvdaily.co.kr/article.php?aid=17941288881808768010",
-        "summary": "[Ƽ���̵��ϸ� ������] 11�� ù°��(11�� 2�� ~ 8��)���� �׷� ����Ŀ���� ���, ������, ���̴�, �����ϵ� ���� �� �ٹ��� ���� Ȱ���� �����ߴ�. ��� �巡�������� �ź��� �־���. �� ���",
-        "image": "http://www.tvdaily.co.kr/facebook.png"
+        "url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=601653",
+        "summary": "[스타데일리뉴스=천설화기자] 리센느가 컴백 첫 주 활동을 성공적으로 마무리했다.리센느는 지난 3일 네 번째 미니 앨범 ‘PULSE’ 발매 후 KBS2 ‘뮤직뱅크’",
+        "image": "https://cdn.stardailynews.co.kr/news/photo/202611/601653_601804_3343.jpg"
     },
     {
         "title": "리센느 ‘2026 KGMA’ 최고 영예상 품다…4관왕 쾌거 - 스포츠경향",
@@ -334,6 +351,14 @@ const NEWS_DATA = [
         "url": "https://sports.khan.co.kr/article/202611080841003",
         "summary": "그룹 리센느(RESCENE)가 ‘2026 코리아 그랜드 뮤직 어워즈(KGMA)’에서 4관왕에 올랐다. 리센느(원이·리브·미나미·메이·제나)는 지난 7일 서울 고척스카이돔에서 열린 ‘2026 KGMA’에서 최고 ...",
         "image": "https://images.khan.co.kr/article/2026/11/08/news-p.v1.20261108.e6304c416ce04bca90145edd4a210458_P1.jpg"
+    },
+    {
+        "title": "\"리센느 가능성 믿었다\" 이주헌 더뮤즈엔터 대표, 프로듀서상 수상[2026 KGMA] - 이데일리",
+        "source": "이데일리",
+        "date": "2026-11-07",
+        "url": "https://www.edaily.co.kr/News/Read?newsId=03749046645643424&mediaCodeNo=257",
+        "summary": "그룹 리센느를 키워낸 이주헌 더뮤즈엔터테인먼트 대표가 ‘2026 코리아 그랜드 뮤직어워즈’(2026 KGMA)에서 ‘베스트 프로듀서’ 상을 받았다. ‘2026 코리아 그랜드 뮤직 어워즈’(2026 KGMA) 첫날 아티스트 데이가 7일 오후 서울 구로구 고척스카이돔에...",
+        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26110700969.jpg"
     },
     {
         "title": "유재석, 리센느 미나미 한국어 실력 감탄…\"허경환보다 말 잘해\" - 뉴시스",
@@ -352,20 +377,20 @@ const NEWS_DATA = [
         "image": "https://image.ytn.co.kr/general/jpg/2026/1107/202611072320540729_t.jpg"
     },
     {
+        "title": "리센느 ‘PULSE’, 실시간 초동 45만 장 돌파…하프 밀리언셀러 앨범 등극할까 - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-11-07",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16270628",
+        "summary": "리센느 ‘PULSE’가 6일까지 초동 41만 2,158장을 기록한 데 이어 7일 오후 2시까지 4만 7,137장이 추가 판매됐다. 현재 누적 판매량은 45만 9,295장으로, 첫 50만 장 돌파까지 4만 705장을 남겨뒀다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202611/16270628_2080560_1754_crop.jpg"
+    },
+    {
         "title": "리센느, ‘2026 KGMA‘ 4관왕 기염 “과분한 사랑... 항상 성장하겠다” [2026 KGMA] - 일간스포츠",
         "source": "일간스포츠",
         "date": "2026-11-07",
         "url": "https://isplus.com/article/view/isp202611070397",
         "summary": "그룹 리센느가 ‘2026 KGMA’에서 ‘그랜드 아너스 초이스’를 수상하며 대세 걸그룹으로서 존재감을 입증했다.리센느는 7일 서울 구로구...",
         "image": "https://isplus.com/data/isp/image/2026/11/07/isp20261107000406.800x.0.jpg"
-    },
-    {
-        "title": "[AI 신곡] 투어스·리센느·피원하모니까지…11월 첫째 주 신곡 - 뉴스핌",
-        "source": "뉴스핌",
-        "date": "2026-11-07",
-        "url": "https://www.newspim.com/news/view/20261106000755",
-        "summary": "*AI를 활용해 정리한 신곡들입니다. 상단의 'AI MY 뉴스' 로그인을 통해 뉴스핌의 차세대 AI 콘텐츠 서비스를 활용해보기 바랍니다.[서울=뉴스핌] 이지은 기자 = 2026년 11월 첫 주에는 신인부터 중견 그룹까지 다양한 아티스트가 동시다발적으로 컴백했다",
-        "image": "https://img.newspim.com/news/2026/11/05/2611050802435970_774_tc.jpg"
     },
     {
         "title": "리센느, ‘2026 KGMA’서 4관왕 쾌거 - BNT뉴스",
@@ -384,6 +409,22 @@ const NEWS_DATA = [
         "image": "https://image.starnewskorea.com/21/2026/11/2026110808483478110_1.jpg"
     },
     {
+        "title": "[AI 신곡] 투어스·리센느·피원하모니까지…11월 첫째 주 신곡 - 뉴스핌",
+        "source": "뉴스핌",
+        "date": "2026-11-07",
+        "url": "https://www.newspim.com/news/view/20261106000755",
+        "summary": "*AI를 활용해 정리한 신곡들입니다. 상단의 'AI MY 뉴스' 로그인을 통해 뉴스핌의 차세대 AI 콘텐츠 서비스를 활용해보기 바랍니다.[서울=뉴스핌] 이지은 기자 = 2026년 11월 첫 주에는 신인부터 중견 그룹까지 다양한 아티스트가 동시다발적으로 컴백했다",
+        "image": "https://img.newspim.com/news/2026/11/05/2611050802435970_774_tc.jpg"
+    },
+    {
+        "title": "리센느 컴백 열기 성수동으로…미니 4집 ‘PULSE’ 팝업스토어 10일까지 운영 - 뉴스탭",
+        "source": "뉴스탭",
+        "date": "2026-11-07",
+        "url": "https://www.newstap.co.kr/news/articleView.html?idxno=337371",
+        "summary": "걸그룹 리센느(RESCENE)가 네 번째 미니앨범 ‘PULSE(펄스)’ 발매를 기념해 서울 성수동에서 특별한 팝업스토어를 선보인다. 신곡을 감상하는 청음 공간부터",
+        "image": "https://cdn.newstap.co.kr/news/photo/202611/337371_448243_1258.jpg"
+    },
+    {
         "title": "유재석, 리센느 미나미 한국어 실력 감탄…“허경환보다 말 잘해” - 동아일보",
         "source": "동아일보",
         "date": "2026-11-07",
@@ -400,20 +441,44 @@ const NEWS_DATA = [
         "image": "https://img.etnews.com/news/article/2026/11/08/article_08082105193839.jpg"
     },
     {
-        "title": "리센느 컴백 열기 성수동으로…미니 4집 ‘PULSE’ 팝업스토어 10일까지 운영 - 뉴스탭",
-        "source": "뉴스탭",
+        "title": "리센느, ‘2026 KGMA’서 그랜드 아너스 초이스 포함 4관왕 - 톱스타뉴스",
+        "source": "톱스타뉴스",
         "date": "2026-11-07",
-        "url": "https://www.newstap.co.kr/news/articleView.html?idxno=337371",
-        "summary": "걸그룹 리센느(RESCENE)가 네 번째 미니앨범 ‘PULSE(펄스)’ 발매를 기념해 서울 성수동에서 특별한 팝업스토어를 선보인다. 신곡을 감상하는 청음 공간부터",
-        "image": "https://cdn.newstap.co.kr/news/photo/202611/337371_448243_1258.jpg"
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16270994",
+        "summary": "리센느가 7일 서울 고척스카이돔에서 열린 ‘2026 코리아 그랜드 뮤직 어워즈’에서 최고 영예상인 ‘그랜드 아너스 초이스’를 비롯해 4관왕을 차지했다. 리더 원이는 데뷔 후 첫 시상식 MC와 솔로 무대를 선보였다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202611/16270994_2081067_96_crop.jpg"
     },
     {
-        "title": "\"리센느 가능성 믿었다\" 이주헌 더뮤즈엔터 대표, 프로듀서상 수상[2026 KGMA] - 이데일리",
-        "source": "이데일리",
+        "title": "[HD포토] 리센느 원이, ‘힙합 파이리’ (2026 KGMA) - 톱스타뉴스",
+        "source": "톱스타뉴스",
         "date": "2026-11-07",
-        "url": "https://www.edaily.co.kr/News/Read?newsId=03749046645643424&mediaCodeNo=257",
-        "summary": "그룹 리센느를 키워낸 이주헌 더뮤즈엔터테인먼트 대표가 ‘2026 코리아 그랜드 뮤직어워즈’(2026 KGMA)에서 ‘베스트 프로듀서’ 상을 받았다. ‘2026 코리아 그랜드 뮤직 어워즈’(2026 KGMA) 첫날 아티스트 데이가 7일 오후 서울 구로구 고척스카이돔에...",
-        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26110700969.jpg"
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16270901",
+        "summary": "리센느 원이가 11월 7일 서울 고척스카이돔에서 열린 '2026 코리아 그랜드 뮤직 어워즈'에 참석해 무대를 선보이며, 다양한 K팝 아티스트들과 함께 시상식의 첫날을 빛냈다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202611/16270901_2080951_4852_crop.jpg"
+    },
+    {
+        "title": "유재석, 리센느 미나미 한국어 실력에 감탄 \"허경환보다 말 잘해\"[놀뭐] - 스타뉴스",
+        "source": "스타뉴스",
+        "date": "2026-11-07",
+        "url": "https://www.starnewskorea.com/broadcast-show/2026/11/07/2026110719364493205",
+        "summary": "그룹 리센느 멤버 미나미가 유창한 한국어 실력으로 방송인 유재석의 극찬을 받았다. 7일 방송된 MBC 예능 프로그램 '놀면 뭐하니?'에서는 '95 서울가요제' 합격자 18인의 정체가 공개됐다. 이날 리센느 미나미는 코미디언 유영우, 곽범과 함께 '난 멈추지 않는다'를 선곡해 무대를 꾸몄",
+        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=2636,fit=cover,q=high,sharpen=2/21/2026/11/2026110719364493205_1.jpg"
+    },
+    {
+        "title": "영케이·트레저·리센느·앤더블, '최고 영예' 그랜드상 품어[2026 KGMA](종합) - 이데일리TV",
+        "source": "이데일리TV",
+        "date": "2026-11-07",
+        "url": "https://tv.edaily.co.kr/News/NewsRead?NewsId=03781846645643424&Kind=257",
+        "summary": "[이데일리 김현식 기자] 올 한 해 K팝계를 뜨겁게 달군 밴드 데이식스의 영케이, 그룹 트레저, 리센느, 앤더블이 ‘2026 KGMA’에서 최고 영예를 안았다.‘2026 코리아 그랜드 뮤직 어워즈’(2026 KGMA) 첫날 아티스...",
+        "image": "https://image.edaily.co.kr/images/photo/files/NP/S/2026/11/PS26110800373.jpg"
+    },
+    {
+        "title": "[포토]리센느,'빛나는 트로피 4개와 함께' - 일간스포츠",
+        "source": "일간스포츠",
+        "date": "2026-11-07",
+        "url": "https://isplus.com/article/view/isp202611070481",
+        "summary": "‘2026 코리아 그랜드 뮤직 어워즈’(2026 KGMA) 첫날 아티스트 데이가 7일 오후 서울 구로구 고척스카이돔에서 펼쳐졌다. 그랜드 아너스 초이스, 베스트 ...",
+        "image": "https://isplus.com/data/isp/image/2026/11/07/isp20261107000487.800x.0.jpg"
     },
     {
         "title": "리센느, ‘백화요란’의 섹시미→’위드’의 벅찬 여운 [2026 KGMA] - 일간스포츠",
@@ -432,14 +497,6 @@ const NEWS_DATA = [
         "image": "https://isplus.com/data/isp/image/2026/11/07/isp20261107000431.800x.0.jpg"
     },
     {
-        "title": "[포토]'4관왕' 리센느와 '베스트 프로듀서' 이주헌 대표 - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-11-07",
-        "url": "https://isplus.com/article/view/isp202611070478",
-        "summary": "‘2026 코리아 그랜드 뮤직 어워즈’(2026 KGMA) 첫날 아티스트 데이가 7일 오후 서울 구로구 고척스카이돔에서 펼쳐졌다. 그랜드 아너스 초이스, 베스트 ...",
-        "image": "https://isplus.com/data/isp/image/2026/11/07/isp20261107000484.800x.0.jpg"
-    },
-    {
         "title": "리센느, ‘베스트 메모리’ 수상…”고윤정에게 받아 뜻깊어, 리마인 고마워” [2026 KGMA] - 일간스포츠",
         "source": "일간스포츠",
         "date": "2026-11-07",
@@ -454,22 +511,6 @@ const NEWS_DATA = [
         "url": "https://isplus.com/article/view/isp202611070038",
         "summary": "그룹 리센느가 2026 KGMA 베리즈 글로벌 팬 초이스를 수상했다.7일 오후 서울 구로구 고척스카이돔에서 ‘2026 코리아 그랜드 뮤직어워즈’(2026 KG...",
         "image": "https://isplus.com/data/isp/image/2026/11/07/isp20261107000357.800x.0.jpg"
-    },
-    {
-        "title": "유영우, 리센느 신곡 즉석 열창... 이선민과 유쾌한 시상 [2026 KGMA] - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-11-07",
-        "url": "https://isplus.com/article/view/isp202611070189",
-        "summary": "코미디언 유영우가 시상 도중 깜짝 노래 실력을 뽐내며 고척돔을 들썩이게 했다.7일 오후 서울 구로구 고척스카이돔에서 ‘2026 코리아 그랜드 뮤직...",
-        "image": "https://isplus.com/data/isp/image/2026/11/07/isp20261107000240.800x.0.jpg"
-    },
-    {
-        "title": "리센느, '베스트 메모리' 수상…\"우리만의 향기로 오래 기억되고파\"[2026 KGMA] - 이데일리",
-        "source": "이데일리",
-        "date": "2026-11-07",
-        "url": "https://www.edaily.co.kr/News/Read?newsId=03745766645643424&mediaCodeNo=257",
-        "summary": "그룹 리센느가 ‘2026 코리아 그랜드 뮤직어워즈’(2026 KGMA)에서 ‘베스트 메모리’ 트로피를 받았다. ‘2026 코리아 그랜드 뮤직 어워즈’(2026 KGMA) 첫날 아티스트 데이가 7일 오후 서울 구로구 고척스카이돔에서 펼쳐졌다. 리센느가 수상 소감을 말...",
-        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26110700968.jpg"
     },
     {
         "title": "[포토] 리센느 원이, 첫 MC 데뷔는 KGMA에서 - 일간스포츠",
@@ -488,20 +529,12 @@ const NEWS_DATA = [
         "image": "https://isplus.com/data/isp/image/2026/11/07/isp20261107000373.800x.0.jpg"
     },
     {
-        "title": "리센느, '베리즈 글로벌 팬 초이스'까지 수상…2관왕 올라[2026 KGMA] - 이데일리",
-        "source": "이데일리",
+        "title": "유영우, 리센느 신곡 즉석 열창... 이선민과 유쾌한 시상 [2026 KGMA] - 일간스포츠",
+        "source": "일간스포츠",
         "date": "2026-11-07",
-        "url": "https://www.edaily.co.kr/News/Read?newsId=03729366645643424&mediaCodeNo=257",
-        "summary": "그룹 리센느가 ‘2026 코리아 그랜드 뮤직어워즈’(2026 KGMA)에서 ‘베리즈 글로벌 팬 초이스’ 상을 받았다. ‘2026 코리아 그랜드 뮤직 어워즈’(2026 KGMA) 첫날 아티스트 데이가 7일 오후 서울 구로구 고척스카이돔에서 펼쳐졌다. 리센느가 수상 소...",
-        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26110700958.jpg"
-    },
-    {
-        "title": "영케이·트레저·리센느·앤더블, '최고 영예' 그랜드상 품어[2026 KGMA](종합) - 이데일리",
-        "source": "이데일리",
-        "date": "2026-11-07",
-        "url": "https://www.edaily.co.kr/News/Read?newsId=03781846645643424&mediaCodeNo=257",
-        "summary": "올 한 해 K팝계를 뜨겁게 달군 밴드 데이식스의 영케이, 그룹 트레저, 리센느, 앤더블이 ‘2026 KGMA’에서 최고 영예를 안았다. ‘2026 코리아 그랜드 뮤직 어워즈’(2026 KGMA) 첫날 아티스트 데이가 7일 오후 서울 구로구 고척스카이돔에서 펼쳐졌다....",
-        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26110800361.jpg"
+        "url": "https://isplus.com/article/view/isp202611070189",
+        "summary": "코미디언 유영우가 시상 도중 깜짝 노래 실력을 뽐내며 고척돔을 들썩이게 했다.7일 오후 서울 구로구 고척스카이돔에서 ‘2026 코리아 그랜드 뮤직...",
+        "image": "https://isplus.com/data/isp/image/2026/11/07/isp20261107000240.800x.0.jpg"
     },
     {
         "title": "[영상] 남지현X리센느 원이, ‘비주얼부터 케미까지 완벽’…KGMA 아티스트 데이 MC 맡았어요! - 일간스포츠",
@@ -512,28 +545,12 @@ const NEWS_DATA = [
         "image": "https://isplus.com/data/isp/image/2026/11/08/isp20261108000019.800x.0.jpg"
     },
     {
-        "title": "리센느, '그랜드 아너스 초이스' 영예…\"항상 성장하는 팀 될 것\"[2026 KGMA] - 이데일리",
+        "title": "리센느, '베스트 메모리' 수상…\"우리만의 향기로 오래 기억되고파\"[2026 KGMA] - 이데일리",
         "source": "이데일리",
         "date": "2026-11-07",
-        "url": "https://www.edaily.co.kr/News/Read?newsId=03765446645643424&mediaCodeNo=257",
-        "summary": "그룹 리센느가 ‘2026 코리아 그랜드 뮤직어워즈’(2026 KGMA)에서 최고 영예상 중 하나인 ‘그랜드 아너스 초이스’ 트로피를 품었다. ‘2026 코리아 그랜드 뮤직 어워즈’(2026 KGMA) 첫날 아티스트 데이가 7일 오후 서울 구로구 고척스카이돔에서 펼...",
-        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26110700975.jpg"
-    },
-    {
-        "title": "유영우, 시상하러 와서 리센느 ‘위드’ 열창… 웃음·감동 선사[2026 KGMA] - 이데일리",
-        "source": "이데일리",
-        "date": "2026-11-07",
-        "url": "https://www.edaily.co.kr/News/Read?newsId=03673606645643424&mediaCodeNo=257",
-        "summary": "코미디언 유영우가 시상하러 오른 무대에서 리센느의 신곡을 열창하며 고척돔에 웃음과 환호를 더했다. 코미디언 유영우(오른쪽)가 7일 서울 구로구 고척스카이돔에서 열린 ‘2026 코리아 그랜드 뮤직 어워즈’(2026 KGMA) 첫날 아티스트 데이에서 시상자로 나선 가운...",
-        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26110700938.jpg"
-    },
-    {
-        "title": "영케이·트레저·리센느·앤더블, '최고 영예' 그랜드상 품어[2026 KGMA](종합) - 이데일리TV",
-        "source": "이데일리TV",
-        "date": "2026-11-07",
-        "url": "https://tv.edaily.co.kr/News/NewsRead?NewsId=03781846645643424&Kind=257",
-        "summary": "[이데일리 김현식 기자] 올 한 해 K팝계를 뜨겁게 달군 밴드 데이식스의 영케이, 그룹 트레저, 리센느, 앤더블이 ‘2026 KGMA’에서 최고 영예를 안았다.‘2026 코리아 그랜드 뮤직 어워즈’(2026 KGMA) 첫날 아티스...",
-        "image": "https://image.edaily.co.kr/images/photo/files/NP/S/2026/11/PS26110800373.jpg"
+        "url": "https://www.edaily.co.kr/News/Read?newsId=03745766645643424&mediaCodeNo=257",
+        "summary": "그룹 리센느가 ‘2026 코리아 그랜드 뮤직어워즈’(2026 KGMA)에서 ‘베스트 메모리’ 트로피를 받았다. ‘2026 코리아 그랜드 뮤직 어워즈’(2026 KGMA) 첫날 아티스트 데이가 7일 오후 서울 구로구 고척스카이돔에서 펼쳐졌다. 리센느가 수상 소감을 말...",
+        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26110700968.jpg"
     },
     {
         "title": "리센느, 블랙 의상 ‘스타로드’ 시크함으로 물들였다 [2026 KGMA] - 일간스포츠",
@@ -542,62 +559,6 @@ const NEWS_DATA = [
         "url": "https://isplus.com/article/view/isp202611070057",
         "summary": "그룹 리센느가 2026 KGMA 스타로드 스타트를 끊었다.7일 오후 서울 구로구 고척스카이돔에서 ‘2026 코리아 그랜드 뮤직어워즈’(2026 KGMA)가 열...",
         "image": "https://isplus.com/data/isp/image/2026/11/07/isp20261107000060.800x.0.jpg"
-    },
-    {
-        "title": "[포토]이선민 유영우, 리센느와 시상식 해후 - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-11-07",
-        "url": "https://isplus.com/article/view/isp202611070221",
-        "summary": "‘2026 코리아 그랜드 뮤직 어워즈’(2026 KGMA) 첫날 아티스트 데이가 7일 오후 서울 구로구 고척스카이돔에서 펼쳐졌다. 이선민, 유영우가 시상자로 나...",
-        "image": "https://isplus.com/data/isp/image/2026/11/07/isp20261107000245.800x.0.jpg"
-    },
-    {
-        "title": "리센느 원이, ‘아틀란티스 소녀’로 뜨겁게 포문 열었다 [2026 KGMA] - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-11-07",
-        "url": "https://isplus.com/article/view/isp202611070114",
-        "summary": "그룹 리센느 원이가 솔로 무대로 ‘2026 코리아 그랜드 뮤직어워즈’의 포문을 열었다.7일 오후 서울 구로구 고척스카이돔에서 ‘2026 코리아 ...",
-        "image": "https://isplus.com/data/isp/image/2026/11/07/isp20261107000125.800x.0.jpg"
-    },
-    {
-        "title": "유재석, 리센느 미나미 한국어 실력에 감탄 \"허경환보다 말 잘해\"[놀뭐] - 스타뉴스",
-        "source": "스타뉴스",
-        "date": "2026-11-07",
-        "url": "https://www.starnewskorea.com/broadcast-show/2026/11/07/2026110719364493205",
-        "summary": "그룹 리센느 멤버 미나미가 유창한 한국어 실력으로 방송인 유재석의 극찬을 받았다. 7일 방송된 MBC 예능 프로그램 '놀면 뭐하니?'에서는 '95 서울가요제' 합격자 18인의 정체가 공개됐다. 이날 리센느 미나미는 코미디언 유영우, 곽범과 함께 '난 멈추지 않는다'를 선곡해 무대를 꾸몄",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=2636,fit=cover,q=high,sharpen=2/21/2026/11/2026110719364493205_1.jpg"
-    },
-    {
-        "title": "남지현·리센느 원이, ‘2026 KGMA’ MC 호흡…”함께 해 기뻐, 열심히 할 것” [2026 KGMA] - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-11-07",
-        "url": "https://isplus.com/article/view/isp202611070051",
-        "summary": "배우 남지현과 리센느 원이가 ‘2026 KGMA’ MC로 활약한다.7일 오후 서울 구로구 고척스카이돔에서 ‘2026 코리아 그랜드 뮤직어워즈&rsq...",
-        "image": "https://isplus.com/data/isp/image/2026/11/07/isp20261107000059.800x.0.jpg"
-    },
-    {
-        "title": "리센느, ‘삼촌’ 이선민·유영우가 건넨 ‘베스트 아티스트’…“자리 걸맞은 그룹 될 것” [2026 KGMA] - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-11-07",
-        "url": "https://isplus.com/article/view/isp202611070207",
-        "summary": "그룹 리센느가 2026 KGMA에서 베스트 아티스트 상을 품엇다.7일 오후 서울 구로구 고척스카이돔에서 ‘2026 코리아 그랜드 뮤직어워즈’(‘20...",
-        "image": "https://isplus.com/data/isp/image/2026/11/07/isp20261107000245.800x.0.jpg"
-    },
-    {
-        "title": "리센느 제나, 고윤정과 오늘(7일) KGMA서 만난다…”쇼케이스 후 예쁘다고” [IS하이컷] - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-11-07",
-        "url": "https://isplus.com/article/view/isp202611070017",
-        "summary": "그룹 리센느 제나가 배우 고윤정과의 만남을 예고했다.제나는 지난 6일 팬 소통 플랫폼을 통해 “윤정 언니 인스타. ‘위드’ 올려줬잖아. 쇼...",
-        "image": "https://isplus.com/data/isp/image/2026/11/07/isp20261107000017.800x.0.jpeg"
-    },
-    {
-        "title": "리센느 미나미, 2026 KGMA 앞두고 “무대 엄청 커…열심히 준비 중” - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-11-07",
-        "url": "https://isplus.com/article/view/isp202611070020",
-        "summary": "그룹 리센느 미나미가 ‘2026 코리아 그랜드 뮤직 어워즈’ 무대를 앞두고 기대감을 드러냈다.미나미는 7일 팬 소통 플랫폼을 통해 “오늘 무...",
-        "image": "https://isplus.com/data/isp/image/2026/11/03/isp20261103000276.800x.0.jpg"
     },
     {
         "title": "[더차트] '국민 걸그룹' 리센느 압도적 1위…'이수만 신인'도 돌풍 - 머니투데이 - 머니투데이",
@@ -614,6 +575,14 @@ const NEWS_DATA = [
         "url": "https://zdnet.co.kr/view/?no=20261106135718",
         "summary": "하이브로가 모바일 수집형 RPG '드래곤빌리지3' 서비스 0.5주년을 맞아 걸그룹 '리센느'와 협업을 진행한다.하이브로(대표 원세연)는 '드래곤빌리지3'의 서비스 0.5주년을 기념해 걸그룹 '리센느'를 전속 모델로 발탁...",
         "image": "https://image.zdnet.co.kr/2026/11/06/eaf974f3915e405f9f22ba409f0abc0e.png"
+    },
+    {
+        "title": "리센느 ‘PULSE’, 실시간 초동 40만 장 돌파 눈앞…직전 앨범 3배 넘었다 - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-11-06",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16269831",
+        "summary": "리센느 ‘PULSE’가 5일까지 초동 28만 9,391장을 기록한 데 이어 6일 오후 1시 기준 10만 7,566장이 추가 판매됐다. 현재까지 확인되는 판매량은 39만 6,957장으로, 초동 40만 장 돌파를 눈앞에 두고 있다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202611/16269831_2079655_3010_crop.jpg"
     },
     {
         "title": "퇴근하자마자 가도 '텅텅'…중고가 95만원까지 뛴 '레어템' [덕질 경제학] - 한국경제",
@@ -648,12 +617,12 @@ const NEWS_DATA = [
         "image": "https://www.sentv.co.kr/data/sentv/image/2026/11/06/sentv20261106000135.png"
     },
     {
-        "title": "리센느 컴백, '밈의 대중성' 시대 - 미디어스",
-        "source": "미디어스",
+        "title": "리센느, '위드' 음악방송 첫선 - 스타뉴스",
+        "source": "스타뉴스",
         "date": "2026-11-06",
-        "url": "https://www.mediaus.co.kr/news/articleView.html?idxno=318863",
-        "summary": "[미디어스=윤광은 칼럼] 걸그룹 리센느의 컴백은 놀라운 숫자를 남겼다. 음원 발매 후 두 시간 만에 멜론 탑100 1위에 올랐다. 앨범 수록곡 5곡 전부를 10위 안에 밀어 넣었다. 멜론 탑100 20위 안에는 리센느가 이전에 발매해 ‘역주행’한 곡들을 포함해 리센느의 노래가 10곡이 ",
-        "image": "https://cdn.mediaus.co.kr/news/thumbnail/202611/318863_234309_1335_v150.jpg"
+        "url": "https://www.starnewskorea.com/music/2026/11/07/2026110708100257011",
+        "summary": "걸그룹 리센느(RESCENE·원이, 리브, 미나미, 메이, 제나)가 새 앨범 타이틀곡 음악방송 첫 무대를 성공적으로 마쳤다. 리센느는 11월 6일 방송된 KBS 2TV '뮤직뱅크'에 출연, 네 번째 미니 앨범 'PULSE'(펄스)의 타이틀곡 'With'(위드) 무대를 최초 공개했다. 이",
+        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=662,fit=cover,q=high,sharpen=2/21/2026/11/2026110708100257011_1.jpg"
     },
     {
         "title": "하이브로, '드래곤빌리지3' 서비스 0.5주년 기념 업데이트…리센느 콜라보 진행 - 전자신문",
@@ -664,20 +633,28 @@ const NEWS_DATA = [
         "image": "https://img.etnews.com/news/article/2026/11/06/news-p.v1.20261106.f81b1e78f7d64d3eb47e251189dc7837_P1.png"
     },
     {
-        "title": "리센느, '위드' 음악방송 첫선 - 스타뉴스",
-        "source": "스타뉴스",
-        "date": "2026-11-06",
-        "url": "https://www.starnewskorea.com/music/2026/11/07/2026110708100257011",
-        "summary": "걸그룹 리센느(RESCENE·원이, 리브, 미나미, 메이, 제나)가 새 앨범 타이틀곡 음악방송 첫 무대를 성공적으로 마쳤다. 리센느는 11월 6일 방송된 KBS 2TV '뮤직뱅크'에 출연, 네 번째 미니 앨범 'PULSE'(펄스)의 타이틀곡 'With'(위드) 무대를 최초 공개했다. 이",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=662,fit=cover,q=high,sharpen=2/21/2026/11/2026110708100257011_1.jpg"
-    },
-    {
         "title": "‘뮤직뱅크’ 리센느, 신곡 공개 - BNT뉴스",
         "source": "BNT뉴스",
         "date": "2026-11-06",
         "url": "https://www.bntnews.co.kr/article/view/bnt202611070044",
         "summary": "그룹 리센느(RESCENE)가 ‘뮤직뱅크’에서 신곡 ‘With’ 무대를 음악방송 최초로 공개했다. 다섯 멤버는 몽환적인 분위기와 조화로운 퍼포먼",
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/07/bnt202611070067.jpg"
+    },
+    {
+        "title": "리센느 컴백, '밈의 대중성' 시대 - 미디어스",
+        "source": "미디어스",
+        "date": "2026-11-06",
+        "url": "https://www.mediaus.co.kr/news/articleView.html?idxno=318863",
+        "summary": "[미디어스=윤광은 칼럼] 걸그룹 리센느의 컴백은 놀라운 숫자를 남겼다. 음원 발매 후 두 시간 만에 멜론 탑100 1위에 올랐다. 앨범 수록곡 5곡 전부를 10위 안에 밀어 넣었다. 멜론 탑100 20위 안에는 리센느가 이전에 발매해 ‘역주행’한 곡들을 포함해 리센느의 노래가 10곡이 ",
+        "image": "https://cdn.mediaus.co.kr/news/thumbnail/202611/318863_234309_1335_v150.jpg"
+    },
+    {
+        "title": "리센느, ‘뮤직뱅크’서 ‘With’ 첫 공개…네 번째 미니 앨범 활동 본격화 - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "date": "2026-11-06",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16270484",
+        "summary": "리센느가 KBS2 ‘뮤직뱅크’에서 네 번째 미니 앨범 ‘PULSE’ 타이틀곡 ‘With’ 무대를 처음 선보였다. 발매 직후 멜론 TOP100과 벅스, 지니 실시간 차트 1위를 기록한 가운데 7일 ‘2026 코리아 그랜드 뮤직 어워즈’ 출연도 예고됐다.",
+        "image": "https://cdn.topstarnews.net/news/photo/202611/16270484_2080372_951_crop.jpg"
     },
     {
         "title": "리센느 원이, “숨이 안 쉬어져” 무대 이탈…‘꽉 끼는 옷’이 부른 신체 경보 - 세계일보",
@@ -703,6 +680,30 @@ const NEWS_DATA = [
         "image": "https://images.khan.co.kr/article/2026/11/07/news-p.v1.20261107.d1fe6d4b69bc42d6b389e6ad07b70b4b_P1.jpg"
     },
     {
+        "title": "‘놀뭐’ M·터미네이터, 정체는 리센느 미나미·유영우? 깜짝 합동 무대 - 동아일보",
+        "source": "동아일보",
+        "date": "2026-11-06",
+        "url": "https://www.donga.com/news/Entertainment/article/all/20261106/134981151/1",
+        "summary": "‘놀면 뭐하니?’의 ‘95 서울가요제’에서 정체를 두고 추측이 쏟아졌던 ‘엠’(M)과 ‘터미네이터’가 깜짝 혼성 그룹을 결성한다.7일 오후 6시 30분 방송되는 MBC ‘놀면 뭐하니?’에서는 ‘95 서울가요제’ 합격자 18명의 정체가 공개된다. 이들은 1990년대 인…",
+        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/06/134981152.1.jpg"
+    },
+    {
+        "title": "'고윤정·전소영→션' 리센느, 의리 지원군 봤더니..인맥 美쳤다 [핫피플] - 미주중앙일보",
+        "source": "미주중앙일보",
+        "date": "2026-11-06",
+        "url": "https://www.koreadaily.com/article/20261105175533128",
+        "summary": "그룹 리센느(RESCENE)가 컴백한 가운데 이들과 인연을 맺었던 스타들의 든든한 지원이 이어지고 있다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 3일 네 번째 미니앨범 'PULSE(펄스)'를 발매하며 컴...",
+        "image": "https://www.koreadaily.com/data/photo/thumbnail/2026/11/06/a5d671de-632e-4b47-acd9-b0a61adc76be.jpg"
+    },
+    {
+        "title": "하이브로 '드래곤빌리지3', 리센느(RESCENE) 스페셜 콜라보...사전예약 시작 - 하이뉴스",
+        "source": "하이뉴스",
+        "date": "2026-11-06",
+        "url": "https://www.hinews.co.kr/view.php?ud=2026110615145881219284fa285d_48",
+        "summary": "하이브로가 모바일 수집형 RPG '드래곤빌리지3'의 서비스 0.5주년을 기념하는 스페셜 콜라보레이션을 오는 11월 19일 진행한다. 하이브로는 모바일 수집형 RPG '드래곤빌리지3'의 전속 모델로 걸그룹 '리센느(RESCENE)'를 발탁했으며, 콜라보레이션에 앞서 사전예약을 시작한다고",
+        "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202611061515460060509284fa285d1191931989.jpg&nmt=48"
+    },
+    {
         "title": "'스타뉴스룸' 리센느 멤버들이 꼽은 팀 내 액션 능력자 1위는? - YTN star",
         "source": "YTN star",
         "date": "2026-11-05",
@@ -719,11 +720,20 @@ const NEWS_DATA = [
         "image": "https://cdn.knnews.co.krhttps://www.youtube.com/embed/bQ5RkY4WCr8"
     },
     {
-        "title": "리센느(RESCENE)에 광고 안 맡기고 배겨?…대기업 홀린 '리센느노믹스' 효과 - 뉴스1",
-        "source": "뉴스1",
+        "title": "리센느, 오늘(6일) '뮤뱅' 출격 - 스타뉴스",
+        "source": "스타뉴스",
         "date": "2026-11-05",
-        "url": "https://www.news1.kr/videos/25328",
-        "summary": ""
+        "url": "https://www.starnewskorea.com/music/2026/11/06/2026110608085796568",
+        "summary": "리센느(RESCENE·원이, 리브, 미나미, 메이, 제나)가 신곡 'With'로 본격 음악방송 활동에 나선다. 리센느는 11월 6일 방송하는 KBS 2TV '뮤직뱅크'에 출연, 네 번째 미니 앨범 'PULSE'(펄스)의 타이틀곡 'With'(위드) 무대를 음악방송 최초로 공개한다. 타이",
+        "image": "https://image.starnewskorea.com/21/2026/11/2026110608085796568_1.jpg"
+    },
+    {
+        "title": "광고모델 브랜드평판 1위, 리센느가 차지했다 - 알파경제",
+        "source": "알파경제",
+        "date": "2026-11-05",
+        "url": "https://www.alphabiz.co.kr/news/articleView.html?idxno=196579",
+        "summary": "[알파경제 = 김단하 기자] 한국기업평판연구소가 2026년 11월 한 달간 5211만1457건의 광고모델 브랜드 빅데이터를 수집해 분석한 결과, 리센느(RESCE",
+        "image": "https://cdn.alphabiz.co.kr/news/photo/202611/196579_158928_1123.jpg"
     },
     {
         "title": "우리은행, 새 광고모델 걸그룹 리센느…'우리는 해' CM송 공개 - 연합뉴스",
@@ -750,20 +760,20 @@ const NEWS_DATA = [
         "image": "https://cdn.globale.co.kr/news/thumbnail/202610/41273_68646_643_v150.jpg"
     },
     {
-        "title": "‘거제야호’ 리센느, ‘연예인 1호’ 거제 명예시민 됐다 - 동아일보",
-        "source": "동아일보",
-        "date": "2026-10-26",
-        "url": "https://www.donga.com/news/Society/article/all/20261026/134908160/1",
-        "summary": "경남 거제시는 걸그룹 리센느(RESCENE)에 2026년 명예시민증을 수여했다고 26일 밝혔다.리센느는 제70호 거제시 명예시민으로 선정됐다.연예인이 거제시 명예시민증을 받은 것은 이번이 처음이다. 시는 리센느가 ‘거제야호’ 밈(Meme)과 거제 여행 유튜브 콘텐츠 …",
-        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/26/134908161.1.jpg"
-    },
-    {
         "title": "“너무 감사해서”…천막 치우고 팬들과 비 맞으며 노래한 리센느 - 세계일보",
         "source": "세계일보",
         "date": "2026-10-26",
         "url": "https://www.segye.com/newsView/20261026512917",
         "summary": "걸그룹 리센느가 비를 맞으며 자신들을 기다린 팬들을 위해 무대 앞 천막을 치우고 공연을 했다는 사연이 알려져 눈길을 끈다. 멤버들은 공연이 끝난 뒤에도 팬들에게 감사 인사를 전했다. 리센느는 지난 24일 경남 거제시 옥포 한화오션 오션플라자 사외주차장에서 열린 ‘거제 야호-! 리센느와 ",
         "image": "https://www.segye.com/content/image/2026/10/26/20261026514695.jpg"
+    },
+    {
+        "title": "‘거제야호’ 리센느, ‘연예인 1호’ 거제 명예시민 됐다 - 동아일보",
+        "source": "동아일보",
+        "date": "2026-10-26",
+        "url": "https://www.donga.com/news/Society/article/all/20261026/134908160/1",
+        "summary": "경남 거제시는 걸그룹 리센느(RESCENE)에 2026년 명예시민증을 수여했다고 26일 밝혔다.리센느는 제70호 거제시 명예시민으로 선정됐다.연예인이 거제시 명예시민증을 받은 것은 이번이 처음이다. 시는 리센느가 ‘거제야호’ 밈(Meme)과 거제 여행 유튜브 콘텐츠 …",
+        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/26/134908161.1.jpg"
     },
     {
         "title": "‘중소돌의 기적’ 리센느, 파워 확인할 진짜 시험대 - 동아일보",
@@ -788,13 +798,5 @@ const NEWS_DATA = [
         "url": "https://www.yna.co.kr/view/AKR20261023169900017",
         "summary": "(서울=연합뉴스) 박형빈 기자 = 삼성전자[005930]가 그룹 리센느와 갤럭시 Z 폴드8 협업 캠페인에 나선다.",
         "image": "https://img1.yna.co.kr/etc/inner/KR/2026/10/23/AKR20261023169900017_01_i_P4.jpg"
-    },
-    {
-        "title": "리센느 원이, 유튜브 예능 화제성 첫 조사 1위...압도적 존재감 - YTN",
-        "source": "YTN",
-        "date": "2026-10-23",
-        "url": "https://www.ytn.co.kr/_sn/0117_202610231038534310",
-        "summary": "걸그룹 리센느(RESCENE) 원이가 유튜브 예능 화제성 첫 조사에서 정상에 오르며 대세 인기를 입증했다. TV·OTT 중심이던 화제성 분석이 유튜브까지 확장된 가운데, 원이는 첫 조사부터 정상에 오르며 남다른 존재감을 과시했다. 새로운 화제성 경쟁의 출발점에서 1위를 차지했다는 점에서",
-        "image": "https://image.ytn.co.kr/general/jpg/2026/1023/202610231038534310_t.jpg"
     }
 ];
