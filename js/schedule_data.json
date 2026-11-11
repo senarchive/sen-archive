@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T13:25:38.346Z",
+  "updated": "2026-11-11T23:57:25.328Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -3997,6 +3997,22 @@
       "date": "2026-11-11",
       "time": "17:00",
       "title": "MBC M <쇼! 챔피언>",
+      "detail": "",
+      "type": "broadcast",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-11-12",
+      "time": "",
+      "title": "BIODANCE 대면 팬사인회",
+      "detail": "",
+      "type": "fansign",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "17:10",
+      "title": "KBS2 <뮤직뱅크>",
       "detail": "",
       "type": "broadcast",
       "source": "mnetplus"
