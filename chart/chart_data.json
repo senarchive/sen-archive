@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T05:53:19.454Z",
+  "updatedAt": "2026-11-12T14:41:11.319Z",
   "platforms": [
     "melon",
     "genie",
@@ -20,7 +20,7 @@
           "previousRank": 1
         },
         "genie": {
-          "rank": 3,
+          "rank": 2,
           "previousRank": 3
         },
         "vibe": {
@@ -28,12 +28,12 @@
           "previousRank": 5
         },
         "bugs": {
-          "rank": 3,
+          "rank": 5,
           "previousRank": 4
         },
         "flo": {
-          "rank": 4,
-          "previousRank": 4
+          "rank": 3,
+          "previousRank": 3
         },
         "youtube_music": {
           "rank": 4,
@@ -56,19 +56,19 @@
         },
         "genie": {
           "rank": 9,
-          "previousRank": 9
+          "previousRank": 8
         },
         "vibe": {
           "rank": 6,
           "previousRank": 6
         },
         "bugs": {
-          "rank": 9,
+          "rank": 14,
           "previousRank": 13
         },
         "flo": {
-          "rank": 12,
-          "previousRank": 12
+          "rank": 9,
+          "previousRank": 9
         },
         "youtube_music": {
           "rank": 8,
@@ -86,24 +86,24 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/118/75/116/11875116_20250701165641_500.jpg?86da3088c776a346e926b1b4052f227c/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 8,
-          "previousRank": 8
+          "rank": 7,
+          "previousRank": 7
         },
         "genie": {
-          "rank": 15,
-          "previousRank": 16
+          "rank": 25,
+          "previousRank": 17
         },
         "vibe": {
           "rank": 23,
           "previousRank": 24
         },
         "bugs": {
-          "rank": 25,
-          "previousRank": 23
+          "rank": 24,
+          "previousRank": 21
         },
         "flo": {
-          "rank": 24,
-          "previousRank": 26
+          "rank": 23,
+          "previousRank": 22
         },
         "youtube_music": {
           "rank": 17,
@@ -122,23 +122,23 @@
       "ranks": {
         "melon": {
           "rank": 10,
-          "previousRank": 11
+          "previousRank": 10
         },
         "genie": {
-          "rank": 21,
-          "previousRank": 17
+          "rank": 26,
+          "previousRank": 19
         },
         "vibe": {
           "rank": 17,
           "previousRank": 17
         },
         "bugs": {
-          "rank": 39,
-          "previousRank": 39
+          "rank": 27,
+          "previousRank": 45
         },
         "flo": {
-          "rank": 41,
-          "previousRank": 41
+          "rank": 26,
+          "previousRank": 26
         },
         "youtube_music": {
           "rank": 15,
@@ -147,6 +147,37 @@
         "spotify": {
           "rank": 17,
           "previousRank": 19
+        }
+      }
+    },
+    {
+      "songName": "Finest Thing",
+      "artistName": "RESCENE (리센느)",
+      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/150/82/293/15082293_20261026170443_500.jpg?4d6b5106b27f2c41c45ed4957be82cee/melon/resize/144/optimize/90",
+      "ranks": {
+        "melon": {
+          "rank": 12,
+          "previousRank": 14
+        },
+        "genie": {
+          "rank": 93,
+          "previousRank": 112
+        },
+        "bugs": {
+          "rank": 39,
+          "previousRank": 61
+        },
+        "flo": {
+          "rank": 96,
+          "previousRank": 95
+        },
+        "youtube_music": {
+          "rank": 65,
+          "previousRank": null
+        },
+        "spotify": {
+          "rank": 20,
+          "previousRank": 21
         }
       }
     },
@@ -160,20 +191,20 @@
           "previousRank": 5
         },
         "genie": {
-          "rank": 25,
-          "previousRank": 25
+          "rank": 21,
+          "previousRank": 16
         },
         "vibe": {
           "rank": 27,
           "previousRank": 27
         },
         "bugs": {
-          "rank": 13,
+          "rank": 10,
           "previousRank": 11
         },
         "flo": {
-          "rank": 19,
-          "previousRank": 19
+          "rank": 16,
+          "previousRank": 16
         }
       }
     },
@@ -183,16 +214,16 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/133/12/413/13312413_20260406143448_500.jpg?0d1b1aec895dbf60aa601748ddf64dd9/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 13,
-          "previousRank": 13
+          "rank": 11,
+          "previousRank": 12
         },
         "bugs": {
-          "rank": 92,
-          "previousRank": 60
+          "rank": 43,
+          "previousRank": 50
         },
         "flo": {
-          "rank": 93,
-          "previousRank": 93
+          "rank": 91,
+          "previousRank": 94
         },
         "youtube_music": {
           "rank": 50,
@@ -205,48 +236,21 @@
       }
     },
     {
-      "songName": "Finest Thing",
-      "artistName": "RESCENE (리센느)",
-      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/150/82/293/15082293_20261026170443_500.jpg?4d6b5106b27f2c41c45ed4957be82cee/melon/resize/144/optimize/90",
-      "ranks": {
-        "melon": {
-          "rank": 15,
-          "previousRank": 15
-        },
-        "bugs": {
-          "rank": 87,
-          "previousRank": 64
-        },
-        "flo": {
-          "rank": 87,
-          "previousRank": 87
-        },
-        "youtube_music": {
-          "rank": 65,
-          "previousRank": null
-        },
-        "spotify": {
-          "rank": 20,
-          "previousRank": 21
-        }
-      }
-    },
-    {
       "songName": "Pinball",
       "artistName": "RESCENE (리센느)",
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/115/75/849/11575849_20240826152240_500.jpg?da43be78cb2cc67e9ee423c739bc09b6/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 18,
-          "previousRank": 18
+          "rank": 17,
+          "previousRank": 22
         },
         "bugs": {
-          "rank": 49,
-          "previousRank": 35
+          "rank": 42,
+          "previousRank": 81
         },
         "flo": {
-          "rank": 81,
-          "previousRank": 82
+          "rank": 79,
+          "previousRank": 79
         },
         "youtube_music": {
           "rank": 30,
@@ -259,17 +263,36 @@
       }
     },
     {
+      "songName": "MEME",
+      "artistName": "RESCENE (리센느)",
+      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/150/82/293/15082293_20261026170443_500.jpg?4d6b5106b27f2c41c45ed4957be82cee/melon/resize/144/optimize/90",
+      "ranks": {
+        "melon": {
+          "rank": 14,
+          "previousRank": 15
+        },
+        "bugs": {
+          "rank": 94,
+          "previousRank": 99
+        },
+        "spotify": {
+          "rank": 22,
+          "previousRank": 20
+        }
+      }
+    },
+    {
       "songName": "Dragon",
       "artistName": "RESCENE (리센느)",
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/150/82/293/15082293_20261026170443_500.jpg?4d6b5106b27f2c41c45ed4957be82cee/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 27,
-          "previousRank": 19
+          "rank": 16,
+          "previousRank": 17
         },
         "bugs": {
-          "rank": 95,
-          "previousRank": 72
+          "rank": 93,
+          "previousRank": 101
         },
         "spotify": {
           "rank": 18,
@@ -289,21 +312,6 @@
         "spotify": {
           "rank": 4,
           "previousRank": 4
-        }
-      }
-    },
-    {
-      "songName": "MEME",
-      "artistName": "RESCENE (리센느)",
-      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/150/82/293/15082293_20261026170443_500.jpg?4d6b5106b27f2c41c45ed4957be82cee/melon/resize/144/optimize/90",
-      "ranks": {
-        "melon": {
-          "rank": 22,
-          "previousRank": 16
-        },
-        "spotify": {
-          "rank": 22,
-          "previousRank": 20
         }
       }
     },
