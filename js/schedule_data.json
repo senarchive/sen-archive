@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T23:57:25.328Z",
+  "updated": "2026-11-12T05:57:58.066Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -4034,6 +4034,14 @@
       "source": "mnetplus"
     },
     {
+      "date": "2026-11-14",
+      "time": "10:00",
+      "title": "MBC <쇼음악중심> 사전 녹화",
+      "detail": "",
+      "type": "broadcast",
+      "source": "mnetplus"
+    },
+    {
       "date": "2026-11-20",
       "time": "",
       "title": "2026 MAMA AWARDS (OSAKA KYOCERA DOME)",
@@ -4144,6 +4152,14 @@
       "detail": "",
       "type": "notice",
       "source": "fan-schedule"
+    },
+    {
+      "date": "2026-12-24",
+      "time": "",
+      "title": "2026 SBS 가요대전",
+      "detail": "",
+      "type": "concert",
+      "source": "mnetplus"
     },
     {
       "date": "2027-01-16",
