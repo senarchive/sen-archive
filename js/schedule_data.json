@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T04:37:01.817Z",
+  "updated": "2026-11-14T12:51:38.131Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -4087,6 +4087,14 @@
       "title": "[PULSE] 대면/영상통화 팬사인회 by MAKESTAR",
       "detail": "",
       "type": "fansign",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "",
+      "title": "멜론 STAGE 99",
+      "detail": "",
+      "type": "concert",
       "source": "mnetplus"
     },
     {
