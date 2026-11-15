@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T04:57:25.340Z",
+  "updatedAt": "2026-11-15T12:34:20.495Z",
   "platforms": [
     "melon",
     "genie",
@@ -16,12 +16,12 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/150/82/293/15082293_20261026170443_500.jpg?4d6b5106b27f2c41c45ed4957be82cee/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 3,
+          "rank": 2,
           "previousRank": 3
         },
         "genie": {
-          "rank": 5,
-          "previousRank": 5
+          "rank": 3,
+          "previousRank": 3
         },
         "vibe": {
           "rank": 5,
@@ -29,15 +29,15 @@
         },
         "bugs": {
           "rank": 4,
-          "previousRank": 4
+          "previousRank": 3
         },
         "flo": {
-          "rank": 5,
-          "previousRank": 6
+          "rank": 3,
+          "previousRank": 3
         },
         "youtube_music": {
-          "rank": 4,
-          "previousRank": null
+          "rank": 1,
+          "previousRank": 4
         },
         "spotify": {
           "rank": 3,
@@ -51,28 +51,28 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/115/75/849/11575849_20240826152240_500.jpg?da43be78cb2cc67e9ee423c739bc09b6/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 6,
-          "previousRank": 6
+          "rank": 5,
+          "previousRank": 5
         },
         "genie": {
-          "rank": 8,
-          "previousRank": 8
+          "rank": 7,
+          "previousRank": 7
         },
         "vibe": {
           "rank": 6,
           "previousRank": 6
         },
         "bugs": {
-          "rank": 14,
-          "previousRank": 12
+          "rank": 12,
+          "previousRank": 10
         },
         "flo": {
-          "rank": 12,
-          "previousRank": 14
+          "rank": 8,
+          "previousRank": 8
         },
         "youtube_music": {
-          "rank": 8,
-          "previousRank": 10
+          "rank": 11,
+          "previousRank": 8
         },
         "spotify": {
           "rank": 9,
@@ -90,7 +90,7 @@
           "previousRank": 9
         },
         "genie": {
-          "rank": 17,
+          "rank": 16,
           "previousRank": 16
         },
         "vibe": {
@@ -98,15 +98,15 @@
           "previousRank": 25
         },
         "bugs": {
-          "rank": 21,
-          "previousRank": 23
+          "rank": 25,
+          "previousRank": 20
         },
         "flo": {
-          "rank": 37,
-          "previousRank": 37
+          "rank": 22,
+          "previousRank": 22
         },
         "youtube_music": {
-          "rank": 17,
+          "rank": 18,
           "previousRank": 17
         },
         "spotify": {
@@ -133,15 +133,15 @@
           "previousRank": 17
         },
         "bugs": {
-          "rank": 29,
+          "rank": 32,
           "previousRank": 22
         },
         "flo": {
-          "rank": 38,
-          "previousRank": 38
+          "rank": 24,
+          "previousRank": 24
         },
         "youtube_music": {
-          "rank": 15,
+          "rank": 16,
           "previousRank": 15
         },
         "spotify": {
@@ -157,50 +157,23 @@
       "ranks": {
         "melon": {
           "rank": 7,
-          "previousRank": 7
+          "previousRank": 8
         },
         "genie": {
           "rank": 29,
-          "previousRank": 28
+          "previousRank": 31
         },
         "vibe": {
           "rank": 31,
           "previousRank": 32
         },
         "bugs": {
-          "rank": 12,
-          "previousRank": 11
+          "rank": 13,
+          "previousRank": 16
         },
         "flo": {
-          "rank": 36,
-          "previousRank": 36
-        }
-      }
-    },
-    {
-      "songName": "Runaway",
-      "artistName": "RESCENE (리센느)",
-      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/133/12/413/13312413_20260406143448_500.jpg?0d1b1aec895dbf60aa601748ddf64dd9/melon/resize/144/optimize/90",
-      "ranks": {
-        "melon": {
-          "rank": 15,
-          "previousRank": 15
-        },
-        "bugs": {
-          "rank": 77,
-          "previousRank": 68
-        },
-        "flo": {
-          "rank": 97,
-          "previousRank": 98
-        },
-        "youtube_music": {
-          "rank": 50,
-          "previousRank": null
-        },
-        "spotify": {
-          "rank": 35,
-          "previousRank": 36
+          "rank": 23,
+          "previousRank": 23
         }
       }
     },
@@ -210,24 +183,47 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/115/75/849/11575849_20240826152240_500.jpg?da43be78cb2cc67e9ee423c739bc09b6/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 32,
-          "previousRank": 23
+          "rank": 21,
+          "previousRank": 28
         },
         "bugs": {
-          "rank": 49,
-          "previousRank": 71
+          "rank": 40,
+          "previousRank": 51
         },
         "flo": {
           "rank": 82,
-          "previousRank": 82
+          "previousRank": 84
         },
         "youtube_music": {
-          "rank": 30,
-          "previousRank": 27
+          "rank": 31,
+          "previousRank": 30
         },
         "spotify": {
           "rank": 45,
           "previousRank": 43
+        }
+      }
+    },
+    {
+      "songName": "Runaway",
+      "artistName": "RESCENE (리센느)",
+      "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/133/12/413/13312413_20260406143448_500.jpg?0d1b1aec895dbf60aa601748ddf64dd9/melon/resize/144/optimize/90",
+      "ranks": {
+        "melon": {
+          "rank": 14,
+          "previousRank": 14
+        },
+        "bugs": {
+          "rank": 45,
+          "previousRank": 81
+        },
+        "flo": {
+          "rank": 97,
+          "previousRank": 97
+        },
+        "spotify": {
+          "rank": 35,
+          "previousRank": 36
         }
       }
     },
@@ -237,16 +233,16 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/150/82/293/15082293_20261026170443_500.jpg?4d6b5106b27f2c41c45ed4957be82cee/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 19,
-          "previousRank": 18
+          "rank": 17,
+          "previousRank": 19
         },
         "bugs": {
-          "rank": 63,
-          "previousRank": 80
+          "rank": 86,
+          "previousRank": 78
         },
         "youtube_music": {
-          "rank": 65,
-          "previousRank": null
+          "rank": 23,
+          "previousRank": 65
         },
         "spotify": {
           "rank": 37,
@@ -260,31 +256,20 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/150/82/293/15082293_20261026170443_500.jpg?4d6b5106b27f2c41c45ed4957be82cee/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 22,
-          "previousRank": 22
+          "rank": 20,
+          "previousRank": 21
         },
         "bugs": {
           "rank": 96,
-          "previousRank": 73
+          "previousRank": 100
+        },
+        "youtube_music": {
+          "rank": 37,
+          "previousRank": null
         },
         "spotify": {
           "rank": 34,
           "previousRank": 29
-        }
-      }
-    },
-    {
-      "songName": "Inside Out",
-      "artistName": "RESCENE",
-      "albumImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/df/b7/b3dfb7ba-715f-1f5a-5528-eb82acd5225a/888272191394_Cover.jpg/600x600bb.jpg",
-      "ranks": {
-        "youtube_music": {
-          "rank": 10,
-          "previousRank": null
-        },
-        "spotify": {
-          "rank": 5,
-          "previousRank": 5
         }
       }
     },
@@ -294,8 +279,12 @@
       "albumImageUrl": "https://cdnimg.melon.co.kr/cm2/album/images/150/82/293/15082293_20261026170443_500.jpg?4d6b5106b27f2c41c45ed4957be82cee/melon/resize/144/optimize/90",
       "ranks": {
         "melon": {
-          "rank": 28,
-          "previousRank": 26
+          "rank": 23,
+          "previousRank": 23
+        },
+        "youtube_music": {
+          "rank": 48,
+          "previousRank": null
         },
         "spotify": {
           "rank": 47,
@@ -304,13 +293,17 @@
       }
     },
     {
-      "songName": "Glow Up",
+      "songName": "Inside Out",
       "artistName": "RESCENE",
-      "albumImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/72/c9/b672c9d1-e8a1-4def-363e-dc0e86042761/cover_KM0020943_1.jpg/600x600bb.jpg",
+      "albumImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/df/b7/b3dfb7ba-715f-1f5a-5528-eb82acd5225a/888272191394_Cover.jpg/600x600bb.jpg",
       "ranks": {
         "youtube_music": {
-          "rank": 97,
-          "previousRank": null
+          "rank": 5,
+          "previousRank": 10
+        },
+        "spotify": {
+          "rank": 5,
+          "previousRank": 5
         }
       }
     }
