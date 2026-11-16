@@ -1,6 +1,148 @@
-/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-11-15T22:38:45.126Z) */
+/* ⭐️ RESCENE NEWS 데이터 — news_scraper.js 로 자동 생성됨 (2026-11-16T05:39:14.601Z) */
 
 const NEWS_DATA = [
+    {
+        "title": "리센느 빵 350만개 팔렸다…CU, 캐릭터 굿즈도 전국 판매 - 지디넷코리아",
+        "source": "지디넷코리아",
+        "date": "2026-11-16",
+        "url": "https://zdnet.co.kr/view/?no=20261116102437",
+        "summary": "CU가 걸그룹 리센느와의 협업을 빵과 도시락에서 캐릭터 굿즈로 넓힌다. 협업 빵 5종이 출시 약 두 달 만에 350만개 팔린 데 이어 팝업스토어에서 선보였던 굿즈를 전국 점포로 확대한다.CU는 오는 20일부터 리센느 멤버 리브와 메이를 본뜬 캐릭터 ‘리트와 메트’ 굿즈 27종을 전국 1",
+        "image": "https://image.zdnet.co.kr/2026/11/16/1bb2ba7620a5174fccbdfad46c450890.jpg"
+    },
+    {
+        "title": "리센느, Y2K 감성 물씬…파스텔 패딩+미니스커트 ‘러블리 힙’ - 스포츠경향",
+        "source": "스포츠경향",
+        "date": "2026-11-16",
+        "url": "https://sports.khan.co.kr/article/202611161026003",
+        "summary": "걸그룹 리센느(RESCENE)가 사랑스러움과 힙한 매력이 공존하는 윈터 스타일링을 선보였다. 프리미엄 스트리트 캐주얼 브랜드 MLB(엠엘비)는 리센느(리브, 미나미, 메이, 제나)와 함께한 26 겨울 캠페인 ‘...",
+        "image": "https://images.khan.co.kr/article/2026/11/16/news-p.v1.20261116.f4037bad63fc4d638a4fbce31a3eb9a1_P1.jpg"
+    },
+    {
+        "title": "할리우드, K팝과 손잡다…'듄: 파트 3'는 엔하이픈·'헥스'는 리센느 - 파이낸셜뉴스",
+        "source": "파이낸셜뉴스",
+        "date": "2026-11-16",
+        "url": "https://www.fnnews.com/news/202611160840319703",
+        "summary": "할리우드 영화가 K팝 그룹과 손잡고 관객을 만난다.'듄: 파트 3'는 엔하이픈과 음악 시상식에서 협업 무대를 선보이고, 디즈니 애니메이션 '헥스: 마녀왕국'은 리센느의 노래를 국내 개봉판 엔딩크레딧에 담는다.16일 워너브러더스코리아에 따르면 '듄: 파트 3'와…",
+        "image": "https://image.fnnews.com/resource/media/image/2026/11/11/202611111128132555_e.jpg"
+    },
+    {
+        "title": "리센느, ‘K탑스타’ 최고의 루키 4주 연속 정상…2026년 대세 행보ING - 매일경제",
+        "source": "매일경제",
+        "date": "2026-11-16",
+        "url": "https://www.mk.co.kr/news/entertain/12209821",
+        "summary": "그룹 리센느가 4주 연속 1위를 달성했다. K-POP의 현 상황을 알려주는 글로벌 K팝 투표사이트 ‘K탑스타’(KTOPSTAR)에 따르면 11월 9일부터 11월 15까지 집계된 123차 ‘최고의 루키(여)’ 부문에서 리센느가 1위에 등극했다. 2026년 최고의 대세로 떠오른 리센느는 K",
+        "image": "https://pimg.mk.co.kr/news/cms/202611/16/news-p.v1.20261116.265445a241a3402fa49f202029f432a2_R.png"
+    },
+    {
+        "title": "\"많아야 1시간 자\" 리센느 미나미, 스케줄 불참 … 소속사 \"컨디션 난조\" - 뉴데일리",
+        "source": "뉴데일리",
+        "date": "2026-11-16",
+        "url": "https://www.newdaily.co.kr/site/data/html/2026/11/16/2026111650192.html",
+        "summary": "하루 수면 시간이 많아야 1시간이라고 밝혔던 걸그룹 리센느(RESCENE)의 미나미가 컨디션 난조로 예정된 일정에 불참했다.소속사 더뮤즈엔터테인먼트는 15일 공식 입장문을 내고 미나미가 갑작스러운 컨디션 난조를 보여 이날 일정에 참석하지 못한다고 밝혔다. 소속사는 \"미나미가 다시 건강하",
+        "image": "https://image.newdaily.co.kr/site/data/img/2026/11/16/2026111650192_0.jpg?u=20261116140627?u=20261116140627"
+    },
+    {
+        "title": "“하루 1시간 잔다”던 리센느 미나미, 안타까운 근황…잠 부족하면 벌어지는 일 [라이프] - www.twig24.com",
+        "source": "www.twig24.com",
+        "date": "2026-11-16",
+        "url": "https://www.twig24.com/news/lifestyle/healthcare/2026/11/16/20261116500143",
+        "summary": "리센느 미나미가 갑작스러운 컨디션 난조로 예정된 일정에 불참했다. 최근 팬 소통에서 “하루에 많아야 1시간 잔다”고 털어놓은 사실이 다시 알려지며, 아이돌의 과도한 스케줄과 수면 부족 문제가 함께 주목받고 있다.",
+        "image": "https://img.seoul.co.kr//img/upload/2026/11/16/SSC_20261116132712.jpg.webp"
+    },
+    {
+        "title": "CU, 걸그룹 리센느 멤버 담은 '리트와 메트' 굿즈 27종 출시 - 전자신문",
+        "source": "전자신문",
+        "date": "2026-11-16",
+        "url": "https://www.etnews.com/20261116000075",
+        "summary": "BGF리테일이 운영하는 편의점 CU는 오는 20일부터 걸그룹 리센느 멤버 리브와 메이를 형상화한 캐릭터 '리트와 메트' 굿즈 27종을 전국 110여 점포에서 판매한다고 16일 밝혔다. 판매 점포에는 리센느 멤버들의 고향인 거제·경주·고양·수원 지역 매장이 포함된다. 멤버 원이의 유튜브 ",
+        "image": "https://img.etnews.com/news/article/2026/11/16/news-p.v1.20261116.eda538082f924da6a8a2dda7a24f2e01_P1.jpg"
+    },
+    {
+        "title": "CU, 리센느 캐릭터 굿즈 27종 출시…팬덤 마케팅 확대 - 매일일보",
+        "source": "매일일보",
+        "date": "2026-11-16",
+        "url": "https://www.m-i.kr/news/articleView.html?idxno=2018735",
+        "summary": "매일일보 = 강소슬 기자 | CU가 걸그룹 리센느(RESCENE) 멤버 리브와 메이를 형상화한 캐릭터 ‘리트와 메트’ 굿즈를 전국 매장에서 선보인다고 16일 밝혔",
+        "image": "https://cdn.m-i.kr/news/photo/202611/2018735_2019374_4526.jpg"
+    },
+    {
+        "title": "CU, 리센느 캐릭터 굿즈 27종 전국 판매…팝업 흥행에 유통망 확대 - 스마트경제",
+        "source": "스마트경제",
+        "date": "2026-11-16",
+        "url": "https://www.dailysmart.co.kr/news/articleView.html?idxno=132570",
+        "summary": "[스마트경제 권희진 기자] CU가 걸그룹 리센느(RESCENE)와 협업한 캐릭터 상품의 판매처를 전국으로 확대하며 K팝 팬덤을 겨냥한 마케팅을 강화한다.BGF리테",
+        "image": "https://cdn.dailysmart.co.kr/news/photo/202611/132570_131865_1825.jpg"
+    },
+    {
+        "title": "CU, 리센느 캐릭터 굿즈 ‘리트와 메트’ 상품 출시 - 파이낸셜투데이",
+        "source": "파이낸셜투데이",
+        "date": "2026-11-16",
+        "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=369790",
+        "summary": "CU가 걸그룹 리센느(RESCENE)의 멤버 리브와 메이를 형상화한 캐릭터 ‘리트와 메트’ 굿즈 상품을 출시한다고 16일 밝혔다.캐릭터 굿즈 판매는 오는 20일부터 리센느 멤버들의 고향인 거제, 경주, 고양, 수원을 비롯해 전국 110여 점포에서 진행된다. 특히 원이의 유튜브 채널(안",
+        "image": "https://cdn.ftoday.co.kr/news/thumbnail/202611/369790_379955_1058_v150.jpg"
+    },
+    {
+        "title": "\"CU 장사 잘하네\"···리센느 '리트와 메트' 굿즈 전국서 판다 - 캠페인 인사이트",
+        "source": "캠페인 인사이트",
+        "date": "2026-11-16",
+        "url": "https://www.campaigninsight.co.kr/news/articleView.html?idxno=7266",
+        "summary": "CU가 오는 20일부터 전국 110여 개 점포에서 걸그룹 리센느(RESCENE) 멤버 리브와 메이를 형상화한 캐릭터 ‘리트와 메트’ 굿즈 27종을 판매한다고 16",
+        "image": "https://cdn.campaigninsight.co.kr/news/photo/202611/7266_9694_1946.jpg"
+    },
+    {
+        "title": "빵 350만개 팔린 '리센느(RESCENE) 효과'…CU, 멤버 캐릭터 굿즈 27종 전국에 푼다 - 콕스뉴스",
+        "source": "콕스뉴스",
+        "date": "2026-11-16",
+        "url": "https://www.coxnews.co.kr/news/articleView.html?idxno=6749",
+        "summary": "걸그룹 리센느(RESCENE)는 편의점 CU의 대표 히트 모델이 됐다. 멤버들이 직접 개발에 참여한 컬래버 빵은 출시 두 달 만에 350만개 넘게 팔렸다. 하루",
+        "image": "https://cdn.coxnews.co.kr/news/photo/202611/6749_9658_2725.jpg"
+    },
+    {
+        "title": "MLB, 리센느와 커브 패딩 활용한 '러블리힙' 스타일 제안 - 어패럴뉴스",
+        "source": "어패럴뉴스",
+        "date": "2026-11-16",
+        "url": "http://www.apparelnews.co.kr/news/news_view/?cat=CAT115&idx=229004",
+        "summary": ""
+    },
+    {
+        "title": "리센느 원이 1위, 11월 걸그룹 개인 브랜드평판 정상..2위 장원영·3위 제나 - 브레이크뉴스",
+        "source": "브레이크뉴스",
+        "date": "2026-11-16",
+        "url": "http://www.breaknews.com/1251133",
+        "summary": ""
+    },
+    {
+        "title": "리센느, 'PULSE' 활동 성료…역주행 신화 넘어 '정주행 아이콘' 입증 - 조이뉴스24",
+        "source": "조이뉴스24",
+        "date": "2026-11-16",
+        "url": "https://www.joynews24.com/view/2026551",
+        "summary": "그룹 리센느가 지난 15일 SBS '인기가요' 무대를 끝으로 미니 4집 'PULSE'(펄스) 활동을 성황리에 마쳤다.리센느는 이번 활동에서 타이틀곡 'With'(위드)로 음악방송 4관왕을 달성하며 자체 최고 기록을 세웠다.특히 'With'가 발매 2시간 [조이뉴스24 정지원 기자] 그룹",
+        "image": "https://image.inews24.com/v1/c3ad8ab74fdffb.jpg"
+    },
+    {
+        "title": "CU, 리센느와 협업 확대…캐릭터 굿즈 전국 110여 점포 판매 - 스포츠서울",
+        "source": "스포츠서울",
+        "date": "2026-11-16",
+        "url": "https://www.sportsseoul.com/news/read/1650035",
+        "summary": "[스포츠서울 | 조선우 기자] CU가 오늘 20일부터 걸그룹 리센느(RESCENE)의 멤버 리브와 메이를 형상화한 캐릭터 ‘리트와 메트’ 굿즈를 전국 점포에서 판매한다고 16일 밝혔다. 이번 굿즈는 리센느 멤버들의 고향인 거제와 경주, 고양, 수원을 비롯해 전국 110여개 점포에서",
+        "image": "https://file.sportsseoul.com/news/cms/2026/11/16/news-p.v1.20261116.31ff0eec58b346b3a9bb01f38786a941_T1.jpg"
+    },
+    {
+        "title": "CU, 리센느와 만든 빵 350만 개 팔았다...이번엔 캐릭터 굿즈로 팬심 공략 - 이코노미사이언스",
+        "source": "이코노미사이언스",
+        "date": "2026-11-16",
+        "url": "https://www.e-science.co.kr/news/articleView.html?idxno=139809",
+        "summary": "| 이코노미사이언스 이윤수 기자 |CU가 걸그룹 리센느(RESCENE)와의 협업을 식품에서 캐릭터 상품으로 넓히며 팬덤 기반 상품 경쟁력을 강화하고 있다. 베이커",
+        "image": "https://cdn.e-science.co.kr/news/photo/202611/139809_72854_1826.jpg"
+    },
+    {
+        "title": "알디원·하투하·NCT WISH 출연 '숨바꼭질2', 누적 1억뷰 돌파…리센느 마지막 주자 - 싱글리스트",
+        "source": "싱글리스트",
+        "date": "2026-11-16",
+        "url": "https://www.slist.kr/news/articleView.html?idxno=782159",
+        "summary": "엠넷플러스 오리지널 예능 '숨바꼭질2'가 누적 콘텐츠 조회수 1억 회를 넘기며 시즌을 마무리한다.16일 CJ ENM에 따르면 '숨바꼭질2'는 한국을 포함한 전 세계 213개 지역에서 시청됐으며, 프로그램 관련 콘텐츠의 누적 조회수는 1억 회를 돌파했다.시즌2 공개 이후 엠넷플러스 신규 ",
+        "image": "https://cdn.slist.kr/news/thumbnail/202611/782159_1194528_48_v150.jpg"
+    },
     {
         "title": "“많아야 1시간 잔다”더니…‘리센느’ 미나미, 건강 이유로 스케줄 불참 - 동아일보",
         "source": "동아일보",
@@ -8,54 +150,6 @@ const NEWS_DATA = [
         "url": "https://www.donga.com/news/Culture/article/all/20261115/135027925/2",
         "summary": "걸그룹 리센느 멤버 미나미가 건강상의 이유로 예정된 스케줄에 불참했다.소속사 더뮤즈 엔터테인먼트는 15일 입장문을 내고 “미나미가 갑작스러운 컨디션 난조 증상을 보여 금일 스케줄에 참석하지 못하게 됐다”며 “갑작스러운 소식으로 팬 여러분께 심려를 끼쳐드린 점 너른 양…",
         "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/15/135027926.2.jpg"
-    },
-    {
-        "title": "아이돌 90%는 중소돌…리센느 나올 확률은 ’1.4%’ - 연합뉴스TV",
-        "source": "연합뉴스TV",
-        "date": "2026-11-15",
-        "url": "https://www.yonhapnewstv.co.kr/news/MYH20261115091055xGK",
-        "summary": "[앵커] 이른바 ’중소돌’ 리센느가 새 앨범까지 흥행시키며 대세 입지를 다지고 있습니다. 하지만 빛나는 성공 뒤편에 대형 기획사에 밀려 조용히 사라지는 많은 중소 아이돌의 현실이 존재하는데요. 화려한 K팝의 단면, 김태욱 기자가 살펴봤습니다. [기자] ’거제 야호’ 밈",
-        "image": "https://media.yonhapnewstv.co.kr/article/MYH/20261115/MYH20261115091055xGK.jpg"
-    },
-    {
-        "title": "리센느, 대세 걸그룹의 아찔한 각선미 [포토] - Chosunbiz",
-        "source": "Chosunbiz",
-        "date": "2026-11-15",
-        "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/15/MZSGEZJQMIZTEZBVGU4DGYRTGI/",
-        "summary": "리센느, 대세 걸그룹의 아찔한 각선미 포토",
-        "image": "https://biz.chosun.com/resizer/v2/GU3GGOBTMNRDQYJXGIYGKMDBMQ.jpg?auth=ffb5650eb3322386be164c118423e569b0cf23daeb984311671bc283cfb7c7ff&width=900&height=472&smart=true"
-    },
-    {
-        "title": "[TF초점] '억랩', K팝 필수 요소일까 저해 요소일까 - 더팩트",
-        "source": "더팩트",
-        "date": "2026-11-15",
-        "url": "https://news.tf.co.kr/read/entertain/2388776.htm",
-        "summary": "억랩 둘러싼 상반된 반응 커져 K팝의 주요 특징으로 인정하고 즐기는 추세 K팝 신에서 억랩이 새삼 화두다. 억랩은 억지 랩의 줄임말로, K팝에서 음악의 전체 흐름이나 분…",
-        "image": "https://img.tf.co.kr/article/home/2026/11/11/20264854179456522400.jpg"
-    },
-    {
-        "title": "리센느(RESCENE), 신곡 'With'로 '인기가요' 1위 등극… 음악방송 4관왕 달성 - 국제뉴스",
-        "source": "국제뉴스",
-        "date": "2026-11-15",
-        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3752483",
-        "summary": "그룹 리센느(RESCENE)가 신곡 'With'로 SBS '인기가요' 정상을 차지하며 압도적인 대세 행보를 이어갔다.15일 오후 방송된 SBS '인기가요' 제1331회에서는 리센느의 미니 4집 'PULSE(펄스)' 타이틀곡 'With'가 11월 셋째 주 1위 트로피의 주인공으로 호명됐다",
-        "image": "https://cdn.gukjenews.com/news/thumbnail/202611/3752483_3934737_5234_v150.jpg"
-    },
-    {
-        "title": "SBS 인기가요 : With - RESCENE (리센느) | SBS 261115 방송 - m.programs.sbs.co.kr",
-        "source": "m.programs.sbs.co.kr",
-        "date": "2026-11-15",
-        "url": "https://programs.sbs.co.kr/enter/gayo/clip/54768/OC483303849?div=live_end",
-        "summary": "SBS 온에어/VOD/클립영상 즐기기!",
-        "image": "https://img2.sbs.co.kr/ops_clip_img/2026/11/15/6b6ab22f-3f52-4d40-a1f6-8ddb6af16cc3416w640.jpg"
-    },
-    {
-        "title": "\"돈 안 돼\" 男팬들의 반란?…반전의 리센느, K팝 시장 통념 바꿀까[초점S] - SPOTV NEWS",
-        "source": "SPOTV NEWS",
-        "date": "2026-11-15",
-        "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019672",
-        "summary": "그룹 리센느(RESCENE)가 K팝 시장의 오랜 통념을 흔들고 있다. 음원과 음반을 넘나드는 흥행 돌풍의 중심에 30·40대 남성 팬덤이 자리하면서다.",
-        "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202611/1019672_2041274_7065.jpg"
     },
     {
         "title": "[빅데이터로본다] 걸그룹 개인 2026년 11월 브랜드평판... 1위 리센느 원이, 2위 아이브 장원영, 3위 리센느 제나 - 일간투데이",
@@ -66,28 +160,36 @@ const NEWS_DATA = [
         "image": "https://cdn.dtoday.co.kr/news/thumbnail/202611/803701_676765_5433_v150.jpg"
     },
     {
-        "title": "아이유 옆에 리센느···은행 광고 속 얼굴들 - 뉴스웨이",
-        "source": "뉴스웨이",
+        "title": "\"돈 안 돼\" 男팬들의 반란?…반전의 리센느, K팝 시장 통념 바꿀까[초점S] - SPOTV NEWS",
+        "source": "SPOTV NEWS",
         "date": "2026-11-15",
-        "url": "https://www.newsway.co.kr/news/view?ud=2026111314075319806",
-        "summary": "우리은행과 KB국민은행은 각각 걸그룹 리센느와 배우 박은빈을 광고 모델로 기용하며 소비자와의 친숙함을 높이고 있다. 우리은행은 리센느의 CM송을 통해 도전을 응원하는 메시지를 전달하고 있으며, KB국민은행은 퇴직연금의 필요성을 강조하고 있다. 5대 시중은행은 다양한 모델을 활용해 브랜드",
-        "image": "https://nimage.newsway.co.kr/photo/2026/11/13/20261113006803_1200.jpg"
+        "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019672",
+        "summary": "그룹 리센느(RESCENE)가 K팝 시장의 오랜 통념을 흔들고 있다. 음원과 음반을 넘나드는 흥행 돌풍의 중심에 30·40대 남성 팬덤이 자리하면서다.",
+        "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202611/1019672_2041274_7065.jpg"
     },
     {
-        "title": "CU, 리센느 캐릭터 ‘리트와 메트’ 굿즈 27종 출시 - 싱글리스트",
-        "source": "싱글리스트",
+        "title": "리센느 미나미, 스케줄 불참 “갑작스러운 컨디션 난조” - 동아일보",
+        "source": "동아일보",
         "date": "2026-11-15",
-        "url": "https://www.slist.kr/news/articleView.html?idxno=781983",
-        "summary": "편의점 CU가 그룹 리센느와 협업한 캐릭터 상품을 전국 매장으로 확대한다.CU는 오는 20일부터 전국 110여 개 점포에서 리센느 캐릭터 '리트'와 '메트'를 활용한 굿즈 27종을 판매한다고 밝혔다.판매 지역에는 리센느 멤버들의 고향인 거제와 경주, 고양, 수원 등이 포함된다. 특히 멤",
-        "image": "https://cdn.slist.kr/news/thumbnail/202611/781983_1194306_046_v150.jpg"
+        "url": "https://www.donga.com/news/Culture/article/all/20261115/135027825/1",
+        "summary": "신흥 국민 걸그룹 ‘리센느(RESCENE)’ 멤버 미나미가 건강상의 이유로 예정된 일정에 불참한다.소속사 더뮤즈엔터테인먼트는 15일 공식 소셜미디어에 “미나미가 갑작스러운 컨디션 난조 증상을 보여 금일 스케줄에 참석하지 못하게 됐다”고 밝혔다. 이어 “팬 여러분께 심…",
+        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/15/135027826.1.jpg"
     },
     {
-        "title": "리센느, ‘MMA2026’ 3관왕 - BNT뉴스",
-        "source": "BNT뉴스",
+        "title": "CU, 리센느 캐릭터 굿즈 27종 전국 110여개 점포서 판매 - 월요신문",
+        "source": "월요신문",
         "date": "2026-11-15",
-        "url": "https://www.bntnews.co.kr/article/view/bnt202611150026",
-        "summary": "‘국민 걸그룹’ 리센느(RESCENE)가 시상식 3관왕을 비롯해 음원과 음반, 음악방송에서 잇따라 성과를 거두며 상승세를 이어가고 있다.리센느(원이",
-        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/15/bnt202611150072.jpg"
+        "url": "https://www.wolyo.co.kr/news/articleView.html?idxno=320538",
+        "summary": "편의점 CU가 걸그룹 리센느(RESCENE) 멤버 리브와 메이를 형상화한 캐릭터 ‘리트와 메트’ 굿즈 27종을 전국 110여개 점포에서 판매한다고 16일 밝혔다.",
+        "image": "https://cdn.wolyo.co.kr/news/photo/202611/320538_229822_2953.jpg"
+    },
+    {
+        "title": "[오늘의신상]CU가 리센느 덕질 맛집으로…이번엔 캐릭터 굿즈 - 아시아경제",
+        "source": "아시아경제",
+        "date": "2026-11-15",
+        "url": "https://www.asiae.co.kr/article/2026111608414099558",
+        "summary": "CU는 이달 20일부터 그룹 리센느(RESCENE) 멤버 리브와 메이를 형상화한 캐릭터 '리트와 메트' 굿즈를 전국 110여 점포.",
+        "image": "https://cphoto.asiae.co.kr/listimglink/1/2026111608410499975_1794786065.jpg"
     },
     {
         "title": "리센느, ‘PULSE’ 활동 마무리…음방 4관왕 - BNT뉴스",
@@ -96,6 +198,86 @@ const NEWS_DATA = [
         "url": "https://www.bntnews.co.kr/article/view/bnt202611160042",
         "summary": "그룹 리센느(RESCENE)가 네 번째 미니앨범 ‘PULSE(펄스)’ 활동을 마무리했다. 타이틀곡 ‘With(위드)’로 음악방송 4관왕을 달성하고 음반 초",
         "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/16/bnt202611160078.jpg"
+    },
+    {
+        "title": "CU, 리센느 캐릭터 굿즈 전국 110여 점포로 확대 - 인사이트코리아",
+        "source": "인사이트코리아",
+        "date": "2026-11-15",
+        "url": "https://www.insightkorea.co.kr/news/articleView.html?idxno=258912",
+        "summary": "[인사이트코리아 = 이숙영 기자] CU가 K팝 팬덤을 겨냥한 아티스트 협업 상품을 확대하고 있다. 리센느(RESCENE)와 함께 선보인 베이커리 상품이 출시 약 2개월 만에 350만개 판매를 기록한 데 이어 이번에는 멤버 캐릭터를 활용한 굿즈를 전국 단위로 선보인다.이번 상품은 리센느",
+        "image": "https://cdn.insightkorea.co.kr/news/thumbnail/202611/258912_271823_4616_v150.jpg"
+    },
+    {
+        "title": "리센느, 음악방송 4관왕…‘역주행 신화’ 넘어 ‘정주행 아이콘’ 등극 - 매일경제",
+        "source": "매일경제",
+        "date": "2026-11-15",
+        "url": "https://www.mk.co.kr/news/musics/12209593",
+        "summary": "",
+        "image": "https://pimg.mk.co.kr/news/cms/202611/16/news-p.v1.20261116.2a4503e3446e4a649912722ff7397854_R.jpg"
+    },
+    {
+        "title": "CU, 리센느 캐릭터 굿즈 27종 전국 110여 매장서 판매 - 뉴스후플러스",
+        "source": "뉴스후플러스",
+        "date": "2026-11-15",
+        "url": "https://www.newswhoplus.com/news/articleView.html?idxno=74399",
+        "summary": "CU가 리센느(RESCENE)의 멤버 리브와 메이를 형상화한 캐릭터 ‘리트와 메트’ 굿즈 상품을 전국 판매에 나선다.캐릭터 굿즈 판매는 이달 20일부터 리센느 멤버들의 고향인 거제, 경주, 고양, 수원을 비롯해 전국 110여 점포에서 진행된다.특히 원이의 유튜브 채널(안녕하세요원이입니",
+        "image": "https://cdn.newswhoplus.com/news/thumbnail/202611/74399_113916_5935_v150.jpg"
+    },
+    {
+        "title": "CU, 리센느 굿즈 27종 전국 110여개 점포서 판매 - 뉴스핌",
+        "source": "뉴스핌",
+        "date": "2026-11-15",
+        "url": "https://www.newspim.com/news/view/20261116000063",
+        "summary": "[서울=뉴스핌] 김정인 기자 = BGF리테일이 운영하는 CU는 그룹 리센느 멤버 리브와 메이를 형상화한 '리트와 메트' 캐릭터 굿즈 27종을 전국 110여개 점포에서 판매한다고 16일 밝혔다.판매는 오는 20일부터 시작한다. 거제·경주·고양&m",
+        "image": "https://img.newspim.com/news/2026/11/16/2611160804415610_t1.jpg"
+    },
+    {
+        "title": "\"350만개 판매 신화\" CU, 리센느 '리트와 메트' 신상 굿즈 선봬 - 뉴시스",
+        "source": "뉴시스",
+        "date": "2026-11-15",
+        "url": "https://mobile.newsis.com/view.html?ar_id=NISX20261116_0003868935",
+        "summary": "전국 110여 점포서 '리트와 메트' 판매 27종 굿즈에 앨범도 마련…20일부터",
+        "image": "https://img1.newsis.com/2026/11/16/NISI20261116_0002292614_web.jpg"
+    },
+    {
+        "title": "리센느, ‘국민 걸그룹’ 칭호 속 미니 4집 활동 성료 - 일간스포츠",
+        "source": "일간스포츠",
+        "date": "2026-11-15",
+        "url": "https://isplus.com/article/view/isp202611160016",
+        "summary": "‘국민 걸그룹’ 리센느가 역대급 커리어 하이를 경신하며 미니 4집 ‘펄스’ 활동을 성공적으로 마쳤다.리센느(원이, 리브, 미나미, 메이,...",
+        "image": "https://isplus.com/data/isp/image/2026/11/16/isp20261116000016.800x.0.jpg"
+    },
+    {
+        "title": "[문화 이슈] 리센느, 미니 4집 ‘펄스’ 활동 성료…‘정주행 아이콘’ 우뚝 - 비욘드포스트",
+        "source": "비욘드포스트",
+        "date": "2026-11-15",
+        "url": "https://www.beyondpost.co.kr/view.php?ud=202611160811226053d3244b4fed_30",
+        "summary": "‘국민 걸그룹’ 리센느(RESCENE)가 역대급 커리어 하이를 경신하며 미니 4집 ‘PULSE’ 활동을 성공적으로 마쳤다.소속사 측은 16일 “리센느(원이, 리브, 미나미, 메이, 제나)가 지난 15일 오후 방송된 SBS ‘인기가요’를 끝으로 네 번째 미니 앨범 ‘PULSE(펄스)’ 활",
+        "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20261116081146066240d3244b4fed58141237106.jpg&nmt=30"
+    },
+    {
+        "title": "CU, '리센느 굿즈' 20일부터 판매…리트·메트 캐릭터 활용 - 중앙신문",
+        "source": "중앙신문",
+        "date": "2026-11-15",
+        "url": "https://www.jasm.co.kr/news/view/325392/CU-%EB%A6%AC%EC%84%BC%EB%8A%90-%EA%B5%BF%EC%A6%88-20%EC%9D%BC-%ED%8C%90%EB%A7%A4-%EB%A6%AC%ED%8A%B8-%EB%A9%94%ED%8A%B8-%EC%BA%90%EB%A6%AD%ED%84%B0-%ED%99%9C%EC%9A%A9-2026",
+        "summary": "편의점 CU는 전속 모델인 걸그룹 리센느 멤버를 캐릭터화한 '리트와 메트'의 굿즈(팬상품) 27종을 오는 20일부터 전국 110여 개 점포에서 판매한다고 16일 밝혔다.리트와 메트는 리센느 팬들이 멤버 리브와 메이를 기존 캐릭터인 '패트와 매트'에 빗대 부르는 것에서 착안해 만들어진 캐",
+        "image": "https://cdn.jasm.co.kr/news/photo/202611/news_1794786779_325392_m_1.jpg"
+    },
+    {
+        "title": "리센느, ‘PULSE’ 활동 마무리...‘With’로 음원·음반 다 잡았다 ‘커리어 하이’ - 매일경제",
+        "source": "매일경제",
+        "date": "2026-11-15",
+        "url": "https://www.mk.co.kr/news/entertain/12209581",
+        "summary": "그룹 리센느(RESCENE)가 미니 4집 ‘PULSE’(펄스)로 커리어하이를 경신하며 활동을 성료했다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 15일 방송된 SBS ‘인기가요’를 끝으로 미니 4집 ‘PULSE’의 공식 활동을 마무리했다. 이번 앨범의 타이틀곡 ‘With’(위",
+        "image": "https://pimg.mk.co.kr/news/cms/202611/16/news-p.v1.20261116.b6bd1d9eebd04041aebc1e0d55325090_R.png"
+    },
+    {
+        "title": "'편의점의 리센느 노믹스'…CU, 리트·메트 캐릭터 굿즈 내놨다 - 이데일리",
+        "source": "이데일리",
+        "date": "2026-11-15",
+        "url": "https://www.edaily.co.kr/News/Read?newsId=01407126645646376&mediaCodeNo=257",
+        "summary": "CU가 아이돌 리센느(RESCENE) 팬덤을 겨냥해 리센느빵에 이어 캐릭터 굿즈를 판매한다. 멤버들이 상품 개발에 참여한 빵이 출시 약 두 달 만에 350만개 넘게 팔린 가운데 음반과 인형, 액세서리 등으로 협업 상품군을 넓혀 팬덤 고객을 공략한다는 전략이다. CU...",
+        "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26111600175.jpg"
     },
     {
         "title": "리센느 미나미, 건강 이상으로 스케줄 불참 “컨디션 난조” - JTBC",
@@ -121,20 +303,28 @@ const NEWS_DATA = [
         "image": "https://cdn.bizwnews.com/news/thumbnail/202611/151752_169146_5010_v150.jpg"
     },
     {
-        "title": "리센느 미나미, 컨디션 난조로 스케줄 불참…소속사 “최선 다해 지원” - 메디컬투데이",
-        "source": "메디컬투데이",
+        "title": "리센느, ‘MMA2026’ 3관왕 - BNT뉴스",
+        "source": "BNT뉴스",
         "date": "2026-11-15",
-        "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=625323",
-        "summary": "[mdtoday = 김지성 기자] 어제(14일) 2026 멜론뮤직어워드(MMA)에서 리센느(RESCENE)가 3개 부문을 수상했다. 서울 고척스카이돔에서 개최한",
-        "image": "https://cdn.mdtoday.co.kr/news/photo/202611/625323_334390_518.jpg"
+        "url": "https://www.bntnews.co.kr/article/view/bnt202611150026",
+        "summary": "‘국민 걸그룹’ 리센느(RESCENE)가 시상식 3관왕을 비롯해 음원과 음반, 음악방송에서 잇따라 성과를 거두며 상승세를 이어가고 있다.리센느(원이",
+        "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/15/bnt202611150072.jpg"
     },
     {
-        "title": "[공식] “많아야 1시간 잔다”더니…리센느 미나미, 컨디션 난조로 스케줄 불참 - 스포츠경향",
-        "source": "스포츠경향",
+        "title": "리센느, 대세 걸그룹의 아찔한 각선미 [포토] - Chosunbiz",
+        "source": "Chosunbiz",
         "date": "2026-11-15",
-        "url": "https://sports.khan.co.kr/article/202611151328003",
-        "summary": "그룹 리센느(RESCENE) 멤버 미나미가 갑작스러운 컨디션 난조로 예정된 스케줄에 불참한다. 소속사 더뮤즈엔터테인먼트는 15일 공식 SNS를 통해 미나미의 건강 상태와 스케줄 관련 안내를 전했다. 소속사는 “...",
-        "image": "https://images.khan.co.kr/article/2026/11/15/news-p.v1.20261115.8a6bdde200d2469d8f0e4330cc04b369_P1.png"
+        "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/15/MZSGEZJQMIZTEZBVGU4DGYRTGI/",
+        "summary": "리센느, 대세 걸그룹의 아찔한 각선미 포토",
+        "image": "https://biz.chosun.com/resizer/v2/GU3GGOBTMNRDQYJXGIYGKMDBMQ.jpg?auth=ffb5650eb3322386be164c118423e569b0cf23daeb984311671bc283cfb7c7ff&width=900&height=472&smart=true"
+    },
+    {
+        "title": "CU, 걸그룹 리센느 캐릭터 굿즈 27종 출시 : 연예 - 재경일보",
+        "source": "재경일보",
+        "date": "2026-11-15",
+        "url": "https://news.jkn.co.kr/post/1097104",
+        "summary": "CU는 전속 모델인 걸그룹 리센느를 활용한 리트와 메트 캐릭터 굿즈 27종을 오는 20일부터 전국 110여 개 점포에서 판매한다. 이번 상품은 멤버들의 연고지를 중심으로 판매되며, 경주황리단길점 등 특정 점포는 캐릭터 테마로 꾸며 운영될 예정이다.",
+        "image": "https://images.jkn.co.kr/data/images/full/111/62/1116245.jpg?v=1794785981&width=1200&height=630"
     },
     {
         "title": "리센느, '쇼! 음악중심'서 아일릿·머무르 꺾고 1위! - 아시아뉴스통신",
@@ -145,20 +335,36 @@ const NEWS_DATA = [
         "image": "https://www.anewsa.com/news_images/2026/11/08/mark/20261108221521.jpg"
     },
     {
-        "title": "[공식]리센느 미나미, 갑작스러운 컨디션 난조..\"15일 스케줄 불참\" - 스타뉴스",
-        "source": "스타뉴스",
+        "title": "리센느, 실력으로 입증한 'PULSE' 활동 마무리…음방 4관왕·초동 60만장 돌파 - 싱글리스트",
+        "source": "싱글리스트",
         "date": "2026-11-15",
-        "url": "https://www.starnewskorea.com/music/2026/11/15/2026111514314243903",
-        "summary": "걸그룹 리센느 멤버 미나미가 갑작스러운 컨디션 난조로 예정된 스케줄에서 빠진다. 15일 리센느 소속사 더뮤즈 엔터테인먼트는 공식계정을 통해 이같은 소식을 전했다. 소속사 측은 \"리센느 소속 멤버 미나미가 금일 갑작스러운 컨디션 난조 증상을 보여 금일 스케줄에 참석하지 못하게 됐다. 갑작",
-        "image": "https://image.starnewskorea.com/21/2026/11/2026111514314243903_1.jpg"
+        "url": "https://www.slist.kr/news/articleView.html?idxno=782005",
+        "summary": "그룹 리센느(RESCENE)가 네 번째 미니앨범 'PULSE(펄스)' 활동을 마쳤다.리센느는 지난 15일 방송된 SBS '인기가요'를 끝으로 신보 공식 활동을 마무리했다. 이번 활동에서 타이틀곡 'With(위드)'로 음악방송 4관왕에 올랐다.리센느는 SBS Life '더쇼', MBC M",
+        "image": "https://cdn.slist.kr/news/thumbnail/202611/782005_1194336_3246_v150.jpg"
     },
     {
-        "title": "리센느 미나미, 건강 문제로 스케줄 불참...\"최선 다해 지원할 것\" - 아시아뉴스통신",
-        "source": "아시아뉴스통신",
+        "title": "리센느 미나미, 컨디션 난조로 스케줄 불참…소속사 “최선 다해 지원” - 메디컬투데이",
+        "source": "메디컬투데이",
         "date": "2026-11-15",
-        "url": "https://m.anewsa.com/article_sub3.php?number=3217952&type=&mobile=",
-        "summary": "(사진출처=리센느 공식 인스타그램) [아시아뉴스통신=이상진 기자] 그룹 리센느의 멤버 미나미가 건강상의 이유로 예정된 스케줄에 불참했다.소속사 더뮤즈엔터테인먼트에 따르면 미나미가 지난 15일 갑작스러운 컨디션 난조 증상을 보여 스케줄에 참석하지 못했다.소속사는",
-        "image": "https://www.anewsa.com/news_images/2026/11/15/mark/20261115212034.jpg"
+        "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=625323",
+        "summary": "[mdtoday = 김지성 기자] 어제(14일) 2026 멜론뮤직어워드(MMA)에서 리센느(RESCENE)가 3개 부문을 수상했다. 서울 고척스카이돔에서 개최한",
+        "image": "https://cdn.mdtoday.co.kr/news/photo/202611/625323_334390_518.jpg"
+    },
+    {
+        "title": "CU, 리센느 캐릭터 ‘리트와 메트’ 굿즈 27종 출시 - 싱글리스트",
+        "source": "싱글리스트",
+        "date": "2026-11-15",
+        "url": "https://www.slist.kr/news/articleView.html?idxno=781983",
+        "summary": "편의점 CU가 그룹 리센느와 협업한 캐릭터 상품을 전국 매장으로 확대한다.CU는 오는 20일부터 전국 110여 개 점포에서 리센느 캐릭터 '리트'와 '메트'를 활용한 굿즈 27종을 판매한다고 밝혔다.판매 지역에는 리센느 멤버들의 고향인 거제와 경주, 고양, 수원 등이 포함된다. 특히 멤",
+        "image": "https://cdn.slist.kr/news/thumbnail/202611/781983_1194306_046_v150.jpg"
+    },
+    {
+        "title": "[공식] “많아야 1시간 잔다”더니…리센느 미나미, 컨디션 난조로 스케줄 불참 - 스포츠경향",
+        "source": "스포츠경향",
+        "date": "2026-11-15",
+        "url": "https://sports.khan.co.kr/article/202611151328003",
+        "summary": "그룹 리센느(RESCENE) 멤버 미나미가 갑작스러운 컨디션 난조로 예정된 스케줄에 불참한다. 소속사 더뮤즈엔터테인먼트는 15일 공식 SNS를 통해 미나미의 건강 상태와 스케줄 관련 안내를 전했다. 소속사는 “...",
+        "image": "https://images.khan.co.kr/article/2026/11/15/news-p.v1.20261115.8a6bdde200d2469d8f0e4330cc04b369_P1.png"
     },
     {
         "title": "\"하루 1시간 수면\" 리센느 미나미, 결국 스케줄 불참⋯\"컨디션 난조\" - 이투데이",
@@ -169,44 +375,28 @@ const NEWS_DATA = [
         "image": "https://img.etoday.co.kr/pto_db/2026/09/20260916133255_2389003_1000_550.jpg"
     },
     {
-        "title": "“하루 1시간 잔다” 리센느 미나미, 컨디션 난조로 스케줄 불참 [공식] - 매일경제",
-        "source": "매일경제",
+        "title": "[공식] \"하루 1시간 잔다\" 리센느 미나미, 결국 건강 이상으로 스케줄 불참 - 스포츠조선",
+        "source": "스포츠조선",
         "date": "2026-11-15",
-        "url": "https://www.mk.co.kr/news/musics/12209164",
-        "summary": "",
-        "image": "https://pimg.mk.co.kr/news/cms/202611/15/news-p.v1.20261115.109e7cd06fec47a8b3a49f027d6de141_R.jpg"
-    },
-    {
-        "title": "\"하루 1시간 자\" 토로했던 리센느 미나미, 컨디션 난조로 일정 불참 - 한국일보",
-        "source": "한국일보",
-        "date": "2026-11-15",
-        "url": "https://www.hankookilbo.com/news/article/A2026111513040004133",
-        "summary": "① 리센느 미나미가 갑작스러운 컨디션 난조로 15일 일정에 참석하지 못하게 됐습니다. ② 소속사는 미나미의 회복을 지원하겠다고 밝히면서 팬들에게 격려와 응원을 요청했습니다. ③ 미나미는 최근 바쁜 일정으로 하루 1시간 정도만 잔다고 말한 바 있어 건강 우려가 커졌습니다.",
-        "image": "https://newsimg.hankookilbo.com/2026/11/15/78bf124c-dcf4-4190-b6eb-865f90234fc7.jpg"
+        "url": "https://www.sportschosun.com/entertainment/2026-11-15/202611150100098600009177",
+        "summary": "그룹 리센느(RESCENE) 멤버 미나미가 건강상 이유로 예정된 스케줄에 불참한다. 소속사 더뮤즈엔터테인먼트는 15일 공식 SNS를 통해 미나미의 건강 상태와 향후 스케줄 관련 안내를 전했다.",
+        "image": "https://www.sportschosun.com/article/html/2026/11/15/2026111501000986000091771.jpg"
     },
     {
         "title": "SBS 인기가요 : With - RESCENE (리센느) | SBS 261115 방송 - programs.sbs.co.kr",
         "source": "programs.sbs.co.kr",
         "date": "2026-11-15",
-        "url": "http://programs.sbs.co.kr/enter/gayo/clip/54768/OC483303849?div=live_end",
+        "url": "https://programs.sbs.co.kr/enter/gayo/clip/54768/OC483303849?div=live_end",
         "summary": "SBS 온에어/VOD/클립영상 즐기기!",
         "image": "https://img2.sbs.co.kr/ops_clip_img/2026/11/15/6b6ab22f-3f52-4d40-a1f6-8ddb6af16cc3416w640.jpg"
     },
     {
-        "title": "리센느 미나미, 갑작스러운 건강 이상…“많아야 1시간 잔다” 재조명 - 스포츠동아",
-        "source": "스포츠동아",
+        "title": "[공식]리센느 미나미, 갑작스러운 컨디션 난조..\"15일 스케줄 불참\" - 스타뉴스",
+        "source": "스타뉴스",
         "date": "2026-11-15",
-        "url": "https://sports.donga.com/ent/article/all/20261115/135026254/1",
-        "summary": "[스포츠동아 이수진 기자] 그룹 리센느 미나미가 갑작스러운 컨디션 난조로 스케줄에 불참한다. 앞서 하루에 많아야 1시간밖에 자지 못한다고 털어놓았던 발언도 재조명되고 있다.소속사 더뮤즈엔터테인먼트는 15일 공식 SNS를 통해 “미나미가 금일 갑작스러운 컨디션 난조 증…",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/15/135026259.1.jpg"
-    },
-    {
-        "title": "리센느 미나미, 컨디션 난조로 스케줄 불참…“최선 다해 지원할 것” [공식] - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-11-15",
-        "url": "https://isplus.com/article/view/isp202611150047",
-        "summary": "그룹 리센느의 멤버 미나미가 건강 문제로 스케줄에 불참한다.소속사 더뮤즈엔터테인먼트는 15일 공식 소셜미디어(SNS)를 통해 “미나미는 금일 갑...",
-        "image": "https://isplus.com/data/isp/image/2026/11/03/isp20261103000274.800x.0.jpg"
+        "url": "https://www.starnewskorea.com/music/2026/11/15/2026111514314243903",
+        "summary": "걸그룹 리센느 멤버 미나미가 갑작스러운 컨디션 난조로 예정된 스케줄에서 빠진다. 15일 리센느 소속사 더뮤즈 엔터테인먼트는 공식계정을 통해 이같은 소식을 전했다. 소속사 측은 \"리센느 소속 멤버 미나미가 금일 갑작스러운 컨디션 난조 증상을 보여 금일 스케줄에 참석하지 못하게 됐다. 갑작",
+        "image": "https://image.starnewskorea.com/21/2026/11/2026111514314243903_1.jpg"
     },
     {
         "title": "“하루 1시간 잔다더니”…리센느 미나미, 갑작스러운 컨디션 난조로 일정 불참 [전문] - 매일경제",
@@ -217,28 +407,36 @@ const NEWS_DATA = [
         "image": "https://pimg.mk.co.kr/news/cms/202611/15/news-p.v1.20261115.7103ce2fcaeb45a7a38b367409743075_R.png"
     },
     {
-        "title": "미나미 건강 문제로 15일 스케줄 불참 - 진일보 | 전남일보",
-        "source": "진일보 | 전남일보",
+        "title": "“많아야 1시간 자” 리센느 미나미 결국…건강 이상에 스케줄 불참 - 헤럴드경제",
+        "source": "헤럴드경제",
         "date": "2026-11-15",
-        "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000082839",
-        "summary": "그룹 리센느의 미나미가 컨디션 난조로 인해 예정된 스케줄에 불참하게 됐다.소속사 더뮤즈엔터테인먼트는 15일 공식 SNS를 통해 미나미가 갑작스러운 컨디션 난조 증",
-        "image": "https://cdn.jnilbo.com/news/photo/202611/90000082839_615221_2041.jpg"
+        "url": "https://biz.heraldcorp.com/article/10937542",
+        "summary": "‘대세 걸그룹’ 리센느가 15일 공식 SNS에 “미나미는 금일 갑작스러운 컨디션 난조 증상을 보여 금일 스케줄에 참석하지 못하게 됐다”라고 밝혔다. 미나미는 최근 바쁜",
+        "image": "https://wimg.heraldcorp.com/news/cms/2026/11/15/news-p.v1.20260917.186493675bcf44f19d18fd2475b107fa_P1.jpg"
     },
     {
-        "title": "[공식] \"하루 1시간 잔다\" 리센느 미나미, 결국 건강 이상으로 스케줄 불참 - 스포츠조선",
-        "source": "스포츠조선",
+        "title": "\"하루 1시간 자\" 토로했던 리센느 미나미, 컨디션 난조로 일정 불참 - 한국일보",
+        "source": "한국일보",
         "date": "2026-11-15",
-        "url": "https://www.sportschosun.com/entertainment/2026-11-15/202611150100098600009177",
-        "summary": "그룹 리센느(RESCENE) 멤버 미나미가 건강상 이유로 예정된 스케줄에 불참한다. 소속사 더뮤즈엔터테인먼트는 15일 공식 SNS를 통해 미나미의 건강 상태와 향후 스케줄 관련 안내를 전했다.",
-        "image": "https://www.sportschosun.com/article/html/2026/11/15/2026111501000986000091771.jpg"
+        "url": "https://www.hankookilbo.com/news/article/A2026111513040004133",
+        "summary": "① 리센느 미나미가 갑작스러운 컨디션 난조로 15일 일정에 참석하지 못하게 됐습니다. ② 소속사는 미나미의 회복을 지원하겠다고 밝히면서 팬들에게 격려와 응원을 요청했습니다. ③ 미나미는 최근 바쁜 일정으로 하루 1시간 정도만 잔다고 말한 바 있어 건강 우려가 커졌습니다.",
+        "image": "https://newsimg.hankookilbo.com/2026/11/15/78bf124c-dcf4-4190-b6eb-865f90234fc7.jpg"
     },
     {
-        "title": "\"하루에 1시간 자\"..리센느 미나미, 결국 '컨디션 난조'로 활동 불참 [Oh!쎈 이슈] - OSEN",
-        "source": "OSEN",
+        "title": "“하루 1시간 잔다” 리센느 미나미, 컨디션 난조로 스케줄 불참 [공식] - 매일경제",
+        "source": "매일경제",
         "date": "2026-11-15",
-        "url": "https://www.osen.co.kr/article/G1112910451",
-        "summary": "그룹 리센느 멤버 미나미가 건강 이상으로 갑작스럽게 스케줄을 중단하게 됐다. 리센느의 소속사 더뮤즈엔터테인먼트는 15일 공식 채널을 통해 “미나미는 금일 갑작스러운...",
-        "image": "http://file.osen.co.kr/article_thumb/2026/11/15/202611151338771673_6af93b35add67_300x.jpg"
+        "url": "https://www.mk.co.kr/news/musics/12209164",
+        "summary": "",
+        "image": "https://pimg.mk.co.kr/news/cms/202611/15/news-p.v1.20261115.109e7cd06fec47a8b3a49f027d6de141_R.jpg"
+    },
+    {
+        "title": "리센느 미나미, 컨디션 난조로 스케줄 불참…“최선 다해 지원할 것” [공식] - 일간스포츠",
+        "source": "일간스포츠",
+        "date": "2026-11-15",
+        "url": "https://isplus.com/article/view/isp202611150047",
+        "summary": "그룹 리센느의 멤버 미나미가 건강 문제로 스케줄에 불참한다.소속사 더뮤즈엔터테인먼트는 15일 공식 소셜미디어(SNS)를 통해 “미나미는 금일 갑...",
+        "image": "https://isplus.com/data/isp/image/2026/11/03/isp20261103000274.800x.0.jpg"
     },
     {
         "title": "리센느 미나미 컨디션 난조로 일정 불참…수면 부족 우려 : 연예 - 재경일보",
@@ -249,83 +447,51 @@ const NEWS_DATA = [
         "image": "https://images.jkn.co.kr/data/images/full/111/59/1115950.jpg?v=1794747077&width=1200&height=630"
     },
     {
-        "title": "걸그룹 개인 브랜드 11월 빅데이터 분석 리센느 원이 1위 - 지피코리아",
-        "source": "지피코리아",
+        "title": "리센느 미나미, 갑작스러운 건강 이상…“많아야 1시간 잔다” 재조명 - 스포츠동아",
+        "source": "스포츠동아",
         "date": "2026-11-15",
-        "url": "https://www.gpkorea.com/news/articleView.html?idxno=148622",
-        "summary": "걸그룹 개인 브랜드평판 2026년 11월 빅데이터 분석 결과, 1위 리센느 원이, 2위 아이브 장원영, 3위 리센느 제나 순으로 분석됐다.한국기업평판연구소는 걸그룹 개인 브랜드평판 빅데이터 분석을 위해 2026년 10월 15일부터 2026년 11월 15일까지 걸그룹 개인 740명의 브랜",
-        "image": "https://cdn.gpkorea.com/news/photo/202611/148622_316110_3829.jpg"
+        "url": "https://sports.donga.com/ent/article/all/20261115/135026254/1",
+        "summary": "[스포츠동아 이수진 기자] 그룹 리센느 미나미가 갑작스러운 컨디션 난조로 스케줄에 불참한다. 앞서 하루에 많아야 1시간밖에 자지 못한다고 털어놓았던 발언도 재조명되고 있다.소속사 더뮤즈엔터테인먼트는 15일 공식 SNS를 통해 “미나미가 금일 갑작스러운 컨디션 난조 증…",
+        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/15/135026259.1.jpg"
     },
     {
-        "title": "리센느 미나미, 컨디션 난조로 스케줄 불참…소속사 \"최선 다해 지원\" - 국제뉴스",
-        "source": "국제뉴스",
-        "date": "2026-11-15",
-        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3752437",
-        "summary": "(RESCENE)가 올해 미니 4집 '펄스'(PULSE)로 초동 판매량 60만 장을 기록하며 자체 최고 성적을 경신한 가운데, 음악방송 '더쇼', '쇼챔피언', '쇼!음악중심' 등에서 1위에 오르며 활발한 활동을 이어가고 있다.또한 2026 멜론뮤직어워드(MMA)에서 '글로벌 톱10',",
-        "image": "https://cdn.gukjenews.com/news/thumbnail/202611/3752437_3934693_3713_v150.jpg"
-    },
-    {
-        "title": "“리센느 거제야호로 확 떴는데” 관광객 발길 끊긴 거제에 박미희 500㎏ 김치 선물(사당귀) - 뉴스엔",
+        "title": "장원영 아니었다‥리센느 원이, 11월 걸그룹 개인 브랜드평판 1위 - 뉴스엔",
         "source": "뉴스엔",
         "date": "2026-11-15",
-        "url": "https://m.newsen.com/news_view.php?uid=202611151550046110",
+        "url": "https://m.newsen.com/news_view.php?uid=202611160831156310",
         "summary": ""
     },
     {
-        "title": "‘MMA 2026’ BTS·리센느·하츠투하츠 3관왕 기염…에스파 신설 대상 수상 - 스포츠동아",
-        "source": "스포츠동아",
+        "title": "\"많아야 1시간 자고\"…리센느 미나미, 컨디션 난조로 스케줄 불참 - 노컷뉴스",
+        "source": "노컷뉴스",
         "date": "2026-11-15",
-        "url": "https://sports.donga.com/ent/article/all/20261115/135024984/1",
-        "summary": "[스포츠동아 곽현수 기자] 그룹 방탄소년단이 올해의 앨범상을 거머쥐며 3관왕에 올랐다. 에스파는 올해 신설된 글로벌 대상을 차지했고, 리센느와 하츠투하츠도 나란히 3관왕을 달성했다.14일 서울 구로구 고척스카이돔에서 열린 ‘2026 멜론뮤직어워드’ 첫날 시상식에는 관…",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/15/135024997.1.jpg"
+        "url": "https://www.nocutnews.co.kr/news/6606988",
+        "summary": "올해 최고 대세로 떠오른 그룹 리센느(RESCENE) 미나미가 컨디션 난조로 일정에 불참한다.",
+        "image": "https://file2.nocutnews.co.kr/newsroom/image/2026/11/15/202611151132371916_0.jpg"
     },
     {
-        "title": "\"매일 많아야 1시간 자\" 리센느 미나미, 컨디션 난조로 결국 스케줄 불참 [공식] - 마이데일리",
-        "source": "마이데일리",
+        "title": "미나미 건강 문제로 15일 스케줄 불참 - 진일보 | 전남일보",
+        "source": "진일보 | 전남일보",
         "date": "2026-11-15",
-        "url": "https://mydaily.co.kr/page/view/2026111513152156802",
-        "summary": "리센느 미나미 / 마이데일리...",
-        "image": "https://mydaily.co.kr/photos/2026/11/15/2026111513221928428_l.jpg"
+        "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000082839",
+        "summary": "그룹 리센느의 미나미가 컨디션 난조로 인해 예정된 스케줄에 불참하게 됐다.소속사 더뮤즈엔터테인먼트는 15일 공식 SNS를 통해 미나미가 갑작스러운 컨디션 난조 증",
+        "image": "https://cdn.jnilbo.com/news/photo/202611/90000082839_615221_2041.jpg"
     },
     {
-        "title": "리센느, MMA 3관왕→음악방송 3관왕까지… ‘With’로 써 내려간 눈부신 성장 - MHN스포츠",
-        "source": "MHN스포츠",
-        "date": "2026-11-15",
-        "url": "https://mhnse.com/news/articleView.html?idxno=1696778",
-        "summary": "그룹 리센느가 신곡 'With'로 2026 멜론뮤직어워드에서 3관왕을 차지하며 음악방송에서도 1위를 기록, 앨범 판매량에서도 괄목할 성과를 내고 있다. 이로써 리센느는 국내외에서 눈부신 성장을 이어가고 있으며, 앞으로의 행보에 귀추가 주목된다.",
-        "image": "https://cdn.mhnse.com/mhnsports/2026/11/15123100/thumb_ccms_88805-1.jpg"
-    },
-    {
-        "title": "리센느 미나미, 컨디션 난조로 스케줄 불참[공식] - 비즈엔터",
-        "source": "비즈엔터",
-        "date": "2026-11-15",
-        "url": "https://enter.etoday.co.kr/news/view/305273",
-        "summary": "▲리센느 미나미(사진출처=더뮤즈엔터테인먼트)그룹 리센느 멤버 미나미가 갑작스러운 컨디션 난조로 스케줄을 소화하지 못한다.더뮤즈엔터테인먼트 측",
-        "image": "https://img.etoday.co.kr/pto_db/2026/11/600/20261103144339_2411465_1000_667.jpg"
-    },
-    {
-        "title": "리센느 미나미, 컨디션 난조에 스케줄 불참...“하루 1시간 잔다\" - 싱글리스트",
-        "source": "싱글리스트",
-        "date": "2026-11-15",
-        "url": "https://www.slist.kr/news/articleView.html?idxno=781880",
-        "summary": "대세 걸그룹 리센느 멤버 미나미가 건강 문제로 스케줄에 불참한다.소속사 더뮤즈엔터테인먼트는 15일 공식 SNS를 통해 “멤버 미나미는 금일 갑작스러운 컨디션 난조 증상을 보여 금일 스케줄에 참석하지 못하게 되었음을 알린다”고 밝혔다.이어 “갑작스러운 소식으로 팬 여러분께 심려를 끼쳐드린",
-        "image": "https://cdn.slist.kr/news/thumbnail/202611/781880_1194147_5429_v150.jpg"
-    },
-    {
-        "title": "방탄소년단-에스파, 'MMA 2026' 첫날 대상⋯리센느 인기상 등 3관왕 - 조이뉴스24",
-        "source": "조이뉴스24",
-        "date": "2026-11-15",
-        "url": "https://www.joynews24.com/view/2026272",
-        "summary": "방탄소년단이 '2026 멜론 뮤직 어워드'(이하 MMA2026)에서 대상에 해당하는 '올해의 앨범' 등을 포함해 3관왕에 올랐다. 에스파는 신설 대상인 '올해의 글로벌-K 아티스트'의 첫 주인공이 됐다.14일 'MMA 2026'이 고척스카이돔에서 여렬 [조이뉴스24 이미영 기자] 방탄소",
-        "image": "https://image.inews24.com/v1/5613101076d3e5.jpg"
-    },
-    {
-        "title": "1위 리센느 원이, 2위 아이브 장원영, 3위 리센느 제나 - 스타뉴스",
-        "source": "스타뉴스",
+        "title": "A2O 뜨고, 리센느 날았다…'신생의 반란' 다음은 '남돌 대전' [김수영의 연계소문] - 한국경제",
+        "source": "한국경제",
         "date": "2026-11-14",
-        "url": "https://www.starnewskorea.com/music/2026/11/15/2026111508463965210",
-        "summary": "한국기업평판연구소는 2026년 11월 걸그룹 개인 브랜드평판에서 리센느 원이를 1위로 분석했다고 15일 밝혔다. 리센느 원이의 브랜드평판지수는 726만4717로, 전월보다 9.63% 하락했다. 구창환 한국기업평판연구소 소장은 \"2026년 11월 걸그룹 개인 브랜드평판 1위를 기록한 리센",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=858,fit=cover,q=high,sharpen=2/21/2026/11/2026111508463965210_4.jpg"
+        "url": "https://www.hankyung.com/article/202611135061H",
+        "summary": "A2O 뜨고, 리센느 날았다…'신생의 반란' 다음은 '남돌 대전' [김수영의 연계소문], [김수영의 연계소문] 연(예)계 소문과 이슈 집중 분석 하반기 가요계에 부는 거센 '여풍' 리센느&middot;A2O 라이트&middot;아일릿&middot;아이브 등 차트 상위권 차지한 걸그룹 및",
+        "image": "https://img.hankyung.com/photo/202611/ZN.46149441.1.jpg"
+    },
+    {
+        "title": "리센느 'MMA 야호~' - 머니투데이",
+        "source": "머니투데이",
+        "date": "2026-11-14",
+        "url": "https://www.mt.co.kr/photo/202611141921491804",
+        "summary": "머니투데이는 경제, 증권, 기업 등 실시간 뉴스부터 정치, 사회, 문화에 이르기까지 다양한 분야의 깊이 있는 분석과 신뢰할 수 있는 정보를 제공합니다. 빠르고 정확한 보도로 대한민국 대표 종합경제미디어의 역할을 충실히 수행하며, 독자에게 가치 있는 뉴스를 전달합니다.",
+        "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/11/2026111418363520686_1.jpg"
     },
     {
         "title": "'MMA' 리센느, 팬 투표 1위… 리더 원이 \"주시는 사랑 당연하지 않아\" - 한국일보",
@@ -340,8 +506,7 @@ const NEWS_DATA = [
         "source": "전자신문",
         "date": "2026-11-14",
         "url": "https://www.etnews.com/20261114000051",
-        "summary": "그룹 리센느가 14일 서울 구로구 고척돔에서 진행된 '2026 멜론뮤직어워드(MMA2026)' 레드카펫 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
-        "image": "https://img.etnews.com/news/article/2026/11/14/cms_temp_stats_17946498771594142947.jpg"
+        "summary": ""
     },
     {
         "title": "[ET포토] 리센느, '독보적인 대중픽 아이돌' - 전자신문",
@@ -350,6 +515,14 @@ const NEWS_DATA = [
         "url": "https://www.etnews.com/20261114000052",
         "summary": "그룹 리센느가 14일 서울 구로구 고척돔에서 진행된 '2026 멜론뮤직어워드(MMA2026)' 레드카펫 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
         "image": "https://img.etnews.com/news/article/2026/11/14/cms_temp_stats_1794650016471420660.jpg"
+    },
+    {
+        "title": "1위 리센느 원이, 2위 아이브 장원영, 3위 리센느 제나 - 스타뉴스",
+        "source": "스타뉴스",
+        "date": "2026-11-14",
+        "url": "https://www.starnewskorea.com/music/2026/11/15/2026111508463965210",
+        "summary": "한국기업평판연구소는 2026년 11월 걸그룹 개인 브랜드평판에서 리센느 원이를 1위로 분석했다고 15일 밝혔다. 리센느 원이의 브랜드평판지수는 726만4717로, 전월보다 9.63% 하락했다. 구창환 한국기업평판연구소 소장은 \"2026년 11월 걸그룹 개인 브랜드평판 1위를 기록한 리센",
+        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=858,fit=cover,q=high,sharpen=2/21/2026/11/2026111508463965210_4.jpg"
     },
     {
         "title": "리센느, 존재 자체가 러블리 - 뉴스1",
@@ -371,15 +544,8 @@ const NEWS_DATA = [
         "source": "아시아경제",
         "date": "2026-11-14",
         "url": "https://www.asiae.co.kr/article/2026111415270973080",
-        "summary": ""
-    },
-    {
-        "title": "리센느, 연말 대세 가도 계속…시상식 올킬→음방 1위 바쁘다 바빠 - 일간스포츠",
-        "source": "일간스포츠",
-        "date": "2026-11-14",
-        "url": "https://isplus.com/article/view/isp202611150010",
-        "summary": "‘국민 걸그룹’ 리센느가 다방면에서 연이은 성과를 거두며 거침없는 상승세를 이어가고 있다.리센느(원이, 리브, 미나미, 메이, 제나)는 지난 1...",
-        "image": "https://isplus.com/data/isp/image/2026/11/07/isp20261107000098.800x.0.jpg"
+        "summary": "인공지능(AI)을 활용해 작곡하고 가창까지 구현한 노래가 국내 대표 음원 플랫폼 차트에서 사상 처음으로 1위를 차.",
+        "image": "https://cphoto.asiae.co.kr/listimglink/1/2026111415261399309_1794637573.jpg"
     },
     {
         "title": "에스파·방탄소년단, ‘MMA2026’ 첫날 대상 영예… 리센느·하츠투하츠 3관왕 [종합] - BNT뉴스",
@@ -394,6 +560,13 @@ const NEWS_DATA = [
         "source": "뉴스1",
         "date": "2026-11-14",
         "url": "https://www.news1.kr/photos/8214168",
+        "summary": ""
+    },
+    {
+        "title": "원이, 리센느 야호 - 뉴스1",
+        "source": "뉴스1",
+        "date": "2026-11-14",
+        "url": "https://www.news1.kr/photos/8214090",
         "summary": ""
     },
     {
@@ -420,6 +593,14 @@ const NEWS_DATA = [
         "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202611/1019644_2041241_2284.jpg"
     },
     {
+        "title": "리센느, 연말 대세 가도 계속…시상식 올킬→음방 1위 바쁘다 바빠 - 일간스포츠",
+        "source": "일간스포츠",
+        "date": "2026-11-14",
+        "url": "https://isplus.com/article/view/isp202611150010",
+        "summary": "‘국민 걸그룹’ 리센느가 다방면에서 연이은 성과를 거두며 거침없는 상승세를 이어가고 있다.리센느(원이, 리브, 미나미, 메이, 제나)는 지난 1...",
+        "image": "https://isplus.com/data/isp/image/2026/11/07/isp20261107000098.800x.0.jpg"
+    },
+    {
         "title": "리센느 원이, 멜론 찾은 '야호' 공주님 - 뉴스1",
         "source": "뉴스1",
         "date": "2026-11-14",
@@ -435,90 +616,20 @@ const NEWS_DATA = [
         "image": "https://cdn.financialpost.co.kr/news/photo/202611/300887_401381_303.jpg"
     },
     {
-        "title": "리센느 미나미, 인형이 따로없네 - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-11-14",
-        "url": "https://www.news1.kr/photos/8214088",
-        "summary": ""
-    },
-    {
-        "title": "포즈 취하는 리센느 - 뉴시스",
-        "source": "뉴시스",
-        "date": "2026-11-14",
-        "url": "https://mobile.newsis.com/photo/NISI20261114_0021532589",
-        "summary": "그룹 리센느가 14일 오후 서울 구로구 고척스카이돔에서 열린 2026 멜론뮤직어워드(MMA2026) 레드카펫에서 포즈를 취하고 있다",
-        "image": "https://img1.newsis.com/2026/11/14/NISI20261114_0021532589_web.jpg"
-    },
-    {
-        "title": "'중소돌 기적' 리센느, 멜론뮤직어워드 나들이 - 뉴스1",
-        "source": "뉴스1",
-        "date": "2026-11-14",
-        "url": "https://www.news1.kr/photos/8214164",
-        "summary": ""
-    },
-    {
-        "title": "'역시 이수만' A2O로 또 일냈네…JYP·SM·YG 꺼내든 '승부수' [김수영의 연계소문] - 한국경제",
-        "source": "한국경제",
-        "date": "2026-11-14",
-        "url": "https://www.hankyung.com/article/202611135061H",
-        "summary": "'역시 이수만' A2O로 또 일냈네…JYP·SM·YG 꺼내든 '승부수' [김수영의 연계소문], [김수영의 연계소문] 연(예)계 소문과 이슈 집중 분석 A2O 뜨고, 리센느 날았다&hellip;'신생의 반란' 다음은 '남돌 대전' 하반기 가요계에 부는 거센 '여풍' 리센느&middot;A",
-        "image": "https://img.hankyung.com/photo/202611/ZN.46149441.1.jpg"
-    },
-    {
-        "title": "리센느, 엄청 뜨겁다 - 앳스타일",
-        "source": "앳스타일",
-        "date": "2026-11-14",
-        "url": "http://www.atstar1.com/news/articleView.html?idxno=6040740",
-        "summary": "[앳스타일 김예나 기자] 리센느(RESCENE)가 2026년을 뜨겁게 달구고 있다.15일 리센느 소속사 측에 따르면 지난 14일 진행된 ‘2026 멜론뮤직어워드’에서 3관왕(글로벌 톱10, 카카오뱅크 모두의 스타, 핫트렌드)를 차지했다. 이번 수상에 대해 리센느는 “지금 주시는 사랑이 ",
-        "image": "https://cdn.atstar1.com/news/thumbnail/202611/6040740_121295_1516_v150.jpg"
-    },
-    {
-        "title": "MMA2026 참석한 리센느 - 뉴시스",
-        "source": "뉴시스",
-        "date": "2026-11-14",
-        "url": "https://www.newsis.com/view/NISI20261114_0021532590",
-        "summary": "[서울=뉴시스] 김혜진 기자 = 그룹 리센느가 14일 오후 서울 구로구 고척스카이돔에서 열린 2026 멜론뮤직어워드(MMA2026) 레드카펫에서 포즈를 취하고 있다.2026.11.14. jini@newsis.com",
-        "image": "https://img1.newsis.com/2026/11/14/NISI20261114_0021532590_web.jpg"
-    },
-    {
-        "title": "[포토] 리센느 미나미, 멜론 야호 - 파이낸셜포스트",
-        "source": "파이낸셜포스트",
-        "date": "2026-11-14",
-        "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=300888",
-        "summary": "리센느(RESCENE) 미나미가 14일 오후 서울 고척스카이돔에서 열린 ‘2026 멜론뮤직어워드(2026MMA)’에 참석해 포즈를 취하고 있다.iMBC연예 고대현",
-        "image": "https://cdn.financialpost.co.kr/news/photo/202611/300888_401390_307.jpg"
-    },
-    {
-        "title": "리센느 제나-원이, 미모가 두 배 - 뉴시스",
-        "source": "뉴시스",
-        "date": "2026-11-14",
-        "url": "https://www.newsis.com/view/NISI20261114_0021532695",
-        "summary": "[서울=뉴시스] 김혜진 기자 = 그룹 리센느 제나, 원이가 14일 오후 서울 구로구 고척스카이돔에서 열린 2026 멜론뮤직어워드(MMA2026) 레드카펫에서 포즈를 취하고 있다.2026.11.14. jini@newsis.com",
-        "image": "https://img1.newsis.com/2026/11/14/NISI20261114_0021532695_web.jpg"
-    },
-    {
-        "title": "[포토] 리센느, 멜론뮤직어워드 왔어요 - 조이뉴스24",
-        "source": "조이뉴스24",
-        "date": "2026-11-14",
-        "url": "https://www.joynews24.com/view/2026199",
-        "summary": "리센느가 14일 서울 구로구 고척돔에서 열린 '2026 멜론뮤직어워드(MMA2026)' 레드카펫에서 포즈를 취하고 있다.리센느가 14일 서울 구로구 고척돔에서 열린 '2026 멜론뮤직어워드(MMA2026)' 레드카펫에서 포즈를 취하고 있다. [사진=곽 [조이뉴스24 곽영래 기자] 리센느",
-        "image": "https://image.inews24.com/v1/c7acf9a189a229.jpg"
-    },
-    {
-        "title": "[포토] 리센느 원이, 반짝반짝 빛나는 미모 - 조이뉴스24",
-        "source": "조이뉴스24",
-        "date": "2026-11-14",
-        "url": "https://www.joynews24.com/view/2026211",
-        "summary": "리센느 원이가 14일 서울 구로구 고척돔에서 열린 '2026 멜론뮤직어워드(MMA2026)' 레드카펫에서 포즈를 취하고 있다.리센느 원이가 14일 서울 구로구 고척돔에서 열린 '2026 멜론뮤직어워드(MMA2026)' 레드카펫에서 포즈를 취하고 있다 [조이뉴스24 곽영래 기자] 리센느 ",
-        "image": "https://image.inews24.com/v1/7a2f29db7e62bc.jpg"
-    },
-    {
         "title": "리센느 소속사, 악플러 1차 형사 고소…\"법적 책임 물을 것\" - 연합뉴스TV",
         "source": "연합뉴스TV",
         "date": "2026-11-13",
         "url": "https://www.yonhapnewstv.co.kr/news/AKR202611131114064Dc",
         "summary": "그룹 리센느의 소속사가 최근 멤버들을 향한 악의적 비방에 대해 법적 책임을 묻겠다고 밝혔습니다. 소속사 더뮤즈엔터테인먼트는 어제(12일) 공식 팬플랫폼을 통해 “최근 온라인 커뮤니티와 각종 SNS 플랫폼에서 리센느 멤버들을 겨냥한 근거 없는 루머와 악의적 비방이 담긴",
         "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261113/AKR202611131114064Dc_01_i.jpeg"
+    },
+    {
+        "title": "리센느, 디즈니 ’헥스: 마녀왕국’ 버전 뮤직비디오 공개 - 연합뉴스TV",
+        "source": "연합뉴스TV",
+        "date": "2026-11-13",
+        "url": "https://www.yonhapnewstv.co.kr/news/MYH20261114085924sD9",
+        "summary": "걸그룹 리센느가 신곡 ’위드’(With)의 디즈니 영화 ’헥스: 마녀왕국’ 버전 뮤직비디오를 공개했습니다. 소속사 더뮤즈엔터테인먼트는 “국내 걸그룹의 곡이 디즈니 영화의 엔딩 크레딧곡으로 삽입되는 것은 리센느가 최초“라고 소개했습니다. ’위드’는 리센느의 네 번째 미니",
+        "image": "https://media.yonhapnewstv.co.kr/article/MYH/20261113/MYH20261114085924sD9.jpg"
     },
     {
         "title": "리센느 제치고 멜론 1위 오른 이 노래…AI가 불렀다 - 동아일보",
@@ -552,22 +663,6 @@ const NEWS_DATA = [
         "image": "https://img.hankyung.com/photo/202611/ZK.46415549.1.jpg"
     },
     {
-        "title": "리센느, 음악방송 2관왕 - 스포츠경향",
-        "source": "스포츠경향",
-        "date": "2026-11-13",
-        "url": "https://sports.khan.co.kr/article/202611130936033",
-        "summary": "걸그룹’리센느(RESCENE)가 ‘With’로 음악방송 2관왕을 차지했다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 11일 방송이 된 MBC M, MBC every1 ‘쇼챔피언’에서 네 번째 미니 앨...",
-        "image": "https://images.khan.co.kr/article/2026/11/13/news-p.v1.20261113.2763c978da92405bbd47c431fc63f7e9_P1.jpg"
-    },
-    {
-        "title": "‘국민 걸그룹’ 리센느 미니 4집 ‘펄스’ 발매 - 주간현대",
-        "source": "주간현대",
-        "date": "2026-11-13",
-        "url": "http://hyundaenews.com/107890",
-        "summary": "신흥‘국민걸그룹’리센느(RESCENE)가11월3일미니4집를발매했다.전작에서는상큼한베리향으로용기를노래했다.이번앨범",
-        "image": "http://www.hyundaenews.com/data/hyundaenews_com/mainimages/202611/2026111347065356.jpg"
-    },
-    {
         "title": "리센느 미나미, 韓 예능 적응 쉽지 않네…곽범·이선민 때문에 ‘진땀’ (놀뭐) - 스포츠경향",
         "source": "스포츠경향",
         "date": "2026-11-13",
@@ -584,84 +679,12 @@ const NEWS_DATA = [
         "image": "https://img1.daumcdn.net/thumb/S800x400/?fname=https://t1.daumcdn.net/news/202611/13/550820-e4IqA4m/20261113213004372wwty.jpg"
     },
     {
-        "title": "\"1시간씩 자면서 활동\"..리센느 미나미, 고생하는 멤버들에 감사 인사 - 스타뉴스",
-        "source": "스타뉴스",
-        "date": "2026-11-13",
-        "url": "https://www.starnewskorea.com/star/2026/11/13/2026111311431855799",
-        "summary": "그룹 리센느 미나미가 음악방송 1위의 기쁨을 팬들과 나눴다. 미나미는 지난 12일 팬 소통 플랫폼을 통해 \"1위를 할 수 있게 해줘서 고맙다. 진짜 꿈같다. 우리 노래를 좋아해 주고 들어준 리마인(팬덤명) 덕분\"이라고 밝혔다. 미나미는 \"우리가 많이 부족하지만 예쁘게 봐주고 사랑해 주는",
-        "image": "https://image.starnewskorea.com/21/2026/11/2026111311431855799_1.jpg"
-    },
-    {
-        "title": "코르티스 마틴·주훈→리센느 제나·메이, 수능보다 무대 위로..08년생 ★들의 선택[스타이슈] - 스타뉴스",
-        "source": "스타뉴스",
-        "date": "2026-11-13",
-        "url": "https://www.starnewskorea.com/music/2026/11/14/2026111215570628020",
-        "summary": "2027학년도 대학수학능력시험(수능)이 코앞으로 다가온 가운데, 2008년생 아이돌들의 수능 응시 여부에 관심이 쏠리고 있다. 수능에 응시하는 대신 가수 활동에 집중하기로 한 이들이 다수를 차지하는 가운데, 바쁜 활동 속에서도 시험장으로 향하는 아이돌도 있어 눈길을 끈다. 오는 19일 ",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=858,fit=cover,q=high,sharpen=2/21/2026/11/2026111215570628020_1.jpg"
-    },
-    {
-        "title": "리센느도 제쳤다…'AI 가수' 머무르, 멜론 '톱 100' 최초 1위 대반란 - SPOTV NEWS",
-        "source": "SPOTV NEWS",
-        "date": "2026-11-13",
-        "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019678",
-        "summary": "국내 음원 차트에 지각변동이 일었다. 작곡과 가창에 인공지능(AI)을 활용한 노래 '꿈꾸던 어른이 되었나요?'가 사상 최초로 멜론 '톱 100' 차트 1위에 오른 것이다.",
-        "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202611/1019678_2041303_7835.png"
-    },
-    {
-        "title": "AI 노래가 음원차트 뒤집었다..리센느→이수만 걸그룹 제치고 멜론 1위 - 스타뉴스",
-        "source": "스타뉴스",
-        "date": "2026-11-13",
-        "url": "https://www.starnewskorea.com/music/2026/11/13/2026111323071575352",
-        "summary": "인공지능(AI)을 활용해 제작한 노래가 인기 아이돌 그룹들의 신곡을 제치고 국내 음원차트 정상에 올랐다. 13일 오후 5시 기준 국내 음원 플랫폼 멜론의 '톱100' 차트에서 AI 프로젝트 머무르(MEOMURU)의 디지털 싱글 '꿈꾸던 어른이 되었나요?'가 1위를 차지했다. 이후 이날 ",
-        "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=1202,fit=cover,q=high,sharpen=2/21/2026/11/2026111323071575352_1.jpg"
-    },
-    {
-        "title": "리센느 미나미, 곽범·이선민 사이에 끼어 ‘고통’…무슨 일? - 스포츠동아",
-        "source": "스포츠동아",
-        "date": "2026-11-13",
-        "url": "https://sports.donga.com/ent/article/all/20261114/135023881/1",
-        "summary": "[스포츠동아 이수진 기자] 그룹 리센느 미나미가 곽범과 이선민 사이에 끼어 뜻밖의 고충을 겪는다. 14일 오후 6시 30분 방송되는 MBC ‘놀면 뭐하니?’에서는 ‘95 서울가요제’ 합격자 18명의 치열한 짝꿍 쟁탈전이 펼쳐진다.이날 미나미는 곽범과 이선민 사이에 앉…",
-        "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/14/135023883.1.png"
-    },
-    {
-        "title": "리센느 소속사, 악플러 경고 넘어 고소로 답했다…\"빠른 대처 든든해\" [Oh!쎈 이슈] - 조선일보",
-        "source": "조선일보",
-        "date": "2026-11-12",
-        "url": "https://www.chosun.com/entertainments/broadcast/2026/11/13/MM4DQZBSGNTDKMDCMIZWENZQGU/",
-        "summary": "더뮤즈엔터테인먼트가 리센느 멤버들을 대상으로 한 악성 게시물 작성자들을 상대로 1차 형사 고소를 완료하고 엄중한 법적 대응을 예고했습니다. 소속사는 선처 없는 강경한 방침을 밝혔으며, 팬들은 이러한 적극적인 아티스트 보호 조치에 대해 환영과 지지의 메시지를 보내고 있습니다.",
-        "image": "https://www.chosun.com/resizer/v2/MFTGMMRYGU3WIMBQGZTDIMLCHE.png?auth=ce75d5af3026bf5756efbc9fc92eaf42e5c0f3054d3306528a1e0534c697c5ba&width=650&height=341&smart=true"
-    },
-    {
-        "title": "리센느 측, 악성 게시물 1차 형사 고소…“선처 없다” - 동아일보",
-        "source": "동아일보",
-        "date": "2026-11-12",
-        "url": "https://www.donga.com/news/Entertainment/article/all/20261113/135018099/1",
-        "summary": "신흥 국민 걸그룹 ‘리센느(RESCENE)’ 측이 멤버들을 향한 악성 루머와 비방에 법적 대응에 나섰다.리센느 소속사 더뮤즈엔터테인먼트는 온라인 커뮤니티와 소셜미디어 등에서 리센느를 겨냥한 악의적 게시물이 반복 유포됨에 따라, 자체 모니터링과 팬 제보를 토대로 1차 …",
-        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/13/135018100.1.jpg"
-    },
-    {
         "title": "'스타뉴스룸' 리센느 원이가 원하는 새 애칭은?…\"'신라공주' 부럽기도\" - YTN star",
         "source": "YTN star",
         "date": "2026-11-12",
         "url": "https://star.ytn.co.kr/_sn/0117_202611130800017506",
         "summary": "걸그룹 리센느의 리더 원이가 갖고 싶은 새로운 애칭을 언급한다. 오는 14일(토) 오전 9시 방송되는 '베리스타 인터뷰'에서는 지난주에 이어 걸그룹 리센느와 여러 이야기를 나눈다. 최근 발매한 미니 4집 관련 이야기는 물론 활동 전반에 걸쳐 여러 진솔한 이야기를 나눈다. 이번 시간에는 ",
         "image": "https://image.ytn.co.kr/general/jpg/2026/1113/202611130800017506_t.jpg"
-    },
-    {
-        "title": "리센느, ‘쇼챔피언’ 1위 트로피 품에 안았다…음방 2관왕 - JTBC",
-        "source": "JTBC",
-        "date": "2026-11-12",
-        "url": "https://news.jtbc.co.kr/article/NB12327754",
-        "summary": "리센느(RESCENE)가 신곡으로 음악방송 2관왕을 차지하며 대세 행보를 이어가고 있다. 리센느(원이, 리브, 미나미, 메이, 제나)는 지난 ...",
-        "image": "https://photo.jtbc.co.kr/news/jam_photo/202611/12/1561970f-5cc4-4da0-889e-a16bdcd0c468.jpg"
-    },
-    {
-        "title": "[문화연예 플러스] 리센느 새 앨범 '대박'‥1주 만에 60만 장 판매 - MBC 뉴스",
-        "source": "MBC 뉴스",
-        "date": "2026-11-10",
-        "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6864746_37012.html",
-        "summary": "걸그룹 리센느의 새 앨범이 발매 1주일 만에 60만 장 넘게 판매됐습니다. 데뷔 후 처음으로 하프 밀리언셀러를 기록했다네요. 지난 3일 공개된 그룹 리센느의 미니 4집 '펄스'(P...",
-        "image": "https://image.imnews.imbc.com/replay/2026/nwtoday/article/__icsFiles/afieldfile/2026/11/11/today_20261111_071120_2_21_Large_u.jpg"
     },
     {
         "title": "리센느 ‘위드’, 디즈니 영화 ‘헥스: 마녀왕국’ 엔딩곡…K팝 걸그룹 최초 - 동아일보",
@@ -672,28 +695,12 @@ const NEWS_DATA = [
         "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/04/134965635.1.jpg"
     },
     {
-        "title": "리센느, 컴백하자마자 음원차트 1위…수록곡 모두 상위권 ‘싹쓸이’ - 경향신문",
-        "source": "경향신문",
-        "date": "2026-11-04",
-        "url": "https://www.khan.co.kr/article/202611041020001",
-        "summary": "그룹 리센느가 새 앨범 발매와 함께 국내 주요 음원차트 1위에 올랐다. 4일 국내 최대 음원사이트 멜론의 오전 10시 톱100 차트에 따르면 리센느의 신보 타이틀곡 '위드'는 1위, 수록곡 '백화요란'과 '파이니스트 씽'은 5위와 7위, '미미'와 '드래곤'은 10위와 11위를 차지했다",
-        "image": "https://img.khan.co.kr/news/2026/11/04/rcv.YNA.20261103.PYH2026110314030001300_P1.jpg"
-    },
-    {
         "title": "‘안원잘부’로 뜬 중소돌의 기적 리센느, 이제는 본업 모드! - 경향신문",
         "source": "경향신문",
         "date": "2026-11-03",
         "url": "https://www.khan.co.kr/article/202611031800001",
         "summary": "'중소돌의 기적' '역주행의 아이콘' '국민 걸그룹'…. 그룹 리센느는 3일 오후 서울 용산구 블루스퀘어에서 미니 4집 발매 기념 쇼케이스를 열었다. 이날 타이틀곡 '위드'와 수록곡 '백화요란' 무대를 선보였다.",
         "image": "https://img.khan.co.kr/news/2026/11/03/rcv.YNA.20261103.PYH2026110316090001300_P1.jpg"
-    },
-    {
-        "title": "리센느 신곡 '위드', 발매 첫날 멜론 '톱 100' 1위 직행 - 연합뉴스",
-        "source": "연합뉴스",
-        "date": "2026-11-03",
-        "url": "https://www.yna.co.kr/view/AKR20261103181100005",
-        "summary": "(서울=연합뉴스) 김선우 기자 = 그룹 리센느의 신곡 '위드'(With)가 발매 첫날 국내 최대 음원 플랫폼 멜론에서 1위를 차지했다.",
-        "image": "https://img1.yna.co.kr/photo/yna/YH/2026/11/03/PYH2026110314030001300_P4.jpg"
     },
     {
         "title": "숏폼 시대에 11분 영상으로 2000만뷰…리센느 제나, 44일 만의 기록 - YTN",
@@ -718,13 +725,5 @@ const NEWS_DATA = [
         "url": "https://sports.khan.co.kr/article/202610301127003",
         "summary": "그룹 리센느(RESCENE) 소속사가 직원 사칭 피해 주의를 당부하고 법적 대응에 나섰다. 리센느(원이, 리브, 미나미, 메이, 제나)의 소속사 더뮤즈엔터테인먼트는 29일 “다수의 제보를 통해 더뮤즈엔터테인먼트...",
         "image": "https://images.khan.co.kr/article/2026/10/30/news-p.v1.20260817.7ef98d9c80f54b989ae03009d9b7a425_P1.jpg"
-    },
-    {
-        "title": "리센느 미나미·메이도 떴다… 아이돌 ‘한국어 대결’ 유튜브 예능 공개 - 한국대학신문",
-        "source": "한국대학신문",
-        "date": "2026-10-30",
-        "url": "https://news.unn.net/news/articleView.html?idxno=599601",
-        "summary": "[한국대학신문 주지영 기자] 케이(K)-팝 아이돌들의 한국어·한국문화 체험을 담은 유튜브 예능이 잇따라 공개돼 국내외 케이팝 팬들의 관심이 모아진다.세종학당재단은 오는 31일 오후 2시 ‘순간뽀짝 세상에 이런 아이돌이’ 제2편이 공개된다고 30일 밝혔다.2편에는 아이돌 그룹 앤더블(AN",
-        "image": "https://cdn.news.unn.net/news/thumbnail/202610/599601_426258_5946_v150.jpg"
     }
 ];
