@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T00:11:18.277Z",
+  "updated": "2026-11-20T14:46:12.306Z",
   "events": [
     {
       "date": "2025-01-03",
@@ -4111,6 +4111,14 @@
       "title": "[PULSE] 대면/영상통화 팬사인회 by WHOSFAN",
       "detail": "",
       "type": "fansign",
+      "source": "mnetplus"
+    },
+    {
+      "date": "2026-12-01",
+      "time": "",
+      "title": "와키윌리 팝업스토어",
+      "detail": "",
+      "type": "event",
       "source": "mnetplus"
     },
     {
